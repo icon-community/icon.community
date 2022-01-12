@@ -1,0 +1,20 @@
+DefaultContentLanguage: en
+baseURL: https://icon.community
+languageCode: "en-us"
+
+title: "ICON Community"
+description: "ICON Community"
+
+theme:
+  - icon-community-v1
+
+permalinks:
+  posts: :slug/
+  pages: :slug/
+
+params:
+  social:
+    discord_url: https://discord.gg/gMCCdbjVf9
+    github_url: https://github.com/icon-project
+    twitter_url: https://twitter.com/helloiconworld
+  discord_url: https://discord.gg/gMCCdbjVf9

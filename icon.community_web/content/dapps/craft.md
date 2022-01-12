@@ -1,0 +1,4 @@
+---
+title: Craft
+type: nft
+---

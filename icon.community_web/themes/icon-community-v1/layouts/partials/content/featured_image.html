@@ -1,0 +1,5 @@
+{{- if isset .Params "featured_image" -}}
+/assets/images/featured-images/{{- .Params.featured_image -}}
+{{- else -}}
+/assets/images/icon/icon-logo.png
+{{- end -}}

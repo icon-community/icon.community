@@ -1,0 +1,5 @@
+{{- if isset .Params "author" -}}
+/assets/images/contributors/{{- lower (replace .Params.author " " "-") -}}.jpg
+{{- else -}}
+/assets/images/contributors/icon-foundation.jpg
+{{- end -}}

@@ -1,0 +1,95 @@
+{{ define "main" }}
+<main>
+    <div id="container">
+        <div id="hero" class="lg:py-32 md:py-16 relative px-4 py-8">
+            <h1
+                class="md:text-5xl lg:text-7xl bg-clip-text bg-gradient-to-r to-purple-600 from-icon-hi py-4 text-4xl font-bold text-center text-transparent">
+                <span class="block tracking-tight">Connecting Blockchains</span>
+                <span class="block tracking-tight">and Communities</span>
+            </h1>
+            <p class="md:text-xl z-50 max-w-2xl mx-auto mb-8 text-base text-center text-gray-400">
+                ICON is a public blockchain protocol building a hyperconnected future with BTP, our
+                chain-agnostic interoperability solution.
+            </p>
+            <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
+                <button type="button"
+                    class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-icon-lo inline-flex items-center px-4 py-2 text-base font-semibold text-white border border-transparent rounded-md shadow-sm">
+                    Learn More
+                </button>
+                <button type="button"
+                    class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
+                    Join Discord
+                </button>
+            </div>
+        </div>
+
+        <div id="icon-features" class="md:py-16 relative py-8 overflow-hidden">
+            <div id="icon-features_btp"
+                class="md:pb-32 lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 pb-16">
+                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
+                    <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
+                        Decentralized, Fast, and Secure Interoperability
+                    </h2>
+                    <p class="md:text-lg mt-4 text-base text-gray-400">
+                        ICON's Blockchain Transmission Protocol (BTP) enables cross-chain communication
+                        between smart contract-enabled blockchains. BTP is fully trustless, which means your
+                        funds are SAFU. Start bridging your
+                        assets between ICON, <span class="font-medium text-yellow-400">Binance Smart
+                            Chain</span>, <span class="font-medium text-purple-500">NEAR
+                            Protocol</span>, <span class="font-medium text-green-500">Moonriver</span>,
+                        and more with
+                        Nexus – our easy to use bridging app powered by BTP.
+                    </p>
+                    <div class="mt-6">
+                        <div id="hero-buttons" class="flex flex-wrap gap-4">
+                            <button type="button"
+                                class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
+                                Learn More
+                            </button>
+                            <button type="button"
+                                class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
+                                Try Nexus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:mt-16 lg:mt-0 mt-12">
+                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                            src="/images/nexus.png" alt="Nexus user interface.">
+                    </div>
+                </div>
+            </div>
+            <div id="icon-features_cps"
+                class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
+                    <div>
+                        <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
+                            Build and Get Paid
+                        </h2>
+                        <p class="md:text-lg mt-4 text-base text-gray-400">
+                            ICON's Contribution Proposal System (CPS) is a decentralized grant program that
+                            supports teams wanting to BUIDL on ICON. Whether your focus is
+                            development, marketing, or community building, the CPS is here to support you.
+                        </p>
+                        <div class="mt-6">
+                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                                <button type="button"
+                                    class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
+                    <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                            src="/images/cps.png" alt="Customer profile user interface">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

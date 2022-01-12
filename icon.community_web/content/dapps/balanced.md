@@ -1,0 +1,4 @@
+---
+title: Balanced
+type: defi
+---
