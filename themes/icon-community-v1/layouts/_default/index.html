@@ -12,18 +12,8 @@
                 chain-agnostic interoperability solution.
             </p>
             <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
-                <a href="/introduction/">
-                    <button type="button"
-                        class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-icon-lo inline-flex items-center px-4 py-2 text-base font-semibold text-white border border-transparent rounded-md shadow-sm">
-                        Learn More
-                    </button>
-                </a>
-                <a href="{{ .Site.Params.social.discord_url }}">
-                    <button type="button"
-                        class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
-                        Join Discord
-                    </button>
-                </a>
+                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/introduction/")}}
+                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url)}}
             </div>
         </div>
 

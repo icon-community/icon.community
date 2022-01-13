@@ -16,10 +16,5 @@
             </a>
         </ul>
     </nav>
-    <a href="/icx/">
-        <button type="button"
-            class="md:inline-flex hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-icon-lo items-center hidden px-4 py-2 text-base font-bold text-white border border-transparent rounded-md shadow-sm">
-            Buy ICX
-        </button>
-    </a>
+    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/icx/")}}
 </div>
