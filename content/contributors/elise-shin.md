@@ -1,6 +1,6 @@
 ---
 title: Elise
-role: project_manager
+role: queen
 twitter_url: https://twitter.com/ahjooelise
 featured_image: elise.jpg
 ---
