@@ -29,7 +29,7 @@
     <body class="text-gray-50 font-sans subpixel-antialiased bg-black">
         {{ partial "navigation_bar.html" }}
         {{ block "main" . }}{{ end }}
-        {{ partial "footer.html" }}
+        {{ partial "footer.html" . }}
     </body>
 
 </html>

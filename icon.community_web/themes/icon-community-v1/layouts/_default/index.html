@@ -12,14 +12,18 @@
                 chain-agnostic interoperability solution.
             </p>
             <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
-                <button type="button"
-                    class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-icon-lo inline-flex items-center px-4 py-2 text-base font-semibold text-white border border-transparent rounded-md shadow-sm">
-                    Learn More
-                </button>
-                <button type="button"
-                    class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
-                    Join Discord
-                </button>
+                <a href="/introduction/">
+                    <button type="button"
+                        class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 bg-icon-lo inline-flex items-center px-4 py-2 text-base font-semibold text-white border border-transparent rounded-md shadow-sm">
+                        Learn More
+                    </button>
+                </a>
+                <a href="{{ .Site.Params.social.discord_url }}">
+                    <button type="button"
+                        class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
+                        Join Discord
+                    </button>
+                </a>
             </div>
         </div>
 
@@ -56,7 +60,7 @@
                 <div class="sm:mt-16 lg:mt-0 mt-12">
                     <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
                         <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                            src="/images/nexus.png" alt="Nexus user interface.">
+                            src="/assets/nexus.png" alt="Nexus user interface.">
                     </div>
                 </div>
             </div>
@@ -85,7 +89,7 @@
                 <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
                     <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
                         <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                            src="/images/cps.png" alt="Customer profile user interface">
+                            src="/assets/cps.png" alt="Customer profile user interface">
                     </div>
                 </div>
             </div>

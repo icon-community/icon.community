@@ -1,5 +1,37 @@
 {{ define "main" }}
-<div id="container" class="px-4">
-    {{ $symbols := slice "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" }}
+{{ $posts := where ($.Site.RegularPages) "Section" "glossary" }}
+{{ $validLetters := slice }}
+{{ range sort $posts }}
+{{ $validLetters = $validLetters | append (lower (substr .Title 0 1)) }}
+{{ end }}
+{{ $validLetters = $validLetters | uniq }}
+
+<div id="container" class="max-w-7xl px-4 mx-auto">
+    <header class="mb-8">
+        <h1 class="text-4xl font-bold">Glossary</h1>
+    </header>
+    <!--<div id="letter-index" class="mx-auto mb-8 text-center">
+        {{ range sort $validLetters }}
+        {{ $letter := . }}
+        <a href="#{{ $letter }}">
+            <span class=" mx-2 text-xl font-bold">{{ upper $letter }}</span>
+        </a>
+        {{ end }}
+    </div>-->
+    <div class="lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid grid-cols-1 gap-4">
+        {{ range sort $validLetters }}
+        {{ $letter := . }}
+        <div class="p-4 bg-gray-900 border border-gray-800 rounded-lg" id="{{ $letter }}">
+            <h2 class="text-icon-lo mb-2 text-3xl font-bold">{{ upper $letter }}</h2>
+            <ul>
+                {{ range $posts }}
+                {{ if eq $letter (lower (substr .Title 0 1)) }}
+                <li><a class="hover:text-icon-lo font-medium" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
 </div>
 {{ end }}

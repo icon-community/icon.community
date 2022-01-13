@@ -32390,6 +32390,14 @@ select {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+body {
+  font-size: 20px;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
