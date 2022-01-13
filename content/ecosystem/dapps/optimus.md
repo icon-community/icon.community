@@ -1,4 +1,4 @@
 ---
 title: Optimus
-type: defi
+type: dapp
 ---

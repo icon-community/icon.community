@@ -1,4 +1,4 @@
 ---
 title: Omm
-type: defi
+type: dapp
 ---

@@ -1,4 +1,4 @@
 ---
 title: Craft
-type: nft
+type: dapp
 ---

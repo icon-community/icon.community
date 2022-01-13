@@ -1,4 +1,4 @@
 ---
 title: Balanced
-type: defi
+type: dapp
 ---

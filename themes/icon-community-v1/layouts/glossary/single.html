@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div id="container" class="max-w-3xl px-4 mx-auto">
-
-    <header class="mb-8">
+    <header class="mb-4">
         <!--
         {{ if isset .Params "category" }}
         <div id="term-category" class="mb-1">
@@ -43,11 +42,9 @@
                 {{ end }}
             </div>
         </div>
-
-
     </header>
 
-    <div class="post-content mb-16">
+    <div class="post-content mb-8">
         {{ .Content }}
     </div>
 

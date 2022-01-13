@@ -1,4 +1,4 @@
 ---
 title: Bridge
-type: defi
+type: dapp
 ---
