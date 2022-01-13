@@ -17,4 +17,5 @@ params:
     discord_url: https://discord.gg/gMCCdbjVf9
     github_url: https://github.com/icon-project
     twitter_url: https://twitter.com/helloiconworld
-  discord_url: https://discord.gg/gMCCdbjVf9
+  forms:
+    faq_submission_url: https://discord.gg/gMCCdbjVf9

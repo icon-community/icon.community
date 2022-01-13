@@ -1,4 +1,6 @@
-<button type="button"
-    class="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-    Learn More
-</button>
+<div role="button">
+    <a href="{{ .buttonUrl }}"
+        class="hover:bg-icon-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark text-gray-50 bg-icon-lo inline-flex items-center px-4 py-2 text-sm font-semibold transition duration-200 rounded-md">
+        {{ .buttonText }}
+    </a>
+</div>

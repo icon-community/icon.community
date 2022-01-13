@@ -44,7 +44,7 @@
 
     </header>
 
-    <div class="post-content">
+    <div class="post-content mb-16">
         {{ .Content }}
     </div>
 
@@ -54,7 +54,7 @@
     {{ $relatedTerms := intersect $allTerms $categoryTerms }}
     {{ if gt (len $relatedTerms) 0 }}
     <div class="related-terms">
-        <h2 class="md:text-4xl text-3xl font-bold">Related Terms</h2>
+        <h2 class="md:text-4xl mb-4 text-3xl font-bold">Related Terms</h2>
         <ul>
             {{ range $relatedTerms }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

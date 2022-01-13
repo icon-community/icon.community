@@ -2,10 +2,18 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-  font-size: 20px;
+html {
+  font-size: 18px;
 }
 
 .post-content p {
   margin-bottom: 1.5rem;
+}
+
+#page-header #subtitle a {
+  text-decoration: underline;
+}
+
+#page-header #subtitle a:hover {
+  text-decoration: none;
 }

@@ -18,7 +18,8 @@ module.exports = {
       yellow: colors.amber,
       pink: colors.pink,
       'icon-hi': '#31f2f6',
-      'icon-lo': '#32b8b8'
+      'icon-lo': '#2ca9b7',
+      'icon-dark': '#087083'
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif']

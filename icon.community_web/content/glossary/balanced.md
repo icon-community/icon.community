@@ -9,6 +9,6 @@ github_url: "https://github.com/balancednetwork/"
 featured_image:
 ---
 
-Balanced is DeFi designed for adoption: it’s fast, affordable, and easy to use. It offers the best experience for ICX holders, and a higher return than you’ll ever get with your bank.
+Balanced is a DeFi platform that allows users to collateralize ICX and mint bnUSD up to a certain LTV ratio. Balanced also has a built-in AMM-style decentralized exchange where users can swap between supported assets. The Balanced protocol is owned and governed by a DAO comprised of Balance Token (BALN) holders.
 
-Participate to earn Balance Tokens, which give you voting rights and a share of the network fees. Inflation decreases over time, so take part from the start and help shape the future of finance.
+Balanced is developed by a team of core contributors that includes ICX Station, Parrot9, Geometry Labs, and Mousebelt.

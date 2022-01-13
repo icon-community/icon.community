@@ -1,0 +1,4 @@
+---
+title: Wallet
+layout: wallet
+---
