@@ -1,3 +1,3 @@
 ---
-title: Seoul Metropolitan Government
+title: Seoul Government
 ---

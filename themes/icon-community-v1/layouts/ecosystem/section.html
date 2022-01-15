@@ -5,7 +5,7 @@
     {{ partial "page_header.html" (dict "context" . ) }}
     <div>
         {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
-        <ul id="ecosystem-members" class="sm:grid-cols-2 md:grid-cols-3 lg:md-grid-cols-4 grid grid-cols-1 gap-12">
+        <ul id="ecosystem-members" class="sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-12 grid grid-cols-1">
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
 
@@ -19,11 +19,12 @@
             {{ $data.Set "type" (title $type) }}
             {{ end }}
 
-            <li class="flex items-center space-x-4 rounded-lg">
-                <div class="w-28 h-28 flex items-center p-3 bg-gray-900 border border-gray-800 rounded-lg">
+            <li class="flex space-x-4 rounded-lg">
+                <div
+                    class="w-28 h-28 lg:w-32 lg:h-32 flex items-center flex-shrink-0 p-3 bg-gray-900 border border-gray-800 rounded-lg">
                     <img class="w-full" src="/assets/images/ecosystem/{{ .File.BaseFileName }}.png">
                 </div>
-                <div class="space-y-2">
+                <div class="flex flex-col justify-center space-y-4">
                     <div>
                         <h2 class="font-bold">{{ .Title }}</h2>
                         <p class="text-sm text-gray-400">{{ $data.Get "type" }}</p>
