@@ -1,0 +1,3 @@
+---
+title: NFT Bazaar
+---

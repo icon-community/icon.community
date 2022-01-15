@@ -1,4 +1,0 @@
----
-title: Optimus
-type: dapp
----

@@ -1,4 +1,0 @@
----
-title: Craft
-type: dapp
----

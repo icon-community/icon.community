@@ -17,5 +17,7 @@
             </a>
         </ul>
     </nav>
-    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/icx/")}}
+    <div class="md:block hidden">
+        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/icx/")}}
+    </div>
 </div>

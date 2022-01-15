@@ -1,7 +1,11 @@
 {{ define "main" }}
 <main class="index">
     <div id="container">
-        ICX
+        <div hx-ws="connect:wss:/tracker.icon.community/ws/v1/transactions">
+            <div id="chat_room" hx-swap-oob="true">
+                ...
+            </div>
+        </div>
     </div>
 </main>
 {{ end }}

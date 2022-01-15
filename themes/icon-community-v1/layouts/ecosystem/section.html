@@ -1,18 +1,18 @@
 {{ define "main" }}
 
 <div id="container" class="max-w-7xl px-4 mx-auto">
-    {{ $ecosystem := where ($.Site.RegularPages) "Section" "ecosystem" }}
-    {{ $btp := where ($.Site.RegularPages) "Type" "in" "btp" }}
-    {{ $dapps := where ($.Site.RegularPages) "Type" "in" "dapp" }}
+
+    {{ $btp := .Site.GetPage "ecosystem/btp" }}
+    {{ $dapps := .Site.GetPage "ecosystem/dapps" }}
+    {{ $enterprise := .Site.GetPage "ecosystem/enterprise" }}
+
+
+    {{ range $btp.RegularPagesRecursive }}
+    {{ .Title }}
+    {{ end }}
 
     <div id="btp-ecosystem">
         <ul class="grid grid-cols-2">
-            {{ range $btp }}
-            <li class="p-4 bg-gray-900">
-                {{ .Title }}
-                <img src="{{ .Permalink }}/{{ .Params.featured_image }}">
-            </li>
-            {{ end }}
         </ul>
     </div>
 </div>

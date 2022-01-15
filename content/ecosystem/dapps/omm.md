@@ -1,4 +1,0 @@
----
-title: Omm
-type: dapp
----

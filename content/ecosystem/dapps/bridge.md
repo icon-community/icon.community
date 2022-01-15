@@ -1,4 +1,0 @@
----
-title: Bridge
-type: dapp
----

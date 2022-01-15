@@ -1,4 +1,0 @@
----
-title: Balanced
-type: dapp
----

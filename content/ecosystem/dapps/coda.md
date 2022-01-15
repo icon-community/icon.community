@@ -1,4 +1,0 @@
----
-title: Coda
-type: dapp
----
