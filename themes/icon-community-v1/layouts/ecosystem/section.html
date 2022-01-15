@@ -1,32 +1,73 @@
 {{ define "main" }}
 {{ $data := newScratch }}
+{{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
 
-<div id="container" class="max-w-6xl px-4 mx-auto">
+<div x-data="{ visibility: 'all' }" id="container" class="max-w-6xl px-4 mx-auto">
     {{ partial "page_header.html" (dict "context" . ) }}
+
+    <div id="filter-buttons" class="mb-16 text-center">
+        {{ $types := slice }}
+        {{ range $ecosystemMembers }}
+        {{ $types = $types | append (trim (replace .File.Dir "ecosystem/" "") "/") }}
+        {{ end }}
+        {{ $types = $types | uniq }}
+        {{ $types = $types | append "all" | sort }}
+
+        {{ range $types }}
+        <button @click="visibility = '{{ . }}'" type="button"
+            class="hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md">
+            {{ . }}
+        </button>
+        {{ end }}
+    </div>
+
+
     <div>
-        {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
-        <ul id="ecosystem-members" class="sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-12 grid grid-cols-1">
+        <ul id="ecosystem-members"
+            class="sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8 grid grid-cols-1">
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
-
-            {{ if eq $type "nft" }}
-            {{ $data.Set "type" "NFT" }}
-            {{ else if eq $type "defi" }}
-            {{ $data.Set "type" "DeFi" }}
-            {{ else if eq $type "btp" }}
+            {{ if eq $type "btp" }}
+            {{ $data.Set "highlightColor" "icon-dark" }}
             {{ $data.Set "type" "BTP" }}
-            {{ else }}
+            {{ else if eq $type "community" }}
+            {{ $data.Set "highlightColor" "red-800" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "defi" }}
+            {{ $data.Set "highlightColor" "green-800" }}
+            {{ $data.Set "type" "DeFi" }}
+            {{ else if eq $type "enterprise" }}
+            {{ $data.Set "highlightColor" "pink-800" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "exchange" }}
+            {{ $data.Set "highlightColor" "green-900" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "gaming" }}
+            {{ $data.Set "highlightColor" "yellow-900" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "government" }}
+            {{ $data.Set "highlightColor" "cyan-900" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "nft" }}
+            {{ $data.Set "highlightColor" "emerald-900" }}
+            {{ $data.Set "type" "NFT" }}
+            {{ else if eq $type "oracle" }}
+            {{ $data.Set "highlightColor" "green-900" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "p-rep" }}
+            {{ $data.Set "highlightColor" "orange-800" }}
             {{ $data.Set "type" (title $type) }}
             {{ end }}
 
-            <li class="flex space-x-4 rounded-lg">
+            <li x-show="['{{ $type }}', 'all'].includes(visibility)"
+                class="{{ $type }} ecosystem-member flex space-x-4 rounded-lg">
                 <div
-                    class="w-28 h-28 lg:w-32 lg:h-32 flex items-center flex-shrink-0 p-3 bg-gray-900 border border-gray-800 rounded-lg">
-                    <img class="w-full" src="/assets/images/ecosystem/{{ .File.BaseFileName }}.png">
+                    class="lg:w-32 lg:h-32 flex items-center flex-shrink-0 w-24 h-24 p-3 bg-gray-900 border border-gray-800 rounded-lg">
+                    <img class="w-full" src="/assets/images/ecosystem/{{ .File.BaseFileName }}.png" loading="lazy">
                 </div>
-                <div class="flex flex-col justify-center space-y-4">
+                <div class="sm:space-y-4 flex flex-col justify-center space-y-1.5">
                     <div>
-                        <h2 class="font-bold">{{ .Title }}</h2>
+                        <h2 class="font-bold leading-tight">{{ .Title }}</h2>
                         <p class="text-sm text-gray-400">{{ $data.Get "type" }}</p>
                     </div>
                     <div class="">
