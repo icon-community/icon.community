@@ -56,9 +56,15 @@
             {{ $data.Set "type" (title $type) }}
             {{ end }}
 
-            <li x-show="['{{ $type }}', 'all'].includes(visibility)"
-                class="{{ $type }} ecosystem-member flex space-x-4 rounded-lg">
-                <div
+            <!-- Custom background color support for logos. Enable later if needed.
+            {{ $name := replace (lower .Title) " " "-" }}
+            {{ $bgColor := replace (.Params.bg_color) "#" "" }}
+            <style>#{{ $name }}-logo { background-color: #{{ $bgColor }};}</style>
+            -->
+
+            <li x-show="['{{ $type }}', 'all'].includes(visibility)" id="{{ $name }}"
+                class="{{ $type }} flex space-x-4 rounded-lg">
+                <div id="{{ $name }}-logo"
                     class="lg:w-32 lg:h-32 sm:p-3 flex items-center flex-shrink-0 w-24 h-24 p-2 bg-gray-900 border border-gray-800 rounded-lg">
                     <img class="w-full" src="/assets/images/ecosystem/{{ .File.BaseFileName }}.png" loading="lazy">
                 </div>
