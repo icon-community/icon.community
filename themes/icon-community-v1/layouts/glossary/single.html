@@ -1,14 +1,6 @@
 {{ define "main" }}
 <div id="container" class="max-w-3xl px-4 mx-auto">
     <header class="sm:mb-8 mb-6">
-        <!--
-        {{ if isset .Params "category" }}
-        <div id="term-category" class="mb-1">
-            <span class="px-1.5 py-0.5 text-xs font-bold uppercase bg-indigo-600 border border-indigo-500 rounded-md">
-                {{ .Params.category }}
-            </span>
-        </div>
-        {{ end }}-->
         <div class="sm:space-x-6 flex flex-wrap items-center space-x-4">
             {{ $avatarImagePath := (printf "%s%s%s" "/static/assets/images/glossary/" .File.BaseFileName ".png") }}
             {{ if os.FileExists $avatarImagePath }}
@@ -19,9 +11,11 @@
             <div class="space-y-1">
                 <h1 class="sm:text-4xl text-3xl font-bold leading-tight">{{ .Title }}</h1>
                 <div class="post-meta flex items-center space-x-2.5">
+                    {{ with .Params.category }}
                     <p id="term-category" class="px-1.5 py-0.5 text-xs font-bold uppercase bg-icon-lo rounded-md">
-                        {{ .Params.category }}
+                        {{ . }}
                     </p>
+                    {{ end }}
                     {{ with .Params.twitter_url }}
                     <a href="{{ . }}">{{ partial "svg/twitter.html" }}</a>
                     {{ end }}
