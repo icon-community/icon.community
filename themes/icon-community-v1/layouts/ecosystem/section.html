@@ -4,7 +4,6 @@
 
 <div x-data="{ visibility: 'all' }" id="container" class="max-w-6xl px-4 mx-auto">
     {{ partial "page_header.html" (dict "context" . ) }}
-
     <div id="filter-buttons" class="mb-16 text-center">
         {{ $types := slice }}
         {{ range $ecosystemMembers }}
@@ -20,8 +19,6 @@
         </button>
         {{ end }}
     </div>
-
-
     <div>
         <ul id="ecosystem-members"
             class="sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8 grid grid-cols-1">
@@ -66,14 +63,26 @@
                     <img class="w-full" src="/assets/images/ecosystem/{{ .File.BaseFileName }}.png" loading="lazy">
                 </div>
                 <div class="sm:space-y-4 flex flex-col justify-center space-y-1.5">
-                    <div>
-                        <h2 class="font-bold leading-tight">{{ .Title }}</h2>
+                    <div class="space-y-0.5">
+                        <h2 class="text-lg font-bold leading-tight">{{ .Title }}</h2>
                         <p class="text-sm text-gray-400">{{ $data.Get "type" }}</p>
                     </div>
-                    <div class="">
-                        <a href="{{ .Params.twitter_url }}">
+                    <div class="flex space-x-2">
+                        {{ with .Params.twitter_url }}
+                        <a href="{{ . }}">
                             {{ partial "svg/twitter.html" }}
                         </a>
+                        {{ end }}
+                        {{ with .Params.website_url }}
+                        <a href="{{ . }}">
+                            {{ partial "svg/website.html" }}
+                        </a>
+                        {{ end }}
+                        {{ with .Params.github_url }}
+                        <a href="{{ . }}">
+                            {{ partial "svg/github.html" }}
+                        </a>
+                        {{ end }}
                     </div>
                 </div>
             </li>

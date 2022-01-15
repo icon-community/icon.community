@@ -2,4 +2,4 @@
 title: FAQ
 ---
 
-Find answers to some of the most common questions about the ICON project below.
+Find answers to some of the most common questions about ICON.
