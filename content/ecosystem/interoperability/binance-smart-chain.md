@@ -1,3 +1,0 @@
----
-title: Binance Smart Chain
----

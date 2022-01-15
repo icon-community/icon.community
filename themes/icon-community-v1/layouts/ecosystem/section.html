@@ -1,15 +1,43 @@
 {{ define "main" }}
+{{ $data := newScratch }}
 
-<div id="container" class="max-w-7xl px-4 mx-auto">
+<div id="container" class="max-w-6xl px-4 mx-auto">
+    {{ partial "page_header.html" (dict "context" . ) }}
+    <div>
+        {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
+        <ul id="ecosystem-members" class="sm:grid-cols-2 md:grid-cols-3 lg:md-grid-cols-4 grid grid-cols-1 gap-12">
+            {{ range $ecosystemMembers }}
+            {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
 
-    {{ $btp := .Site.GetPage "ecosystem/btp" }}
-    {{ $dapps := .Site.GetPage "ecosystem/dapps" }}
-    {{ $enterprise := .Site.GetPage "ecosystem/enterprise" }}
+            {{ if eq $type "nft" }}
+            {{ $data.Set "type" "NFT" }}
+            {{ else if eq $type "defi" }}
+            {{ $data.Set "type" "DeFi" }}
+            {{ else if eq $type "btp" }}
+            {{ $data.Set "type" "BTP" }}
+            {{ else }}
+            {{ $data.Set "type" (title $type) }}
+            {{ end }}
 
-
-    {{ range $btp.RegularPagesRecursive }}
-    {{ .Title }}
-    {{ end }}
+            <li class="flex items-center space-x-4 rounded-lg">
+                <div class="w-28 h-28 flex items-center p-3 bg-gray-900 border border-gray-800 rounded-lg">
+                    <img class="w-full" src="/assets/images/ecosystem/{{ .File.BaseFileName }}.png">
+                </div>
+                <div class="space-y-2">
+                    <div>
+                        <h2 class="font-bold">{{ .Title }}</h2>
+                        <p class="text-sm text-gray-400">{{ $data.Get "type" }}</p>
+                    </div>
+                    <div class="">
+                        <a href="{{ .Params.twitter_url }}">
+                            {{ partial "svg/twitter.html" }}
+                        </a>
+                    </div>
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 
     <div id="btp-ecosystem">
         <ul class="grid grid-cols-2">
