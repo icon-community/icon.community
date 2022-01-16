@@ -1,7 +1,4 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
-<style>
-[x-cloak] { display: none !important; }
-</style>
+<style>[x-cloak] { display: none !important; }</style>
 <div x-data="{ mobileMenuOpen: false }" id="navigation-menu" class="relative bg-black">
     <div class="md:mb-16 max-w-full mx-auto mb-8">
         <div class="md:justify-start md:space-x-10 flex items-center justify-between p-4 border-b border-gray-800">
@@ -110,17 +107,7 @@
         </div>
     </div>
 
-    <!--
-    Mobile menu, show/hide based on mobile menu state.
-
-    Entering: "duration-200 ease-out"
-      From: "opacity-0 scale-95"
-      To: "opacity-100 scale-100"
-    Leaving: "duration-100 ease-in"
-      From: "opacity-100 scale-100"
-      To: "opacity-0 scale-95"
-  -->
-    <div x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out"
+    <div id="mobileMenu" x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out"
         x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
         x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100"
         x-transition:leave-end="opacity-0 scale-95"
