@@ -1,9 +1,12 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
+<style>
+[x-cloak] { display: none !important; }
+</style>
 <div x-data="{ mobileMenuOpen: false }" id="navigation-menu" class="relative bg-black">
     <div class="md:mb-16 max-w-full mx-auto mb-8">
         <div class="md:justify-start md:space-x-10 flex items-center justify-between p-4 border-b border-gray-800">
             <div class="lg:w-0 lg:flex-1 flex justify-start">
-                <a href="#">
+                <a href="/">
                     <span class="sr-only">Workflow</span>
                     <img class="w-auto h-8" src="/assets/images/icon/icon-logo.png" alt="">
                 </a>
@@ -22,14 +25,14 @@
             </div>
             <nav class="md:flex hidden space-x-10">
 
-                <a href="/blog/" class="hover:text-gray-900 text-base font-medium text-gray-500">
+                <a href="/blog/" class="hover:text-icon-lo text-base font-medium text-gray-500">
                     Blog
                 </a>
 
                 <div x-data="{ desktopLearnTabOpen: false }" class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                     <button @click="desktopLearnTabOpen = ! desktopLearnTabOpen" type="button"
-                        class="group hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-black rounded-md"
+                        class="group hover:text-icon-lo focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-black rounded-md"
                         aria-expanded="false">
                         <span>Learn</span>
                         <!--
@@ -45,7 +48,7 @@
                         </svg>
                     </button>
 
-                    <div x-show="desktopLearnTabOpen" @click.outside="desktopLearnTabOpen = false"
+                    <div x-show="desktopLearnTabOpen" @click.outside="desktopLearnTabOpen = false" x-cloak
                         x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 translate-y-1"
                         x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="duration-150 ease-in"
                         x-transition:leave-start="opacity-100 translate-y-0"
@@ -93,10 +96,10 @@
                     </div>
                 </div>
 
-                <a href="https://icondev.io" class="hover:text-gray-900 text-base font-medium text-gray-500">
+                <a href="https://icondev.io" class="hover:text-icon-lo text-base font-medium text-gray-500">
                     Build
                 </a>
-                <a href="/ecosystem/" class="hover:text-gray-900 text-base font-medium text-gray-500">
+                <a href="/ecosystem/" class="hover:text-icon-lo text-base font-medium text-gray-500">
                     Ecosystem
                 </a>
 
@@ -124,7 +127,7 @@
         class="md:hidden absolute inset-x-0 top-0 z-50 transition origin-top-right transform border-b border-gray-800">
 
         <div class="ring-1 ring-black ring-opacity-5 bg-black divide-y divide-gray-800 rounded-lg shadow-lg">
-            <div class="">
+            <div>
                 <div class="flex items-center justify-between p-4 border-b border-gray-800">
                     <div>
                         <img class="w-auto h-8" src="/assets/images/icon/icon-logo.png" alt="Workflow">
