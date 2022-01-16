@@ -33,34 +33,27 @@
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
             {{ if eq $type "btp" }}
-            {{ $data.Set "highlightColor" "icon-dark" }}
             {{ $data.Set "type" "BTP" }}
             {{ else if eq $type "community" }}
-            {{ $data.Set "highlightColor" "red-800" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "defi" }}
-            {{ $data.Set "highlightColor" "green-800" }}
             {{ $data.Set "type" "DeFi" }}
             {{ else if eq $type "enterprise" }}
             {{ $data.Set "highlightColor" "pink-800" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "exchange" }}
-            {{ $data.Set "highlightColor" "green-900" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "gaming" }}
-            {{ $data.Set "highlightColor" "yellow-900" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "government" }}
-            {{ $data.Set "highlightColor" "cyan-900" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "nft" }}
-            {{ $data.Set "highlightColor" "emerald-900" }}
             {{ $data.Set "type" "NFT" }}
             {{ else if eq $type "oracle" }}
-            {{ $data.Set "highlightColor" "green-900" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "p-rep" }}
-            {{ $data.Set "highlightColor" "orange-800" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "wallet" }}
             {{ $data.Set "type" (title $type) }}
             {{ end }}
 
