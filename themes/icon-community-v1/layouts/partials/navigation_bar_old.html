@@ -1,29 +1,29 @@
 <div x-data="{ mobileMenuOpen: false }" class="absolute w-full bg-black">
     <div
-        class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10 border-b border-gray-900">
-        <div class="flex justify-start lg:w-0 lg:flex-1">
+        class="sm:px-6 md:justify-start md:space-x-10 flex items-center justify-between px-4 py-6 border-b border-gray-900">
+        <div class="lg:w-0 lg:flex-1 flex justify-start">
             <a href="#">
                 <span class="sr-only">ICON Community</span>
-                <img class="h-8 w-auto sm:h-10" src="/images/icon/icon-logo.png" alt="ICON Community">
+                <img class="sm:h-10 w-auto h-8" src="/images/icon/icon-logo.png" alt="ICON Community">
             </a>
         </div>
-        <div class="-mr-2 -my-2 md:hidden">
+        <div class="md:hidden -my-2 -mr-2">
             <button @click="mobileMenuOpen = true" type="button"
-                class="bg-black p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                class="hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center p-2 text-gray-100 bg-black"
                 aria-expanded="false">
                 <span class="sr-only">Open Navigation Menu</span>
                 <!-- Heroicon name: outline/menu -->
-                <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
         </div>
-        <nav x-data="{ desktopLearnTabOpen: false }" class="hidden md:flex space-x-10">
+        <nav x-data="{ desktopLearnTabOpen: false }" class="md:flex hidden space-x-10">
             <div class="relative">
                 <!-- Item active: "text-gray-100", Item inactive: "text-gray-500" -->
                 <button @click="desktopLearnTabOpen = ! desktopLearnTabOpen" type="button"
-                    class="text-gray-500 group bg-black rounded-md inline-flex items-center text-base font-medium hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="group hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-black rounded-md"
                     aria-expanded="false">
                     <span>Learn</span>
                     <!--
@@ -31,7 +31,7 @@
 
             Item active: "text-gray-600", Item inactive: "text-gray-400"
           -->
-                    <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                    <svg class="group-hover:text-gray-500 w-5 h-5 ml-2 text-gray-400" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                         <path fill-rule="evenodd"
                             d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -44,14 +44,14 @@
                     x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="duration-150 ease-in"
                     x-transition:leave-start="opacity-100 translate-y-0"
                     x-transition:leave-end="opacity-0 translate-y-1"
-                    class="border border-gray-800 rounded-lg absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                    <div class="shadow-lg rounded-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div class="relative grid gap-6 bg-black px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                            <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-900">
+                    class="lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 absolute z-10 w-screen max-w-md mt-3 -ml-4 transform border border-gray-800 rounded-lg">
+                    <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
+                        <div class="sm:gap-8 sm:p-8 lg:grid-cols-2 relative grid gap-6 px-5 py-6 bg-black">
+                            <a href="#" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
                                 <div
-                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                     <!-- Heroicon name: outline/chart-bar -->
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -67,11 +67,11 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
                                 <div
-                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                     <!-- Heroicon name: outline/cursor-click -->
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -87,11 +87,11 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
                                 <div
-                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                     <!-- Heroicon name: outline/shield-check -->
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -107,11 +107,11 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
                                 <div
-                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                     <!-- Heroicon name: outline/view-grid -->
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
@@ -127,11 +127,11 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
                                 <div
-                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                     <!-- Heroicon name: outline/refresh -->
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -147,11 +147,11 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
                                 <div
-                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                     <!-- Heroicon name: outline/document-report -->
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -167,8 +167,8 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="p-5 bg-gray-900 sm:p-8">
-                            <a href="#" class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">
+                        <div class="sm:p-8 p-5 bg-gray-900">
+                            <a href="#" class="hover:bg-gray-100 flow-root p-3 -m-3 rounded-md">
                                 <div class="flex items-center">
                                     <div class="text-base font-medium text-gray-100">
                                         Enterprise
@@ -187,17 +187,17 @@
                 </div>
             </div>
 
-            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-100">
+            <a href="#" class="hover:text-gray-100 text-base font-medium text-gray-500">
                 Build
             </a>
-            <a href="{{ "/ecosystem/" | absURL }}" class="text-base font-medium text-gray-500 hover:text-gray-100">
+            <a href="{{ "/ecosystem/" | absURL }}" class="hover:text-gray-100 text-base font-medium text-gray-500">
                 Ecosystem
             </a>
 
             <div x-data="{ desktopCommunityTabOpen: false }" class="relative">
                 <!-- Item active: "text-gray-100", Item inactive: "text-gray-500" -->
                 <button @click="desktopCommunityTabOpen = ! desktopCommunityTabOpen" type="button"
-                    class="text-gray-500 group bg-black rounded-md inline-flex items-center text-base font-medium hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="group hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-black rounded-md"
                     aria-expanded="false">
                     <span>Community</span>
                     <!--
@@ -205,7 +205,7 @@
 
             Item active: "text-gray-600", Item inactive: "text-gray-400"
           -->
-                    <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                    <svg class="group-hover:text-gray-500 w-5 h-5 ml-2 text-gray-400" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                         <path fill-rule="evenodd"
                             d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -218,10 +218,10 @@
                     x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="duration-150 ease-in"
                     x-transition:leave-start="opacity-100 translate-y-0"
                     x-transition:leave-end="opacity-0 translate-y-1"
-                    class="rounded-lg border border-gray-800 absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
-                    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div class="relative grid gap-6 bg-black px-5 py-6 sm:gap-8 sm:p-8">
-                            <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-900">
+                    class="left-1/2 sm:px-0 absolute z-10 w-screen max-w-xs px-2 mt-3 transform -translate-x-1/2 border border-gray-800 rounded-lg">
+                    <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
+                        <div class="sm:gap-8 sm:p-8 relative grid gap-6 px-5 py-6 bg-black">
+                            <a href="#" class="hover:bg-gray-900 block p-3 -m-3 rounded-md">
                                 <p class="text-base font-medium text-gray-100">
                                     Help Center
                                 </p>
@@ -230,7 +230,7 @@
                                 </p>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 block p-3 -m-3 rounded-md">
                                 <p class="text-base font-medium text-gray-100">
                                     Guides
                                 </p>
@@ -239,7 +239,7 @@
                                 </p>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 block p-3 -m-3 rounded-md">
                                 <p class="text-base font-medium text-gray-100">
                                     Events
                                 </p>
@@ -248,7 +248,7 @@
                                 </p>
                             </a>
 
-                            <a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-900">
+                            <a href="#" class="hover:bg-gray-900 block p-3 -m-3 rounded-md">
                                 <p class="text-base font-medium text-gray-100">
                                     Security
                                 </p>
@@ -267,20 +267,20 @@
         x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
         x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100"
         x-transition:leave-end="opacity-0 scale-95"
-        class="absolute top-0 inset-x-0 transition transform origin-top-right md:hidden">
+        class="md:hidden absolute inset-x-0 top-0 transition origin-top-right transform">
         <div
-            class="shadow-lg ring-1 ring-black ring-opacity-5 bg-black border-b border-gray-900 divide-y divide-gray-900">
+            class="ring-1 ring-black ring-opacity-5 bg-black border-b border-gray-900 divide-y divide-gray-900 shadow-lg">
             <div>
-                <div class="flex items-center justify-between border-b border-gray-900 p-4">
+                <div class="flex items-center justify-between p-4 border-b border-gray-900">
                     <div>
-                        <img class="h-8 w-auto" src="/images/icon/icon-logo.png" alt="ICON Community">
+                        <img class="w-auto h-8" src="/images/icon/icon-logo.png" alt="ICON Community">
                     </div>
                     <div class="-mr-2">
                         <button @click="mobileMenuOpen = false" type="button"
-                            class="bg-gray-900 p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                            class="hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center p-2 text-gray-100 bg-gray-900">
                             <span class="sr-only">Close Navigation Menu</span>
                             <!-- Heroicon name: outline/x -->
-                            <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M6 18L18 6M6 6l12 12" />
@@ -289,12 +289,12 @@
                     </div>
                 </div>
                 <div class="p-4 my-4">
-                    <nav class="grid grid-cols-1 gap-7">
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-900">
+                    <nav class="gap-7 grid grid-cols-1">
+                        <a href="#" class="hover:bg-gray-900 flex items-center p-3 -m-3 rounded-lg">
                             <div
-                                class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/chart-bar -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -305,11 +305,11 @@
                             </div>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-900">
+                        <a href="#" class="hover:bg-gray-900 flex items-center p-3 -m-3 rounded-lg">
                             <div
-                                class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/cursor-click -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -320,11 +320,11 @@
                             </div>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-900">
+                        <a href="#" class="hover:bg-gray-900 flex items-center p-3 -m-3 rounded-lg">
                             <div
-                                class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/shield-check -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -335,11 +335,11 @@
                             </div>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-900">
+                        <a href="#" class="hover:bg-gray-900 flex items-center p-3 -m-3 rounded-lg">
                             <div
-                                class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/view-grid -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
@@ -350,11 +350,11 @@
                             </div>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-900">
+                        <a href="#" class="hover:bg-gray-900 flex items-center p-3 -m-3 rounded-lg">
                             <div
-                                class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/refresh -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -365,11 +365,11 @@
                             </div>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-900">
+                        <a href="#" class="hover:bg-gray-900 flex items-center p-3 -m-3 rounded-lg">
                             <div
-                                class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/document-report -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -385,39 +385,36 @@
             </div>
             <div class="p-4 my-4">
                 <div class="grid grid-cols-2 gap-4">
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Build
                     </a>
 
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Ecosystem
                     </a>
 
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Enterprise
                     </a>
 
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Help Center
                     </a>
 
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Guides
                     </a>
 
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Events
                     </a>
 
-                    <a href="#" class="text-base font-medium text-gray-100 hover:text-gray-700">
+                    <a href="#" class="hover:text-gray-700 text-base font-medium text-gray-100">
                         Security
                     </a>
                 </div>
                 <div class="mt-6">
-                    <a href="#"
-                        class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                        Buy ICX
-                    </a>
+                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/icx/")}}
                 </div>
             </div>
         </div>
