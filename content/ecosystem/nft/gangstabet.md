@@ -1,3 +1,4 @@
 ---
 title: GangstaBet
+draft: true
 ---
