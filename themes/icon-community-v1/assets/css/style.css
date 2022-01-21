@@ -7,7 +7,32 @@ html {
 }
 
 .post-content p {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
   margin-bottom: 1rem;
+}
+
+.post-content h1,
+.post-content h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  line-height: 1.2;
+}
+
+.post-content h2 {
+  font-size: 1.875rem;
+}
+
+.post-content li {
+  list-style-type: disc;
+  margin-bottom: 0.25rem;
+}
+
+.post-content ul {
+  font-family: 'Source Serif Pro';
+  font-size: 20px;
+  margin: 1.5rem 0 1.5rem 2rem;
 }
 
 #page-header #subtitle a {
@@ -16,4 +41,8 @@ html {
 
 #page-header #subtitle a:hover {
   text-decoration: none;
+}
+
+[x-cloak] {
+  display: none !important;
 }

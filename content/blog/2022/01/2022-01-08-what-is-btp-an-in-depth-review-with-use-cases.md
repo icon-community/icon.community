@@ -3,7 +3,7 @@ title: What is BTP? An In-Depth Review With Use Cases
 date: 2022-01-08
 slug: what-is-btp-an-in-depth-review-with-use-cases
 description: "Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol. BTP’s chain-agnostic design allows it to be integrated with any smart contract-enabled blockchain."
-featured_image: 20220108_BTP-FEATURED-IMAGE.png
+featured_image: "20220107_BLOCKCHAIN-TRANSMISSION-PROTOCOL.jpg"
 ---
 
 Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol. BTP’s chain-agnostic design allows it to be integrated with any smart contract-enabled blockchain. Unlike traditional bridging solutions that rely on handpicked validators to relay cross-chain messages and custody funds, BTP uses a more secure model with fully-decentralized incentivized relayers and on-chain verification of messages. In this article, you’ll learn about ICON’s BTP technology, and how it can be applied to real-world use cases.

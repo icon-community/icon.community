@@ -1,4 +1,3 @@
 ---
 title: Craft
-draft: true
 ---

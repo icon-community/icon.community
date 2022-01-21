@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+    <div id="container" class="container max-w-2xl px-4 mx-auto">
+        <div class="mb-4">
+            <img src="/assets/images/featured-images/{{ .Params.featured_image }}">
+        </div>
+        <header class="mb-8">
+            <h2 class="mb-2 text-4xl font-bold">{{ .Title }}</h2>
+            <div class="text-gray-400">{{ .PublishDate.Format "January 2, 2006" }}</div>
+        </header>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </div>
+</main>
+{{ end }}

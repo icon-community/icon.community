@@ -1,10 +1,11 @@
 {{ define "main" }}
 {{ $contributors := where $.Site.RegularPages "Section" "contributors" }}
 <main class="index">
-    <div id="container" class="max-w-7xl px-4 mx-auto">
+    <div id="container" class="max-w-6xl px-4 mx-auto">
         {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Join Us" "primaryButtonUrl" "https://discord.gg/gMCCdbjVf9") }}
         <div id="contributors" class="text-center">
-            <ul role="list" class="gap-x-0 gap-y-12 grid grid-cols-2 mx-auto">
+            <ul role="list"
+                class="gap-x-0 gap-y-12 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid grid-cols-2 mx-auto">
                 {{ range $contributors }}
                 <li>
                     <div class="space-y-2.5">
@@ -12,7 +13,8 @@
                             src="/assets/images/contributors/{{ .Params.featured_image }}" alt="">
                         <div class="space-y-2">
                             <div>
-                                <h3 class="text-lg font-bold">{{ .Title }}</h3>
+                                <h3 class="text-lg font-bold"><a href="{{ .Permalink }}"
+                                        class="hover:text-icon-lo">{{ .Title }}</a></h3>
                                 <p class="text-sm font-medium text-gray-400">
                                     {{ title (replace .Params.role "_" " ") }}
                                 </p>

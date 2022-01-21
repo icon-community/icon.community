@@ -33,7 +33,8 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
-      mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace']
+      mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+      serif: ['Source Serif Pro', 'serif']
     },
     extend: {},
   },

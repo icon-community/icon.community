@@ -1,6 +1,5 @@
 ---
 title: Balanced
-slug: balanced
 description:
 category: defi
 website_url: "https://balanced.network"

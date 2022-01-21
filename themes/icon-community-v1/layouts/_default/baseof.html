@@ -13,7 +13,8 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Serif+Pro:wght@400;600;700&display=swap"
             rel="stylesheet">
         {{ $styles := resources.Get "css/style.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
         {{ if .Site.IsServer }}
@@ -26,7 +27,7 @@
         <script src="https://unpkg.com/alpinejs" defer></script>
     </head>
 
-    <body class="text-gray-50 font-sans subpixel-antialiased bg-black">
+    <body class="text-gray-50 font-sans antialiased bg-black">
         {{ partial "navigation_bar.html" }}
         {{ block "main" . }}{{ end }}
         {{ partial "footer.html" . }}
