@@ -1,15 +1,16 @@
 {{ define "main" }}
 
 <div id="container" class="max-w-6xl px-4 mx-auto">
+
+    {{ partial "page_header.html" (dict "context" .) }}
+
     <div id="blog-posts" class="sm:grid-cols-2 md:grid-cols-3 grid grid-cols-1 gap-8">
         {{ range where .Site.RegularPages "Section" "blog" }}
-
         {{ $authorName := "ICON Foundation" }}
         {{ if isset .Params "author" }}
         {{ $authorName = .Params.author }}
         {{ end }}
         {{ $authorId := replace (lower $authorName) " " "-" }}
-
         <div class="flex flex-col overflow-hidden border border-gray-800 rounded-lg">
             <div class="flex-shrink-0">
                 <img class="object-cover w-full h-48" src="/assets/images/featured-images/{{ .Params.featured_image }}"
