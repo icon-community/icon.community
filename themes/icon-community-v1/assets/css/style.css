@@ -6,9 +6,13 @@ html {
   font-size: 18px;
 }
 
+.post-content p,
+.post-content ul,
+.post-content li {
+  font-size: 19px;
+}
+
 .post-content p {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
   margin-bottom: 1rem;
 }
 
@@ -30,7 +34,6 @@ html {
 }
 
 .post-content ul {
-  font-family: 'Source Serif Pro';
   font-size: 20px;
   margin: 1.5rem 0 1.5rem 2rem;
 }
