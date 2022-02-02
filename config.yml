@@ -12,6 +12,12 @@ permalinks:
   pages: :slug/
 
 params:
+  dapps:
+    balanced_url: https://balanced.network
+    omm_url: https://omm.finance
+    optimus_url: https://optimus.finance
+    cps_url: https://cps.icon.community
+    nexus_url:
   social:
     discord_url: https://discord.gg/gMCCdbjVf9
     github_url: https://github.com/icon-project
