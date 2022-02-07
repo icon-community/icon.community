@@ -4,9 +4,11 @@
 
     {{ partial "page_header.html" (dict "context" .) }}
 
+    {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 15 }}
+
     <div id="blog-posts"
         class="md:grid-cols-2 xl:grid-cols-3 md:space-y-0 gap-x-4 gap-y-8 xl:gap-y-8 xl:gap-x-8 grid grid-cols-1">
-        {{ range where .Site.RegularPages "Section" "blog" }}
+        {{ range $paginator.Pages }}
         {{ $authorName := "ICON Foundation" }}
         {{ if isset .Params "author" }}
         {{ $authorName = .Params.author }}
@@ -55,6 +57,9 @@
             </div>
         </div>
         {{ end }}
+    </div>
+    <div id="pagination" class="flex items-center justify-center my-8 text-xl font-bold">
+        {{ template "_internal/pagination.html" . }}
     </div>
 </div>
 {{ end }}

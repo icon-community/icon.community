@@ -12,6 +12,7 @@ permalinks:
   pages: :slug/
 
 params:
+  featured_post_url: what-is-the-icx-token
   dapps:
     balanced_url: https://balanced.network
     omm_url: https://omm.finance

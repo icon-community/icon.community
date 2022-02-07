@@ -46,6 +46,10 @@ html {
   text-decoration: none;
 }
 
+#pagination ul li {
+  display: inline;
+}
+
 [x-cloak] {
   display: none !important;
 }
