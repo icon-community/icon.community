@@ -1,6 +1,7 @@
 ---
 title: "ICON Pre-Sale “Term 1” Lucky Draw Event Details"
 date: 2017-09-19
+category: announcements
 slug: icon-pre-sale-term-1-lucky-draw-event-details-3d4b01beaac8
 description:
 ---

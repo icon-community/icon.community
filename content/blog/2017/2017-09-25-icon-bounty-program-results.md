@@ -2,6 +2,7 @@
 title: "ICON Bounty Program Results"
 date: 2017-09-25
 slug: icon-bounty-program-results-b569083b275
+category: announcements
 description:
 ---
 

@@ -2,6 +2,7 @@
 title: "ICON Lottery Draw Results"
 date: 2017-09-25
 slug: icon-lottery-draw-87f216127303
+category: announcements
 description:
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Blockchain Interoperability Alliance: ICON x Aion x Wanchain"
 date: 2017-12-05
+category: announcements
 slug: blockchain-interoperability-alliance-icon-x-aion-x-wanchain-8aeaafb3ebdd
 description:
 ---

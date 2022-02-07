@@ -1,6 +1,7 @@
 ---
 title: "KYC Application Not Submitted"
 date: 2017-11-07
+category: announcements
 slug: kyc-application-not-submitted-30f7b4affd4a
 description:
 ---

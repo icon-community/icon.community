@@ -1,6 +1,7 @@
 ---
 title: "ICON Lottery Draw Event (10,000 ICX)"
 date: 2017-09-11
+category: announcements
 slug: pre-pre-sale-event-220352f179db
 description:
 ---

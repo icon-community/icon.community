@@ -1,6 +1,7 @@
 ---
 title: "ICON Token Sale Allocation"
 date: 2017-09-18
+category: announcements
 slug: icon-token-sale-allocation-ce2464739554
 description:
 ---

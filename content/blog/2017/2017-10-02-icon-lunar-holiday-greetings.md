@@ -1,6 +1,7 @@
 ---
 title: "ICON Lunar Holiday Greetings"
 date: 2017-10-02
+category: announcements
 slug: icon-lunar-holiday-greetings-d5fddec7732
 description:
 ---

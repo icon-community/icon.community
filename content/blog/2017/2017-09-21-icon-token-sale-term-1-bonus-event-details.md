@@ -1,6 +1,7 @@
 ---
 title: "ICON Token Sale “Term 1” Bonus Event Details"
 date: 2017-09-21
+category: announcements
 slug: icon-pre-sale-term-1-lucky-draw-event-details-910157e63c84
 description:
 ---

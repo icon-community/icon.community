@@ -5,9 +5,7 @@ slug: icon-development-roadmap-update-december-2021-952fb051734d
 description:
 ---
 
-## ICON Development Roadmap Update — December 2021
-
-### IISS 3.1, Java SCORE, BTP, and more.
+## IISS 3.1, Java SCORE, BTP, and more.
 
 ![](https://cdn-images-1.medium.com/max/800/1*_M4Fl4rhcFwQHo0ko0j1WQ.jpeg)In December, the ICON network was upgraded to ICON 2.1 – a major upgrade that included Revision Proposals 14, 15, and 16. ICON 2.1 includes a variety of new developments including IISS 3.1, bonded delegation, bond slashing, Fee 3.0, Java SCORE, and more. We also made significant progress on BTP and Nexus integrations. Read more about our progress in December below.
 

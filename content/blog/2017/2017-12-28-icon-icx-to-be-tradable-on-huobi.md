@@ -1,6 +1,7 @@
 ---
-title: "ICON (ICX) to be tradable on Huobi"
+title: "ICON (ICX) to be Tradable on Huobi"
 date: 2017-12-28
+category: announcements
 slug: icon-icx-to-be-tradable-on-huobi-4a13570a74bb
 description:
 ---

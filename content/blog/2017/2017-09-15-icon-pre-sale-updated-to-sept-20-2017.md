@@ -1,6 +1,7 @@
 ---
 title: "ICON Pre-Sale Updated to Sept 20, 2017"
 date: 2017-09-15
+category: announcements
 slug: icon-pre-sale-updated-to-sept-20-2017-adf922f6f19b
 description:
 ---

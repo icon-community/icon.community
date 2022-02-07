@@ -1,6 +1,7 @@
 ---
 title: "Happy New Year from ICON!"
 date: 2017-12-31
+category: announcements
 slug: happy-new-year-from-icon-a000bcef6f98
 description:
 ---

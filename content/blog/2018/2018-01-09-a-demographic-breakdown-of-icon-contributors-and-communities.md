@@ -1,6 +1,7 @@
 ---
 title: "A Demographic Breakdown of ICON Contributors and Communities"
 date: 2018-01-09
+category: ecosystem
 slug: a-demographic-breakdown-of-icon-contributors-and-communities-fc20c42c5457
 description:
 ---

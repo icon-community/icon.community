@@ -1,6 +1,7 @@
 ---
 title: "ICON KYC Schedule"
 date: 2017-10-13
+category: announcements
 slug: icon-kyc-schedule-71fc7fd55b8a
 description:
 ---

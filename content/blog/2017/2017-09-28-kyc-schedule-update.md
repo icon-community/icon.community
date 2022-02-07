@@ -1,6 +1,7 @@
 ---
 title: "KYC Schedule Update"
 date: 2017-09-28
+category: announcements
 slug: kyc-schedule-update-2835c7253e67
 description:
 ---

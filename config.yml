@@ -11,6 +11,15 @@ permalinks:
   posts: :slug/
   pages: :slug/
 
+categories:
+  - announcements
+  - community
+  - ecosystem
+  - events
+  - opinion
+  - technology
+  - tutorial
+
 params:
   featured_post_url: what-is-the-icx-token
   dapps:

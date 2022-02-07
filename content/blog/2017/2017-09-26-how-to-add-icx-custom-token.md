@@ -1,6 +1,7 @@
 ---
 title: "How to Add ICX Custom Token"
 date: 2017-09-26
+category: tutorial
 slug: how-to-add-icx-custom-token-df944450f998
 description:
 ---

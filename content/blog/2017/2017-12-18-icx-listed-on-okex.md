@@ -1,6 +1,7 @@
 ---
 title: "ICX Listed on OKEx"
 date: 2017-12-18
+category: announcements
 slug: icx-listed-on-okex-a90abb6783b4
 description:
 ---

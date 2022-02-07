@@ -1,6 +1,7 @@
 ---
 title: "ICON Presents at the Santa Clara Blockchain Expo"
 date: 2017-11-22
+category: announcements
 slug: icon-presents-at-the-santa-clara-blockchain-expo-a603d0857b7e
 description:
 ---

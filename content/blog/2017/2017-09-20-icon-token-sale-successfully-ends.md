@@ -1,6 +1,7 @@
 ---
 title: "ICON Token Sale Successfully Ends"
 date: 2017-09-20
+category: announcements
 slug: icon-token-sale-successfully-ends-ee56a0495e8d
 description:
 ---

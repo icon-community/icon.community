@@ -1,6 +1,7 @@
 ---
 title: "KYC Application Progress Update"
 date: 2017-11-06
+category: announcements
 slug: kyc-application-progress-update-764c49e0788b
 description:
 ---

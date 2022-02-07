@@ -1,6 +1,7 @@
 ---
 title: "Token Sale “Term 1” Bonus Results"
 date: 2017-09-25
+category: announcements
 slug: token-sale-term-1-bonus-results-ec6802af96db
 description:
 ---

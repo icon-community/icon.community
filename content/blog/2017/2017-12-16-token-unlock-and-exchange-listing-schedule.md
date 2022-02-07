@@ -1,6 +1,7 @@
 ---
 title: "Token Unlock and Exchange Listing Schedule"
 date: 2017-12-16
+category: announcements
 slug: token-unlock-and-exchange-listing-schedule-cc02068569d
 description:
 ---

@@ -1,6 +1,7 @@
 ---
 title: "KYC Background and Procedures"
 date: 2017-09-19
+category: announcements
 slug: kyc-background-and-procedures-b21b3f626f9b
 description:
 ---

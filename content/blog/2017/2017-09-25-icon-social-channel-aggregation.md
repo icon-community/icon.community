@@ -1,6 +1,7 @@
 ---
 title: "ICON Social Channel Aggregation"
 date: 2017-09-25
+category: announcements
 slug: icon-social-channel-aggregation-7c3908068a5e
 description:
 ---

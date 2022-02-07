@@ -1,6 +1,7 @@
 ---
-title: "KYC+AML Result Notification"
+title: "KYC and AML Result Notification"
 date: 2017-11-27
+category: announcements
 slug: kyc-aml-result-notification-9623f6625583
 description:
 ---

@@ -1,6 +1,7 @@
 ---
 title: "ICON Adds KYC to Token Sale (Refund Policy Updated)"
 date: 2017-09-18
+category: announcements
 slug: icon-adds-kyc-to-token-sale-e66085dc7a55
 description:
 ---

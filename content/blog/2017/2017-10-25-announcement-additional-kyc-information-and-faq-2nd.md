@@ -1,6 +1,7 @@
 ---
 title: "[Announcement] Additional KYC Information and FAQ (2nd)"
 date: 2017-10-25
+category: announcements
 slug: announcement-additional-kyc-information-and-faq-2nd-1dc8b9add751
 description:
 ---

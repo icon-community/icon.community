@@ -1,6 +1,7 @@
 ---
 title: "[PRE-SALE] ICON Pre-Sale Participation Guideline"
 date: 2017-09-02
+category: announcements
 slug: pre-sale-icon-pre-sale-participation-guideline-1e27761ba5d2
 description:
 ---

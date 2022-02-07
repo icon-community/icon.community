@@ -1,6 +1,7 @@
 ---
 title: "KYC Submission Period Ends"
 date: 2017-11-13
+category: announcements
 slug: kyc-submission-period-ends-2d5ca28cd416
 description:
 ---

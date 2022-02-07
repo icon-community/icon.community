@@ -1,6 +1,7 @@
 ---
 title: "KYC Application Form Step-by-Step Guide"
 date: 2017-10-20
+category: announcements
 slug: kyc-application-form-step-by-step-guide-2bed46b0319a
 description:
 ---

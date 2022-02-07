@@ -1,6 +1,7 @@
 ---
 title: "ICON Bounty Program"
 date: 2017-08-25
+category: announcements
 slug: icon-bounty-program-d6c382df66a5
 description:
 ---

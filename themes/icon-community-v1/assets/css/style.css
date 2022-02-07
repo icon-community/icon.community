@@ -50,6 +50,14 @@ html {
   display: inline;
 }
 
+#pagination ul li.active {
+    color: #2ca9b7;
+}
+
+#pagination ul li:hover {
+    color: #2ca9b7;
+}
+
 [x-cloak] {
   display: none !important;
 }

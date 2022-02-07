@@ -1,6 +1,7 @@
 ---
 title: "KYC Process Starts"
 date: 2017-10-23
+category: announcements
 slug: kyc-process-starts-39b8060ac359
 description:
 ---

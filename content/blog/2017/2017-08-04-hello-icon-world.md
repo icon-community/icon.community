@@ -1,6 +1,7 @@
 ---
 title: "Hello ICON World"
 date: 2017-08-04
+category: announcements
 slug: hello-icon-world-fe11cde22d20
 description: Thank you for visiting ICON’s Medium page and viewing our first post. This is the official Medium page for ICON
 ---

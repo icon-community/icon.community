@@ -1,6 +1,7 @@
 ---
 title: "Don Tapscott Joins ICON Foundation Board of Advisors"
 date: 2017-09-11
+category: announcements
 slug: don-tapscott-joins-icon-foundation-board-of-advisors-519631176bb4
 description:
 ---
