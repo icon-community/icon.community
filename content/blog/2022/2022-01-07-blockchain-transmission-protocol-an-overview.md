@@ -3,6 +3,7 @@ title: "Blockchain Transmission Protocol (BTP): An Overview"
 date: 2022-01-07
 author: Brian Li
 slug: blockchain-transmission-protocol-btp-an-overview
+category: technology
 description: "Blockchain Transmission Protocol (BTP) is ICON’s cross-chain interoperability solution. ICON’s BTP facilitates the transfer of information between connected blockchains."
 featured_image: "20220107_BLOCKCHAIN-TRANSMISSION-PROTOCOL.jpg"
 ---
