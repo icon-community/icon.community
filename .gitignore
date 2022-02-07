@@ -54,6 +54,7 @@ Thumbs.db
 # ignore hugo stuff
 resources/
 resources/
+.hugo_build.lock
 
 # --------------------------------------------------------
 # BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
