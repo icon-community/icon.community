@@ -3,10 +3,9 @@ title: "loopchain technology to be applied to Import Customs Clearance Procedure
 date: 2018-06-05
 slug: loopchain-technology-to-be-applied-to-import-customs-clearance-procedure-for-the-korea-customs-9a7572b3c484
 description:
-featured_image:
 ---
 
-### **loopchain technology to be applied to Import Customs Clearance Procedure for the Korea Customs Service**
+## **loopchain technology to be applied to Import Customs Clearance Procedure for the Korea Customs Service**
 
 ![](https://cdn-images-1.medium.com/max/800/0*j0LzUHQc0nuKKJON)Greetings from the ICON Team,
 

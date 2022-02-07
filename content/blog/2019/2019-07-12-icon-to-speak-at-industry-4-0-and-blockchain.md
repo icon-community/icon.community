@@ -3,10 +3,9 @@ title: "ICON to speak at ‘Industry 4.0 and Blockchain’"
 date: 2019-07-12
 slug: icon-to-speak-at-industry-4-0-and-blockchain-19e3ddfbfa5e
 description:
-featured_image:
 ---
 
-### ICON to speak at ‘Industry 4.0 and Blockchain’
+## ICON to speak at ‘Industry 4.0 and Blockchain’
 
 ![](https://cdn-images-1.medium.com/max/800/1*qzbwLSD2Ss0epuEl-LbH8w.jpeg)Greetings ICONists,
 

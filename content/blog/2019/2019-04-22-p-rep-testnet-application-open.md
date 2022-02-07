@@ -3,10 +3,9 @@ title: "P-Rep TestNet Application Open"
 date: 2019-04-22
 slug: p-rep-testnet-application-open-97e3f7ad1e6d
 description:
-featured_image:
 ---
 
-### P-Rep TestNet Application Open
+## P-Rep TestNet Application Open
 
 ![](https://cdn-images-1.medium.com/max/800/0*l3O_c1uTUV-AuuYN)Greetings from the ICON Team,
 

@@ -3,10 +3,9 @@ title: "ICX Listed on OKEx"
 date: 2017-12-18
 slug: icx-listed-on-okex-a90abb6783b4
 description:
-featured_image:
 ---
 
-### ICX Listed on OKEx
+## ICX Listed on OKEx
 
 ![](https://cdn-images-1.medium.com/max/800/1*XwwtAcGviou4KywRU-Ww9A.png)Greetings from the ICON Team,
 

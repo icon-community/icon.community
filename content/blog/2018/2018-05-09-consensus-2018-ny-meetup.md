@@ -3,10 +3,9 @@ title: "Consensus 2018 & NY meetup"
 date: 2018-05-09
 slug: consensus-2018-ny-meetup-92b2759e2258
 description:
-featured_image:
 ---
 
-### Consensus 2018 & NY meetup
+## Consensus 2018 & NY meetup
 
 ![](https://cdn-images-1.medium.com/max/800/0*vsjMLaNg1xMoayG5.)Greetings from the ICON Team
 

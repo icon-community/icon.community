@@ -3,10 +3,9 @@ title: "How ICON will connect & scale Private ICONLOOP Networks"
 date: 2018-11-21
 slug: how-icon-will-connect-scale-private-iconloop-networks-76fe64ecce21
 description:
-featured_image:
 ---
 
-### **How ICON will connect & scale Private ICONLOOP Networks**
+## **How ICON will connect & scale Private ICONLOOP Networks**
 
 ![](https://cdn-images-1.medium.com/max/800/0*TqSTpPkifvKQlq6n)ICONLOOP is the company behind ICON, and has secured 100+ business partnerships with the largest companies in Korea since the beginning of 2018.
 
@@ -18,7 +17,7 @@ However, many of ICON’s projects have been led by ICONLOOP and its private net
 
 The short answer is : ICONLOOP private networks with strong use cases on the public chain have been carefully selected with the eventual goal of connecting with the ICON network via the ICON Nexus and every transaction will require ICX for transaction fees.
 
-### **The Relationship between ICONLOOP and ICON**
+## **The Relationship between ICONLOOP and ICON**
 
 The entire ICON project was created to meet the demand, and natural movement of the market from private ICONLOOP projects to the ICON public blockchain. The ICON Council Members consider interoperability between private ICONLOOP networks and the public ICON network to be the next critical step for the ICON public chain.
 
@@ -35,7 +34,7 @@ Private ICONLOOP networks are safer options for many corporations due to the reg
 
 Another aspect of private blockchains are that they allow companies to test out and realize the cost benefits of blockchain before moving on to to the public chain to expand their network.
 
-### How will private ICONLOOP networks interoperate with the public network ICON?
+## How will private ICONLOOP networks interoperate with the public network ICON?
 
 ![](https://cdn-images-1.medium.com/max/800/0*d8Ro4X51BRUQBBv4)[**CHAIN ID**](https://medium.com/helloiconworld/chain-id-the-worlds-first-blockchain-joint-authentication-service-95f2a743512f) **(Data transfer)**
 
@@ -54,7 +53,7 @@ ICON is currently working to bring ICONLOOP’s CHAIN ID to the public ICON bloc
 2. Public ICON network.  
 *Using ICON’s interoperability feature, Blockchain Transmission Protocol (BTP), any user on other public blockchain protocols such as Ethereum will also be able to connect to and use CHAIN ID.*
 
-#### Currency swaps between private and public networks (Value transfer)
+### Currency swaps between private and public networks (Value transfer)
 
 The idea behind private blockchains are that although they aren’t decentralized, they are more trustworthy than single databases. Private-permissioned blockchains have advantages of being more scalable and private, but they also have the limitation of being unable to transfer value outside of their network.
 

@@ -3,10 +3,9 @@ title: "ICONSENSUS: Announcing P-Rep Pre-Voting"
 date: 2019-08-13
 slug: iconsensus-announcing-p-rep-pre-voting-866a4b89c60
 description:
-featured_image:
 ---
 
-### ICONSENSUS: Announcing P-Rep Pre-Voting
+## ICONSENSUS: Announcing P-Rep Pre-Voting
 
 ![](https://cdn-images-1.medium.com/max/800/1*RNehMHxJyMzFAQo79DNnOw.png)Greetings ICONists,
 
@@ -14,12 +13,12 @@ The ICON Ecosystem has witnessed the community-driven movement and international
 
 During the Pre-Voting Period, ICON will be giving away up to 3 million ICX as a reward for early adopters of staking and voting. The P-Rep candidates can register on-chain and start accumulating delegated stakes, while all the participating ICX holders will receive the voting reward. Anybody holding ICX during the Pre-Voting Period has the opportunity to stake and delegate their tokens to earn their share of the giveaway.
 
-#### **1. Pre-Voting Period**
+### **1. Pre-Voting Period**
 
 * Begin: Block height: 7,560,000 (2019 August 26th UTC 05:00)
 * End: Block height: 8,856,000 (2019 September 24th UTC 05:00)
 
-#### **2. Guidelines for ICONists**
+### **2. Guidelines for ICONists**
 
 * ICONists will be able to vote directly through their ICONex wallet via an updated UI/UX to support staking and delegation.
 * ICONists who participated in the Pre-Voting are eligible to receive a voting reward calculated every day, which will be distributed from a total of approximately 3 million ICX reward pool.
@@ -27,7 +26,7 @@ During the Pre-Voting Period, ICON will be giving away up to 3 million ICX as a 
 
 [**>>> ICONist: Learn How to Vote**](https://icon.community/iconsensus/prevoting/)
 
-#### **3. Guidelines for P-Rep Candidates**
+### **3. Guidelines for P-Rep Candidates**
 
 * Any individual or team who wishes to be a P-Rep candidate during the Pre-Voting period can pre-register as a P-Rep candidate on the ICON Network on-chain.
 * **On-chain registration will require a 2,000 ICX registration fee, which will be burned effective immediately.**

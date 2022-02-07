@@ -3,10 +3,9 @@ title: "ICON’s Got Talent Final Award"
 date: 2019-08-14
 slug: icons-got-talent-final-award-a6c1ab84c777
 description:
-featured_image:
 ---
 
-### **ICON’s Got Talent Final Award**
+## **ICON’s Got Talent Final Award**
 
 ![](https://cdn-images-1.medium.com/max/800/0*jKgSoAACu-deGjfk)Greetings ICONists,
 

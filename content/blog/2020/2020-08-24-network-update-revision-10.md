@@ -3,10 +3,9 @@ title: "Network Update: Revision 10"
 date: 2020-08-24
 slug: network-update-revision-10-b0ce0bd68cbe
 description:
-featured_image:
 ---
 
-### Network Update: Revision 10
+## Network Update: Revision 10
 
 Fixing Vulnerability and Defending Network against Malicious Attacker
 

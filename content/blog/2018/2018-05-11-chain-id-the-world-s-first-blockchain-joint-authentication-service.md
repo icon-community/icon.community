@@ -3,10 +3,9 @@ title: "CHAIN ID : The world’s first blockchain joint authentication service"
 date: 2018-05-11
 slug: chain-id-the-worlds-first-blockchain-joint-authentication-service-95f2a743512f
 description:
-featured_image:
 ---
 
-### CHAIN ID : The world’s first blockchain joint authentication service
+## CHAIN ID : The world’s first blockchain joint authentication service
 
 ![](https://cdn-images-1.medium.com/max/800/0*tncCgop6Mn_6dvQX.)Greetings from the ICON Team,
 

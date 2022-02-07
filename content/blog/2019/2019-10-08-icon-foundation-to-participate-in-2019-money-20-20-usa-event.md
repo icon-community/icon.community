@@ -3,10 +3,9 @@ title: "ICON Foundation to Participate in 2019 ‘Money 20/20 USA’ Event"
 date: 2019-10-08
 slug: icon-foundation-to-participate-in-2019-money-20-20-usa-event-624369cdd65d
 description:
-featured_image:
 ---
 
-### ICON Foundation to Participate in 2019 ‘Money 20/20 USA’ Event
+## ICON Foundation to Participate in 2019 ‘Money 20/20 USA’ Event
 
 ![](https://cdn-images-1.medium.com/max/800/0*Dh8-oaD8Fq5rmeAI)Min Kim, Foundation Council Member, will lead a panel discussion titled “$29 Trillion Question: How to Manage Trust”
 

@@ -3,10 +3,9 @@ title: "Introducing ICON’s Official Bounty Program, HX57"
 date: 2021-09-15
 slug: introducing-icons-official-bounty-program-hx57-26c203c2aa20
 description:
-featured_image:
 ---
 
-### Introducing ICON’s Official Bounty Program, HX57
+## Introducing ICON’s Official Bounty Program, HX57
 
 ![](https://cdn-images-1.medium.com/max/800/1*WgKFGuROtfXUF6wwWU8a3g.jpeg)Introducing HX57, the first official bounty program to join the ICON Network! HX57 offers rewards to community members for producing high-quality content about ICON including articles, animated GIFs, memes, graphics, promo videos, explainers, tutorials, and more.
 
@@ -30,7 +29,7 @@ The HX57 project is ramping up to stay up to date on the latest happenings, foll
 
 Thank you for reading and we hope ICONists and future ICONists alike will be excited to join in on an upcoming HX57 event!
 
-### Join the ICON Community
+## Join the ICON Community
 
 For more information about ICON, [visit the website](https://iconrepublic.org/) or [subscribe](https://foundation.us15.list-manage.com/subscribe?u=d8b1e5594bd92c54dc0c7141c&id=fbc02bbf32)
 

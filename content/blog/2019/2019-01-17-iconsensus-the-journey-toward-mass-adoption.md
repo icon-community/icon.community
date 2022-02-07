@@ -3,16 +3,15 @@ title: "“ICONSENSUS, the Journey Toward Mass Adoption”"
 date: 2019-01-17
 slug: iconsensus-the-journey-toward-mass-adoption-3fbc7dd44541
 description:
-featured_image:
 ---
 
-### **“ICONSENSUS, the Journey Toward Mass Adoption”**
+## **“ICONSENSUS, the Journey Toward Mass Adoption”**
 
 ![](https://cdn-images-1.medium.com/max/800/0*uR_6jqFvHW-CPc62)**ICONSENSUS is a journey toward mass adoption of blockchain** consisting of four key items: the election of P-Reps([Public Representatives](https://helloiconworld.freshdesk.com/a/solutions/articles/35000102739-p-rep)) to decentralize the network, the election of C-Reps ([Community Representatives](https://helloiconworld.freshdesk.com/a/solutions/articles/35000102740-c-rep)) to support interchain communication, ongoing DBPs ([DApp Booster Programs](https://helloiconworld.freshdesk.com/a/solutions/articles/35000105758-dapp-booster-program-dbp-)) to fund and promote quality decentralized applications, and ongoing EEPs ([Ecosystem Expansion Projects](https://helloiconworld.freshdesk.com/a/solutions/articles/35000105757-ecosystem-expansion-project-eep-)) to incentivize activities that grow the ICON Ecosystem. All of this is only possible through the continued support, enthusiasm, and growth of the ICON community.
 
 **The election of P-Reps is the first milestone of ICONSENSUS. Pre-registration for ICON P-Rep candidacy starts on January 17th, 2019.** We look forward to seeing which members of the ICON community register for a chance to become one of the first P-Reps on the ICON Network.
 
-### 1. Vote, Spread, Disrupt
+## 1. Vote, Spread, Disrupt
 
 **Vote**
 
@@ -34,7 +33,7 @@ ICONists will play a pivotal role in propagating the disruptive potential of blo
 > [>> ICON Election Introduction](https://m.icon.foundation/download/ICON_Election_Introduction_EN_V1.0.pdf)  
 > [>> Introduction for Public Representative of ICON Network](http://13.209.9.59:8080/download/Introduction_for_Public_Representative_of_ICON_Network_EN_V1.0.pdf)
 
-### 2. Reward System in Election
+## 2. Reward System in Election
 
 ICONists participating in this election will be rewarded for delegating their stake to P-Reps. Given the importance of this milestone, ICONists should be rewarded accordingly for participating. Voting for P-Rep candidates that determine and implement the right policy is paramount for the long-term development and success of the ICON network.
 
@@ -45,9 +44,9 @@ Additionally, the representatives receiving delegated stake will receive a Repre
 
 > [>> Yellow Paper part 3: IISS](https://m.icon.foundation/resources/file/ICON_Yellowpaper_ICON_Incentives_Scoring_System_EN_V1.0.pdf)
 
-### 3. Roadmap
+## 3. Roadmap
 
-![](https://cdn-images-1.medium.com/max/800/0*5SW_jdVAO5TWD140)### 4. icon.community
+![](https://cdn-images-1.medium.com/max/800/0*5SW_jdVAO5TWD140)## 4. icon.community
 
 Since the P-Rep election is run by the community and for the community, the overall process is powered by icon.community, the community-run election website. ICONists can register as a candidate, browse the candidate list by region, enjoy the latest news, and be connected on Telegram, so join [icon.community](http://icon.community/iconsensus/) now!
 

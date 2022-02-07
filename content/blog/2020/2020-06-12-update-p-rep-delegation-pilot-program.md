@@ -3,10 +3,9 @@ title: "UPDATE: P-Rep Delegation Pilot Program"
 date: 2020-06-12
 slug: update-p-rep-delegation-pilot-program-6868faef6f9d
 description:
-featured_image:
 ---
 
-### UPDATE: P-Rep Delegation Pilot Program
+## UPDATE: P-Rep Delegation Pilot Program
 
 ![](https://cdn-images-1.medium.com/max/800/1*ttw7s09l-ROnonrwIgN5ew.png)June Application
 
@@ -26,7 +25,7 @@ Please re-submit applications by June 19th on the forum in the [Delegation Progr
 
 As part of this program and as a reminder, the ICON Foundation will use a portion of its ICX treasury to delegate to teams we believe are contributing to the network in areas such as development, marketing, and community building. We believe the benefits of this program are two-fold. The first is the potential to expand and speed up the growth of our ecosystem. And the second is an opportunity for new or current teams with strong skillsets, but limited promotional or self-marketing experience, to receive a delegation from the Foundation. Details of the program are provided below.
 
-#### Pilot program structure
+### Pilot program structure
 
 The Foundation will delegate a maximum of 2 million votes to each team in the program.
 

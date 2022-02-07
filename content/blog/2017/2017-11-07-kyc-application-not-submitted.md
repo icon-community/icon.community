@@ -3,22 +3,21 @@ title: "KYC Application Not Submitted"
 date: 2017-11-07
 slug: kyc-application-not-submitted-30f7b4affd4a
 description:
-featured_image:
 ---
 
-### **KYC Application Not Submitted**
+## **KYC Application Not Submitted**
 
 ![](https://cdn-images-1.medium.com/max/800/0*kTfa5GF7H7SWCsdo.)The ICON KYC process is currently in progress. If you do not submit your KYC application or complete the KYC process, the refund process will initiate.
 
-### **[KYC Document Submission Guide]**
+## **[KYC Document Submission Guide]**
 
-#### **1. KYC Reception Period**
+### **1. KYC Reception Period**
 
 - Start date: October 23, 2013 (13:00 KST/UTC+9)
 
 - End date: November 13, 2017 (13:00 KST/UTC+9)
 
-#### **2. Reception**
+### **2. Reception**
 
 - Login to KYC official homepage (<https://icon.foundation>)
 
@@ -30,13 +29,13 @@ featured_image:
 
 ※ Please review the detailed KYC guides and FAQs on the ICON blog in order to quickly progress through the KYC process.
 
-### **[Process for those who did NOT submit the KYC application]**
+## **[Process for those who did NOT submit the KYC application]**
 
-#### **1. Continuous announcements will be made for contributors who have not submitted their KYC application**
+### **1. Continuous announcements will be made for contributors who have not submitted their KYC application**
 
 - If the KYC application has not been submitted, then the refund process will be begin, after the KYC process is concluded.
 
-#### **2. Confirmation notice to contributors who have not submitted their KYC application (after the KYC acceptance period is over)**
+### **2. Confirmation notice to contributors who have not submitted their KYC application (after the KYC acceptance period is over)**
 
 - The ICON team will send a final notification e-mail after the KYC submission period is over in order to ensure there are no missing KYC applicants
 
@@ -44,7 +43,7 @@ featured_image:
 
 ※ The ICON team will be contacting KYC applicants individually in the case of a submission system error. The ICON team will do its utmost to ensure that no KYC application is overlooked.
 
-#### **3. The ETH refund process will begin for ICON participants that have been listed in the final NON-KYC applicant list.**
+### **3. The ETH refund process will begin for ICON participants that have been listed in the final NON-KYC applicant list.**
 
 - The refund process will start after the KYC + AML process has concluded near the end of November.
 

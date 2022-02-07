@@ -3,10 +3,9 @@ title: "ICON Foundation Makes a Strategic Investment in Bit2Me"
 date: 2021-08-19
 slug: icon-foundation-makes-a-strategic-investment-in-bit2me-e245053eb7f5
 description:
-featured_image:
 ---
 
-### ICON Foundation Makes a Strategic Investment in Bit2Me
+## ICON Foundation Makes a Strategic Investment in Bit2Me
 
 Bit2Me, a leading crypto wallet, and platform in Europe, to help to expand the ICON network in Europe
 

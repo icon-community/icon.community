@@ -3,18 +3,17 @@ title: "LFT2 Consensus Algorithm"
 date: 2020-04-09
 slug: lft2-consensus-algorithm-5ee4322b2fd4
 description:
-featured_image:
 ---
 
-### **LFT2 Consensus Algorithm**
+## **LFT2 Consensus Algorithm**
 
-![](https://cdn-images-1.medium.com/max/800/1*zQDbBqlrqFHn2xzndRPChA.png)### **What is LFT2?**
+![](https://cdn-images-1.medium.com/max/800/1*zQDbBqlrqFHn2xzndRPChA.png)## **What is LFT2?**
 
-### **In a nutshell**
+## **In a nutshell**
 
 LFT2 is based on the PBFT consensus model, with a proprietary algorithm to emerge commit messages into a 2-step consensus process. This alleviates communication overhead and complexity of PBFT’s 3-step consensus process, leading to a lightweight and highly performant blockchain consensus algorithm. Additionally, LFT2 guarantees safety and liveness even under a simplified scheme, by incorporating a Candidate/Commit Block mechanism to resolve any potential security issues that could be raised in a partially synchronous network. In short, LFT2 is a revolutionized PBFT implementation that enjoys the same benefits with reduced complexity and enhanced performance in network latency, block confirmation, and transaction throughput. LFT2 has recently been audited by KAIST, one of the leading research universities in South Korea [[audit report](https://arxiv.org/pdf/2004.04294.pdf)]. For more information, please check the [[LFT2 whitepaper](https://github.com/icon-project/LFT2/blob/master/Whitepaper%20-%20LFT2%20%28ENG%29.pdf)].
 
-### **Different PBFT implementations**
+## **Different PBFT implementations**
 
 PBFT can be considered as an academic prototype, designed in theory for practical applications but needs some key optimizations to implement the algorithm into real-world software. Popular products include [Tendermint](https://docs.tendermint.com/), which focuses on several key design decisions to make a full-fledged PBFT system. Examples include removal of the View-Change phase, making faulty leader replacement possible without additional process and gossip protocol to deliver constant size messages which do not depend on system size. In general, Tendermint is an implementation of PBFT that is suitable for blockchains, with a strong focus on faulty node accountability.
 
@@ -22,7 +21,7 @@ PBFT has a fundamental pitfall. It requires a large amount of message exchanges 
 
 ICON network aims to cater to smart contracts with complex business logic and cross-chain interoperability. To serve these purposes, a more optimized consensus algorithm becomes essential and that is the design goal for LFT2. Next, we’ll explore how LFT2 achieves this feat.
 
-### **How LFT2 Works**
+## **How LFT2 Works**
 
 ![](https://cdn-images-1.medium.com/max/800/0*DxY-xPc7KWdFY6XO)Figure 1. LFT2 block consensus processAs seen in Figure 1, each consensus round consists of two steps: Propose and Vote. LFT2 confirms blocks in two rounds of the consensus process, and commits the block on the next block, i.e. block n+1 confirms and commits block n. Let’s dig deeper. But first, we need to be familiar with the terms below.
 
@@ -34,7 +33,7 @@ The leader node for block n+1 will include the execution result of block n (Cand
 
 ![](https://cdn-images-1.medium.com/max/800/0*dtYymjbSzwxrr9qV)Figure 2. How previous state hash is stored in the next blockThe above figure demonstrates previous state hash being stored on the next block, and block 1 getting confirmed in block 2. This unique design of LFT2 of confirming previous block state hash in the next block under a deterministic virtual machine will yield faster block confirmation speed.
 
-#### **Performance Comparison**
+### **Performance Comparison**
 
 ![](https://cdn-images-1.medium.com/max/800/0*frKb98yFCmGgzL7W)Figure 3. Block confirmation time against transaction execution timeThe figure above illustrates block confirmation time against transaction execution time. The above graph is based on the assumption that both algorithms confirm on the next block. As seen in the graph, LFT2 can confirm blocks faster than PBFT throughout the chart.
 
@@ -44,7 +43,7 @@ The leader node for block n+1 will include the execution result of block n (Cand
 
 In mathematical terms, LFT2 broadcasts vote messages once in a single round, with a total of n+n² number of messages. PBFT broadcasts vote messages twice in a single round, resulting in n+2n² number of messages. The reduction in messages eases network burden which effectively reduces network latency as messages broadcast become less of a bottleneck.
 
-#### **Additional Information**
+### **Additional Information**
 
 For additional information please check the [[LFT2 whitepape](https://github.com/icon-project/LFT2/blob/master/Whitepaper%20-%20LFT2%20%28ENG%29.pdf)r]. LFT2 is implemented as a library that can be used in any applications or blockchain systems. The code is open-sourced at [[ICON Project Github](https://github.com/icon-project/LFT2)]. ICON network will be upgrading to LFT2 in the future, stay tuned.
 

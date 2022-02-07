@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Recap — October 2020"
 date: 2020-10-29
 slug: icon-monthly-grant-recap-october-2020-16c6a2fa33ec
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Recap — October 2020
+## ICON Monthly Grant Recap — October 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*bCj77nl3UZJjLBTEq5rQow.png)Community Building, Project Nebula, and Cross-Chain DeFi
 
@@ -16,7 +15,7 @@ The Foundation approved another 3 grants in October consisting of community buil
 
 Please see below for more details on the approved grants this month and keep the applications coming!
 
-#### [Icon Pilipinas Community Building Growth Accelerator #2](https://forum.icon.community/t/grant-application-icon-pilipinas-community-building-growth-accelerator-2/1236/4)
+### [Icon Pilipinas Community Building Growth Accelerator #2](https://forum.icon.community/t/grant-application-icon-pilipinas-community-building-growth-accelerator-2/1236/4)
 
 Icon Pilipinas focuses on accelerating blockchain growth in the Philippines by educating the masses and common everyday people about ICON — The major benefits and why it should be a premier blockchain project people here think about and use in the Philippines.
 
@@ -44,7 +43,7 @@ To help complement the efforts with ICX News Ngayon, the team also started featu
 
 Additionally, the Icon Pilipinas team has created one of the largest and most active telegram groups in the Philippines.
 
-![](https://cdn-images-1.medium.com/max/800/0*Jzmho7lg2SZ49Sz3)#### **KPI targets for this grant**
+![](https://cdn-images-1.medium.com/max/800/0*Jzmho7lg2SZ49Sz3)### **KPI targets for this grant**
 
 **KPI #1: Number of members in Telegram group**
 
@@ -77,7 +76,7 @@ As part of the approval process, the team must submit the Periodic Report by the
 * 2020/12/21 02:00 AM (UTC)
 * 2021/01/20 02:00 AM (UTC)
 
-#### **Funding Amount**
+### **Funding Amount**
 
 The ICON Foundation is going to give out $12,000 in 3 monthly installments based on the Periodic Report. The amount of ICX will be determined and paid according to the price at 02:00 AM (UTC) on the day of payment.
 
@@ -85,7 +84,7 @@ The ICON Foundation is going to give out $12,000 in 3 monthly installments based
 * 2020/12/23 02:00 AM (UTC) — $4,000
 * 2021/01/22 02:00 AM (UTC) — $4,000
 
-#### [**Project Nebula (NFT collectible game) 2nd Grant**](https://forum.icon.community/t/grant-application-project-nebula-nft-collectible-game-2nd-grant/1235/4)
+### [**Project Nebula (NFT collectible game) 2nd Grant**](https://forum.icon.community/t/grant-application-project-nebula-nft-collectible-game-2nd-grant/1235/4)
 
 Project Nebula is a space-themed collectible strategy game on the ICON blockchain. It will be released as a cross-platform browser game to ensure accessibility to the widest possible audience. The individual unique planets in Project Nebula will be non-fungible tokens (NFTs), which players can claim inside the game and trade or sell if they wish to do so. Planets come in several rarity classes — each planet will have unique designs and attributes that will determine how useful and powerful they will be in the game. The game will also include elements from the “4X” genre such as exploration, research, and resource management.
 
@@ -115,7 +114,7 @@ The ICON Foundation is going to give out $22,800 in 5 monthly installments based
 * 2021/02/24 02:00 AM (UTC) — $4,560
 * 2021/03/24 02:00 AM (UTC) — $4,560
 
-#### [**Unifi Protocol on ICON — Cross Chain DeFi Protocol**](https://forum.icon.community/t/grant-application-unifi-protocol-on-icon-a-cross-chain-defi-protocol/1257)
+### [**Unifi Protocol on ICON — Cross Chain DeFi Protocol**](https://forum.icon.community/t/grant-application-unifi-protocol-on-icon-a-cross-chain-defi-protocol/1257)
 
 Unifi is a next-generation DeFi project taking advantage of tokenized rewards to provide a more efficient and rewarding experience. Unifi will provide a bridge to connect the existing DeFi token economies on other blockchains such as Ethereum, TRON, Ontology, and Harmony to the emerging token market on ICON.
 

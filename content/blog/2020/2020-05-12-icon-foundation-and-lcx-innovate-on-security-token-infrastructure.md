@@ -3,10 +3,9 @@ title: "ICON Foundation and LCX innovate on security token infrastructure"
 date: 2020-05-12
 slug: icon-foundation-and-lcx-innovate-on-security-token-infrastructure-3ced1f04791c
 description:
-featured_image:
 ---
 
-### ICON Foundation and LCX innovate on security token infrastructure
+## ICON Foundation and LCX innovate on security token infrastructure
 
 ![](https://cdn-images-1.medium.com/max/800/1*n8G7DsTqkTVIAekrDmD7Vg.png)**ICON Foundation and LCX have signed an MoU and agreed on a long-term strategic partnership**
 
@@ -14,7 +13,7 @@ Greetings ICONists,
 
 We are excited to announce a new strategic partner to explore tokenization capabilities and innovation in the security token industry. The emergence of tokenization is transforming the financial industry. New digital securities, also known as security tokens, based on blockchain technology will unlock trillions of dollars in currently illiquid assets. Therefore scalable technological frameworks are of vital importance for these new digital securities.
 
-#### Benefits of this partnership include:
+### Benefits of this partnership include:
 
 * exchange of knowledge and sharing of insights on security token infrastructure, compliance solutions, and regulation technology.
 * working closely together to develop new standards for tokenized assets and how it could interconnect with other blockchains participating in the ICON network.

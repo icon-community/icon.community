@@ -3,10 +3,9 @@ title: "#6. ICON Development Roadmap Update — Jun 2019"
 date: 2019-06-28
 slug: 6-icon-development-roadmap-update-jun-2019-d5ea84ac44dd
 description:
-featured_image:
 ---
 
-### **#6. ICON Development Roadmap Update — June 2019**
+## **#6. ICON Development Roadmap Update — June 2019**
 
 ![](https://cdn-images-1.medium.com/max/800/1*crHYpJf5qEqv2LVn_ahsDA.png)Greetings ICONists,
 

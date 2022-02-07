@@ -3,10 +3,9 @@ title: "ICON Foundation is a Title Sponsor for San Francisco Blockchain Week 201
 date: 2018-09-12
 slug: icon-foundation-is-a-title-sponsor-for-san-francisco-blockchain-week-2018-c8628b903bee
 description:
-featured_image:
 ---
 
-### **ICON Foundation is a Title Sponsor for San Francisco Blockchain Week 2018**
+## **ICON Foundation is a Title Sponsor for San Francisco Blockchain Week 2018**
 
 ![](https://cdn-images-1.medium.com/max/800/1*tSrexcJQ9pOTQjl7SveUVA.jpeg)[******CLICK HERE FOR A CHANCE TO WIN FREE EPICENTER TICKETS ($250 in value)******](https://docs.google.com/forms/d/e/1FAIpQLScr9PYgz9ysjOVAIFvVSIzco3vJ-RTvE-RhMym196CA9nZJKA/viewform?usp=sf_link)
 

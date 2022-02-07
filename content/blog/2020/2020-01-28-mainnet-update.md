@@ -3,10 +3,9 @@ title: "MainNet update"
 date: 2020-01-28
 slug: mainnet-update-95127fc876bd
 description:
-featured_image:
 ---
 
-### MainNet update
+## MainNet update
 
 ![](https://cdn-images-1.medium.com/max/800/1*QMLTT-WXler8-qPGoZ6s-w.png)Improving software packages
 

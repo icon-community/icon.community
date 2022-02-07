@@ -3,10 +3,9 @@ title: "ICON Foundation Transaction Fee Reimbursement"
 date: 2020-07-30
 slug: icon-foundation-transaction-fee-reimbursement-f5c7f0d91cd
 description:
-featured_image:
 ---
 
-### ICON Foundation Transaction Fee Reimbursement
+## ICON Foundation Transaction Fee Reimbursement
 
 ![](https://cdn-images-1.medium.com/max/800/0*ZDwWEyouFu8eLanF)Greetings from the ICON Team,
 

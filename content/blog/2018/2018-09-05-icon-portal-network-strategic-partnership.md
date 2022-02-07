@@ -3,10 +3,9 @@ title: "ICON-Portal Network, Strategic Partnership"
 date: 2018-09-05
 slug: icon-portal-network-strategic-partnership-a9bce87adebb
 description:
-featured_image:
 ---
 
-### **ICON-Portal Network, Strategic Partnership**
+## **ICON-Portal Network, Strategic Partnership**
 
 ![](https://cdn-images-1.medium.com/max/800/0*iH7S8zk84j5jF3u0)Greetings from the ICON Team,
 

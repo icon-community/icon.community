@@ -3,10 +3,9 @@ title: "Token Unlock and Exchange Listing Schedule"
 date: 2017-12-16
 slug: token-unlock-and-exchange-listing-schedule-cc02068569d
 description:
-featured_image:
 ---
 
-### Token Unlock and Exchange Listing Schedule
+## Token Unlock and Exchange Listing Schedule
 
 ![](https://cdn-images-1.medium.com/max/800/1*qLGjn-iAC0UD-YqsoBVNJg.png)Greetings from the ICON Team,
 

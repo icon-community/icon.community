@@ -3,10 +3,9 @@ title: "Accelerating Ecosystem Diversification"
 date: 2021-02-08
 slug: accelerating-ecosystem-diversification-463f82442549
 description:
-featured_image:
 ---
 
-### Accelerating Ecosystem Diversification
+## Accelerating Ecosystem Diversification
 
 ![](https://cdn-images-1.medium.com/max/800/1*j37iU38fHq3kP8MF3eHMcg.png)Supporting Reliant Node and MyIconWallet
 

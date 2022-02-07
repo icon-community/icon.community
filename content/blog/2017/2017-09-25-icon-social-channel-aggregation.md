@@ -3,12 +3,11 @@ title: "ICON Social Channel Aggregation"
 date: 2017-09-25
 slug: icon-social-channel-aggregation-7c3908068a5e
 description:
-featured_image:
 ---
 
-### ICON Social Channel Aggregation
+## ICON Social Channel Aggregation
 
-![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)### Migration from Slack to Telegram
+![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)## Migration from Slack to Telegram
 
 ICON is aggregating its channels. During the ICON Token Sale, there were numerous phishing attempts in the Slack chat room. Slack was never intended to become a public chat room. Which is why Slack was so vulnerable to scamming attempts.
 

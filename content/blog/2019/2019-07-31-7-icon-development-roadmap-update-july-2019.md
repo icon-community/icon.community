@@ -3,10 +3,9 @@ title: "#7. ICON Development Roadmap Update — July 2019"
 date: 2019-07-31
 slug: 7-icon-development-roadmap-update-july-2019-43362c6f4de7
 description:
-featured_image:
 ---
 
-### #7. ICON Development Roadmap Update — July 2019
+## #7. ICON Development Roadmap Update — July 2019
 
 ![](https://cdn-images-1.medium.com/max/800/1*ffNL7wVMdsa5lqq0T2xU2w.png)Hello from ICON Foundation,
 

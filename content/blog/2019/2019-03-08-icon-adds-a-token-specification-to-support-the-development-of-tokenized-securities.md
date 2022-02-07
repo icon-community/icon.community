@@ -3,10 +3,9 @@ title: "ICON adds a token specification to support the development of tokenized 
 date: 2019-03-08
 slug: icon-adds-a-token-specification-to-support-the-development-of-tokenized-securities-58b773607c13
 description:
-featured_image:
 ---
 
-### **ICON adds a token specification to support the development of tokenized securities**
+## **ICON adds a token specification to support the development of tokenized securities**
 
 **ICON’s new token standard, IRC16, aims to simplify the process of creating blockchain-based securities and tokenized assets**
 

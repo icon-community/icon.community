@@ -3,10 +3,9 @@ title: "ICON IRC-3 Token Standard (Non-Fungible Token Standard)"
 date: 2020-07-03
 slug: icon-irc-3-token-standard-non-fungible-token-standard-4ea2d41cf884
 description:
-featured_image:
 ---
 
-### **ICON IRC-3 Token Standard (Non-Fungible Token Standard)**
+## **ICON IRC-3 Token Standard (Non-Fungible Token Standard)**
 
 ![](https://cdn-images-1.medium.com/max/800/1*bnPlDION_ZJEWpot0TT_JA.png)Last Call Update
 

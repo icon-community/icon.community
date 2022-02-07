@@ -3,10 +3,9 @@ title: "ICON signs a strategic partnership with MixMarvel, a blockchain-based gl
 date: 2019-05-13
 slug: icon-signs-a-strategic-partnership-with-mixmarvel-a-blockchain-based-global-game-publisher-c50052dafefd
 description:
-featured_image:
 ---
 
-### **ICON signs a strategic partnership with MixMarvel, a blockchain-based global game publisher**
+## **ICON signs a strategic partnership with MixMarvel, a blockchain-based global game publisher**
 
 ![](https://cdn-images-1.medium.com/max/800/0*hvQ6rwtri5rE3iFT)Greetings from the ICON Team,
 

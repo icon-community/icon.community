@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — December 2019"
 date: 2019-12-27
 slug: icon-development-roadmap-update-december-2019-2036fbfd94eb
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — December 2019
+## ICON Development Roadmap Update — December 2019
 
 ![](https://cdn-images-1.medium.com/max/800/1*eM4lmjv0JGoBsljgOpkvSA.png)Stabilization, Oracles, IISS and BTP
 

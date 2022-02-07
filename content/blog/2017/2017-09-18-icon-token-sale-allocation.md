@@ -3,12 +3,11 @@ title: "ICON Token Sale Allocation"
 date: 2017-09-18
 slug: icon-token-sale-allocation-ce2464739554
 description:
-featured_image:
 ---
 
-### ICON Token Sale Allocation
+## ICON Token Sale Allocation
 
-#### Pre-Sale Starts Sept 20, 2017 / 13:00 (UTC+9)
+### Pre-Sale Starts Sept 20, 2017 / 13:00 (UTC+9)
 
 ![](https://cdn-images-1.medium.com/max/800/1*-MlUzEHIC8IPBCksEC4EUQ.png)The ICON team prioritizes transparency. The blockchain industry itself is about open-source code and decentralized ownership. The purpose of this post to clarify the distribution of Tokens during the ICON Token Sale.
 

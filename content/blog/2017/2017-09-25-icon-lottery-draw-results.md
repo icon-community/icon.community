@@ -3,10 +3,9 @@ title: "ICON Lottery Draw Results"
 date: 2017-09-25
 slug: icon-lottery-draw-87f216127303
 description:
-featured_image:
 ---
 
-### ICON Lottery Draw Results
+## ICON Lottery Draw Results
 
 ![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)ICON is announcing the Lottery Draw Event Winners. In order to reward active ICON supporters in the ICON chat rooms, ICON organized an event where ICON would Airdrop 10,000 ICX to chat room participants.
 

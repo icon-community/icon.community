@@ -3,10 +3,9 @@ title: "Introducing the Contribution Proposal System"
 date: 2020-12-23
 slug: introducing-the-contribution-proposal-system-b7ad5d877dc5
 description:
-featured_image:
 ---
 
-### Introducing the Contribution Proposal System
+## Introducing the Contribution Proposal System
 
 A decentralized autonomous grant program owned and operated by the ICON Network itself
 

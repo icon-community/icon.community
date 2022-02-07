@@ -3,14 +3,13 @@ title: "Blockchain Transmission Protocol (BTP) Architecture, Economics, and Key 
 date: 2021-03-24
 slug: blockchain-transmission-protocol-btp-architecture-economics-and-key-differentiators-577eaf7ba3af
 description:
-featured_image:
 ---
 
-### Blockchain Transmission Protocol (BTP) Architecture, Economics, and Key Differentiators
+## Blockchain Transmission Protocol (BTP) Architecture, Economics, and Key Differentiators
 
 ![](https://cdn-images-1.medium.com/max/800/0*uQBPdZ-4PUKFMczJ)We are excited to share the latest technology advancements and details around the Blockchain Transmission Protocol (BTP), ICON’s interoperability solution, with our community. This post covers the technical architecture, economic structure and key differentiators of BTP. Polkadot parachains will be used as an example throughout the post.
 
-### Architecture
+## Architecture
 
 ![](https://cdn-images-1.medium.com/max/800/1*CigI16wA5NqRjTlAHnW15Q.png)Components:
 
@@ -39,7 +38,7 @@ The key security checkpoint of BTP is the Verifier Contract (BMV). It verifies t
 
 BTP Relays do not need to be trusted, ICON only needs to ensure liveness (BTP Network should always be online). Our plan is to launch with a centralized Relay set run by ICON to get an idea of costs and test the software. From there we will decentralize ownership of Relays using a Proof of Stake method detailed in the economics section.
 
-### Economics
+## Economics
 
 This is where it gets even more exciting for ICX holders. Other interoperability solutions hardly focus on this, and if they do, the economic value is only for large token holders. After a significant amount of internal discussion, we believe we’ve found an excellent solution to tie BTP activity directly to value for all ICX holders.
 
@@ -53,7 +52,7 @@ The ICX proceeds earned from auctioning off fees will be sent to the [CPS](http:
 
 ICX holders may pre-register a Relay with a minimum stake of 25,000 ICX. The 25,000 ICX will be staked + delegated to avoid opportunity cost. The 25,000 ICX must be held and staked by the Relay, it’s not a DPoS system like P-Reps. The reward for running a Relay will come from inflation and the amount will be decided in the IISS 3.1 economics vote. Relays will be penalized from their staked ICX if they are not live when called upon to relay a message, so those that pre-register should be aware of this risk and pay close attention to BTP announcements to avoid loss of ICX. More details about how to pre-register a Relay will be released closer to ICON 2.0 launch.
 
-### Key Differentiators
+## Key Differentiators
 
 BTP is unique amongst existing interoperability solutions. Most solutions require some sort of game theory, slashing/penalties for validators, PBFT consensus, critical off-chain components or centralization.
 

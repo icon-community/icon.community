@@ -3,10 +3,9 @@ title: "ICON Developers Portal Beta launch"
 date: 2018-08-11
 slug: icon-developers-portal-beta-launch-41b34fda20a7
 description:
-featured_image:
 ---
 
-### **ICON Developers Portal Beta launch**
+## **ICON Developers Portal Beta launch**
 
 ![](https://cdn-images-1.medium.com/max/800/1*rskblRzC3pWLwLqZ3jTi2w.png)Greeting from the ICON Team,
 

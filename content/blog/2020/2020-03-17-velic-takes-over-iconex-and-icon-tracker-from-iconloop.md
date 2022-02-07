@@ -3,10 +3,9 @@ title: "VELIC takes over ICONex and ICON Tracker from ICONLOOP"
 date: 2020-03-17
 slug: velic-takes-over-iconex-and-icon-tracker-from-iconloop-5f1608de89da
 description:
-featured_image:
 ---
 
-### VELIC takes over ICONex and ICON Tracker from ICONLOOP
+## VELIC takes over ICONex and ICON Tracker from ICONLOOP
 
 ![](https://cdn-images-1.medium.com/max/800/1*_vlOC-nidhQR-KZOI3E3aw.png)Dear ICONists,
 

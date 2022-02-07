@@ -3,10 +3,9 @@ title: "ICON to Join ‘LINE+LINK-DEV 2018’"
 date: 2018-11-06
 slug: icon-to-join-line-link-dev-2018-279759f38b7
 description:
-featured_image:
 ---
 
-### **ICON to Join ‘LINE+LINK-DEV 2018’**
+## **ICON to Join ‘LINE+LINK-DEV 2018’**
 
 ![](https://cdn-images-1.medium.com/max/800/0*cZcQjqCocBXQ-3tl)Greetings from the ICON Team,
 

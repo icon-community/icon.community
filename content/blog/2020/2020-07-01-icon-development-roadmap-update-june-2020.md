@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — June 2020"
 date: 2020-07-01
 slug: icon-development-roadmap-update-june-2020-bed0e0af1512
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — June 2020
+## ICON Development Roadmap Update — June 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*h0DSd97HDgqASCamznWlfQ.png)New Governance Updates in July and Token Standards
 
@@ -22,7 +21,7 @@ Below is the projected timeline for the release:
 
 We will also update ICONex Chrome, ICONex Mobile, and ICON Tracker to support the new features.
 
-#### Update details
+### Update details
 
 Based on community requests, we have worked on several features to enhance the governance experience of the ICON network. Based on this feedback, we will soon add P-Rep private key dualizing, staking, and delegating functions in SCORE, multiple unstaking periods, and a function to increase the number of delegations from 10 to 100. Details of each feature can be found below.
 
@@ -48,7 +47,7 @@ Based on community requests, we have worked on several features to enhance the g
 
 * Allows an ICONist to vote up to 100 P-Reps.
 
-#### Additional developments during the month
+### Additional developments during the month
 
 We continued to make progress on additional IRC token standards for the ICON network. We hope to release more information on these standards in the coming weeks.
 

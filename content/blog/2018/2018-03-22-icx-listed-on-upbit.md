@@ -3,10 +3,9 @@ title: "ICX Listed on Upbit"
 date: 2018-03-22
 slug: icx-listed-on-upbit-9af19391b17f
 description:
-featured_image:
 ---
 
-### ICX Listed on Upbit
+## ICX Listed on Upbit
 
 ![](https://cdn-images-1.medium.com/max/800/1*sXVnKRjDiON3XYcUGcRCPg.png)We are pleased to announce that ICX Token is listed on Upbit, one of the largest exchanges in South Korea.
 

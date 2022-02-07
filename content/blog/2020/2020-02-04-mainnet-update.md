@@ -3,10 +3,9 @@ title: "MainNet Update"
 date: 2020-02-04
 slug: mainnet-update-19bec854c579
 description:
-featured_image:
 ---
 
-### MainNet Update
+## MainNet Update
 
 ![](https://cdn-images-1.medium.com/max/800/1*QMLTT-WXler8-qPGoZ6s-w.png)Block Structure Version 0.5 update
 

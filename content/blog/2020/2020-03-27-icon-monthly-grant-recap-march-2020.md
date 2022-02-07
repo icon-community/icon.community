@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Recap — March 2020"
 date: 2020-03-27
 slug: icon-monthly-grant-recap-march-2020-352b77eb52f5
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Recap — March 2020
+## ICON Monthly Grant Recap — March 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*m7cXZjUhHz5G1p8Eg_FCRg.png)New Initiative to Provide Monthly Updates on Approved and Funded Grants
 
@@ -18,28 +17,28 @@ As part of this new update, each month, we’ll take a closer look at the Founda
 
 Today, we’ll provide a recap of all the approved grants year to date. We also revisit the assessment framework used to review applications and provide an overview of the review process from the initial application to the final payment. In later posts, we’ll focus primarily on any **new developments or activity** relative to the prior month. This is the first iteration of this initiative and we plan to make improvements over time.
 
-### Assessment Framework
+## Assessment Framework
 
 When reviewing the grant applications, the approval committee focuses primarily on three categories. These categories are outlined below:
 
-#### Proposal Overview:
+### Proposal Overview:
 
 * Does this benefit the ICON Network and/or community?
 * Does the proposal provide enough information?
 * Are there any risks for the ICON community with this proposal?
 * Is there an overlap between the proposal and other initiatives?
 
-#### Feasibility:
+### Feasibility:
 
 * Is the roadmap reasonable?
 * Do the team members have a relevant background?
 
-#### Public Good and Transparency:
+### Public Good and Transparency:
 
 * Does the project fairly justify its budget?
 * Are the deliverables and milestones verifiable and tangible?
 
-### Review Process
+## Review Process
 
 The grant review committee convenes each Wednesday to discuss proposals based on the above assessment criteria. From there, the operating procedure is as follows:
 
@@ -50,20 +49,20 @@ The grant review committee convenes each Wednesday to discuss proposals based on
 
 Below is a flow chart describing the process in greater detail.
 
-![](https://cdn-images-1.medium.com/max/800/0*7isgt84giZbhOlZQ.png)ICON Community Grant Program Operating Procedure### Monthly Update
+![](https://cdn-images-1.medium.com/max/800/0*7isgt84giZbhOlZQ.png)ICON Community Grant Program Operating Procedure## Monthly Update
 
 As noted above, we will provide a recap of the grants funded year to date. In the months ahead, we’ll only focus on changes from the prior month.
 
-### January 2020
+## January 2020
 
 In January, we reviewed a total of 9 grant applications and approved 2; an approval rate of 22%. Of the approved grants, one was developer-focused and the other focused on infrastructure.
 
-#### **Approvals:**
+### **Approvals:**
 
 * *Education:* [devblockchain.tech](https://www.devblockchain.tech/) ([Sharpn](https://twitter.com/sharpntech))
 * *Infrastructure:* [MyICONwallet](https://www.myiconwallet.com/) ([Reliant Node](https://twitter.com/ReliantNode))
 
-#### [Devblockchain.tech Development update #1](https://forum.icon.community/t/devblockchain-tech-development-update-1/400):
+### [Devblockchain.tech Development update #1](https://forum.icon.community/t/devblockchain-tech-development-update-1/400):
 
 Devblockchain.tech is a platform that aims to provide a 3-part learning experience on SCORE (Smart Contract on Reliable Environment):
 
@@ -79,7 +78,7 @@ Sharpn is aiming for a release on March 31st and will have 2–3 weeks dedicated
 * 2020/02/13–81,700 ICX (Paid)
 * 2020/03/31–81,700 ICX
 
-#### [MyICONwallet development update #1 and #2](https://forum.icon.community/t/myiconwallet-reporting/391)
+### [MyICONwallet development update #1 and #2](https://forum.icon.community/t/myiconwallet-reporting/391)
 
 MyICONwallet is creating a community-based web and mobile wallet that is backward compatible with ICONex. Below is the overview of what Reliant Node has built today and what was approved with their grant funding.
 
@@ -92,18 +91,18 @@ MyICONwallet is creating a community-based web and mobile wallet that is backwar
 * 2020/03/14–62,500 ICX (Paid)
 * 2020/04/30–62,500 ICX
 
-### February 2020
+## February 2020
 
 We reviewed 13 grant requests in February and approved 4; an approval rate of 30%. 2 of the approvals were for ICON to be included on DApp aggregator sites, 1 went to a content creator, and the other for community management.
 
-#### Approvals:
+### Approvals:
 
 * *Service***:** [Dapp.com integration](https://www.dapp.com/ranking/ICON)
 * *Service***:** [DappReview integration](https://dapp.review/explore/icon)
 * *Community***:** Korean community management
 * *Education***:** [ICX Comics — visual tutorials of ICON Blockchain](https://icxcomics.com/)
 
-#### [Dapp.com integration](https://www.dapp.com/dapps/ICON?utm_source=md)
+### [Dapp.com integration](https://www.dapp.com/dapps/ICON?utm_source=md)
 
 The following have been implemented through integration:
 
@@ -119,7 +118,7 @@ The Foundation is providing $20,000 in 4 installments based on the Periodic Repo
 * 2020/04/26 — $5,000
 * 2020/05/26 — $5,000
 
-#### [DappReview integration](https://dapp.review/explore/icon)
+### [DappReview integration](https://dapp.review/explore/icon)
 
 The following have been implemented through integration:
 
@@ -132,7 +131,7 @@ The Foundation is providing $20,000 in 1 monthly installment based on the Period
 
 * 2020/04/26 02:00 AM (UTC) — $20,000
 
-#### [Korean community management](https://forum.icon.community/t/managing-korean-icon-community-and-create-useful-data-base/392)
+### [Korean community management](https://forum.icon.community/t/managing-korean-icon-community-and-create-useful-data-base/392)
 
 As part of the approval, community member SimSulKim and team will manage the following Korean communities:
 
@@ -160,7 +159,7 @@ The Foundation is providing $6,000 in 4 installments based on the Periodic Repor
 * 2020/04/26 — $1,500
 * 2020/05/26 — $1,500
 
-#### [ICX Comics](https://icxcomics.com/)
+### [ICX Comics](https://icxcomics.com/)
 
 ICX Comics creates comics that translate and explain the ICON project’s technical documentation, developments, news, and stories. In total, the team will create 8 comics as part of the approved grant.
 
@@ -186,16 +185,16 @@ The Foundation is providing $3,000 in 4 installments based on the Periodic Repor
 
 The Foundation will be funding $3,000 of the total amount requested (of $5,800). [Ubik Capital](https://twitter.com/ubikcapital?lang=en), a Main P-Rep, will be funding the remaining amount.
 
-### March 2020
+## March 2020
 
 We have approved 2 grants in March; 1 for infrastructure and the other for a new DApp. However, we expect to approve more in the coming days and provide more detail in next month’s update.
 
-#### Approvals thus far:
+### Approvals thus far:
 
 * *Infrastructure***:** Fortmatic integration
 * *DApp***:** FutureICX Price Prediction Trading Application
 
-#### [Fortmatic + ICON Support](https://fortmatic.com/)
+### [Fortmatic + ICON Support](https://fortmatic.com/)
 
 Fortmatic will support ICON with a Fortmatic Whitelabel SDK — simplifying key management for applications built on top of ICON and attracting more mainstream developers and users. With this, there will be no need for browser extensions, seed phrases, or keystore files when interacting with our Web3 apps.
 
@@ -213,7 +212,7 @@ The Foundation is providing $50,000 in 6 monthly installments based on the Perio
 * 2020/08/24 02:00 AM (UTC) — $5,000
 * 2020/09/23 02:00 AM (UTC) — $5,000
 
-#### FutureICX Trading App
+### FutureICX Trading App
 
 FutureICX is a trading-related price prediction game where the players can wager on prices for a particular asset at a specific time. Players’ wagers are pooled together, and the most accurate predictions are rewarded according to a multi-tiered reward structure. There will be 3 major milestones for this project including the realization of all UX/UI mock-ups and front-end integration of the platform, the beta of the platform, social functions, SCORE prototype on Testnet, and the launch of the DApp on the Mainnet.
 

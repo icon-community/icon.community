@@ -3,10 +3,9 @@ title: "ICON-sponsoring ‘CryptoShift’"
 date: 2018-08-20
 slug: icon-sponsoring-cryptoshift-137e45609fb5
 description:
-featured_image:
 ---
 
-### ICON-sponsoring ‘CryptoShift’
+## ICON-sponsoring ‘CryptoShift’
 
 ![](https://cdn-images-1.medium.com/max/800/1*BMaUEvIqVY-DRYaCeFfRdQ.png)Greetings from the ICON Team,
 

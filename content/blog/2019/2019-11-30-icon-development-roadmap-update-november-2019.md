@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — November 2019"
 date: 2019-11-30
 slug: icon-development-roadmap-update-november-2019-6f6f5ccb4b06
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — November 2019
+## ICON Development Roadmap Update — November 2019
 
 ![](https://cdn-images-1.medium.com/max/800/1*-kIcFMwG4-WBPsQK-axM1g.png)Network Stabilization, ICON Tracker, Mobile Staking and BTP
 

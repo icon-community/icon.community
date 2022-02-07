@@ -3,10 +3,9 @@ title: "Ledger support for ICX coming soon."
 date: 2018-07-24
 slug: ledger-support-for-icx-coming-soon-b726c0a0b380
 description:
-featured_image:
 ---
 
-### Ledger support for ICX coming soon.
+## Ledger support for ICX coming soon.
 
 ![](https://cdn-images-1.medium.com/max/800/1*o9c6KSprJfd3zQAdloTONA.png)Greetings from the ICON Team
 

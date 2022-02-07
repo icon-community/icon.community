@@ -3,10 +3,9 @@ title: "[PRE-SALE] ICON Pre-Sale Participation Guideline"
 date: 2017-09-02
 slug: pre-sale-icon-pre-sale-participation-guideline-1e27761ba5d2
 description:
-featured_image:
 ---
 
-### [PRE-SALE] ICON Pre-Sale Participation Guideline
+## [PRE-SALE] ICON Pre-Sale Participation Guideline
 
 *The following message was originally sent via email on September 1, 2017 via email to registered members.*
 

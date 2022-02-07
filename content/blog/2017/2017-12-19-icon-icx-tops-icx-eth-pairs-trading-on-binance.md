@@ -3,10 +3,9 @@ title: "ICON (ICX) tops ICX/ETH Pairs Trading on Binance"
 date: 2017-12-19
 slug: icon-icx-tops-icx-eth-pairs-trading-on-binance-d4d383814859
 description:
-featured_image:
 ---
 
-### ICON (ICX) tops ICX/ETH Pairs Trading on Binance
+## ICON (ICX) tops ICX/ETH Pairs Trading on Binance
 
 ![](https://cdn-images-1.medium.com/max/800/1*qlDvwYzLSWSgKf5GCZH46g.png)Greetings from the ICON Team,
 

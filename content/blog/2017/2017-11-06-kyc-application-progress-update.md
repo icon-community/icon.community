@@ -3,10 +3,9 @@ title: "KYC Application Progress Update"
 date: 2017-11-06
 slug: kyc-application-progress-update-764c49e0788b
 description:
-featured_image:
 ---
 
-### KYC Application Progress Update
+## KYC Application Progress Update
 
 ![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)Thank you for your interest in the ICON project. This post is intended to update you on the KYC progress.
 
@@ -16,19 +15,19 @@ Our ICON team is fully focused on answering every email and will work towards qu
 
 In particular, the ICON team would like to apologize and ask for understanding of those who have not yet received an answer to their questions. The ICON team would like to answer the most frequently asked questions.
 
-#### **1. Questions Regarding Your KYC Application Status**
+### **1. Questions Regarding Your KYC Application Status**
 
 The most commonly asked question is whether your KYC application was properly submitted. While the ICON team is reviewing each request as fast as possible, due to the overwhelming request for verifications, we would like to apologize that we cannot give immediate responses.
 
 The ICON team ensures that each and every KYC application will be carefully reviewed, so please do not worry about your application not being reviewed. The ICON team will continuously send out email notifications and double check our KYC application list after the KYC registration period is over so that no one is missed out.
 
-#### **2. Did Not Receive Any Emails**
+### **2. Did Not Receive Any Emails**
 
 Sometimes the ICON KYC email is automatically filtered into different folders. Please check your “Spam” box, “Promotion” tab, and “Advertisement” box (depending on your email provider).
 
 If you did not receive an ICON email, please double check the folders mentioned above. Also please register the official ICON email (hello@icon.foundation) under your address book to prevent ICON emails being automatically classified as spam.
 
-#### **3. KYC Resubmission Requests**
+### **3. KYC Resubmission Requests**
 
 For KYC resubmission requests, due to the large amount of applications we are receiving, we cannot pinpoint the exact error of each participant. We apologize that we cannot give 1on1 response to everyone.
 

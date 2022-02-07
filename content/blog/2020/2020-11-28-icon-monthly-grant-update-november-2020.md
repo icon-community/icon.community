@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Update — November 2020"
 date: 2020-11-28
 slug: icon-monthly-grant-update-november-2020-447fb4762f52
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Update — November 2020
+## ICON Monthly Grant Update — November 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*a-PfReDzYsYPurq2bvcMqw.png)Six New Grant Approvals and Migration to Contribution Proposal System
 
@@ -22,7 +21,7 @@ As always, we continue to be encouraged by the community’s commitment and part
 
 Below is a recap of this month’s approved grants. Please check them out and support your fellow ICONists!
 
-#### [$ICX Lossless Lottery](https://forum.icon.community/t/grant-application-icx-lossless-lottery-v2/1375)
+### [$ICX Lossless Lottery](https://forum.icon.community/t/grant-application-icx-lossless-lottery-v2/1375)
 
 The Stakin team released the first version of the Staking Lossless Lottery Dapp about 2 months ago, which can be accessed at<https://lottery.stakin.com/>. These 2 months have been an opportunity to measure the performance of the Dapp and gather feedback for future enhancements. During the initial month, the Dapp generated the below KPIs:
 
@@ -73,7 +72,7 @@ The ICON Foundation is going to give out $6,000 in 4 monthly installments based 
 * 2021/02/15 02:00 AM (UTC) — $1,500
 * 2021/03/15 02:00 AM (UTC) — $1,500
 
-#### [Tipicon for Twitter](https://forum.icon.community/t/grant-application-tipicon-on-twitter/1294)
+### [Tipicon for Twitter](https://forum.icon.community/t/grant-application-tipicon-on-twitter/1294)
 
 The Piconbello team started the tipping bot idea as an experiment and kept expanding it with the last grant request. In 3 months, they have developed new dapp integrations and their user base increased 600% from 900 to around 7500.
 
@@ -100,7 +99,7 @@ The ICON Foundation is going to give out $6,000 in 2 monthly installments based 
 * 2020/12/16 02:00 AM (UTC) — $3,000
 * 2021/01/15 02:00 AM (UTC) — $3,000
 
-#### [Bounty Cat — Incentivized Promotion and Marketing Platform](https://forum.icon.community/t/grant-application-bounty-cat-incentivized-promotion-and-marketing-platform/1313)
+### [Bounty Cat — Incentivized Promotion and Marketing Platform](https://forum.icon.community/t/grant-application-bounty-cat-incentivized-promotion-and-marketing-platform/1313)
 
 Bounty Cat will be a decentralized promotion and marketing platform built on ICON and designed to help businesses and organizations promote their products, services and brands through unique and incentivized digital ad campaigns we call “Bounties”.
 
@@ -163,7 +162,7 @@ The ICON Foundation is going to give out $16,300 in 5 monthly installments based
 * 2021/03/15 02:00 AM (UTC) — $3,260
 * 2021/04/15 02:00 AM (UTC) — $3,260
 
-#### [‘Spread Your Votes’ campaign by ICON in Numbers](https://forum.icon.community/t/grant-application-spread-your-votes-campaign-by-icon-in-numbers/1319)
+### [‘Spread Your Votes’ campaign by ICON in Numbers](https://forum.icon.community/t/grant-application-spread-your-votes-campaign-by-icon-in-numbers/1319)
 
 ICON in Numbers is a joint project between P-Reps Transcranial Solutions and Espanicon. The goal of the weekly report is to analyze different aspects of data, including voting behavior so the team could track the changes over time and inform ICONists and P-Reps to improve the governance in the ICON ecosystem.
 
@@ -178,7 +177,7 @@ The teams have been tracking the number of P-Reps that ICONists were voting for 
 * Four (4) ICON in Numbers report per month in two languages (English & Spanish)
 * One (1) summary report per month in English (Trend Analysis)
 
-#### [LICX governance and Audit](https://forum.icon.community/t/licx-governance-and-audit/1321)
+### [LICX governance and Audit](https://forum.icon.community/t/licx-governance-and-audit/1321)
 
 LICX is already receiving a lot of interest and given it could hold a significant amount of ICX in a smart contract, the team wants to fund an audit of the protocol. Additionally, the team is building governance functions around the delegation process for the staked ICX. Below are the respective milestones for this approved grant.
 
@@ -190,7 +189,7 @@ Smart contract and testing. Functionalities: LICX holders can vote for their des
 Website, documentation, and testing. Functionalities: functions of MVP, website implementation, and documentation.
 * **Milestone #3 — Audited protocol**
 
-![](https://cdn-images-1.medium.com/max/800/0*iavPiIUmCwfkLsOf)#### [NFT Factory & Marketplace project](https://forum.icon.community/t/grant-application-nft-factory-marketplace-project/1361)
+![](https://cdn-images-1.medium.com/max/800/0*iavPiIUmCwfkLsOf)### [NFT Factory & Marketplace project](https://forum.icon.community/t/grant-application-nft-factory-marketplace-project/1361)
 
 Sharpn believes enabling an NFT based ecosystem will be invaluable for the ICON network and now is the time. They also believe that this will generate solid organic activities and vitalize our community with a genuine use case.
 

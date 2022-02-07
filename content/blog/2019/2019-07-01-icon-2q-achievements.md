@@ -3,10 +3,9 @@ title: "ICON 2Q Achievements"
 date: 2019-07-01
 slug: icon-2q-achievements-d3bcbc9453a6
 description:
-featured_image:
 ---
 
-### **ICON 2Q Achievements**
+## **ICON 2Q Achievements**
 
 ![](https://cdn-images-1.medium.com/max/800/1*ssChcI9utIe7mSsL-Vy_0A.png)Greetings ICONists,
 
@@ -14,9 +13,9 @@ The second half of 2019 has begun. It seems that the first half of this year has
 
 **The second quarter of 2019, when our efforts began to turn into tangible outcomes**, will be presented with a review by category.
 
-### **Key performances in the Second Quarter of 2019**
+## **Key performances in the Second Quarter of 2019**
 
-![](https://cdn-images-1.medium.com/max/800/1*wIM3kzxRpb3KBEkKlI5QCw.png)### **Ecosystem**
+![](https://cdn-images-1.medium.com/max/800/1*wIM3kzxRpb3KBEkKlI5QCw.png)## **Ecosystem**
 
 **ICONSENSUS**<[ICONSENSUS](https://icon.community/iconsensus/)>, the journey toward mass adoption of blockchain that began in the first quarter, is now on track. The P-Rep election, the first milestone of ICONSENSUS, will be held in September, and 40 candidates from all over the world have already submitted their applications.
 
@@ -35,7 +34,7 @@ In addition, ‘[ICON’s Got Talent (The final award of ICON TX Challenge](http
 >>> Check out the [ICON’s Got Talent (Final Award) Participation Page](https://forms.gle/sWmDiXHvvzAaBSb38)  
 **** Those who have already registered for the ICON TX Challenge must reapply to participate ‘ICON's Got Talent (Final Award)’.*
 
-![](https://cdn-images-1.medium.com/max/800/1*Tmb1DaIdjgs92wVhfrA_sQ.png)### **MOU / Partnership**
+![](https://cdn-images-1.medium.com/max/800/1*Tmb1DaIdjgs92wVhfrA_sQ.png)## **MOU / Partnership**
 
 In the second quarter, ICON formed meaningful partnerships in several ways. First, users can now use ICX at over 40 million Visa merchants globally as [ICON has partnered with Crypto.com](https://medium.com/helloiconworld/icx-is-now-available-on-crypto-coms-wallet-card-app-200986f19a7c). This is seen as an important move to accelerate the realization of our goal of ‘mass adoption of blockchain’ in that ICONists can actually spend/use ICX in normal everyday commerce.
 
@@ -43,7 +42,7 @@ There have also been a number of partnerships for the development of ICON DApp e
 
 In addition, ICON continues securing diverse and strong partnerships such as the [partnership with ‘MixMarvel’](https://medium.com/helloiconworld/icon-signs-a-strategic-partnership-with-mixmarvel-a-blockchain-based-global-game-publisher-c50052dafefd) to introduce blockchain technology into existing online and mobile game series, thereby reducing entry barriers, and the [partnership with ‘Infinity Stones’](https://medium.com/helloiconworld/icon-partners-with-infinity-stones-for-strategic-consulting-132dea5851f5) to add insight into the governance and economic structure of ICON.
 
-![](https://cdn-images-1.medium.com/max/800/1*v1bCGKgLJfMPoeBO-u9grQ.png)### **Development**
+![](https://cdn-images-1.medium.com/max/800/1*v1bCGKgLJfMPoeBO-u9grQ.png)## **Development**
 
 The second quarter was a time when the ICON Team made impressive achievements in development as well. We have been updating the [development roadmap](https://icon.foundation/contents/development/roadmap?lang=en) on the last day of every month since January ([Apr](https://medium.com/helloiconworld/4-icon-development-roadmap-update-apr-2019-fb3b74a725af) / [May](https://medium.com/helloiconworld/5-icon-development-roadmap-update-may-2019-b21e84d6d842) / [Jun](https://medium.com/helloiconworld/6-icon-development-roadmap-update-jun-2019-d5ea84ac44dd?postPublishedType=repub)), and there are some items that were implemented in the second quarter.
 
@@ -55,7 +54,7 @@ ICON DID (Decentralized Identifier), a decentralized identity authentication sys
 
 The ICON Team will be working on the planned milestones in the third quarter, while at the same time, continuing to make efforts to enable development outcomes to be implemented as services that offer greater value and convenience.
 
-### **Events**
+## **Events**
 
 In April, the ICON Team opened the ‘ICON LOUNGE’, our own meetup space for connecting various blockchain projects with the vision of ‘Hyperconnect the World’. We hosted the ‘[ICON DApp MeetUp](https://medium.com/helloiconworld/icon-to-hold-icon-dapp-meetup-icon-lounge-opening-party-69d47e7aa003)’ as the first event in the ICON LOUNGE including ‘ICON LOUNGE Opening Party’. We will keep introducing innovative technologies and projects in the blockchain industry and supporting networking in the ICON LOUNGE.
 

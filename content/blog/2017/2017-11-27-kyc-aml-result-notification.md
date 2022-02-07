@@ -3,10 +3,9 @@ title: "KYC+AML Result Notification"
 date: 2017-11-27
 slug: kyc-aml-result-notification-9623f6625583
 description:
-featured_image:
 ---
 
-### **KYC+AML Result Notification**
+## **KYC+AML Result Notification**
 
 ![](https://cdn-images-1.medium.com/max/800/0*4M4D_MQ5HBvmnHYf.)Greetings from the ICON Team,
 
@@ -22,22 +21,22 @@ For Gmail users, the email is automatically categorized in the “Promotion” t
 
 To prevent our mail from being automatically categorized as spam in the future, please register the official email address (hello@icon.foundation) in your address book.
 
-### **[Post KYC+AML Schedule]**
+## **[Post KYC+AML Schedule]**
 
-#### 1. Verify members on the refund list (Until Dec 4th, 2017 | 13:00 KST/UTC+9)
+### 1. Verify members on the refund list (Until Dec 4th, 2017 | 13:00 KST/UTC+9)
 
 * In-depth verification process to ensure that contributors who passed the KYC+AML process are not included in the refund process
 * Notify refund subjects that they have been selected for the refund process. Notify KYC applicants who submitted incorrect information.
 
 If the contributor’s Token Sale Email and the “KYC Submitted Email” do not match, then the contributor will be flagged as “Non-KYC-Participant” and will be subsequently included in the refund process. If you submitted the wrong email address please contact the ICON team individually.
 
-#### Example)
+### Example)
 
-![](https://cdn-images-1.medium.com/max/800/1*xQ-DPvr2DMzYxm_8etb0AQ.png)#### 2. The ETH refund process will begin in December
+![](https://cdn-images-1.medium.com/max/800/1*xQ-DPvr2DMzYxm_8etb0AQ.png)### 2. The ETH refund process will begin in December
 
 * ETH will be refunded to the contributor’s ETH address. Therefore, the refund ETH address cannot be changed.
 
-#### 3. Contributors who passed the KYC+AML process will proceed to the “Token Unlock Process” (unlock schedule will be announced in the future).
+### 3. Contributors who passed the KYC+AML process will proceed to the “Token Unlock Process” (unlock schedule will be announced in the future).
 
 * The token unlock process will be announced after the refund process is concluded
 * Detailed unlock dates will not be revealed in advance in order to prevent scam attempts.

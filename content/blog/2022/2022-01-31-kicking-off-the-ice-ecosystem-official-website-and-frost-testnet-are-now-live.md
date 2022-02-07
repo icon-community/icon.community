@@ -3,20 +3,19 @@ title: "Kicking Off the ICE Ecosystem: Official Website and Frost Testnet are no
 date: 2022-01-31
 slug: kicking-off-the-ice-ecosystem-official-website-and-frost-testnet-are-now-live-8ee30a0a18ff
 description:
-featured_image:
 ---
 
-### Kicking Off the ICE Ecosystem: Official Website and Frost Testnet are now LIVE!
+## Kicking Off the ICE Ecosystem: Official Website and Frost Testnet are now LIVE!
 
-#### Join us in our vision of bridging the ICON and Polkadot ecosystems by visiting the [new official website](http://icenetwork.io) and building your product on **Frost**; the first live testnet for both ICE and SNOW (the canary network for ICE).
+### Join us in our vision of bridging the ICON and Polkadot ecosystems by visiting the [new official website](http://icenetwork.io) and building your product on **Frost**; the first live testnet for both ICE and SNOW (the canary network for ICE).
 
-![](https://cdn-images-1.medium.com/max/800/1*5HKynvp1LgEGbHXJQ0iRsQ.jpeg)### ICE/SNOW Website Now Live
+![](https://cdn-images-1.medium.com/max/800/1*5HKynvp1LgEGbHXJQ0iRsQ.jpeg)## ICE/SNOW Website Now Live
 
 We are excited to announce that the official website for ICE & SNOW is now live. This website will serve as the informational hub for each project moving forward and provides a clear overview of the benefits of the ICE ecosystem for both users and developers.
 
 For those looking to build on SNOW and eventually ICE, [preliminary documentation](https://icedevportal.gitbook.io/deploying-dapp-on-ice/welcome/introduction) is now available that will allow you to start building on the Frost testnet.
 
-### Frost Testnet Goes Live
+## Frost Testnet Goes Live
 
 An initial implementation of the ICE and SNOW networks is now available through Frost–a testnet where builders can explore an EVM-compatible extension network for ICON. While the initial testnet isn’t fully stable and lacks key features such as tokenomics or governance, it is the critical first step toward implementing our vision for SNOW and, eventually, ICE.
 
@@ -33,7 +32,7 @@ Developers interested in building on ICE/SNOW should refer to [the documentation
 
 Join a growing developer community by sharing your experience building on the Frost testnet in the [#ice\_dev\_discussion](https://discord.gg/jwKCSCVSUt) channel set up for ICE/SNOW on the ICON Project Discord.
 
-### Open Source Development
+## Open Source Development
 
 In the spirit of transparency, we are opening our development process with the community from the very beginning. This means that our product will genuinely reflect the stage of development we are in as we build a blockchain that connects ICON to the substrate ecosystem via BTP. As we continue to improve upon the testnet, we welcome and encourage any feedback related to your testnet experience. Feel free to join a growing network of developers in the [#ice\_dev\_discussion](https://discord.gg/jwKCSCVSUt) channel on the ICON Discord.
 
@@ -58,7 +57,7 @@ Towards the end of this phase, we will aim to support other assets such as KSM a
 
 **Phase 3:** Preparing for SNOW and rolling out a crowd loan strategy.
 
-### Our Unique Proposition
+## Our Unique Proposition
 
 ICE is an extension network of an existing layer 1 network: the ICON Blockchain. Compared to all other Polkadot parachains, which were built solely to become parachains, ICE is the first to strategically bid for a Polkadot parachain slot as an extension network of an already thriving ecosystem.
 

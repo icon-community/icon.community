@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — October 2019"
 date: 2019-11-01
 slug: icon-development-roadmap-update-october-2019-9be2d2155ef3
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — October 2019
+## ICON Development Roadmap Update — October 2019
 
 ![](https://cdn-images-1.medium.com/max/800/1*ZIhQxSjKTST8jPYdm1JUvQ.png)**Decentralization, BTP and Other Network Enhancements**
 

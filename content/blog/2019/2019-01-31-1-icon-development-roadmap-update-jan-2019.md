@@ -3,10 +3,9 @@ title: "#1. ICON Development Roadmap Update — Jan 2019"
 date: 2019-01-31
 slug: 1-icon-development-roadmap-update-jan-2019-98c49d4b00a9
 description:
-featured_image:
 ---
 
-### #1. ICON Development Roadmap Update — Jan 2019
+## #1. ICON Development Roadmap Update — Jan 2019
 
 ![](https://cdn-images-1.medium.com/max/800/0*Uh751ibJiD72xPCf)Greetings from the ICON Team,
 

@@ -3,12 +3,11 @@ title: "Launching of ICONex"
 date: 2018-02-26
 slug: launching-of-iconex-b88c998442cf
 description:
-featured_image:
 ---
 
-### Launching of ICONex
+## Launching of ICONex
 
-### Airdrop / Token swap announcements
+## Airdrop / Token swap announcements
 
 ![](https://cdn-images-1.medium.com/max/800/0*PjRmVy35rlU_AwUg.)Greetings, ICONers.
 

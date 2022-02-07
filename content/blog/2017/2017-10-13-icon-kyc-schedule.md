@@ -3,16 +3,15 @@ title: "ICON KYC Schedule"
 date: 2017-10-13
 slug: icon-kyc-schedule-71fc7fd55b8a
 description:
-featured_image:
 ---
 
-### ICON KYC Schedule
+## ICON KYC Schedule
 
 ![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)The ICON KYC process will begin on Monday Oct. 23, 2017 at 13:00 (KST/UTC+9). The KYC application form will be available for your submission for 3 weeks. To unlock your received ICX tokens* from Pre-sale, it is mandatory to follow the KYC process. More details will be available for your view with a step-by-step guideline in line with the schedule.
 
 *ICX Token = ERC20 Token / ICX = Actual ICX for ICON Mainnet
 
-### **KYC Application Process (detailed instruction will be provided separately)**
+## **KYC Application Process (detailed instruction will be provided separately)**
 
 1. Complete KYC application form on ICON official website
 * Website URL: [https://icon.foundation](https://icon.foundation/)
@@ -24,9 +23,9 @@ featured_image:
 
 2. Fill in your personal data and upload Government-Issued Photo ID onto the Application Form.
 
-### **After KYC process completion, all personal data collected during the KYC process will be deleted.**
+## **After KYC process completion, all personal data collected during the KYC process will be deleted.**
 
-#### **KYC Photo Upload Guideline**
+### **KYC Photo Upload Guideline**
 
 Upload following Two Photos:
 
@@ -35,7 +34,7 @@ Upload following Two Photos:
 
 **MUST HIDE your unique identification number on your Government-Issued Photo ID when submitting the photos. Else the form will be returned and the KYC process will remain incomplete.*
 
-![](https://cdn-images-1.medium.com/max/800/1*6edu_co3vvNWINPxncbY9Q.jpeg)![](https://cdn-images-1.medium.com/max/800/1*Ed6T-2mrc6hjM0VZY-gUxQ.png)#### AML (Anti-Money-Laundering)
+![](https://cdn-images-1.medium.com/max/800/1*6edu_co3vvNWINPxncbY9Q.jpeg)![](https://cdn-images-1.medium.com/max/800/1*Ed6T-2mrc6hjM0VZY-gUxQ.png)### AML (Anti-Money-Laundering)
 
 In order to protect ICON contributors from illegal parties, the ICON team has partnered with a Singapore based Fintech company, [Cynopsis Solutions](https://www.cynopsis-solutions.com/). Cynopsis Solutions is a KYC specialized company that provided KYC services for various blockchain projects.
 

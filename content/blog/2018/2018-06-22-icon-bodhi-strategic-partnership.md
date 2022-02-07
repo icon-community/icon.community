@@ -3,10 +3,9 @@ title: "ICON-Bodhi, Strategic partnership"
 date: 2018-06-22
 slug: icon-bodhi-strategic-partnership-with-bodhi-7054e7925eb9
 description:
-featured_image:
 ---
 
-### ICON-Bodhi, Strategic partnership
+## ICON-Bodhi, Strategic partnership
 
 ![](https://cdn-images-1.medium.com/max/800/0*o1t6gSpPii0-zdOy)Greetings from the ICON Team,
 

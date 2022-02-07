@@ -3,10 +3,9 @@ title: "[Winner Announcement] ICON (ICX) Holiday Airdrop Quiz"
 date: 2019-01-04
 slug: winner-announcement-icon-icx-holiday-airdrop-quiz-48d108630fd5
 description:
-featured_image:
 ---
 
-### **[Winner Announcement] ICON (ICX) Holiday Airdrop Quiz**
+## **[Winner Announcement] ICON (ICX) Holiday Airdrop Quiz**
 
 ![](https://cdn-images-1.medium.com/max/800/0*lT5xun12IxK-hRTB)Greetings from the ICON Team,
 
@@ -16,7 +15,7 @@ The answer of the quiz, Q. What is the variable name of *Reward for delegation o
 
 As stated in our previous announcement, we have utilized the ICON smart contract implementation environment, SCORE, to draw winners in a transparent manner.
 
-#### [>> Congratulations to 100 lucky winners!](https://docs.google.com/spreadsheets/d/1MO7Bsm435eQCdbHvRTslc6yb-XkQhaMnmQ-veqFnqCU/edit#gid=0)
+### [>> Congratulations to 100 lucky winners!](https://docs.google.com/spreadsheets/d/1MO7Bsm435eQCdbHvRTslc6yb-XkQhaMnmQ-veqFnqCU/edit#gid=0)
 
 Winners will be offered with the equivalent of *10$ in ICX on Monday, January 7, 2019, via tx address. Additionally, the ICON Team uploaded the source codes of this event on GitHub. Feel free to make your own smart contract event! If you have any questions or difficulties in writing smart contracts, please visit ICON Developer Portal([icondev.io](http://icondev.io)) for Q&As. (*Coinmarketcap close time of the End of the event date, January 3, 2019)
 

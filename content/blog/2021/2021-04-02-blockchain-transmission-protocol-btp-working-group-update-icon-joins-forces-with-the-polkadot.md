@@ -3,10 +3,9 @@ title: "Blockchain Transmission Protocol (BTP) Working Group Update: ICON Joins 
 date: 2021-04-02
 slug: blockchain-transmission-protocol-btp-working-group-update-icon-joins-forces-with-the-polkadot-63694290e15b
 description:
-featured_image:
 ---
 
-### Blockchain Transmission Protocol (BTP) Working Group Update: ICON Joins Forces with the Polkadot Ecosystem
+## Blockchain Transmission Protocol (BTP) Working Group Update: ICON Joins Forces with the Polkadot Ecosystem
 
 ![](https://cdn-images-1.medium.com/max/800/0*o8bAiQWkthEOfWtw)As the first update from the Blockchain Transmission Protocol ([BTP](https://medium.com/helloiconworld/blockchain-transmission-protocol-btp-explained-c4d9927ad398)) Working Group, we are excited to announce tangible progress toward the integration of BTP into the Polkadot Ecosystem. Acala, Moonbeam, Edgeware, and Plasm, four of the top parachain candidates in the Polkadot Ecosystem, will be the first to be integrated into ICON’s BTP interoperability solution.
 

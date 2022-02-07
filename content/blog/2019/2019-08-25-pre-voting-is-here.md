@@ -3,10 +3,9 @@ title: "Pre-Voting is Here!"
 date: 2019-08-25
 slug: pre-voting-is-here-6fa804a12559
 description:
-featured_image:
 ---
 
-### Pre-Voting is Here!
+## Pre-Voting is Here!
 
 Join in to Participate in the 3 Million ICX Reward Pool
 

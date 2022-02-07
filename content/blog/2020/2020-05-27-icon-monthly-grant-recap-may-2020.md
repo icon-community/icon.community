@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Recap — May 2020"
 date: 2020-05-27
 slug: icon-monthly-grant-recap-may-2020-ed90aafa46d9
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Recap — May 2020
+## ICON Monthly Grant Recap — May 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*v70d_unzLinryv4Kp5d3mA.png)Simplex Integration and Liquid ICX
 
@@ -14,16 +13,16 @@ Greetings ICONists,
 
 We’re happy to share the latest progress with ICON’s community grant program. As we’ve done in prior months, in this report, we’ll take a closer look at the grants approved by the Foundation thus far in May. Additionally, we’ll highlight updates to periodic reporting and the respective progress of our previously funded grants. Enjoy!
 
-### May 2020
+## May 2020
 
 It was another busy month for grant applications and we’ve approved 2 grants thus far; 1 for infrastructure and 1 DApp. If we approve any more in the coming days, we’ll be sure to provide more details on any we miss in next month’s update. But for now, please see the details below.
 
-#### Approvals thus far:
+### Approvals thus far:
 
 * *Infrastructure***:** [Simplex Integration](https://www.simplex.com)
 * *DApp*: [Liquid ICX (LICX) — Token for DeFi](https://licx.finance)
 
-#### [Simplex Integration](https://www.simplex.com)
+### [Simplex Integration](https://www.simplex.com)
 
 Simplex provides fiat-onramps to the leading exchanges, wallets and other service providers throughout the industry. With this integration, crypto enthusiasts will be able to purchase ICX directly with their cards at a number of Simplex partner sites.
 
@@ -38,7 +37,7 @@ As part of the approval, Simplex will integrate ICX within ~1 month of signing o
 * If Simplex generates $50,000 over the same period, ICON will receive the full deposit back.
 * Note, this is a one-time deposit (fee structure).
 
-#### [Liquid ICX (LICX) — Token for DeFi](https://licx.finance/)
+### [Liquid ICX (LICX) — Token for DeFi](https://licx.finance/)
 
 LICX is the basis for DeFi solutions. It is an IRC2 token that represents staked ICX making it possible to be transferred without compromising the security of the network. This provides an alternative option to exchanges for ICONists to receive rewards while keeping liquidity of their ICX.
 
@@ -67,9 +66,9 @@ The ICON Foundation will provide $23,400 in 2 monthly installments based on the 
 * 2020/05/29 02:00 AM (UTC) — $11,700
 * 2020/06/25 02:00 AM (UTC) — $11,700
 
-### Periodic Updates
+## Periodic Updates
 
-#### [Dapp.com integration](https://www.dapp.com/ranking/ICON?)
+### [Dapp.com integration](https://www.dapp.com/ranking/ICON?)
 
 All the work in the first stage is finished but Dapp.com will take it further from here. They will continue to provide stats, exposure and keep track of all the progress within ICON ecosystem.
 
@@ -101,7 +100,7 @@ Finished in all [dapp.com](http://dapp.com/)’s social, website, and community 
 * 4 Free Dapp promotion packages for ICON dapps upon requests from ICON.
 * Finished. Promoted ICONbet and Zensports from 16th April to 11th May.
 
-#### [**FutureICX Report #2**](https://www.futureicx.io)
+### [**FutureICX Report #2**](https://www.futureicx.io)
 
 **1. UI/UX**
 
@@ -127,7 +126,7 @@ The team will provide a link with the demo login details in the forum and with i
 
 In the last month of development ***(FutureICX is planned for release at the end of June 2020)***, the team is planning to completely finalize the development of the app, to implement the remaining score and WebApp functionalities, to set up the mobile UI, conclude the tests done on Testnet and move on to Mainnet by setting up a decentralized oracle solution in order to ensure fair and accurate results.
 
-![](https://cdn-images-1.medium.com/max/800/0*z_N0zKWB-3J80Wr_)#### Korean Community Management Update #3
+![](https://cdn-images-1.medium.com/max/800/0*z_N0zKWB-3J80Wr_)### Korean Community Management Update #3
 
 During the reporting period, the team managed the ICON Korean community and database including:
 
@@ -143,7 +142,7 @@ During the reporting period, the team managed the ICON Korean community and data
 
 **Expected Results for the Next Period:** Increase viewership to ICONkr.com (currently about 5,000 visits per month) and make it easy to find information related to ICON (ICX). Prepare a summary and easy-to-understand materials on ICON. And focus on ICONLOOP’s myID and the recent accredited certificates legislation as there are many questions related to this.
 
-#### [ICX Comics Report #3](https://icxcomics.com)
+### [ICX Comics Report #3](https://icxcomics.com)
 
 ICX Comics is happy to announce that they have successfully completed Milestone #3!
 
@@ -179,7 +178,7 @@ Comic #8: <https://twitter.com/ICXcomics/status/1262405386205892611>
 
 Comic #9: <https://twitter.com/ICXcomics/status/1264451683876306944>
 
-#### ICON Hyperhack Report #2
+### ICON Hyperhack Report #2
 
 The hackathon will launch on **June 19th** and last until **August 19th**. Therefore, the team has a full month ahead for active outreach efforts and initiatives to introduce ICON and the ICON Hyperhack hackathon and direct interested parties to the newly launched ICON Hyperhack website in which they can pre-register for the hackathon and receive updates.
 

@@ -3,12 +3,11 @@ title: "ICON Foundation Grant Program 2020"
 date: 2020-11-16
 slug: icon-foundation-grant-program-2020-653b626abaeb
 description:
-featured_image:
 ---
 
-### ICON Foundation Grant Program 2020
+## ICON Foundation Grant Program 2020
 
-#### The new ICON Foundation Grant Program will complement Contribution Proposal System(CPS) to continue funding projects that benefit the ICON Community
+### The new ICON Foundation Grant Program will complement Contribution Proposal System(CPS) to continue funding projects that benefit the ICON Community
 
 ![](https://cdn-images-1.medium.com/max/800/0*BfdGTOeuAOb95eTT)Dear ICONists,
 
@@ -18,11 +17,11 @@ The current [ICON Community Grant Program](https://medium.com/helloiconworld/ico
 
 On December 20, 2019, the ICON Foundation announced the ICON Community Grant Program. And since then, we have proudly funded **more than 45 projects** that directly benefited the ICON community. We stated, “this program will operate until the CPS is fully developed and implemented on the ICON Network.” That time has finally come.
 
-#### Purpose
+### Purpose
 
 The purpose of the ICON Foundation Grant Program is to complement, not compete, with the upcoming CPS and continue funding projects that benefit the ICON Community. We believe that the ICON Foundation Grant Program alongside the CPS will help accelerate the growth of the ICON ecosystem.
 
-#### Eligibility
+### Eligibility
 
 Under the new grant program, the following proposals are considered eligible:
 
@@ -32,7 +31,7 @@ Under the new grant program, the following proposals are considered eligible:
 
 We may change the eligibility criteria based on what type of projects the ICON Foundation believes should be prioritized, which we will announce to the community. At this time, we will no longer support projects related to education, marketing, public relations, and community activities. This does not mean that the Foundation does not value those projects. We entrust our community and P-Reps to be the better evaluators for these categories.
 
-#### Submission and Approval Process
+### Submission and Approval Process
 
 All ICONists can continue to submit their proposals at the ICON Community Forum (<https://forum.icon.community>) under Grants category. The ICON Foundation will review the proposal and reply directly to the applicants. The ICON Foundation will provide the Initial Review Result Comments on the proposal.
 
@@ -45,7 +44,7 @@ The review process is conducted via subjective assessments from the ICON Foundat
 
 **Know-Your-Customer (KYC) requirement:** In accordance with local and international anti-money laundering legislation and regulations, the ICON Foundation is required to conduct due diligence on grant recipients including national persons and legal entities.
 
-#### Payment Method and Reporting Requirements
+### Payment Method and Reporting Requirements
 
 For approved projects, the ICON Foundation will provide:
 
@@ -54,7 +53,7 @@ For approved projects, the ICON Foundation will provide:
 
 Grant recipients will receive their ICX grants periodically based on predetermined milestones for the specific grant. Grant recipients will be required to produce Periodic Reports in order to continue to receive grant funding. If the Periodic Report is showing that the initiative is not meeting expectations, the ICON Foundation has the option to halt continued funding. The submission cycle of the Periodic Report will vary according to each project’s duration.
 
-#### Proposal Format
+### Proposal Format
 
 1. Title
 2. Applicant Name (business and/or individuals will be KYC-ed)
@@ -70,7 +69,7 @@ Grant recipients will receive their ICX grants periodically based on predetermin
 9. Public Address (To receive the grant)
 10. Other (Please include any relevant information)
 
-#### Periodic Progress Report
+### Periodic Progress Report
 
 The details of the Periodic Progress Report should be concise and include:
 
@@ -80,7 +79,7 @@ The details of the Periodic Progress Report should be concise and include:
 4. Materials proving progress on the initiative
 5. Expected results for the next period
 
-#### Proposal Evaluation Framework
+### Proposal Evaluation Framework
 
 1. Proposal Overview  
 * Does this benefit the ICON Network and its community?  

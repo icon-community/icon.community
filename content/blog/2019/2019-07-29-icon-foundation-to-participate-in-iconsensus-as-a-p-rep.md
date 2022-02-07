@@ -3,10 +3,9 @@ title: "ICON Foundation to Participate in ICONSENSUS as a P-Rep"
 date: 2019-07-29
 slug: icon-foundation-to-participate-in-iconsensus-as-a-p-rep-90bd86f7d7d0
 description:
-featured_image:
 ---
 
-### **ICON Foundation to Participate in ICONSENSUS as a P-Rep**
+## **ICON Foundation to Participate in ICONSENSUS as a P-Rep**
 
 ![](https://cdn-images-1.medium.com/max/800/1*2y_N39Xdn2viAMDjXstKxA.png)The ICON Foundation is excited for the upcoming decentralization in September. As the election approaches, many potential P-Rep candidates and community members have asked about how ICON will be participating in the ICONSENSUS Election.
 

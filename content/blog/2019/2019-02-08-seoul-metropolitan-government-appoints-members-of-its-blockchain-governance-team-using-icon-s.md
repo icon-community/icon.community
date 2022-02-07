@@ -3,10 +3,9 @@ title: "Seoul Metropolitan Government appoints members of its ‘Blockchain Gove
 date: 2019-02-08
 slug: seoul-metropolitan-government-appoints-members-of-its-blockchain-governance-team-using-icon-s-8b84cf78117e
 description:
-featured_image:
 ---
 
-### **Seoul Metropolitan Government appoints members of its ‘Blockchain Governance Team’ Using ICON’s Public Blockchain**
+## **Seoul Metropolitan Government appoints members of its ‘Blockchain Governance Team’ Using ICON’s Public Blockchain**
 
 **Supports issuance and browsing through mobile phones, preventing falsification and fake issuance by recording history on the blockchain**
 

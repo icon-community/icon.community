@@ -3,10 +3,9 @@ title: "ICON Launches Fully Decentralized Network Governed by Community Elected 
 date: 2019-10-29
 slug: icon-launches-fully-decentralized-network-governed-by-community-elected-representatives-b8f37d59778
 description:
-featured_image:
 ---
 
-### **ICON Launches Fully Decentralized Network Governed by Community Elected Representatives**
+## **ICON Launches Fully Decentralized Network Governed by Community Elected Representatives**
 
 ![](https://cdn-images-1.medium.com/max/800/1*pOxz56b6Kgg1xLY7G5HnGQ.png)**First Milestone of ICONSENSUS**
 

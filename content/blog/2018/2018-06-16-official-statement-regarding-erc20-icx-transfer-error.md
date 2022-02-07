@@ -3,10 +3,9 @@ title: "Official statement regarding ERC20 ICX transfer error"
 date: 2018-06-16
 slug: official-statement-regarding-erc20-icx-transfer-error-94a9fc9d69c3
 description:
-featured_image:
 ---
 
-### Official statement regarding ERC20 ICX transfer error
+## Official statement regarding ERC20 ICX transfer error
 
 ![](https://cdn-images-1.medium.com/max/800/1*Pyy4HwCaW5xuAIZrsIm2yg.jpeg)Greetings from the ICON Team,
 

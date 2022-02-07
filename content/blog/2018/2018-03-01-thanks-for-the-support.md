@@ -3,7 +3,6 @@ title: "Thanks for the support."
 date: 2018-03-01
 slug: thanks-for-the-support-f57f09e63add
 description:
-featured_image:
 ---
 
 Thanks for the support.

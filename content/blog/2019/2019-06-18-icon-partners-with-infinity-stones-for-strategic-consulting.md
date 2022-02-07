@@ -3,10 +3,9 @@ title: "ICON Partners with Infinity Stones for Strategic Consulting"
 date: 2019-06-18
 slug: icon-partners-with-infinity-stones-for-strategic-consulting-132dea5851f5
 description:
-featured_image:
 ---
 
-### ICON Partners with Infinity Stones for Strategic Consulting
+## ICON Partners with Infinity Stones for Strategic Consulting
 
 ![](https://cdn-images-1.medium.com/max/800/1*UMy0be_z5ZXqWOxH74MsQw.png)Greetings ICONists,
 

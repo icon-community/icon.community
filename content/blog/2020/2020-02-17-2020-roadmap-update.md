@@ -3,22 +3,21 @@ title: "2020 Roadmap Update"
 date: 2020-02-17
 slug: 2020-roadmap-update-2e12f7bbdcc4
 description:
-featured_image:
 ---
 
-### 2020 Roadmap Update
+## 2020 Roadmap Update
 
 ![](https://cdn-images-1.medium.com/max/800/1*JZZHNdvNDSZ7gbzUBGbnQA.png)Key Themes for 2020: Network Enhancement, Open Source, Governance and BTP/Sidechain
 
-### Summary
+## Summary
 
 The core development team has updated its development roadmap plans for 2020. These plans are organized around four major themes that we hope to improve upon this year. The four themes are 1) Network Enhancement, 2) Open Source Enhancement, 3) Governance System Update and 4) BTP and Sidechain. We believe these categories represent the most important focus areas for our expanding ecosystem and will help us to onboard new network participants and improve the incentive structures for contribution. Furthermore, we believe we can improve scalability and provide interoperability.
 
 Of course, there will be other items that fall out of the scope of these themes that the core team may work on concurrently in 2020. But note, these themes will act as a guideline for development work for the year.
 
-### ICON’s 2020 Roadmap
+## ICON’s 2020 Roadmap
 
-![](https://cdn-images-1.medium.com/max/800/1*lpj3WY5ERGiAQTcgOVfmhQ.png)Key Themes for 2020#### 1. Network Enhancement
+![](https://cdn-images-1.medium.com/max/800/1*lpj3WY5ERGiAQTcgOVfmhQ.png)Key Themes for 2020### 1. Network Enhancement
 
 The Foundation continues to refine icon-service and its loopchain engine through network enhancements and stability features. We are happy with the progress we have made post decentralization having successfully upgraded our network via two on-chain Revision Proposals. But there is still more work to do.
 
@@ -36,7 +35,7 @@ Going forward, this will remain a key focus as we look to improve upon our techn
 * Automatic block structure upgrading via Revision Proposal
 * SCORE internal call function
 
-#### 2. Open Source Enhancement
+### 2. Open Source Enhancement
 
 This year we want to increase the number of open-source contributions from the community to loopchain and icon-service. Right now, our codebase is being primarily managed by ICON Foundation but in 2020 we want to increase our level of open source to a much greater degree. Here are a few of the key focus areas we will be pursuing to make this a reality:
 
@@ -45,7 +44,7 @@ This year we want to increase the number of open-source contributions from the c
 * Improve commentary between codes
 * Enhancing and formalizing the off-chain governance process (IIP)
 
-#### 3. Governance System Update
+### 3. Governance System Update
 
 We plan to propose refinements to IISS in 2020. By better aligning incentives across stakeholders in the network, we hope to promote more collaboration amongst ICONists. These stakeholders include Main P-Reps, Sub P-Reps, Contributors and Delegators. Also, we plan to implement the Contribution Proposal System (CPS) to accelerate the activity on the network. Recall that the CPS is a governance and funding mechanism to support growth through contribution. With this system, ICONists can be rewarded for their contribution through this decentralized mechanism without relying on ICON Foundation for support.
 
@@ -62,7 +61,7 @@ We plan to propose refinements to IISS in 2020. By better aligning incentives ac
 * Develop the CPS
 * Integrate the CPS into the ICON Network
 
-#### 4. BTP and Sidechain
+### 4. BTP and Sidechain
 
 Blockchain Transmission Protocol (BTP) will allow the transfer of value and information between heterogeneous chains. With this technology, multiple blockchains can communicate and interconnect via ICON Network. In 2020, we plan to have the basic level of the BTP technology implemented into the ICON Network. The basic level of the BTP will allow Private Blockchains to interconnect with ICON Network. We have already had success with our BTP v0.5 and BTP v1.0 PoCs and are optimistic about the progress we can make throughout the remainder of the year.
 

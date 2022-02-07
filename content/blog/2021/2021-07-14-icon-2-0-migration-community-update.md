@@ -3,10 +3,9 @@ title: "ICON 2.0 Migration — Community Update"
 date: 2021-07-14
 slug: icon-2-0-migration-community-update-30e43b4f609f
 description:
-featured_image:
 ---
 
-### ICON 2.0 Migration — Community Update
+## ICON 2.0 Migration — Community Update
 
 ![](https://cdn-images-1.medium.com/max/800/1*ACaP2uFftohEr8O7TDF_vA.png)Development Progress, Timeline, and Path Forward
 

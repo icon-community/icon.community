@@ -3,10 +3,9 @@ title: "Post-Mortem of the Network Pause"
 date: 2019-11-25
 slug: post-mortem-of-the-network-pause-be673c7eb7de
 description:
-featured_image:
 ---
 
-### Post-Mortem of the Network Pause
+## Post-Mortem of the Network Pause
 
 ![](https://cdn-images-1.medium.com/max/800/1*t_YzbhE86nBOZTbxVt8_6Q.png)Timeline, Resolution and Upcoming Updates
 

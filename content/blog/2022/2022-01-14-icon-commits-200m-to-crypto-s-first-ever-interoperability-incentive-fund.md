@@ -3,12 +3,11 @@ title: "ICON Commits $200M to Crypto’s First-Ever Interoperability Incentive F
 date: 2022-01-14
 slug: icon-commits-200m-to-cryptos-first-ever-interoperability-incentive-fund-155550671fd
 description:
-featured_image:
 ---
 
-### ICON Commits $200M to Crypto’s First-Ever Interoperability Incentive Fund
+## ICON Commits $200M to Crypto’s First-Ever Interoperability Incentive Fund
 
-#### The fund will be used to incentivize use of BTP technology and the development of cross-chain use cases.
+### The fund will be used to incentivize use of BTP technology and the development of cross-chain use cases.
 
 ![](https://cdn-images-1.medium.com/max/800/1*cTXyXBjYE0bbDtniE_1gGA.jpeg)The ICON Project is proud to announce a 200M ICX (valued at approximately $200M as of today) Interoperability Incentive Program (for link to CoinTelegraph coverage, click [here](https://bit.ly/3tIyFYT)). This is one of the largest incentive funds within the entire blockchain industry and the first ever dedicated entirely to interoperability. The launch of this fund is a critical step toward ensuring ICON’s Blockchain Transmission Protocol (BTP) is among the most widely used and adopted interoperability solutions.
 
@@ -28,13 +27,13 @@ The goal of our incentive program is not to compete for external liquidity or fr
 
 The program will be allocated towards two specific categories, with the goal of supporting products that adopt BTP technology and funding the development of additional BTP use cases.
 
-### 40% towards incentivizing the products that use BTP
+## 40% towards incentivizing the products that use BTP
 
 This funding category will be reserved for incentivizing the usage of existing products that use BTP technology. These funds will establish long-term adoption of BTP interoperability technology within existing protocols and communities. This can include integration of BTP technology for backend bridging, front-end adoption of bridging solutions on protocol application interfaces and integration with bridging aggregator solutions.
 
 To increase the distribution of BTP wrapped assets, we expect the first target of this incentive program to be ICON Nexus, the first product built using BTP technology. It will include boosting yields for specific BTP wrapped assets and establishing partnerships with applications built on BTP integrated blockchains. Increased adoption and distribution of BTP wrapped assets will create more awareness around our bridging solution, increase liquidity on external chains, and create “sticky” capital within our ecosystem. This will be targeted towards liquidity providers and yield farmers residing on both ICON as well as our BTP partner chains. For example, those who provide liquidity on Balanced for a hypothetical MOVR/ICX liquidity pool could receive ICX in addition to existing incentives.
 
-### 60% towards incentivizing the development of new products, integrations and tools around BTP
+## 60% towards incentivizing the development of new products, integrations and tools around BTP
 
 The majority of the incentive program funds will be allocated towards developing high-quality use cases for our BTP technology. There are various cross-chain products that could be built such as DEX aggregators to identify the most optimal routes to fulfill trade orders across chains, yield aggregators that can tap into DeFi products throughout the BTP ecosystem, or structured products such as cross-chain options contracts. There are opportunities to solve issues such as liquidity fragmentation and infinitely wrapped assets.
 
@@ -42,7 +41,7 @@ In addition to funding the development of these use cases, the incentive program
 
 “We’ve come a long way to build such security into our decentralized interoperability solution, which was the main goal of the ICON Project from the very beginning. We’re very confident in BTP’s value to the world, and we’re excited to be working with our community, and many others, to finally put everything we have into BTP through this incentive program,” said Min Kim, founder of the ICON Project.
 
-### Getting started
+## Getting started
 
 The launch of this fund is a call to action for development teams across all ecosystems to come together and explore the cross-chain opportunities that BTP will unlock. Development teams can remain on their native chains and build protocols that will generate transactions and grow their respective ecosystems, while integrating BTP’s cross-chain communication technology.
 
@@ -60,7 +59,7 @@ In addition, ICON has [launched](https://medium.com/helloiconworld/icon-launches
 
 For blockchain projects looking to take part in this interoperability incentive program, please fill out this form: [Incentive Program Application](https://forms.gle/vdirvNBbxria2AN48)
 
-### The Future of ICON
+## The Future of ICON
 
 ICON recently launched ICON 2.0, which introduces a superior core blockchain engine, support for Java smart contracts, the interoperability technology BTP and revamped tokenomics.
 
@@ -70,6 +69,6 @@ ICON will continue to pursue additional BTP integrations, fund innovative BTP us
 
 **More details will be released regarding this incentive program as specific programs and teams receive support. Stay tuned for more information.**
 
-### To join our growing community of ICONists today join our Discord: <https://discord.gg/BvWzx9nZgv>
+## To join our growing community of ICONists today join our Discord: <https://discord.gg/BvWzx9nZgv>
 
 ![](https://cdn-images-1.medium.com/max/800/0*qBtl2dmQnFZotEQF)

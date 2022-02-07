@@ -3,10 +3,9 @@ title: "ICON Development Update — May 2021"
 date: 2021-06-02
 slug: icon-development-update-may-2021-332a09d933e5
 description:
-featured_image:
 ---
 
-### ICON Development Update — May 2021
+## ICON Development Update — May 2021
 
 ![](https://cdn-images-1.medium.com/max/800/1*_Dx0E0XFswsnKxU7YP38_Q.png)BTP Progress Update and ICON 2.0 Migration
 
@@ -16,7 +15,7 @@ This month, core developers continued to make great progress on the migration of
 
 Finally, we’ve added several new hires to the team in recent weeks and are planning to add more over the next couple of months. We’ve also engaged with more 3rd party development teams to lead core components of the ICON ecosystem and are looking to partner with more as we focus on ICON’s core offering while at the same time expanding our developer ecosystem.
 
-### BTP progress update
+## BTP progress update
 
 We are currently in sprint 6 of parachain BTP implementations, and several key contracts are more than 70% completed, including parachain BSH, BMC, BMV and ICON BMV, BMR contracts. We will be continuing the implementation of these core BTP contracts.
 

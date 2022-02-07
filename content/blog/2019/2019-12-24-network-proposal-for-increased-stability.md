@@ -3,10 +3,9 @@ title: "Network Proposal For Increased Stability"
 date: 2019-12-24
 slug: network-proposal-for-increased-stability-20e90168e79
 description:
-featured_image:
 ---
 
-### Network Proposal For Increased Stability
+## Network Proposal For Increased Stability
 
 ![](https://cdn-images-1.medium.com/max/800/1*kVuMudyaAWNmg6ga9KkU6A.png)Revision 8 Activation
 

@@ -3,10 +3,9 @@ title: "KYC Process Starts"
 date: 2017-10-23
 slug: kyc-process-starts-39b8060ac359
 description:
-featured_image:
 ---
 
-### **KYC Process Starts**
+## **KYC Process Starts**
 
 ![](https://cdn-images-1.medium.com/max/800/0*R2kqv3oSwceN7iK7.)The KYC process has begun! The KYC process is implemented to legally protect the ICON project and our contributors. To unlock your ICX Tokens, you must go through the KYC process. The refund process will begin for those who are disqualified at the end of KYC process..
 

@@ -3,10 +3,9 @@ title: "ICON unveils New Transaction Fee System ‘Fee 2.0’"
 date: 2019-07-15
 slug: icon-unveils-new-transaction-fee-system-fee-2-0-7d70b08017da
 description:
-featured_image:
 ---
 
-### **ICON unveils New Transaction Fee System ‘Fee 2.0’**
+## **ICON unveils New Transaction Fee System ‘Fee 2.0’**
 
 ![](https://cdn-images-1.medium.com/max/800/1*wtFJofFhntycHLfOD52fbw.png)Greetings ICONists,
 

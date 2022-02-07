@@ -3,10 +3,9 @@ title: "ICON Launches a Dedicated Audit Fund"
 date: 2021-02-17
 slug: icon-launches-a-dedicated-audit-fund-37c0679e3d29
 description:
-featured_image:
 ---
 
-### ICON Launches a Dedicated Audit Fund
+## ICON Launches a Dedicated Audit Fund
 
 ![](https://cdn-images-1.medium.com/max/800/0*ecIHnJEE-h7PXZkA)Supporting Secure Development for ICON’s Growing Ecosystem
 

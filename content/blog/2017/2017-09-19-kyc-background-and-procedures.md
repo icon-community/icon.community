@@ -3,10 +3,9 @@ title: "KYC Background and Procedures"
 date: 2017-09-19
 slug: kyc-background-and-procedures-b21b3f626f9b
 description:
-featured_image:
 ---
 
-### **KYC Background and Procedures**
+## **KYC Background and Procedures**
 
 ![](https://cdn-images-1.medium.com/max/800/1*-MlUzEHIC8IPBCksEC4EUQ.png)Hi, this is the ICON Team.
 

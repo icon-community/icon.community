@@ -3,10 +3,9 @@ title: "ICON Integrates with Dapp.com"
 date: 2020-03-19
 slug: icon-integrates-with-dapp-com-b96f6c4c0c92
 description:
-featured_image:
 ---
 
-### ICON Integrates with Dapp.com
+## ICON Integrates with Dapp.com
 
 ![](https://cdn-images-1.medium.com/max/800/1*mqRUA_Qaj7uTWID2exrE4g.png)Greetings ICONists,
 

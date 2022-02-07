@@ -3,10 +3,9 @@ title: "ICON Annual Summit: The Genesis — A Quick Summary"
 date: 2018-01-31
 slug: icon-annual-summit-the-genesis-a-quick-summary-448d3e5d7016
 description:
-featured_image:
 ---
 
-### ICON Annual Summit: The Genesis — A Quick Summary
+## ICON Annual Summit: The Genesis — A Quick Summary
 
 ![](https://cdn-images-1.medium.com/max/800/0*LsEwZ8SvvWfygGQI.)Greetings from the ICON Team,
 
@@ -16,7 +15,7 @@ More than 300 people from all over the world have joined the Summit and more tha
 
 For those who have not been able to see the livestream, the key contents of the event are as the following;
 
-### **Key contents**
+## **Key contents**
 
 **1. Mainnet Update**
 

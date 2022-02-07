@@ -3,10 +3,9 @@ title: "ICON IRC-16 Token Standard"
 date: 2020-08-06
 slug: icon-irc-16-token-standard-335b7901460c
 description:
-featured_image:
 ---
 
-### **ICON IRC-16 Token Standard**
+## **ICON IRC-16 Token Standard**
 
 ![](https://cdn-images-1.medium.com/max/800/1*PZr1rNL0wUiDyPFKPTYmAA.png)Security Tokens
 

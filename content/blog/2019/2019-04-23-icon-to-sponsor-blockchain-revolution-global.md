@@ -3,10 +3,9 @@ title: "ICON to Sponsor ‘Blockchain Revolution Global’"
 date: 2019-04-23
 slug: icon-to-sponsor-blockchain-revolution-global-7bbc0d963906
 description:
-featured_image:
 ---
 
-### **ICON to Sponsor ‘Blockchain Revolution Global’**
+## **ICON to Sponsor ‘Blockchain Revolution Global’**
 
 ![](https://cdn-images-1.medium.com/max/800/1*-LYKuRr7vmR6uwYqJmxBZA.jpeg)Greetings from the ICON Team,
 

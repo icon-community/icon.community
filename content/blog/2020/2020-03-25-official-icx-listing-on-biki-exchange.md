@@ -3,10 +3,9 @@ title: "Official ICX listing on BiKi Exchange"
 date: 2020-03-25
 slug: official-icx-listing-on-biki-exchange-8ae4a09f6aa6
 description:
-featured_image:
 ---
 
-### Official ICX listing on BiKi Exchange
+## Official ICX listing on BiKi Exchange
 
 ![](https://cdn-images-1.medium.com/max/800/1*VWX2dIbE9cIuk7ywGfYvnA.png)ICX/USDT Trading Pair
 

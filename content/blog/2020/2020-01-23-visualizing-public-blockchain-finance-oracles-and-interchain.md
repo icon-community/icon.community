@@ -3,10 +3,9 @@ title: "Visualizing Public Blockchain: Finance, Oracles, and Interchain"
 date: 2020-01-23
 slug: visualizing-public-blockchain-finance-oracles-and-interchain-4379664023d4
 description:
-featured_image:
 ---
 
-### **Visualizing Public Blockchain: Finance, Oracles, and Interchain**
+## **Visualizing Public Blockchain: Finance, Oracles, and Interchain**
 
 ![](https://cdn-images-1.medium.com/max/800/1*qOZ3DvbODpidmjzFaP0ZmQ.png)UPDATED DATE/TIME: Meet-up with MakerDAO, Chainlink and ICON
 

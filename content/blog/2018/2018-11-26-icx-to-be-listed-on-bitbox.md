@@ -3,10 +3,9 @@ title: "ICX, To be listed on BITBOX"
 date: 2018-11-26
 slug: icx-to-be-listed-on-bitbox-adf332189779
 description:
-featured_image:
 ---
 
-### **ICX, To be listed on BITBOX**
+## **ICX, To be listed on BITBOX**
 
 ![](https://cdn-images-1.medium.com/max/800/0*fW68LOqbpZTcL1lx)Greetings from the ICON Team,
 

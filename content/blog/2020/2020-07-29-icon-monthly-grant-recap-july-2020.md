@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Recap — July 2020"
 date: 2020-07-29
 slug: icon-monthly-grant-recap-july-2020-a453f2068116
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Recap — July 2020
+## ICON Monthly Grant Recap — July 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*xtKYxRkY7MEybr6thqm3UA.png)Nine Grant Approvals This Month — Highest Total Since Inception
 
@@ -16,7 +15,7 @@ It was another busy month of grant applications and approvals and we continue to
 
 Today, we’re happy to announce that going forward we will be combining the grant program and the P-Rep delegation program.
 
-#### What does this mean?
+### What does this mean?
 
 * Anyone approved for a grant will be eligible to receive 1M ICX delegation for the duration of the grant
 * If you are working on multiple grants at the same time, you will be eligible to combine delegation up to 3x (e.g. the maximum you can earn is 3M ICX delegation if you are working on three separate grants)
@@ -28,7 +27,7 @@ As mentioned before, we feel this change best accomplishes the goal of aligning 
 
 We look forward to seeing the results of these changes and as always will be looking to make improvements over time.
 
-### July 2020
+## July 2020
 
 In July, we’ve are extremely excited to announce that we approved 9 grants . These ranged from service integrations, public relations, DApp development, developer tools and analytics. This has been the busiest month of grant approvals since we launched this program late last year and we are very pleased with the programs’ growth and look forward to approving many more grants throughout the remainder of the year. Please see below for more details on the approved grants this month.
 
@@ -42,7 +41,7 @@ In July, we’ve are extremely excited to announce that we approved 9 grants . 
 * *Infrastructure*: Blockchain Analytics and Data Pipeline — **Insight**
 * *Infrastructure*: Developer Tooling — **Yudas Lab**
 
-#### Prime Trust Integration
+### Prime Trust Integration
 
 Prime Trust is a technology-driven financial institution that provides open infrastructure solutions for FinTech innovators.
 
@@ -56,7 +55,7 @@ As part of this integration, ICON will be added to Prime Trust services and whit
 
 * The Foundation is providing $25,000 for the integration. And this will likely take ~1 month to complete.
 
-#### Transform Group
+### Transform Group
 
 Transform Group is one of the leading blockchain advisory, public relations, and marketing agencies in the world, with offices in Los Angeles, San Francisco, Las Vegas, New York, Toronto, Bermuda, and global headquarters in San Juan, Puerto Rico. Transform Group is dedicated to creating and sustaining industry leadership positions for its clients through superior strategy, relationships, market intelligence, and consistent execution.
 
@@ -68,7 +67,7 @@ We are excited to partner with Transform Group to amplify and grow our brand.
 
 * As part of the approval, ICON Foundation will engage with Transform Group for a minimum of 3 months. And for these services, ICON Foundation will pay $25,000 worth of ICX.
 
-#### K- Pop Content Promoter: Stayge
+### K- Pop Content Promoter: Stayge
 
 STAYGE One is developing a blockchain-based service innovating the entertainment industry. This service, K-Pop Content Promoter, is a system recording how much the K-Pop fans are contributing to the expansion of K-Pop content.
 
@@ -98,7 +97,7 @@ The ICON Foundation will be providing $28,000 in 3 monthly installments based on
 * 2020/09/24 02:00 AM (UTC) — $9,333
 * 2020/10/23 02:00 AM (UTC) — $9,333
 
-#### ICON Development Course in DevEra — ICON DAO
+### ICON Development Course in DevEra — ICON DAO
 
 At DevEra academy and with Vietnam National University support, ICON DAO will offer a formal ICON Blockchain Development course to Vietnam National University’s Engineering student body of over 4000 yearly students.
 
@@ -131,7 +130,7 @@ The ICON Foundation will be providing $27,000 in 5 monthly installments based on
 * 2020/11/24 02:00 AM (UTC) — $5,400
 * 2020/12/23 02:00 AM (UTC) — $5,400
 
-#### ICON Pilipinas Community Building Growth Accelerator
+### ICON Pilipinas Community Building Growth Accelerator
 
 ICON Pilipinas will be accelerating blockchain growth in the Philippines by educating people about ICON. As part of their work they will highlight the major benefits and why ICON should be a premiere blockchain project in the country. And seek to build one of the largest blockchain communities in the country.
 
@@ -151,7 +150,7 @@ The ICON Foundation will be providing $12,000 in 3 monthly installments based on
 * 2020/08/24 02:00 AM (UTC) — $4,000
 * 2020/09/24 02:00 AM (UTC) — $4,000
 
-#### New Dapp integrations: Tipicon — Piconbello
+### New Dapp integrations: Tipicon — Piconbello
 
 Since its inception Tipicon has been a success. For example, in nearly 2 weeks after the Iconbet integration, it managed to create 500,000 transactions with 5 million ICX in volume. This number continues to rise as top users of Iconbet utilize Tipicon to play the games.
 
@@ -173,7 +172,7 @@ The ICON Foundation will be providing $3,500 in 3 monthly installments based on 
 * 2020/08/24 02:00 AM (UTC) — $1,167
 * 2020/09/24 02:00 AM (UTC) — $1,167
 
-#### Project Nebula — ICON Forge
+### Project Nebula — ICON Forge
 
 Project Nebula is a space themed collectible strategy game on the ICON blockchain. It will be released as a cross-platform browser game to ensure accessibility to the widest possible audience. The individual unique planets in Project Nebula will be non-fungible tokens (NFTs), which players can claim inside the game and trade or sell if they wish to do so. There will be several rarity categories for the planets — each planet will have unique design and attributes that will determine how useful and powerful they will be in the game. The game will also include elements from the “4X” genre such as exploration, research and resource management.
 
@@ -193,7 +192,7 @@ The ICON Foundation is going to give out $22,800 in 3 monthly installments based
 * 2020/08/24 02:00 AM (UTC) — $7,600
 * 2020/09/24 02:00 AM (UTC) — $7,600
 
-#### Blockchain Analytics — Insight Data Science
+### Blockchain Analytics — Insight Data Science
 
 Insight intends to track the growth and adoption of ICON. They believe that when the process is built right, insights can be gained in near real time to track items such as monthly active wallets or number of transactions for individual smart contracts and DApps over time. By analyzing the blockchain’s adoption, the community can gain insights into user behavior and act on them by directing resources more appropriately to increase transactions.
 
@@ -215,7 +214,7 @@ The ICON Foundation is going to give out $20,000 in 3 monthly installments based
 * 2020/08/24 02:00 AM (UTC) — $6,666
 * 2020/09/24 02:00 AM (UTC) — $6,667
 
-#### ICON Contract Hub — Yudas Lab
+### ICON Contract Hub — Yudas Lab
 
 Yudas Lab will be improving the developer experience by building blockchain tools for the ICON Network. Below are the new tools to be built:
 

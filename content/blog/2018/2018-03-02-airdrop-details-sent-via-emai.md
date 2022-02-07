@@ -3,10 +3,9 @@ title: "Airdrop details sent via email"
 date: 2018-03-02
 slug: airdrop-details-sent-via-email-dc48a9709a
 description:
-featured_image:
 ---
 
-### Airdrop details sent via email
+## Airdrop details sent via email
 
 ![](https://cdn-images-1.medium.com/max/800/1*_83yRvRgaoNGYUx81LGI5g.png)Greetings from the ICON team.
 

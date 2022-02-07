@@ -3,10 +3,9 @@ title: "ICON (ICX) Holiday Airdrop Quiz"
 date: 2018-12-24
 slug: icon-icx-holiday-airdrop-quiz-df37932b7593
 description:
-featured_image:
 ---
 
-### **ICON (ICX) Holiday Airdrop Quiz**
+## **ICON (ICX) Holiday Airdrop Quiz**
 
 ![](https://cdn-images-1.medium.com/max/800/1*70ewZUaMt06Rq5EUasRyvA.png)Greetings from the ICON Team,
 

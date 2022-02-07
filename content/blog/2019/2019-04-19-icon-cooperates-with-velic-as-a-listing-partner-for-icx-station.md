@@ -3,10 +3,9 @@ title: "ICON cooperates with VELIC as a listing partner for ICX Station"
 date: 2019-04-19
 slug: icon-cooperates-with-velic-as-a-listing-partner-for-icx-station-d68c0aa89d3
 description:
-featured_image:
 ---
 
-### **ICON cooperates with VELIC as a listing partner for ICX Station**
+## **ICON cooperates with VELIC as a listing partner for ICX Station**
 
 ![](https://cdn-images-1.medium.com/max/800/1*JLH5UHuHTpHghHPKGvp7nQ.png)Greetings from the ICON Team,
 

@@ -3,10 +3,9 @@ title: "Certik Audit of ICON Smart Contracts Completed"
 date: 2020-07-09
 slug: certik-audit-of-icon-smart-contracts-completed-1e8c2f5cb027
 description:
-featured_image:
 ---
 
-### Certik Audit of ICON Smart Contracts Completed
+## Certik Audit of ICON Smart Contracts Completed
 
 ![](https://cdn-images-1.medium.com/max/800/1*_lh_gWSC7hpMmbgOMv8_uQ.png)Ensuring the security of our network
 

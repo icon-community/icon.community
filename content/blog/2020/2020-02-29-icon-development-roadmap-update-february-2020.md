@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — February 2020"
 date: 2020-02-29
 slug: icon-development-roadmap-update-february-2020-59fb74bd020a
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — February 2020
+## ICON Development Roadmap Update — February 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*hwR8HA32GYEM7IniiFhUIw.png)2020 Roadmap Recap, LFT 2.0, Sidechain and IISS 3.0
 

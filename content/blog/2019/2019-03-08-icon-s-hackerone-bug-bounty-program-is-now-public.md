@@ -3,10 +3,9 @@ title: "ICON’s HackerOne Bug Bounty Program is Now Public"
 date: 2019-03-08
 slug: icons-hackerone-bug-bounty-program-is-now-public-bb399a4a3a0e
 description:
-featured_image:
 ---
 
-### ICON’s HackerOne Bug Bounty Program is Now Public
+## ICON’s HackerOne Bug Bounty Program is Now Public
 
 ![](https://cdn-images-1.medium.com/max/800/1*YDJ5Ez6w2oGXz63BcqJR2Q.png)Greetings from the ICON Team,
 

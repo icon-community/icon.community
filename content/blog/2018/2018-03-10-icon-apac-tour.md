@@ -3,10 +3,9 @@ title: "ICON APAC Tour"
 date: 2018-03-10
 slug: icon-apac-tour-16bd82292393
 description:
-featured_image:
 ---
 
-### ICON APAC Tour
+## ICON APAC Tour
 
 ![](https://cdn-images-1.medium.com/max/800/0*1gnTqWYZN261vNbD.)Greetings from ICON Team!
 
@@ -17,7 +16,7 @@ More updates will follow on our Facebook and Twitter page, please stay tuned!
 Facebook: <https://www.facebook.com/helloicon>  
 Twitter: <https://twitter.com/@helloiconworld>
 
-### Meetups
+## Meetups
 
 RSVP shortly available on meetup.com
 
@@ -33,7 +32,7 @@ You can also meet ICON team in…
 * [TOKEN 2049](http://www.token2049.com), March 20 : *Interchain Redefined — Extended Decentralization*
 * [Global Blockchain (Hangzhou) Summit Forum](http://www.8btc.com/summit_en.html), March 26
 
-### DApp Teams
+## DApp Teams
 
 **Tink**
 

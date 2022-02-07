@@ -3,10 +3,9 @@ title: "KYC Submission Period Ends"
 date: 2017-11-13
 slug: kyc-submission-period-ends-2d5ca28cd416
 description:
-featured_image:
 ---
 
-### KYC Submission Period Ends
+## KYC Submission Period Ends
 
 ![](https://cdn-images-1.medium.com/max/800/0*Esi1eb74JJTgnLz5.)Greetings from the ICON Team,
 

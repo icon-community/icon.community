@@ -3,10 +3,9 @@ title: "ICON Developers Portal Official Launch"
 date: 2018-08-31
 slug: icon-developers-portal-official-launch-12a84967651a
 description:
-featured_image:
 ---
 
-### ICON Developers Portal Official Launch
+## ICON Developers Portal Official Launch
 
 ![](https://cdn-images-1.medium.com/max/800/1*So8uOFzvdQa2xcDgkCqpXA.png)Greeting from the ICON Team,
 

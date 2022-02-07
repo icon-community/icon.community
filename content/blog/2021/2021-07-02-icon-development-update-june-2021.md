@@ -3,10 +3,9 @@ title: "ICON Development Update — June 2021"
 date: 2021-07-02
 slug: icon-development-update-june-2021-f03484dd3068
 description:
-featured_image:
 ---
 
-### ICON Development Update — June 2021
+## ICON Development Update — June 2021
 
 ![](https://cdn-images-1.medium.com/max/800/1*jhW0O6A_sRX7QiNnw0zRxw.png)ICON 2.0 Migration, BTP Ecosystem, and ICE Blockchain
 
@@ -18,7 +17,7 @@ In the 2nd half of 2021, we want to deliver a smooth and successful launch of IC
 
 We are busy, but we are excited. The team is re-energized, motivated, and pushing ourselves to be the best. The work ahead is challenging, but the opportunity is vast. Now, let’s dive into the updates.
 
-### ICON 2.0
+## ICON 2.0
 
 Internal development teams continue making progress on block migration, IISS, fee updates, and other critical pieces of infrastructure for the network: trackers, wallets, etc. The target launch date for Mainnet hasn’t settled just yet, however, we will keep the community updated as we progress through the above development work.
 
@@ -26,7 +25,7 @@ Note, we will also be preparing plans for the update for all the service provide
 
 Lastly, we will propose an initial IISS 3.1 update shortly. Please refer to the forum for further details and corresponding community discussions. As a reminder, this proposal will be an initial economic design for the ICON ecosystem within the ICON 2.0 framework and the addition of relayers.
 
-### BTP ecosystem
+## BTP ecosystem
 
 We are currently in sprint 9 of parachain BTP implementations, and several key contracts are more than 70% completed, including parachain BSH, BMC, BMV, and ICON BMV, BMR. We are continuing implementation on these core BTP contracts.
 
@@ -38,7 +37,7 @@ Furthermore, additional ecosystem integrations are ongoing. Many in the communit
 
 Lastly, we continue to develop the BTP user interface and dashboard. We hope to share more visuals, and information on these in the coming weeks.
 
-### ICE Blockchain
+## ICE Blockchain
 
 Two weeks ago, we announced the addition of a new blockchain into the ICON Ecosystem called ICE. ICE is a new EVM compatible side chain that enables developers to iterate and innovate much faster by using existing tooling and code from the Ethereum ecosystem. Additionally, we are adding eWASM support that puts us ahead of the game, preparing us for ETH 2.0 compatibility.
 

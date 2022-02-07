@@ -3,14 +3,13 @@ title: "Online Channels Integration and Migration / Community Ambassador Recruit
 date: 2018-01-12
 slug: online-channels-integration-and-migration-community-ambassador-recruiting-notice-4a1fa131a064
 description:
-featured_image:
 ---
 
-### **Online Channels Integration and Migration / Community Ambassador Recruiting Notice**
+## **Online Channels Integration and Migration / Community Ambassador Recruiting Notice**
 
 ![](https://cdn-images-1.medium.com/max/800/1*qLGjn-iAC0UD-YqsoBVNJg.png)Greetings from the ICON Team,
 
-### Online Channels Integration and Migration
+## Online Channels Integration and Migration
 
 Thank you for your love and attention toward the ICON community. To bring our community closer, the ICON Team has decided to bring major changes to our online channels as of **Friday, January 19, 2018 at 17:00 PM KST (GMT+9)**. Details are as follows:
 

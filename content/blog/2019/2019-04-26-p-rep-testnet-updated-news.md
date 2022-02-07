@@ -3,10 +3,9 @@ title: "P-Rep TestNet Updated News"
 date: 2019-04-26
 slug: p-rep-testnet-updated-news-a191a5b64dc1
 description:
-featured_image:
 ---
 
-### **P-Rep TestNet Updated News**
+## **P-Rep TestNet Updated News**
 
 ![](https://cdn-images-1.medium.com/max/800/1*ATbypMEncpwtnoubnhL9fw.png)Greetings from the ICON Team,
 

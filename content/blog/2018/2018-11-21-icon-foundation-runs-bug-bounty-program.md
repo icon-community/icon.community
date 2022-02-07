@@ -3,10 +3,9 @@ title: "ICON Foundation Runs Bug Bounty Program"
 date: 2018-11-21
 slug: icon-foundation-runs-bug-bounty-program-556e72979297
 description:
-featured_image:
 ---
 
-### ICON Foundation Runs Bug Bounty Program
+## ICON Foundation Runs Bug Bounty Program
 
 ![](https://cdn-images-1.medium.com/max/800/1*e0tpNgWI6-PLGXc7vNoVlg.png)Greetings from the ICON Team,
 

@@ -3,14 +3,13 @@ title: "Path to Sustainable Economics"
 date: 2020-05-26
 slug: path-to-sustainable-economics-450be4137724
 description:
-featured_image:
 ---
 
-### Path to Sustainable Economics: P-Rep Commission Rates
+## Path to Sustainable Economics: P-Rep Commission Rates
 
 ![](https://cdn-images-1.medium.com/max/800/0*yxiTQ4WEJP1LXizd)The Path to Sustainable Economics will serve as guidance for P-Reps and a starting point for making upgrades to the ICON Network. This post will cover a new understanding of i\_rep as the P-Rep Commission Rate. We appreciate all the feedback and effort from the community to help us improve on various aspects of our economic policies.
 
-### Expressing i\_rep as the “P-Rep Commission Rate”
+## Expressing i\_rep as the “P-Rep Commission Rate”
 
 Other networks, such as [Cosmos](https://www.mintscan.io/validators) and [Tezos](https://mytezosbaker.com/), have the concept of a commission or fee charged by block validators. Block rewards are given directly to validators, then are passed on to voters after the validator takes their commission for the service provided (block validation and governance). Each Validator chooses their own commission rate, and the example below illustrates a Validator that charges a 15% commission.
 
@@ -42,7 +41,7 @@ As you can see, the actual number of ICX going to voters remains constant regard
 
 ![](https://cdn-images-1.medium.com/max/800/0*RF1ZUiMTLfFCDCyi)ICON’s format is beneficial in that there is no need to trust a P-Rep to pay your share of rewards, however, expressing commission rates as the little-understood “i\_rep governance variable” has confused the ICON community by obfuscating the true commission rate. We believe that now is the time to take action and clarify our economic structure.
 
-### Fixing the Problem
+## Fixing the Problem
 
 Commission Rates on other networks ([Cosmos](https://www.mintscan.io/validators), [Tezos](https://mytezosbaker.com/)) range from 0% (promos offered by new validators) to more than 20% (typically offered by the largest validators that don’t want extra delegation). **The current P-Rep Commission Rate, based on an i\_rep of 37,500, is 36%** (not including Main P-rep rewards), almost double the highest commission rates on other networks.
 
@@ -58,7 +57,7 @@ P-Rep Commision Rate = P-rep Reward Rate / (Voter Reward Rate + P-rep Reward Rat
 
 P-rep Reward Rate (for 1 ICX vote): 1 / Total Network Votes x 100 x 12 x i\_rep / 2
 
-### Other Considerations
+## Other Considerations
 
 We expect a few key questions in response to these changes and wanted to cover them in advance.
 

@@ -3,10 +3,9 @@ title: "Rescheduling Announcement: P-Rep TestNet 3rd Phase"
 date: 2019-09-04
 slug: rescheduling-announcement-p-rep-testnet-3rd-phase-7cc4363d169a
 description:
-featured_image:
 ---
 
-### Rescheduling Announcement: P-Rep TestNet 3rd Phase
+## Rescheduling Announcement: P-Rep TestNet 3rd Phase
 
 ![](https://cdn-images-1.medium.com/max/800/0*R3g_lGH2v4EsxGK5)Calling All P-Reps For Decentralization Simulation!
 

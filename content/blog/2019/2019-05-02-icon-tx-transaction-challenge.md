@@ -3,12 +3,11 @@ title: "ICON TX (Transaction) Challenge"
 date: 2019-05-02
 slug: icon-tx-transaction-challenge-23b9959e6cdb
 description:
-featured_image:
 ---
 
-### **ICON TX (Transaction) Challenge**
+## **ICON TX (Transaction) Challenge**
 
-![](https://cdn-images-1.medium.com/max/800/1*gFFRSuBObk_LF1nA5V5Z1w.png)### [**>>> Official “ICON TX CHALLENGE” Website**](https://txchallenge.icon.foundation/#/?lang=en)**<<<**
+![](https://cdn-images-1.medium.com/max/800/1*gFFRSuBObk_LF1nA5V5Z1w.png)## [**>>> Official “ICON TX CHALLENGE” Website**](https://txchallenge.icon.foundation/#/?lang=en)**<<<**
 
 Greetings from the ICON Team,
 

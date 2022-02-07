@@ -3,10 +3,9 @@ title: "ICON TX CHALLENGE : ICON’s Got Talent"
 date: 2019-06-28
 slug: icon-tx-challenge-icons-got-talent-3d534d1cfea8
 description:
-featured_image:
 ---
 
-#### ICON TX CHALLENGE : **ICON’s Got Talent**
+### ICON TX CHALLENGE : **ICON’s Got Talent**
 
 ![](https://cdn-images-1.medium.com/max/800/0*WXq3MTlz8MIM3Dde)Greetings ICONists,
 
@@ -14,7 +13,7 @@ ICON TX Challenge officially began on June 3rd, and it has successfully generate
 
 We sincerely appreciate all the interests from the community so far and are excited to announce the official schedule for ICON’s Got Talent.
 
-### ICON’s Got Talent (Final Award)
+## ICON’s Got Talent (Final Award)
 
 **Total Award** : 300,000 ICX
 

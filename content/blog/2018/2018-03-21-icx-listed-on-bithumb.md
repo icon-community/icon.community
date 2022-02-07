@@ -3,10 +3,9 @@ title: "ICX Listed on Bithumb"
 date: 2018-03-21
 slug: icx-listed-on-bithumb-c721a143b073
 description:
-featured_image:
 ---
 
-### ICX Listed on Bithumb
+## ICX Listed on Bithumb
 
 ![](https://cdn-images-1.medium.com/max/800/1*isrbyEunR-59Br_bd647jg.png)ICX Token is listed on Bithumb Exchange today!   
 You can buy and sell ICX Tokens freely on the Bithumb Exchange.  

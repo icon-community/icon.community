@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — April 2021"
 date: 2021-05-03
 slug: icon-development-roadmap-update-april-2021-da8fc081cc75
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — April 2021
+## ICON Development Roadmap Update — April 2021
 
 ![](https://cdn-images-1.medium.com/max/800/1*QbWz4ow58jaARIC2wRKMUA.png)ICON 2.0 Alpha Testnet Released and BTP Working Group
 
@@ -14,7 +13,7 @@ Greetings ICONists,
 
 The team continues to progress on the ICON 2.0 migration and expanding the BTP working group. Highlighting this month’s activity was the launch of the Alpha Testnet which includes features of our new ICON 2.0 network. Additionally, we provided more details around how BTP will be integrated into other networks. Stay tuned for more announcements on that front very soon!
 
-#### 1. Sejong, the ICON 2.0 Alpha Testnet
+### 1. Sejong, the ICON 2.0 Alpha Testnet
 
 We launched the testnet which is run by the alpha version of the ICON 2.0 implementation. To fully test this implementation publicly, everyone can see and experience ICON 2.0 through ICONex and ICON Tracker for Sejong.
 
@@ -28,7 +27,7 @@ This testnet will continue to be upgraded as new updates are released and could 
 
 To receive test ICX, please send an email to `hello@icon.foundation` with the name of network, amount, and your address.
 
-#### 2. BTP Working Group
+### 2. BTP Working Group
 
 We’ve also announced that we are integrating our BTP solution with the Polkadot ecosystem to bring more value from the external ecosystem into the ICON. Acala, Moonbeam, Edgeware, and Plasm, four of the top parachain candidates in the Polkadot Ecosystem, will be the first to be integrated into ICON’s BTP interoperability solution.
 

@@ -3,10 +3,9 @@ title: "ICON Tracker Status Update"
 date: 2019-04-12
 slug: icon-tracker-status-update-4d154ec47576
 description:
-featured_image:
 ---
 
-### **ICON Tracker Status Update**
+## **ICON Tracker Status Update**
 
 ![](https://cdn-images-1.medium.com/max/800/1*xrgstZCHvxlWOZPKrcslBA.png)Greetings from the ICON Team,
 

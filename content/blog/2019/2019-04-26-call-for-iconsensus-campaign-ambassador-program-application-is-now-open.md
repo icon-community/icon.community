@@ -3,10 +3,9 @@ title: "Call for ICONSENSUS Campaign Ambassador Program — Application is N
 date: 2019-04-26
 slug: call-for-iconsensus-campaign-ambassador-program-application-is-now-open-955c166708e8
 description:
-featured_image:
 ---
 
-### **Call for ICONSENSUS Campaign Ambassador Program —**Application is Now Open
+## **Call for ICONSENSUS Campaign Ambassador Program —**Application is Now Open
 
 ![](https://cdn-images-1.medium.com/max/800/1*qwAOZN3-w-Fu__Oj43i42Q.png)Greetings from the ICON Team,
 
@@ -14,7 +13,7 @@ We are pleased to announce the **ICONSENSUS Campaign Ambassador Program.** The I
 
 ICON is looking for **10 ICONSENSUS Campaign Ambassadors** who will promote ICON’s journey towards mass adoption, starting with the P-Rep election amongst blockchain enthusiasts. Any ICONist with a strong will to help us spread the spirit of the ICON Network is eligible for the Campaign Ambassador role — **the application is now open** ([link](https://iconsensus.typeform.com/to/teokdc))! Please refer to the information below for further details.
 
-### **ICONSENSUS Campaign Ambassador Program**
+## **ICONSENSUS Campaign Ambassador Program**
 
 **ICON will recruit 10 ambassadors who will play a role as the campaign advocates for 3 months**
 

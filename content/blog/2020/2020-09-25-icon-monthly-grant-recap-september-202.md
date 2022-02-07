@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Recap — September 2020"
 date: 2020-09-25
 slug: icon-monthly-grant-recap-september-2020-9a564d6964
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Recap — September 2020
+## ICON Monthly Grant Recap — September 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*0AMbanlzFUK4rKslBukkKQ.png)New ICON-focused Website
 
@@ -16,7 +15,7 @@ In September, we’ve approved 1 grant to build a new and informative website/po
 
 Given the limited number of approved grants this month, we’ll also provide a recap of progress reports received over the past several weeks that have been approved by the Foundation below. As a reminder, we are actively seeking to deploy funds to interested teams/individuals to help grow our ecosystem. Any interested parties should apply [here](https://forum.icon.community/c/g/31) for consideration. We look forward to supporting your initiatives.
 
-#### [ICONrepublic.org](https://forum.icon.community/t/grant-application-the-icon-republic-www-iconrepublic-org/1179)
+### [ICONrepublic.org](https://forum.icon.community/t/grant-application-the-icon-republic-www-iconrepublic-org/1179)
 
 Currently, the ICON Foundation website is in need of a re-design and doesn’t contain the most up to date information related to (or fully reflect) all of the aspects of the ICON project. [www.iconrepublic.org](http://www.iconrepublic.org/) will be a website which will be a ‘one-stop’ solution for all those who want to learn and understand ICON and not just the Foundation’s role. It will be for both hardened crypto enthusiasts and for crypto beginners. [ICON Hyperconnect](https://www.iconhyperconnect.com) will showcase ICON’s full potential and initiatives in an accessible (single glance), aesthetically pleasing manner.
 
@@ -40,9 +39,9 @@ The ICON Foundation is going to give out $9,500 in 3 monthly installments based 
 * 2020/10/23 02:00 AM (UTC) — $3,166
 * 2020/11/24 02:00 AM (UTC) — $3,167
 
-### Progress Reports
+## Progress Reports
 
-#### [ICON Africa and ICX Army](https://forum.icon.community/t/icon-africa-development-initiative-icxarmy-report/1214/2)
+### [ICON Africa and ICX Army](https://forum.icon.community/t/icon-africa-development-initiative-icxarmy-report/1214/2)
 
 Since approval, a total of 4 meet-ups have been held across Nigeria and Ghana. The ICON community grant program has funded 3 of these. You can see the details of each event below:
 
@@ -55,7 +54,7 @@ Additionally, ICON Africa hosted an AMA session with Binance Nigeria.
 
 * <https://medium.com/iconafrica/transcript-of-icon-africa-ama-on-binance-nigeria-cd4b0172416b>
 
-#### [Bridge and ICON documentation](https://forum.icon.community/t/bridge-and-icon-documentation-periodic-reports/1210)
+### [Bridge and ICON documentation](https://forum.icon.community/t/bridge-and-icon-documentation-periodic-reports/1210)
 
 As previously noted, Parrot9 plans to complete Bridge before moving on to the ICON documentation. Here is the latest info for Bridge.
 
@@ -74,7 +73,7 @@ And here are the project milestones:
 
 Currently the project is 65% complete and the remaining time to completion is 8 weeks.
 
-#### [OpenDevICON (ODI) Continuing Development](https://forum.icon.community/t/periodic-report-opendevicon-odi-continuing-development/1213)
+### [OpenDevICON (ODI) Continuing Development](https://forum.icon.community/t/periodic-report-opendevicon-odi-continuing-development/1213)
 
 Just like the IRC2 library, Ibriz has initiated a SCORE library for Non Fungible Tokens(NFT) as well. We have created an [IRC3 Library 1](https://github.com/OpenDevICON/odi-contracts/tree/master/ODIContracts/tokens/IRC3)based on IRC3 standard, that will support creation of IRC3 tokens providing additional functionality than IRC3 standard.
 

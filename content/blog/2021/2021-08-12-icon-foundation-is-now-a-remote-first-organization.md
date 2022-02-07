@@ -3,10 +3,9 @@ title: "ICON Foundation is Now a Remote-first Organization"
 date: 2021-08-12
 slug: icon-foundation-is-now-a-remote-first-organization-1cc1e64f1586
 description:
-featured_image:
 ---
 
-### ICON Foundation is Now a Remote-first Organization
+## ICON Foundation is Now a Remote-first Organization
 
 Following the spirit of decentralization of the ICON Network, the ICON Foundation aims to build a world-class, distributed team without a headquarters
 

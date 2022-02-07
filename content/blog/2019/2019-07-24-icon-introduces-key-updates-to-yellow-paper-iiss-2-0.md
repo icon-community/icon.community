@@ -3,10 +3,9 @@ title: "ICON Introduces Key Updates to Yellow Paper (IISS 2.0)"
 date: 2019-07-24
 slug: icon-introduces-key-updates-to-yellow-paper-iiss-2-0-fa008aa3f15d
 description:
-featured_image:
 ---
 
-### ICON Introduces Key Updates to Yellow Paper (IISS 2.0)
+## ICON Introduces Key Updates to Yellow Paper (IISS 2.0)
 
 ![](https://cdn-images-1.medium.com/max/800/1*jNA72c3gIRXqsSxGud5B5A.png)Greetings ICONists,
 
@@ -18,11 +17,11 @@ If you do not understand any terminology mentioned in this update, we encourage 
 
 [**>>>Yellow Paper — IISS 2.0**](https://m.icon.foundation/download/IISS_Paper_v2.0_EN.pdf)
 
-### Update Overview
+## Update Overview
 
 The new incentives model includes more details on the penalty system, a new ICX issuance system that creates a situation where ICX can be burned during high network activity, and a change in the transaction fee policy.
 
-### Penalty System
+## Penalty System
 
 ICON’s penalty system now has a token burning component. There are 3 types of penalties outlined in the IISS paper: Validation Penalty, Low Productivity Penalty, and Disqualification Penalty.
 
@@ -30,7 +29,7 @@ If a P-Rep suffers a Low Productivity Penalty or a Disqualification Penalty, 6% 
 
 We encourage ICONists to delegate across multiple P-Reps to diversify the risk of having their tokens burned.
 
-### ICX Issuance System
+## ICX Issuance System
 
 IISS has introduced a system that burns tokens during high network activityand mitigates the amount of inflation on the ICON Network. When a block is produced, there will always be a certain amount of ICX required in order to reward the 4 different contributors in the ICON ecosystem: Voters, Representatives, DApps, and EEPs. With the new system in place, transaction fees will now be used to reward these 4 parties rather than being used as an additional incentive for P-Reps.
 
@@ -38,11 +37,11 @@ Additionally, if the amount of transaction fees within a block exceeds the amoun
 
 As an example, assume that 10 ICX would be necessary to reward all 4 parties. If there were 3 ICX worth of transaction fees in the block, only 7 ICX would be minted. If there were 15 ICX worth of transaction fees in the block, then 5 ICX would be burnt and no ICX would be minted. This creates a deflationary environment in the situation of high network utilization.
 
-### Transaction Fee Policy
+## Transaction Fee Policy
 
 Finally, Step Price — the base transaction fee on the ICON Network, is now easily adjustable via consensus of P-Reps on a [Network Proposal](https://helloiconworld.freshdesk.com/a/solutions/articles/35000132164-network-proposal) (Specifically, a Step Price Proposal). We have included a specific proposal type into the ICON core service allowing P-Reps to vote to change the transaction fee, and the network will automatically implement the change once agreed upon. Previously, this would have required a hard fork.
 
-### Additional Changes
+## Additional Changes
 
 * **Representative Term:** A Representative Term on the ICON Network is 43,120 blocks. Governance variables, P-Rep ranking, and more minor details are fixed during a block cycle.
 * **Maximum Inflation**: The maximum combined annualized inflation from governance variables (i\_rep, i\_eep, and i\_dapp) is 14%. P-Rep submissions that violate this rule will be ignored.

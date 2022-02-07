@@ -3,10 +3,9 @@ title: "Introducing ICON’s DAO Based Governance System"
 date: 2019-08-28
 slug: introducing-icons-dao-based-governance-system-a4f807522e
 description:
-featured_image:
 ---
 
-### Introducing ICON’s DAO Based Governance System
+## Introducing ICON’s DAO Based Governance System
 
 ![](https://cdn-images-1.medium.com/max/800/1*SdlgZFVM5hhR5Jmd8ibZwg.png)Contribution Proposal Framework
 

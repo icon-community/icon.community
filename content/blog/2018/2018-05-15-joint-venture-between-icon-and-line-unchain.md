@@ -3,10 +3,9 @@ title: "Joint Venture between ICON and LINE: ‘Unchain’"
 date: 2018-05-15
 slug: joint-venture-between-icon-and-line-unchain-b802fa0fa071
 description:
-featured_image:
 ---
 
-### Joint Venture between ICON and LINE: ‘Unchain’
+## Joint Venture between ICON and LINE: ‘Unchain’
 
 ![](https://cdn-images-1.medium.com/max/800/1*nDb7_9P_vYQtGRoDIPB1WQ.png)Greetings from the ICON Team,
 

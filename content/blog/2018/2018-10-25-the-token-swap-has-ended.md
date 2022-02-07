@@ -3,10 +3,9 @@ title: "The Token Swap has Ended"
 date: 2018-10-25
 slug: the-token-swap-has-ended-33da57b302d0
 description:
-featured_image:
 ---
 
-### **The Token Swap has Ended**
+## **The Token Swap has Ended**
 
 ![](https://cdn-images-1.medium.com/max/800/0*19E8GlvhXpryV8-L)Greetings from the ICON Team,
 
@@ -20,7 +19,7 @@ Unswapped MainNet ICX will be held in a reserve only for individuals or exchange
 
 Thank you for your patience and support during the token swap. ICON is now looking to the future as we continue to strive towards a Hyperconnected world.
 
-### ***Note**
+## ***Note**
 
 - Please be careful with fraud attempts using the unswapped ERC20 ICX Token. For example, check to make sure the proposed ICX transaction uses an address that starts with “hx”, NOT “0x”. The ICON Team is not responsible for individual’s property damage caused by transactions of ERC20 ICX Tokens. Please report any fraud attempts to [support@icon.foundation](http://support@icon.foundation)
 

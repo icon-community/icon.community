@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — October 2020"
 date: 2020-10-31
 slug: icon-development-roadmap-update-october-2020-12fb772ac51d
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — October 2020
+## ICON Development Roadmap Update — October 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*WqSJQL7WvL0p1L9gK71e1w.png)Gangnam Testnet Release and Update on Contribution Proposal System
 
@@ -14,7 +13,7 @@ Greetings ICONists,
 
 This month was highlighted by the release of the ICON 2.0 Testnet Gangnam and the JAVA SCORE environment. Additionally, we have made significant progress on the Contribution Proposal System (CPS) and are expecting the release to mainnet very soon. Please see below for the latest timeline and further information on these developments.
 
-#### 1. ICON 2.0 Testnet Gangnam has been launched
+### 1. ICON 2.0 Testnet Gangnam has been launched
 
 ICON 2.0 Testnet, Gangnam, has been successfully launched. Gangnam is the testnet that enables the Java SCORE and provides developers an opportunity to test ahead of the ICON 2.0 launch. Note, you can immediately start developing Java SCORE on the testnet using Goloop CLI Tools.
 
@@ -31,7 +30,7 @@ Since Java SCORE is a faster and more sustainable smart contract environment, we
 * <https://faucet.sharpn.tech/>
 * [https://gicon.ibriz.ai](https://gicon.ibriz.ai/)
 
-#### 2. Contribution Proposal System (CPS)
+### 2. Contribution Proposal System (CPS)
 
 Significant progress has been made over the past month on the Contribution Proposal System with excellent work from the iBriz-Iconosphere P-Rep team. We are targeting the end of November or early December for the mainnet deployment of the CPS. The user interface is nearly complete. Smart contract work is progressing ahead of schedule, with much of the base logic already in code (P-Rep registration, P-Rep voting, application submission, etc.).
 

@@ -3,12 +3,11 @@ title: "ICONFi now supports ERC20 ICX for the Ethereum DeFi Ecosystem"
 date: 2021-10-01
 slug: iconfi-now-supports-erc20-icx-for-the-ethereum-defi-ecosystem-afb3bde58943
 description:
-featured_image:
 ---
 
-### ICONFi now supports ERC20 ICX for the Ethereum DeFi Ecosystem
+## ICONFi now supports ERC20 ICX for the Ethereum DeFi Ecosystem
 
-### Easily Convert your ICX to ERC20 ICX with ICONFi
+## Easily Convert your ICX to ERC20 ICX with ICONFi
 
 ![](https://cdn-images-1.medium.com/max/800/1*Og8ZmHNM0v1R06b9SdM6Bw.jpeg)Dear ICONists,
 
@@ -25,7 +24,7 @@ To make the swap on ICONFi, follow these simple steps:
 
 For a more detailed explanation, please check out the [guide on the ICONFi Medium](https://medium.com/@helloiconworld/afb3bde58943).
 
-![](https://cdn-images-1.medium.com/max/800/1*a1pGcDHlpbok__G71Y2Rtw.png)Wrapping native ICX to ERC20 ICX on ICONFi### Join the ICON Community
+![](https://cdn-images-1.medium.com/max/800/1*a1pGcDHlpbok__G71Y2Rtw.png)Wrapping native ICX to ERC20 ICX on ICONFi## Join the ICON Community
 
 For more information about ICON, [visit our website](https://iconrepublic.org/) & [subscribe](https://foundation.us15.list-manage.com/subscribe?u=d8b1e5594bd92c54dc0c7141c&id=fbc02bbf32)
 

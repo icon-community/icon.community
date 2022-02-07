@@ -3,12 +3,11 @@ title: "Don Tapscott Joins ICON Foundation Board of Advisors"
 date: 2017-09-11
 slug: don-tapscott-joins-icon-foundation-board-of-advisors-519631176bb4
 description:
-featured_image:
 ---
 
-### Don Tapscott Joins ICON Foundation Board of Advisors
+## Don Tapscott Joins ICON Foundation Board of Advisors
 
-#### Don Tapscott, named one of the most influential persons in the blockchain industry, joins ICON Foundation Board of Advisors
+### Don Tapscott, named one of the most influential persons in the blockchain industry, joins ICON Foundation Board of Advisors
 
 ![](https://cdn-images-1.medium.com/max/800/1*qASJPgUZ9PQBkhMgTJRU4Q.jpeg)Don Tapscott joins ICON Foundation Board of Advisor. Tapscott is one of the world’s leading authorities on innovation, media, and the economic and social impact of technology. He also advises business and government leaders around the world. He has authored or co-authored 15 widely read books all over the world, including the international best-seller Blockchain Revolution, which he co-authored with his son, Alex Tapscott. In 2015, Thinkers50 named Don Tapscott as the 4th most important business thinker in the world. In 2017, he established The Blockchain Research Institute, the world’s leading think-tank dedicated to understanding blockchain opportunities, challenges and use-cases.
 

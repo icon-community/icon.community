@@ -3,10 +3,9 @@ title: "A Demographic Breakdown of ICON Contributors and Communities"
 date: 2018-01-09
 slug: a-demographic-breakdown-of-icon-contributors-and-communities-fc20c42c5457
 description:
-featured_image:
 ---
 
-### A Demographic Breakdown of ICON Contributors and Communities
+## A Demographic Breakdown of ICON Contributors and Communities
 
 ![](https://cdn-images-1.medium.com/max/800/1*qLGjn-iAC0UD-YqsoBVNJg.png)Greetings from the ICON Team,
 

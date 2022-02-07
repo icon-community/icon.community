@@ -3,10 +3,9 @@ title: "Reminder: Exchanges Supporting the ICX MainNet Token Swap"
 date: 2018-10-13
 slug: reminder-exchanges-supporting-the-icx-mainnet-token-swap-3e7b65f06e78
 description:
-featured_image:
 ---
 
-### **Reminder: Exchanges Supporting the ICX MainNet Token Swap**
+## **Reminder: Exchanges Supporting the ICX MainNet Token Swap**
 
 ![](https://cdn-images-1.medium.com/max/800/0*kdgCzOYkaSX9-M9H)Greetings from the ICON Team,
 
@@ -26,7 +25,7 @@ For exchanges not mentioned above, token swap is not supported, therefore the to
 
 The token swap will end on the 25th of October and loss may occur if swap is not completed. We highly recommend you to swap your tokens before the deadline.
 
-#### Using ICONex: Detailed Guide — [Click here](https://drive.google.com/file/d/1ADzDpBy7XPMPleuCoHDB3EbZwqLcYLf1/view?usp=sharing)
+### Using ICONex: Detailed Guide — [Click here](https://drive.google.com/file/d/1ADzDpBy7XPMPleuCoHDB3EbZwqLcYLf1/view?usp=sharing)
 
 ![](https://cdn-images-1.medium.com/max/800/0*wh0pfZs4jd2NmczU)* Create an ICONex ETH wallet and send your ERC20 ICX tokens to the ICONex ETH wallet ([Guide to creating your wallet](https://docs.google.com/document/d/18UCJNNwgeTGIwnsD7STcR2nKJcn0hfJ92h0XHwRIWE8/edit?usp=sharing))
 
@@ -42,7 +41,7 @@ The token swap will end on the 25th of October and loss may occur if swap is not
 * Mainnet ICX coins will be distributed once per day(except weekends). (Token swap submission available at all times)
 * Token swap submission received before 09:00(UTC+9) will be processed and distributed on the same day at 18:00(UTC+9). Submission received after 09:00(UTC+9) will be processed the next day. (No distribution on weekends or holidays)
 
-![](https://cdn-images-1.medium.com/max/800/0*YEfXetpGrWbh_fUE)### Questions Regarding the Token Swap
+![](https://cdn-images-1.medium.com/max/800/0*YEfXetpGrWbh_fUE)## Questions Regarding the Token Swap
 
 We expect to receive many questions regarding the token swap and may take time to answer individual questions through email. Please submit your questions using the following link and we will update our FAQ sheet with the answers.
 
@@ -50,7 +49,7 @@ Submit your questions: [Click here](https://goo.gl/forms/Ti1OtCnnb3KLt4b73)
 
 FAQ sheet: [Answers to your questions](https://docs.google.com/spreadsheets/d/1HiT98wqEpFgF2d98eJefQfH7xK4KPPxNDiiXg3AcJ7w/edit?usp=sharing)
 
-### Important Notice
+## Important Notice
 
 *1. Airdropped ICX are mainnet ICX coins. They do not need to go through the token swap process.*
 

@@ -3,10 +3,9 @@ title: "ICON Yellow Paper Officially Released"
 date: 2018-09-13
 slug: icon-yellow-paper-officially-released-e311a3db91d
 description:
-featured_image:
 ---
 
-### ICON Yellow Paper Officially Released
+## ICON Yellow Paper Officially Released
 
 **Key operational policies on Governance, Transaction fees, and IISS**
 

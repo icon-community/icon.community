@@ -3,10 +3,9 @@ title: "ICON Monthy Grant Update — April 2020"
 date: 2020-04-23
 slug: icon-monthy-grant-update-april-2020-53e11adec524
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Update — April 2020
+## ICON Monthly Grant Update — April 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*VRX1vqfbhl84KpnI7y3kCg.png)Atomic Wallet, Online Hackathon, Messari Registry, and ICON Vote Monitor
 
@@ -16,18 +15,18 @@ This is the second monthly grant recap report. In case you missed it, details fr
 
 This month, we’ll leave out those details and instead take a closer look at the grants approved by the Foundation thus far in April. Additionally, we’ll highlight updates to periodic reporting and the respective progress of our previously funded grants.
 
-### April 2020
+## April 2020
 
 It was another busy month for grants. We’ve approved 4 thus far; 2 for infrastructure, 1 for education, and the other for new service integration. And we expect to approve more in the coming days. Note, we’ll be sure to provide more details on any we miss in next month’s update.
 
-#### Approvals thus far:
+### Approvals thus far:
 
 * *Infrastructure***:** [Atomic Wallet](https://atomicwallet.io/)
 * *Education*: [ICON Hyperconnect Hackathon](https://forum.icon.community/t/grant-application-icon-hyperconnect-icon-p-rep-accelerator-accelerating-icon-applications-growth-at-scale/542/12)
 * *Service*: [Messari Crypto](https://messari.io/registry)
 * *Infrastructure***:** [ICON Vote Monitor](https://iconvotemonitor.com/)
 
-#### [Atomic Wallet](https://forum.icon.community/t/grant-application-atomic-wallet-proposal/416/7)
+### [Atomic Wallet](https://forum.icon.community/t/grant-application-atomic-wallet-proposal/416/7)
 
 Atomic Wallet is a non-custodial wallet that provides asset management for 20+ blockchains and all ERC20 and BEP2 tokens. As part of the approval process, Atomic Wallet will integrate ICON’s native token, ICX, into its web-based and IOS/Android mobile wallets. Additionally, Atomic Wallet will provide staking and voting capabilities for ICON governance.
 
@@ -40,7 +39,7 @@ The Foundation is providing a total of 3 BTC worth of ICX paid in 2 installments
 * 2020/04/30 02:00 AM (UTC) — ICX of 1.5 BTC value
 * 2020/06/25 02:00 AM (UTC) — ICX of 1.5 BTC value
 
-#### [ICON Hyperconnect Hyperhack Hackathon](https://forum.icon.community/t/grant-application-icon-hyperconnect-icon-p-rep-accelerator-accelerating-icon-applications-growth-at-scale/542)
+### [ICON Hyperconnect Hyperhack Hackathon](https://forum.icon.community/t/grant-application-icon-hyperconnect-icon-p-rep-accelerator-accelerating-icon-applications-growth-at-scale/542)
 
 As part of the approval, [ICON Hyperconnect](https://www.iconhyperconnect.com/) will host an online ICON hackathon on the largest hackathon platform in the world, Devpost, which has access to an online base of 900K+ developers.
 
@@ -58,7 +57,7 @@ The Foundation is providing $32,000 in 3 monthly installments based on the Perio
 * 2020/05/26 02:00 AM (UTC) — $10,666
 * 2020/06/25 02:00 AM (UTC) — $10,667
 
-#### [Messari Crypto Disclosures Registry](https://forum.icon.community/t/icon-verification-on-the-messari-disclosures-registry/561/3)
+### [Messari Crypto Disclosures Registry](https://forum.icon.community/t/icon-verification-on-the-messari-disclosures-registry/561/3)
 
 Messari’s Registry aims to be a single source of truth for basic cryptoasset information. Participating projects voluntarily disclose basic information about their token design, supply details, technology audits, official communication channels, and relevant team members, investors, and advisors.
 
@@ -74,7 +73,7 @@ As part of the approval process, ICON Project will be listed on the disclosure r
 
 The ICON Foundation is providing $10,000 to be paid in 2 installments based on the Periodic Report. The timing of payments is still being finalized.
 
-#### [ICON Vote Monitor](https://forum.icon.community/t/grant-application-icon-vote-monitor-updated/515/6)
+### [ICON Vote Monitor](https://forum.icon.community/t/grant-application-icon-vote-monitor-updated/515/6)
 
 As part of the approval, [Everstake](https://everstake.one/icon) is committed to building and improving the ICON Vote Monitor tool that will help track voting and all ICON accounts activity on the ICON network by daily breaks or snapshots. Its functionality will encompass:
 
@@ -96,9 +95,9 @@ The Foundation is providing $6,000 based on the Periodic Report. The amount of I
 
 * 2020/05/26 02:00 AM (UTC) — $6,000
 
-### Periodic Updates
+## Periodic Updates
 
-#### [ICON Hyperconnect Hyperhack Hackathon Update #1](https://forum.icon.community/t/icon-hyperhack-hackathon-report-1/647/2)
+### [ICON Hyperconnect Hyperhack Hackathon Update #1](https://forum.icon.community/t/icon-hyperhack-hackathon-report-1/647/2)
 
 The team has begun preparations for marketing, developer outreach, and organization of the hackathon. Below is an update on the progress of this initiative.
 
@@ -106,7 +105,7 @@ The team has begun preparations for marketing, developer outreach, and organizat
 * **Remaining Time to Completion**: 3 months
 * **Expected Results for the Next Period**: Completed hackathon website ([www.iconhyperhack.com](http://www.iconhyperhack.com/)), completed promotional materials, updated ICON report, accelerated developer outreach, and marketing efforts.
 
-#### [Korean Community Management Update #2](https://forum.icon.community/t/icon-korean-community-management-report-2/650)
+### [Korean Community Management Update #2](https://forum.icon.community/t/icon-korean-community-management-report-2/650)
 
 During the reporting period, the teammanaged ICON Korean community and database including:
 
@@ -125,7 +124,7 @@ During the reporting period, the teammanaged ICON Korean community and database 
 * Crypto-related website(Coinpan) = 15+
 * ICON Naver Blog = 30+
 
-#### [FutureICX Update #1](https://forum.icon.community/t/futureicx-report-1/648/4)
+### [FutureICX Update #1](https://forum.icon.community/t/futureicx-report-1/648/4)
 
 In the past month, the FutureICX team completed most of the details concerning the overall app design, the basic functionalities, and the structure of the reward system. Below are some of the improvements made in the reporting period.
 
@@ -145,7 +144,7 @@ In the past month, the FutureICX team completed most of the details concerning t
 * **Weekly reward pool** — a reward pool, distributed weekly and rewarding the top performers throughout the week
 * **Monthly reward pool** — a pool rewarding the top-performing players monthly
 
-#### [DappReview Update #1](https://forum.icon.community/t/report-dapp-integration-on-dappreview/658)
+### [DappReview Update #1](https://forum.icon.community/t/report-dapp-integration-on-dappreview/658)
 
 DappReview has integrated ICON into its platform. Additionally, joint marketing efforts have been completed.
 
@@ -162,7 +161,7 @@ DappReview has integrated ICON into its platform. Additionally, joint marketing 
 
 ![](https://cdn-images-1.medium.com/max/800/1*4Kj2N0DT7DAY4iP3mcfDFw.jpeg)**Next steps:** The integration work for the grant application is complete. DappReview will continue to work with ICON Foundation and DApp developers closely in terms of DApp-related marketing/events to add value to the ICON ecosystem. For the future reports and research articles, ICON will be one of the main focus areas on our radar and covered in our data analysis.
 
-#### [ICX Comics Update #2](https://forum.icon.community/t/icx-comics-report-2/660)
+### [ICX Comics Update #2](https://forum.icon.community/t/icx-comics-report-2/660)
 
 ICX Comics completed milestone #2. Over the past month, the ICX Comics team created 3 new comics:
 

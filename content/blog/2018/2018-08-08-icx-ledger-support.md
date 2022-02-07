@@ -3,10 +3,9 @@ title: "ICX Ledger SUPPORT"
 date: 2018-08-08
 slug: icx-ledger-support-19abca9e1192
 description:
-featured_image:
 ---
 
-### ICX Ledger SUPPORT
+## ICX Ledger SUPPORT
 
 ![](https://cdn-images-1.medium.com/max/800/0*Tkf9_tYYphDxqh1C)Greeting from the ICON team
 

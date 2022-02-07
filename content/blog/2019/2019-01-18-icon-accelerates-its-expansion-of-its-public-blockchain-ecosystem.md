@@ -3,16 +3,15 @@ title: "ICON Accelerates its Expansion of its Public Blockchain Ecosystem"
 date: 2019-01-18
 slug: icon-accelerates-its-expansion-of-its-public-blockchain-ecosystem-40dfa2958d6c
 description:
-featured_image:
 ---
 
-### **ICON Accelerates its Expansion of its Public Blockchain Ecosystem**
+## **ICON Accelerates its Expansion of its Public Blockchain Ecosystem**
 
 ![](https://cdn-images-1.medium.com/max/800/0*h9BG31gwGGBR4QJw)Greetings from the ICON Team,
 
 January 18th, 2019 — The ICON Team accelerates our strategy to expand the ICON public blockchain ecosystem. Along with [the start of the P-Rep pre-registration for ICON P-Rep candidacy](https://bit.ly/2CvGuVi), the ICON Team would like to announce our effort to enhance our corporate blockchain alliance program and global accelerator program, as well as our plans to release a decentralized exchange (DEX) and decentralized identification (DID) system based on the ICON public network in the first half of this year.
 
-#### **■ Reinforcing enterprise blockchain alliance with global DApp accelerator program**
+### **■ Reinforcing enterprise blockchain alliance with global DApp accelerator program**
 
 ICON pursues DApp partners focused on both B2C and B2B products through the newly established ICON LAP100 (ICON Loopchain Alliance Program) and our global accelerator program, ICX Station. ICON has currently formed partnerships with more than 30 companies to carry out collaboration projects, and already secured 13 new partners this year.
 
@@ -24,7 +23,7 @@ In addition to the efforts of ICX Station, ICON has recently established ‘ICON
 
 For inquiries regarding technical support and service partnerships, check out the ICON Developer Portal (<https://icondev.io/>).
 
-#### **■ Decentralized exchange and identification service to be released in the first half of this year**
+### **■ Decentralized exchange and identification service to be released in the first half of this year**
 
 ICON announces plans to release its decentralized exchange (DEX) and decentralized identification (DID) in the first half of this year. ICON has already released [ICONex](https://icon.foundation/contents/icx/iconex?lang=en), the wallet that supports transactions across multiple cryptocurrencies with a user-friendly UX/UI, and [ICON Tracker](https://tracker.icon.foundation/), which is a block explorer for ICON that displays all transaction records on the network to enhance transparency and data accessibility.
 

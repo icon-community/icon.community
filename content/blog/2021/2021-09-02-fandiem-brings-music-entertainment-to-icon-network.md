@@ -3,10 +3,9 @@ title: "Fandiem Brings Music & Entertainment to ICON Network"
 date: 2021-09-02
 slug: fandiem-brings-music-entertainment-to-icon-network-b4a646e4e0ae
 description:
-featured_image:
 ---
 
-### Fandiem Brings Music & Entertainment to ICON Network
+## Fandiem Brings Music & Entertainment to ICON Network
 
 ![](https://cdn-images-1.medium.com/max/800/1*-ElVdGRwiz6DX3LYYsxASg.jpeg)The 1.3 million-dollar sale of a [rock](https://www.cnbc.com/video/2021/08/24/etherrock-nft-sells-for-1-point-3-million-sale-prices-jump-in-week.html), [Paris Hilton](https://www.youtube.com/watch?v=oiN1_6pb_eE) schooling Jimmy Fallon, and [VISA](https://hypebeast.com/2021/8/visa-enters-nfts-cryptopunk-7610-acquisition-interview) adding CryptoPunks to its art collection are just a few headlines that are signaling that the NFT space is heating up. Amidst the NFT craze, we are excited to announce a new partnership with [Fandiem](http://winwith.fandiem.com/press-release-icon), an innovative non-profit fundraising platform for fans, to help grow ICON’s NFT ecosystem.
 
@@ -20,7 +19,7 @@ At ICON, we expect Fandiem to bring valuable NFTs to the ICON Network which will
 
 With Fandiem’s relationships and experience in the nonprofit sector, ICON’s base-layer technology, Craft’s NFT framework, and a growing market for NFTs, this strategic investment will help bring our mutual vision of building and promoting a marketplace and NFT issuance platform comparable to NBA Top Shot to the ICON Network.
 
-#### **About Fandiem:**
+### **About Fandiem:**
 
 Fandiem is a contest fundraising platform that harnesses the power of the fan community to do good in the world. With their donation to a selected nonprofit, fans are entered to win once-in-a-lifetime experiences with their favorite artists, festivals, athletes, and creators. These are the opportunities that were previously available only to a select few but through Fandiem are awarded to the everyday fan at the heart of the community.
 
@@ -28,15 +27,15 @@ The Fandiem Foundation is a project of The Giving Back Fund, a national 501c3 or
 
 For more information on Fandiem [click here](http://www.fandiem.com) and follow on [twitter](https://twitter.com/winwithfandiem)
 
-#### **About ICON:**
+### **About ICON:**
 
 Founded in 2017 by the ICON Foundation, ICON is a next-generation blockchain protocol with smart contract functionality and interoperability. ICX is the native cryptocurrency of the ICON network. As an aggregator chain, ICON achieves interoperability — a web of interconnected networks aggregating all blockchain data into one layer. ICON’s “Blockchain Transmission Protocol” (BTP) is its novel interoperability solution, allowing all integrated blockchains to be interconnected to each other. Current BTP partners include Binance Smart Chain, Polkadot, NEAR Protocol, and Harmony. ICON also has a growing DeFi ecosystem that includes projects such as Balanced DAO, Omm Finance, Optimus Protocol, and Equality Exchange.
 
 For more information about ICON, [click here](https://iconrepublic.org/)
 
-### [Subscribe & Stay up to Date with ICON](http://eepurl.com/c1P6aD)
+## [Subscribe & Stay up to Date with ICON](http://eepurl.com/c1P6aD)
 
-### Join the ICON Community
+## Join the ICON Community
 
 [**Homepage**](https://iconrepublic.org/) **|** [**Twitter**](https://twitter.com/helloiconworld) **|** [**Reddit**](https://www.reddit.com/r/helloicon/) **|** [**Community**](https://forum.icon.community/) **|**[**Facebook**](https://www.facebook.com/helloicon/) **|** [**Instagram**](https://www.instagram.com/helloiconworld/)
 

@@ -3,10 +3,9 @@ title: "ICON Monthly Grant Recap — August 2020"
 date: 2020-08-28
 slug: icon-monthly-grant-recap-august-2020-b83b7c285d72
 description:
-featured_image:
 ---
 
-### ICON Monthly Grant Recap — August 2020
+## ICON Monthly Grant Recap — August 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*CsTICo1t7VjJuWBXoJMErw.png)Six New Grant Approvals and New Use-Cases For $ICX
 
@@ -21,7 +20,7 @@ In August, we’ve approved 6 grants ranging from DApp development and developer
 * **Design and documentation:** [PARROT9: Bridge and ICON documentation](https://forum.icon.community/t/grant-application-parrot9-bridge-and-icon-documentation/1128/4)
 * **DApp:** [FutureICX 2.0 Gamified Trading Platform](https://forum.icon.community/t/grant-application-futureicx-2-0-gamified-trading-platform/1131/4)
 
-### STIN
+## STIN
 
 Block42, together with “STIN” (<https://www.stin.at/>) a local distiller of premium gin and a NFC hardware supplier, want to establish an application combining the capabilities of NFC-technology with ICON’s blockchain technology. Block42 will equip 1,000 bottles of a limited edition gin with special crypto enabled NFC chips (“Security Controller”), which provide the highest available security for blockchain systems. The limited amount of bottles is written into the blockchain and each customer should be easily able to check the integrity of the bottle and the total amount of available bottles by interacting with the NFC chip on the bottle.
 
@@ -37,7 +36,7 @@ As part of the approval, the team must submit the Periodic Report by the timefra
 * 2020/09/26 02:00 AM (UTC)
 * 2020/10/28 02:00 AM (UTC)
 
-### Stash — a Rewards Program for ICON
+## Stash — a Rewards Program for ICON
 
 Stash is a rewards program for ICON that enables a consumer to earn ICX when they shop online. Once they earn the ICX, they can then spend it using their Stash issued ICON debit card. See [Pitch Deck](https://drive.google.com/file/d/1kGpGsNHoRXaTXv2zFsKAWr761ISOFLjK/view?usp=sharing).
 
@@ -52,7 +51,7 @@ The team has broken this project into 2 stages. This grant application is for st
 
 **Stage 2** is the creation and management of an ICON debit card, which includes the ability to seamlessly transfer ICX to the debit card, which then converts it into fiat for use in-store and online. Stage 2 will be submitted as a separate grant via the CPF.
 
-### $ICX Staking Lossless lottery
+## $ICX Staking Lossless lottery
 
 P-Rep team, Stakin, has been working on the first staking lossless lottery since April 2020. More specifically, Stakin received 1 million ICX delegation from Velic Financial for 3 months in order to kickstart this project.
 
@@ -69,18 +68,18 @@ With the staking lottery, ICX token holders will benefit from a new option to st
 
 The goal of this grant application is to finance the latest developments and testing of the ICX risk-free lottery, as well as the marketing activities around the launch scheduled for September. The team estimates that it will need 3 more months to complete the latest developments and initiate a successful launch.
 
-### Project Milestones
+## Project Milestones
 
 * An extensive set of tasks has been completed since this project started in April 2020: Specs, Design, Front-end, and Back-end have all been developed at 90%+. A current version of the DApp (used for testing!) is available on [https://dev-lottery.netlify.app/home 5](https://dev-lottery.netlify.app/home). The project has already gathered solid interest with 1,515 waitlisted users on [https://lottery.stakin.com/ 9](https://lottery.stakin.com/). The next 3 months will be focused on finishing the smart-contract, testing it, polishing the back-end and front-end, and launching this revolutionary product.
 * *Month 1 (most likely August 2020):* Smart-contract final developments and testing
 * *Month 2:* Launch and initial improvements based on feedback
 * *Month 3:* Focus on marketing activities and new functionalities (e.g. fiat on-ramp integration), with the goal to have at least 1,000 users by Month 3.
 
-### OpenDevICON Continuing development proposal
+## OpenDevICON Continuing development proposal
 
 The main mission of this project is to provide a resource and reference hub for ICON developers, to accelerate the training of ICON developers and reduce friction and time in development of ICON SCOREs, dApps and DAOs. The OpenDevICON project has been already initiated and we have contributed much in the development works. Following are the updates on the progress we have made so far for ODI during the previous delegations.
 
-#### Accomplishments so far:
+### Accomplishments so far:
 
 1. **Jupyter Notebook approach:**
 
@@ -108,37 +107,37 @@ We created an [IdolToken](https://idoltoken.opendevicon.io/) App for a demo of I
 
 We have worked in the content of our OpenDevICON (ODI) website and updated the [gitbook](https://docs.opendevicon.io/v/development/)
 
-#### Work for inclusion in this grant application:
+### Work for inclusion in this grant application:
 
 **Jupyter Notebook : (60 hours)**
 
 1. To make it easy for developers to call public functions on a SCORE from a jupyter notebook, provide a tool to read the contract ABI and automatically generate a library of functions that will be imported into the notebook.
 2. Specific application of notebook approach with SCORE libraries for IRC3 , IRC16
 
-#### SCORE Library (50 hours)
+### SCORE Library (50 hours)
 
 1. Collaborative work with other ICON developers to include their work by reference.
 2. IRC3
 3. IRC16
 
-#### Video Tutorials (50 hours)
+### Video Tutorials (50 hours)
 
 1. Magic Link demo app tutorial (15)
 2. Band Protocol Oracle Integration (20)
 3. Collaboration with other ICON tutorial authors. (tutorial from Justin for example) (15)
 
-#### Demo dApps (30 hours)
+### Demo dApps (30 hours)
 
 1. Band Protocol Oracle integration
 
-#### Marketing / Promotions, Blog Posts (50 hours)
+### Marketing / Promotions, Blog Posts (50 hours)
 
 1. Band Protocol Oracle integration
 2. Distributions and integer math for zero dust.
 3. What is the snapshot token and how does the snapshotting of token balances at a specific point in time work?
 4. What is the best way to make use of the token SCOREs in the ODI library?
 
-#### Project phases
+### Project phases
 
 **Month 1:**
 
@@ -161,19 +160,19 @@ We have worked in the content of our OpenDevICON (ODI) website and updated the [
 * Collaboration with other ICON tutorial authors (15 hours)
 * Marketing / Promotions Blog Posts (50 hours)
 
-### **Parrot9: Design for Bridge and ICON documentation**
+## **Parrot9: Design for Bridge and ICON documentation**
 
-#### Bridge
+### Bridge
 
 A few months ago the Parrot9 team began working on the design for Bridge, a project that will help general users interact with blockchain applications. We offered our services free of charge because we didn’t want to paywall design, and our P-Rep rewards were enough to cover our costs. That’s no longer the case, and as resources are limited, the team hasn’t been able to put as much time into Bridge as they’d hoped. With this grant, the team can make meaningful adjustments to their existing workload and commit more time to it.
 
-#### ICON documentation
+### ICON documentation
 
 A large amount of the documentation for ICON is out of date or incomplete, particularly the documentation for P-Reps found on icon.community, and for developers through icondev.io. It’s crucial to keep ICON content up to date and easy to digest so we can provide the best on-boarding experience for P-Reps and developers.
 
 After Parrot9 finishes work on Bridge, they will be dedicating some of their time every week to make it better our documentation better.
 
-#### **Project milestones**
+### **Project milestones**
 
 **Bridge**
 
@@ -200,7 +199,7 @@ After finishing Bridge and the icon.community updates, the team will start on th
 * Audit the developer content from icondev.io and other community resources to get a complete picture of the existing content
 * Come up with a strategy to organize and improve the content so that it’s accessible to developers of all skill levels
 
-### FutureICX 2.0
+## FutureICX 2.0
 
 The team successfully released the FutureICX dApp last month and are very thankful for all the positive feedback that received thus far.
 

@@ -3,10 +3,9 @@ title: "ICON Bounty Program"
 date: 2017-08-25
 slug: icon-bounty-program-d6c382df66a5
 description:
-featured_image:
 ---
 
-### ICON Bounty Program
+## ICON Bounty Program
 
 ![](https://cdn-images-1.medium.com/max/800/1*bfmRvaxhlOTQXK8C1aOZkg.png)ICON is launching a Bounty Program! Promote ICON and get ICX for Free! Instead of spending our funds for Facebook and Google Ads, we will benefit our ICON users directly. Participate in the Bounty Program now.
 

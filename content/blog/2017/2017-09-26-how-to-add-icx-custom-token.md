@@ -3,10 +3,9 @@ title: "How to Add ICX Custom Token"
 date: 2017-09-26
 slug: how-to-add-icx-custom-token-df944450f998
 description:
-featured_image:
 ---
 
-### How to Add ICX Custom Token
+## How to Add ICX Custom Token
 
 ![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)Add new Tokens, send custom tokens, check the balance of tokens, and see custom tokens. Please follow the below instructions to add ERC20 tokens to your MyEtherWallet. You simply need to add tokens to your MyEtherWallet interface.
 

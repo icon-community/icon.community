@@ -3,10 +3,9 @@ title: "ICONLOOP Recognized as a Finalist for Global Enterprise Blockchain Award
 date: 2020-03-03
 slug: iconloop-recognized-as-a-finalist-for-global-enterprise-blockchain-award-d54aeab0cb22
 description:
-featured_image:
 ---
 
-### ICONLOOP Recognized as a Finalist for Global Enterprise Blockchain Award!
+## ICONLOOP Recognized as a Finalist for Global Enterprise Blockchain Award!
 
 ![](https://cdn-images-1.medium.com/max/800/1*SXM91cBURgjcgnvbKExQjg.png)2020 EBA: Innovative Entrepreneurship in Blockchain — Technology & Platforms
 

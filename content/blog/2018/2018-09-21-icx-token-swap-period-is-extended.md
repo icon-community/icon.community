@@ -3,10 +3,9 @@ title: "ICX Token swap period is extended"
 date: 2018-09-21
 slug: icx-token-swap-period-is-extended-64484e373c4b
 description:
-featured_image:
 ---
 
-### ICX Token swap period is extended
+## ICX Token swap period is extended
 
 ![](https://cdn-images-1.medium.com/max/800/1*k6W2hsneHjTap5b4jaezRQ.png)Greetings from the ICON Team,
 
@@ -18,7 +17,7 @@ The ERC20 ICX tokens will be swapped to MainNet ICX coins with a 1:1 swap exchan
 
 The token swap will end on the 25th of October and loss may occur if swap is not completed by the end date so please be sure to swap your tokens before the deadline.
 
-#### * Important Notice
+### * Important Notice
 
 
 > Korean Thanksgiving is from September 24th to September 26th. Please understand that swap submissions made after 09:01(UTC + 9) on the 21st of September will be proceeded after the 27th of September.

@@ -3,10 +3,9 @@ title: "KYC Schedule Update"
 date: 2017-09-28
 slug: kyc-schedule-update-2835c7253e67
 description:
-featured_image:
 ---
 
-### KYC Schedule Update
+## KYC Schedule Update
 
 ![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)With the recent tightening of blockchain regulations, ICON is preparing additional legal policies. In order to properly protect ICON contributors, the ICON KYC process will be delayed by a few weeks.
 

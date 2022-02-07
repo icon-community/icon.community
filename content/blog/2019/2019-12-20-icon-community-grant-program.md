@@ -3,10 +3,9 @@ title: "ICON Community Grant Program"
 date: 2019-12-20
 slug: icon-community-grant-program-2551a1d84d1
 description:
-featured_image:
 ---
 
-### ICON Community Grant Program
+## ICON Community Grant Program
 
 ![](https://cdn-images-1.medium.com/max/800/1*dDpfIutPsybZEkHm6hXVBA.png)Funding projects benefiting the ICON community
 
@@ -20,7 +19,7 @@ The Foundation would like to bring to your attention the ICON community grant pr
 
 The ICON CGP is a centralized program run by the ICON Foundation to fund community projects benefiting the ICON community. This program will operate until the ICON Contribution Proposal System is fully developed and implemented on the ICON Network. Recommended proposal types include, but are not limited to: infrastructure, development, education, marketing, public relations, and community activities.
 
-### Operating Procedure
+## Operating Procedure
 
 All ICONists can submit their proposals at forum.icon.community. If a grant is awarded, grant recipients will receive their ICX grants periodically based on predetermined milestones for the specific grant. Grant recipients will be required to produce Periodic Reports in order to continue to receive grant funding. If the Periodic Report is showing that the initiative is not meeting expectations, the ICON Foundation has the option to halt continued funding. The submission cycle of the Periodic Report will vary according to each project’s duration.
 
@@ -28,7 +27,7 @@ The details of the Periodic Report should be concise and include: Reporting peri
 
 The ICON Foundation will first reach out to Proposers for an initial screening. Proposers will hear back from the ICON Foundation within two weeks of submitting the proposal, and will hear back regardless of whether they were approved or rejected. Proposals will be reviewed by the ICON Foundation using the framework outlined below, and the ICON Foundation will provide comments on the results of the review. The review process is conducted via subjective assessments from the ICON Foundation, but the proposer may request one reassessment after the review process is over.
 
-### Proposal Review Framework
+## Proposal Review Framework
 
 1. **Proposal Overview**
 
@@ -52,7 +51,7 @@ a) Does the project fairly justify its budget?
 
 b) Are the deliverables and milestones verifiable and tangible?
 
-### Recommended Proposal Format
+## Recommended Proposal Format
 
 1. Title
 2. Project Category

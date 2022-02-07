@@ -3,10 +3,9 @@ title: "ICON to speak at AAMA Fintech Connect Conference"
 date: 2019-05-17
 slug: icon-to-speak-at-aama-fintech-connect-conference-73ade003aa99
 description:
-featured_image:
 ---
 
-### ICON to speak at AAMA Fintech Connect Conference
+## ICON to speak at AAMA Fintech Connect Conference
 
 ![](https://cdn-images-1.medium.com/max/800/1*d59NUSY5zWedX6zdk_Rmgg.jpeg)Greetings from the ICON Team,
 

@@ -3,10 +3,9 @@ title: "Token Swap status update"
 date: 2018-04-04
 slug: token-swap-status-update-9a41c8448006
 description:
-featured_image:
 ---
 
-### Token Swap status update
+## Token Swap status update
 
 ![](https://cdn-images-1.medium.com/max/800/1*ci5qoARdmxgia73FSlCSIQ.jpeg)Greetings, from the ICON Team
 

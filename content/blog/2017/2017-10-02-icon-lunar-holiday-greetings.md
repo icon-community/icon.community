@@ -3,10 +3,9 @@ title: "ICON Lunar Holiday Greetings"
 date: 2017-10-02
 slug: icon-lunar-holiday-greetings-d5fddec7732
 description:
-featured_image:
 ---
 
-### ICON Lunar Holiday Greetings
+## ICON Lunar Holiday Greetings
 
 ![](https://cdn-images-1.medium.com/max/800/1*01OcfMHCr5Hjb1nr7WntZA.jpeg)Dear ICON Supporters,
 

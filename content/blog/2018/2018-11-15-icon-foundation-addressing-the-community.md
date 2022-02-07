@@ -3,23 +3,22 @@ title: "ICON Foundation: Addressing the Community"
 date: 2018-11-15
 slug: icon-foundation-addressing-the-community-7cec5e852d42
 description:
-featured_image:
 ---
 
-### ICON Foundation: Addressing the Community
+## ICON Foundation: Addressing the Community
 
 ![](https://cdn-images-1.medium.com/max/800/0*ajNtO-7IxS69CBv-)Greetings from the ICON Team,
 
 We have listened to your feedback over the past several months regarding improving communication and we are continually looking for ways to address your concerns. In this blog post, we highlight some of the recent initiatives we have taken to improve communication efforts, including a new hire. Additionally, we address a few key questions weighing on sentiment and provide a new portal for addressing future community concerns.
 
-### New Head of Institutional Markets & Contributor Relations
+## New Head of Institutional Markets & Contributor Relations
 
 We are excited to announce that we have recently hired Ricky Dodds as Head of Institutional Markets and Contributor Relations. In this role, Ricky will engage with our global audience and explore new markets for the ICON project. Ricky joins ICON with a wealth of experience in investment banking and equity research, and is extremely passionate about open financial systems and the potential impact of blockchain/DLT in traditional business environments. Most recently, Ricky was a Vice President in Equity Research at Deutsche Bank. In his previous role, he interfaced with investment professionals providing recommendations and insights into industry and company-specific trends. Also, he regularly communicated and consulted with C-suite personnel and investor relations teams to improve company presentation and perception among their respective investor communities. In total, Ricky has over eight years of experience in investment banking and equity research and will be a great asset as we continue to improve our communication strategy with early contributors.
 
 
 > *“ICON is one of the few projects with actual enterprise relationships. Coming from a more traditional background, I know how hard it is to be vetted by these types of companies, particularly as a “start-up.” The barrier to entry is quite high. These types of relationships will allow ICON to prove out the value of the project with real-world use and move closer to the goal of hyper-connecting the world and I’m very excited to be a part of the journey.” — Ricky Dodds, Head of Institutional Markets & Contributor Relations*
 
-### Building a Healthy Community
+## Building a Healthy Community
 
 Many members of our community have expressed that they are discouraged to voice opinions in a hostile environment with too much profanity and threatening language towards other members. These types of posts and comments detract from the purpose of the group and steer the overall tone negatively all too often. We are going to be cleaning up some of this noise in our official and unofficial social media channels to build a healthier community. We will work with the admins to address these issues and provide suggestions moving forward.
 
@@ -27,7 +26,7 @@ Furthermore, we are currently outlining an F.A.Q portal to better address import
 
 Below, we address the most pressing community concerns.
 
-### The Relationship between ICON and ICONLOOP
+## The Relationship between ICON and ICONLOOP
 
 ICONLOOP is the company contractually obliged to build out the ICON public chain, and a leader in implementing private enterprise blockchain solutions.
 
@@ -52,7 +51,7 @@ The ultimate goal is to connect Private ICONLOOP networks to ICON via the ICON N
 
 > *A more detailed article on the context of how ICON will connect and scale private ICONLOOP networks in our existing projects will be released in the coming days.*
 
-### Yellow Paper — Part 3
+## Yellow Paper — Part 3
 
 Designing a proper governance system and aligning incentives with all participating parties is essential to the success of a blockchain network. As the blockchain industry matures, we have the luxury of learning from the mistakes of others. Forcing out a governance system without enough thought has resulted in network forks, collusion, the concentration of power, and wealth accumulation to the few, rather than wealth dispersion to the many.
 
@@ -60,7 +59,7 @@ Bearing all of this in mind, we have been hard at work ironing out the details o
 
 We expect to have the IISS paper finished by the end of 2018, however, will never choose timeliness over security and efficacy.
 
-### Circulating Supply
+## Circulating Supply
 
 In recent weeks, the circulating supply of ICX grew from 400 million to roughly 473 million. Given our lack of immediate communication, this issue has unfortunately led to numerous speculative theories on what drove the increase. We apologize for this misstep and will clarify things here.
 
@@ -70,7 +69,7 @@ Secondly, the community should note that the ICON Foundation did not receive any
 
 Finally, vesting schedules that are contractual in nature will continue to increase the token supply over time. That said, we will address future increases in a more timely manner.
 
-### ICX Repurchase Program
+## ICX Repurchase Program
 
 We apologize for the delayed response in addressing this community concern. Over the past several weeks, we have consulted with legal advisors regarding our previously announced ICX repurchase program. Unfortunately, based on their advice, we cannot provide ongoing details given potential risks related to price manipulation, among other factors.
 

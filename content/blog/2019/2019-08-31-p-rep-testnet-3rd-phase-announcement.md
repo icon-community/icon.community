@@ -3,10 +3,9 @@ title: "P-Rep TestNet 3rd Phase Announcement"
 date: 2019-08-31
 slug: p-rep-testnet-3rd-phase-announcement-1ab9cc73d939
 description:
-featured_image:
 ---
 
-### P-Rep TestNet 3rd Phase Announcement
+## P-Rep TestNet 3rd Phase Announcement
 
 ![](https://cdn-images-1.medium.com/max/800/1*kJ9A1eE2JFQp-mgQDOcDgQ.png)Decentralization Simulation
 

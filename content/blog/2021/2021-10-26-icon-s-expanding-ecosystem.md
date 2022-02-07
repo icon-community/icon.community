@@ -3,12 +3,11 @@ title: "ICON’s Expanding Ecosystem"
 date: 2021-10-26
 slug: icons-expanding-ecosystem-ec2eaf481be4
 description:
-featured_image:
 ---
 
-### ICON’s Expanding Ecosystem
+## ICON’s Expanding Ecosystem
 
-### ICON’s ecosystem growth is expected to accelerate with the launch of ICON 2.0 mainnet and ICON’s interoperability solution, BTP.
+## ICON’s ecosystem growth is expected to accelerate with the launch of ICON 2.0 mainnet and ICON’s interoperability solution, BTP.
 
 ![](https://cdn-images-1.medium.com/max/800/1*ctspB3ZY9kM8sYbwovXd1Q.jpeg)The ICON Project is at a momentous time in its history as the new mainnet is scheduled for launch by the first week of November ([see recent timeline announcement here](https://twitter.com/helloiconworld/status/1451461964316626947?s=20)).
 
@@ -22,7 +21,7 @@ With interoperability on the horizon, ICON’s ecosystem is expected for explosi
 
 The end user will encounter BTP through Nexus, the BTP dashboard that will soon be available.
 
-### Join the ICON Community
+## Join the ICON Community
 
 For more information about ICON, [visit our website](https://iconrepublic.org/) & [subscribe](https://foundation.us15.list-manage.com/subscribe?u=d8b1e5594bd92c54dc0c7141c&id=fbc02bbf32)
 

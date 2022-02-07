@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — September 2020"
 date: 2020-09-30
 slug: icon-development-roadmap-update-september-2020-67756d1d2553
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — September 2020
+## ICON Development Roadmap Update — September 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*evi3BiMyGFsVBUOSYf1kOg.png)ICON 2.0 Timeline and Gangnam Testnet
 
@@ -14,7 +13,7 @@ Greetings ICONists,
 
 This month was highlighted by the announcement of our new and improved blockchain, ICON 2.0: BATANG. For the past year, we have been developing this new technology, and it’s one of our most important achievements to date.We provide the latest timeline and testnet information below.
 
-### ICON 2.0: BATANG
+## ICON 2.0: BATANG
 
 This month, we announced our next significant technical advancement — ICON 2.0: BATANG, that we have been working on for a year.
 
@@ -26,7 +25,7 @@ Currently, we are planning to release the alpha version of the ICON 2.0 implemen
 
 We will share additional details regarding the migration process after completing the alpha version of ICON 2.0 implemented Goloop.
 
-### ICON 2.0 Testnet Gangnam set to launch at the end of Oct 2020
+## ICON 2.0 Testnet Gangnam set to launch at the end of Oct 2020
 
 One of the significant improvements of ICON 2.0 is the Java virtual machine that enables the Java SCORE. The Java SCORE running on the virtual machine is a new SCORE execution environment that no longer requires the smart contract audit process conducted by the Foundation. To introduce our community developers to this new environment, we are planning to launch a new testnet, Gangnam, which is powered by the Goloop base modules that support Java SCORE. The testnet will launch at the end of October 2020.
 

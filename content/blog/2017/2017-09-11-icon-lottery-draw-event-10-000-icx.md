@@ -3,18 +3,17 @@ title: "ICON Lottery Draw Event (10,000 ICX)"
 date: 2017-09-11
 slug: pre-pre-sale-event-220352f179db
 description:
-featured_image:
 ---
 
-### ICON Lottery Draw Event (10,000 ICX)
+## ICON Lottery Draw Event (10,000 ICX)
 
-#### “TEST YOUR LUCK” Event!
+### “TEST YOUR LUCK” Event!
 
 ![](https://cdn-images-1.medium.com/max/800/1*RWhg3kQi_rjm2COFLp0wwg.jpeg)Thanks to all the support and affection that you’ve given ICON, our 1st Meetup in Korea ended successfully, and we will also have our 2nd Meetup at our Korea Office Building in Seoul, Korea with a crowd from all over Korea.
 
 With your passionate participation from all around the world allowed ICON Project to walk the road to success. To show our appreciation for your support and participation, we are running a SURPRISE LUCKY DRAW EVENT for all of our social network/messenger community.
 
-### Event Details
+## Event Details
 
 * **Participation Requirement:** Registered on the official ICON website, AND participating in one of official CHATROOM (KakaoTalk, Slack, Telegram, WeChat)
 * **Event Participation URL:** <https://goo.gl/forms/2sLzZkjmp3t6AsKz2>
@@ -24,7 +23,7 @@ With your passionate participation from all around the world allowed ICON Projec
 * **Event End :** Sep. 18 (Mon.) 23:59 (UTC+9)
 * **Lucky Draw on LIVE! :** Sep. 19 (Tue.) 13:00 (UTC+9)
 
-### Event Conditions
+## Event Conditions
 
 * Lucky Draw will proceed LIVE on YouTube/Facebook
 * The winners will be announced on all Social Network Channels & Medium

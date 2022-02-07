@@ -3,10 +3,9 @@ title: "ICON — Carboneum, strategic partnership"
 date: 2018-06-11
 slug: icon-carboneum-strategic-partnership-4c75d239b6b4
 description:
-featured_image:
 ---
 
-### ICON — Carboneum, strategic partnership
+## ICON — Carboneum, strategic partnership
 
 ![](https://cdn-images-1.medium.com/max/800/0*2G3-DNunBrqBHOOf)Greetings from the ICON Team
 

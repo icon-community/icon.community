@@ -3,10 +3,9 @@ title: "ICON to speak at Plug & Play Tech Center"
 date: 2019-05-16
 slug: icon-to-speak-at-plug-play-tech-center-b17be6b88182
 description:
-featured_image:
 ---
 
-### ICON to speak at Plug & Play Tech Center
+## ICON to speak at Plug & Play Tech Center
 
 ![](https://cdn-images-1.medium.com/max/800/1*5H8-oPyQfQI2Of-CU1k0hA.png)Greetings from the ICON Team,
 

@@ -3,10 +3,9 @@ title: "Launching of Mobile ICONex for iOS"
 date: 2018-07-30
 slug: launching-of-mobile-iconex-for-ios-2a26dbc33f42
 description:
-featured_image:
 ---
 
-### Launching of Mobile ICONex for iOS
+## Launching of Mobile ICONex for iOS
 
 ![](https://cdn-images-1.medium.com/max/800/0*8TDMMT12-j9p9cpo)Greetings from the ICON Team,
 

@@ -3,7 +3,6 @@ title: "Mainnet coins are not available for purchase yet."
 date: 2018-03-01
 slug: mainnet-coins-are-not-available-for-purchase-yet-b6b68e0452a3
 description:
-featured_image:
 ---
 
 Mainnet coins are not available for purchase yet.

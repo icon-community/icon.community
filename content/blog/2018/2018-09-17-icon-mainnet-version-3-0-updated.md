@@ -3,10 +3,9 @@ title: "ICON MainNet Version 3.0 Updated"
 date: 2018-09-17
 slug: icon-mainnet-version-3-0-updated-21d522097ca1
 description:
-featured_image:
 ---
 
-### **ICON MainNet Version 3.0 Updated**
+## **ICON MainNet Version 3.0 Updated**
 
 ![](https://cdn-images-1.medium.com/max/800/0*f1WQf39Zxo4rUZfI)Greetings from the ICON Team,
 

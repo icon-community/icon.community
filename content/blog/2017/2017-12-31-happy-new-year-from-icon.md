@@ -3,10 +3,9 @@ title: "Happy New Year from ICON!"
 date: 2017-12-31
 slug: happy-new-year-from-icon-a000bcef6f98
 description:
-featured_image:
 ---
 
-### Happy New Year from ICON!
+## Happy New Year from ICON!
 
 ![](https://cdn-images-1.medium.com/max/800/1*huOfoCe5f8nW-nTiG1eEZQ.png)Greetings from the ICON Team,
 

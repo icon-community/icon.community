@@ -3,10 +3,9 @@ title: "Governance: What It Means to Blockchain Projects (Virtual Meetup)"
 date: 2020-07-29
 slug: governance-what-it-means-to-blockchain-projects-virtual-meetup-fb5b5fb9338e
 description:
-featured_image:
 ---
 
-### Governance: What It Means to Blockchain Projects (Virtual Meetup)
+## Governance: What It Means to Blockchain Projects (Virtual Meetup)
 
 ![](https://cdn-images-1.medium.com/max/800/1*QkMy7rkJkIc0a-nwRKFzAQ.png)Greetings ICONists,
 

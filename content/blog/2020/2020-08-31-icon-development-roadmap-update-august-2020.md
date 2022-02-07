@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — August 2020"
 date: 2020-08-31
 slug: icon-development-roadmap-update-august-2020-a3c8c29ac7dc
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — August 2020
+## ICON Development Roadmap Update — August 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*cbAKSqJi76U3uMFihh2MEw.png)**Revision 10 Update, Preparation of an Upcoming Release, and Contribution Proposal System**
 
@@ -14,7 +13,7 @@ Greetings ICONists,
 
 August was another eventful month for the ICON project. We continued to make progress on an upcoming release that we’re very excited about and we hope to share details on soon. We successfully stopped a malicious attacker, progressed on the contribution proposal system and selected a team to work on its build out. Furthermore, we are examining the testing and development processes going forward and will be making significant changes which we hope to share in short order. In the meantime, please find the main highlights for the month of August below.
 
-### 1. Revision 10 Update
+## 1. Revision 10 Update
 
 At UTC 2020–08–22, the ICON network experienced an attack by a malicious individual exploiting a vulnerability in the Multiple Unstaking Requests feature. This issue was completely resolved using the Revision 10 Proposal.
 
@@ -28,7 +27,7 @@ More details on the above events can be found in these links:
 
 *Release Note*: <https://www.icondev.io/changelog/2020-08-23-icon-node-release-note>
 
-### 2. News on Contribution Proposal System Development
+## 2. News on Contribution Proposal System Development
 
 The Contribution Proposal System is a community-driven fund to incentivize ecosystem projects that will be drive the growth of our network.
 

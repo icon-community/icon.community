@@ -3,10 +3,9 @@ title: "ICON Mainnet 1.0 Launched"
 date: 2018-01-24
 slug: icon-mainnet-1-0-launched-d54b9132017e
 description:
-featured_image:
 ---
 
-### **ICON Mainnet 1.0 Launched**
+## **ICON Mainnet 1.0 Launched**
 
 ![](https://cdn-images-1.medium.com/max/800/1*fhckhZE4vJrCRSYdk3nrpg.png)Genesis Block generated on January 24, 2018 (18:25 UTC)Greetings from the ICON Team,
 

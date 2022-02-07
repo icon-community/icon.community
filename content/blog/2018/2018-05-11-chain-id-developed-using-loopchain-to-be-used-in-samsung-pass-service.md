@@ -3,10 +3,9 @@ title: "CHAIN ID, developed using loopchain to be used in “Samsung Pass” ser
 date: 2018-05-11
 slug: chan-id-developed-using-loopchain-to-be-used-in-samsung-pass-service-69669928369d
 description:
-featured_image:
 ---
 
-### CHAIN ID, developed using loopchain to be used in “Samsung Pass” service
+## CHAIN ID, developed using loopchain to be used in “Samsung Pass” service
 
 ![](https://cdn-images-1.medium.com/max/800/1*U-d2ZJAm7VhGVWG67XlLCw.png)Greetings from the ICON Team
 

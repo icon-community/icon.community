@@ -3,10 +3,9 @@ title: "Official ICX listing on Kraken Cryptocurrency Exchange"
 date: 2019-09-11
 slug: official-icx-listing-on-kraken-cryptocurrency-exchange-38ad395cea70
 description:
-featured_image:
 ---
 
-### Official ICX listing on Kraken Cryptocurrency Exchange
+## Official ICX listing on Kraken Cryptocurrency Exchange
 
 ![](https://cdn-images-1.medium.com/max/800/1*t_ue08585_gW56VKPiTm5w.png)Trading pairs include ICX/USD, ICX/EUR, ICX/XBT, ICX/ETH
 

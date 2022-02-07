@@ -3,18 +3,17 @@ title: "[Announcement] Additional KYC Information and FAQ (2nd)"
 date: 2017-10-25
 slug: announcement-additional-kyc-information-and-faq-2nd-1dc8b9add751
 description:
-featured_image:
 ---
 
-### **[Announcement] Additional KYC Information and FAQ (2nd)**
+## **[Announcement] Additional KYC Information and FAQ (2nd)**
 
 ![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)Greetings from the ICON team!
 
 This post is to give you additional information regarding the KYC process and give you answers to frequently asked questions.
 
-### **[New Announcements]**
+## **[New Announcements]**
 
-#### **1. ID Editing Policy**
+### **1. ID Editing Policy**
 
 Allow usage of Photoshop or other computer programs to hide the unique identification number
 
@@ -23,7 +22,7 @@ Allow usage of Photoshop or other computer programs to hide the unique identific
 
 ※ In principle, we have requested to cover the unique identification number using paper, “Post-it”, or finger in order to prevent the risk of counterfeit/alteration. However, to reflect the suggestion from the contributors, we have decided that simply erasing the unique identification number with Photoshop or other computer programs will not have a great influence on the validity of the original ID. We will always do our best to accommodate the opinions of ICON contributors within our principles.
 
-#### **2. KYC Submission**
+### **2. KYC Submission**
 
 We will contact you individually via email every Friday for information on whether KYC is accepted. We will also send an email every Friday for those who need to re-submit their materials or need a supplement.
 

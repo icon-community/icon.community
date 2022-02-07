@@ -3,10 +3,9 @@ title: "Public Representative Delegation Pilot Program"
 date: 2020-06-03
 slug: public-representative-delegation-pilot-program-216c0ffc1fba
 description:
-featured_image:
 ---
 
-### Public Representative Delegation Pilot Program
+## Public Representative Delegation Pilot Program
 
 ![](https://cdn-images-1.medium.com/max/800/1*ttw7s09l-ROnonrwIgN5ew.png)June Application
 
@@ -16,7 +15,7 @@ We’re happy to announce that we are extending the application period for the J
 
 As part of this program and as a reminder, the ICON Foundation will use a portion of its ICX treasury to delegate to teams we believe are contributing to the network in areas such as development, marketing, and community building. We believe the benefits of this program are two-fold. The first is the potential to expand and speed up the growth of our ecosystem. And the second is an opportunity for new or current teams with strong skillsets, but limited promotional or self-marketing experience, to receive delegation from the Foundation. Details of the program are provided below.
 
-### Pilot program structure
+## Pilot program structure
 
 The Foundation will delegate a maximum of 2 million votes to each team in the program. Teams who would like to be considered for this program will be required to apply [here](https://docs.google.com/forms/d/e/1FAIpQLScl5r_GNGzldo7lz-Rr2jWokIkyRkFYsFDttIH5R6F0AgQNJA/viewform).
 

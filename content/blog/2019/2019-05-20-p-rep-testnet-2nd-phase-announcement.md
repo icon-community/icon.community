@@ -3,10 +3,9 @@ title: "P-Rep TestNet 2nd Phase Announcement"
 date: 2019-05-20
 slug: p-rep-testnet-2nd-phase-announcement-9b63794fd302
 description:
-featured_image:
 ---
 
-### P-Rep TestNet 2nd Phase Announcement
+## P-Rep TestNet 2nd Phase Announcement
 
 ![](https://cdn-images-1.medium.com/max/800/1*VoE2vzbWAo8ThSF4yGCspw.png)Greetings from the ICON Team,
 

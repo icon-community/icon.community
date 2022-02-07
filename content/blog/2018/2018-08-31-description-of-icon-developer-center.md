@@ -3,10 +3,9 @@ title: "Description of ICON Developer Center"
 date: 2018-08-31
 slug: description-of-icon-developer-center-92b65c425bb0
 description:
-featured_image:
 ---
 
-### **Description of ICON Developer Center**
+## **Description of ICON Developer Center**
 
 ![](https://cdn-images-1.medium.com/max/800/0*7QMgnMRlTs9tTFzu)The welcoming news which many people, particularly developers are looking forward to hearing is finally coming, that is the opening of ICON Developer Center. This posting introduces ICON Developer Center and its detail.
 

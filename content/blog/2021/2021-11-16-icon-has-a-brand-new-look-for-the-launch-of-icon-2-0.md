@@ -3,10 +3,9 @@ title: "ICON has a Brand New Look for the Launch of ICON 2.0!"
 date: 2021-11-16
 slug: icon-has-a-whole-new-look-for-the-launch-of-icon-2-0-1506f41b8aea
 description:
-featured_image:
 ---
 
-### ICON has a Brand New Look for the Launch of ICON 2.0!
+## ICON has a Brand New Look for the Launch of ICON 2.0!
 
 ICON 2.0 is finally here bringing new blockchain architecture specifically designed for DeFi applications and cross-chain interoperability. The ICON logo and [website](https://icon.foundation/) have been completely redesigned just in time for the greatly anticipated 2.0 upgrade.
 
@@ -23,7 +22,7 @@ In addition to cross-chain interoperability, ICON is also launching an EVM-compa
 
 Follow ICON across each social media channel, which you can find on the [new website](https://icon.foundation/). Liking, sharing, and retweeting our content helps to get our content noticed by many more like you. Thanks so much to the community for all your hard work — please continue to help spread the news surrounding ICON, it has made a huge difference in the growth of our ecosystem!
 
-### Join the ICON Community
+## Join the ICON Community
 
 For more information about ICON, [visit our website](https://icon.foundation/) & [subscribe](https://mailchi.mp/icon.foundation/icon-20)
 

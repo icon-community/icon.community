@@ -3,10 +3,9 @@ title: "ICON Foundation Partners with a Leading Market Maker Wintermute"
 date: 2021-07-21
 slug: icon-foundation-partners-with-a-leading-market-maker-wintermute-bc4cb1742073
 description:
-featured_image:
 ---
 
-### ICON Foundation Partners with a Leading Market Maker Wintermute
+## ICON Foundation Partners with a Leading Market Maker Wintermute
 
 ![](https://cdn-images-1.medium.com/max/800/1*23sF4GeUTjhYApRsFxOjKw.png)*Wintermute to Provide ICX Liquidity on New/Existing Exchanges*
 

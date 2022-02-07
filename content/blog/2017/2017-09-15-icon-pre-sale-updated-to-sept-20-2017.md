@@ -3,16 +3,15 @@ title: "ICON Pre-Sale Updated to Sept 20, 2017"
 date: 2017-09-15
 slug: icon-pre-sale-updated-to-sept-20-2017-adf922f6f19b
 description:
-featured_image:
 ---
 
-### ICON Pre-Sale Updated to Sept 20, 2017
+## ICON Pre-Sale Updated to Sept 20, 2017
 
-#### Pre-Sale starts on Sept 20, 2017 (13:00 UTC+9)
+### Pre-Sale starts on Sept 20, 2017 (13:00 UTC+9)
 
 ![](https://cdn-images-1.medium.com/max/800/0*TFYtl2Q8tllCrW8T.)Security is a high priority for the ICON project. The ICON team has noticed various scam attempts leading up to the Pre-Sale. To further protect contributors from phishing scams, ICON is adding additional security measures. In order to fully ensure security measures are properly placed, the ICON Pre-Sale date has been moved.
 
-### ICON Pre-Sale Calendar (Updated)
+## ICON Pre-Sale Calendar (Updated)
 
 * **Technical AMA (LIVE):** Sept 18, 2017 13:00 ~ 14:00 (UTC+9)
 * **Pre-Pre-Sale Event (LIVE):** Sept 19, 2017 13:00 ~ 14:00 (UTC+9)

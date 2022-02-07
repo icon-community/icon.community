@@ -3,20 +3,19 @@ title: "Updates to IISS"
 date: 2019-05-10
 slug: updates-to-iiss-5a088b17473d
 description:
-featured_image:
 ---
 
-### Updates to IISS
+## Updates to IISS
 
 ![](https://cdn-images-1.medium.com/max/800/1*Tm9nBuyQw9WSvbRc0XEktw.png)Greetings from the ICON Team,
 
 We have continued to refine the governance and incentive structure of the ICON Network outlined in the yellow paper published last December. After consideration of possible attack vectors, P-Rep responsibilities, and incentive alignment we have made several enhancements to the original design. A high-level overview of the updates can be found below, followed by the granular details in a bulleted list. Additionally, we share a few more details on the Pre-Voting period beginning in August.
 
-### IISS Update Overview
+## IISS Update Overview
 
 The update includes limitations on the power of P-Reps, as we felt the initial design gave P-Reps too much authority. Rewards received by DApps ([i\_dapp](https://helloiconworld.freshdesk.com/solution/articles/35000123738-what-is-i-dapp-)), [EEPs](https://helloiconworld.freshdesk.com/a/solutions/articles/35000105253-what-is-an-ecosystem-expansion-project-eep-) ([i\_eep](https://helloiconworld.freshdesk.com/solution/articles/35000123736-what-is-i-eep-)) and rewards received by voting ICONists ([r\_eep](https://helloiconworld.freshdesk.com/a/solutions/articles/35000123740-what-is-r-eep-), [r\_dapp](https://helloiconworld.freshdesk.com/a/solutions/articles/new), and [r\_rep](https://helloiconworld.freshdesk.com/solution/articles/35000123739-what-is-r-rep-)) are no longer decided by P-Reps. None of these updates will affect the expected annual issuance amount. We also added a variable un-staking period based on the percentage of the network staked.
 
-### Additional Details
+## Additional Details
 
 ![](https://cdn-images-1.medium.com/max/800/1*tpxCX7mnVv-1elzlmg4rEw.png)■ **Delegation Annual Reward Rate for Voters:** It is now a function of the percentage of the network delegated.
 
@@ -32,7 +31,7 @@ Even if the [DBP](https://helloiconworld.freshdesk.com/a/solutions/articles/3500
 
 ■ **Minimum i\_rep:** Hard-coded as 10,000 ICX
 
-### Pre-Voting Period Details (August 2019)
+## Pre-Voting Period Details (August 2019)
 
 ■ The ICON Foundation has decided on a pool of **~3 million ICX** to be released during the course of the pre-voting period in August
 

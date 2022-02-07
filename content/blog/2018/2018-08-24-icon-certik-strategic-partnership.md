@@ -3,10 +3,9 @@ title: "ICON-CertiK, Strategic partnership"
 date: 2018-08-24
 slug: icon-certik-strategic-partnership-577c131ea36
 description:
-featured_image:
 ---
 
-### ICON-CertiK, Strategic partnership
+## ICON-CertiK, Strategic partnership
 
 ![](https://cdn-images-1.medium.com/max/800/1*dtUYMS09391pM2YBk2gNQg.png)Greetings from the ICON Team,
 

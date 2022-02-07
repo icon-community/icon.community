@@ -3,10 +3,9 @@ title: "ICX Token swap deadline reminder"
 date: 2018-08-29
 slug: icx-token-swap-deadline-reminder-634fa092886d
 description:
-featured_image:
 ---
 
-### **ICX Token swap deadline reminder**
+## **ICX Token swap deadline reminder**
 
 ![](https://cdn-images-1.medium.com/max/800/0*564-L6qEWq6RTRV7)Greetings from the ICON Team,
 

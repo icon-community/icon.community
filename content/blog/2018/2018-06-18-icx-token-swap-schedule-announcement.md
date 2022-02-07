@@ -3,10 +3,9 @@ title: "ICX Token swap schedule announcement"
 date: 2018-06-18
 slug: icx-token-swap-schedule-announcement-10238888a50d
 description:
-featured_image:
 ---
 
-### ICX Token swap schedule announcement
+## ICX Token swap schedule announcement
 
 ![](https://cdn-images-1.medium.com/max/800/0*564-L6qEWq6RTRV7)Greeting from the ICON Team
 

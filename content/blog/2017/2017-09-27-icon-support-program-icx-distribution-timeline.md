@@ -3,10 +3,9 @@ title: "ICON Support Program ICX Distribution Timeline"
 date: 2017-09-27
 slug: icon-support-program-icx-distribution-timeline-fa046d7f32c1
 description:
-featured_image:
 ---
 
-### ICON Support Program ICX Distribution Timeline
+## ICON Support Program ICX Distribution Timeline
 
 ![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)This post clarifies the ICX distribution timeline for the ICON “Support Program”. The ICON team ran various Support Programs to promote the ICON Token Sale. The ICON Support Program distributed ICX for events, promotion, and community management.
 
@@ -16,7 +15,7 @@ ICON Supporters will receive their ICX when the ICX Mainnet(Q4) is opened. ICON 
 
 Supporters will get an individual email when the Mainnet is opened and they can collect their rewarded ICX.
 
-#### The ICON Support Program is divided into 5 main categories:
+### The ICON Support Program is divided into 5 main categories:
 
 * **Meetup Business Card Event:** ICON held two meetup events prior to the Token Sale. The ICON team collected business cards and chose a 13 lucky business cards. The selected business card owners were awarded ICX.
 * **[LIVE] Lottery Draw Event:** To reward active participation in the ICON chat rooms, the ICON team randomly selected chat room participants LIVE on Facebook.

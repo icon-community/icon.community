@@ -3,10 +3,9 @@ title: "Launching of Mobile ICONex for Android"
 date: 2018-06-05
 slug: launching-of-mobile-iconex-for-android-b0b6be005cc9
 description:
-featured_image:
 ---
 
-### **Launching of Mobile ICONex for Android**
+## **Launching of Mobile ICONex for Android**
 
 ![](https://cdn-images-1.medium.com/max/800/0*5YdxvBhj-vml0GO9)Greetings from the ICON Team,
 

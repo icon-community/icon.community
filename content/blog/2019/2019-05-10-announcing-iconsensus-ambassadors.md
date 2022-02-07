@@ -3,10 +3,9 @@ title: "Announcing — ICONSENSUS Ambassadors"
 date: 2019-05-10
 slug: announcing-iconsensus-ambassadors-a5fb9ae6507a
 description:
-featured_image:
 ---
 
-### **Announcing — ICONSENSUS Ambassadors**
+## **Announcing — ICONSENSUS Ambassadors**
 
 ![](https://cdn-images-1.medium.com/max/800/0*bXrGv-zXCSx77N66)Greetings from the ICON Team,
 

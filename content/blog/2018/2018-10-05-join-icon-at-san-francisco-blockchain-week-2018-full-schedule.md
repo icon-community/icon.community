@@ -3,10 +3,9 @@ title: "Join ICON at San Francisco Blockchain Week 2018 (Full Schedule)"
 date: 2018-10-05
 slug: join-icon-at-san-francisco-blockchain-week-2018-full-schedule-9f7013a047fb
 description:
-featured_image:
 ---
 
-### **Join ICON at San Francisco Blockchain Week 2018 (Full Schedule)**
+## **Join ICON at San Francisco Blockchain Week 2018 (Full Schedule)**
 
 ![](https://cdn-images-1.medium.com/max/800/1*6tQ3zJV5v_7T1sIaE9aCzg.jpeg)Greetings from the ICON Team,
 
@@ -18,7 +17,7 @@ Developers, *‘Come SCORE on ICON!’* During our developers workshop, learn ho
 
 We are excited to announce that the ICON Foundation is the exclusive sponsor of the CESC Reception taking place on the evening of the 10th. Also, be sure to check out the panel appearances by the [ICX Station](http://icxstation.com) team (Daeki Lee and Scott Smiley) in the full schedule below.
 
-### **SF Blockchain Week 2018 (Full Schedule):**
+## **SF Blockchain Week 2018 (Full Schedule):**
 
 ![](https://cdn-images-1.medium.com/max/800/1*Q7h6RGzzYfnDjDk9Imkl_A.jpeg)We hope to see you next week in San Francisco! Come by our booth throughout the week and say hi!
 

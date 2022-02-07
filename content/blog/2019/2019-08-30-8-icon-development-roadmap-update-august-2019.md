@@ -3,10 +3,9 @@ title: "#8. ICON Development Roadmap Update — August 2019"
 date: 2019-08-30
 slug: 8-icon-development-roadmap-update-august-2019-5e6f98e990bb
 description:
-featured_image:
 ---
 
-### #8. ICON Development Roadmap Update — August 2019
+## #8. ICON Development Roadmap Update — August 2019
 
 ![](https://cdn-images-1.medium.com/max/800/1*F0FgXe9GX4nWZcpNmtK7ng.png)ICONex, ICON Tracker, IISS Updates and Contribution Proposal
 

@@ -3,10 +3,9 @@ title: "ICONSENSUS: P-Rep Election Campaign Updates — P-Rep TestNet & Pre-
 date: 2019-04-02
 slug: iconsensus-p-rep-election-campaign-updates-p-rep-testnet-pre-voting-f1c4264d8f27
 description:
-featured_image:
 ---
 
-### **ICONSENSUS: P-Rep Election Campaign Updates — P-Rep TestNet & Pre-voting**
+## **ICONSENSUS: P-Rep Election Campaign Updates — P-Rep TestNet & Pre-voting**
 
 ![](https://cdn-images-1.medium.com/max/800/0*76_G4L9LWUw5C7fW)Greetings from the ICON Team,
 

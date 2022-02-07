@@ -3,10 +3,9 @@ title: "ICON Presents at the Santa Clara Blockchain Expo"
 date: 2017-11-22
 slug: icon-presents-at-the-santa-clara-blockchain-expo-a603d0857b7e
 description:
-featured_image:
 ---
 
-### **ICON Presents at the Santa Clara Blockchain Expo**
+## **ICON Presents at the Santa Clara Blockchain Expo**
 
 ![](https://cdn-images-1.medium.com/max/800/0*Pc0Y63Tt0Jbmzoff.)ICON will present at the Santa Clara Blockchain Expo on Nov 29–30th, 2017. The Blockchain Expo is one of the largest conferences in the emerging Blockchain space. The ICON team will setup a booth for general information and ICON Foundation Council Member Min Kim prepared a special presentation.
 

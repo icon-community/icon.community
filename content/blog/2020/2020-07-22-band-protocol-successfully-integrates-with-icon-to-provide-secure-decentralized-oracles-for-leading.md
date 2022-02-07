@@ -3,10 +3,9 @@ title: "Band Protocol Successfully Integrates with ICON to Provide Secure Decent
 date: 2020-07-22
 slug: band-protocol-successfully-integrates-with-icon-to-provide-secure-decentralized-oracles-for-leading-9519483568ce
 description:
-featured_image:
 ---
 
-### **Band Protocol Successfully Integrates with ICON to Provide Secure Decentralized Oracles for Leading DApps**
+## **Band Protocol Successfully Integrates with ICON to Provide Secure Decentralized Oracles for Leading DApps**
 
 ![](https://cdn-images-1.medium.com/max/800/0*pIpFe0-JJWc-omvm)Greetings from the ICON Team,
 

@@ -3,10 +3,9 @@ title: "ICON Sponsors Deblock Japan"
 date: 2019-03-07
 slug: icon-sponsors-deblock-japan-c738b5c71a57
 description:
-featured_image:
 ---
 
-### **ICON Sponsors Deblock Japan**
+## **ICON Sponsors Deblock Japan**
 
 **Deblock, Inc. in Japan will also operate ICX Station — Tokyo Launchpad, the accelerator program of ICON**
 

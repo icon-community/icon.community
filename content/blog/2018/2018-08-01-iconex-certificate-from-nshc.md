@@ -3,10 +3,9 @@ title: "ICONex Certificate from NSHC"
 date: 2018-08-01
 slug: iconex-certificate-from-nshc-c392a5e0468d
 description:
-featured_image:
 ---
 
-### ICONex Certificate from NSHC
+## ICONex Certificate from NSHC
 
 ![](https://cdn-images-1.medium.com/max/800/1*fV7EePD7RPFn6JPHHVBKvw.png)Greetings from the ICON Team,
 

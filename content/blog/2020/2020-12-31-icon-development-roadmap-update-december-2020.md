@@ -3,10 +3,9 @@ title: "ICON Development Roadmap Update — December 2020"
 date: 2020-12-31
 slug: icon-development-roadmap-update-december-2020-a68eda1b5cdf
 description:
-featured_image:
 ---
 
-### ICON Development Roadmap Update — December 2020
+## ICON Development Roadmap Update — December 2020
 
 ![](https://cdn-images-1.medium.com/max/800/1*YM3K7k1nWEvSz1FMzDGoeA.png)2021 Transformation, Revision 12 and Contribution Proposal System
 
@@ -16,7 +15,7 @@ As we look ahead, there are many things to be excited about in 2021. First and f
 
 We expect 2021 to be a big year for the adoption and growth of the network. We saw many improvements in 2020, but we expect step-change growth in 2021 as many new applications launch, and better tooling exists in our ecosystem. These are just a few of the highlights heading into the new year. Be sure to sign up for our newsletter if you haven’t to stay up to date with bi-weekly ecosystem developments! Also, check out our [latest newsletter to catch up on all the exciting things that happened in 2020](https://www.getrevue.co/profile/helloiconworld/issues/icon-newsletter-38-best-of-2020-edition-299384)! There are many more announcements to come, but until then we wish you a safe and happy new year!
 
-### 1. Revision 12 Update on Testnets
+## 1. Revision 12 Update on Testnets
 
 Revision 12 was released to Euljiro and Pagoda testnets on December 30th. We are set to release it on the Mainnet in mid- Jan 2021 assuming no issues are found after the testing period. This update is focusing on increasing security and stability of ICON Network. The new update includes the below features:
 
@@ -27,7 +26,7 @@ Revision 12 was released to Euljiro and Pagoda testnets on December 30th. We are
 
 You can find more details regarding this release in the note below: <https://www.icondev.io/changelog/2020-01-14-icon-node-release>
 
-### 2. Contribution Proposal System (CPS)
+## 2. Contribution Proposal System (CPS)
 
 The [Contribution Proposal System](http://cps.ibriz.ai) is now in its testing phase. It will rotate between Voting Periods and Application Periods on a 24 hour cycle, so please keep this in mind during testing. The smart contract code is being refactored to streamline efficiencies and we’re collecting feedback from users on this [google form](https://forms.gle/ckDnXbnrsxLY2eSk7). We look forward to launching the mainnet version of this product in January of 2021 assuming no major issues with the smart contract code.
 

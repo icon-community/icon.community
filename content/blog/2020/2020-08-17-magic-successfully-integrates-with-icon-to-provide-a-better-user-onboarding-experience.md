@@ -3,10 +3,9 @@ title: "Magic Successfully Integrates with ICON to Provide a Better User Onboard
 date: 2020-08-17
 slug: magic-successfully-integrates-with-icon-to-provide-a-better-user-onboarding-experience-d8187e50f394
 description:
-featured_image:
 ---
 
-### Magic Successfully Integrates with ICON to Provide a Better User Onboarding Experience
+## Magic Successfully Integrates with ICON to Provide a Better User Onboarding Experience
 
 ![](https://cdn-images-1.medium.com/max/800/1*nczsaZZMvVfah2ptfM1BOw.png)Greetings from the ICON Team,
 
