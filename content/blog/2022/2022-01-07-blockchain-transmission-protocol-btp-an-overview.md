@@ -7,10 +7,7 @@ description: "Blockchain Transmission Protocol (BTP) is ICON’s cross-chain int
 featured_image: "20220107_BLOCKCHAIN-TRANSMISSION-PROTOCOL.jpg"
 ---
 
-## What is BTP?
-
 Blockchain Transmission Protocol (BTP) is ICON’s cross-chain interoperability solution. ICON’s BTP facilitates the transfer of information between connected blockchains. In practice, BTP will allow users to move tokens, NFTs, messages, and more across BTP-enabled chains.
-
 
 > Blockchain Transmission Protocol (BTP) is chain-agnostic, scalable, and secure.
 

@@ -2,33 +2,10 @@
 title: "What is BTP? An In-depth Review with Use Cases"
 date: 2022-01-06
 slug: what-is-btp-b1affe6b3bbf
-description:
+description: Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol.
 ---
 
-## What is BTP? An In-depth Review with Use Cases
-
-### Learn more about ICON’s decentralized interoperability solution.
-
-![](https://cdn-images-1.medium.com/max/800/1*GxxN-EC1WIhgZtyzIEJoXA.png)Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol. BTP’s chain-agnostic design allows it to be integrated with any smart contract-enabled blockchain. Unlike traditional bridging solutions that rely on handpicked validators to relay cross-chain messages and custody funds, BTP uses a more secure model with fully-decentralized incentivized relayers and on-chain verification of messages. In this article, you’ll learn about ICON’s BTP technology, and how it can be applied to real-world use cases.
-
-## Table of Contents
-
-* [Digital Nations and Blockchain Interoperability](#7db6)
-* [Three Use Cases for BTP](#aa95)
-* [Cross-Chain Token Transfers](#361e)
-* [Cross-Chain Arbitrage](#3048)
-* [Cross-Chain “NFT-as-Identity”](#0c5e)
-* [How BTP Works](#3458)
-* [BTP Smart Contracts](#7c3e)
-* [What is a BTP Relayer?](#888d)
-* [BTP Token Transfer Example](#72d2)
-* [The Advantages of BTP](#8777)
-* [BTP is Chain-Agnostic and Scalable](#5634)
-* [Ease of Integration](#105c)
-* [Scalable Bridging Between Blockchains](#34d5)
-* [BTP is Secure and Decentralized](#1b3c)
-* [How to Join the BTP Ecosystem](#1514)
-* [Summary](#31a6)
+Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol. BTP’s chain-agnostic design allows it to be integrated with any smart contract-enabled blockchain. Unlike traditional bridging solutions that rely on handpicked validators to relay cross-chain messages and custody funds, BTP uses a more secure model with fully-decentralized incentivized relayers and on-chain verification of messages. In this article, you’ll learn about ICON’s BTP technology, and how it can be applied to real-world use cases.
 
 ## Digital Nations and Blockchain Interoperability
 
@@ -157,7 +134,7 @@ We envision a future where BTP seamlessly facilitates cross-chain messaging and 
 ICON’s BTP brings cross-chain interoperability to the next level. By utilizing on-chain smart contracts and community-run message relayers, BTP is able to facilitate cross-chain communication in a novel and fully-decentralized way that doesn’t leave custody of funds to a small set of handpicked bridge operators.
 
 
-> *The vision for BTP is to be prepared for anything. 3 years ago, nobody imagined what interoperability would be used for, now there’s a focus on DeFi. What’s next? We don’t need an answer, we just need a flexible, secure and decentralized interoperability solution, and that’s what BTP is. — Min Kim, ICON Foundation*
+> The vision for BTP is to be prepared for anything. 3 years ago, nobody imagined what interoperability would be used for, now there’s a focus on DeFi. What’s next? We don’t need an answer, we just need a flexible, secure and decentralized interoperability solution, and that’s what BTP is. — Min Kim, ICON Foundation
 
 The future of blockchain is undoubtedly multi-chain, which means cross-chain bridges will be of utmost importance in the coming years. We believe that BTP will be one of the leaders for cross-chain communication, and we look forward to working with our ecosystem partners and community to build a brighter and more interconnected future.
 

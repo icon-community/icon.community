@@ -15,10 +15,82 @@
                 {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url) }}
             </div>
         </div>
+        <div id="icon-features" class="md:py-16 relative py-8 space-y-32 overflow-hidden">
+            <div id="icon-features_icx"
+                class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto space-y-8">
+                    <div>
+                        <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
+                            Powered by ICX
+                        </h2>
+                        <p class="md:text-lg mt-4 text-base text-gray-400">
+                            ICX is the currency that powers the ICON ecosystem. ICX has a variety of use cases including
+                            staking, network governance, collateralization on DeFi platforms, and more.
+                        </p>
+                        <div class="mt-6">
+                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/icx/") }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                            <h3 class="text-xs font-bold text-gray-400 uppercase">ICX Price</h3>
+                            <span id="icx-price" class="font-mono text-2xl font-bold"
+                                hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
+                                hx-trigger="load every 30s"></span>
+                        </div>
+                        <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                            <h3 class="text-xs font-bold text-gray-400 uppercase">Market Cap</h3>
+                            <span id="icx-price" class="font-mono text-2xl font-bold"
+                                hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
+                                hx-trigger="load every 30s"></span>
+                        </div>
+                        <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                            <h3 class="text-xs font-bold text-gray-400 uppercase">Staking APY</h3>
+                            <span id="icx-price" class="font-mono text-2xl font-bold"
+                                hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
+                                hx-trigger="load every 30s"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:mt-16 lg:mt-0 mt-12">
+                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                            src="/assets/nexus.png" alt="Nexus user interface.">
+                    </div>
+                </div>
+            </div>
+            <div id="icon-features_java"
+                class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
+                    <div>
+                        <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
+                            Develop in Java
+                        </h2>
+                        <p class="md:text-lg mt-4 text-base text-gray-400">
+                            ICON smart contracts are written in Java, a general-purpose programming language known
+                            for performance, safety, and reliability. If you're a Java developer looking to get into
+                            smart contract development, you'll feel right at home on ICON.
+                        </p>
+                        <div class="mt-6">
+                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Started" "buttonUrl" "https://icondev.io/") }}
+                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "https://icondev.io/") }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
+                    <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                            src="/assets/cps.png" alt="Customer profile user interface">
+                    </div>
+                </div>
+            </div>
 
-        <div id="icon-features" class="md:py-16 relative py-8 overflow-hidden">
             <div id="icon-features_btp"
-                class="md:pb-32 lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 pb-16">
+                class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
                     <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
                         Decentralized, Fast, and Secure Interoperability
@@ -35,14 +107,7 @@
                     </p>
                     <div class="mt-6">
                         <div id="hero-buttons" class="flex flex-wrap gap-4">
-                            <button type="button"
-                                class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
-                                Learn More
-                            </button>
-                            <button type="button"
-                                class="hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center px-4 py-2 text-base font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
-                                Try Nexus
-                            </button>
+                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "https://icondev.io/") }}
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 ---
 title: "ICON Support Program ICX Distribution Timeline"
 date: 2017-09-27
-category: announcements
+category: announcementsw
 slug: icon-support-program-icx-distribution-timeline-fa046d7f32c1
 description:
 ---

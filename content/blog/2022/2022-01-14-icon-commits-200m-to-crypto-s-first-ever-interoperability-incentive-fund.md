@@ -5,11 +5,7 @@ slug: icon-commits-200m-to-cryptos-first-ever-interoperability-incentive-fund-15
 description:
 ---
 
-## ICON Commits $200M to Crypto’s First-Ever Interoperability Incentive Fund
-
-### The fund will be used to incentivize use of BTP technology and the development of cross-chain use cases.
-
-![](https://cdn-images-1.medium.com/max/800/1*cTXyXBjYE0bbDtniE_1gGA.jpeg)The ICON Project is proud to announce a 200M ICX (valued at approximately $200M as of today) Interoperability Incentive Program (for link to CoinTelegraph coverage, click [here](https://bit.ly/3tIyFYT)). This is one of the largest incentive funds within the entire blockchain industry and the first ever dedicated entirely to interoperability. The launch of this fund is a critical step toward ensuring ICON’s Blockchain Transmission Protocol (BTP) is among the most widely used and adopted interoperability solutions.
+The ICON Project is proud to announce a 200M ICX (valued at approximately $200M as of today) Interoperability Incentive Program (for link to CoinTelegraph coverage, click [here](https://bit.ly/3tIyFYT)). This is one of the largest incentive funds within the entire blockchain industry and the first ever dedicated entirely to interoperability. The launch of this fund is a critical step toward ensuring ICON’s Blockchain Transmission Protocol (BTP) is among the most widely used and adopted interoperability solutions.
 
 ICON’s BTP, which has been under development for several years, is a unique, truly decentralized bridging technology that doesn’t compromise on security by custodying funds in contracts controlled by hand-picked operators. To learn more, read this [BTP overview](https://medium.com/helloiconworld/what-is-btp-b1affe6b3bbf) published by the ICON team.
 
@@ -70,5 +66,3 @@ ICON will continue to pursue additional BTP integrations, fund innovative BTP us
 **More details will be released regarding this incentive program as specific programs and teams receive support. Stay tuned for more information.**
 
 ## To join our growing community of ICONists today join our Discord: <https://discord.gg/BvWzx9nZgv>
-
-![](https://cdn-images-1.medium.com/max/800/0*qBtl2dmQnFZotEQF)

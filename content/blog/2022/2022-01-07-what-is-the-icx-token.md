@@ -5,11 +5,9 @@ slug: what-is-the-icx-token-f2a32b864215
 description: The ICX token is the currency of all applications that are built on the ICON blockchain. ICX can be used for sending or receiving payments on the blockchain and pays for ICON transaction fees as well.
 ---
 
-## What is the ICX Token?
-
 The ICX token is the currency of all applications that are built on the ICON blockchain. ICX can be used for sending or receiving payments on the blockchain and pays for ICON transaction fees as well.
 
-![](https://cdn-images-1.medium.com/max/800/1*uOPyHyT9ejnIaF1JWpbhcw.jpeg)**Using the ICX token**
+**Using the ICX token**
 
 Most decentralized applications (dApps) within the ICON Ecosystem use the ICX token as their basic means of payment. Whether you are buying NFT’s, trading on a decentralized exchange or transferring assets across blockchains with ICON’s Blockchain Transmission Protocol (BTP), the price/market/fee is most likely to be denominated in ICX.
 

@@ -2,14 +2,10 @@
 title: "What is ICON?"
 date: 2022-01-07
 slug: what-is-icon-6ef1c3d1cd0f
-description:
+description: ICON is a blockchain that aims to facilitate true crypto interoperability with its built-in Blockchain Transmission Protocol (BTP) technology.
 ---
 
-## What is ICON?
-
-### Connecting Blockchains and Communities
-
-![](https://cdn-images-1.medium.com/max/800/1*RoB0BITGm2DjSD6Pj9IRCQ.jpeg)![](https://cdn-images-1.medium.com/max/800/1*U1Am7ZtnXzBItJde1YRPCw.png)ICON is a blockchain that aims to facilitate true crypto interoperability with its built-in Blockchain Transmission Protocol (BTP) technology.
+ICON is a blockchain that aims to facilitate true crypto interoperability with its built-in Blockchain Transmission Protocol (BTP) technology.
 
 ICON’s signature true interoperability is decentralized, chain-agnostic, and trust-less. The BTP technology is an interoperability layer that supports cross-chain token swaps, contract calls, and generic messaging.
 

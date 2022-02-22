@@ -1,11 +1,7 @@
 {{ define "main" }}
-<main class="index">
+<main>
     <div id="container">
-        <div hx-ws="connect:wss:/tracker.icon.community/ws/v1/transactions">
-            <div id="chat_room" hx-swap-oob="true">
-                ...
-            </div>
-        </div>
+        {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Get ICX" "primaryButtonUrl" $.Site.Params.forms.faq_submission_url) }}
     </div>
 </main>
 {{ end }}
