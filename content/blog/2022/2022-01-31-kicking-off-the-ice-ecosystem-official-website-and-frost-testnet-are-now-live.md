@@ -2,7 +2,7 @@
 title: "Kicking Off the ICE Ecosystem: Official Website and Frost Testnet are now LIVE!"
 date: 2022-01-31
 slug: kicking-off-the-ice-ecosystem-official-website-and-frost-testnet-are-now-live-8ee30a0a18ff
-description:
+description: We are excited to announce that the official website for ICE & SNOW is now live.
 ---
 
 We are excited to announce that the official website for ICE & SNOW is now live. This website will serve as the informational hub for each project moving forward and provides a clear overview of the benefits of the ICE ecosystem for both users and developers.

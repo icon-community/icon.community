@@ -2,7 +2,7 @@
 title: "ICON Commits $200M to Crypto’s First-Ever Interoperability Incentive Fund"
 date: 2022-01-14
 slug: icon-commits-200m-to-cryptos-first-ever-interoperability-incentive-fund-155550671fd
-description:
+description: The ICON Project is proud to announce a 200M ICX Interoperability Incentive Program.
 ---
 
 The ICON Project is proud to announce a 200M ICX (valued at approximately $200M as of today) Interoperability Incentive Program (for link to CoinTelegraph coverage, click [here](https://bit.ly/3tIyFYT)). This is one of the largest incentive funds within the entire blockchain industry and the first ever dedicated entirely to interoperability. The launch of this fund is a critical step toward ensuring ICON’s Blockchain Transmission Protocol (BTP) is among the most widely used and adopted interoperability solutions.
