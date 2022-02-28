@@ -143,6 +143,12 @@
                                 hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
                                 hx-trigger="load"></span>
                         </div>
+                        <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                            <h3 class="text-xs font-bold text-gray-400 uppercase">Active P-Reps</h3>
+                            <span id="icx-price" class="font-mono text-2xl font-bold"
+                                hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html"
+                                hx-trigger="load"></span>
+                        </div>
                     </div>
                     <p class="md:text-lg z-50 max-w-2xl mx-auto text-base text-center text-gray-200">
                         ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
