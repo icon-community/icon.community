@@ -33,20 +33,23 @@
                     </div>
                 </div>
                 <div class="flex gap-4">
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">ICX Price</h3>
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
                             hx-trigger="load, every 30s"></span>
                     </div>
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">Market Cap</h3>
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
                             hx-trigger="load, every 30s"></span>
                     </div>
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">Staking APY</h3>
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
                             hx-trigger="load, every 30s"></span>
@@ -117,31 +120,35 @@
             </div>
         </div>
         <div id="cps" class="lg:py-32 md:py-16 bg-gradient-to-r to-green-900 from-indigo-900 py-8 space-y-32">
-            <div id="cps_hero" class=" relative px-4 space-y-8">
+            <div id="cps_hero" class="relative px-4 space-y-8">
                 <h1 class="md:text-4xl lg:text-6xl text-4xl font-bold tracking-tight text-center">
                     Build and Get Paid
                 </h1>
-                <div class="flex items-center justify-center gap-4">
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">Active Projects</h3>
+                <div class="flex flex-wrap items-center justify-center gap-4">
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active Projects</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
                             hx-trigger="load"></span>
                     </div>
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">Funded Projects</h3>
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Funded Projects</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
                             hx-trigger="load"></span>
                     </div>
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">Distributed Funds</h3>
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Distributed Funds</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
                             hx-trigger="load"></span>
                     </div>
-                    <div class="flex flex-col px-4 py-3 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase">Active P-Reps</h3>
+                    <div
+                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
+                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active P-Reps</h3>
                         <span id="icx-price" class="font-mono text-2xl font-bold"
                             hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html" hx-trigger="load"></span>
                     </div>
@@ -174,7 +181,7 @@
                                 </p>
                             </dt>
                             <dd class="mt-2 text-base text-gray-200">Applying for CPS funding is quick and easy.
-                                Discuss on the ICON forum, and submit your proposal when ready.
+                                Share your idea on the ICON forum for discussion, and submit a proposal when ready.
                             </dd>
                         </div>
                         <div>
@@ -191,7 +198,7 @@
                                 <p class="mt-5 text-lg font-bold leading-6">Decentralized Funding</p>
                             </dt>
                             <dd class="mt-2 text-base text-gray-200">ICON's CPS is a fully decentralized grant
-                                program operated by block producers on the ICON network.</dd>
+                                program governed by P-Reps (block producers) on the ICON network.</dd>
                         </div>
                         <div>
                             <dt>
@@ -207,8 +214,9 @@
                                 <p class="mt-5 text-lg font-bold leading-6">Paid in bnUSD</p>
                             </dt>
                             <dd class="mt-2 text-base text-gray-200">Unlike grant programs that rely on volatile
-                                tokens for payouts, CPS utilizes the <a class="hover:no-underline underline"
-                                    href="https://balanced.network/how/">bnUSD</a> stablecoin.</dd>
+                                tokens, CPS utilizes the <a class="hover:no-underline underline"
+                                    href="https://balanced.network/how/">bnUSD</a> stablecoin for predictable income
+                                month after month.</dd>
                         </div>
                         <div>
                             <dt>
@@ -226,7 +234,7 @@
                                 </p>
                             </dt>
                             <dd class="mt-2 text-base text-gray-200">Once your CPS proposal is approved, you'll
-                                automatically receive monthly payouts in bnUSD.</dd>
+                                automatically receive monthly payouts in bnUSD as you hit project milestones.</dd>
                         </div>
                         <div>
                             <dt>
@@ -242,9 +250,8 @@
                                 <p class="mt-5 text-lg font-bold leading-6">No KYC
                                 </p>
                             </dt>
-                            <dd class="mt-2 text-base text-gray-200">Submitting a CPS proposal doesn't require KYC,
-                                which means anyone can
-                                apply for funding.</dd>
+                            <dd class="mt-2 text-base text-gray-200">Submitting a CPS proposal doesn't require clunky
+                                KYC procedures, which means anyone, anywhere can apply for funding with ease.</dd>
                         </div>
                         <div>
                             <dt>
@@ -259,8 +266,8 @@
                                 <p class="mt-5 text-lg font-bold leading-6">Community Support
                                 </p>
                             </dt>
-                            <dd class="mt-2 text-base text-gray-200">Bootstrap your CPS-funded project's userbase
-                                with members of the ICON community.</dd>
+                            <dd class="mt-2 text-base text-gray-200">Looking for beta testers or early adopters for your
+                                project? Bootstrap your CPS-funded project with ICON's tight-knit community.</dd>
                         </div>
                     </dl>
                 </div>
