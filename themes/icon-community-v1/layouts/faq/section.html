@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "container" }}
 {{ $faqs := where ($.Site.RegularPages) "Section" "faq" }}
 <div id="container" class="max-w-7xl px-4 mx-auto">
     {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Submit a Question" "primaryButtonUrl" $.Site.Params.forms.faq_submission_url ) }}

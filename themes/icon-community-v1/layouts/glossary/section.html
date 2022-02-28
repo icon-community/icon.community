@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "container" }}
 {{ $posts := where ($.Site.RegularPages) "Section" "glossary" }}
 {{ $validLetters := slice }}
 {{ range sort $posts }}
