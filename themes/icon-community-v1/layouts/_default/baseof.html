@@ -28,7 +28,9 @@
 
     <body class="text-gray-50 font-sans antialiased bg-black">
         {{ partial "navigation_bar.html" . }}
-        {{ block "main" . }}{{ end }}
+        <main class="my-16">
+            {{ block "main" . }}{{ end }}
+        </main>
         {{ partial "footer.html" . }}
     </body>
 

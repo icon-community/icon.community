@@ -1,6 +1,6 @@
 ---
 title: Balanced
-description:
+description: Balanced is a DeFi platform that allows users to collateralize ICX and mint bnUSD up to a certain LTV ratio.
 category: defi
 website_url: "https://balanced.network"
 twitter_url: "https://twitter.com/BalancedDAO"
