@@ -1,17 +1,17 @@
-<div x-data="{ mobileMenuOpen: false }" id="navigation-menu" class="relative bg-black">
+<div x-data="{ mobileMenuOpen: false }" id="navigation-menu" class="relative">
     <div class="max-w-full mx-auto">
-        <div class="flex items-center justify-between p-4 border-b border-gray-800">
+        <div class="flex items-center justify-between p-4 border-b border-gray-300">
             <a href="/">
                 <span class="sr-only">ICON Community</span>
-                <img class="w-auto h-8" src="/assets/images/icon/icon-logo.png" alt="">
+                <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="">
             </a>
             <div class="md:hidden flex">
                 <button @click="mobileMenuOpen = true"
-                    class="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center bg-black rounded-md"
+                    class="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center rounded-md"
                     aria-expanded="false">
                     <span class="sr-only">Open menu</span>
-                    <svg class="hover:text-gray-400 text-gray-600 fill-current" xmlns="http://www.w3.org/2000/svg"
-                        width="28" height="28" viewBox="0 0 24 24">
+                    <svg class="text-gray-400 fill-current" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                        viewBox="0 0 24 24">
                         <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
                     </svg>
                 </button>
@@ -23,7 +23,7 @@
                 </a>
                 <div x-data="{ desktopLearnTabOpen: false }" class="relative">
                     <button @click="desktopLearnTabOpen = ! desktopLearnTabOpen" type="button"
-                        class="group hover:text-icon-lo focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-black rounded-md"
+                        class="group hover:text-icon-lo focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 rounded-md"
                         aria-expanded="false">
                         <span>Learn</span>
                         <svg class="group-hover:text-gray-500 w-5 h-5 ml-2 transform"
@@ -40,10 +40,10 @@
                         x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="duration-150 ease-in"
                         x-transition:leave-start="opacity-100 translate-y-0"
                         x-transition:leave-end="opacity-0 translate-y-1"
-                        class="sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 absolute z-10 w-screen max-w-md px-2 mt-3 -ml-4 transform border border-gray-800 rounded-lg">
+                        class="sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 bg-gray-50 absolute z-10 w-screen max-w-md px-2 mt-3 -ml-4 transform border border-gray-300 rounded-lg">
                         <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
-                            <div class="sm:gap-8 sm:p-8 relative grid gap-6 px-5 py-6 bg-black">
-                                <a href="/glossary/" class="hover:bg-gray-900 flex items-start p-3 -m-3 rounded-lg">
+                            <div class="sm:gap-8 sm:p-8 relative grid gap-6 px-5 py-6">
+                                <a href="/glossary/" class="flex items-start p-3 -m-3 rounded-lg">
                                     <svg class="flex-shrink-0 w-6 h-6 text-indigo-600"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke="currentColor" aria-hidden="true">
@@ -95,19 +95,19 @@
         x-transition:leave-end="opacity-0 scale-95"
         class="md:hidden absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform">
 
-        <div class="ring-1 ring-black ring-opacity-5 bg-black border border-gray-800 rounded-lg">
+        <div class="ring-1 ring-black ring-opacity-5 bg-gray-50 border border-gray-300 rounded-lg">
             <div>
-                <div class="flex items-center justify-between p-4 border-b border-gray-800">
+                <div class="flex items-center justify-between p-4 border-b border-gray-300">
                     <div>
-                        <img class="w-auto h-8" src="/assets/images/icon/icon-logo.png" alt="Workflow">
+                        <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="Workflow">
                     </div>
                     <div class="flex">
                         <button @click="mobileMenuOpen = false"
-                            class="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center bg-black rounded-md">
-                            <span class="sr-only">Close menu</span>
+                            class="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center rounded-md">
+                            <span class="sr-only">Close Menu</span>
                             <!-- Heroicon name: outline/x -->
-                            <svg class="hover:text-gray-400 text-gray-600 fill-current"
-                                xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <svg class="text-gray-400 fill-current" xmlns="http://www.w3.org/2000/svg" width="28"
+                                height="28" viewBox="0 0 24 24">
                                 <path
                                     d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
                             </svg>
