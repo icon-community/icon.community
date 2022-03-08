@@ -2,7 +2,7 @@
 title: "The ICE Blockchain"
 date: 2021-07-15
 slug: the-ice-blockchain-e6ea96adc99
-description:
+description: In partnership with Parastate, ICON is buiding a new blockchain, called ICE, which will bring about a new application hub for the ICON ecosystem.
 ---
 
 ## The ICE Blockchain
