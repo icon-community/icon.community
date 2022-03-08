@@ -2,7 +2,7 @@
 title: "Accelerating Ecosystem Diversification"
 date: 2021-02-08
 slug: accelerating-ecosystem-diversification-463f82442549
-description:
+description: Reliant Node P-Rep team is enhancing MyIconWallet with the support of the ICON Foundation
 ---
 
 ## Accelerating Ecosystem Diversification
