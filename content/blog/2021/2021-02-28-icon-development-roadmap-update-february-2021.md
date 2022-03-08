@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — February 2021"
 date: 2021-02-28
 slug: icon-development-roadmap-update-february-2021-3b5897957094
-description:
+description: ICON 2.0 migration, preparations for BTP integration, and EVM compatibility
 ---
 
 ## ICON Development Roadmap Update — February 2021
