@@ -2,14 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-html {
-  font-size: 18px;
-}
-
 .post-content p,
-.post-content ul,
-.post-content li {
-  font-size: 19px;
+.post-content ul {
+  font-family: "PT Serif", "Georgia", serif;
 }
 
 .post-content p {
@@ -17,15 +12,24 @@ html {
 }
 
 .post-content h1,
-.post-content h2 {
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
   font-weight: bold;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-  line-height: 1.2;
+  margin-bottom: 0.25rem;
+  margin-top: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
 }
 
 .post-content h2 {
   font-size: 1.875rem;
+}
+
+.post-content h3 {
+  font-size: 1.5rem;
 }
 
 .post-content li {
@@ -34,7 +38,6 @@ html {
 }
 
 .post-content ul {
-  font-size: 20px;
   margin: 1.5rem 0 1.5rem 2rem;
 }
 

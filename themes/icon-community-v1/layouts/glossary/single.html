@@ -1,10 +1,10 @@
 {{ define "container" }}
-<div id="container" class="max-w-3xl px-4 mx-auto">
+<div id="container" class="max-w-xl px-4 mx-auto my-16">
     <header class="sm:mb-8 mb-6">
         <div class="sm:space-x-6 flex flex-wrap items-center space-x-4">
             {{ $avatarImagePath := (printf "%s%s%s" "/static/assets/images/glossary/" .File.BaseFileName ".png") }}
             {{ if os.FileExists $avatarImagePath }}
-            <div class="lg:w-32 lg:h-32 flex items-center w-24 h-24 bg-gray-900 border border-gray-800 rounded-lg">
+            <div class="lg:w-32 lg:h-32 flex items-center w-24 h-24 bg-gray-100 border border-gray-200 rounded-lg">
                 <img class="lg:p-4 max-w-full max-h-full p-3 mx-auto"
                     src="/assets/images/logos/{{ .File.BaseFileName }}.png">
             </div>
@@ -13,7 +13,8 @@
                 <h1 class="sm:text-4xl text-3xl font-bold leading-tight">{{ .Title }}</h1>
                 <div class="post-meta flex items-center space-x-2.5">
                     {{ with .Params.category }}
-                    <p id="term-category" class="px-1.5 py-0.5 text-xs font-bold uppercase bg-icon-lo rounded-md">
+                    <p id="term-category"
+                        class="px-1.5 py-0.5 text-xs text-white font-bold uppercase bg-icon-lo rounded-md">
                         {{ . }}
                     </p>
                     {{ end }}
@@ -41,7 +42,7 @@
     {{ $relatedTerms := intersect $allTerms $categoryTerms }}
     {{ if gt (len $relatedTerms) 0 }}
     <div class="related-terms">
-        <h2 class="sm:text-3xl mb-4 text-2xl font-bold">Related Terms</h2>
+        <h2 class="mb-4 text-2xl font-bold">Related Terms</h2>
         <ul>
             {{ range $relatedTerms }}
             <li class="ml-8 list-disc"><a href="{{ .Permalink }}">{{ .Title }}</a></li>

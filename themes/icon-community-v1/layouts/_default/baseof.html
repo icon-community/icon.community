@@ -13,7 +13,8 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=PT+Serif:wght@400;700&display=swap"
             rel="stylesheet">
         {{ $styles := resources.Get "css/style.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
         {{ if .Site.IsServer }}
@@ -28,9 +29,7 @@
 
     <body class="bg-gray-50 font-sans antialiased text-gray-900">
         {{ partial "navigation_bar.html" . }}
-        <main class="my-16">
-            {{ block "container" . }}{{ end }}
-        </main>
+        {{ block "container" . }}{{ end }}
         {{ partial "footer.html" . }}
     </body>
 

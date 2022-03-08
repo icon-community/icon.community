@@ -6,7 +6,7 @@
 {{ end }}
 {{ $validLetters = $validLetters | uniq }}
 
-<div id="container" class="max-w-7xl px-4 mx-auto">
+<div id="container" class="max-w-7xl px-4 mx-auto my-16">
     {{ partial "page_header.html" (dict "context" . ) }}
     <!--<div id="letter-index" class="mx-auto mb-8 text-center">
         {{ range sort $validLetters }}
@@ -19,7 +19,7 @@
     <div class="lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid grid-cols-1 gap-4">
         {{ range sort $validLetters }}
         {{ $letter := . }}
-        <div class="p-4 bg-gray-900 border border-gray-800 rounded-lg" id="{{ $letter }}">
+        <div class="p-4 bg-gray-100 border border-gray-200 rounded-lg" id="{{ $letter }}">
             <h2 class="text-icon-lo mb-2 text-3xl font-bold">{{ upper $letter }}</h2>
             <ul>
                 {{ range $posts }}

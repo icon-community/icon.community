@@ -10,7 +10,7 @@
                     {{ .Title }}
                 </dt>
                 <dd class="md:mt-0 md:col-span-7 mt-2">
-                    <div class="text-gray-400">
+                    <div class="text-gray-600">
                         {{ .Content }}
                         <div>
                 </dd>
@@ -21,7 +21,7 @@
     <div class="text-center">
         <h2 class="sm:text-4xl mb-6 text-3xl font-bold">Still Have Questions?</h2>
         {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Submit a Question" "buttonUrl" $.Site.Params.forms.faq_submission_url )}}
-        <p class="mt-2 text-sm text-gray-400">Don't be shy.</p>
+        <p class="mt-2 text-sm text-gray-600">Don't be shy.</p>
     </div>
 
 </div>
