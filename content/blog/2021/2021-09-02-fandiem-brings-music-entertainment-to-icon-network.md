@@ -2,7 +2,7 @@
 title: "Fandiem Brings Music & Entertainment to ICON Network"
 date: 2021-09-02
 slug: fandiem-brings-music-entertainment-to-icon-network-b4a646e4e0ae
-description:
+description: ICON announces a new partnership with Fandiem, an innovative non-profit fundraising platform for fans, to help grow ICON’s NFT ecosystem
 ---
 
 ## Fandiem Brings Music & Entertainment to ICON Network
