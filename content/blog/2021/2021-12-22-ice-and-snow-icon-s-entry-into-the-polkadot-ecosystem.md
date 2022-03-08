@@ -3,8 +3,6 @@ title: "ICE and SNOW — ICON’s Entry Into the Polkadot Ecosystem"
 date: 2021-12-22
 slug: ice-and-snow-icons-entry-into-the-polkadot-ecosystem-515afe80c58d
 description: ICE will be launching the SNOW canary network on Kusama before targeting an ICE launch on Polkadot later on
-
-As a cutting-edge development environment with real-world value, SNOW will provide developers with access to the latest code releases as well as an experimental environment to conduct application tests that are not possible on a traditional testnet with valueless tokens.
 ---
 
 ## ICE and SNOW — ICON’s Entry Into the Polkadot Ecosystem
