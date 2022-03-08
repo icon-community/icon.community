@@ -2,7 +2,7 @@
 title: "ICON Launches a Dedicated Audit Fund"
 date: 2021-02-17
 slug: icon-launches-a-dedicated-audit-fund-37c0679e3d29
-description:
+description: ICON security audit fund for smart contract audits
 ---
 
 ## ICON Launches a Dedicated Audit Fund
