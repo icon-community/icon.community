@@ -2,7 +2,7 @@
 title: "ICON Development Update — June 2021"
 date: 2021-07-02
 slug: icon-development-update-june-2021-f03484dd3068
-description:
+description: Growing our developer ecosystem, IISS 3.1 update and ICE is a new EVM compatible side chain
 ---
 
 ## ICON Development Update — June 2021
