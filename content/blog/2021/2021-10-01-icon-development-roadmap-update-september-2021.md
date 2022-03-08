@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — September 2021"
 date: 2021-10-01
 slug: icon-development-roadmap-update-september-2021-698cab3ac84f
-description:
+description: Development update on ICON 2.0, BTP and ICE Network
 ---
 
 ## ICON Development Roadmap Update — September 2021
