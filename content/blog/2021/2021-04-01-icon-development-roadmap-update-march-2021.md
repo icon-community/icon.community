@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — March 2021"
 date: 2021-04-01
 slug: icon-development-roadmap-update-march-2021-8d66f3a5edad
-description:
+description: Creation of the BTP working group, expansion of BTP’s solution and significant progress on ICON 2.0
 ---
 
 ## ICON Development Roadmap Update — March 2021
