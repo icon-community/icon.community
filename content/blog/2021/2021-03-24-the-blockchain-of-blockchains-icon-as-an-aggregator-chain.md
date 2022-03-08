@@ -2,7 +2,7 @@
 title: "The Blockchain of Blockchains: ICON as an Aggregator Chain"
 date: 2021-03-24
 slug: the-blockchain-of-blockchains-icon-as-an-aggregator-chain-d621255d9e2b
-description:
+description: The Blockchain Transmission Protocol (BTP) Working Group is a team of ICON core members along with a growing set of 3rd party developer groups
 ---
 
 ## The Blockchain of Blockchains: ICON as an Aggregator Chain
