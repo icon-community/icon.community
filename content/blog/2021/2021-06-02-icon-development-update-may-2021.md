@@ -2,7 +2,7 @@
 title: "ICON Development Update — May 2021"
 date: 2021-06-02
 slug: icon-development-update-may-2021-332a09d933e5
-description:
+description: Progress on the migration of ICON 1.0 to ICON 2.0, BTP work for the Polkadot ecosystem and newe ICON hires
 ---
 
 ## ICON Development Update — May 2021
