@@ -2,7 +2,7 @@
 title: "Blockchain Transmission Protocol (BTP) Architecture, Economics, and Key Differentiators"
 date: 2021-03-24
 slug: blockchain-transmission-protocol-btp-architecture-economics-and-key-differentiators-577eaf7ba3af
-description:
+description: Latest technology advancements and details around the Blockchain Transmission Protocol (BTP)
 ---
 
 ## Blockchain Transmission Protocol (BTP) Architecture, Economics, and Key Differentiators
