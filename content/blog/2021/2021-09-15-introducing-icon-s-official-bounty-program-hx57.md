@@ -2,7 +2,7 @@
 title: "Introducing ICON’s Official Bounty Program, HX57"
 date: 2021-09-15
 slug: introducing-icons-official-bounty-program-hx57-26c203c2aa20
-description:
+description:  ICON's first official bounty program, HX57, offers rewards to community members for producing high-quality content about ICON including articles, animated GIFs, memes, graphics, promo videos, explainers, and tutorials
 ---
 
 ## Introducing ICON’s Official Bounty Program, HX57
