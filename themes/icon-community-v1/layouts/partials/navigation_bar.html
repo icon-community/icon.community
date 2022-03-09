@@ -10,9 +10,7 @@
             <a href="/ecosystem/" class="font-medium">Ecosystem</a>
         </div>
         {{ partial "layout/navigation/dropdown_resources.html" . }}
-        <div>
-            <a href="/ecosystem/" class="font-medium">Community</a>
-        </div>
+        {{ partial "layout/navigation/dropdown_community.html" . }}
     </nav>
     <div class="md:flex hidden">
         {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url )}}
