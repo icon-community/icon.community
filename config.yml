@@ -21,6 +21,9 @@ categories:
   - tutorial
 
 params:
+  banner:
+    message: Our 200M ICX Interoperability Incentive Program is live.
+    url: /incentive-program/
   featured_post_url: what-is-the-icx-token
   social:
     discord_url: https://discord.gg/gMCCdbjVf9
