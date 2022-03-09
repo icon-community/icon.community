@@ -1,11 +1,11 @@
-<div class="max-w-7xl flex items-center justify-between px-8 mx-auto">
+<div class=" flex items-center justify-between max-w-full p-4 mx-auto">
     <div id="logo">
         <a href="/">
-            <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community" />
+            <img class="md:h-10 w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community" />
         </a>
     </div>
-    <nav role="navigation" class="flex py-6 space-x-16">
-        {{ partial "layout/navigation/dropdown_build.html" . }}
+    <nav role="navigation" class="md:flex sm:space-x-6 md:space-x-8 lg:space-x-16 hidden">
+        {{ partial "layout/navigation/dropdown_developers.html" . }}
         <div>
             <a href="/ecosystem/" class="font-medium">Ecosystem</a>
         </div>
