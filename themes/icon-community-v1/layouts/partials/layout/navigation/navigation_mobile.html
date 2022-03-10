@@ -11,10 +11,10 @@
 <div class="md:hidden absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform">
     <div class="ring-1 ring-black ring-opacity-5 divide-gray-50 bg-white divide-y-2 rounded-lg shadow-lg">
         <div>
-            <div class="flex items-center justify-between">
+
+            <div class="flex items-center justify-between p-4 border-b border-gray-200">
                 <div>
-                    <img class="w-auto h-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt="Workflow">
+                    <img class="w-auto h-8" src="/assets/images/icon/icon-logo.png" alt="Workflow">
                 </div>
                 <div class="-mr-2">
                     <button type="button"
@@ -30,18 +30,15 @@
                 </div>
             </div>
 
-            <div class="mt-6">
+            <div>
                 <nav class="gap-7 grid grid-cols-1">
-                    <div class="space-y-4" x-data="{open: false}">
-                        <div id="developers" x-data="{open: false}">
-
-                            <button
-                                class="hover:bg-gray-100 w-full p-4 text-xl font-medium text-gray-900 border-t border-b border-gray-200 rounded-lg"
+                    <div class="" x-data="{open: false}">
+                        <div class="divide-y divide-gray-200" x-data="{open: false}">
+                            <button class="hover:bg-gray-100 w-full p-4 text-lg font-medium text-gray-900"
                                 :class="{ 'bg-gray-100': open}" @click=" open=! open">Developers</button>
-
-                            <div x-show="open">
+                            <div x-show="open" class="divide-y divide-gray-200">
                                 <a href="https://icondev.io"
-                                    class="hover:bg-gray-100 flex items-start p-3 transition duration-150 ease-in-out rounded-lg">
+                                    class="hover:bg-gray-100 ease-in-ou flex items-start p-4 transition duration-150">
                                     <!-- Heroicon name: outline/chart-bar -->
                                     <svg class="flex-shrink-0 w-6 h-6 text-indigo-600"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -59,49 +56,7 @@
                                     </div>
                                 </a>
                                 <a href="https://github.com/icon-project/java-score-examples"
-                                    class="hover:bg-gray-100 flex items-start p-3 transition duration-150 ease-in-out rounded-lg">
-                                    <!-- Heroicon name: outline/chart-bar -->
-                                    <svg class="flex-shrink-0 w-6 h-6 text-indigo-600"
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-                                    </svg>
-                                    <div class="ml-4">
-                                        <p class="text-base font-medium text-gray-900">Example Projects</p>
-                                        <p class="mt-1 text-sm text-gray-500">Kickstart your smart contract development
-                                            workflow with
-                                            these
-                                            example projects.
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div id="developers" class="border-t border-b border-gray-200" x-data="{open: false}">
-                            <button class="w-full p-4 text-xl font-medium text-gray-900 bg-white rounded-lg"
-                                @click="open =! open">Developers</button>
-                            <div x-show="open">
-                                <a href="https://icondev.io"
-                                    class="hover:bg-gray-100 flex items-start p-3 transition duration-150 ease-in-out rounded-lg">
-                                    <!-- Heroicon name: outline/chart-bar -->
-                                    <svg class="flex-shrink-0 w-6 h-6 text-indigo-600"
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
-                                    </svg>
-                                    <div class="ml-4">
-                                        <p class="text-base font-medium text-gray-900">Documentation</p>
-                                        <p class="mt-1 text-sm text-gray-500">Learn how to develop dApps and smart
-                                            contracts
-                                            on the ICON
-                                            blockchain.
-                                        </p>
-                                    </div>
-                                </a>
-                                <a href="https://github.com/icon-project/java-score-examples"
-                                    class="hover:bg-gray-100 flex items-start p-3 transition duration-150 ease-in-out rounded-lg">
+                                    class="hover:bg-gray-100 flex items-start p-3 transition duration-150 ease-in-out">
                                     <!-- Heroicon name: outline/chart-bar -->
                                     <svg class="flex-shrink-0 w-6 h-6 text-indigo-600"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
