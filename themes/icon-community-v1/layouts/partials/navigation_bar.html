@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <div x-data="{ mobileMenuOpen: false }" id="navigation-menu" class="relative bg-black">
     <div class="max-w-full mx-auto">
         <div class="flex items-center justify-between p-4 border-b border-gray-800">
@@ -144,6 +145,270 @@
                         {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url )}}
                     </nav>
                 </div>
+=======
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white">
+    <div class="sm:px-6 md:justify-start md:space-x-10 flex items-center justify-between px-4 py-6">
+        <div class="lg:w-0 lg:flex-1 flex justify-start">
+            <a href="#">
+                <span class="sr-only">Workflow</span>
+                <img class="sm:h-10 w-auto h-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    alt="">
+            </a>
+        </div>
+        <div class="md:hidden -my-2 -mr-2">
+            <button type="button"
+                class="hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md"
+                aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <!-- Heroicon name: outline/menu -->
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <nav class="md:flex hidden space-x-10">
+            <div class="relative">
+                <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+                <button type="button"
+                    class="group hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-white rounded-md"
+                    aria-expanded="false">
+                    <span>Solutions</span>
+                    <!--
+              Heroicon name: solid/chevron-down
+  
+              Item active: "text-gray-600", Item inactive: "text-gray-400"
+            -->
+                    <svg class="group-hover:text-gray-500 w-5 h-5 ml-2 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <!--
+            'Solutions' flyout menu, show/hide based on flyout menu state.
+  
+            Entering: "transition ease-out duration-200"
+              From: "opacity-0 translate-y-1"
+              To: "opacity-100 translate-y-0"
+            Leaving: "transition ease-in duration-150"
+              From: "opacity-100 translate-y-0"
+              To: "opacity-0 translate-y-1"
+          -->
+                <div
+                    class="lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 absolute z-10 w-screen max-w-md mt-3 -ml-4 transform">
+                    <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
+                        <div class="sm:gap-8 sm:p-8 lg:grid-cols-2 relative grid gap-6 px-5 py-6 bg-white">
+                            <a href="#" class="hover:bg-gray-50 flex items-start p-3 -m-3 rounded-lg">
+                                <div
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
+                                    <!-- Heroicon name: outline/chart-bar -->
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="text-base font-medium text-gray-900">Analytics</p>
+                                    <p class="mt-1 text-sm text-gray-500">Get a better understanding of where your
+                                        traffic is coming from.</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 flex items-start p-3 -m-3 rounded-lg">
+                                <div
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
+                                    <!-- Heroicon name: outline/cursor-click -->
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="text-base font-medium text-gray-900">Engagement</p>
+                                    <p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more
+                                        meaningful way.</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 flex items-start p-3 -m-3 rounded-lg">
+                                <div
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
+                                    <!-- Heroicon name: outline/shield-check -->
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="text-base font-medium text-gray-900">Security</p>
+                                    <p class="mt-1 text-sm text-gray-500">Your customers&#039; data will be safe and
+                                        secure.</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 flex items-start p-3 -m-3 rounded-lg">
+                                <div
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
+                                    <!-- Heroicon name: outline/view-grid -->
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="text-base font-medium text-gray-900">Integrations</p>
+                                    <p class="mt-1 text-sm text-gray-500">Connect with third-party tools that
+                                        you&#039;re already using.</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 flex items-start p-3 -m-3 rounded-lg">
+                                <div
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
+                                    <!-- Heroicon name: outline/refresh -->
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="text-base font-medium text-gray-900">Automations</p>
+                                    <p class="mt-1 text-sm text-gray-500">Build strategic funnels that will drive your
+                                        customers to convert</p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 flex items-start p-3 -m-3 rounded-lg">
+                                <div
+                                    class="sm:h-12 sm:w-12 flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-500 rounded-md">
+                                    <!-- Heroicon name: outline/document-report -->
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="text-base font-medium text-gray-900">Reports</p>
+                                    <p class="mt-1 text-sm text-gray-500">Get detailed reports that will help you make
+                                        more informed decisions</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bg-gray-50 sm:p-8 p-5">
+                            <a href="#" class="hover:bg-gray-100 flow-root p-3 -m-3 rounded-md">
+                                <div class="flex items-center">
+                                    <div class="text-base font-medium text-gray-900">Enterprise</div>
+                                    <span
+                                        class="ml-3 inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-indigo-100 text-indigo-800">
+                                        New </span>
+                                </div>
+                                <p class="mt-1 text-sm text-gray-500">Empower your entire team with even more advanced
+                                    tools.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="hover:text-gray-900 text-base font-medium text-gray-500"> Pricing </a>
+            <a href="#" class="hover:text-gray-900 text-base font-medium text-gray-500"> Docs </a>
+
+            <div class="relative">
+                <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+                <button type="button"
+                    class="group hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium text-gray-500 bg-white rounded-md"
+                    aria-expanded="false">
+                    <span>More</span>
+                    <!--
+              Heroicon name: solid/chevron-down
+  
+              Item active: "text-gray-600", Item inactive: "text-gray-400"
+            -->
+                    <svg class="group-hover:text-gray-500 w-5 h-5 ml-2 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <!--
+            'More' flyout menu, show/hide based on flyout menu state.
+  
+            Entering: "transition ease-out duration-200"
+              From: "opacity-0 translate-y-1"
+              To: "opacity-100 translate-y-0"
+            Leaving: "transition ease-in duration-150"
+              From: "opacity-100 translate-y-0"
+              To: "opacity-0 translate-y-1"
+          -->
+                <div class="left-1/2 sm:px-0 absolute z-10 w-screen max-w-xs px-2 mt-3 transform -translate-x-1/2">
+                    <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
+                        <div class="sm:gap-8 sm:p-8 relative grid gap-6 px-5 py-6 bg-white">
+                            <a href="#" class="hover:bg-gray-50 block p-3 -m-3 rounded-md">
+                                <p class="text-base font-medium text-gray-900">Help Center</p>
+                                <p class="mt-1 text-sm text-gray-500">Get all of your questions answered in our forums
+                                    or contact support.</p>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 block p-3 -m-3 rounded-md">
+                                <p class="text-base font-medium text-gray-900">Guides</p>
+                                <p class="mt-1 text-sm text-gray-500">Learn how to maximize our platform to get the most
+                                    out of it.</p>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 block p-3 -m-3 rounded-md">
+                                <p class="text-base font-medium text-gray-900">Events</p>
+                                <p class="mt-1 text-sm text-gray-500">See what meet-ups and other events we might be
+                                    planning near you.</p>
+                            </a>
+
+                            <a href="#" class="hover:bg-gray-50 block p-3 -m-3 rounded-md">
+                                <p class="text-base font-medium text-gray-900">Security</p>
+                                <p class="mt-1 text-sm text-gray-500">Understand how we take your privacy seriously.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="md:flex md:flex-1 lg:w-0 items-center justify-end hidden">
+            <a href="#" class="whitespace-nowrap hover:text-gray-900 text-base font-medium text-gray-500"> Sign in </a>
+            <a href="#"
+                class="whitespace-nowrap hover:bg-indigo-700 inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm">
+                Sign up </a>
+        </div>
+    </div>
+    {{ partial "layout/navigation/navigation_mobile.html" . }}
+</div>
+
+
+<div class="bg-indigo-600">
+    <div class="max-w-7xl sm:px-6 lg:px-8 px-3 py-3 mx-auto">
+        <div class="flex flex-wrap items-center justify-center">
+            <div class="sm:space-x-4 flex items-center space-x-2">
+                <span class="flex p-2 bg-indigo-800 rounded-lg">
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                    </svg>
+                </span>
+                <p class="sm:text-base text-sm font-medium text-white">
+                    <span class="inline">{{ $.Site.Params.banner.message }} <a href="{{ $.Site.Params.banner.url }}"
+                            class="hover:no-underline underline">Learn More!</a></span>
+                </p>
+>>>>>>> Stashed changes
             </div>
         </div>
     </div>
