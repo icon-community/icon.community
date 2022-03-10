@@ -1,17 +1,16 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white">
+<div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
     <div class="sm:px-6 md:justify-start md:space-x-10 flex items-center justify-between px-4 py-6">
         <div class="lg:w-0 lg:flex-1 flex justify-start">
             <a href="#">
-                <span class="sr-only">Workflow</span>
-                <img class="sm:h-10 w-auto h-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="">
+                <span class="sr-only">ICON Community</span>
+                <img class="sm:h-10 w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community">
             </a>
         </div>
         <div class="md:hidden -my-2 -mr-2">
             <button type="button"
                 class="hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md"
-                aria-expanded="false">
+                aria-expanded="false" @click="mobileMenuOpen =! mobileMenuOpen">
                 <span class="sr-only">Open menu</span>
                 <!-- Heroicon name: outline/menu -->
                 <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
