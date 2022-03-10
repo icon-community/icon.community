@@ -32,7 +32,6 @@ module.exports = {
       'icon-dark': '#087083'
     },
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
       mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
       serif: ['Source Serif Pro', 'serif']
     },

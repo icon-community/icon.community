@@ -10,7 +10,7 @@
     -->
 <div class="md:hidden absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform">
     <div class="ring-1 ring-black ring-opacity-5 divide-gray-50 bg-white divide-y-2 rounded-lg shadow-lg">
-        <div class="p-4">
+        <div>
             <div class="flex items-center justify-between">
                 <div>
                     <img class="w-auto h-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
@@ -33,9 +33,12 @@
             <div class="mt-6">
                 <nav class="gap-7 grid grid-cols-1">
                     <div class="space-y-4" x-data="{open: false}">
-                        <div id="developers" class="border-t border-b border-gray-200" x-data="{open: false}">
-                            <button class="w-full p-4 text-xl font-medium text-gray-900 bg-white rounded-lg"
-                                @click="open =! open">Developers</button>
+                        <div id="developers" x-data="{open: false}">
+
+                            <button
+                                class="hover:bg-gray-100 w-full p-4 text-xl font-medium text-gray-900 border-t border-b border-gray-200 rounded-lg"
+                                :class="{ 'bg-gray-100': open}" @click=" open=! open">Developers</button>
+
                             <div x-show="open">
                                 <a href="https://icondev.io"
                                     class="hover:bg-gray-100 flex items-start p-3 transition duration-150 ease-in-out rounded-lg">
