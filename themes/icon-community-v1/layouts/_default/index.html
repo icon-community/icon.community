@@ -1,6 +1,6 @@
 {{ define "container" }}
 <div id="container">
-    <div id="hero" class="relative px-4 py-16 bg-blue-100">
+    <div id="hero" class="sm:py-24 relative px-8 py-16 bg-blue-100">
         <h1 class="lg:text-7xl mb-4 text-5xl font-bold tracking-tight text-center">
             Connecting Blockchains<br>and Communities
         </h1>
@@ -13,258 +13,252 @@
             {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url) }}
         </div>
     </div>
-    <div id="icon-features" class="relative space-y-32 overflow-hidden">
-        <div id="icon-features_icx"
-            class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-            <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto space-y-8">
-                <div>
-                    <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
-                        Powered by ICX
-                    </h2>
-                    <p class="md:text-lg mt-4 text-base text-gray-400">
-                        ICX is the currency that powers the ICON ecosystem. ICX has a variety of use cases including
-                        staking, network governance, collateralization on DeFi platforms, and more.
-                    </p>
-                    <div class="mt-6">
-                        <div id="hero-buttons" class="flex flex-wrap gap-4">
-                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/icx/") }}
-                        </div>
-                    </div>
-                </div>
-                <div class="flex gap-4">
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
-                            hx-trigger="load, every 30s"></span>
-                    </div>
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
-                            hx-trigger="load, every 30s"></span>
-                    </div>
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
-                            hx-trigger="load, every 30s"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="sm:mt-16 lg:mt-0 mt-12">
-                <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                    <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                        src="/assets/nexus.png" alt="Nexus user interface.">
-                </div>
-            </div>
-        </div>
-        <div id="icon-features_java"
-            class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-            <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
-                <div>
-                    <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
-                        Develop in Java
-                    </h2>
-                    <p class="md:text-lg mt-4 text-base text-gray-400">
-                        ICON smart contracts are written in Java, a general-purpose programming language known
-                        for performance, safety, and reliability. If you're a Java developer looking to get into
-                        smart contract development, you'll feel right at home on ICON.
-                    </p>
-                    <div class="mt-6">
-                        <div id="hero-buttons" class="flex flex-wrap gap-4">
-                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Started" "buttonUrl" "https://icondev.io/") }}
-                            {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "https://discord.gg/3xqbf7fqRY") }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
-                <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
-                    <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                        src="/assets/cps.png" alt="Customer profile user interface">
-                </div>
-            </div>
-        </div>
-        <div id="icon-features_btp"
-            class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-            <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
-                <h2 class="md:text-5xl text-3xl font-bold tracking-tight">
-                    Decentralized, Fast, and Secure Interoperability
+
+    <div id="icon-features_icx"
+        class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 sm:py-24 py-16 overflow-hidden bg-green-100">
+        <div class="sm:px-6 lg:py-16 sm:py-24 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto space-y-8">
+            <div>
+                <h2 class="md:text-5xl text-4xl font-bold leading-none tracking-tight">
+                    Powered by ICX
                 </h2>
-                <p class="md:text-lg mt-4 text-base text-gray-400">
-                    ICON's Blockchain Transmission Protocol (BTP) enables cross-chain communication
-                    between smart contract-enabled blockchains. BTP is fully trustless, which means your
-                    funds are SAFU. Start bridging your
-                    assets between ICON, <span class="font-medium text-yellow-400">Binance Smart
-                        Chain</span>, <span class="font-medium text-purple-500">NEAR
-                        Protocol</span>, <span class="font-medium text-green-500">Moonriver</span>,
-                    and more with
-                    Nexus – our easy to use bridging app powered by BTP.
+                <p class="mt-4 text-lg">
+                    ICX is the currency that powers the ICON ecosystem. ICX has a variety of use cases including
+                    staking, network governance, collateralization on DeFi platforms, and more.
                 </p>
                 <div class="mt-6">
                     <div id="hero-buttons" class="flex flex-wrap gap-4">
-                        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "https://icondev.io/") }}
+                        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/icx/") }}
                     </div>
                 </div>
             </div>
-            <div class="sm:mt-16 lg:mt-0 mt-12">
-                <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                    <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                        src="/assets/nexus.png" alt="Nexus user interface.">
+            <div class="flex gap-4">
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
+                        hx-trigger="load, every 30s"></span>
+                </div>
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
+                        hx-trigger="load, every 30s"></span>
+                </div>
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
+                        hx-trigger="load, every 30s"></span>
                 </div>
             </div>
         </div>
-        <div id="cps" class="lg:py-32 md:py-16 bg-gradient-to-r to-green-900 from-indigo-900 py-8 space-y-32">
-            <div id="cps_hero" class="relative px-4 space-y-8">
-                <h1 class="md:text-4xl lg:text-6xl text-4xl font-bold tracking-tight text-center">
-                    Build and Get Paid
-                </h1>
-                <div class="flex flex-wrap items-center justify-center gap-4">
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active Projects</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
-                            hx-trigger="load"></span>
-                    </div>
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Funded Projects</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
-                            hx-trigger="load"></span>
-                    </div>
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Distributed Funds</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
-                            hx-trigger="load"></span>
-                    </div>
-                    <div
-                        class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-900 border border-gray-800 rounded-lg">
-                        <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active P-Reps</h3>
-                        <span id="icx-price" class="font-mono text-2xl font-bold"
-                            hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html" hx-trigger="load"></span>
-                    </div>
-                </div>
-                <p class="md:text-lg z-50 max-w-2xl mx-auto text-base text-center text-gray-200">
-                    ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
-                    teams building on ICON. Whether your focus is
-                    development, marketing, or community building, the CPS is here to fund you.
+        <div class="sm:mt-16 lg:mt-0 mt-12">
+            <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
+                <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                    src="/assets/nexus.png" alt="Nexus user interface.">
+            </div>
+        </div>
+    </div>
+    <div id="icon-features_java"
+        class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 sm:py-24 py-16 overflow-hidden bg-blue-100">
+        <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
+            <div>
+                <h2 class="md:text-5xl text-4xl font-bold leading-none tracking-tight">
+                    Develop in Java
+                </h2>
+                <p class="mt-4 text-lg">
+                    ICON smart contracts are written in Java, a general-purpose programming language known
+                    for performance, safety, and reliability. If you're a Java developer looking to get into
+                    smart contract development, you'll feel right at home on ICON.
                 </p>
-                <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
-                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Create a Proposal" "buttonUrl" "https://cps.icon.community") }}
+                <div class="mt-6">
+                    <div id="hero-buttons" class="flex flex-wrap gap-4">
+                        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Started" "buttonUrl" "https://icondev.io/") }}
+                        {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "https://discord.gg/3xqbf7fqRY") }}
+                    </div>
                 </div>
             </div>
-            <div id="cps_features">
-                <div class="sm:px-6 lg:max-w-7xl lg:px-8 max-w-xl px-4 mx-auto">
-                    <h2 class="sr-only">Easy Application Process</h2>
-                    <dl class="lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 space-y-10">
-                        <div>
-                            <dt>
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 font-bold" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" stroke-width=2
-                                            d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                                    </svg>
-                                </div>
-                                <p class="mt-5 text-lg font-bold leading-6">Easy Application Process
-                                </p>
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-200">Applying for CPS funding is quick and easy.
-                                Share your idea on the ICON forum for discussion, and submit a proposal when ready.
-                            </dd>
-                        </div>
-                        <div>
-                            <dt>
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                                    </svg>
-                                </div>
-                                <p class="mt-5 text-lg font-bold leading-6">Decentralized Funding</p>
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-200">ICON's CPS is a fully decentralized grant
-                                program governed by P-Reps (block producers) on the ICON network.</dd>
-                        </div>
-                        <div>
-                            <dt>
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
-                                    </svg>
-                                </div>
-                                <p class="mt-5 text-lg font-bold leading-6">Paid in bnUSD</p>
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-200">Unlike grant programs that rely on volatile
-                                tokens, CPS utilizes the <a class="hover:no-underline underline"
-                                    href="https://balanced.network/how/">bnUSD</a> stablecoin for predictable income
-                                month after month.</dd>
-                        </div>
-                        <div>
-                            <dt>
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </div>
-                                <p class="mt-5 text-lg font-bold leading-6">Consistent Payouts
-                                </p>
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-200">Once your CPS proposal is approved, you'll
-                                automatically receive monthly payouts in bnUSD as you hit project milestones.</dd>
-                        </div>
-                        <div>
-                            <dt>
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
-                                    </svg>
-                                </div>
-                                <p class="mt-5 text-lg font-bold leading-6">No KYC
-                                </p>
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-200">Submitting a CPS proposal doesn't require clunky
-                                KYC procedures, which means anyone, anywhere can apply for funding with ease.</dd>
-                        </div>
-                        <div>
-                            <dt>
-                                <div
-                                    class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                                    </svg>
-                                </div>
-                                <p class="mt-5 text-lg font-bold leading-6">Community Support
-                                </p>
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-200">Looking for beta testers or early adopters for your
-                                project? Bootstrap your CPS-funded project with ICON's tight-knit community.</dd>
-                        </div>
-                    </dl>
+        </div>
+        <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
+            <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
+                <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                    src="/assets/cps.png" alt="Customer profile user interface">
+            </div>
+        </div>
+    </div>
+    <div id="icon-features_btp"
+        class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 sm:py-24 py-16 overflow-hidden bg-green-100">
+        <div class="sm:px-6 lg:py-16 sm:py-24 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
+            <h2 class="md:text-5xl text-4xl font-bold leading-none tracking-tight">
+                Decentralized, Fast, and Secure Interoperability
+            </h2>
+            <p class="mt-4 text-lg">
+                ICON's Blockchain Transmission Protocol (BTP) enables cross-chain communication
+                between smart contract-enabled blockchains. BTP is fully trustless, which means your
+                funds are SAFU. Start bridging your
+                assets between ICON, <span class="font-medium text-yellow-400">Binance Smart
+                    Chain</span>, <span class="font-medium text-purple-500">NEAR
+                    Protocol</span>, <span class="font-medium text-green-500">Moonriver</span>,
+                and more with
+                Nexus – our easy to use bridging app powered by BTP.
+            </p>
+            <div class="mt-6">
+                <div id="hero-buttons" class="flex flex-wrap gap-4">
+                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "https://icondev.io/") }}
                 </div>
+            </div>
+        </div>
+        <div class="sm:mt-16 lg:mt-0 mt-12">
+            <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
+                <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
+                    src="/assets/nexus.png" alt="Nexus user interface.">
+            </div>
+        </div>
+    </div>
+
+    <div id="cps" class="bg-gradient-to-r to-green-900 from-indigo-900 sm:py-24 py-16 space-y-16">
+        <div id="cps_hero" class="relative px-4 space-y-8">
+            <h1 class="lg:text-6xl text-gray-50 text-5xl font-bold tracking-tight text-center">
+                Get Paid to Build
+            </h1>
+            <div class="sm:flex grid items-center justify-center grid-cols-2 gap-4">
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active Projects</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
+                        hx-trigger="load"></span>
+                </div>
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Funded Projects</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
+                        hx-trigger="load"></span>
+                </div>
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Distributed Funds</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
+                        hx-trigger="load"></span>
+                </div>
+                <div
+                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active P-Reps</h3>
+                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                        hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html" hx-trigger="load"></span>
+                </div>
+            </div>
+            <p class="z-50 max-w-2xl mx-auto text-lg text-center text-gray-200">
+                ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
+                teams building on ICON. Whether your focus is
+                development, marketing, or community building, the CPS is here to fund you.
+            </p>
+            <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
+                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Create a Proposal" "buttonUrl" "https://cps.icon.community") }}
+            </div>
+        </div>
+        <div id="cps_features">
+            <div class="sm:px-6 lg:max-w-7xl lg:px-8 max-w-xl px-4 mx-auto">
+                <h2 class="sr-only">Easy Application Process</h2>
+                <dl class="lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 space-y-10">
+                    <div>
+                        <dt>
+                            <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 font-bold" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" stroke-width=2
+                                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-50 mt-5 text-lg font-bold leading-6">Easy Application Process
+                            </p>
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-300">Applying for CPS funding is quick and easy.
+                            Share your idea on the ICON forum for discussion, and submit a proposal when ready.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-50 mt-5 text-lg font-bold leading-6">Decentralized Funding</p>
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-300">ICON's CPS is a fully decentralized grant
+                            program governed by P-Reps (block producers) on the ICON network.</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-50 mt-5 text-lg font-bold leading-6">Paid in bnUSD</p>
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-300">Unlike grant programs that rely on volatile
+                            tokens, CPS utilizes the <a class="hover:no-underline underline"
+                                href="https://balanced.network/how/">bnUSD</a> stablecoin for predictable income
+                            month after month.</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-50 mt-5 text-lg font-bold leading-6">Consistent Payouts
+                            </p>
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-300">Once your CPS proposal is approved, you'll
+                            automatically receive monthly payouts in bnUSD as you hit project milestones.</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-50 mt-5 text-lg font-bold leading-6">No KYC
+                            </p>
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-300">Submitting a CPS proposal doesn't require clunky
+                            KYC procedures, which means anyone, anywhere can apply for funding with ease.</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-50 mt-5 text-lg font-bold leading-6">Community Support
+                            </p>
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-300">Looking for beta testers or early adopters for your
+                            project? Bootstrap your CPS-funded project with ICON's tight-knit community.</dd>
+                    </div>
+                </dl>
             </div>
         </div>
     </div>
