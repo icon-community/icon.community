@@ -14,110 +14,137 @@
         </div>
     </div>
 
-    <div id="icon-features_icx"
-        class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 sm:py-24 py-16 overflow-hidden bg-green-100">
-        <div class="sm:px-6 lg:py-16 sm:py-24 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto space-y-8">
-            <div>
-                <h2 class="md:text-5xl text-4xl font-bold leading-none tracking-tight">
-                    Powered by ICX
-                </h2>
-                <p class="mt-4 text-lg">
-                    ICX is the currency that powers the ICON ecosystem. ICX has a variety of use cases including
-                    staking, network governance, collateralization on DeFi platforms, and more.
-                </p>
-                <div class="mt-6">
-                    <div id="hero-buttons" class="flex flex-wrap gap-4">
-                        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/icx/") }}
+
+    <div class="relative overflow-hidden">
+        <div class="relative py-16 bg-green-100">
+            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
+                    <div class="space-y-4">
+                        <h2 class="text-5xl font-extrabold tracking-tight text-gray-900">Powered by ICX</h2>
+                        <div class="space-y-8">
+                            <p class="mt-4 text-lg text-gray-500">ICX is the currency that powers the ICON ecosystem.
+                                ICX has a variety of use cases including staking, network governance, collateralization
+                                on DeFi platforms, and more.</p>
+                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/icx/") }}
+                            </div>
+                            <div class="flex gap-4">
+                                <div
+                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
+                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                        hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
+                                        hx-trigger="load, every 30s"></span>
+                                </div>
+                                <div
+                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
+                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                        hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
+                                        hx-trigger="load, every 30s"></span>
+                                </div>
+                                <div
+                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY
+                                    </h3>
+                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                        hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
+                                        hx-trigger="load, every 30s"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="flex gap-4">
-                <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
-                        hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
-                        hx-trigger="load, every 30s"></span>
-                </div>
-                <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
-                        hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
-                        hx-trigger="load, every 30s"></span>
-                </div>
-                <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
-                        hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
-                        hx-trigger="load, every 30s"></span>
-                </div>
-            </div>
-        </div>
-        <div class="sm:mt-16 lg:mt-0 mt-12">
-            <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                    src="/assets/nexus.png" alt="Nexus user interface.">
-            </div>
-        </div>
-    </div>
-    <div id="icon-features_java"
-        class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 sm:py-24 py-16 overflow-hidden bg-blue-100">
-        <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
-            <div>
-                <h2 class="md:text-5xl text-4xl font-bold leading-none tracking-tight">
-                    Develop in Java
-                </h2>
-                <p class="mt-4 text-lg">
-                    ICON smart contracts are written in Java, a general-purpose programming language known
-                    for performance, safety, and reliability. If you're a Java developer looking to get into
-                    smart contract development, you'll feel right at home on ICON.
-                </p>
-                <div class="mt-6">
-                    <div id="hero-buttons" class="flex flex-wrap gap-4">
-                        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Started" "buttonUrl" "https://icondev.io/") }}
-                        {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "https://discord.gg/3xqbf7fqRY") }}
+                <div class="sm:mt-16 lg:mt-0 mt-12">
+                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
+                            src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                            alt="Inbox user interface">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
-            <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
-                <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                    src="/assets/cps.png" alt="Customer profile user interface">
-            </div>
-        </div>
-    </div>
-    <div id="icon-features_btp"
-        class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 sm:py-24 py-16 overflow-hidden bg-green-100">
-        <div class="sm:px-6 lg:py-16 sm:py-24 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
-            <h2 class="md:text-5xl text-4xl font-bold leading-none tracking-tight">
-                Decentralized, Fast, and Secure Interoperability
-            </h2>
-            <p class="mt-4 text-lg">
-                ICON's Blockchain Transmission Protocol (BTP) enables cross-chain communication
-                between smart contract-enabled blockchains. BTP is fully trustless, which means your
-                funds are SAFU. Start bridging your
-                assets between ICON, <span class="font-medium text-yellow-400">Binance Smart
-                    Chain</span>, <span class="font-medium text-purple-500">NEAR
-                    Protocol</span>, <span class="font-medium text-green-500">Moonriver</span>,
-                and more with
-                Nexus – our easy to use bridging app powered by BTP.
-            </p>
-            <div class="mt-6">
-                <div id="hero-buttons" class="flex flex-wrap gap-4">
-                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "https://icondev.io/") }}
+        <div class="relative py-16 bg-blue-100">
+            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
+                    <div class="space-y-4">
+                        <h2 class="text-5xl font-extrabold tracking-tight text-gray-900">Develop in Java</h2>
+                        <div class="space-y-8">
+                            <p class="text-lg text-gray-500">ICON smart contracts are written in Java, a
+                                general-purpose programming language known for performance, safety, and reliability. If
+                                you're a Java developer looking to get into smart contract development, you'll feel
+                                right at home on ICON..</p>
+                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Started" "buttonUrl" "https://icondev.io/") }}
+                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "https://discord.gg/3xqbf7fqRY") }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
+                    <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
+                            src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                            alt="Customer profile user interface">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="sm:mt-16 lg:mt-0 mt-12">
-            <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full border border-gray-800 shadow-xl"
-                    src="/assets/nexus.png" alt="Nexus user interface.">
+        <div class="relative py-16 bg-green-100">
+            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
+                    <div class="space-y-4">
+                        <h2 class="text-5xl font-extrabold tracking-tight text-gray-900">Decentralized, Fast, and Secure
+                            Interoperability</h2>
+                        <div class="space-y-8">
+                            <p class="mt-4 text-lg text-gray-500">ICON's Blockchain Transmission Protocol (BTP) enables
+                                cross-chain communication between smart contract-enabled blockchains. BTP is fully
+                                trustless, which means your funds are SAFU. Start bridging your assets between ICON,
+                                Binance Smart Chain, NEAR Protocol, Moonriver, and more with Nexus – our easy to use
+                                bridging app powered by BTP.</p>
+                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "https://icondev.io/") }}
+                            </div>
+                            <div class="flex gap-4">
+                                <div
+                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
+                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                        hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
+                                        hx-trigger="load, every 30s"></span>
+                                </div>
+                                <div
+                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
+                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                        hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
+                                        hx-trigger="load, every 30s"></span>
+                                </div>
+                                <div
+                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY
+                                    </h3>
+                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                        hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
+                                        hx-trigger="load, every 30s"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:mt-16 lg:mt-0 mt-12">
+                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
+                            src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                            alt="Inbox user interface">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+
 
     <div id="cps" class="bg-gradient-to-r to-green-900 from-indigo-900 sm:py-24 py-16 space-y-16">
         <div id="cps_hero" class="relative px-4 space-y-8">
