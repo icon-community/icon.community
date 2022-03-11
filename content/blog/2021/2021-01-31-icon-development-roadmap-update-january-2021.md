@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — January 2021"
 date: 2021-01-31
 slug: icon-development-roadmap-update-january-2021-7cfb8005a766
-description:
+description: ICON Rosetta Implementation, Contribution Proposal System code review and ICON 2.0 alphanet
 ---
 
 ## ICON Development Roadmap Update — January 2021

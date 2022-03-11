@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — August 2021"
 date: 2021-09-01
 slug: icon-development-roadmap-update-august-2021-a9d4fc4b671
-description:
+description: ICON 2.0 migration is nearing completion, first BTP integration target to the Moonriver parachain (Kusama) is now complete and ICE network continues to progress in the background
 ---
 
 ## ICON Development Roadmap Update — August 2021

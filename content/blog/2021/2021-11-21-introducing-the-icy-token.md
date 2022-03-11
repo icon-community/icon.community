@@ -2,7 +2,7 @@
 title: "Introducing the $ICY Token"
 date: 2021-11-21
 slug: introducing-the-icy-token-87c61b063a20
-description:
+description: As part of the initial growth strategy, adoption, and decentralization of the ICE Network, ICE will be airdropping $ICY at a 1:1 ratio for $ICX or $sICX held by $ICX stakeholders during the last week of December 2021
 ---
 
 ## Introducing the $ICY Token

@@ -2,7 +2,7 @@
 title: "ICON Foundation Partners with a Leading Market Maker Wintermute"
 date: 2021-07-21
 slug: icon-foundation-partners-with-a-leading-market-maker-wintermute-bc4cb1742073
-description:
+description: ICON announces a strategic partnership with Wintermute, a leading global algorithmic trading market maker
 ---
 
 ## ICON Foundation Partners with a Leading Market Maker Wintermute

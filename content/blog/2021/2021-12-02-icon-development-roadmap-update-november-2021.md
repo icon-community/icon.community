@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — November 2021"
 date: 2021-12-02
 slug: icon-development-roadmap-update-november-2021-7aa137ee2f4
-description:
+description: The ICON team resumed work on BTP integrations, Java SCORE support and IISS upgrades
 ---
 
 ## ICON Development Roadmap Update — November 2021

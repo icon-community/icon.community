@@ -2,12 +2,11 @@
 
 {{ $data := newScratch }}
 
-
 <div id="container" class="max-w-7xl px-4 mx-auto">
 
     {{ partial "page_header.html" (dict "context" .) }}
 
-    {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 18 }}
+    {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 12 }}
 
     <div id="blog-posts"
         class="md:grid-cols-2 xl:grid-cols-3 md:space-y-0 gap-x-4 gap-y-8 xl:gap-y-8 xl:gap-x-8 grid grid-cols-1">
@@ -31,12 +30,13 @@
 
         {{ $featuredImage := $data.Get "featuredImage"}}
 
-        <div class="flex flex-col overflow-hidden border border-gray-800 rounded-lg">
-            <div class="flex-shrink-0 border-b border-gray-800">
+        <div class="flex flex-col overflow-hidden rounded-lg">
+            <div class="flex-shrink-0">
                 <img class="h-60 object-cover w-full" src="/assets/images/featured-images/{{ $featuredImage }}"
                     alt="{{ .Params.description }}">
             </div>
-            <div class="flex flex-col justify-between flex-1 p-6">
+            <div
+                class="flex flex-col justify-between flex-1 p-6 border-b border-l border-r border-gray-300 rounded-b-lg">
                 <div class="flex-1">
                     {{ with .Params.category }}
                     <p class="text-icon-lo text-sm font-bold">
@@ -49,7 +49,7 @@
                         <h2 class="hover:text-icon-lo text-xl font-bold leading-snug">
                             {{ .Title }}
                         </h2>
-                        <p class="mt-3 leading-snug text-gray-400">
+                        <p class="mt-3 leading-snug text-gray-600">
                             {{ .Params.description }}
                         </p>
                     </a>
@@ -62,7 +62,7 @@
                                 src="/assets/images/contributors/{{ $authorId }}.jpg" alt="{{ $authorName }}">
                         </a>
                     </div>
-                    <div class="ml-3 text-gray-400">
+                    <div class="ml-3 text-gray-600">
                         <p class="text-sm font-medium">
                             <a href="/contributors/" class="hover:text-icon-lo">{{ $authorName }}</a>
                         </p>

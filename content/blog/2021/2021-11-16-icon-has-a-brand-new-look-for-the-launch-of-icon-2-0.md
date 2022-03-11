@@ -2,7 +2,7 @@
 title: "ICON has a Brand New Look for the Launch of ICON 2.0!"
 date: 2021-11-16
 slug: icon-has-a-whole-new-look-for-the-launch-of-icon-2-0-1506f41b8aea
-description:
+description: The ICON logo and website have been completely redesigned just in time for the greatly anticipated ICON 2.0 upgrade
 ---
 
 ## ICON has a Brand New Look for the Launch of ICON 2.0!

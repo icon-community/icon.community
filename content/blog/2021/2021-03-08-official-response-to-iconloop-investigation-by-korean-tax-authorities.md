@@ -2,7 +2,7 @@
 title: "Official Response to ICONLOOP Investigation by Korean Tax Authorities"
 date: 2021-03-08
 slug: official-response-to-iconloop-investigation-by-korean-tax-authorities-88205c7563c4
-description:
+description: ICON Foundation is NOT under investigation. Investigation would not affect the ICON project.
 ---
 
 ## Official Response to ICONLOOP Investigation by Korean Tax Authorities

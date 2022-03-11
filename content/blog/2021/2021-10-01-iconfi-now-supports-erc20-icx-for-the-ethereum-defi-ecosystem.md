@@ -2,7 +2,7 @@
 title: "ICONFi now supports ERC20 ICX for the Ethereum DeFi Ecosystem"
 date: 2021-10-01
 slug: iconfi-now-supports-erc20-icx-for-the-ethereum-defi-ecosystem-afb3bde58943
-description:
+description: ICON Foundation has partnered with ICONFi to mint the first 50 million ERC20-based ICX tokens
 ---
 
 ## ICONFi now supports ERC20 ICX for the Ethereum DeFi Ecosystem

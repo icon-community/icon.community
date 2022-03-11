@@ -2,8 +2,8 @@
 title: "ICX Over-Issuance Postmortem"
 date: 2021-12-28
 slug: icx-over-issuance-postmortem-e634cfbda85b
-description:
----
+description: An over-issuance was caused by a bug in ICON 2.0’s ICX issuance module. With the help of P-Reps, we were able to quickly resolve the issue with the passing of the Revision 16 network proposal on December 25
+--- 
 
 ## ICX Over-Issuance Postmortem
 

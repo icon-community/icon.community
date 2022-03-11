@@ -2,7 +2,7 @@
 title: "ICON 2.0 Alpha Version Released!"
 date: 2021-04-15
 slug: icon-2-0-alpha-version-released-89c8063ab1a1
-description:
+description: The alpha version of the ICON 2.0 implementation has been successfully released
 ---
 
 ## ICON 2.0 Alpha Version Released!

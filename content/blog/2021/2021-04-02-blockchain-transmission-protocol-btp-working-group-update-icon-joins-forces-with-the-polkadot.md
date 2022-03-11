@@ -2,7 +2,7 @@
 title: "Blockchain Transmission Protocol (BTP) Working Group Update: ICON Joins Forces with the Polkadot…"
 date: 2021-04-02
 slug: blockchain-transmission-protocol-btp-working-group-update-icon-joins-forces-with-the-polkadot-63694290e15b
-description:
+description: Blockchain Transmission Protocol (BTP) Working Group to integrate BTP into the Polkadot Ecosystem
 ---
 
 ## Blockchain Transmission Protocol (BTP) Working Group Update: ICON Joins Forces with the Polkadot Ecosystem

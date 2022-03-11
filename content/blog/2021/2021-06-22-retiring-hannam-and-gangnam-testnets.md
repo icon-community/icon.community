@@ -2,7 +2,7 @@
 title: "Retiring Hannam and Gangnam TestNets"
 date: 2021-06-22
 slug: retiring-hannam-and-gangnam-testnets-fc1d8e75ab6d
-description:
+description: Hannam TestNet (ICON 1.0) and Gangnam TestNet (ICON 2.0) will be closed down, effective July 6th
 ---
 
 ## Retiring Hannam and Gangnam TestNets

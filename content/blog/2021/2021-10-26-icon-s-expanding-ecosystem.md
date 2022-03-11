@@ -2,7 +2,7 @@
 title: "ICON’s Expanding Ecosystem"
 date: 2021-10-26
 slug: icons-expanding-ecosystem-ec2eaf481be4
-description:
+description: ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam, Binance Smart Chain, Near, Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transaction types such as yield farming and asset staking on other networks
 ---
 
 ## ICON’s Expanding Ecosystem

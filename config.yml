@@ -8,8 +8,8 @@ theme:
   - icon-community-v1
 
 permalinks:
-  posts: :slug/
-  pages: :slug/
+  post: :slug/
+  page: :slug/
 
 categories:
   - announcements
