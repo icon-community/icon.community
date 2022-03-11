@@ -1,21 +1,39 @@
-<div class=" flex items-center justify-between max-w-full p-4 mx-auto">
-    <div id="logo">
-        <a href="/">
-            <img class="md:h-10 w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community" />
-        </a>
-    </div>
-    <nav role="navigation" class="md:flex sm:space-x-6 md:space-x-8 lg:space-x-16 hidden">
-        {{ partial "layout/navigation/dropdown_developers.html" . }}
-        <div>
-            <a href="/ecosystem/" class="font-medium">Ecosystem</a>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
+    <div class="flex items-center justify-between max-w-full px-8 py-4">
+        <div id="logo">
+            <a href="/">
+                <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community" />
+            </a>
         </div>
-        {{ partial "layout/navigation/dropdown_resources.html" . }}
-        {{ partial "layout/navigation/dropdown_community.html" . }}
-    </nav>
-    <div class="md:flex hidden">
-        {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url )}}
+        <div class="md:hidden -my-2 -mr-2">
+            <button type="button"
+                class="hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md"
+                aria-expanded="false" @click="mobileMenuOpen =! mobileMenuOpen">
+                <span class="sr-only">Open menu</span>
+                <!-- Heroicon name: outline/menu -->
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <nav role="navigation" class="md:flex sm:space-x-6 md:space-x-8 lg:space-x-12 hidden">
+            {{ partial "layout/navigation/dropdown_developers.html" . }}
+            <div>
+                <a href="/ecosystem/" class="font-medium">Ecosystem</a>
+            </div>
+            {{ partial "layout/navigation/dropdown_resources.html" . }}
+            {{ partial "layout/navigation/dropdown_community.html" . }}
+        </nav>
+        <div class="md:block justify-end hidden">
+            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url )}}
+        </div>
     </div>
+    {{ partial "layout/navigation/navigation_mobile.html" . }}
 </div>
+
+
 <div class="bg-indigo-600">
     <div class="max-w-7xl sm:px-6 lg:px-8 px-3 py-3 mx-auto">
         <div class="flex flex-wrap items-center justify-center">
