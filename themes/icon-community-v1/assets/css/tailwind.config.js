@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: ["icon.community_web/themes/icon-community-v1/layouts/**/*.html"],
@@ -33,10 +34,12 @@ module.exports = {
     },
     fontFamily: {
       montserrat: ['Montserrat', 'sans-serif'],
-      mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
-      serif: ['Source Serif Pro', 'serif']
+      ...defaultTheme.fontFamily
     },
-    extend: {},
+    screens: {
+      'xs': '360px',
+      ...defaultTheme.screens,
+    },
   },
   variants: {
     extend: {},
