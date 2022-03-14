@@ -107,30 +107,6 @@
                             <div id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "https://icondev.io/") }}
                             </div>
-                            <div class="flex gap-4">
-                                <div
-                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold"
-                                        hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
-                                        hx-trigger="load, every 30s"></span>
-                                </div>
-                                <div
-                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold"
-                                        hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
-                                        hx-trigger="load, every 30s"></span>
-                                </div>
-                                <div
-                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY
-                                    </h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold"
-                                        hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
-                                        hx-trigger="load, every 30s"></span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -148,7 +124,7 @@
 
 
 
-    <div id="cps" class="bg-gradient-to-r to-green-900 from-indigo-900 sm:py-24 py-16 space-y-16">
+    <div id="cps" class="bg-gradient-to-r to-green-800 from-indigo-800 sm:py-24 py-16 space-y-16">
         <div id="cps_hero" class="relative px-4 space-y-8">
             <h1 class="lg:text-6xl text-gray-50 text-4xl font-bold tracking-tight text-center">
                 Get Paid to Build
