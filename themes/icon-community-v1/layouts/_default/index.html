@@ -31,21 +31,21 @@
                             <div class="flex gap-4">
                                 <div
                                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">ICX Price</h3>
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">ICX Price</h3>
                                     <span id="icx-price" class="font-mono text-2xl font-bold"
                                         hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
                                 <div
                                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Market Cap</h3>
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Market Cap</h3>
                                     <span id="icx-price" class="font-mono text-2xl font-bold"
                                         hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
                                 <div
                                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Staking APY
+                                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Staking APY
                                     </h3>
                                     <span id="icx-price" class="font-mono text-2xl font-bold"
                                         hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
@@ -132,28 +132,28 @@
             <div class="sm:flex grid items-center justify-center grid-cols-2 gap-4">
                 <div
                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active Projects</h3>
+                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Active Projects</h3>
                     <span id="icx-price" class="font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Funded Projects</h3>
+                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Funded Projects</h3>
                     <span id="icx-price" class="font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Distributed Funds</h3>
+                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Distributed Funds</h3>
                     <span id="icx-price" class="font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
                     class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-400 uppercase">Active P-Reps</h3>
+                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Active P-Reps</h3>
                     <span id="icx-price" class="font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html" hx-trigger="load"></span>
                 </div>
