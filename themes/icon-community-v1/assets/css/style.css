@@ -2,10 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.post-content p,
-.post-content ul {
-  font-family: "PT Serif", "Georgia", serif;
-}
 
 .post-content p {
   margin-bottom: 1rem;

@@ -2,7 +2,7 @@
 {{ $data := newScratch }}
 {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
 
-<div x-data="{ visibility: 'all' }" id="container" class="max-w-6xl px-4 mx-auto">
+<div x-data="{ visibility: 'all' }" id="container" class="lg:my-24 max-w-6xl px-4 mx-auto my-16">
     {{ partial "page_header.html" (dict "context" . ) }}
     <div id="filter-buttons" class="mb-16 text-center">
         <span class="lg:gap-0 relative z-0 inline-flex flex-wrap gap-2 mx-auto shadow-sm">
@@ -21,7 +21,7 @@
             {{ $data.Set "buttonBorderRadius" "rounded-md xl:rounded-none" }}
             {{ end}}
             <button @click="visibility = '{{ . }}'" type="button"
-                class="{{ $data.Get "buttonBorderRadius" }} hover:bg-icon-lo focus:z-10 focus:bg-icon-lo relative inline-flex items-center px-3 xl:px-4 py-1.5 xl:py-2 text-sm font-medium uppercase bg-gray-900 border border-gray-800">
+                class="{{ $data.Get "buttonBorderRadius" }} hover:bg-icon-lo focus:z-10 focus:bg-icon-lo relative inline-flex items-center px-3 xl:px-4 py-1.5 xl:py-2 text-sm font-medium uppercase bg-gray-100 border border-gray-200">
                 {{ . }}
             </button>
             {{ end }}
@@ -57,18 +57,17 @@
             {{ $data.Set "type" (title $type) }}
             {{ end }}
 
-            <!-- Custom background color support for logos. Enable later if needed.
+            <!-- Custom background color support for logos. 
             {{ $name := replace (lower .Title) " " "-" }}
             {{ $bgColor := replace (.Params.bg_color) "#" "" }}
-            <style>#{{ $name }}-logo { background-color: #{{ $bgColor }};}</style>
-            -->
+            <style>#{{ $name }}-logo { background-color: #{{ $bgColor }};}</style>-->
 
             <li x-show="['{{ $type }}', 'all'].includes(visibility)" id="{{ $name }}"
                 class="{{ $type }} flex space-x-4 rounded-lg">
                 <div id="{{ $name }}-logo"
-                    class="lg:w-32 lg:h-32 flex items-center flex-shrink-0 w-24 h-24 bg-gray-900 border border-gray-800 rounded-lg">
+                    class="lg:w-32 lg:h-32 flex items-center flex-shrink-0 w-24 h-24 bg-gray-100 border border-gray-200 rounded-lg">
                     <img class="lg:p-4 max-w-full max-h-full p-3 mx-auto"
-                        src="/assets/images/logos/{{ .File.BaseFileName }}.png" loading="lazy">
+                        src="/assets/images/logos/{{ .File.BaseFileName }}_dark.png" loading="lazy">
                 </div>
                 <div class="sm:space-y-4 flex flex-col justify-center space-y-1.5">
                     <div class="space-y-0.5">
