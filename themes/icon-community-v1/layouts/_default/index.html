@@ -1,10 +1,10 @@
 {{ define "container" }}
 <div id="container">
-    <div id="hero" class="sm:py-24 relative px-4 py-16 bg-blue-100">
-        <h1 class="lg:text-7xl xs:text-5xl mb-4 text-4xl font-extrabold tracking-tight text-center">
+    <div id="hero" class="sm:py-24 bg-radial-at-b from-icon-dark via-purple-800 to-sky-800 relative px-4 py-16">
+        <h1 class="lg:text-7xl xs:text-5xl text-gray-50 mb-4 text-4xl font-extrabold tracking-tight text-center">
             Connecting Blockchains<br>and Communities
         </h1>
-        <p class="md:text-xl z-50 max-w-2xl mx-auto mb-8 text-lg text-center">
+        <p class="md:text-xl z-50 max-w-2xl mx-auto mb-8 text-lg text-center text-gray-100">
             ICON is a public blockchain protocol building a hyperconnected future with BTP, our
             chain-agnostic interoperability solution.
         </p>
@@ -16,7 +16,7 @@
 
 
     <div class="relative overflow-hidden">
-        <div class="relative py-16 bg-green-100">
+        <div class="bg-gray-50 relative py-16">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-4 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
                     <div class="space-y-4">
@@ -64,14 +64,14 @@
                 </div>
             </div>
         </div>
-        <div class="relative py-16 bg-blue-100">
+        <div class="bg-radial-at-bl from-icon-dark via-purple-800 to-sky-800 relative py-16">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-4 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 max-w-xl px-4 mx-auto">
                     <div class="space-y-4">
-                        <h2 class="lg:text-5xl text-4xl font-extrabold tracking-tight text-gray-900">Develop in Java
+                        <h2 class="lg:text-5xl text-gray-50 text-4xl font-extrabold tracking-tight">Develop in Java
                         </h2>
                         <div class="space-y-8">
-                            <p class="text-lg text-gray-500">ICON smart contracts are written in Java, a
+                            <p class="text-lg text-gray-200">ICON smart contracts are written in Java, a
                                 general-purpose programming language known for performance, safety, and reliability. If
                                 you're a Java developer looking to get into smart contract development, you'll feel
                                 right at home on ICON..</p>
@@ -85,13 +85,12 @@
                 <div class="sm:mt-16 lg:mt-0 lg:col-start-1 mt-12">
                     <div class="sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4">
                         <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
-                            src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
-                            alt="Customer profile user interface">
+                            src="/assets/images/java-score.jpg" alt="Customer profile user interface">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="relative py-16 bg-green-100">
+        <div class="bg-gray-50 relative py-16">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-4 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
                     <div class="space-y-4">
@@ -124,7 +123,7 @@
 
 
 
-    <div id="cps" class="bg-gradient-to-r to-green-800 from-indigo-800 sm:py-24 py-16 space-y-16">
+    <div id="cps" class="bg-radial-at-t from-icon-dark via-purple-800 to-sky-800 sm:py-24 py-16 space-y-16">
         <div id="cps_hero" class="relative px-4 space-y-8">
             <h1 class="lg:text-6xl text-gray-50 text-4xl font-bold tracking-tight text-center">
                 Get Paid to Build
@@ -158,7 +157,7 @@
                         hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html" hx-trigger="load"></span>
                 </div>
             </div>
-            <p class="z-50 max-w-2xl mx-auto text-lg text-center text-gray-200">
+            <p class="z-50 max-w-2xl mx-auto text-lg text-center text-gray-100">
                 ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
                 teams building on ICON. Whether your focus is
                 development, marketing, or community building, the CPS is here to fund you.

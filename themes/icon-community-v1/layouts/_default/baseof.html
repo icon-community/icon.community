@@ -16,7 +16,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=PT+Serif:wght@400;700&display=swap"
             rel="stylesheet">
-        {{ $styles := resources.Get "css/style.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+        {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
         {{ if .Site.IsServer }}
         <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
         {{ else }}
