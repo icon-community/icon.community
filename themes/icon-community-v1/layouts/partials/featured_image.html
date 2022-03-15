@@ -1,0 +1,8 @@
+{{- $data := newScratch -}}
+{{- if isset .Params "featured_image" -}}
+{{- $data.Set "featuredImage" .Params.featured_image -}}
+{{- else -}}
+{{- $data.Set "featuredImage" "ICON-FEATURED-IMAGE.png" -}}
+{{- end -}}
+{{- $featuredImage := $data.Get "featuredImage" -}}
+/assets/images/featured-images/{{- $featuredImage -}}

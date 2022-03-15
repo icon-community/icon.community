@@ -1,35 +1,23 @@
 {{ define "container" }}
-
 {{ $data := newScratch }}
-
 <div id="container" class="max-w-7xl lg:my-24 px-4 mx-auto my-16">
-
     {{ partial "page_header.html" (dict "context" .) }}
-
-    {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 12 }}
-
     <div id="blog-posts"
         class="md:grid-cols-2 xl:grid-cols-3 md:space-y-0 gap-x-4 gap-y-8 xl:gap-y-8 xl:gap-x-8 grid grid-cols-1">
-
-        {{ range $paginator.Pages }}
-
+        {{ range first 12 (where $.Site.RegularPages "Section" "blog") }}
         {{ if isset .Params "author" }}
         {{ $data.Set "authorName" .Params.author }}
         {{ else }}
         {{ $data.Set "authorName" "ICON Foundation" }}
         {{ end }}
-
         {{ $authorName := $data.Get "authorName" }}
         {{ $authorId := replace (lower ($authorName)) " " "-" }}
-
         {{ if isset .Params "featured_image" }}
         {{ $data.Set "featuredImage" .Params.featured_image }}
         {{ else }}
         {{ $data.Set "featuredImage" "ICON-FEATURED-IMAGE.png" }}
         {{ end }}
-
         {{ $featuredImage := $data.Get "featuredImage"}}
-
         <div class="flex flex-col overflow-hidden rounded-lg">
             <div class="flex-shrink-0">
                 <img class="h-60 object-cover w-full" src="/assets/images/featured-images/{{ $featuredImage }}"
@@ -77,8 +65,23 @@
         </div>
         {{ end }}
     </div>
-    <div id="pagination" class="flex items-center justify-center my-8 text-xl font-bold">
-        {{ template "_internal/pagination.html" . }}
+    <div id="blog-archive">
+        <header id="page-header" class="max-w-7xl mx-auto my-16 text-center">
+            <h2 id="title" class="lg:text-6xl md:text-5xl mb-4 text-4xl font-extrabold">Archive</h2>
+            <div id="subtitle" class="max-w-xl mx-auto text-lg text-gray-600">A complete archive of blog posts published
+                by the ICON community.</div>
+        </header>
+        <div class="sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 grid grid-cols-1 gap-4">
+            {{ range after 12 (where $.Site.RegularPages "Section" "blog") }}
+            <div class="space-y-2">
+                <header>
+                    <h2 class="font-bold leading-tight">{{ .Title }}</h2>
+                    <time class="text-sm text-gray-600" t>{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+                </header>
+                <p class="text-sm leading-snug">{{ .Params.description | safeHTML | truncate 120 }}</p>
+            </div>
+            {{ end }}
+        </div>
     </div>
 </div>
 {{ end }}
