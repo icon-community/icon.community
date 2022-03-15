@@ -3,7 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ["./themes/icon-community-v1/layouts/**/*.html"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
       transparent: 'transparent',

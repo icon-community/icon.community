@@ -14,15 +14,16 @@
             {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url) }}
         </div>
     </div>
-
     <div class="relative overflow-hidden">
         <div id="powered-by-icx" class="sm:py-24 relative py-16">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 grid">
                 <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
                     <div>
-                        <h2 class="lg:text-5xl text-4xl font-extrabold tracking-tight text-gray-900">Powered by ICX</h2>
+                        <h2 class="lg:text-5xl dark:text-gray-50 text-4xl font-extrabold tracking-tight text-gray-900">
+                            Powered by ICX</h2>
                         <div class="space-y-8">
-                            <p class="mt-4 text-lg text-gray-500">ICX is the currency that powers the ICON ecosystem.
+                            <p class="dark:text-gray-400 mt-4 text-lg text-gray-600">ICX is the currency that powers the
+                                ICON ecosystem.
                                 ICX has a variety of use cases including staking, network governance, collateralization
                                 on DeFi platforms, and more.
                             </p>
@@ -32,24 +33,30 @@
                             </div>
                             <div class="flex gap-4">
                                 <div
-                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">ICX Price</h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                    class="sm:p-3 dark:bg-gray-800 dark:border-gray-700 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3
+                                        class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">
+                                        ICX Price</h3>
+                                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                                         hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
                                 <div
-                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Market Cap</h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                    class="sm:p-3 dark:bg-gray-800 dark:border-gray-700 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3
+                                        class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">
+                                        Market Cap</h3>
+                                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                                         hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
                                 <div
-                                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Staking APY
+                                    class="sm:p-3 dark:bg-gray-800 dark:border-gray-700 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                                    <h3
+                                        class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">
+                                        Staking APY
                                     </h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                                         hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
@@ -104,10 +111,12 @@
             <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 grid">
                 <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
                     <div>
-                        <h2 class="lg:text-5xl text-4xl font-extrabold tracking-tight text-gray-900">Develop in Java
+                        <h2 class="lg:text-5xl dark:text-gray-50 text-4xl font-extrabold tracking-tight text-gray-900">
+                            Develop in Java
                         </h2>
                         <div class="space-y-8">
-                            <p class="mt-4 text-lg text-gray-500">ICON smart contracts are written in Java, a
+                            <p class="dark:text-gray-400 mt-4 text-lg text-gray-600">ICON smart contracts are written in
+                                Java, a
                                 general-purpose programming language known for performance, safety, and reliability. If
                                 you're a Java developer looking to get into smart contract development, you'll feel
                                 right at home on ICON.
@@ -121,7 +130,7 @@
                 </div>
                 <div class="sm:mt-16 lg:mt-0 mt-12">
                     <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
+                        <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none dark:border-gray-800 w-full border border-gray-200 shadow-xl"
                             src="/assets/images/java-score.jpg" alt="Inbox user interface">
                     </div>
                 </div>
@@ -136,30 +145,34 @@
             </h1>
             <div class="sm:flex grid items-center justify-center grid-cols-2 gap-4">
                 <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Active Projects</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Active
+                        Projects</h3>
+                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Funded Projects</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Funded
+                        Projects</h3>
+                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Distributed Funds</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Distributed
+                        Funds</h3>
+                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="sm:px-3 sm:py-3 flex flex-col px-2 py-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
-                    <h3 class="text-xs font-bold tracking-tight text-gray-500 uppercase">Active P-Reps</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold"
+                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Active
+                        P-Reps</h3>
+                    <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
                         hx-get="{{ partial "api_url.html" }}/cps/prep-count/?format=html" hx-trigger="load"></span>
                 </div>
             </div>
@@ -274,19 +287,20 @@
     </div>
     <div class="sm:py-24 px-4 py-16">
         <div>
-            <h1 class="lg:text-6xl md:text-5xl mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900">
+            <h1
+                class="lg:text-6xl md:text-5xl dark:text-gray-50 mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900">
                 What's Next?
             </h1>
-            <p class="md:text-xl z-50 max-w-2xl mx-auto mb-8 text-lg text-center text-gray-500">
+            <p class="md:text-xl dark:text-gray-400 z-50 max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600">
                 ICON is a
                 place for everyone, whether you're new to crypto or building a project. Start exploring the ICON
                 ecosystem today!
             </p>
         </div>
         <div
-            class="sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px max-w-4xl mx-auto overflow-hidden bg-gray-200 divide-y divide-gray-200 rounded-lg shadow">
+            class="sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px dark:divide-gray-700 dark:bg-gray-700 max-w-4xl mx-auto overflow-hidden bg-gray-200 divide-y divide-gray-200 rounded-lg shadow">
             <div
-                class="sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 relative p-6 bg-white rounded-tl-lg rounded-tr-lg">
+                class="sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-gray-50 dark:bg-gray-800 relative p-6 rounded-tl-lg rounded-tr-lg">
                 <div>
                     <span class="bg-teal-50 ring-4 ring-white inline-flex p-3 text-teal-700 rounded-lg">
                         <!-- Heroicon name: outline/clock -->
@@ -299,13 +313,14 @@
                 </div>
                 <div class="mt-6">
                     <h3 class="text-lg font-medium">
-                        <a href="#" class="focus:outline-none">
+                        <a href="#" class="focus:outline-none dark:text-gray-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            <span class="text-gray-50 absolute inset-0" aria-hidden="true"></span>
                             What is BTP?
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Learn about ICON's Blockchain Transmission Protocol (BTP), a
+                    <p class="dark:text-gray-400 mt-2 text-sm text-gray-600">Learn about ICON's Blockchain Transmission
+                        Protocol (BTP), a
                         trustless bridging protocol that connects ICON to chains like Binance Smart
                         Chain, NEAR, Harmony, and more.</p>
                 </div>
@@ -319,7 +334,7 @@
             </div>
 
             <div
-                class="sm:rounded-tr-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 relative p-6 bg-white">
+                class="sm:rounded-tr-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-gray-50 dark:bg-gray-800 relative p-6">
                 <div>
                     <span class="bg-purple-50 ring-4 ring-white inline-flex p-3 text-purple-700 rounded-lg">
                         <!-- Heroicon name: outline/badge-check -->
@@ -332,13 +347,14 @@
                 </div>
                 <div class="mt-6">
                     <h3 class="text-lg font-medium">
-                        <a href="#" class="focus:outline-none">
+                        <a href="#" class="focus:outline-none dark:text-gray-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            <span class="text-gray-50 absolute inset-0" aria-hidden="true"></span>
                             Download Wallet
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Learn how to download and use Hana, the official wallet of the
+                    <p class="dark:text-gray-400 mt-2 text-sm text-gray-600">Learn how to download and use Hana, the
+                        official wallet of the
                         ICON ecosystem.</p>
                 </div>
                 <span class="top-6 right-6 group-hover:text-gray-400 absolute text-gray-300 pointer-events-none"
@@ -351,7 +367,7 @@
             </div>
 
             <div
-                class="group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 relative p-6 bg-white">
+                class="group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-gray-50 dark:bg-gray-800 relative p-6">
                 <div>
                     <span class="bg-sky-50 text-sky-700 ring-4 ring-white inline-flex p-3 rounded-lg">
                         <!-- Heroicon name: outline/users -->
@@ -364,13 +380,14 @@
                 </div>
                 <div class="mt-6">
                     <h3 class="text-lg font-medium">
-                        <a href="#" class="focus:outline-none">
+                        <a href="#" class="focus:outline-none dark:text-gray-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            <span class="text-gray-50 absolute inset-0" aria-hidden="true"></span>
                             What is ICON Bridge?
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Learn how to swap tokens across ICON, Binance Smart Chain,
+                    <p class="dark:text-gray-400 mt-2 text-sm text-gray-600">Learn how to swap tokens across ICON,
+                        Binance Smart Chain,
                         Moonbeam, and more with ICON Bridge – an easy to use bridging solution operated by ICON
                         Foundation.</p>
                 </div>
@@ -384,7 +401,7 @@
             </div>
 
             <div
-                class="group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 relative p-6 bg-white">
+                class="group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-gray-50 dark:bg-gray-800 relative p-6">
                 <div>
                     <span class="bg-yellow-50 ring-4 ring-white inline-flex p-3 text-yellow-700 rounded-lg">
                         <!-- Heroicon name: outline/cash -->
@@ -397,13 +414,14 @@
                 </div>
                 <div class="mt-6">
                     <h3 class="text-lg font-medium">
-                        <a href="#" class="focus:outline-none">
+                        <a href="#" class="focus:outline-none dark:text-gray-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            <span class="text-gray-50 absolute inset-0" aria-hidden="true"></span>
                             Purchase ICX
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Learn how to purchase ICX to interact with ICON dApps like
+                    <p class="dark:text-gray-400 mt-2 text-sm text-gray-600">Learn how to purchase ICX to interact with
+                        ICON dApps like
                         Balanced, Omm, Craft, and more.</p>
                 </div>
                 <span class="top-6 right-6 group-hover:text-gray-400 absolute text-gray-300 pointer-events-none"
@@ -416,7 +434,7 @@
             </div>
 
             <div
-                class="sm:rounded-bl-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 relative p-6 bg-white">
+                class="sm:rounded-bl-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-gray-50 dark:bg-gray-800 relative p-6">
                 <div>
                     <span class="bg-rose-50 text-rose-700 ring-4 ring-white inline-flex p-3 rounded-lg">
                         <!-- Heroicon name: outline/receipt-refund -->
@@ -429,13 +447,14 @@
                 </div>
                 <div class="mt-6">
                     <h3 class="text-lg font-medium">
-                        <a href="#" class="focus:outline-none">
+                        <a href="#" class="focus:outline-none dark:text-gray-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            <span class="text-gray-50 absolute inset-0" aria-hidden="true"></span>
                             ICON Governance
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Learn about ICON's DPoS governance model, and how P-Reps,
+                    <p class="dark:text-gray-400 mt-2 text-sm text-gray-600">Learn about ICON's DPoS governance model,
+                        and how P-Reps,
                         stakers, and ICX issuance all fit into the equation.</p>
                 </div>
                 <span class="top-6 right-6 group-hover:text-gray-400 absolute text-gray-300 pointer-events-none"
@@ -448,7 +467,7 @@
             </div>
 
             <div
-                class="sm:rounded-bl-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 relative p-6 bg-white rounded-bl-lg rounded-br-lg">
+                class="sm:rounded-bl-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-gray-50 dark:bg-gray-800 relative p-6 rounded-bl-lg rounded-br-lg">
                 <div>
                     <span class="bg-indigo-50 ring-4 ring-white inline-flex p-3 text-indigo-700 rounded-lg">
                         <!-- Heroicon name: outline/academic-cap -->
@@ -461,14 +480,15 @@
                 </div>
                 <div class="mt-6">
                     <h3 class="text-lg font-medium">
-                        <a href="#" class="focus:outline-none">
+                        <a href="#" class="focus:outline-none dark:text-gray-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            <span class="text-gray-50 absolute inset-0" aria-hidden="true"></span>
                             Stake ICX
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm text-gray-500">Learn how to stake ICX to earn <span id="icx-price"
-                            class="font-bold" hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
+                    <p class="dark:text-gray-400 mt-2 text-sm text-gray-600">Learn how to stake ICX to earn <span
+                            id="icx-price" class="font-bold"
+                            hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
                             hx-trigger="load, every 30s"></span> APY in exchange for helping to
                         secure the ICON network.</p>
                 </div>
