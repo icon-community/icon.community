@@ -64,5 +64,3 @@ ICON is building integrations with prominent blockchains such as Binance Smart C
 ICON will continue to pursue additional BTP integrations, fund innovative BTP use cases and enhance the core BTP product offering as we strive to be the industry leader for interoperability technology and cross-chain applications.
 
 **More details will be released regarding this incentive program as specific programs and teams receive support. Stay tuned for more information.**
-
-## To join our growing community of ICONists today join our Discord: <https://discord.gg/BvWzx9nZgv>

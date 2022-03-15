@@ -7,6 +7,14 @@
   margin-bottom: 1rem;
 }
 
+.post-content a {
+  text-decoration: underline;
+}
+
+.post-content a:hover {
+  text-decoration: none;
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3,
