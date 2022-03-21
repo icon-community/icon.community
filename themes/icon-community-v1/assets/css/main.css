@@ -2,7 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
 .post-content p {
   margin-bottom: 1rem;
 }

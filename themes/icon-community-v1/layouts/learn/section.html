@@ -42,25 +42,6 @@
                         </p>
                     </a>
                 </div>
-                <div class="flex items-center mt-6">
-                    <div class="flex-shrink-0">
-                        <a href="/contributors/">
-                            <span class="sr-only"></span>
-                            <img class="border-icon-lo w-10 h-10 p-0.5 border-2 rounded-full"
-                                src="/assets/images/contributors/{{ $authorId }}.jpg" alt="{{ $authorName }}">
-                        </a>
-                    </div>
-                    <div class="ml-3 text-gray-600">
-                        <p class="text-sm font-medium">
-                            <a href="/contributors/" class="hover:text-icon-lo">{{ $authorName }}</a>
-                        </p>
-                        <div class="flex space-x-1 text-sm">
-                            <time datetime="2020-03-16">
-                                {{ .PublishDate.Format "January 2, 2006" }}
-                            </time>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         {{ end }}
