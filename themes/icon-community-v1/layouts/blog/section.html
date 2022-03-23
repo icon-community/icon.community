@@ -73,13 +73,17 @@
         </header>
         <div class="sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 grid grid-cols-1 gap-4">
             {{ range after 9 (where $.Site.RegularPages "Section" "blog") }}
+            {{ if ge .PublishDate.Year 2020 }}
             <div class="space-y-2">
                 <header>
-                    <h2 class="font-bold leading-tight">{{ .Title }}</h2>
+                    <a href="{{ .Permalink }}" class="hover:underline">
+                        <h2 class="font-bold leading-tight">{{ .Title }}</h2>
+                    </a>
                     <time class="text-sm text-gray-600" t>{{ .PublishDate.Format "Jan 2, 2006" }}</time>
                 </header>
                 <p class="text-sm leading-snug">{{ .Params.description | safeHTML | truncate 120 }}</p>
             </div>
+            {{ end }}
             {{ end }}
         </div>
     </div>
