@@ -3,14 +3,8 @@ title: "ICON Pre-Sale “Term 1” Lucky Draw Event Details"
 date: 2017-09-19
 category: announcements
 slug: icon-pre-sale-term-1-lucky-draw-event-details-3d4b01beaac8
-description:
+description: Thanks for your interest in the ICON project. This post will outline the detailed proceeding of the “Term 1” Pre-Sale Event.
 ---
-
-## ICON Pre-Sale “Term 1” Lucky Draw Event Details
-
-### Pre-Sale Starts Sept 20, 2017 / 13:00 (UTC+9)
-
-![](https://cdn-images-1.medium.com/max/800/1*AJF3AubugOPl-kWvN7YwGw.png)Hi,
 
 Thanks for your interest in the ICON project. This post will outline the detailed proceeding of the “Term 1” Pre-Sale Event.
 

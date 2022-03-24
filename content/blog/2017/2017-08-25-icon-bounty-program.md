@@ -3,12 +3,10 @@ title: "ICON Bounty Program"
 date: 2017-08-25
 category: announcements
 slug: icon-bounty-program-d6c382df66a5
-description:
+description: ICON is launching a bounty program. Promote ICON and get ICX for free!
 ---
 
-## ICON Bounty Program
-
-![](https://cdn-images-1.medium.com/max/800/1*bfmRvaxhlOTQXK8C1aOZkg.png)ICON is launching a Bounty Program! Promote ICON and get ICX for Free! Instead of spending our funds for Facebook and Google Ads, we will benefit our ICON users directly. Participate in the Bounty Program now.
+ICON is launching a Bounty Program! Promote ICON and get ICX for Free! Instead of spending our funds for Facebook and Google Ads, we will benefit our ICON users directly. Participate in the Bounty Program now.
 
 The purpose of the Bounty Program is to the promote the ICON ICO. The ICON ICO will raise $44M and become the largest ICO in Korea. The ICO starts on October 20, 2017 and ends on November 3, 2017.
 

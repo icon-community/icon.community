@@ -3,12 +3,8 @@ title: "KYC Background and Procedures"
 date: 2017-09-19
 category: announcements
 slug: kyc-background-and-procedures-b21b3f626f9b
-description:
+description: Thank you for your interest in the ICON Project. This post will explain KYC procedures.
 ---
-
-## **KYC Background and Procedures**
-
-![](https://cdn-images-1.medium.com/max/800/1*-MlUzEHIC8IPBCksEC4EUQ.png)Hi, this is the ICON Team.
 
 Thank you for your interest in the ICON Project. This post will explain the background regarding the implementation of KYC(Know-Your-Customer) and the detailed KYC procedures.
 

@@ -3,14 +3,10 @@ title: "ICON Token Sale Allocation"
 date: 2017-09-18
 category: announcements
 slug: icon-token-sale-allocation-ce2464739554
-description:
+description: The ICON team prioritizes transparency. The blockchain industry itself is about open-source code and decentralized ownership. The purpose of this post to clarify the distribution of Tokens during the ICON Token Sale.
 ---
 
-## ICON Token Sale Allocation
-
-### Pre-Sale Starts Sept 20, 2017 / 13:00 (UTC+9)
-
-![](https://cdn-images-1.medium.com/max/800/1*-MlUzEHIC8IPBCksEC4EUQ.png)The ICON team prioritizes transparency. The blockchain industry itself is about open-source code and decentralized ownership. The purpose of this post to clarify the distribution of Tokens during the ICON Token Sale.
+The ICON team prioritizes transparency. The blockchain industry itself is about open-source code and decentralized ownership. The purpose of this post to clarify the distribution of Tokens during the ICON Token Sale.
 
 The overall Token Sale is divided into two parts the “Pre-Sale” and the main “Token Sale”. Both the Pre-Sale and the Token Sale share the same pool of Tokens. The total Token distribution is 150,000 ETH.
 

@@ -3,14 +3,10 @@ title: "ICON Adds KYC to Token Sale (Refund Policy Updated)"
 date: 2017-09-18
 category: announcements
 slug: icon-adds-kyc-to-token-sale-e66085dc7a55
-description:
+description: The ICON Token Sale adheres to global regulations. There have been many developments in ICO regulations over the past few weeks.
 ---
 
-## ICON Adds KYC to Token Sale (Refund Policy Updated)
-
-### Pre-Sale Starts Sept 20, 2017 / 13:00 (UTC+9)
-
-![](https://cdn-images-1.medium.com/max/800/1*4Fasid4-qLY9pw3AWoiuwA.png)The ICON Token Sale adheres to global regulations. There have been many developments in ICO regulations over the past few weeks. In order to adapt to the changing blockchain landscape, ICON is adding KYC(Know Your Customer) protection measure to ensure contributors can legally participate in the ICON Token Sale.
+The ICON Token Sale adheres to global regulations. There have been many developments in ICO regulations over the past few weeks. In order to adapt to the changing blockchain landscape, ICON is adding KYC(Know Your Customer) protection measure to ensure contributors can legally participate in the ICON Token Sale.
 
 There are two main reasons why ICON is adding KYC. Firstly, the SEC(U.S. Securities and Exchange Commission) is preparing to prosecute Token Sales without KYC procedures. Secondly, cryptocurrency exchanges are beginning to exclude cryptocurrencies that did not implement KYC.
 

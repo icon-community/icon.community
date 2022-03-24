@@ -3,12 +3,10 @@ title: "ICON Bounty Program Results"
 date: 2017-09-25
 slug: icon-bounty-program-results-b569083b275
 category: announcements
-description:
+description: Bar Chart Distribution of ICX Allocation (Used/Allocated)The ICON Bounty Program has concluded.
 ---
 
-## ICON Bounty Program Results
-
-![](https://cdn-images-1.medium.com/max/800/0*wrKfLiRys9Z0Z7NB.)Bar Chart Distribution of ICX Allocation (Used / Allocated)The ICON Bounty Program has concluded. The Bounty Program was organized to reward ICON supporters for promoting the ICON Token Sale.
+Bar Chart Distribution of ICX Allocation (Used/Allocated)The ICON Bounty Program has concluded. The Bounty Program was organized to reward ICON supporters for promoting the ICON Token Sale.
 
 The Bounty Program started on Aug 25, 2017 and ended on Sept 21, 2017 (coinciding with the Token Sale Conclusion). The Bounty Application Google Forms have been closed and no further submissions are accepted.
 

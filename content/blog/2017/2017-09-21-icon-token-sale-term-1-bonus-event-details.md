@@ -3,12 +3,8 @@ title: "ICON Token Sale “Term 1” Bonus Event Details"
 date: 2017-09-21
 category: announcements
 slug: icon-pre-sale-term-1-lucky-draw-event-details-910157e63c84
-description:
+description: Thanks for your interest in the ICON project. This post will outline the detailed proceeding of the “Term 1” Pre-Sale Event.
 ---
-
-## ICON Token Sale “Term 1” Bonus Event Details
-
-![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)Hi,
 
 Thanks for your interest in the ICON project. This post will outline the detailed proceeding of the “Term 1” Pre-Sale Event.
 

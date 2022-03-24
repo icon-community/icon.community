@@ -3,14 +3,8 @@ title: "ICON Token Sale Successfully Ends"
 date: 2017-09-20
 category: announcements
 slug: icon-token-sale-successfully-ends-ee56a0495e8d
-description:
+description: The ICON team would like to express our sincere appreciation to everyone who have supported the ICON Project. We want to share this moment with all our supporters.
 ---
-
-## ICON Token Sale Successfully Ends
-
-### Token Sale Ended on Sept 20, 2017 / 19:33 (UTC+9)
-
-### ICON Raises 150,000 ETH Total — 75,000 ETH from Public Pre-Sale in 6 Hours!
 
 The ICON team would like to express our sincere appreciation to everyone who have supported the ICON Project. We want to share this moment with all our supporters.
 

@@ -3,14 +3,10 @@ title: "ICON Lottery Draw Event (10,000 ICX)"
 date: 2017-09-11
 category: announcements
 slug: pre-pre-sale-event-220352f179db
-description:
+description: Thanks to all the support and affection that you’ve given ICON, our 1st Meetup in Korea ended successfully, and we will also have our 2nd Meetup at our Korea Office Building in Seoul, Korea with a crowd from all over Korea.
 ---
 
-## ICON Lottery Draw Event (10,000 ICX)
-
-### “TEST YOUR LUCK” Event!
-
-![](https://cdn-images-1.medium.com/max/800/1*RWhg3kQi_rjm2COFLp0wwg.jpeg)Thanks to all the support and affection that you’ve given ICON, our 1st Meetup in Korea ended successfully, and we will also have our 2nd Meetup at our Korea Office Building in Seoul, Korea with a crowd from all over Korea.
+Thanks to all the support and affection that you’ve given ICON, our 1st Meetup in Korea ended successfully, and we will also have our 2nd Meetup at our Korea Office Building in Seoul, Korea with a crowd from all over Korea.
 
 With your passionate participation from all around the world allowed ICON Project to walk the road to success. To show our appreciation for your support and participation, we are running a SURPRISE LUCKY DRAW EVENT for all of our social network/messenger community.
 

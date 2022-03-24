@@ -6,8 +6,6 @@ slug: hello-icon-world-fe11cde22d20
 description: Thank you for visiting ICON’s Medium page and viewing our first post. This is the official Medium page for ICON
 ---
 
-## Hello ICON World
-
 Thank you for visiting ICON’s Medium page and viewing our first post. This is the official Medium page for ICON (aka. “ICON Project”, “ICON Network”).
 
 Here, we plan to update the ICON community with our progress. For questions or comments, please email us at [hello@icon.foundation](mailto:%20hello@icon.foundation).
