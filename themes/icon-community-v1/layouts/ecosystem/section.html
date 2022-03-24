@@ -39,7 +39,6 @@
             {{ else if eq $type "defi" }}
             {{ $data.Set "type" "DeFi" }}
             {{ else if eq $type "enterprise" }}
-            {{ $data.Set "highlightColor" "pink-800" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "exchange" }}
             {{ $data.Set "type" (title $type) }}

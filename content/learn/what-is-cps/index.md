@@ -2,6 +2,7 @@
 title: What is the CPS?
 date: 2022-03-21
 description: "ICON’s Contribution Proposal System (CPS) is a decentralized grant program operated by P-Reps (validators) on the ICON network."
+slug: cps
 ---
 
 ICON’s Contribution Proposal System (CPS) is a decentralized grant program operated by P-Reps (validators) on the ICON network. The CPS is designed to fund development, marketing, and community-building initiatives that benefit the ICON network in a transparent manner. Compared to other grant programs, ICON’s CPS offers a few key advantages such as distribution of funds via a stablecoin and KYC-less application process. In this article, you’ll learn how to take advantage of ICON’s CPS to bootstrap your next project idea.
