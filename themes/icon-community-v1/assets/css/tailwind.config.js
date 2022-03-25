@@ -28,6 +28,7 @@ module.exports = {
       violet: colors.violet,
       yellow: colors.yellow,
       white: colors.white,
+      'icon': '#32b8bb',
       'icon-hi': '#31f2f6',
       'icon-lo': '#2ca9b7',
       'icon-dark': '#087083'
