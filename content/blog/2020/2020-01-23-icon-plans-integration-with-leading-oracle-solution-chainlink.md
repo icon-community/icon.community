@@ -5,10 +5,6 @@ slug: icon-plans-integration-with-leading-oracle-solution-chainlink-c4b746384096
 description:
 ---
 
-## ICON Plans Integration with Leading Oracle Solution Chainlink
-
-![](https://cdn-images-1.medium.com/max/800/1*mbAITVwHkK3eZqyoqPDx8g.png)Bringing Real World Data to ICON’s Public Blockchain
-
 Greetings ICONists,
 
 We are excited to announce our collaboration with Chainlink, one of the leading oracle solutions in the blockchain industry. Oracles allow smart contracts to interact with data and systems from outside their native blockchain (off-chain). This opens up interchain communication and enables smart contracts to interact with traditional non-blockchain systems that currently power global economies.

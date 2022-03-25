@@ -2,12 +2,8 @@
 title: "ICONLOOP signs MoU with Saramin HR to build a Blockchain-based HR recruitment ecosystem"
 date: 2020-02-06
 slug: iconloop-signs-mou-with-saramin-hr-to-build-a-blockchain-based-hr-recruitment-ecosystem-66a417b464b5
-description:
+description: Today, our technology and ecosystem expansion partner, ICONLOOP, signed an MoU with Saramin HR, which operates the job placement platform and search engine Saramin.
 ---
-
-## ICONLOOP signs MoU with Saramin HR to build a Blockchain-based HR recruitment ecosystem
-
-![](https://cdn-images-1.medium.com/max/800/1*sjYBNXOaV5G80mUfwSvH5A.png)Saramin HR is Korea’s leading job placement platform, similar to [Indeed.com](https://www.indeed.com)
 
 Today, our technology and ecosystem expansion partner, [ICONLOOP](https://www.iconloop.com/en/), signed an MoU with Saramin HR, which operates the job placement platform and search engine Saramin [(www.saramin.co.kr)](https://www.saramin.co.kr/zf_user/), to collaborate in building a blockchain-based digital ID and authentication ecosystem. Saramin HR is Korea’s leading job placement platform, similar to [Indeed.com](https://www.indeed.com).
 

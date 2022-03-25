@@ -15,7 +15,7 @@ description:
 
 **At the end of April, ‘TestNet for P-Reps’ will be open for P-Rep candidates to experience their roles in block production and verification in advance.** The TestNet operation policy will be guided through ‘ICON P-Reps,’ a private Telegram channel dedicated to P-Rep candidates. Each candidate will have access to the ICON TestNet under the support of the ICON Foundation. For more information on how to join ‘ICON P-Reps’ Telegram channel, please visit ICON.community (<https://t.me/iconcm>).
 
-Before September comes, every P-Rep candidate will be able to check their resources in advance by installing the ICON Network’s software and running their own servers. The data collected during the period will be utilized for the decentralized ICON MainNet, and further announcements will be updated in real time via the ‘ICON P-Reps’ telegram channel and GitHub at the end of April.
+Before September comes, every P-Rep candidate will be able to check their resources in advance by installing the ICON Network’s software and running their own servers. The data collected during the period will be utilized for the decentralized ICON Mainnet, and further announcements will be updated in real time via the ‘ICON P-Reps’ telegram channel and GitHub at the end of April.
 
 **2. P-Rep Pre-voting, the start of P-Rep On-chain Registration & Voting**
 

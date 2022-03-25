@@ -2,12 +2,8 @@
 title: "Visualizing Public Blockchain: Finance, Oracles, and Interchain"
 date: 2020-01-23
 slug: visualizing-public-blockchain-finance-oracles-and-interchain-4379664023d4
-description:
+description: On March 18th at 7pm (KST), we will host a joint meet-up alongside leading blockchain projects, MakerDAO and Chainlink.
 ---
-
-## **Visualizing Public Blockchain: Finance, Oracles, and Interchain**
-
-![](https://cdn-images-1.medium.com/max/800/1*qOZ3DvbODpidmjzFaP0ZmQ.png)UPDATED DATE/TIME: Meet-up with MakerDAO, Chainlink and ICON
 
 Greetings ICONists,
 

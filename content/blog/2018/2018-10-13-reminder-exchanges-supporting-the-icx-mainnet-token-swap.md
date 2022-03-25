@@ -1,11 +1,11 @@
 ---
-title: "Reminder: Exchanges Supporting the ICX MainNet Token Swap"
+title: "Reminder: Exchanges Supporting the ICX Mainnet Token Swap"
 date: 2018-10-13
 slug: reminder-exchanges-supporting-the-icx-mainnet-token-swap-3e7b65f06e78
 description:
 ---
 
-## **Reminder: Exchanges Supporting the ICX MainNet Token Swap**
+## **Reminder: Exchanges Supporting the ICX Mainnet Token Swap**
 
 ![](https://cdn-images-1.medium.com/max/800/0*kdgCzOYkaSX9-M9H)Greetings from the ICON Team,
 
@@ -15,7 +15,7 @@ As of October 13, 2018, the ICX token swap is only possible through two methods:
 
 **-Swap Complete: Binance, Upbit, OKEx**
 
-If you currently hold ICX on exchanges that have completed the swap, there is no need for a separate token swap procedure because you already have the MainNet ICX coins.
+If you currently hold ICX on exchanges that have completed the swap, there is no need for a separate token swap procedure because you already have the Mainnet ICX coins.
 
 **-Swap in Progress: Huobi, Bithumb, DragonEX**
 
@@ -55,7 +55,7 @@ FAQ sheet: [Answers to your questions](https://docs.google.com/spreadsheets/d/1H
 
 *2. There may be SCAM attempts impersonating ICON. The ICX token swap will only be made through ICONex. If you find any SCAM attempts asking you to send your ICX to an individual wallet for the token swap process, please let us know (hello@icon.foundation)*
 
-*3. The swapped mainnet ICX coins will be stored in the ICONex ICX wallet starting with hx, not the ICONex ETH wallet starting with 0x. Also, please do not send your ICX mainnet coins to ETH based wallets such as MEW. Never send MainNet tokens to an address starting with “0x”. Never send ERC20 coins to an address starting with “hx”.*
+*3. The swapped mainnet ICX coins will be stored in the ICONex ICX wallet starting with hx, not the ICONex ETH wallet starting with 0x. Also, please do not send your ICX mainnet coins to ETH based wallets such as MEW. Never send Mainnet tokens to an address starting with “0x”. Never send ERC20 coins to an address starting with “hx”.*
 
 *4. ERC20 ICX tokens that are swapped will be burned (locked) and will no longer be used. The burned ERC20 tokens will not be in the total circulation amount.*
 

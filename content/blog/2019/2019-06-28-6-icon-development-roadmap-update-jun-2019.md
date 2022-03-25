@@ -11,7 +11,7 @@ description:
 
 As the second quarter comes to a close, the ICON team would like to share the developments we have made in the month of June.
 
-**P-Rep TestNet Operation**Two ICON P-Rep TestNets named Yoonjeong & Jinseong are currently being operated by approximately 35 P-Rep candidates. P-Rep candidates will have time to familiarize themselves with operating nodes on the TestNets until July, and then the elected teams will go on to operate nodes on the ICON MainNet and develop the ICON ecosystem.
+**P-Rep TestNet Operation**Two ICON P-Rep TestNets named Yoonjeong & Jinseong are currently being operated by approximately 35 P-Rep candidates. P-Rep candidates will have time to familiarize themselves with operating nodes on the TestNets until July, and then the elected teams will go on to operate nodes on the ICON Mainnet and develop the ICON ecosystem.
 
 **Fee 2.0**The Fee 2.0 feature launch has been rescheduled to July after the additional QA phase scheduled until the end of June. We apologize for the delay and ask for your understanding. In order to create a fee policy truly optimized for DApp users, service operators, and ICON P-Reps, it has been judged that a rescheduling of the launch would be in the best interests of everybody. ICON is committed to creating an environment in which users can use blockchain services without any fee burdens or inconveniences.
 

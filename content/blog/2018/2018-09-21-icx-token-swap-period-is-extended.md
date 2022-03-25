@@ -13,7 +13,7 @@ The token swap period, which started in June, will be extended by one month from
 
 Over the past three months since the token swap started, the ICON Team has regularly reminded our community about the token swap in a variety of ways. However, as the token swap completion rate is approximately 83.9%, which is lower than ICON Team was expecting, we decided to extend swap period for an additional month in order to minimize the harm caused by holders’ failure to swap.
 
-The ERC20 ICX tokens will be swapped to MainNet ICX coins with a 1:1 swap exchange rate (1 ERC20 ICX token = 1 MainNet ICX coin). Please be aware that once the token swap is made, you cannot convert them back to ERC20 ICX tokens.
+The ERC20 ICX tokens will be swapped to Mainnet ICX coins with a 1:1 swap exchange rate (1 ERC20 ICX token = 1 Mainnet ICX coin). Please be aware that once the token swap is made, you cannot convert them back to ERC20 ICX tokens.
 
 The token swap will end on the 25th of October and loss may occur if swap is not completed by the end date so please be sure to swap your tokens before the deadline.
 

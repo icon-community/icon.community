@@ -15,7 +15,7 @@ In this post, we outline the cause of the recent network pause and the steps tak
 
 At block height 11,165,694, 14:37:22 UTC, Nov 17th, the ICON Network halted due to a leader node initializing bug. This bug caused the ICON Network to halt temporarily while the issue was being resolved. The chain was ultimately recovered at UTC 12:37:38, Nov 18th with block height 11,165,695.
 
-At this time, the core engineering team is monitoring the MainNet 24/7 to avoid any additional significant network downtime. We will release a new version update to fix these bugs as soon as possible.
+At this time, the core engineering team is monitoring the Mainnet 24/7 to avoid any additional significant network downtime. We will release a new version update to fix these bugs as soon as possible.
 
 Further details are provided below.
 

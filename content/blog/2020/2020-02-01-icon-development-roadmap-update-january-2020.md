@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — January 2020"
 date: 2020-02-01
 slug: icon-development-roadmap-update-january-2020-60389465535f
-description:
+description: The new year is off to a fast start for the ICON project and January was another great month of progress as we strive to fulfill our original vision of hyper-connecting the world.
 ---
-
-## ICON Development Roadmap Update — January 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*uSr63-9ASbpjA1-ofKOmfg.png)Stabilization, Contribution Proposal System and Interchain
 
 Greetings ICONists,
 

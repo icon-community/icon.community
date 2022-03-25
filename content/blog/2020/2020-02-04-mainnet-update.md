@@ -1,13 +1,9 @@
 ---
-title: "MainNet Update"
+title: "Mainnet Update"
 date: 2020-02-04
 slug: mainnet-update-19bec854c579
-description:
+description: There will be a block structure update to version 0.5 at the corresponding block height of 14,473,622.
 ---
-
-## MainNet Update
-
-![](https://cdn-images-1.medium.com/max/800/1*QMLTT-WXler8-qPGoZ6s-w.png)Block Structure Version 0.5 update
 
 There will be a block structure update to version 0.5 at the corresponding block height of 14,473,622 (Approx. UTC 22:00 3th Feb, 2020). This update will be done automatically and further improves the stability of the network. Please find more details about the update in the release below.
 

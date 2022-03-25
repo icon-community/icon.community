@@ -2,14 +2,8 @@
 title: "2020 Roadmap Update"
 date: 2020-02-17
 slug: 2020-roadmap-update-2e12f7bbdcc4
-description:
+description: The ICON core development team has updated its development roadmap plans for 2020.
 ---
-
-## 2020 Roadmap Update
-
-![](https://cdn-images-1.medium.com/max/800/1*JZZHNdvNDSZ7gbzUBGbnQA.png)Key Themes for 2020: Network Enhancement, Open Source, Governance and BTP/Sidechain
-
-## Summary
 
 The core development team has updated its development roadmap plans for 2020. These plans are organized around four major themes that we hope to improve upon this year. The four themes are 1) Network Enhancement, 2) Open Source Enhancement, 3) Governance System Update and 4) BTP and Sidechain. We believe these categories represent the most important focus areas for our expanding ecosystem and will help us to onboard new network participants and improve the incentive structures for contribution. Furthermore, we believe we can improve scalability and provide interoperability.
 

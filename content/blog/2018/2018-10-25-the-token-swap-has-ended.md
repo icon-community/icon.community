@@ -15,7 +15,7 @@ The exchanges that supported token swap are **Binance, Upbit, OKEx, DragonEx, Bi
 
 Also, the swap requested before October 25th 13:00 (KST) will be included for the swap, and ERC20 tokens that were swapped will be locked up. The remaining ERC20 tokens will be locked as well, preventing future transfers.
 
-Unswapped MainNet ICX will be held in a reserve only for individuals or exchanges that had unavoidable circumstances prevent them from executing the token swap on time. For those that believe they fall into this category, please reach out to support@icon.foundation
+Unswapped Mainnet ICX will be held in a reserve only for individuals or exchanges that had unavoidable circumstances prevent them from executing the token swap on time. For those that believe they fall into this category, please reach out to support@icon.foundation
 
 Thank you for your patience and support during the token swap. ICON is now looking to the future as we continue to strive towards a Hyperconnected world.
 
