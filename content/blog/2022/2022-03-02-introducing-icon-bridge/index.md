@@ -3,7 +3,7 @@ title: Introducing ICON Bridge
 subtitle: The first step in a two-phase BTP launch strategy.
 date: 2022-03-02
 slug: introducing-icon-bridge-f8d3f2d93bf8
-description: 
+description: ICON Bridge leverages BTP’s core building blocks and offers a bridging product that can be utilized by ICON dApps and other ICON Ecosystem projects, as well as projects in connected ecosystems.
 ---
 
 In the BTP section of our most recent Development Roadmap Update, we shared that we had come across an unforeseen obstacle: unsustainably high gas consumption fees incurred when executing BMV contracts.

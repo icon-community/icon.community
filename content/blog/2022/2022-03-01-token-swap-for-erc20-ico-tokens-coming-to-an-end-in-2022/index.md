@@ -2,6 +2,7 @@
 title: Token Swap for ERC20 ICO Tokens Coming to an End in 2022
 subtitle: December 31st, 2022 will be the last day you can swap your ERC20 ICO tokens to native ICX tokens on ICONFi.
 date: 2022-03-01
+slug: token-swap-for-erc20-ico-tokens-coming-to-an-end-in-2022-ccb77c1c1543
 description: All ICO participants still holding the ERC20 ICO tokens will have until the end of this year to complete the swap to native ICX tokens. Please make sure to swap your tokens before this service is no longer provided.
 ---
 
