@@ -2,12 +2,8 @@
 title: "ICON 2.0: Introducing a new blockchain software architecture based on Go"
 date: 2020-09-17
 slug: icon-2-0-introducing-a-new-blockchain-software-architecture-based-on-go-8874107a4e58
-description:
+description: Our biggest secret is finally out. Today, we are excited to announce our next significant technical advancement.
 ---
-
-## ICON 2.0: Introducing a new blockchain software architecture based on Go
-
-![](https://cdn-images-1.medium.com/max/800/1*GS4Drql9g7eIKrkhjlO7AA.png)Batang: The Foundation for the Future Growth of the ICON Network
 
 Attention ICONists,
 

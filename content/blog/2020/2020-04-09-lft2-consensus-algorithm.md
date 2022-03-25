@@ -2,7 +2,7 @@
 title: "LFT2 Consensus Algorithm"
 date: 2020-04-09
 slug: lft2-consensus-algorithm-5ee4322b2fd4
-description:
+description: LFT2 is based on the PBFT consensus model, with a proprietary algorithm to emerge commit messages into a 2-step consensus process.
 ---
 
 LFT2 is based on the PBFT consensus model, with a proprietary algorithm to emerge commit messages into a 2-step consensus process. This alleviates communication overhead and complexity of PBFT’s 3-step consensus process, leading to a lightweight and highly performant blockchain consensus algorithm.

@@ -2,7 +2,7 @@
 title: "ICON Foundation to Participate in REIMAGINE 2020"
 date: 2020-05-29
 slug: icon-foundation-to-participate-in-reimagine-2020-18b80406ebad
-description:
+description: ICON is proud to announce our participation in REIMAGINE 2020.
 ---
 
 Greetings from the ICON Team,

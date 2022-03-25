@@ -2,7 +2,7 @@
 title: "ICON Development Roadmap Update — September 2020"
 date: 2020-09-30
 slug: icon-development-roadmap-update-september-2020-67756d1d2553
-description:
+description: "This month was highlighted by the announcement of our new and improved blockchain, ICON 2.0: BATANG."
 ---
 
 Greetings ICONists,

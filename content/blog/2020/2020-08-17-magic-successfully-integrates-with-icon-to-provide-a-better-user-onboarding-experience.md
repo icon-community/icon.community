@@ -2,7 +2,7 @@
 title: "Magic Successfully Integrates with ICON to Provide a Better User Onboarding Experience"
 date: 2020-08-17
 slug: magic-successfully-integrates-with-icon-to-provide-a-better-user-onboarding-experience-d8187e50f394
-description:
+description: We are excited to announce the successful integration of the Magic SDK, a popular passwordless authentication and private key management service in the Ethereum ecosystem, into the ICON public blockchain.
 ---
 
 Greetings from the ICON Team,

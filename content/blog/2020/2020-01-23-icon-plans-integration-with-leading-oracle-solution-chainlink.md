@@ -2,7 +2,7 @@
 title: "ICON Plans Integration with Leading Oracle Solution Chainlink"
 date: 2020-01-23
 slug: icon-plans-integration-with-leading-oracle-solution-chainlink-c4b746384096
-description:
+description: We are excited to announce our collaboration with Chainlink, one of the leading oracle solutions in the blockchain industry.
 ---
 
 Greetings ICONists,
