@@ -1,5 +1,6 @@
 ---
 title: What is ICON Governance?
+date: 2022-03-05
 slug: icon-governance
 description: ICON is a DPoS network where stakers delegate ICX to P-Reps – validator teams that produce blocks and participate in governance.
 ---

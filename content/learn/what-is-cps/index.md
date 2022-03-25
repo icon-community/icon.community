@@ -1,6 +1,6 @@
 ---
 title: What is the CPS?
-date: 2022-03-21
+date: 2022-03-03
 description: "ICON’s Contribution Proposal System (CPS) is a decentralized grant program operated by P-Reps (validators) on the ICON network."
 slug: cps
 ---

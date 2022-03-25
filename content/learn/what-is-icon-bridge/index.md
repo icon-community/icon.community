@@ -1,5 +1,6 @@
 ---
 title: What is ICON Bridge?
+date: 2022-03-02
 slug: icon-bridge
 description: ICON Bridge is an early iteration of ICON’s cutting-edge interoperability product, BTP, which allows cross-chain transfers and integration with any blockchain that supports smart contracts.
 ---

@@ -1,6 +1,6 @@
 ---
 title: "ICON (ICX) Tokenomics"
-date: 2022-02-02
+date: 2022-03-04
 slug: icon-icx-tokenomics-a6d269c8908
 description: ICON tokenomics have been improved with IISS 3.1. Let’s take a look at some of the changes implemented as part of IISS 3.1.
 ---

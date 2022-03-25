@@ -1,6 +1,6 @@
 ---
 title: "What is the ICX Token?"
-date: 2022-01-07
+date: 2022-03-06
 slug: icx
 description: The ICX token is the currency of all applications that are built on the ICON blockchain.
 ---
