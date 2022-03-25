@@ -5,10 +5,6 @@ slug: icon-development-update-june-2021-f03484dd3068
 description: Growing our developer ecosystem, IISS 3.1 update and ICE is a new EVM compatible side chain
 ---
 
-## ICON Development Update — June 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*jhW0O6A_sRX7QiNnw0zRxw.png)ICON 2.0 Migration, BTP Ecosystem, and ICE Blockchain
-
 Greetings ICONists,
 
 It’s never been a better time to join the ICON ecosystem! With a renewed focus, two major upcoming releases, and additional talent joining our core team, and the ecosystem abroad, ICON has never been in a better position for growth.

@@ -3,11 +3,7 @@ title: "ICX Over-Issuance Postmortem"
 date: 2021-12-28
 slug: icx-over-issuance-postmortem-e634cfbda85b
 description: An over-issuance was caused by a bug in ICON 2.0’s ICX issuance module. With the help of P-Reps, we were able to quickly resolve the issue with the passing of the Revision 16 network proposal on December 25
---- 
-
-## ICX Over-Issuance Postmortem
-
-### An update on the ICX Over-issuance bug, and how we fixed it with Revision 16.
+---
 
 On December 23, 14:23 (KST), the ICON team discovered an over-issuance of ICX at Block Height 43,866,323 (the first block after activation of IISS 3.1). The over-issuance was caused by a bug in ICON 2.0’s ICX issuance module. As a result, approximately 3 million ICX was issued in one day instead of one month. With the help of P-Reps, we were able to quickly resolve the issue with the passing of the Revision 16 network proposal on December 25.
 

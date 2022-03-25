@@ -1,8 +1,9 @@
 {{- $data := newScratch -}}
-{{- if isset .Params "featured_image" -}}
-{{- $data.Set "featuredImage" .Params.featured_image -}}
+{{- $featuredImage := (.Resources.GetMatch "featured.jpg") -}}
+{{- if $featuredImage -}}
+{{- $data.Set "featuredImageUrl" (printf "%s%s" .Permalink $featuredImage ) -}}
 {{- else -}}
-{{- $data.Set "featuredImage" "ICON-FEATURED-IMAGE.png" -}}
+{{- $data.Set "featuredImageUrl" "/assets/images/featured-images/ICON-FEATURED-IMAGE.png" -}}
 {{- end -}}
-{{- $featuredImage := $data.Get "featuredImage" -}}
-/assets/images/featured-images/{{- $featuredImage -}}
+{{- $featuredImageUrl := ($data.Get "featuredImageUrl") -}}
+{{- $featuredImageUrl -}}

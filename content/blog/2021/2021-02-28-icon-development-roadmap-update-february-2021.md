@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-february-2021-3b5897957094
 description: ICON 2.0 migration, preparations for BTP integration, and EVM compatibility
 ---
 
-## ICON Development Roadmap Update — February 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*4unJ42-JPv2-A141CV5n5Q.png)Rosetta Implementation, Hotfix, Testnet, and CPS Launch
-
 Greetings ICONists,
 
 It was another busy month as the team continues to push forward with ICON 2.0 migration and improving the developer experience on the ICON network. We also continue to make preparations for BTP integration, and EVM compatibility. We hope to share more details on both very soon. It’s never been a better time to join the ICON ecosystem and if you’re interested in joining developer working groups please reach out.

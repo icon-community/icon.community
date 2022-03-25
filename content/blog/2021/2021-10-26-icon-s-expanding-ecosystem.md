@@ -2,14 +2,10 @@
 title: "ICON’s Expanding Ecosystem"
 date: 2021-10-26
 slug: icons-expanding-ecosystem-ec2eaf481be4
-description: ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam, Binance Smart Chain, Near, Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transaction types such as yield farming and asset staking on other networks
+description: ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam, Binance Smart Chain, Near, Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transactions.
 ---
 
-## ICON’s Expanding Ecosystem
-
-## ICON’s ecosystem growth is expected to accelerate with the launch of ICON 2.0 mainnet and ICON’s interoperability solution, BTP.
-
-![](https://cdn-images-1.medium.com/max/800/1*ctspB3ZY9kM8sYbwovXd1Q.jpeg)The ICON Project is at a momentous time in its history as the new mainnet is scheduled for launch by the first week of November ([see recent timeline announcement here](https://twitter.com/helloiconworld/status/1451461964316626947?s=20)).
+The ICON Project is at a momentous time in its history as the new mainnet is scheduled for launch by the first week of November ([see recent timeline announcement here](https://twitter.com/helloiconworld/status/1451461964316626947?s=20)).
 
 The past year has been a period of unprecedented growth for the ICON ecosystem, with new Defi and NFT projects attracting hundreds of millions in staked value to ICON. With ICON’s 2.0 mainnet launch just around the corner, this strong growth trajectory is expected to continue.
 

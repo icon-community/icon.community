@@ -5,10 +5,6 @@ slug: icon-2-0-alpha-version-released-89c8063ab1a1
 description: The alpha version of the ICON 2.0 implementation has been successfully released
 ---
 
-## ICON 2.0 Alpha Version Released!
-
-![](https://cdn-images-1.medium.com/max/800/1*gaRkGDvX9D4LSWPDBEutlg.png)Sejong Testnet Launched with ICON 2.0 Features
-
 Greetings ICONists,
 
 We’re proud to announce that the alpha version of the ICON 2.0 implementation has been successfully released today. To fully test this implementation publicly, we launched a new testnet, Sejong, for the community so that everyone can see and experience ICON 2.0 through ICONex and ICON Tracker for Sejong.

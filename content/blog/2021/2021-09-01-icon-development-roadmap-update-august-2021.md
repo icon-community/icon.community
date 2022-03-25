@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-august-2021-a9d4fc4b671
 description: ICON 2.0 migration is nearing completion, first BTP integration target to the Moonriver parachain (Kusama) is now complete and ICE network continues to progress in the background
 ---
 
-## ICON Development Roadmap Update — August 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*gGWLUkFzgcc4Fek87sWSEw.jpeg)### **ICON 2.0**
-
 The long-awaited ICON 2.0 migration is nearing completion. As of yesterday, the block import test run is at 100%. This is a huge milestone for the network and sets the path for the complete migration to take place in relatively short order. Starting today, developers will begin the next phase of the block import process and perform additional testing.
 
 After testing and block import completion, we estimate it will take around two weeks to prepare nodes and exchanges for the hard fork. At that point, ICON 1.0 will be stopped simultaneously at a predefined block height by a network proposal which will then mark the start of the ICON 2.0 era. The exact block height for the transition is currently being discussed. But we are hoping for a launch very soon. Please stay tuned for more information.

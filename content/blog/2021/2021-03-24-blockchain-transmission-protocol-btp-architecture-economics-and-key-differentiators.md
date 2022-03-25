@@ -5,9 +5,7 @@ slug: blockchain-transmission-protocol-btp-architecture-economics-and-key-differ
 description: Latest technology advancements and details around the Blockchain Transmission Protocol (BTP)
 ---
 
-## Blockchain Transmission Protocol (BTP) Architecture, Economics, and Key Differentiators
-
-![](https://cdn-images-1.medium.com/max/800/0*uQBPdZ-4PUKFMczJ)We are excited to share the latest technology advancements and details around the Blockchain Transmission Protocol (BTP), ICON’s interoperability solution, with our community. This post covers the technical architecture, economic structure and key differentiators of BTP. Polkadot parachains will be used as an example throughout the post.
+We are excited to share the latest technology advancements and details around the Blockchain Transmission Protocol (BTP), ICON’s interoperability solution, with our community. This post covers the technical architecture, economic structure and key differentiators of BTP. Polkadot parachains will be used as an example throughout the post.
 
 ## Architecture
 

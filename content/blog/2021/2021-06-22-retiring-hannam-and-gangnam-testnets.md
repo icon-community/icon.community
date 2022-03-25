@@ -5,9 +5,7 @@ slug: retiring-hannam-and-gangnam-testnets-fc1d8e75ab6d
 description: Hannam TestNet (ICON 1.0) and Gangnam TestNet (ICON 2.0) will be closed down, effective July 6th
 ---
 
-## Retiring Hannam and Gangnam TestNets
-
-![](https://cdn-images-1.medium.com/max/800/1*TSJlVu4AKnHAnaA3fSQGXg.jpeg)In order to simplify the ICON testnet ecosystem and reduce unnecessary maintenance workload, Hannam TestNet (ICON 1.0) and Gangnam TestNet (ICON 2.0) will be closed down, effective July 6th.
+In order to simplify the ICON testnet ecosystem and reduce unnecessary maintenance workload, Hannam TestNet (ICON 1.0) and Gangnam TestNet (ICON 2.0) will be closed down, effective July 6th.
 
 Current users of Hannam TestNet and Gangnam TestNet can migrate to the Yeouido TestNet (ICON 1.0) and Sejong TestNet (ICON 2.0), respectively. The Sejong TestNet also supports both Python and Java SCOREs testing.
 

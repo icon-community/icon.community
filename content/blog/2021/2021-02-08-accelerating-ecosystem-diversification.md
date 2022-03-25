@@ -5,10 +5,6 @@ slug: accelerating-ecosystem-diversification-463f82442549
 description: Reliant Node P-Rep team is enhancing MyIconWallet with the support of the ICON Foundation
 ---
 
-## Accelerating Ecosystem Diversification
-
-![](https://cdn-images-1.medium.com/max/800/1*j37iU38fHq3kP8MF3eHMcg.png)Supporting Reliant Node and MyIconWallet
-
 Dear ICONists,
 
 We are excited to announce that the Reliant Node P-Rep team is enhancing MyIconWallet with the support of the ICON Foundation. MyIconWallet will be the recommended wallet for the ICON Community. ICONex will still be available for download, but due to the duplicate purpose with ICONex, we decided to phase out support.

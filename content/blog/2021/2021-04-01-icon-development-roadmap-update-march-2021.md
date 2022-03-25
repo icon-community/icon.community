@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-march-2021-8d66f3a5edad
 description: Creation of the BTP working group, expansion of BTP’s solution and significant progress on ICON 2.0
 ---
 
-## ICON Development Roadmap Update — March 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*uK2r2he2EQP620d8j4QEug.png)BTP Working Group, Hotfix, Hannam Testnet and ICON 2.0 Alphanet
-
 Greetings ICONists,
 
 It was yet another busy month of development for our growing ecosystem. Highlighting this month’s activity was the creation of the BTP working group (ICON’s interoperability solution) and the outline for the expansion of BTP’s solution across many blockchain networks. Additionally, we provided details around the BTP architecture, and how it differs, and frankly improves upon existing solutions in the market today. Outside of this, we continued to make significant progress on ICON 2.0, and other initiatives. Please see below for more details.

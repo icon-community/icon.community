@@ -5,9 +5,7 @@ slug: blockchain-transmission-protocol-btp-working-group-update-icon-joins-force
 description: Blockchain Transmission Protocol (BTP) Working Group to integrate BTP into the Polkadot Ecosystem
 ---
 
-## Blockchain Transmission Protocol (BTP) Working Group Update: ICON Joins Forces with the Polkadot Ecosystem
-
-![](https://cdn-images-1.medium.com/max/800/0*o8bAiQWkthEOfWtw)As the first update from the Blockchain Transmission Protocol ([BTP](https://medium.com/helloiconworld/blockchain-transmission-protocol-btp-explained-c4d9927ad398)) Working Group, we are excited to announce tangible progress toward the integration of BTP into the Polkadot Ecosystem. Acala, Moonbeam, Edgeware, and Plasm, four of the top parachain candidates in the Polkadot Ecosystem, will be the first to be integrated into ICON’s BTP interoperability solution.
+As the first update from the Blockchain Transmission Protocol ([BTP](https://medium.com/helloiconworld/blockchain-transmission-protocol-btp-explained-c4d9927ad398)) Working Group, we are excited to announce tangible progress toward the integration of BTP into the Polkadot Ecosystem. Acala, Moonbeam, Edgeware, and Plasm, four of the top parachain candidates in the Polkadot Ecosystem, will be the first to be integrated into ICON’s BTP interoperability solution.
 
 Acala brings a robust, EVM-compatible Polkadot DeFi ecosystem, Moonbeam brings unmatched Ethereum compatibility and the largest and most robust portfolio of [live integrations](https://moonbeam.network/community/projects/) across the DeFi, NFT, and gaming spaces, Edgeware brings decentralized community governance, and Plasm brings a DApp hub and layer 2 solutions for the Polkadot Ecosystem. We look forward to working closely with all four of these teams and envision many collaboration opportunities across all of our ecosystems.
 

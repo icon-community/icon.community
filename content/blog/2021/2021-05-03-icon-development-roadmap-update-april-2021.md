@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-april-2021-da8fc081cc75
 description: ICON 2.0 migration and expansion of the BTP working group
 ---
 
-## ICON Development Roadmap Update — April 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*QbWz4ow58jaARIC2wRKMUA.png)ICON 2.0 Alpha Testnet Released and BTP Working Group
-
 Greetings ICONists,
 
 The team continues to progress on the ICON 2.0 migration and expanding the BTP working group. Highlighting this month’s activity was the launch of the Alpha Testnet which includes features of our new ICON 2.0 network. Additionally, we provided more details around how BTP will be integrated into other networks. Stay tuned for more announcements on that front very soon!

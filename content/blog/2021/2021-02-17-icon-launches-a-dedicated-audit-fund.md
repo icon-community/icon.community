@@ -5,10 +5,6 @@ slug: icon-launches-a-dedicated-audit-fund-37c0679e3d29
 description: ICON security audit fund for smart contract audits
 ---
 
-## ICON Launches a Dedicated Audit Fund
-
-![](https://cdn-images-1.medium.com/max/800/0*ecIHnJEE-h7PXZkA)Supporting Secure Development for ICON’s Growing Ecosystem
-
 Dear ICONists,
 
 We are excited to announce that we will be committing 500,000 ICX to cover smart contract audits for approved projects within the ICON Ecosystem. There have been countless smart contract vulnerabilities exploited in other blockchain ecosystems, and this fund represents a commitment by the ICON Foundation to foster an atmosphere of both security and innovation. We want to ensure that innovation is not stifled and security is not sacrificed because of costly smart contract audits.

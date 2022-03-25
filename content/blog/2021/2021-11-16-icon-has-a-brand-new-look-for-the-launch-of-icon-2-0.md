@@ -5,8 +5,6 @@ slug: icon-has-a-whole-new-look-for-the-launch-of-icon-2-0-1506f41b8aea
 description: The ICON logo and website have been completely redesigned just in time for the greatly anticipated ICON 2.0 upgrade
 ---
 
-## ICON has a Brand New Look for the Launch of ICON 2.0!
-
 ICON 2.0 is finally here bringing new blockchain architecture specifically designed for DeFi applications and cross-chain interoperability. The ICON logo and [website](https://icon.foundation/) have been completely redesigned just in time for the greatly anticipated 2.0 upgrade.
 
 ![](https://cdn-images-1.medium.com/max/800/1*FPuEEjLHpKjuTlWtTrtNdw.png)[ICON’s website](https://icon.foundation/) now has a new futuristic design to represent the innovative technology that the ecosystem has brought and continues to bring to the crypto space. The [website](https://icon.foundation/) now features a section dedicated to news and social media activity so that users, developers, and investors can stay up to date on the latest announcements all in one place.

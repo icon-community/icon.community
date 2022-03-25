@@ -5,11 +5,7 @@ slug: official-response-to-iconloop-investigation-by-korean-tax-authorities-8820
 description: ICON Foundation is NOT under investigation. Investigation would not affect the ICON project.
 ---
 
-## Official Response to ICONLOOP Investigation by Korean Tax Authorities
-
-### ICON Foundation is NOT under investigation
-
-![](https://cdn-images-1.medium.com/max/800/1*lR0ZUPqK-ecczO8WWGqBpw.png)Dear ICONists,
+Dear ICONists,
 
 This post is in response to an article published today by [Paxnet News](https://paxnetnews.com/articles/71636). We want to make it clear that the ICON Foundation is not under investigation by the Korean National Tax Service authorities. The ICON Foundation is regulated by the Swiss Financial Market Supervisory Authority (FINMA). We have worked diligently with our accountant(Lucris), auditor(Grant Thornton), and tax attorney(MME) to meet all financial and regulatory requirements.
 

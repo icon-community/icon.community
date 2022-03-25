@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-january-2021-7cfb8005a766
 description: ICON Rosetta Implementation, Contribution Proposal System code review and ICON 2.0 alphanet
 ---
 
-## ICON Development Roadmap Update — January 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*0-4ygw6LO_TqJcOjZfMP-A.png)Rosetta Integration, Revision 12, CPS, and ICON 2.0 Alphanet
-
 Greetings ICONists,
 
 2021 is off to a fast start as we continue to focus the majority of our efforts on the migration to [ICON 2.0 BATANG](https://medium.com/helloiconworld/icon-2-0-introducing-a-new-blockchain-software-architecture-based-on-go-8874107a4e58). We are making good progress and hope to share more details with the community along the way. ICON 2.0 is a step-change improvement over the current network, and we’re excited and encouraged about the progress thus far.

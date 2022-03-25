@@ -26,7 +26,7 @@ params:
     url: /interoperability-incentive-program/
   featured_post_url: what-is-the-icx-token
   social:
-    discord_url: https://discord.gg/gMCCdbjVf9
+    discord_url: https://discord.gg/BvWzx9nZgv
     github_url: https://github.com/icon-project
     newsletter_url: https://www.getrevue.co/profile/helloiconworld
     roadmap_url: https://iconfoundation.notion.site/ICON-2-0-Roadmap-064c2ee577714c58b487a76c7f3998ff
@@ -34,3 +34,4 @@ params:
   forms:
     faq_submission_url: https://discord.gg/gMCCdbjVf9
     ecosystem_submission_url: https://se8br1ugut6.typeform.com/to/MBBDnTNG
+    incentive_program_submission_url: 

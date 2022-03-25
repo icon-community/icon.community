@@ -5,9 +5,7 @@ slug: introducing-icons-official-bounty-program-hx57-26c203c2aa20
 description:  ICON's first official bounty program, HX57, offers rewards to community members for producing high-quality content about ICON including articles, animated GIFs, memes, graphics, promo videos, explainers, and tutorials
 ---
 
-## Introducing ICON’s Official Bounty Program, HX57
-
-![](https://cdn-images-1.medium.com/max/800/1*WgKFGuROtfXUF6wwWU8a3g.jpeg)Introducing HX57, the first official bounty program to join the ICON Network! HX57 offers rewards to community members for producing high-quality content about ICON including articles, animated GIFs, memes, graphics, promo videos, explainers, tutorials, and more.
+Introducing HX57, the first official bounty program to join the ICON Network! HX57 offers rewards to community members for producing high-quality content about ICON including articles, animated GIFs, memes, graphics, promo videos, explainers, tutorials, and more.
 
 Bounties can be earned by submitting original, well-researched content to specific prompts, which will be posted and regularly updated on the [HX57 website](https://www.hx57.io/). If you’re already an ICON expert, get rewarded by sharing what you know. If you are a newcomer, here is the incentive to start learning more!
 

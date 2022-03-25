@@ -5,10 +5,6 @@ slug: icon-development-update-may-2021-332a09d933e5
 description: Progress on the migration of ICON 1.0 to ICON 2.0, BTP work for the Polkadot ecosystem and newe ICON hires
 ---
 
-## ICON Development Update — May 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*_Dx0E0XFswsnKxU7YP38_Q.png)BTP Progress Update and ICON 2.0 Migration
-
 Greeting ICONists,
 
 This month, core developers continued to make great progress on the migration of ICON 1.0 to ICON 2.0 and we’re hopeful for a successful launch in the coming months. Check out this tweet thread for a [detailed update](https://twitter.com/minhokim/status/1395818702096896000) on the progress and process we are undertaking. Additionally, development teams continue their BTP work for the Polkadot ecosystem as well as several other chains/ecosystems yet to be announced. More details to follow shortly.

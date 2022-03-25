@@ -5,10 +5,6 @@ slug: the-ice-blockchain-e6ea96adc99
 description: In partnership with Parastate, ICON is buiding a new blockchain, called ICE, which will bring about a new application hub for the ICON ecosystem.
 ---
 
-## The ICE Blockchain
-
-![](https://cdn-images-1.medium.com/max/800/1*W0eKVsybZ6TdxV8UYJX5Yg.jpeg)A new EVM compatible blockchain for the ICON Ecosystem
-
 Greetings ICONists,
 
 We are very excited to provide further details on a brand new blockchain project coming to the ICON community. This new blockchain, called ICE, will bring about a new application hub for the ICON ecosystem. Upon completion, ICE will provide developers better tooling, EVM and eWASM compatibility, and immediate access to the growing ETH & Polkadot ecosystems . It also represents a shift in the direction of the ICON project by separating functionality, product targeting, and the purpose of each of these respective networks. ICE will become the application hub of the ecosystem while we double down on our efforts to make ICON the leading cross-chain and interoperability protocol in the industry.

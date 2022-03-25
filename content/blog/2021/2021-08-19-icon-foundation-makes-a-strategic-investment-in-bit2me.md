@@ -5,11 +5,7 @@ slug: icon-foundation-makes-a-strategic-investment-in-bit2me-e245053eb7f5
 description: ICON Foundation announces a strategic investment in Bit2Me, a leading blockchain platform in Europe with a fast-growing consumer base across its suite of financial products and services.
 ---
 
-## ICON Foundation Makes a Strategic Investment in Bit2Me
-
-Bit2Me, a leading crypto wallet, and platform in Europe, to help to expand the ICON network in Europe
-
-![](https://cdn-images-1.medium.com/max/800/1*TNaLjeepLhrg1iIp9apRMw.jpeg)ICON Foundation is pleased to announce a strategic investment in Bit2Me, a leading blockchain platform in Europe with a fast-growing consumer base across its suite of financial products and services.
+ICON Foundation is pleased to announce a strategic investment in Bit2Me, a leading blockchain platform in Europe with a fast-growing consumer base across its suite of financial products and services.
 
 Bit2Me was founded in 2014 by Andrei Manuel and Leif Ferreira, who before Bit2Me had already established themselves as leaders in the European crypto scene by introducing Bitcoin ATMs and building on-ramping services such as Bitphone. Andrei and Leif have since grown the Bit2Me platform from a brokerage and blockchain academy to one that now hosts over 20 different financial tools and services that increase crypto accessibility to European users.
 

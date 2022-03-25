@@ -5,9 +5,7 @@ slug: the-blockchain-of-blockchains-icon-as-an-aggregator-chain-d621255d9e2b
 description: The Blockchain Transmission Protocol (BTP) Working Group is a team of ICON core members along with a growing set of 3rd party developer groups
 ---
 
-## The Blockchain of Blockchains: ICON as an Aggregator Chain
-
-![](https://cdn-images-1.medium.com/max/800/0*WmX8qDzbv2whS4_k)We are excited to announce the creation of the **Blockchain Transmission Protocol (BTP) Working Group**, a team of ICON core members along with a growing set of 3rd party developer groups. The BTP Working Group’s sole purpose is to fulfill ICON’s ultimate vision of becoming a blockchain of blockchains — an elegant web of interconnected networks aggregating all blockchain data into one layer. ICON is not just a blockchain, but an **Aggregator Chain**.
+We are excited to announce the creation of the **Blockchain Transmission Protocol (BTP) Working Group**, a team of ICON core members along with a growing set of 3rd party developer groups. The BTP Working Group’s sole purpose is to fulfill ICON’s ultimate vision of becoming a blockchain of blockchains — an elegant web of interconnected networks aggregating all blockchain data into one layer. ICON is not just a blockchain, but an **Aggregator Chain**.
 
 Over the coming months, we will be sharing the progress and growth of the BTP Working Group. We currently have three third-party developer groups (Edgeware, ICON DAO, and Web3 Labs) learning the BTP architecture and working on implementations. Their work will be easily replicable across similar blockchain ecosystems making aggressive BTP expansion a realistic opportunity. By the end of 2021, it is our goal to grow the BTP Ecosystem larger than any other interoperability solution currently available on the market; not only in the number of blockchain integrations but also in the number of tangible use cases.
 

@@ -5,8 +5,6 @@ slug: introducing-the-icy-token-87c61b063a20
 description: As part of the initial growth strategy, adoption, and decentralization of the ICE Network, ICE will be airdropping $ICY at a 1:1 ratio for $ICX or $sICX held by $ICX stakeholders during the last week of December 2021
 ---
 
-## Introducing the $ICY Token
-
 There will be a snapshot taken during the last week of December for holders and stakers of $ICX. These holders will be able to claim an airdrop of $ICY equivalent to their $ICX holdings at a later date. $ICX held on exchanges don’t guarantee your participation, so it is best to self-custody your $ICX during this period in order to ensure eligibility to claim $ICY tokens.
 
 ![](https://cdn-images-1.medium.com/max/800/1*3YSmQWgpOXrK-tiD1SFBBQ.jpeg)## Summary

@@ -5,10 +5,6 @@ slug: icon-foundation-partners-with-a-leading-market-maker-wintermute-bc4cb17420
 description: ICON announces a strategic partnership with Wintermute, a leading global algorithmic trading market maker
 ---
 
-## ICON Foundation Partners with a Leading Market Maker Wintermute
-
-![](https://cdn-images-1.medium.com/max/800/1*23sF4GeUTjhYApRsFxOjKw.png)*Wintermute to Provide ICX Liquidity on New/Existing Exchanges*
-
 We are excited to announce a strategic partnership with Wintermute, a leading global algorithmic trading market maker. Founded in 2017 and funded by some of the most prestigious investment firms in the world, Wintermute provides liquidity on more than 3,000 trading pairs across centralized, decentralized, and AMM pools. In the 2H 2020, Wintermute’s volumes surpassed $70B, and their average daily trading volumes in 2021 are over $4B.
 
 ICON is determined to become the go-to source for cross-chain interoperability and liquidity, and partnering with one of the largest and most experienced teams will help our efforts becoming a leading aggregator chain.

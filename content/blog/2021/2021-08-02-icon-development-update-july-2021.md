@@ -5,9 +5,7 @@ slug: icon-development-update-july-2021-2fc9275c8252
 description: Progress on the ICON 2.0 migration, detailed plans around the ICE blockchain and progress on BTP including the formal announcement of the addition of NEAR to the BTP ecosystem
 ---
 
-## [ICON Development Update — July 2021](https://medium.com/helloiconworld/icon-development-update-june-2021-f03484dd3068?source=your_stories_page-------------------------------------)
-
-![](https://cdn-images-1.medium.com/max/800/1*lcQohTa6gxiqXtFDW_jgOw.jpeg)It was another busy month of development as we continued to progress on the ICON 2.0 migration and detailed plans around the ICE blockchain. Additionally, we continued to progress on BTP including the formal announcement of the addition of NEAR to the BTP ecosystem.
+It was another busy month of development as we continued to progress on the ICON 2.0 migration and detailed plans around the ICE blockchain. Additionally, we continued to progress on BTP including the formal announcement of the addition of NEAR to the BTP ecosystem.
 
 We are looking forward to launching these developments shortly. Until then, please refer to the latest progress below.
 

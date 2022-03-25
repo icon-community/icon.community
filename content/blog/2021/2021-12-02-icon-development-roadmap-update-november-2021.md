@@ -5,9 +5,7 @@ slug: icon-development-roadmap-update-november-2021-7aa137ee2f4
 description: The ICON team resumed work on BTP integrations, Java SCORE support and IISS upgrades
 ---
 
-## ICON Development Roadmap Update — November 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*_M4Fl4rhcFwQHo0ko0j1WQ.jpeg)With the successful launch of ICON 2.0 in early November, our team resumed work on BTP integrations, Java SCORE support, IISS upgrades, and more. Read more about our progress in November below.
+With the successful launch of ICON 2.0 in early November, our team resumed work on BTP integrations, Java SCORE support, IISS upgrades, and more. Read more about our progress in November below.
 
 ## BTP
 

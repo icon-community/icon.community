@@ -5,10 +5,6 @@ slug: icon-2-0-migration-community-update-30e43b4f609f
 description: The ICON 2.0 MainNet launch is getting closer by the day
 ---
 
-## ICON 2.0 Migration — Community Update
-
-![](https://cdn-images-1.medium.com/max/800/1*ACaP2uFftohEr8O7TDF_vA.png)Development Progress, Timeline, and Path Forward
-
 Greetings ICONists,
 
 The ICON 2.0 MainNet launch is getting closer by the day. With the launch approaching, many in the community have asked for an update. We are happy to provide you with the latest progress and estimated timeline for the launch here.

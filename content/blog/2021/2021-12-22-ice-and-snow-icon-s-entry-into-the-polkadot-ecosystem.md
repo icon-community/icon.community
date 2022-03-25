@@ -5,11 +5,7 @@ slug: ice-and-snow-icons-entry-into-the-polkadot-ecosystem-515afe80c58d
 description: ICE will be launching the SNOW canary network on Kusama before targeting an ICE launch on Polkadot later on
 ---
 
-## ICE and SNOW — ICON’s Entry Into the Polkadot Ecosystem
-
-### You thought ICE was it? We’ve got something to SNOW you.
-
-![](https://cdn-images-1.medium.com/max/800/1*z8ZzfSH-MjVIWdGBwE4BAA.jpeg)Earlier this year, we officially unveiled ICE – a brand new EVM-compatible blockchain designed to serve as the decentralized application hub for the ICON ecosystem. ICE is built on the Substrate open source blockchain development framework that powers a variety of top projects including Polkadot, Kusama, Chainlink, Moonbeam, and more.
+Earlier this year, we officially unveiled ICE – a brand new EVM-compatible blockchain designed to serve as the decentralized application hub for the ICON ecosystem. ICE is built on the Substrate open source blockchain development framework that powers a variety of top projects including Polkadot, Kusama, Chainlink, Moonbeam, and more.
 
 **As a Substrate-based chain, ICE will be able to plug directly into the Polkadot ecosystem as an EVM-compatible and BTP-optimized application chain – and that’s what we intend to do.**
 

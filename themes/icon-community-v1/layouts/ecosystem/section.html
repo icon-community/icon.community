@@ -46,6 +46,8 @@
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "government" }}
             {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "infrastructure" }}
+            {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "nft" }}
             {{ $data.Set "type" "NFT" }}
             {{ else if eq $type "oracle" }}
