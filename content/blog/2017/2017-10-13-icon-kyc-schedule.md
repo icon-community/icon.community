@@ -3,12 +3,10 @@ title: "ICON KYC Schedule"
 date: 2017-10-13
 category: announcements
 slug: icon-kyc-schedule-71fc7fd55b8a
-description:
+description: The ICON KYC process will begin on Monday Oct. 23, 2017 at 13:00 (KST/UTC+9).
 ---
 
-## ICON KYC Schedule
-
-![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)The ICON KYC process will begin on Monday Oct. 23, 2017 at 13:00 (KST/UTC+9). The KYC application form will be available for your submission for 3 weeks. To unlock your received ICX tokens* from Pre-sale, it is mandatory to follow the KYC process. More details will be available for your view with a step-by-step guideline in line with the schedule.
+The ICON KYC process will begin on Monday Oct. 23, 2017 at 13:00 (KST/UTC+9). The KYC application form will be available for your submission for 3 weeks. To unlock your received ICX tokens* from Pre-sale, it is mandatory to follow the KYC process. More details will be available for your view with a step-by-step guideline in line with the schedule.
 
 *ICX Token = ERC20 Token / ICX = Actual ICX for ICON Mainnet
 

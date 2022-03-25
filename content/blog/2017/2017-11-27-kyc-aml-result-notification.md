@@ -3,12 +3,10 @@ title: "KYC and AML Result Notification"
 date: 2017-11-27
 category: announcements
 slug: kyc-aml-result-notification-9623f6625583
-description:
+description: The KYC+AML verification process is completed!
 ---
 
-## **KYC+AML Result Notification**
-
-![](https://cdn-images-1.medium.com/max/800/0*4M4D_MQ5HBvmnHYf.)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 The KYC+AML verification process is completed!
 

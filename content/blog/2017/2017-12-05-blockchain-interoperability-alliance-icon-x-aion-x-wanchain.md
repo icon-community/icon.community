@@ -3,12 +3,10 @@ title: "Blockchain Interoperability Alliance: ICON x Aion x Wanchain"
 date: 2017-12-05
 category: announcements
 slug: blockchain-interoperability-alliance-icon-x-aion-x-wanchain-8aeaafb3ebdd
-description:
+description: ICON has joined the “Blockchain Interoperability Alliance”. The Alliance is backed by ICON, Aion, and Wanchain and has the shared goal of promoting interconnectivity between the isolated blockchain networks.
 ---
 
-## **Blockchain Interoperability Alliance: ICON x Aion x Wanchain**
-
-![](https://cdn-images-1.medium.com/max/800/1*aX-jZ-Pdkz8lDS2NF1i6jA.jpeg)ICON has joined the “Blockchain Interoperability Alliance”. The Alliance is backed by ICON, Aion, and Wanchain and has the shared goal of promoting interconnectivity between the isolated blockchain networks.
+ICON has joined the “Blockchain Interoperability Alliance”. The Alliance is backed by ICON, Aion, and Wanchain and has the shared goal of promoting interconnectivity between the isolated blockchain networks.
 
 The inability for isolated blockchains to communicate with one another is a recurring problem in the decentralized landscape. Isolated inter-blockchain communication can put a strain to blockchain’s scalability and mainstream adoption.
 

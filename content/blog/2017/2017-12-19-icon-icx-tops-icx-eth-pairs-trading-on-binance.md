@@ -3,12 +3,10 @@ title: "ICON (ICX) tops ICX/ETH Pairs Trading on Binance"
 date: 2017-12-19
 category: announcements
 slug: icon-icx-tops-icx-eth-pairs-trading-on-binance-d4d383814859
-description:
+description: Binance, a world-class cryptocurrency trading platform, listed ICON (ICX) on December 18, 2017.
 ---
 
-## ICON (ICX) tops ICX/ETH Pairs Trading on Binance
-
-![](https://cdn-images-1.medium.com/max/800/1*qlDvwYzLSWSgKf5GCZH46g.png)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 Binance, a world-class cryptocurrency trading platform, listed ICON (ICX) on December 18, 2017. ICX has immediately become one of the top traded currencies on Binance. With the listing of ICX on Binance, our contributors and community members now have more options to trade ICX tokens.
 

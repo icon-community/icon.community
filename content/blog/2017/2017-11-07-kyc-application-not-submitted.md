@@ -3,12 +3,10 @@ title: "KYC Application Not Submitted"
 date: 2017-11-07
 category: announcements
 slug: kyc-application-not-submitted-30f7b4affd4a
-description:
+description: The ICON KYC process is currently in progress. If you do not submit your KYC application or complete the KYC process, the refund process will initiate.
 ---
 
-## **KYC Application Not Submitted**
-
-![](https://cdn-images-1.medium.com/max/800/0*kTfa5GF7H7SWCsdo.)The ICON KYC process is currently in progress. If you do not submit your KYC application or complete the KYC process, the refund process will initiate.
+The ICON KYC process is currently in progress. If you do not submit your KYC application or complete the KYC process, the refund process will initiate.
 
 ## **[KYC Document Submission Guide]**
 

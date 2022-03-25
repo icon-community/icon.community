@@ -3,12 +3,10 @@ title: "Token Unlock and Exchange Listing Schedule"
 date: 2017-12-16
 category: announcements
 slug: token-unlock-and-exchange-listing-schedule-cc02068569d
-description:
+description: We are happy to inform our contributors and community members with some good news that you have been waiting for.
 ---
 
-## Token Unlock and Exchange Listing Schedule
-
-![](https://cdn-images-1.medium.com/max/800/1*qLGjn-iAC0UD-YqsoBVNJg.png)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 We are happy to inform our contributors and community members with some good news that you have been waiting for. Below, we provide details on our **token unlock** and upcoming **exchange listing** schedule. Thank you for waiting patiently.
 

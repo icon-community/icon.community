@@ -3,12 +3,10 @@ title: "ICON Support Program ICX Distribution Timeline"
 date: 2017-09-27
 category: announcementsw
 slug: icon-support-program-icx-distribution-timeline-fa046d7f32c1
-description:
+description: This post clarifies the ICX distribution timeline for the ICON “Support Program”. The ICON team ran various Support Programs to promote the ICON Token Sale. The ICON Support Program distributed ICX for events, promotion, and community management.
 ---
 
-## ICON Support Program ICX Distribution Timeline
-
-![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)This post clarifies the ICX distribution timeline for the ICON “Support Program”. The ICON team ran various Support Programs to promote the ICON Token Sale. The ICON Support Program distributed ICX for events, promotion, and community management.
+This post clarifies the ICX distribution timeline for the ICON “Support Program”. The ICON team ran various Support Programs to promote the ICON Token Sale. The ICON Support Program distributed ICX for events, promotion, and community management.
 
 The ICON team has a full record of all the Support Program activities and is constantly being tallied to incorporate new efforts.
 

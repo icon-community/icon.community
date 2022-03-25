@@ -3,12 +3,10 @@ title: "KYC Submission Period Ends"
 date: 2017-11-13
 category: announcements
 slug: kyc-submission-period-ends-2d5ca28cd416
-description:
+description: The ICON KYC submission period has ended. You can no longer submit your KYC applications.
 ---
 
-## KYC Submission Period Ends
-
-![](https://cdn-images-1.medium.com/max/800/0*Esi1eb74JJTgnLz5.)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 The ICON KYC submission period has ended. You can no longer submit your KYC applications.
 

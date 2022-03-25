@@ -3,12 +3,10 @@ title: "KYC Schedule Update"
 date: 2017-09-28
 category: announcements
 slug: kyc-schedule-update-2835c7253e67
-description:
+description: With the recent tightening of blockchain regulations, ICON is preparing additional legal policies. In order to properly protect ICON contributors, the ICON KYC process will be delayed by a few weeks.
 ---
 
-## KYC Schedule Update
-
-![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)With the recent tightening of blockchain regulations, ICON is preparing additional legal policies. In order to properly protect ICON contributors, the ICON KYC process will be delayed by a few weeks.
+With the recent tightening of blockchain regulations, ICON is preparing additional legal policies. In order to properly protect ICON contributors, the ICON KYC process will be delayed by a few weeks.
 
 In particular, the ICON team is preparing a “Privacy Policy” and “updated Terms and Conditions” for contributors to safely submit their KYC information.
 

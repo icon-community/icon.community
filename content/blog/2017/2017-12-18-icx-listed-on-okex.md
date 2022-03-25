@@ -3,12 +3,10 @@ title: "ICX Listed on OKEx"
 date: 2017-12-18
 category: announcements
 slug: icx-listed-on-okex-a90abb6783b4
-description:
+description: ICX Tokens is NOW TRADING on the OKEx Exchange! It is one day ahead of schedule. Before you can only buy ICX Tokens if you participated in the ICON Token Sale.
 ---
 
-## ICX Listed on OKEx
-
-![](https://cdn-images-1.medium.com/max/800/1*XwwtAcGviou4KywRU-Ww9A.png)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 ICX Tokens is NOW TRADING on the OKEx Exchange! It is one day ahead of schedule. Before you can only buy ICX Tokens if you participated in the ICON Token Sale. Now you can buy and sell ICX Tokens freely on the OKEx Exchange.
 

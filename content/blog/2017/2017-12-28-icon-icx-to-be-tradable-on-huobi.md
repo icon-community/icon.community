@@ -3,12 +3,10 @@ title: "ICON (ICX) to be Tradable on Huobi"
 date: 2017-12-28
 category: announcements
 slug: icon-icx-to-be-tradable-on-huobi-4a13570a74bb
-description:
+description: Huobi will launch ICON (ICX) on December 28, 2017.
 ---
 
-## **ICON (ICX) to be tradable on Huobi**
-
-![](https://cdn-images-1.medium.com/max/800/1*-IvgPe8_7SburhLWLUQriw.png)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 Huobi will launch ICON (ICX) on December 28, 2017.
 

@@ -3,12 +3,10 @@ title: "Additional KYC information and FAQ"
 date: 2017-10-19
 category: announcements
 slug: announcement-additional-kyc-information-and-faq-7207b5008ec2
-description:
+description: This post is to give you additional information regarding the KYC process and give you answers to frequently asked questions.
 ---
 
-## **[Announcement] Additional KYC information and FAQ**
-
-![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)Hi, this is the ICON team.
+Hi, this is the ICON team.
 
 This post is to give you additional information regarding the KYC process and give you answers to frequently asked questions.
 

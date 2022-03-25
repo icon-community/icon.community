@@ -6,9 +6,7 @@ slug: kyc-application-progress-update-764c49e0788b
 description:
 ---
 
-## KYC Application Progress Update
-
-![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)Thank you for your interest in the ICON project. This post is intended to update you on the KYC progress.
+Thank you for your interest in the ICON project. This post is intended to update you on the KYC progress.
 
 First of all, the ICON team would like to apologize for the delay in email responses. The ICON team is receiving a massive amount of inquiries in a short time span, therefore the response is being delayed.
 

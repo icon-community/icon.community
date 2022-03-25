@@ -3,12 +3,10 @@ title: "KYC Application Form Step-by-Step Guide"
 date: 2017-10-20
 category: announcements
 slug: kyc-application-form-step-by-step-guide-2bed46b0319a
-description:
+description: Thank you for your interest in the ICON Project. This post will explain the background regarding the implementation of KYC(Know-Your-Customer) and the detailed KYC procedures.
 ---
 
-## KYC Application Form Step-by-Step Guide
-
-![](https://cdn-images-1.medium.com/max/800/1*B2WG4o5FjFlU4uUFfzkglA.jpeg)Thank you for your interest in the ICON Project. This post will explain the background regarding the implementation of KYC(Know-Your-Customer) and the detailed KYC procedures.
+Thank you for your interest in the ICON Project. This post will explain the background regarding the implementation of KYC(Know-Your-Customer) and the detailed KYC procedures.
 
 ICON has implemented KYC in order to follow rapidly changing international regulations. By implementing KYC, the ICON project and participants will be protected from legal risks and provide a more stable development environment for the foundation, list ICX on cryptocurrency exchanges, and better enable community connections.
 
