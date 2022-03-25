@@ -1,9 +1,0 @@
-{{ define "container" }}
-<div id="container" class="px-4">
-    <div class="space-y-4">
-        <img class="border-icon-lo w-28 h-28 p-1 mx-auto border-2 rounded-full"
-            src="/assets/images/contributors/{{ .Params.featured_image }}" alt="">
-        {{ partial "page_header.html" (dict "context" .) }}
-    </div>
-</div>
-{{ end }}
