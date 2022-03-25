@@ -11,11 +11,16 @@
         <meta name="description" content="{{ .Params.description }}" />
         <meta name="keywords" content="blockchain, cryptocurrency, interoperability" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=PT+Serif:wght@400;700&display=swap"
-            rel="stylesheet">
+        <!-- OpenGraph Tags -->
+        <meta property="og:title" content="{{ .Title }}" />
+        <meta property="og:description" content="{{ .Params.description }}" />
+        <meta property="og:image" content="{{ partial "featured_image.html" . | absURL }}" />
+        <!-- Twitter Tags -->
+        <meta name="twitter:title" content="{{ .Title }}" />
+        <meta name="twitter:description" content="{{ .Params.description }}" />
+        <meta name="twitter:image" content="{{ partial "featured_image.html" . | absURL }}" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@helloiconworld">
         {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
         {{ if .Site.IsServer }}
         <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
