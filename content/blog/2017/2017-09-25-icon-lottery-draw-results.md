@@ -6,9 +6,7 @@ category: announcements
 description:
 ---
 
-## ICON Lottery Draw Results
-
-![](https://cdn-images-1.medium.com/max/800/1*v-IUoANvuEFPHL986kF40A.png)ICON is announcing the Lottery Draw Event Winners. In order to reward active ICON supporters in the ICON chat rooms, ICON organized an event where ICON would Airdrop 10,000 ICX to chat room participants.
+ICON is announcing the Lottery Draw Event Winners. In order to reward active ICON supporters in the ICON chat rooms, ICON organized an event where ICON would Airdrop 10,000 ICX to chat room participants.
 
 ICON randomly picked 20 participants LIVE on Facebook, in order to promote a transparent and fair selection. The participant list was collected via Google Forms and duplicate applications were excluded.
 

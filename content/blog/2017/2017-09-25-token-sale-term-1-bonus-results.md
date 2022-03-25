@@ -6,10 +6,6 @@ slug: token-sale-term-1-bonus-results-ec6802af96db
 description:
 ---
 
-## Token Sale “Term 1” Bonus Results
-
-### ICX Bonus
-
 The “Term 1” bonuses have been organized. Term 1 bonuses were selected based on the “Blockno” and “Txhash”. The first winner is the 10th contributor and the subsequent winners are 10+25nth Contributor (ie: 10, 35, 60, 85,…… , 1210, 1235th contributor).
 
 The selected winners will get an additional 100% bonus of their contributed ETH. For example, If the winning participant contributed 10 ETH = 25,000 ICX, then the winning participant will get an additional bonus 25,000 ICX (10 ETH worth of ICX).
