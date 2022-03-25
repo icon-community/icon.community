@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Recap — March 2020"
 date: 2020-03-27
 slug: icon-monthly-grant-recap-march-2020-352b77eb52f5
-description:
+description: We are very pleased to announce a new initiative to provide monthly grant updates to keep the community informed of the initiatives ICON Foundation is funding with its Representative rewards.
 ---
-
-## ICON Monthly Grant Recap — March 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*m7cXZjUhHz5G1p8Eg_FCRg.png)New Initiative to Provide Monthly Updates on Approved and Funded Grants
 
 Greetings ICONists,
 

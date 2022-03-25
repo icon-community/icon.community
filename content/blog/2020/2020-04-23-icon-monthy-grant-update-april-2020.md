@@ -2,12 +2,8 @@
 title: "ICON Monthy Grant Update — April 2020"
 date: 2020-04-23
 slug: icon-monthy-grant-update-april-2020-53e11adec524
-description:
+description: This is the second monthly grant recap report. In case you missed it, details from the first report can be found here.
 ---
-
-## ICON Monthly Grant Update — April 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*VRX1vqfbhl84KpnI7y3kCg.png)Atomic Wallet, Online Hackathon, Messari Registry, and ICON Vote Monitor
 
 Greetings ICONists,
 

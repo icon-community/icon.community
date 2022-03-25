@@ -2,12 +2,8 @@
 title: "Official ICX listing on BiKi Exchange"
 date: 2020-03-25
 slug: official-icx-listing-on-biki-exchange-8ae4a09f6aa6
-description:
+description: We are very excited to announce that starting today, you can deposit, purchase and trade ICX, the native token for the ICON network, on Biki Exchange, one of the largest cryptocurrency exchanges with a strong presence in China. The first trading pair to be listed is ICX/USDT.
 ---
-
-## Official ICX listing on BiKi Exchange
-
-![](https://cdn-images-1.medium.com/max/800/1*VWX2dIbE9cIuk7ywGfYvnA.png)ICX/USDT Trading Pair
 
 Hello ICONists,
 

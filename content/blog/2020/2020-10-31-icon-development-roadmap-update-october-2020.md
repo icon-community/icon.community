@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — October 2020"
 date: 2020-10-31
 slug: icon-development-roadmap-update-october-2020-12fb772ac51d
-description:
+description: This month was highlighted by the release of the ICON 2.0 Testnet Gangnam and the JAVA SCORE environment.
 ---
-
-## ICON Development Roadmap Update — October 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*WqSJQL7WvL0p1L9gK71e1w.png)Gangnam Testnet Release and Update on Contribution Proposal System
 
 Greetings ICONists,
 

@@ -2,12 +2,8 @@
 title: "Introducing SCORE Audit System"
 date: 2020-07-22
 slug: introducing-score-audit-system-bf5f1310c137
-description:
+description: We are happy to introduce ICON SCORE Audit System. ICON Score Audit System is a smart contract audit system that makes it easy for SCORE developers to verify and deploy smart contracts to the ICON Network.
 ---
-
-## Introducing SCORE Audit System
-
-![](https://cdn-images-1.medium.com/max/800/1*X2YB8jPRbLQhcFz-uyfWNA.png)Simplifying the Deployment of Smart Contracts on ICON Network
 
 Greetings ICONists,
 

@@ -2,14 +2,10 @@
 title: "ICON Foundation Grant Program 2020"
 date: 2020-11-16
 slug: icon-foundation-grant-program-2020-653b626abaeb
-description:
+description: We are pleased to announce the launch of the ICON Foundation Grant Program.
 ---
 
-## ICON Foundation Grant Program 2020
-
-### The new ICON Foundation Grant Program will complement Contribution Proposal System(CPS) to continue funding projects that benefit the ICON Community
-
-![](https://cdn-images-1.medium.com/max/800/0*BfdGTOeuAOb95eTT)Dear ICONists,
+Dear ICONists,
 
 We are pleased to announce the launch of the **ICON Foundation Grant Program 2020**.
 

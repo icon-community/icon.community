@@ -2,12 +2,8 @@
 title: "UPDATE: P-Rep Delegation Pilot Program"
 date: 2020-06-12
 slug: update-p-rep-delegation-pilot-program-6868faef6f9d
-description:
+description: After internal discussions, we have decided to open up the application process for the P-Rep Delegation Program to the community.
 ---
-
-## UPDATE: P-Rep Delegation Pilot Program
-
-![](https://cdn-images-1.medium.com/max/800/1*ttw7s09l-ROnonrwIgN5ew.png)June Application
 
 Greetings ICONists,
 

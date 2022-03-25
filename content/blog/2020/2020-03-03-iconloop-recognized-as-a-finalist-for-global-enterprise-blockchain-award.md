@@ -2,12 +2,8 @@
 title: "ICONLOOP Recognized as a Finalist for Global Enterprise Blockchain Award!"
 date: 2020-03-03
 slug: iconloop-recognized-as-a-finalist-for-global-enterprise-blockchain-award-d54aeab0cb22
-description:
+description: We are pleased to announce that the Enterprise Blockchain Awards (EBAs) judging committee have made their decisions on the finalists.
 ---
-
-## ICONLOOP Recognized as a Finalist for Global Enterprise Blockchain Award!
-
-![](https://cdn-images-1.medium.com/max/800/1*SXM91cBURgjcgnvbKExQjg.png)2020 EBA: Innovative Entrepreneurship in Blockchain — Technology & Platforms
 
 We are pleased to announce that the Enterprise Blockchain Awards (EBAs) judging committee have made their decisions on the [finalists](https://blockchainrevolutionglobal.com/the-eb-awards/) for the annual Enterprise Blockchain Awards! ICONLOOP is one of four finalists in the subcategory: **Innovative Entrepreneurship in Blockchain — Technology & Platforms**. Each subcategory will have one winner, which will be announced at the EBA Gala event on April 8th, 2020, in Toronto, Ontario, following the conclusion of the [Blockchain Revolution Global (BRG) conference](https://blockchainrevolutionglobal.com/), one of the leading enterprise-focused blockchain conferences in the world.
 

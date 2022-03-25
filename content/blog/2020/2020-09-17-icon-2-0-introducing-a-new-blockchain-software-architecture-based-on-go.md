@@ -99,34 +99,5 @@ We have decided to implement only the Contribution Proposal System on the curren
 This is an exciting time to be an ICONist, and we look forward to your participation and feedback as we roll out ICON 2.0 and continue building one of the most advanced, decentralized blockchain networks in the world.
 
 Thank you,
-
 The ICON team
-
-\_\_\_\_\_\_
-
-ICON official community
-
-Homepage : [https://icon.foundation](https://icon.foundation/)
-
-Medium (ENG) : <https://medium.com/helloiconworld>
-
-Brunch (KOR) : <https://brunch.co.kr/@helloiconworld>
-
-KakaoTalk (KOR) : <https://open.kakao.com/o/gMAFhdS>
-
-Telegram (ENG) : <https://t.me/hello_iconworld>
-
-Telegram (KOR) : <https://t.me/iconkorea>
-
-Facebook : <https://www.facebook.com/helloicon/>
-
-Reddit : <https://www.reddit.com/r/helloicon/>
-
-Twitter (Foundation) : <https://twitter.com/helloiconworld>
-
-Twitter (Republic) : <https://twitter.com/IconRepublic>
-
-F.A.Q Portal : <https://helloiconworld.freshdesk.com/support/home>
-
-Contact : hello@icon.foundation
 

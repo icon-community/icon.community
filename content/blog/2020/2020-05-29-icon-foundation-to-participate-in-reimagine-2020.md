@@ -5,9 +5,7 @@ slug: icon-foundation-to-participate-in-reimagine-2020-18b80406ebad
 description:
 ---
 
-## ICON Foundation to Participate in REIMAGINE 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*4qukbYCIJXuw_V5EQxskzg.png)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 [ICON](https://icon.foundation/?lang=en) is proud to announce our participation in [REIMAGINE 2020](https://www.ri2020.io/), a unique 72 hour live Global Blockchain Conference. **Daeki Lee, Head of ICON Ecosystem**, will join the leaders and experts in the blockchain industry to **highlight the** [**lessons**](https://www.youtube.com/watch?v=d0GsezuD_pY) **learned from the ecosystem growth since its decentralization and the importance of community for blockchain projects**.
 

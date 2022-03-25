@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — December 2020"
 date: 2020-12-31
 slug: icon-development-roadmap-update-december-2020-a68eda1b5cdf
-description:
+description: As 2020 comes to a close, we would like to wish everyone a joyous and happy new year! Despite the difficult circumstances of 2020, it was a great year of development and maturation for the ICON project and our growing ecosystem.
 ---
-
-## ICON Development Roadmap Update — December 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*YM3K7k1nWEvSz1FMzDGoeA.png)2021 Transformation, Revision 12 and Contribution Proposal System
 
 As 2020 comes to a close, we would like to wish everyone a joyous and happy new year! Despite the difficult circumstances of 2020, it was a great year of development and maturation for the ICON project and our growing ecosystem. We want to thank the community for its continued contributions and support.
 

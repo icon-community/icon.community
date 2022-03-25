@@ -2,16 +2,14 @@
 title: "ICON Development Roadmap Update — August 2020"
 date: 2020-08-31
 slug: icon-development-roadmap-update-august-2020-a3c8c29ac7dc
-description:
+description: August was another eventful month for the ICON project. We continued to make progress on an upcoming release that we’re very excited about and we hope to share details on soon.
 ---
-
-## ICON Development Roadmap Update — August 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*cbAKSqJi76U3uMFihh2MEw.png)**Revision 10 Update, Preparation of an Upcoming Release, and Contribution Proposal System**
 
 Greetings ICONists,
 
-August was another eventful month for the ICON project. We continued to make progress on an upcoming release that we’re very excited about and we hope to share details on soon. We successfully stopped a malicious attacker, progressed on the contribution proposal system and selected a team to work on its build out. Furthermore, we are examining the testing and development processes going forward and will be making significant changes which we hope to share in short order. In the meantime, please find the main highlights for the month of August below.
+August was another eventful month for the ICON project. We continued to make progress on an upcoming release that we’re very excited about and we hope to share details on soon. We successfully stopped a malicious attacker, progressed on the contribution proposal system and selected a team to work on its build out.
+
+Furthermore, we are examining the testing and development processes going forward and will be making significant changes which we hope to share in short order. In the meantime, please find the main highlights for the month of August below.
 
 ## 1. Revision 10 Update
 
@@ -40,34 +38,4 @@ The Foundation put out an RFP (Request for Proposal) to develop the Contribution
 We are excited to announce to the community that iBriz will be leading this effort. iBriz is a talented group of developers and has significant experience developing for the ICON blockchain, particularly with SCORE. We look forward to working alongside this talented group and making the contribution proposal system a key component of our network for many years to come.
 
 Thank you,
-
 ICON Foundation
-
-\_\_\_\_\_\_
-
-ICON official community
-
-Homepage : [https://icon.foundation](https://icon.foundation/)
-
-Medium (ENG) : <https://medium.com/helloiconworld>
-
-Brunch (KOR) : <https://brunch.co.kr/@helloiconworld>
-
-KakaoTalk (KOR) : <https://open.kakao.com/o/gMAFhdS>
-
-Telegram (ENG) : <https://t.me/hello_iconworld>
-
-Telegram (KOR) : <https://t.me/iconkorea>
-
-Facebook : <https://www.facebook.com/helloicon/>
-
-Reddit : <https://www.reddit.com/r/helloicon/>
-
-Twitter (Foundation) : <https://twitter.com/helloiconworld>
-
-Twitter (Republic) : <https://twitter.com/IconRepublic>
-
-F.A.Q Portal : <https://helloiconworld.freshdesk.com/support/home>
-
-Contact : hello@icon.foundation
-

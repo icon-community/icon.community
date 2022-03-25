@@ -5,9 +5,7 @@ slug: magic-successfully-integrates-with-icon-to-provide-a-better-user-onboardin
 description:
 ---
 
-## Magic Successfully Integrates with ICON to Provide a Better User Onboarding Experience
-
-![](https://cdn-images-1.medium.com/max/800/1*nczsaZZMvVfah2ptfM1BOw.png)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 We are excited to announce the successful integration of the [Magic](http://trymagic.com) SDK, a popular passwordless authentication and private key management service in the Ethereum ecosystem, into the ICON public blockchain. ICON has been collaborating with Magic to support various leading decentralized applications with passwordless authentication service, enabling an easier onboarding experience for dapp users. ICON’s extensive ecosystem combined with Magic’s easy onboarding solution will expedite the mass adoption of decentralized applications in DeFi, gaming, security tokens, NFTs, and more.
 

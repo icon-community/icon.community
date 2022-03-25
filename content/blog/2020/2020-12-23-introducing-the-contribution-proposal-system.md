@@ -2,14 +2,10 @@
 title: "Introducing the Contribution Proposal System"
 date: 2020-12-23
 slug: introducing-the-contribution-proposal-system-b7ad5d877dc5
-description:
+description: ICON and the iBriz-ICONOsphere P-Rep team are excited to announce the release of the Contribution Proposal System.
 ---
 
-## Introducing the Contribution Proposal System
-
-A decentralized autonomous grant program owned and operated by the ICON Network itself
-
-![](https://cdn-images-1.medium.com/max/800/0*XI7ZiJosWOVfVVrQ)Greetings ICONists,
+Greetings ICONists,
 
 ICON and the iBriz-ICONOsphere P-Rep team are excited to announce the release of the [Contribution Proposal System](https://cps.icon.community/). This release brings us one step closer to realizing the vision of Delegated Proof of Contribution, where network resources are allocated to specific contributions to grow the ICON Ecosystem.
 

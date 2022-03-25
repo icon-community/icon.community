@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-september-2020-67756d1d2553
 description:
 ---
 
-## ICON Development Roadmap Update — September 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*evi3BiMyGFsVBUOSYf1kOg.png)ICON 2.0 Timeline and Gangnam Testnet
-
 Greetings ICONists,
 
 This month was highlighted by the announcement of our new and improved blockchain, ICON 2.0: BATANG. For the past year, we have been developing this new technology, and it’s one of our most important achievements to date.We provide the latest timeline and testnet information below.

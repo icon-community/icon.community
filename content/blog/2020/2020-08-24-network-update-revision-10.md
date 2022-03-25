@@ -2,14 +2,10 @@
 title: "Network Update: Revision 10"
 date: 2020-08-24
 slug: network-update-revision-10-b0ce0bd68cbe
-description:
+description: Over the weekend, the ICON network experienced an attack by a malicious individual exploiting a vulnerability in the Multiple Unstaking Requests feature.
 ---
 
-## Network Update: Revision 10
-
-Fixing Vulnerability and Defending Network against Malicious Attacker
-
-![](https://cdn-images-1.medium.com/max/800/1*evpIcRi3dG4uTqILFm8f_A.png)Dear ICON Community,
+Dear ICON Community,
 
 Over the weekend, the ICON network experienced an attack by a malicious individual exploiting a vulnerability in the Multiple Unstaking Requests feature. We would like to share a post-mortem on what happened in this post. **At this time, the situation is fully under control and no user funds were impacted.** It was imperative to wait until the vulnerability was fixed prior to sharing these details in order to prevent additional attacks.
 

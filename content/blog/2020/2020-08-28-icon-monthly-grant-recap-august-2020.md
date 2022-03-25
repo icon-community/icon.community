@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Recap — August 2020"
 date: 2020-08-28
 slug: icon-monthly-grant-recap-august-2020-b83b7c285d72
-description:
+description: In August, we’ve approved 6 grants ranging from DApp development and developer tools to design and documentation.
 ---
-
-## ICON Monthly Grant Recap — August 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*CsTICo1t7VjJuWBXoJMErw.png)Six New Grant Approvals and New Use-Cases For $ICX
 
 Greetings ICONists,
 

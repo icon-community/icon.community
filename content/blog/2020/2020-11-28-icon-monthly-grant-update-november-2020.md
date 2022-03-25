@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Update — November 2020"
 date: 2020-11-28
 slug: icon-monthly-grant-update-november-2020-447fb4762f52
-description:
+description: We are very pleased to approve another 6 grants in November capping off a successful ICON Community Grant program.
 ---
-
-## ICON Monthly Grant Update — November 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*a-PfReDzYsYPurq2bvcMqw.png)Six New Grant Approvals and Migration to Contribution Proposal System
 
 Greetings ICONists,
 

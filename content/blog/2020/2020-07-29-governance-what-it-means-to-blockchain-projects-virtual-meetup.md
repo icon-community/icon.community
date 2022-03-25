@@ -2,12 +2,10 @@
 title: "Governance: What It Means to Blockchain Projects (Virtual Meetup)"
 date: 2020-07-29
 slug: governance-what-it-means-to-blockchain-projects-virtual-meetup-fb5b5fb9338e
-description:
+description: On July 30th at 5pm (PST), we will host an online meetup with leading blockchain projects, MakerDAO and Tezos.
 ---
 
-## Governance: What It Means to Blockchain Projects (Virtual Meetup)
-
-![](https://cdn-images-1.medium.com/max/800/1*QkMy7rkJkIc0a-nwRKFzAQ.png)Greetings ICONists,
+Greetings ICONists,
 
 **On July 30th at 5pm (PST)**, we will host an online meetup with leading blockchain projects, MakerDAO and Tezos. Wilson Withiam, Research Analyst at Messari, will be the host for the panel discussion. Daeki Lee, Head of Ecosystem at ICON Foundation, Kevin Nielsen, Associate at TQ Tezos, and Charles St.Louis, Decentralized Governance Architect at Maker Foundation will participate in the [panel discussion](https://www.airmeet.com/e/e7cc9240-c756-11ea-9bea-3146952c640d) about governance.
 

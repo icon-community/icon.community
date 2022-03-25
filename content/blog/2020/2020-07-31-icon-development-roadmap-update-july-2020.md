@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — July 2020"
 date: 2020-07-31
 slug: icon-development-roadmap-update-july-2020-256e576d5058
-description:
+description: It was another eventful and exciting month for the ICON project. We announced a noteworthy partnership, a network update and the release of a SCORE audit tool for smart contract developers.
 ---
-
-## ICON Development Roadmap Update — July 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*HOLzyBiIeKVdfF_52eepJw.png)Governance Features, Network Update, SCORE Audit Tool and NFT Standard
 
 Greetings ICONists,
 

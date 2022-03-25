@@ -2,12 +2,8 @@
 title: "Public Representative Delegation Pilot Program"
 date: 2020-06-03
 slug: public-representative-delegation-pilot-program-216c0ffc1fba
-description:
+description: We’re happy to announce that we are extending the application period for the June Delegation Program.
 ---
-
-## Public Representative Delegation Pilot Program
-
-![](https://cdn-images-1.medium.com/max/800/1*ttw7s09l-ROnonrwIgN5ew.png)June Application
 
 Greetings ICONists,
 

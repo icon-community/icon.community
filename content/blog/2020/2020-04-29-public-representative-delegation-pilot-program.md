@@ -2,12 +2,8 @@
 title: "Public Representative Delegation Pilot Program"
 date: 2020-04-29
 slug: public-representative-delegation-pilot-program-1a751a36abef
-description:
+description: Today, we’re pleased to announce a new pilot program to further incentivize P-Reps and reward contributions to the network.
 ---
-
-## Public Representative Delegation Pilot Program
-
-![](https://cdn-images-1.medium.com/max/800/1*ttw7s09l-ROnonrwIgN5ew.png)Incentivizing ICON’s Growth Through Delegation
 
 Greetings ICONists,
 

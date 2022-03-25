@@ -2,12 +2,10 @@
 title: "ICON Integrates with Dapp.com"
 date: 2020-03-19
 slug: icon-integrates-with-dapp-com-b96f6c4c0c92
-description:
+description: We are excited to announce the integration with Dapp.com.
 ---
 
-## ICON Integrates with Dapp.com
-
-![](https://cdn-images-1.medium.com/max/800/1*mqRUA_Qaj7uTWID2exrE4g.png)Greetings ICONists,
+Greetings ICONists,
 
 We are excited to announce the integration with [Dapp.com](https://www.dapp.com/), one of the leading blockchain-based application and on-chain analysis platforms. Upon completion of this integration, we expect ICON dapps to benefit from having exposure to the large user base of dapp.com, which includes 100K+ MAU, 4–5K DAU, 105K registered users, and an email list of over 20K emails. As the dapp ecosystem within ICON matures, there has been a growing number of dapps asking for exposure to a larger user base and we believe that this integration will serve that purpose.
 

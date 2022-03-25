@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Recap — July 2020"
 date: 2020-07-29
 slug: icon-monthly-grant-recap-july-2020-a453f2068116
-description:
+description: It was another busy month of grant applications and approvals and we continue to be encouraged by the quality of new initiatives.
 ---
-
-## ICON Monthly Grant Recap — July 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*xtKYxRkY7MEybr6thqm3UA.png)Nine Grant Approvals This Month — Highest Total Since Inception
 
 Greetings ICONists,
 

@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Recap — May 2020"
 date: 2020-05-27
 slug: icon-monthly-grant-recap-may-2020-ed90aafa46d9
-description:
+description: We’re happy to share the latest progress with ICON’s community grant program. As we’ve done in prior months, in this report, we’ll take a closer look at the grants approved by the Foundation thus far in May.
 ---
-
-## ICON Monthly Grant Recap — May 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*v70d_unzLinryv4Kp5d3mA.png)Simplex Integration and Liquid ICX
 
 Greetings ICONists,
 
@@ -17,7 +13,7 @@ We’re happy to share the latest progress with ICON’s community grant program
 
 It was another busy month for grant applications and we’ve approved 2 grants thus far; 1 for infrastructure and 1 DApp. If we approve any more in the coming days, we’ll be sure to provide more details on any we miss in next month’s update. But for now, please see the details below.
 
-### Approvals thus far:
+### Approvals Thus Far:
 
 * *Infrastructure***:** [Simplex Integration](https://www.simplex.com)
 * *DApp*: [Liquid ICX (LICX) — Token for DeFi](https://licx.finance)
@@ -37,7 +33,7 @@ As part of the approval, Simplex will integrate ICX within ~1 month of signing o
 * If Simplex generates $50,000 over the same period, ICON will receive the full deposit back.
 * Note, this is a one-time deposit (fee structure).
 
-### [Liquid ICX (LICX) — Token for DeFi](https://licx.finance/)
+## [Liquid ICX (LICX) — Token for DeFi](https://licx.finance/)
 
 LICX is the basis for DeFi solutions. It is an IRC2 token that represents staked ICX making it possible to be transferred without compromising the security of the network. This provides an alternative option to exchanges for ICONists to receive rewards while keeping liquidity of their ICX.
 

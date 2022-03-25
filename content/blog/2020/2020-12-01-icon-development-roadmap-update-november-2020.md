@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — November 2020"
 date: 2020-12-01
 slug: icon-development-roadmap-update-november-2020-f36b2e7844dd
-description:
+description: We are almost ready to put 2020 behind us and look forward to the many exciting developments within the ICON ecosystem in the new year.
 ---
-
-## ICON Development Roadmap Update — November 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*EbxP1wrySgyaHz8SQJFLSw.png)Revision Update and Contribution Proposal System
 
 Greetings ICONists,
 

@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — March 2020"
 date: 2020-03-31
 slug: icon-development-roadmap-update-march-2020-a0b620320e19
-description:
+description: It was another busy month for the ICON project. To highlight, we released the IISS 3.0 framework and continue to research its implementation and the respective timing, we continued to make progress on interchain and our blockchain transmission protocol (BTP), and will be releasing our next generation LFT 2.0 consensus algorithm in the coming days.
 ---
-
-## ICON Development Roadmap Update — March 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*wzm1EhkBVF9P-wgcFSWHfg.png)Hotfix, LFT 2.0, BTP and IISS improvements
 
 Greetings ICONists,
 

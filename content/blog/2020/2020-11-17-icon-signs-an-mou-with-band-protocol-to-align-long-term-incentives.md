@@ -2,12 +2,10 @@
 title: "ICON signs an MoU with Band Protocol to align long-term incentives"
 date: 2020-11-17
 slug: icon-signs-an-mou-with-band-protocol-to-align-long-term-incentives-5513c6e2d8ba
-description:
+description: We are excited to announce further collaboration with Band Protocol to operate validator nodes on each other’s networks.
 ---
 
-## ICON signs an MoU with Band Protocol to align long-term incentives
-
-![](https://cdn-images-1.medium.com/max/800/0*Dp1eCy4vUFKq-lHe)Greetings ICONists,
+Greetings ICONists,
 
 We are excited to announce further collaboration with Band Protocol to operate validator nodes on each other’s networks. With this deeper collaboration, we align ourselves with the long-term success of both networks.
 

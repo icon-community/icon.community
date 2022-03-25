@@ -2,12 +2,8 @@
 title: "Gangnam Testnet Opens (ICON 2.0)"
 date: 2020-10-28
 slug: gangnam-testnet-opens-icon-2-0-209a073adf60
-description:
+description: We are excited to announce the launch of the Gangnam testnet and the guidelines below.
 ---
-
-## Gangnam Testnet Opens (ICON 2.0)
-
-![](https://cdn-images-1.medium.com/max/800/1*K0qSA2tsK6yTIiwbXv1DJg.png)### Java SCORE Guidelines
 
 Greeting ICONists,
 

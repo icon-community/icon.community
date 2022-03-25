@@ -2,12 +2,10 @@
 title: "VELIC takes over ICONex and ICON Tracker from ICONLOOP"
 date: 2020-03-17
 slug: velic-takes-over-iconex-and-icon-tracker-from-iconloop-5f1608de89da
-description:
+description: ICON Foundation is excited to announce that VELIC has agreed to dedicate its engineering resources and take over ICONex and ICON Tracker development.
 ---
 
-## VELIC takes over ICONex and ICON Tracker from ICONLOOP
-
-![](https://cdn-images-1.medium.com/max/800/1*_vlOC-nidhQR-KZOI3E3aw.png)Dear ICONists,
+Dear ICONists,
 
 ICON Foundation is excited to announce that VELIC has agreed to dedicate its engineering resources and take over ICONex and ICON Tracker development. Until now, ICONLOOP has been responsible for these products as ICON’s primary technology provider. This change allows ICONLOOP to better focus on ICON’s core blockchain development and user adoption with its suite of decentralized ID (DID) applications including MyID and Broof, and VisitMe.
 

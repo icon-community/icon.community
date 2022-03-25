@@ -2,18 +2,15 @@
 title: "ICONLOOP Employee Participation Program"
 date: 2020-03-10
 slug: iconloop-employee-participation-program-883d8a13d828
-description:
+description: Today, we are happy to announce that ICON Foundation is changing its policy to allow ICONLOOP employees’ participation in the ICON project from RESTRICTED to LIMITED.
 ---
-
-## ICONLOOP Employee Participation Program
-
-![](https://cdn-images-1.medium.com/max/800/1*CJmlnPbocW5rpLOlBqFeoA.png)Incentivizing Contribution, Aligning Open-Source Vision and Celebrating Hard Work
 
 Dear ICONists,
 
 Today, we are happy to announce that ICON Foundation is changing its policy to allow ICONLOOP employees’ participation in the ICON project from **RESTRICTED** to **LIMITED**. This means that ICONLOOP employees may apply to the following two (2) programs:
 
 1. **Employee Grant Participation Program:** Employees may submit an application to the [ICON Community Grant Program](https://forum.icon.community/t/icon-community-grant-program-icon-cgp/256) with their independent project. The application process is the same, except the projects must also be approved by ICONLOOP executives before submission.
+
 2. **Employee P-Rep Participation Program:** Employees may apply to become a P-Rep candidate. A team of 3–8 persons must submit their contribution proposal with details on how they plan to add value to the ICON project. If approved, the ICON Foundation will delegate 50,000 ICX per employee up to one (1) year (max). Each team must cover its node registration fee and operational costs. Only up to 10 teams (max) will be approved. Submitted applications will be available for viewing on the [icon.community website](https://icon.community/iconsensus/candidates/) similar to other P-Rep candidates. **Also, for each 50,000 ICX delegated for the Employee P-Rep Participation Program, the ICON Foundation will remove an equivalent amount from the ICON Foundation node.**
 
 As you know, ICONLOOP and its employees have played a key role in our growing ecosystem as our primary technology partner and our ecosystem expansion partner. Our work together has thus far resulted in one of the most utilized blockchain platforms in the world and the market leader in Korea. We believe these two (2) programs will further accelerate the development of our ecosystem by incentivizing individuals with the best knowledge of ICON’s technology to contribute even more. Furthermore, this announcement aligns with our open-source vision and celebrates the hard work that has gone into the project over the past 2.5 years.

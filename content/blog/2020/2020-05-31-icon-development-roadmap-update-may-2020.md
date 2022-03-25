@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — May 2020"
 date: 2020-05-31
 slug: icon-development-roadmap-update-may-2020-c769789dfea4
-description:
+description: In May, we continued to focus on enhancing the ICON Network’s governance experience and have a number of updates that the community will be excited about.
 ---
-
-## ICON Development Roadmap Update — May 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*X8Bty3NozREvdkj0Y1Kc0g.png)Governance Features, ICONex, Tracker and BTP
 
 Greetings ICONists,
 

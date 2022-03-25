@@ -5,10 +5,6 @@ slug: icon-development-roadmap-update-september-2021-698cab3ac84f
 description: Development update on ICON 2.0, BTP and ICE Network
 ---
 
-## ICON Development Roadmap Update — September 2021
-
-![](https://cdn-images-1.medium.com/max/800/1*E35gVayXB14NyonLhfvZBA.jpeg)### ICON 2.0
-
 We are now closer than ever to achieving the ICON 2.0 mainnet upgrade. Additional tests are being run to err on the side of caution, but the migration process has already thoroughly been tested on local networks and we are now in close communication with nodes and exchanges regarding details of migration procedure. Our aim is to launch the mainnet by the end of October, which will occur through a network proposal. This will mark the start of the ICON 2.0 era.
 
 The exact block height for the transition will be set according to the network migration progress. Please stay tuned for more information.

@@ -5,13 +5,11 @@ slug: lft2-consensus-algorithm-5ee4322b2fd4
 description:
 ---
 
-## **LFT2 Consensus Algorithm**
+LFT2 is based on the PBFT consensus model, with a proprietary algorithm to emerge commit messages into a 2-step consensus process. This alleviates communication overhead and complexity of PBFT’s 3-step consensus process, leading to a lightweight and highly performant blockchain consensus algorithm.
 
-![](https://cdn-images-1.medium.com/max/800/1*zQDbBqlrqFHn2xzndRPChA.png)## **What is LFT2?**
+Additionally, LFT2 guarantees safety and liveness even under a simplified scheme, by incorporating a Candidate/Commit Block mechanism to resolve any potential security issues that could be raised in a partially synchronous network. In short, LFT2 is a revolutionized PBFT implementation that enjoys the same benefits with reduced complexity and enhanced performance in network latency, block confirmation, and transaction throughput.
 
-## **In a nutshell**
-
-LFT2 is based on the PBFT consensus model, with a proprietary algorithm to emerge commit messages into a 2-step consensus process. This alleviates communication overhead and complexity of PBFT’s 3-step consensus process, leading to a lightweight and highly performant blockchain consensus algorithm. Additionally, LFT2 guarantees safety and liveness even under a simplified scheme, by incorporating a Candidate/Commit Block mechanism to resolve any potential security issues that could be raised in a partially synchronous network. In short, LFT2 is a revolutionized PBFT implementation that enjoys the same benefits with reduced complexity and enhanced performance in network latency, block confirmation, and transaction throughput. LFT2 has recently been audited by KAIST, one of the leading research universities in South Korea [[audit report](https://arxiv.org/pdf/2004.04294.pdf)]. For more information, please check the [[LFT2 whitepaper](https://github.com/icon-project/LFT2/blob/master/Whitepaper%20-%20LFT2%20%28ENG%29.pdf)].
+LFT2 has recently been audited by KAIST, one of the leading research universities in South Korea [[audit report](https://arxiv.org/pdf/2004.04294.pdf)]. For more information, please check the [[LFT2 whitepaper](https://github.com/icon-project/LFT2/blob/master/Whitepaper%20-%20LFT2%20%28ENG%29.pdf)].
 
 ## **Different PBFT implementations**
 

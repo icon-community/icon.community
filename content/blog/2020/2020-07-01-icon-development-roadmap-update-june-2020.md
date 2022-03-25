@@ -2,12 +2,8 @@
 title: "ICON Development Roadmap Update — June 2020"
 date: 2020-07-01
 slug: icon-development-roadmap-update-june-2020-bed0e0af1512
-description:
+description: In June, we continued to work on the update that we previously announced to the community in May.
 ---
-
-## ICON Development Roadmap Update — June 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*h0DSd97HDgqASCamznWlfQ.png)New Governance Updates in July and Token Standards
 
 Greetings ICONists,
 

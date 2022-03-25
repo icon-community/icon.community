@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Recap — October 2020"
 date: 2020-10-29
 slug: icon-monthly-grant-recap-october-2020-16c6a2fa33ec
-description:
+description: The Foundation approved another 3 grants in October consisting of community building/marketing, a (familiar) DApp, and a cross-chain DeFi protocol.
 ---
-
-## ICON Monthly Grant Recap — October 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*bCj77nl3UZJjLBTEq5rQow.png)Community Building, Project Nebula, and Cross-Chain DeFi
 
 Greetings ICONists,
 

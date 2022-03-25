@@ -2,12 +2,10 @@
 title: "Path to Sustainable Economics"
 date: 2020-05-26
 slug: path-to-sustainable-economics-450be4137724
-description:
+description: The Path to Sustainable Economics will serve as guidance for P-Reps and a starting point for making upgrades to the ICON Network.
 ---
 
-## Path to Sustainable Economics: P-Rep Commission Rates
-
-![](https://cdn-images-1.medium.com/max/800/0*yxiTQ4WEJP1LXizd)The Path to Sustainable Economics will serve as guidance for P-Reps and a starting point for making upgrades to the ICON Network. This post will cover a new understanding of i\_rep as the P-Rep Commission Rate. We appreciate all the feedback and effort from the community to help us improve on various aspects of our economic policies.
+The Path to Sustainable Economics will serve as guidance for P-Reps and a starting point for making upgrades to the ICON Network. This post will cover a new understanding of i\_rep as the P-Rep Commission Rate. We appreciate all the feedback and effort from the community to help us improve on various aspects of our economic policies.
 
 ## Expressing i\_rep as the “P-Rep Commission Rate”
 

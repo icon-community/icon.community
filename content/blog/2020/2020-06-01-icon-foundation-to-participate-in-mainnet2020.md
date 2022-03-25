@@ -2,12 +2,8 @@
 title: "ICON Foundation to Participate in #Mainnet2020"
 date: 2020-06-01
 slug: icon-foundation-to-participate-in-mainnet2020-324d19f00ab1
-description:
+description: ICON is proud to announce our participation in Mainnet 2020 by Messari.
 ---
-
-## ICON Foundation to Participate in #Mainnet2020
-
-![](https://cdn-images-1.medium.com/max/800/1*jicIv5C8hbi8bDmDrr3b4Q.png)24/7 Virtual Event with 2000+ speakers
 
 Greetings from the ICON Team,
 

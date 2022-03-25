@@ -2,12 +2,8 @@
 title: "ICON Monthly Grant Recap — June 2020"
 date: 2020-06-25
 slug: icon-monthly-grant-recap-june-2020-f2918b23196
-description:
+description: We’re happy to share the latest progress with ICON’s community grant program. As we’ve done in prior months, in this report, we’ll take a closer look at the grants approved by the Foundation thus far in June.
 ---
-
-## ICON Monthly Grant Recap — June 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*L8DuzQ4LFVDJ8wafLFaqGQ.png)Marvelous Gift Cards, Korean Community Management & Social Media Marketing
 
 Greetings ICONists,
 

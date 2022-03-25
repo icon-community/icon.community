@@ -2,14 +2,8 @@
 title: "Blockchain Transmission Protocol (BTP) Explained"
 date: 2020-05-28
 slug: blockchain-transmission-protocol-btp-explained-c4d9927ad398
-description:
+description: Hundreds of new projects are emerging every year, competing to become the de-facto blockchain and the future home of all dApps.
 ---
-
-## Blockchain Transmission Protocol (BTP) Explained
-
-![](https://cdn-images-1.medium.com/max/800/1*MkVJqB4gl0fZjBWJDXNFAw.png)ICON’s Interoperability Technology
-
-## Introduction
 
 Hundreds of new projects are emerging every year, competing to become the de-facto blockchain and the future home of all dApps. Projects race to demonstrate themselves as being the best, promising immediate scalability, transaction throughput, or the economic value it’s going to create. Despite the claims being true or not, these developments have mostly been operating in silos. Consequently, the industry as a whole has evolved into a series of stand-alone and disconnected blockchains.
 

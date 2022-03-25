@@ -2,12 +2,10 @@
 title: "Band Protocol Successfully Integrates with ICON to Provide Secure Decentralized Oracles for Leading…"
 date: 2020-07-22
 slug: band-protocol-successfully-integrates-with-icon-to-provide-secure-decentralized-oracles-for-leading-9519483568ce
-description:
+description: We are excited to announce the strategic partnership and successful integration of Band Protocol, a top provider of smart contract oracle services, into the ICON public blockchain.
 ---
 
-## **Band Protocol Successfully Integrates with ICON to Provide Secure Decentralized Oracles for Leading DApps**
-
-![](https://cdn-images-1.medium.com/max/800/0*pIpFe0-JJWc-omvm)Greetings from the ICON Team,
+Greetings from the ICON Team,
 
 We are excited to announce the strategic partnership and successful integration of Band Protocol, a top provider of smart contract oracle services, into the ICON public blockchain. ICON has been collaborating with Band Protocol to support various leading decentralized applications with customizable decentralized oracles, ensuring resistance to manipulation and the highest security guarantee for end-users.
 

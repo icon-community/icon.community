@@ -2,16 +2,12 @@
 title: "ICON Monthly Grant Recap — September 2020"
 date: 2020-09-25
 slug: icon-monthly-grant-recap-september-2020-9a564d6964
-description:
+description: In September, we’ve approved one grant to build a new and informative website/portal for the ICON project.
 ---
-
-## ICON Monthly Grant Recap — September 2020
-
-![](https://cdn-images-1.medium.com/max/800/1*0AMbanlzFUK4rKslBukkKQ.png)New ICON-focused Website
 
 Greetings ICONists,
 
-In September, we’ve approved 1 grant to build a new and informative website/portal for the ICON project. This website will include introductory information for new ICONists looking to explore ICON as well as detailed information for the more seasoned crypto-community members.
+In September, we’ve approved one grant to build a new and informative website/portal for the ICON project. This website will include introductory information for new ICONists looking to explore ICON as well as detailed information for the more seasoned crypto-community members.
 
 Given the limited number of approved grants this month, we’ll also provide a recap of progress reports received over the past several weeks that have been approved by the Foundation below. As a reminder, we are actively seeking to deploy funds to interested teams/individuals to help grow our ecosystem. Any interested parties should apply [here](https://forum.icon.community/c/g/31) for consideration. We look forward to supporting your initiatives.
 

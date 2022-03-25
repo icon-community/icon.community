@@ -2,12 +2,8 @@
 title: "ICON IRC-16 Token Standard"
 date: 2020-08-06
 slug: icon-irc-16-token-standard-335b7901460c
-description:
+description: The IRC-16 token standard interface was first proposed in 2019, with the goal to support the development of tokenized securities on the ICON blockchain.
 ---
-
-## **ICON IRC-16 Token Standard**
-
-![](https://cdn-images-1.medium.com/max/800/1*PZr1rNL0wUiDyPFKPTYmAA.png)Security Tokens
 
 Greetings from the ICON team,
 
