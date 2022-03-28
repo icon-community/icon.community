@@ -1,6 +1,6 @@
 ---
 title: SCORE
-description: SNOW is a community-goverened canary network to ICE.
+description: SCORE (Smart Contract on Reliable Environment) is a smart contract running on ICON network.
 slug: score
 category: core
 github_url: "https://github.com/icon-project/java-score-examples"

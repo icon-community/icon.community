@@ -1,6 +1,6 @@
 ---
 title: Goloop
-description: The core node software that powers the ICON blockchain.
+description: The core node software (written in Golang) that powers the ICON blockchain and private blockchain implementations by ICONLOOP.
 category: core
 github_url: https://github.com/icon-project/goloop
 ---

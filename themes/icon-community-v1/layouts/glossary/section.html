@@ -28,7 +28,7 @@
                 {{ if eq $letter (lower (substr .Title 0 1)) }}
                 <li id="{{ .Title | urlize }}" class="space-y-4">
                     <a class="hover:text-icon-lo text-3xl font-bold" href="{{ .Permalink }}">{{ .Title }}</a>
-                    <p>{{ .Params.description }}</p>
+                    <p class="text-lg">{{ .Params.description }}</p>
                 </li>
                 {{ end }}
                 {{ end }}

@@ -1,11 +1,10 @@
 ---
 title: Omm
 slug: omm
-description:
+description: A community-governed borrowing and lending platform that lets users borrow against ICON-based assets like ICX, sICX, IUSDC, and more.
 category: defi
 website_url: https://omm.finance
 twitter_url: https://twitter.com/ommfinance
-featured_image:
 ---
 
 A DAO built on the ICON network, Omm is a money market where anyone can lend and borrow assets, earn interest, and own a share of the protocol. Omm has a direct fiat on- and off-ramp through the Bridge widget.

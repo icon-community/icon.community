@@ -1,7 +1,7 @@
 ---
 title: BTP
 slug: btp
-description: BTP, or Blockchain Transmission Protocol, is ICON's interoperability solution for cross-chain communication.
+description: ICON's decentralized and trustless interoperability protocol that facilitates generic messaging betweeen industry-leading blockchains.
 category: core
 website_url: "https://icon.community/btp/"
 twitter_url: "https://twitter.com/helloiconworld"
