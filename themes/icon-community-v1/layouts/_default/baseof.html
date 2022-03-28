@@ -30,8 +30,12 @@
         {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
         <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
         {{ end }}
+        <!-- HTMX -->
         <script src="https://unpkg.com/htmx.org@1.6.1"></script>
+        <!-- AlpineJS -->
         <script src="https://unpkg.com/alpinejs" defer></script>
+        <!-- Plausible Analytics -->
+        <script defer data-domain="icon.community" src="https://plausible.io/js/plausible.js"></script>
     </head>
 
     <body class="bg-gray-50 dark:bg-gray-900 font-sans antialiased text-gray-900">
