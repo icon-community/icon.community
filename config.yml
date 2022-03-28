@@ -1,5 +1,6 @@
 DefaultContentLanguage: en
 languageCode: "en-us"
+CanonifyURLs: true
 
 title: "ICON Community"
 description: "ICON Community"
