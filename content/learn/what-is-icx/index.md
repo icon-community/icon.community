@@ -1,17 +1,15 @@
 ---
-title: "What is the ICX Token?"
+title: "What is ICX?"
 date: 2022-03-06
 slug: icx
-description: The ICX token is the currency of all applications that are built on the ICON blockchain.
+description: ICX is the currency of all applications that are built on the ICON blockchain.
 ---
 
-The ICX token is the currency of all applications that are built on the ICON blockchain. ICX can be used for sending or receiving payments on the blockchain and pays for ICON transaction fees as well.
+ICX is the currency of all applications that are built on the ICON blockchain. ICX can be used for sending or receiving payments on the blockchain and pays for ICON transaction fees as well.
 
-## Using the ICX token
+Most decentralized applications (dApps) within the ICON Ecosystem use ICX as their basic means of payment. Whether you are buying NFT’s, trading on a decentralized exchange or transferring assets across blockchains with ICON’s Blockchain Transmission Protocol (BTP), the price/market/fee is most likely to be denominated in ICX.
 
-Most decentralized applications (dApps) within the ICON Ecosystem use the ICX token as their basic means of payment. Whether you are buying NFT’s, trading on a decentralized exchange or transferring assets across blockchains with ICON’s Blockchain Transmission Protocol (BTP), the price/market/fee is most likely to be denominated in ICX.
-
-## Staking ICX token
+## How to Stake ICX
 
 ICX holders can stake their coins and receive some of the industry’s highest rewards for this. ICX staking involves locking up the ICX in your wallet for a set period of time in return for daily ICX rewards. You must delegate the staked ICX to a Public Representative (P-Rep) in order to receive these rewards.
 

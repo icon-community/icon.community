@@ -5,7 +5,7 @@ slug: icon-icx-tokenomics-a6d269c8908
 description: ICON tokenomics have been improved with IISS 3.1. Let’s take a look at some of the changes implemented as part of IISS 3.1.
 ---
 
-ICON (ICX) Tokenomics have been improved with IISS 3.1. Recently, ICON P-Reps unanimously passed [Network Proposal #14](https://tracker.icon.foundation/proposal/0x6121aa4e693bd7e747760e55dda07fdb954d858d0f7936088a1296da0cff0a99), which implemented IISS 3.1, a new and more sustainable tokenomic framework for the ICX token and ecosystem.
+ICON (ICX) Tokenomics have been improved with IISS 3.1. Recently, ICON P-Reps unanimously passed [Network Proposal #14](https://tracker.icon.foundation/proposal/0x6121aa4e693bd7e747760e55dda07fdb954d858d0f7936088a1296da0cff0a99), which implemented IISS 3.1, a new and more sustainable tokenomic framework for ICX and the ICON ecosystem.
 
 Let’s take a look at some of the changes implemented as part of IISS 3.1 and how they compare to the old model.
 

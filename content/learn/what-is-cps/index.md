@@ -24,9 +24,9 @@ The intrinsic qualities of ICON’s governance model plays an important role in 
 
 Another advantage of ICON’s CPS is its KYC-less application process. It’s common for traditional grant programs to ask applicants for personally identifiable information (PII) like their name, address, identification documents, and more. ICON’s CPS takes a radically different approach. To make a CPS proposal, all you need is an ICX wallet, which also serves as your identity. The KYC-less design of ICON’s CPS makes it more open, convenient, and accessible for applications around the world.
 
-Unlike blockchain grant programs that denominate funding in a volatile token, ICON’s CPS distributes funds in [Balanced Dollars (bnUSD)](https://balanced.network/how/), an algorithmic stablecoin backed by ICX.
+Unlike blockchain grant programs that denominate funding in a volatile asset, ICON’s CPS distributes funds in [Balanced Dollars (bnUSD)](https://balanced.network/how/), an algorithmic stablecoin backed by ICX.
 
-While funding distributions via an unpegged token can be profitable during a crypto bull market, the opposite can occur during a market downtrend. By distributing funds with a stablecoin, ICON’s CPS gives applicants a predictable stream of funding that retains value, even during periods of market volatility.
+While funding distributions via an unpegged asset can be profitable during a crypto bull market, the opposite can occur during a market downtrend. By distributing funds with a stablecoin, ICON’s CPS gives applicants a predictable stream of funding that retains value, even during periods of market volatility.
 How the CPS Works
 Since ICON is a DPoS network, ICX is minted on a consistent basis to pay for network-related activities. At this time, the ICON blockchain mints 3 million ICX per month, and allocates it into the following buckets like so:
 
