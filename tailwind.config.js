@@ -2,30 +2,20 @@ const colors = require('tailwindcss/colors');
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: ["./themes/icon-community-v1/layouts/**/*.html"],
+  purge: ["./themes/icon-community-v1/layouts/**/*.html"],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      amber: colors.amber,
       black: colors.black,
       blue: colors.blue,
-      cyan: colors.cyan,
-      emerald: colors.emerald,
-      fuchsia: colors.fuchsia,
       gray: colors.gray,
       green: colors.green,
-      lime: colors.lime,
       indigo: colors.indigo,
-      orange: colors.orange,
-      pink: colors.pink,
       purple: colors.purple,
-      red: colors.red,
-      rose: colors.rose,
       sky: colors.sky,
       teal: colors.teal,
-      violet: colors.violet,
       yellow: colors.yellow,
       white: colors.white,
       'icon': '#32b8bb',

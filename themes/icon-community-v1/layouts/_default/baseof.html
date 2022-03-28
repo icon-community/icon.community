@@ -23,12 +23,13 @@
         <meta name="twitter:image" content="{{ partial "featured_image.html" . | absURL }}" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@helloiconworld">
-        {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+        {{ $styles := resources.Get "css/main.css" | postCSS }}
         {{ if hugo.IsProduction }}
         {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-        <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
         {{ else }}
-        <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+        {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
         {{ end }}
         <!-- HTMX -->
         <script src="https://unpkg.com/htmx.org@1.6.1"></script>
