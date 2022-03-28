@@ -11,7 +11,7 @@
     <div id="letter-index" class="mx-auto text-center">
         {{ range sort $validLetters }}
         {{ $letter := . }}
-        <a href="#{{ $letter }}">
+        <a href="#{{ $letter }}" class="hover:text-icon">
             <span class=" mx-2 text-xl font-bold">{{ upper $letter }}</span>
         </a>
         {{ end }}
