@@ -19,5 +19,5 @@ This delegating is also known as voting and it doesn’t mean that your ICX is s
 
 ## Where Can I Buy ICX?
 
-ICX can be traded on the world’s largest centralized exchanges with significant trading volume. [Click here](https://coinmarketcap.com/currencies/icon/) for a full overview of all ICX prices and exchanges within the ICON Ecosystem. Within the ICON ecosystem, several decentralized exchanges offer ICX trading. Check out the dApp section for an overview.
+ICX can be traded on some of the world’s largest centralized exchanges with significant trading volume. [Click here](https://coinmarketcap.com/currencies/icon/) for a full overview of all ICX prices and exchanges within the ICON Ecosystem. Within the ICON ecosystem, ICX can also be traded on the [Balanced decentralized exchange](https://balanced.network/). Check out the dApp section for an overview.
 
