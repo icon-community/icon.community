@@ -98,7 +98,7 @@ In BTP, the burden of verifying messages is not placed on relayers, which means 
 
 ## How to Join the BTP Ecosystem
 
-We envision a future where BTP seamlessly facilitates cross-chain messaging and transfers for billions of users around the world. We are currently working with BTP partners like Binance Smart Chain, NEAR Protocol, Harmony, Algorand, and more to fulfill this vision. If you’re interested in joining the BTP ecosystem, please [reach out to us on the official ICON Discord](https://discord.com/invite/BvWzx9nZgv).
+We envision a future where BTP seamlessly facilitates cross-chain messaging and transfers for billions of users around the world. We are currently working with BTP partners like Binance Smart Chain, NEAR Protocol, Harmony, Algorand, and more to fulfill this vision. If you’re interested in joining the BTP ecosystem, please [reach out to us on the official ICON Discord](https://discord.com/invite/7a75Hf3cFm).
 
 ## Summary
 
