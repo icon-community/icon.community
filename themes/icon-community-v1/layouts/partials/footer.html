@@ -39,7 +39,12 @@
                         </li>
                         <li class="text-gray-400">
                             <a href="https://tracker.icon.foundation">
-                                Twitter
+                                Tracker
+                            </a>
+                        </li>
+                        <li class="text-gray-400">
+                            <a href="https://www.youtube.com/channel/UCJJ7_44t3DAU_Rgc0LIF4Eg">
+                                Podcast
                             </a>
                         </li>
                     </ul>
@@ -62,13 +67,11 @@
                                 Learn
                             </a>
                         </li>
-                        {{ range first 3 (where $.Site.RegularPages "Section" "learn") }}
                         <li class="text-gray-400">
-                            <a href="{{ .Permalink }}">
-                                {{ .Title }}
+                            <a href="/glossary/">
+                                Glossary
                             </a>
                         </li>
-                        {{ end }}
                     </ul>
                 </div>
                 <!-- Community -->
@@ -90,11 +93,6 @@
                         <li class="text-gray-400">
                             <a href="https://forum.icon.community">
                                 Forum
-                            </a>
-                        </li>
-                        <li class="text-gray-400">
-                            <a href="https://www.youtube.com/channel/UCJJ7_44t3DAU_Rgc0LIF4Eg">
-                                Podcast
                             </a>
                         </li>
                     </ul>
