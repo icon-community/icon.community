@@ -10,7 +10,7 @@
             chain-agnostic interoperability solution.
         </p>
         <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
-            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/learn/") }}
+            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Explore ICON" "buttonUrl" "/learn/") }}
             {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url) }}
         </div>
     </div>
@@ -29,7 +29,7 @@
                             </p>
                             <div id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogdffldioobgl?hl=en") }}
-                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/learn/icx/") }}
+                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/learn/icx/") }}
                             </div>
                             <div class="flex gap-2.5 sm:gap-4">
                                 <div
@@ -93,7 +93,7 @@
                             Binance Smart Chain, NEAR Protocol, Moonriver, and more with Nexus.
                         </p>
                         <div id="hero-buttons" class="flex flex-wrap gap-4">
-                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn More" "buttonUrl" "/learn/btp/") }}
+                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "More on BTP" "buttonUrl" "/learn/btp/") }}
                         </div>
                     </div>
                 </div>
@@ -114,8 +114,8 @@
                                 right at home on ICON.
                             </p>
                             <div id="hero-buttons" class="flex flex-wrap gap-4">
-                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Started" "buttonUrl" "https://icondev.io/") }}
-                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "https://discord.gg/3xqbf7fqRY") }}
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Read Docs" "buttonUrl" "https://icondev.io/") }}
+                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" $.Site.Params.social.dev_discord_url) }}
                             </div>
                         </div>
                     </div>
