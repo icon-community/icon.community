@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="alternate" type="application/rss+xml" href="/index.xml" title="brianli.com">
         <link rel="canonical" href="{{ .Permalink | absURL }}" />
-        <title>{{ .Title }}</title>
+        <title>{{ .Title }} | ICON Community</title>
         <meta name="author" content="ICON Community">
         <meta name="description" content="{{ .Params.description }}" />
         <meta name="keywords" content="blockchain, cryptocurrency, interoperability" />
@@ -15,6 +15,8 @@
         <meta property="og:title" content="{{ .Title }}" />
         <meta property="og:description" content="{{ .Params.description }}" />
         <meta property="og:image" content="{{ partial "featured_image.html" . | absURL }}" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content="{{ .Permalink | absURL }}" />
         <!-- Twitter Tags -->
         <meta name="twitter:title" content="{{ .Title }}" />
         <meta name="twitter:description" content="{{ .Params.description }}" />

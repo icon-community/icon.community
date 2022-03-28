@@ -1,7 +1,7 @@
 ---
 title: Omm
-slug: omm
 description: A community-governed borrowing and lending platform that lets users borrow against ICON-based assets like ICX, sICX, IUSDC, and more.
+slug: omm
 category: defi
 website_url: https://omm.finance
 twitter_url: https://twitter.com/ommfinance

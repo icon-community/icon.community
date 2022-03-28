@@ -1,6 +1,7 @@
 ---
 title: Balanced
 description: A community-governed DeFi platform that lets users to mint a stablecoin (bnUSD) by collateralizing ICX, and trade against a variety of AMM pools.
+slug: balanced
 category: defi
 github_url: "https://github.com/balancednetwork"
 twitter_url: "https://twitter.com/BalancedDAO"

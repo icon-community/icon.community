@@ -1,7 +1,7 @@
 ---
 title: BTP
-slug: btp
 description: ICON's decentralized and trustless interoperability protocol that facilitates generic messaging betweeen industry-leading blockchains.
+slug: btp
 category: core
 website_url: "https://icon.community/btp/"
 twitter_url: "https://twitter.com/helloiconworld"

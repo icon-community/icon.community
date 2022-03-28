@@ -1,7 +1,7 @@
 ---
 title: P-Rep
-slug: p-rep
 description: A node operator that participates in block production and governance on the ICON blockchain.
+slug: p-rep
 category: core
 ---
 

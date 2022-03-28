@@ -2,7 +2,7 @@
 title: ICX
 description: The cryptocurrency that is used to govern the ICON blockchain, and pay for transaction fees for decentralized applications on ICON.
 slug: icx
-category: ecosystem
+category: core
 twitter_url: "https://twitter.com/icenetwork_io"
 website_url: "https://icenetwork.io"
 ---
