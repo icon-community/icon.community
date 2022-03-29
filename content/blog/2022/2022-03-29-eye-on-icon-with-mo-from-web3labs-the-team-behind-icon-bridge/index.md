@@ -1,6 +1,7 @@
 ---
 title: ICON Bridge, BTP, and More With Mo From Web3Labs
 date: 2022-03-29
+slug: icon-bridge-btp-and-more-with-mo-from-web3labs
 description: Fez, the host of ICON’s community podcast Eye on ICON, sits down with Mo from Web3Labs and talks about BTP and ICON Bridge
 ---
 
