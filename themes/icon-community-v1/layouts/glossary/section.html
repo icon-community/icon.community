@@ -7,7 +7,7 @@
 {{ $validLetters = $validLetters | uniq }}
 
 <div id="container" class="lg:my-24 max-w-4xl px-4 mx-auto my-16">
-    {{ partial "page_header.html" (dict "context" . ) }}
+    {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Add Glossary Term" "primaryButtonUrl" $.Site.Params.forms.glossary_submission_url ) }}
     <div id="letter-index" class="mx-auto text-center">
         {{ range sort $validLetters }}
         {{ $letter := . }}
