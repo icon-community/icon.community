@@ -1,0 +1,8 @@
+{{ $image := .Get "src" }}
+{{ $caption := .Get "caption" }}
+{{ $altText := .Get "alt" }}
+
+<figure class="my-4 space-y-1">
+    <img class="w-full" alt="{{ $altText }}" src="{{ .Page.RelPermalink }}{{ $image }}" />
+    <figcaption class="text-sm text-center">{{ $caption }}</figcaption>
+</figure>
