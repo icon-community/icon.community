@@ -3,6 +3,7 @@ title: ICON Development Update – March 2022
 date: 2022-03-31
 description: In March, the ICON team made significant progress on the architectural design of BTP and updates to the ICON Governance SCORE.
 slug: icon-development-update-march-2022
+draft: true
 ---
 
 In March, the ICON core developers primarily focused on migrating the Governance SCORE to Java. During the Java migration, we experienced a few issues with the implementation of network proposals. After a series of internal discussions, we are looking to break down the submission of network proposals into a two-step process:
