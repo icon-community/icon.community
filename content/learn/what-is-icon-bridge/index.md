@@ -21,6 +21,8 @@ The BTP Message Verifier Contract (BMV) is the most revolutionary aspect of BTPâ
 
 The BMV is essentially a live, miniature copy of the source blockchain that exists on the destination blockchain. For example, the BMV on Moonriver is a live copy of the ICON blockchain, and vice versa. The Relays are responsible for updating these copy blockchains, to ensure they are up to date and mirror the original chain. As you can imagine, this requires constant updating, as each blockchain produces new blocks at least every few seconds.
 
+{{< img src="icon-bridge-comparison-chart.jpg" alt="A comparison chart showcasing the differences between ICON Bridge and BTP." >}}
+
 This is where the gas fee issue arises. Keeping the BMV contracts updated has proven to be prohibitively expensive, with each BMV contract requiring an extreme amount of gas fees to remain up-to-date.
 
 In response to this issue, ICON has received more support from ICONLOOP, shifting a number of skilled ICONLOOP team members to focus solely on BTP. The amount of brainpower dedicated to building and launching BTP is now the highest that it has ever been. Accordingly, a number of potential solutions to the gas issue are already well under review, the BTP team is fully confident that a fix will be implemented.
