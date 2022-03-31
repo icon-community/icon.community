@@ -38,6 +38,14 @@
         <script src="https://unpkg.com/alpinejs" defer></script>
         <!-- Plausible Analytics -->
         <script defer data-domain="icon.community" src="https://plausible.io/js/plausible.js"></script>
+        <script>
+            window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+            ga('create', 'UA-224534834-1', {
+                'storage': 'none'
+            });
+            ga('send', 'pageview');
+        </script>
+        <script async src='https://www.google-analytics.com/analytics.js'></script>
     </head>
 
     <body class="bg-gray-50 dark:bg-gray-900 font-sans antialiased text-gray-900">
