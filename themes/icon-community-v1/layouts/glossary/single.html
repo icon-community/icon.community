@@ -12,20 +12,11 @@
             <div class="space-y-1">
                 <h1 class="sm:text-4xl text-3xl font-bold leading-tight">{{ .Title }}</h1>
                 <div class="post-meta flex items-center space-x-2.5">
-                    {{ with .Params.category }}
-                    <p id="term-category"
+                    {{ with .Params.synonym }}
+                    <p id="term-synonym"
                         class="px-1.5 py-0.5 text-xs text-white font-bold uppercase bg-icon-lo rounded-md">
                         {{ . }}
                     </p>
-                    {{ end }}
-                    {{ with .Params.twitter_url }}
-                    <a href="{{ . }}">{{ partial "svg/twitter.html" }}</a>
-                    {{ end }}
-                    {{ with .Params.website_url }}
-                    <a href="{{ . }}">{{ partial "svg/website.html" }}</a>
-                    {{ end }}
-                    {{ with .Params.github_url }}
-                    <a href="{{ . }}">{{ partial "svg/github.html" }}</a>
                     {{ end }}
                 </div>
             </div>
@@ -36,10 +27,10 @@
         {{ .Content }}
     </div>
 
-    {{ if isset .Params "category" }}
-    {{ $categoryTerms := where $.Site.RegularPages "Params.category" .Params.category }}
+    {{ if isset .Params "synonym" }}
+    {{ $synonymTerms := where $.Site.RegularPages "Params.synonym" .Params.synonym }}
     {{ $allTerms := where (where $.Site.RegularPages "Section" "glossary") "Title" "!=" .Title }}
-    {{ $relatedTerms := intersect $allTerms $categoryTerms }}
+    {{ $relatedTerms := intersect $allTerms $synonymTerms }}
     {{ if gt (len $relatedTerms) 0 }}
     <div class="related-terms">
         <h2 class="mb-4 text-2xl font-bold">Related Terms</h2>

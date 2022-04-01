@@ -1,11 +1,8 @@
 ---
-title: BTP
+title: Validator Term
 description: ICON's decentralized and trustless interoperability protocol that facilitates generic messaging betweeen industry-leading blockchains.
-slug: btp
-category: core
-website_url: "https://icon.community/btp/"
-twitter_url: "https://twitter.com/helloiconworld"
-github_url: "https://github.com/icon-project/btp"
+slug: validator-term
+synonym: delegate-term
 ---
 
 BTP, or Blockchain Transmission Protocol, is ICON's interoperability solution for cross-chain communication. BTP is chain-agnostic, which means it can be integrated with any smart contract-enabled blockchain, and does not require connected chains to be built with a common framework or SDK.
