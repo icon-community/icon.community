@@ -1,12 +1,15 @@
 ---
 title: ICON Development Update – March 2022
 date: 2022-03-31
-description: In March, the ICON team made significant progress on the architectural design of BTP and updates to the ICON Governance SCORE.
+description: In March, the ICON team made significant progress on ICON 2.0, BTP architecture, BTP integrations, and ICON Bridge.
 slug: icon-development-update-march-2022
-draft: true
 ---
 
-In March, the ICON core developers primarily focused on migrating the Governance SCORE to Java. During the Java migration, we experienced a few issues with the implementation of network proposals. After a series of internal discussions, we are looking to break down the submission of network proposals into a two-step process:
+In March, the ICON team made significant progress on ICON 2.0, BTP architecture, BTP integrations, and ICON Bridge. In this article, we’ll share what we worked on in March, and what our core focuses will be for April.
+
+## ICON 2.0
+
+The ICON core developers primarily focused on migrating the Governance SCORE to Java. During the Java migration, we experienced a few issues with the implementation of network proposals. After a series of internal discussions, we are looking to break down the submission of network proposals into a two-step process:
 
 1. Approval or rejection of a network proposal.
 2. A transaction to enact the proposal if approved.
@@ -18,11 +21,13 @@ The team also worked on updating ICON-related tools and services over the past f
 
 ## Blockchain Transmission Protocol (BTP)
 
+### BTP Product
+
 In March, we made significant progress on the architectural design of BTP:
 
-* We finalized the design plan for BTP 2.0. On top of the existing BTP architecture (BMC, BMV, BSH), we will implement an additional “BTP Arbitrary Call Service” (BCC) contract. The BCC offers a framework for making generic cross-chain smart contract calls, which provides developers with the flexibility to make unique and complex cross-chain dApps that are not bound by the limitations of a purpose-built bridging service.
-* **To lower non-ICON BMV costs**, we’ve decided to implement the concept of “BTP Blocks”. A BTP Block is a block that contains BTP messages. Instead of having to process every single block to determine whether non-ICON BMVs have to be updated, Relays will only have to watch for and process BTP Blocks. We expect this feature to reduce the costs of running a BTP Relay significantly because it ensures gas is only spent processing blocks that contain BTP messages. We are currently working on the technical specification for BTP Blocks, and will proceed to implementation once the specification has been mapped out.
-* **To lower ICON-based BMV costs**, we’ve decided to implement whitelisted BMV contracts that will charge zero ICX fees for successful updates. These whitelisted contracts will still calculate step costs so we can track potential economic or resource inefficiencies, but will not charge ICX fees for BMV updates.
+* We finalized the design plan for BTP 2.0. On top of the existing BTP architecture (Message Broker, Light Client, Service Handler), we will implement an additional “Arbitrary Call Service” contract. The Arbitrary Call Service offers a framework for making generic cross-chain smart contract calls, which provides developers with the flexibility to make unique and complex cross-chain dApps that are not bound by the limitations of a purpose-built bridging service.
+* **To lower non-ICON Light Client costs**, we’ve decided to implement the concept of “BTP Blocks”. A BTP Block is a block that contains BTP messages. Instead of having to process every single block to determine whether non-ICON Light Clients have to be updated, Relays will only have to watch for and process BTP Blocks. We expect this feature to reduce the costs of running a BTP Relay significantly because it ensures gas is only spent processing blocks that contain BTP messages. We are currently working on the technical specification for BTP Blocks, and will proceed to implementation once the specification has been mapped out.
+* **To lower ICON-based Light Client costs**, we’ve decided to implement whitelisted Light Client contracts that will charge zero ICX fees for successful updates. These whitelisted contracts will still calculate step costs so we can track potential economic or resource inefficiencies, but will not charge ICX fees for Light Client updates.
 
 We also made a number of internal knowledge and logistical improvements to the BTP workflow:
 
@@ -30,22 +35,23 @@ We also made a number of internal knowledge and logistical improvements to the B
 * Performed competitive landscape analysis on major interoperability solutions.
 * Met with all integration teams to answer questions, gather feedback on future plans, and brainstorm enhancements.
 * Started planning work for repository management moving forward. The current method of maintaining a separate GitHub branch for each integration is difficult to track and scale, so we are working on coming up with an improved process to allow for a more streamlined workflow.
-* Specified deliverables for BTP 2.0, including a BTP token standard for fungible and non-fungible tokens.
+Specified deliverables for BTP 2.0, including a BTP token standard for fungible and non-fungible tokens.
+
+### BTP Integrations
 
 Progress was made on BTP partner integrations as well:
 
-### Harmony
+#### Harmony
 
 * Deployed BTP smart contracts to the Harmony testnet.
 
-### Algorand
+#### Algorand
 
-The pull request for adding the SHA3-256 hashing algorithm (required for BTP) has been accepted.
-
+* The pull request for adding the SHA3-256 hashing algorithm (required for BTP) has been accepted.
 * Started work on Algorand’s Message Broker.
 * Began work on ICON relayer.
 
-### NEAR Protocol
+#### NEAR Protocol
 
 * Conducted ICX to NEAR transfers on testnet.
 * Improved build processes on NEAR.
@@ -55,14 +61,27 @@ The pull request for adding the SHA3-256 hashing algorithm (required for BTP) ha
 
 We’ve also made progress on ICON Bridge integrations with our BTP partners. At this time, we are testing the ICON Bridge backend on Binance Smart Chain, and have started the ICON Bridge integration on Harmony.
 
-## Next Month's Focus
-
+## Next Month’s Focus
 In April, we will focus on the following areas:
 
-* Specify individual development tasks for the BTP Arbitrary Call Service contract.
-* Finalize the fee system for the BTP Arbitrary Call Service contract.
+### ICON 2.0
+
+* Prepare a network proposal for implementing CPS funding through ICX issuance.
+
+### BTP Product
+
+* Specify individual development tasks for the Arbitrary Call Service contract.
+* Finalize the fee system for the Arbitrary Call Service contract.
 * Specify core blockchain development tasks for BTP 2.0 development.
 * Continue BTP competitive landscape analysis.
+
+### BTP Integrations
+
+* Finish Algorand Message Center and Service Handler contracts.
+* Conduct gas cost estimation and BTP integration on testnet for NEAR Protocol.
+
+### ICON Bridge
+
 * Finalize ICON Bridge integration on Binance Smart Chain.
 * Continue ICON Bridge integration on Harmony.
 
