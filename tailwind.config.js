@@ -21,6 +21,7 @@ module.exports = {
       teal: colors.teal,
       yellow: colors.yellow,
       white: colors.white,
+      rose: colors.rose,
       'icon': '#32b8bb',
       'icon-hi': '#31f2f6',
       'icon-lo': '#2ca9b7',

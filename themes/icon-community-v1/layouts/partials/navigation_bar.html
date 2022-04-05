@@ -1,9 +1,13 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
+<div class="relative" x-data="{ mobileMenuOpen: false }">
     <div class="flex items-center justify-between max-w-full px-4 py-4">
         <div id="logo">
             <a href="/">
-                <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community" />
+                <picture>
+                    <!--<source srcset="/assets/images/icon/logo-dark.png" media="(prefers-color-scheme: dark)">
+                    <source srcset="/assets/images/icon/logo-light.png" media="(prefers-color-scheme: light)">-->
+                    <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community">
+                </picture>
             </a>
         </div>
         <div class="md:hidden -my-2 -mr-2">
@@ -33,12 +37,11 @@
     {{ partial "layout/navigation/navigation_mobile.html" . }}
 </div>
 
-
-<div class="bg-gray-900">
-    <div class="max-w-7xl sm:px-6 lg:px-4 px-3 py-3 mx-auto">
+<div class="dark:border-gray-800 dark:bg-icon-lo bg-gray-900 border-t border-b border-gray-900">
+    <div class="max-w-7xl px-4 py-2 mx-auto">
         <div class="flex flex-wrap items-center justify-center">
             <div class="flex items-center space-x-4">
-                <span class="bg-icon-lo flex p-1.5 rounded-lg">
+                <span class="bg-icon-lo dark:bg-gray-800 flex p-1.5 rounded-lg">
                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

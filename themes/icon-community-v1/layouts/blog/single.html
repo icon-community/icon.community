@@ -7,7 +7,7 @@
             <!--{{ with .Params.subtitle }}
             <p class="text-2xl font-light text-gray-600">{{ . }}</p>
             {{ end }}-->
-            <div class="text-gray-600">{{ .PublishDate.Format "January 2, 2006" }}</div>
+            <div class="dark:text-gray-400 text-gray-600">{{ .PublishDate.Format "January 2, 2006" }}</div>
         </header>
         <div class="post-content">
             {{ .Content }}
