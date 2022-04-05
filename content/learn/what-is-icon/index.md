@@ -11,7 +11,7 @@ ICON’s signature true interoperability is decentralized, chain-agnostic, and t
 
 Decentralized Applications (dApps) on the ICON blockchain span all categories, ranging from Decentralized Finance (DeFi) to Non-Fungible Tokens (NFT’s).
 
-The ICON network utilizes DPoS consensus and is governed by 25 Public Representatives (P-Reps), which are elected by ICX holders.
+The ICON network utilizes DPoS consensus and is governed by 25 validators, which are elected by ICX holders.
 
 Accessing the entire ICON Ecosystem is easily done by downloading a wallet, depositing ICX and exploring the many dApps available.
 
