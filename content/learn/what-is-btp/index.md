@@ -5,7 +5,7 @@ description: Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, 
 slug: btp
 ---
 
-Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol. BTP’s chain-agnostic design allows it to be integrated with any smart contract-enabled blockchain. Unlike traditional bridging solutions that rely on handpicked validators to relay cross-chain messages and custody funds, BTP uses a more secure model with fully-decentralized incentivized relayers and on-chain verification of messages. In this article, you’ll learn about ICON’s BTP technology, and how it can be applied to real-world use cases.
+Blockchain Transmission Protocol (BTP) is ICON’s chain-agnostic, scalable, and secure interoperability protocol. BTP’s chain-agnostic design allows it to be integrated with any smart contract-enabled blockchain. Unlike traditional bridging solutions that rely on handpicked validators to relay cross-chain messages and custody funds, BTP uses a more secure model with fully-decentralized incentivized relays and on-chain verification of messages. In this article, you’ll learn about ICON’s BTP technology, and how it can be applied to real-world use cases.
 
 ## Use Cases for BTP
 
@@ -28,36 +28,36 @@ For example, BAYC NFTs could be adapted to 3D models for use as in-world charact
 
 ## How BTP Works
 
-Now that we have walked through a few examples of how BTP can be used, let’s take a closer look at how it works on a technical level. BTP is powered by smart contracts deployed on all connected chains, along with external community-run relayer nodes that pass messages between chains.
+Now that we have walked through a few examples of how BTP can be used, let’s take a closer look at how it works on a technical level. BTP is powered by smart contracts deployed on all connected chains, along with external community-run relay nodes that pass messages between chains.
 
 BTP Smart Contracts
 
 In order for a blockchain to integrate with BTP, it must deploy the three smart contracts below.
 
-* The Message Center Contract (BMC) keeps track of BTP messages for a given chain.
-* The Verifier Contract (BMV) verifies messages sent to a chain’s BMC from external relayers.
-* The Service Contract (BSH) contains application-specific logic that is executed in response to messages received from the BMC.
+* The Message Broker keeps track of BTP messages for a given chain.
+* The Light Client verifies messages sent to a chain’s Message Broker from external relays.
+* The Service Handler contains application-specific logic that is executed in response to messages received from the Message Broker.
 
 ### What is a BTP Relayer?
 
-Without shipping companies like UPS and Fedex, online shopping wouldn’t exist. After all, packages don’t deliver themselves. The same concept applies to BTP, where relayers are responsible for delivering messages across blockchains.
+Without shipping companies like UPS and Fedex, online shopping wouldn’t exist. After all, packages don’t deliver themselves. The same concept applies to BTP, where relays are responsible for delivering messages across blockchains.
 
-If you’re familiar with blockchain lingo, a BTP relayer is similar to a node — it’s an always-online server that provides a necessary service for the blockchain in exchange for a reward paid in ICX. In BTP, a relayer node is responsible for relaying messages between BMCs on the source and destination chains.
+If you’re familiar with blockchain lingo, a BTP relay is similar to a node — it’s an always-online server that provides a necessary service for the blockchain in exchange for a reward paid in ICX. In BTP, a relay node is responsible for relaying messages between Message Brokers on the source and destination chains.
 
-Even though a relayer is technically a middleman, its function is very different from traditional cross-chain bridge operators that also act as custodians. When transferring from Ethereum to Avalanche using the Avalanche Bridge, custody of bridged funds is secured a multi-signature contract operated by four “wardens”. While Avalanche Bridge has proven to be a useful bridging solution thus far, its design relies on trusted bridge operators.
+Even though a relay is technically a middleman, its function is very different from traditional cross-chain bridge operators that also act as custodians. When transferring from Ethereum to Avalanche using the Avalanche Bridge, custody of bridged funds is secured a multi-signature contract operated by four “wardens”. While Avalanche Bridge has proven to be a useful bridging solution thus far, its design relies on trusted bridge operators.
 
-Unlike traditional bridges which rely on handpicked bridge operators, a BTP relayer can be set up by anyone. Furthermore, BTP relayers do not verify cross-chain transactions or custody funds. Instead, relayers only pass messages between chains, and funds are secured on the source and destination chains. This means with BTP, there is no need to trust relayers to move assets across chains because they only contribute to network liveness and reliability — not security.
+Unlike traditional bridges which rely on handpicked bridge operators, a BTP relay can be set up by anyone. Furthermore, BTP relays do not verify cross-chain transactions or custody funds. Instead, relays only pass messages between chains, and funds are secured on the source and destination chains. This means with BTP, there is no need to trust relays to move assets across chains because they only contribute to network liveness and reliability — not security.
 
 ### BTP Token Transfer Example
 
 Let’s walk through an example of how BTP can be used to facilitate a token transfer from Moonbeam to Binance Smart Chain — two chains within the BTP Ecosystem.
 
-* Moonbeam’s BSH locks the user’s tokens on the Moonbeam blockchain.
-* A BTP relayer passes a message containing the token transfer data from Moonbeam’s BMC to ICON’s BMC.
-* ICON’s BMC passes the message to its BMV for verification. To do this, ICON’s BMV reproduces Moonbeam’s consensus protocol to validate the transaction signatures present in the message.
-* Once the message is validated, ICON’s BMC sends a message to Binance Smart Chain’s BMC via a BTP relayer.
-* Binance Smart Chain’s BMC passes the message to its BMV, which validates the message by reproducing ICON’s consensus mechanism locally.
-* Once the message is validated, Binance Smart Chain’s BSH initiates a token mint for the equivalent amount of tokens that were locked up on Moonbeam.
+* Moonbeam’s Service Handler locks the user’s tokens on the Moonbeam blockchain.
+* A BTP relay passes a message containing the token transfer data from Moonbeam’s Message Broker to ICON’s Message Broker.
+* ICON’s Message Broker passes the message to its Light Client for verification. To do this, ICON’s Light Client reproduces Moonbeam’s consensus protocol to validate the transaction signatures present in the message.
+* Once the message is validated, ICON’s Message Broker sends a message to Binance Smart Chain’s Message Broker via a BTP relay.
+* Binance Smart Chain’s Message Broker passes the message to its Light Client, which validates the message by reproducing ICON’s consensus mechanism locally.
+* Once the message is validated, Binance Smart Chain’s Service Handler initiates a token mint for the equivalent amount of tokens that were locked up on Moonbeam.
 
 ## The Advantages of BTP
 
@@ -94,7 +94,7 @@ BTP’s novel architecture allows it to be both secure and decentralized. Since 
 
 In many traditional bridging solutions, the party that relays messages between chains is also in charge of verifying messages. This makes it near impossible for traditional bridging solutions to expand beyond a small set of handpicked bridge operators.
 
-In BTP, the burden of verifying messages is not placed on relayers, which means there is no conflict of interest between security and decentralization. BTP relayers only contribute to liveness and can be operated by anyone. Furthermore, since relayers are incentivized by network issuance, they present yet another way to be rewarded for contributing to the ICON ecosystem.
+In BTP, the burden of verifying messages is not placed on relays, which means there is no conflict of interest between security and decentralization. BTP relays only contribute to liveness and can be operated by anyone. Furthermore, since relays are incentivized by network issuance, they present yet another way to be rewarded for contributing to the ICON ecosystem.
 
 ## How to Join the BTP Ecosystem
 
@@ -102,7 +102,7 @@ We envision a future where BTP seamlessly facilitates cross-chain messaging and 
 
 ## Summary
 
-ICON’s BTP brings cross-chain interoperability to the next level. By utilizing on-chain smart contracts and community-run message relayers, BTP is able to facilitate cross-chain communication in a novel and fully-decentralized way that doesn’t leave custody of funds to a small set of handpicked bridge operators.
+ICON’s BTP brings cross-chain interoperability to the next level. By utilizing on-chain smart contracts and community-run message relays, BTP is able to facilitate cross-chain communication in a novel and fully-decentralized way that doesn’t leave custody of funds to a small set of handpicked bridge operators.
 
 > The vision for BTP is to be prepared for anything. 3 years ago, nobody imagined what interoperability would be used for, now there’s a focus on DeFi. What’s next? We don’t need an answer, we just need a flexible, secure and decentralized interoperability solution, and that’s what BTP is. — Min Kim, ICON Foundation
 

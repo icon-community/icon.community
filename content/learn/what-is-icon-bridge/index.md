@@ -17,14 +17,14 @@ Due to [high gas consumption fee issues](/blog/2022/introducing-icon-bridge-f8d3
 
 ## ICON Bridge vs. BTP
 
-The BTP Message Verifier Contract (BMV) is the most revolutionary aspect of BTP’s technology. It is the mechanism that allows smart contracts–rather than trusted validators–to verify cross-chain transactions.
+The BTP Message Verifier Contract (Light Client) is the most revolutionary aspect of BTP’s technology. It is the mechanism that allows smart contracts–rather than trusted validators–to verify cross-chain transactions.
 
-The BMV is essentially a live, miniature copy of the source blockchain that exists on the destination blockchain. For example, the BMV on Moonriver is a live copy of the ICON blockchain, and vice versa. The Relays are responsible for updating these copy blockchains, to ensure they are up to date and mirror the original chain. As you can imagine, this requires constant updating, as each blockchain produces new blocks at least every few seconds.
+The Light Client is essentially a live, miniature copy of the source blockchain that exists on the destination blockchain. For example, the Light Client on Moonriver is a live copy of the ICON blockchain, and vice versa. The Relays are responsible for updating these copy blockchains, to ensure they are up to date and mirror the original chain. As you can imagine, this requires constant updating, as each blockchain produces new blocks at least every few seconds.
 
 {{< img src="icon-bridge-comparison-chart.jpg" alt="A comparison chart showcasing the differences between ICON Bridge and BTP." >}}
 
-This is where the gas fee issue arises. Keeping the BMV contracts updated has proven to be prohibitively expensive, with each BMV contract requiring an extreme amount of gas fees to remain up-to-date.
+This is where the gas fee issue arises. Keeping the Light Client contracts updated has proven to be prohibitively expensive, with each Light Client contract requiring an extreme amount of gas fees to remain up-to-date.
 
 In response to this issue, ICON has received more support from ICONLOOP, shifting a number of skilled ICONLOOP team members to focus solely on BTP. The amount of brainpower dedicated to building and launching BTP is now the highest that it has ever been. Accordingly, a number of potential solutions to the gas issue are already well under review, the BTP team is fully confident that a fix will be implemented.
 
-In the meantime, we will launch the current iteration of BTP–which we are calling ICON Bridge–to jumpstart interoperability. In lieu of the BMV contract, ICON will serve as the sole Relay operator that will pass messages and verify transactions between chains. This rollout will resemble ICON’s role as the sole validator of the ICON blockchain prior to decentralization in 2019.
+In the meantime, we will launch the current iteration of BTP–which we are calling ICON Bridge–to jumpstart interoperability. In lieu of the Light Client contract, ICON will serve as the sole Relay operator that will pass messages and verify transactions between chains. This rollout will resemble ICON’s role as the sole validator of the ICON blockchain prior to decentralization in 2019.
