@@ -1,7 +1,7 @@
 ---
 title: A Conversation With Moonkyu Song
 subtitle: 
-date: 2022-04-08
+date: 2022-04-12
 slug: a-conversation-with-moon-kyu-song
 description: In this article, learn more about Moonkyu Song – ICONLOOP's lead software engineer currently working on BTP.
 ---
