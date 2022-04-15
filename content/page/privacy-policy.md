@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy for icon.community
+date: 2022-04-15
 description: This privacy policy document contains types of information that is collected and recorded by icon.community and how we use it.
 slug: privacy-policy
 ---
