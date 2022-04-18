@@ -13,7 +13,7 @@ After testing and block import completion, we estimate it will take around two w
 
 Our first BTP integration target to the Moonriver parachain (Kusama) is now complete. We are satisfied with our user acceptance testing results and have a wide test coverage to cover most use cases including extreme network conditions. We have also been building a web application to demonstrate the usage of these smart contracts, including cross-chain token transfers, history, relayer information and more. The web app is currently dubbed “Nexus”, which we will later make available to the public. Community members will be able to experience BTP first hand soon!
 
-Our implementation for Binance Smart Chain is also complete and is currently under review. We are also integrating the smart contracts to the Nexus portal. Users will be able to transfer from ICON to Kusama parachain and BSC and vice versa, enabling our first iteration of BTP technology for cross-chain interoperability.
+Our implementation for BNB Smart Chain is also complete and is currently under review. We are also integrating the smart contracts to the Nexus portal. Users will be able to transfer from ICON to Kusama parachain and BSC and vice versa, enabling our first iteration of BTP technology for cross-chain interoperability.
 
 Near Protocol integration is also full steam ahead and is more than halfway through its implementation. We expect to start reviewing and integrating the Near Protocol soon.
 

@@ -25,7 +25,7 @@ As an EVM-compatible chain, ICE provides an environment for deploying Solidity s
 
 **ICE is the only EVM-compatible parachain that is also optimized for ICON’s BTP.** This means in addition to a baseline BTP integration, ICE will also receive additional optimizations to maximize performance and reliability. With a heavily-optimized BTP integration, our goal is to secure a Polkadot parachain slot and position ICE as a flagship chain within the Polkadot ecosystem that showcases industry-leading cross-chain applications — all powered by ICON’s BTP.
 
-As the primary connection between the ICON and Polkadot ecosystems, ICE will also provide developers with unmatched access to both the ICON BTP and Polkadot interchain networks, as well as their respective communities. This means a developer building on ICE automatically gets access to Polkadot parachains like Moonbeam, Acala, and Astar, as well as optimized connections to BTP-integrated chains like Binance Smart Chain, NEAR Protocol, Harmony, and more.
+As the primary connection between the ICON and Polkadot ecosystems, ICE will also provide developers with unmatched access to both the ICON BTP and Polkadot interchain networks, as well as their respective communities. This means a developer building on ICE automatically gets access to Polkadot parachains like Moonbeam, Acala, and Astar, as well as optimized connections to BTP-integrated chains like BNB Smart Chain, NEAR Protocol, Harmony, and more.
 
 ### SNOW — The ICE Canary Network
 

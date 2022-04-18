@@ -17,15 +17,15 @@ Here are some highlights of the discussion.
 
 ICON Bridge is a full service interoperability network that can be considered “BTP lite”. The primary difference between BTP and ICON Bridge is the removal of the BTP Message Verifier contract (BMV), which delayed BTP deployment due to generating prohibitively high gas costs. 
 
-During the podcast, Mo revealed that ICON Bridge is currently being connected to several partnering blockchains including Binance Smart Chain, Polkadot parachain Moonriver and Layer-1 blockchains Harmony and NEAR. 
+During the podcast, Mo revealed that ICON Bridge is currently being connected to several partnering blockchains including BNB Smart Chain, Polkadot parachain Moonriver and Layer-1 blockchains Harmony and NEAR. 
 
-Excitingly, he announced that ICON Bridge has established a working testnet with Binance Smart Chain, a massive blockchain that holds the world record of [14.7 million blockchain transactions in a single day](https://twitter.com/BNBCHAIN/status/1460922056388710400?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1460922056388710400%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fcointelegraph.com%2Fnews%2Fbinance-smart-chain-hits-record-high-daily-transactions).
+Excitingly, he announced that ICON Bridge has established a working testnet with BNB Smart Chain, a massive blockchain that holds the world record of [14.7 million blockchain transactions in a single day](https://twitter.com/BNBCHAIN/status/1460922056388710400?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1460922056388710400%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fcointelegraph.com%2Fnews%2Fbinance-smart-chain-hits-record-high-daily-transactions).
 
 These integrations mark a major milestone for BTP’s long term vision of connecting all blockchains. Especially because any ground covered for rollout, integrations and feature development will seamlessly carry over to the network’s full launch.
 
 ## ICON Bridge Will Accelerate BTP Adoption
 
-For Mo, BTP’s greatest value is the network effect. Because BTP is blockchain agnostic it can be adopted by nearly any protocol with smart contract capabilities. However, that implementation often requires partner blockchains to undergo a hard fork in order to configure their chain to interoperability standards. This requirement introduced a challenge for early integrations, something Mo personally experienced supervising Binance Smart Chain’s bridging.
+For Mo, BTP’s greatest value is the network effect. Because BTP is blockchain agnostic it can be adopted by nearly any protocol with smart contract capabilities. However, that implementation often requires partner blockchains to undergo a hard fork in order to configure their chain to interoperability standards. This requirement introduced a challenge for early integrations, something Mo personally experienced supervising BNB Smart Chain’s bridging.
 
 All this makes the launch of ICON Bridge even more important, as it presents an opportunity for blockchains to join the BTP Network without the need for a hard fork. Once integration occurs, BTP can grow exponentially via the network effect and deployment of more advanced features like smart contract interoperability can be shipped without significant roadblocks.
 

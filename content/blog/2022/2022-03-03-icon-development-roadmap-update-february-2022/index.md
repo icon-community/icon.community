@@ -45,7 +45,7 @@ As we’ve alluded to in the past and more thoroughly explained in a [prior anno
 
 Meanwhile, here’s a rundown of the progress we made with various integrations this past month, some of the challenges we’ve faced, and what we’re working on this month:
 
-### Binance Smart Chain
+### BNB Smart Chain
 
 As we continue to await the SHA3–256 hard fork requirement that is still [pending review](https://github.com/bnb-chain/bsc/pull/357#issuecomment-1033023851), we are working to integrate ICON Bridge with BSC, which will not require a hard fork. In the meantime, we will also be implementing the ICON Bridge on BSC as our primary focus for March. The tasks we aim to complete include:
 

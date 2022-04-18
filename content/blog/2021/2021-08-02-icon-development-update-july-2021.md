@@ -23,7 +23,7 @@ Lastly, we will propose an initial IISS 3.1 update shortly. Please refer to the 
 
 During our final acceptance testing for Parachain integration, we found an issue of blocks not reaching finality in some extreme cases, such as hard forks that stall BTP communication with a very large accumulated message queue. While this is very unlikely to happen ever, we will not settle for almost robustness. Our teams have investigated this issue and have come up with a solution, to fragmentize the said message queue and properly process them to reach finality. This implementation is currently ongoing, and we expect to complete this task in about a week. Proceeding that will be actual integration to Moonriver (Our first Polkadot Parachain target).
 
-Our integration to Binance Smart Chain has been going smoothly, and we have deployed a custom BSC node with the BTP contracts deployed. Our last task with BSC is the Relayer software which is close to completion as well. We will soon start testing BTP on BSC.
+Our integration to BNB Smart Chain has been going smoothly, and we have deployed a custom BSC node with the BTP contracts deployed. Our last task with BSC is the Relayer software which is close to completion as well. We will soon start testing BTP on BSC.
 
 [![](https://cdn-images-1.medium.com/max/800/1*MCWFumPzMct4sIfIAiPbkw.jpeg)](https://twitter.com/NEARProtocol/status/1419916262830972935)Lastly, our integration to Near Protocol is also full-steam ahead with BTP contract implementation. The team has also announced this on Twitter in case you missed it: [click here](https://twitter.com/NEARProtocol/status/1419916262830972935)
 

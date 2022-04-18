@@ -27,7 +27,7 @@ For more information on Fandiem [click here](http://www.fandiem.com) and follow 
 
 ### **About ICON:**
 
-Founded in 2017 by the ICON Foundation, ICON is a next-generation blockchain protocol with smart contract functionality and interoperability. ICX is the native cryptocurrency of the ICON network. As an aggregator chain, ICON achieves interoperability — a web of interconnected networks aggregating all blockchain data into one layer. ICON’s “Blockchain Transmission Protocol” (BTP) is its novel interoperability solution, allowing all integrated blockchains to be interconnected to each other. Current BTP partners include Binance Smart Chain, Polkadot, NEAR Protocol, and Harmony. ICON also has a growing DeFi ecosystem that includes projects such as Balanced DAO, Omm Finance, Optimus Protocol, and Equality Exchange.
+Founded in 2017 by the ICON Foundation, ICON is a next-generation blockchain protocol with smart contract functionality and interoperability. ICX is the native cryptocurrency of the ICON network. As an aggregator chain, ICON achieves interoperability — a web of interconnected networks aggregating all blockchain data into one layer. ICON’s “Blockchain Transmission Protocol” (BTP) is its novel interoperability solution, allowing all integrated blockchains to be interconnected to each other. Current BTP partners include BNB Smart Chain, Polkadot, NEAR Protocol, and Harmony. ICON also has a growing DeFi ecosystem that includes projects such as Balanced DAO, Omm Finance, Optimus Protocol, and Equality Exchange.
 
 For more information about ICON, [click here](https://iconrepublic.org/)
 

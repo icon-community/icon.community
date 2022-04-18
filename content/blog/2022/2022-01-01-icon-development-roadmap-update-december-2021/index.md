@@ -40,7 +40,7 @@ With the passing of the Revision 15 network proposal, Java SCORE (ICON’s smart
 
 We migrated from the multi-token standard (IRC31, ERC1155) to the base token standard(IRC2, ERC20) for MoonRiver. This will allow us to work directly with existing dApps on ICON and MoonRiver. We also addressed inconsistent synchronization between BMVs and BMRs, fixed a problem with unstable socket connections, updated to the latest Moonriver runtime, and fixed the max block update per segment to avoid a max gas limit error.
 
-### Binance Smart Chain (BSC)
+### BNB Smart Chain (BSC)
 
 We completed the BSC integration on the Nexus portal, and solved all requests from BSC to finalize a pull request. Currently, we are awaiting a BSC hard fork before deploying to production for final testing.
 

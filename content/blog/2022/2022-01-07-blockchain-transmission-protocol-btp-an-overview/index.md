@@ -25,7 +25,7 @@ A growing number of blockchains are implementing BTP smart contracts. Here’s a
 * Moonriver Blockchain
 * Moonbeam Blockchain
 * Algorand Blockchain
-* Binance Smart Chain
+* BNB Smart Chain
 * Harmony Protocol
 * NEAR Protocol
 
@@ -41,7 +41,7 @@ Joining BTP requires the implementation of a set of three smart contracts. These
 
 These smart contracts form the pillars of BTP’s functionality, yet they don’t require equal efforts to implement.
 
-The Service Handler and the Message Center contracts can be re-applied to similar blockchains. This means that Ethereum compatible blockchains, for example, can all use the same codebase (think ICE Blockchain, Binance Smart Chain, Harmony Protocol).
+The Service Handler and the Message Center contracts can be re-applied to similar blockchains. This means that Ethereum compatible blockchains, for example, can all use the same codebase (think ICE Blockchain, BNB Smart Chain, Harmony Protocol).
 
 The Message Verifier is unique to each blockchains and requires time and attention from both the joining blockchain and ICON developers.
 

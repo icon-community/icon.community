@@ -2,7 +2,7 @@
 title: "ICON’s Expanding Ecosystem"
 date: 2021-10-26
 slug: icons-expanding-ecosystem-ec2eaf481be4
-description: ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam, Binance Smart Chain, Near, Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transactions.
+description: ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam, BNB Smart Chain, Near, Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transactions.
 ---
 
 The ICON Project is at a momentous time in its history as the new mainnet is scheduled for launch by the first week of November ([see recent timeline announcement here](https://twitter.com/helloiconworld/status/1451461964316626947?s=20)).
@@ -13,7 +13,7 @@ Among some key technical improvements of the new mainnet include: an improved bl
 
 Most importantly, however, the launch of ICON 2.0 marks the realization of ICON’s original mission and founding purpose, outlined in the original whitepaper — to hyperconnect all blockchains. With “interoperability” the buzzword du jour, the ICON Project is proud to present a unique interoperability solution among contenders like Cosmos’s IBC, Polkadot’s Relay Chain-Parachain Model, and Solana’s Wormhole. Key distinguishing features of ICON’s interoperability model, BTP (Blockchain Transmission Protocol), are blockchain agnosticity and trustless verification.
 
-With interoperability on the horizon, ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam ([integration complete](https://moonbeam.network/community/projects/icon-foundation/)), Binance Smart Chain, Near ([nearing completion](https://medium.com/helloiconworld/icon-development-roadmap-update-september-2021-698cab3ac84f)), Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transaction types such as yield farming and asset staking on other networks.
+With interoperability on the horizon, ICON’s ecosystem is expected for explosive growth as integration with BTP partner blockchains Moonbeam ([integration complete](https://moonbeam.network/community/projects/icon-foundation/)), BNB Smart Chain, Near ([nearing completion](https://medium.com/helloiconworld/icon-development-roadmap-update-september-2021-698cab3ac84f)), Edgeware, and Harmony make possible interactions ranging from basic token transfer to more complex transaction types such as yield farming and asset staking on other networks.
 
 The end user will encounter BTP through Nexus, the BTP dashboard that will soon be available.
 

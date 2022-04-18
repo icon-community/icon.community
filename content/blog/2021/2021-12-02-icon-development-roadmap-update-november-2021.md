@@ -9,10 +9,10 @@ With the successful launch of ICON 2.0 in early November, our team resumed work 
 
 ## BTP
 
-This past month, we made significant progress on Blockchain Transmission Protocol (BTP) integrations with Moonriver, Binance Smart Chain, and NEAR.
+This past month, we made significant progress on Blockchain Transmission Protocol (BTP) integrations with Moonriver, BNB Smart Chain, and NEAR.
 
 * **Moonriver** — Through our extensive testing with Moonriver BTP integration, we were able to identify and fix a variety of bugs including transaction disorder caused by slow network conditions, unstable socket connections, and mismatched block times. A stable version of the Moonriver integration is currently running on testnet, and we plan on pushing it to a production environment testing next week.
-* **Binance Smart Chain (BSC)** — We are putting the finishing touches on the Nexus portal for Binance Smart Chain, and a hard fork has been initiated by the BSC team. Once the hard fork has been completed, the BTP integration with BSC will go live.
+* **BNB Smart Chain (BSC)** — We are putting the finishing touches on the Nexus portal for BNB Smart Chain, and a hard fork has been initiated by the BSC team. Once the hard fork has been completed, the BTP integration with BSC will go live.
 * **NEAR** — The NEAR integration team has completed all the required backend work for BTP integration, and has provided us with a very detailed integration document. We are now in the process of adding support for NEAR in the Nexus portal.
 
 ## ICON 2.0

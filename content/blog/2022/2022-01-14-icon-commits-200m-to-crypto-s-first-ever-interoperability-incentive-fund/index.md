@@ -59,7 +59,7 @@ For blockchain projects looking to take part in this interoperability incentive 
 
 ICON recently launched ICON 2.0, which introduces a superior core blockchain engine, support for Java smart contracts, the interoperability technology BTP and revamped tokenomics.
 
-ICON is building integrations with prominent blockchains such as Binance Smart Chain, Polkadot, Kusama, Moonriver, Astar Network, Edgeware, Acala, NEAR, Harmony, Algorand, upcoming sister-blockchain ICE and canary network SNOW. As this list of integrations continues to grow, our team believes we will experience network effects and the pace of adoption will increase.
+ICON is building integrations with prominent blockchains such as BNB Smart Chain, Polkadot, Kusama, Moonriver, Astar Network, Edgeware, Acala, NEAR, Harmony, Algorand, upcoming sister-blockchain ICE and canary network SNOW. As this list of integrations continues to grow, our team believes we will experience network effects and the pace of adoption will increase.
 
 ICON will continue to pursue additional BTP integrations, fund innovative BTP use cases and enhance the core BTP product offering as we strive to be the industry leader for interoperability technology and cross-chain applications.
 

@@ -32,7 +32,7 @@ ICON Bridge leverages BTP’s core building blocks and offers a bridging product
 
 Like BTP, ICON Bridge is chain-agnostic and able to interconnect any blockchain that supports smart contracts. It will function in a comparable manner to many other popular cross-chain bridges throughout the industry. Those who have utilized bridges on other popular chains should feel just as comfortable using ICON Bridge.
 
-ICON Bridge will offer a glimpse of what to expect once BTP is live: integrations between Moonriver Network, Binance Smart Chain, and NEAR and the implementation of the originally proposed auction system for BTP that will aggregate cross-chain transaction fees into the FAS (Fee Aggregation SCORE).
+ICON Bridge will offer a glimpse of what to expect once BTP is live: integrations between Moonriver Network, BNB Smart Chain, and NEAR and the implementation of the originally proposed auction system for BTP that will aggregate cross-chain transaction fees into the FAS (Fee Aggregation SCORE).
 
 A key feature to note is that ICON Bridge will not require other chains to hard fork to implement the bridge, thereby providing a fairly straightforward integration path. We anticipate this will lead to increased adoption from various chains, connections that will ultimately transfer to BTP.
 
@@ -49,7 +49,7 @@ Work on BTP continues across the board and its development can be divided into t
 
 The first aspect of BTP Product & Infrastructure covers transaction infrastructure and important smart contract elements such as the much discussed BTP Message Verifier Contract. ICON’s technical partner, ICONLOOP, will now be working on all BTP Product & Infrastructure issues, as well as future iterations of BTP.
 
-BTP Partner Integrations are being implemented by ICON ecosystem teams such as ICONDAO, Web3Labs, and HugoByte to name a few. These teams work on building the integration contracts with partners such as Moonbeam Network, Binance Smart Chain, and NEAR Protocol. Many of these integrations are in the final testing stages for implementation on the ICON Bridge.
+BTP Partner Integrations are being implemented by ICON ecosystem teams such as ICONDAO, Web3Labs, and HugoByte to name a few. These teams work on building the integration contracts with partners such as Moonbeam Network, BNB Smart Chain, and NEAR Protocol. Many of these integrations are in the final testing stages for implementation on the ICON Bridge.
 
 ## Summary
 

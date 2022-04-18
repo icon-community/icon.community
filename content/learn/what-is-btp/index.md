@@ -16,7 +16,7 @@ Before we dive into how BTP works on a technical level, let’s quickly walk thr
 The most common interoperability use case is transferring tokens from one blockchain to another. Cross-chain bridge contracts typically work by burning tokens on the source chain and minting the equivalent amount of tokens on the destination chain. With BTP, users will be able to transfer tokens across any connected chains without the need for chain-specific bridges between each pair of chains.
 ### Cross-Chain Arbitrage
 
-Unlike most of the current bridging solutions which only support cross-chain token swaps, future iterations of BTP will also support more generic messaging features like cross-chain smart contract calls. This means a smart contract running on ICON will be able to interact with smart contracts running on [Binance Smart Chain](https://binance.com), [Moonbeam](https://moonbeam.network), and more. This makes BTP an attractive solution for building a decentralized cross-chain arbitrage trading platform that is able to fetch market quotes and execute orders across multiple chains.
+Unlike most of the current bridging solutions which only support cross-chain token swaps, future iterations of BTP will also support more generic messaging features like cross-chain smart contract calls. This means a smart contract running on ICON will be able to interact with smart contracts running on [BNB Smart Chain](https://binance.com), [Moonbeam](https://moonbeam.network), and more. This makes BTP an attractive solution for building a decentralized cross-chain arbitrage trading platform that is able to fetch market quotes and execute orders across multiple chains.
 
 ### Cross-Chain “NFT-as-Identity”
 
@@ -50,20 +50,20 @@ Unlike traditional bridges which rely on handpicked bridge operators, a BTP rela
 
 ### BTP Token Transfer Example
 
-Let’s walk through an example of how BTP can be used to facilitate a token transfer from Moonbeam to Binance Smart Chain — two chains within the BTP Ecosystem.
+Let’s walk through an example of how BTP can be used to facilitate a token transfer from Moonbeam to BNB Smart Chain — two chains within the BTP Ecosystem.
 
 * Moonbeam’s Service Handler locks the user’s tokens on the Moonbeam blockchain.
 * A BTP relay passes a message containing the token transfer data from Moonbeam’s Message Broker to ICON’s Message Broker.
 * ICON’s Message Broker passes the message to its Light Client for verification. To do this, ICON’s Light Client reproduces Moonbeam’s consensus protocol to validate the transaction signatures present in the message.
-* Once the message is validated, ICON’s Message Broker sends a message to Binance Smart Chain’s Message Broker via a BTP relay.
-* Binance Smart Chain’s Message Broker passes the message to its Light Client, which validates the message by reproducing ICON’s consensus mechanism locally.
-* Once the message is validated, Binance Smart Chain’s Service Handler initiates a token mint for the equivalent amount of tokens that were locked up on Moonbeam.
+* Once the message is validated, ICON’s Message Broker sends a message to BNB Smart Chain’s Message Broker via a BTP relay.
+* BNB Smart Chain’s Message Broker passes the message to its Light Client, which validates the message by reproducing ICON’s consensus mechanism locally.
+* Once the message is validated, BNB Smart Chain’s Service Handler initiates a token mint for the equivalent amount of tokens that were locked up on Moonbeam.
 
 ## The Advantages of BTP
 
 ### BTP is Chain-Agnostic and Scalable
 
-BTP is chain-agnostic, which means it can be integrated with any blockchain that supports smart contracts. In fact, as of this writing, chains such as Binance Smart Chain, NEAR, Harmony, Algorand, and Moonbeam are all in the process of integrating BTP into their respective ecosystems.
+BTP is chain-agnostic, which means it can be integrated with any blockchain that supports smart contracts. In fact, as of this writing, chains such as BNB Smart Chain, NEAR, Harmony, Algorand, and Moonbeam are all in the process of integrating BTP into their respective ecosystems.
 
 ### BTP is Easy to Integrate
 
@@ -98,7 +98,7 @@ In BTP, the burden of verifying messages is not placed on relays, which means th
 
 ## How to Join the BTP Ecosystem
 
-We envision a future where BTP seamlessly facilitates cross-chain messaging and transfers for billions of users around the world. We are currently working with BTP partners like Binance Smart Chain, NEAR Protocol, Harmony, Algorand, and more to fulfill this vision. If you’re interested in joining the BTP ecosystem, please [reach out to us on the official ICON Discord](https://discord.com/invite/7a75Hf3cFm).
+We envision a future where BTP seamlessly facilitates cross-chain messaging and transfers for billions of users around the world. We are currently working with BTP partners like BNB Smart Chain, NEAR Protocol, Harmony, Algorand, and more to fulfill this vision. If you’re interested in joining the BTP ecosystem, please [reach out to us on the official ICON Discord](https://discord.com/invite/7a75Hf3cFm).
 
 ## Summary
 

@@ -59,7 +59,7 @@ Progress was made on BTP partner integrations as well:
 
 ## ICON Bridge
 
-We’ve also made progress on ICON Bridge integrations with our BTP partners. At this time, we are testing the ICON Bridge backend on Binance Smart Chain, and have started the ICON Bridge integration on Harmony.
+We’ve also made progress on ICON Bridge integrations with our BTP partners. At this time, we are testing the ICON Bridge backend on BNB Smart Chain, and have started the ICON Bridge integration on Harmony.
 
 ## Next Month’s Focus
 In April, we will focus on the following areas:
@@ -82,7 +82,7 @@ In April, we will focus on the following areas:
 
 ### ICON Bridge
 
-* Finalize ICON Bridge integration on Binance Smart Chain.
+* Finalize ICON Bridge integration on BNB Smart Chain.
 * Continue ICON Bridge integration on Harmony.
 
 We are excited to continue working on bringing BTP and ICON Bridge to life in April. To stay up to date with the latest developments, be sure to [subscribe to our newsletter](https://foundation.us15.list-manage.com/subscribe?u=d8b1e5594bd92c54dc0c7141c&id=fbc02bbf32) and [join us on Discord](https://discord.com/invite/7a75Hf3cFm)!
