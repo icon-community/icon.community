@@ -29,7 +29,6 @@
         {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
         <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
         {{ else }}
-        {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
         <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
         {{ end }}
         <!-- HTMX -->
