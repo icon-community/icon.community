@@ -72,6 +72,11 @@
                                 Glossary
                             </a>
                         </li>
+                        <li class="text-gray-400">
+                            <a href="/icon-branding-kit.zip">
+                                Branding Kit
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- Community -->
@@ -120,25 +125,45 @@
             </a>
 
         </div>
-        <div
-            class="sm:order-1 sm:text-sm sm:text-left flex-row items-center justify-center space-y-2 text-xs text-center text-gray-400">
-            <div>
-                <p>
-                    <a href="https://github.com/icon-community/icon.community">ICON Community Website</a> &copy;
-                    {{ now.Format "2006" }} by ICON Foundation
-                </p>
-                <p>
-                    <a class="hover:underline no-underline" href="https://creativecommons.org/licenses/by/4.0/">Licensed
-                        under Creative Commons Attribution
-                        4.0 International</a>
-                </p>
-            </div>
-            <div id="netlify-badge" class="sm:items-left sm:justify-start flex items-center justify-center">
+
+        <div class="sm:flex-row flex flex-col items-center justify-center gap-4">
+            <div id="netlify-badge" class="sm:order-1 order-2">
                 <a href="https://www.netlify.com">
                     <img class="w-20" src="https://www.netlify.com/img/global/badges/netlify-light.svg"
                         alt="Deploys by Netlify" />
                 </a>
             </div>
+            <div id="copyright-text"
+                class="sm:order-2 sm:text-left order-1 space-y-2 text-xs text-center text-gray-400">
+                <div>
+                    <p>
+                        <a href="https://github.com/icon-community/icon.community" class="hover:underline">ICON
+                            Community Website</a> &copy;
+                        {{ now.Format "2006" }} by <a href="https://icon.foundation" class="hover:underline"
+                            target="_blank">ICON Foundation</a>
+                    </p>
+                    <p>
+                        Licensed
+                        under <a class="hover:underline no-underline"
+                            href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+                    </p>
+                </div>
+                <div>
+                    <ul class="sm:justify-start flex justify-center gap-2">
+                        <li class="inline">
+                            <a class="hover:underline" href="/privacy-policy/">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="inline">
+                            <a class="hover:underline" href="mailto:hello@icon.foundation">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </div>
 </footer>
