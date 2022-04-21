@@ -1,7 +1,7 @@
 ---
 title: Transaction
-description: An action that represents a user calling the ABI of a smart contract
+description: Cryptographically signed instructions from accounts
 slug: transaction
 ---
 
-An action that represents a user calling the ABI of a smart contract
+Cryptographically signed instructions from accounts
