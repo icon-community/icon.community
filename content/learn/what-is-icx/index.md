@@ -81,9 +81,7 @@ There are three wallets available for storing ICX and interacting with the ICON 
 
 ### Hana
 
-The [Hana](https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogdffldioobgl) wallet is a Chrome extension that was developed by [ReliantNode](https://www.reliantnode.com), a validator node on ICON.
-
-Similar to other multi-chain wallets like MetaMask, Hana provides support for multiple blockchains including ICON, Ethereum, Polkadot, Kusama, and Moonbeam. Hana also boasts a seamless user interface and experience and is compatible with the Ledger hardware wallet.
+The [Hana](https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogdffldioobgl) wallet is a Chrome extension that was developed by [ReliantNode](https://www.reliantnode.com), a validator node on ICON. Similar to other multi-chain wallets like MetaMask, Hana provides support for multiple blockchains including ICON, Ethereum, Polkadot, Kusama, and Moonbeam. Hana also boasts a seamless user interface and experience and is compatible with the Ledger hardware wallet.
 
 ### ICONex
 
