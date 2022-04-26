@@ -2,7 +2,7 @@
 title: Wonderland to Support Cross-Chain NFT Minting Between ICON and Harmony With ICON Bridge
 subtitle: 
 date: 2022-04-26
-slug: wonderland-to-support-cross-chain-nft-minting-between-icon-bridge-and-harmony-with-icon-bridge
+slug: wonderland-to-support-cross-chain-nft-minting-between-icon-and-harmony-with-icon-bridge
 description: Wonderland, the Alice in Wonderland-inspired metaverse game that is currently in development, will use ICON Bridge to facilitate cross-chain NFT minting between ICON and Harmony.
 ---
 
