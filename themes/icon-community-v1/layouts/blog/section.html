@@ -12,13 +12,12 @@
         {{ end }}
         {{ $authorName := $data.Get "authorName" }}
         {{ $authorId := replace (lower ($authorName)) " " "-" }}
-        <div class="flex flex-col overflow-hidden rounded-lg">
-            <div class="flex-shrink-0">
+        <div class="flex flex-col overflow-hidden border border-gray-300 rounded-lg">
+            <div class=" flex-shrink-0 border-b border-gray-300">
                 <img class="h-60 object-cover w-full" src="{{ partial "featured_image.html" . }}"
                     alt="{{ .Params.description }}">
             </div>
-            <div
-                class="dark:border-gray-700 flex flex-col justify-between flex-1 p-6 border-b border-l border-r border-gray-300 rounded-b-lg">
+            <div class="dark:border-gray-700 flex flex-col justify-between flex-1 p-6">
                 <div class="flex-1">
                     {{ with .Params.category }}
                     <p class="text-icon-lo text-sm font-bold">
