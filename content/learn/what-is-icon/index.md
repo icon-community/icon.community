@@ -149,7 +149,7 @@ For example, staking the OMM token on Omm generates claimable staking rewards ev
 
 ### Craft
 
-{{< img src="craft.jpg" alt="Mint, buy, and sell NFTs on Craft, the community-owned NFT marketplace." caption="Mint, buy, and sell NFTs on Craft, the community-owned NFT marketplace." >}}
+{{< img src="craft-dapp.jpg" alt="Mint, buy, and sell NFTs on Craft, the community-owned NFT marketplace." caption="Mint, buy, and sell NFTs on Craft, the community-owned NFT marketplace." >}}
 
 [Craft](https://craft.network) is ICON’s premier NFT marketplace. As a community-owned marketplace, Craft distributes a percentage of collected fees to holders of the CFT token. Craft features a rich variety of NFT collections including [GangstaBet](https://gangstabet.io), [Tamashi](https://studiomirai.io), PinkPunks, RagePups, and more.
 
