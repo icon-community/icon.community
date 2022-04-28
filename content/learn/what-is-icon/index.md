@@ -171,7 +171,7 @@ However, to address the issue of EVM compatibility, ICON bootstrapped a secondar
 
 The goal of ICE is to launch an EVM-compatible Polkadot parachain with first-class support for ICON’s BTP and ICON Bridge interoperability solutions. For Solidity developers, ICE will offer a comfortable and familiar environment for writing and deploying smart contracts. As a Polkadot parachain that also supports BTP, ICE will also be able to communicate with other parachains via the Polkadot Relay Chain, as well as external chains via BTP. For developers looking to work with cutting edge technologies and economic designs, the SNOW canary network running on Kusama will offer an economically-incentivized playground for real-world experimentation.
 
-# Where to Buy ICON (ICX)
+## Where to Buy ICON (ICX)
 ICX is available on a variety of centralized and decentralized exchanges including:
 
 * [Balanced](https://app.balanced.network/trade)
