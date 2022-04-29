@@ -86,12 +86,12 @@
                     </h3>
                     <ul role="list" class="mt-4 space-y-4">
                         <li class="text-gray-400">
-                            <a href="{{ $.Site.Params.social.discord_url }}">
+                            <a href="{{ $.Site.Params.social.discordUrl }}">
                                 Discord
                             </a>
                         </li>
                         <li class="text-gray-400">
-                            <a href="{{ $.Site.Params.social.twitter_url }}">
+                            <a href="{{ $.Site.Params.social.twitterUrl }}">
                                 Twitter
                             </a>
                         </li>
@@ -129,7 +129,8 @@
         <div class="sm:flex-row flex flex-col items-center justify-center gap-4">
             <div id="netlify-badge" class="sm:order-1 order-2">
                 <a href="https://www.netlify.com">
-                    <img class="w-20" src="/assets/images/netlify.svg" alt="Deploys by Netlify" />
+                    <img class="w-20" src="{{ partial "cdn_url.html" }}/assets/images/netlify.svg"
+                        alt="Deploys by Netlify" />
                 </a>
             </div>
             <div id="copyright-text"
