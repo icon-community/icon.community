@@ -11,7 +11,7 @@
         </p>
         <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About ICON" "buttonUrl" "/learn/") }}
-            {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url) }}
+            {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discordUrl) }}
         </div>
     </div>
     <div class="relative overflow-hidden">
@@ -67,7 +67,8 @@
                 <div class="sm:mt-16 lg:mt-0 mt-12">
                     <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
                         <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
-                            src="/assets/images/powered-by-icx.jpg" alt="Inbox user interface">
+                            src="{{ partial "cdn_url.html" }}/assets/images/powered-by-icx.jpg"
+                            alt="Inbox user interface">
                     </div>
                 </div>
             </div>
@@ -78,7 +79,7 @@
                 <div class="sm:mt-16 lg:mt-0 lg:order-1 order-2 mt-12">
                     <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
                         <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
-                            src="/assets/images/interoperability.jpg"
+                            src="{{ partial "cdn_url.html" }}/assets/images/interoperability.jpg"
                             alt="Decentralized, Fast, and Secure Interoperability">
                     </div>
                 </div>
@@ -115,7 +116,7 @@
                             </p>
                             <div id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Read Docs" "buttonUrl" "https://icondev.io/") }}
-                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" $.Site.Params.social.dev_discord_url) }}
+                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" $.Site.Params.social.dev_discordUrl) }}
                             </div>
                         </div>
                     </div>
@@ -123,7 +124,7 @@
                 <div class="sm:mt-16 lg:mt-0 mt-12">
                     <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
                         <img class="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none dark:border-gray-800 w-full border border-gray-200 shadow-xl"
-                            src="/assets/images/java-score.jpg" alt="Inbox user interface">
+                            src="{{ partial "cdn_url.html" }}/assets/images/java-score.jpg" alt="Inbox user interface">
                     </div>
                 </div>
             </div>

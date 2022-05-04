@@ -6,7 +6,8 @@
                 <picture>
                     <!--<source srcset="/assets/images/icon/logo-dark.png" media="(prefers-color-scheme: dark)">
                     <source srcset="/assets/images/icon/logo-light.png" media="(prefers-color-scheme: light)">-->
-                    <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community">
+                    <img class="w-auto h-8" src="{{ partial "cdn_url.html" }}/assets/images/icon/logo-light.png"
+                        alt="ICON Community">
                 </picture>
             </a>
         </div>
@@ -31,7 +32,7 @@
             {{ partial "layout/navigation/dropdown_community.html" . }}
         </nav>
         <div class="md:block justify-end hidden">
-            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discord_url )}}
+            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discordUrl )}}
         </div>
     </div>
     {{ partial "layout/navigation/navigation_mobile.html" . }}

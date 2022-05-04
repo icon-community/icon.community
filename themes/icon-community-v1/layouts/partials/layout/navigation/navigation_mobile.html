@@ -14,7 +14,8 @@
         <div>
             <div class="flex items-center justify-between p-4 border-b border-gray-200">
                 <div>
-                    <img class="w-auto h-8" src="/assets/images/icon/logo-light.png" alt="ICON Community">
+                    <img class="w-auto h-8" src="{{ partial "cdn_url.html" }}/assets/images/icon/logo-light.png"
+                        alt="ICON Community">
                 </div>
                 <div class="-mr-2">
                     <button type="button"
@@ -141,7 +142,7 @@
                                     bite-sized format.</p>
                             </div>
                         </a>
-                        <a href="{{ $.Site.Params.social.roadmap_url }}"
+                        <a href="{{ $.Site.Params.social.roadmapUrl }}"
                             class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
                             <!-- Heroicon name: outline/chart-bar -->
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +165,7 @@
                     <button class="hover:bg-gray-100 w-full p-4 text-lg font-medium text-gray-900"
                         :class="{ 'bg-gray-100': open}" @click=" open=! open">Community</button>
                     <div x-show="open" class="divide-y divide-gray-200">
-                        <a href="{{ $.Site.Params.social.discord_url }}"
+                        <a href="{{ $.Site.Params.social.discordUrl }}"
                             class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
                             <!-- Heroicon name: outline/cursor-click -->
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
