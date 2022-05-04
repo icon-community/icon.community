@@ -53,7 +53,7 @@ In May, we will focus on the following areas:
 
 ### BTP Integrations
 
-* Continue working on Message Broker and Service Handler contracts.
+* Continue working on Algorand Message Broker and Service Handler contracts.
 
 ### ICON Bridge
 
