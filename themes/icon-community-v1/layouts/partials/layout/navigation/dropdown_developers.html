@@ -2,7 +2,7 @@
     <button type="button"
         class="group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium rounded-md"
         aria-expanded="false" @click="open = true">
-        <span>Developers</span>
+        <span id="hdev1">Developers</span>
         <svg class="group w-5 h-5 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
             aria-hidden="true" :class="open && 'rotate-180'">
             <path fill-rule="evenodd"
@@ -29,21 +29,23 @@
                             <div>
                                 <p class="text-gray-50 mt-1 text-sm">As part of our <a
                                         href="/interoperability-incentive-program/"
-                                        class="hover:no-underline underline">Interoperability Incentive
+                                        class="hover:no-underline underline"
+                                        id="hdev2">Interoperability Incentive
                                         Program</a>,
                                     we've set aside 200 million ICX to incentivize development of products and tools
                                     that use ICON's BTP technology.</p>
                             </div>
                             <p>
                                 <a href="{{ $.Site.Params.forms.incentiveProgramSubmissionUrl }}"
-                                    class="text-gray-50 hover:underline font-bold" target="_blank">Apply Now &#8594</a>
+                                    class="text-gray-50 hover:underline font-bold" target="_blank" id="hdev3">Apply Now &#8594</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="p-3">
                     <a href="https://icondev.io"
-                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg">
+                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                        id="hdev4">
                         <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,7 +58,8 @@
                         </div>
                     </a>
                     <a href="https://github.com/icon-project/java-score-examples"
-                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg">
+                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                        id="hdev5">
                         <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
