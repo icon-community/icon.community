@@ -26,12 +26,13 @@
         <nav role="navigation" class="md:flex sm:space-x-6 md:space-x-8 lg:space-x-12 hidden">
             {{ partial "layout/navigation/dropdown_developers.html" . }}
             <div>
-                <a href="/ecosystem/" class="font-medium">Ecosystem</a>
+                <a href="/ecosystem/" class="font-medium" id="heco1">Ecosystem</a>
             </div>
             {{ partial "layout/navigation/dropdown_resources.html" . }}
             {{ partial "layout/navigation/dropdown_community.html" . }}
         </nav>
-        <div class="md:block justify-end hidden">
+        <div class="md:block justify-end hidden"
+        id="hdis1">
             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discordUrl )}}
         </div>
     </div>
@@ -51,7 +52,8 @@
                 </span>
                 <p class="sm:text-base text-sm font-medium text-white">
                     <span class="inline">{{ $.Site.Params.banner.message }} <a href="{{ $.Site.Params.banner.url }}"
-                            class="hover:no-underline underline">Learn More!</a></span>
+                            class="hover:no-underline underline"
+                            id="hbar1">Learn More!</a></span>
                 </p>
             </div>
         </div>
