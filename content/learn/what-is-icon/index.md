@@ -113,9 +113,9 @@ Unlike Ethereum and EVM-based blockchains that use the Solidity programming lang
 Similar to Ethereum, ICON has a variety of extensible blockchain token standards that allow developers to quickly bootstrap decentralized applications.
 
 * [IRC-2](https://github.com/icon-project/IIPs/blob/master/IIPS/iip-2.md) – A token standard for issuing fungible tokens (based on ERC-20).
-* [IRC-3](https://github.com/icon2infiniti/Samples/tree/master/IRC3) – A token standard for issuing non-fungible tokens.
+* [IRC-3](https://github.com/icon2infiniti/Samples/tree/master/IRC3) – A token standard for issuing non-fungible tokens (based on ERC-721).
 * [IRC-16](https://github.com/icon2infiniti/Samples/tree/master/IRC16) – A token standard for tokenizing physical assets such as real estate.
-* [IRC-31](https://github.com/icon-project/IIPs/issues/31) – A token standard for issuing multiple token types in a single contract (based on ERC-721).
+* [IRC-31](https://github.com/icon-project/IIPs/issues/31) – A token standard for issuing multiple token types in a single contract (based on ERC-1155).
 
 ### Identity Management with Magic
 
