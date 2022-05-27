@@ -133,4 +133,4 @@ After importing the wallet, your new Ledger account will be listed under "My wal
 
 ## Summary
 
-From sending transactions, to staking and delegating ICX, to Ledger hardware wallet support, the Hana wallet has everything you need to get started on ICON. If you have any questions about how to use Hana, feel free to start a discussion on the [official ICON Discord](https://discord.com/invite/7a75Hf3cFm).
+From sending transactions, to staking and delegating ICX, to Ledger hardware wallet support, the Hana wallet has everything you need to get started on ICON. If you have any questions about how to use Hana, be sure to check out the [official Hana docs](https://docs.reliantnode.com) or start a discussion on the [official ICON Discord](https://discord.com/invite/7a75Hf3cFm).
