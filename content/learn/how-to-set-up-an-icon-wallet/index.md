@@ -113,7 +113,7 @@ Click "Show more" in the ICON section, and select the desired testnet.
 
 ## How to Use Hana With a Ledger Wallet
 
-The Ledger Nano line of hardware wallets are extremely popular among ICX holders and beyond. Hana has built-in support for Ledger wallets, which makes it super easy to use your hardware wallet to send ICX transactions and use ICON dApps.
+The [Ledger Nano](https://www.ledger.com) line of hardware wallets are extremely popular among ICX holders and beyond. Hana has built-in support for Ledger wallets, which makes it super easy to use your hardware wallet to send ICX transactions and use ICON dApps.
 
 To add a Ledger wallet to Hana, click the hamburger icon in the top right corner of Hana, click "Add a wallet", and select "Restore a wallet". 
 

@@ -56,10 +56,10 @@
                 style="display:none;visibility:hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
-        {{ partial "navigation_bar.html" . }}
+        {{ partialCached "navigation_bar.html" . }}
         {{ block "container" . }}{{ end }}
-        {{ partial "footer.html" . }}
-        {{ partial "cookie_notice.html" }}
+        {{ partialCached "footer.html" . }}
+        {{ partialCached "cookie_notice.html" }}
     </body>
 
 </html>
