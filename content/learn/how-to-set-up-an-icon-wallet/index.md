@@ -130,3 +130,7 @@ Something which you may not know is that Ledger wallets come with support for mu
 After importing the wallet, your new Ledger account will be listed under "My wallets".
 
 {{< img src="hana-imported-ledger-account.jpg" alt="Ledger wallet in Hana." caption="Ledger wallet in Hana." >}}
+
+## Summary
+
+From sending transactions, to staking and delegating ICX, to Ledger hardware wallet support, the Hana wallet has everything you need to get started on ICON. If you have any questions about how to use Hana, feel free to start a discussion on the [official ICON Discord](https://discord.com/invite/7a75Hf3cFm).
