@@ -24,29 +24,12 @@
         <meta name="twitter:image" content="{{ partial "featured_image.html" . | absURL }}" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@helloiconworld">
-        {{ $styles := resources.Get "css/main.css" | postCSS }}
-        {{ if hugo.IsProduction }}
-        {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
-        {{ else }}
-        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
-        {{ end }}
+        {{ partialCached "styles.html" . }}
         <!-- HTMX -->
         <script src="https://unpkg.com/htmx.org@1.6.1"></script>
         <!-- AlpineJS -->
         <script src="https://unpkg.com/alpinejs" defer></script>
-        <!-- Google Tag Manager -->
-        <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || []; w[l].push({
-                    'gtm.start':
-                        new Date().getTime(), event: 'gtm.js'
-                }); var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-WBTGP42');
-        </script>
-        <!-- End Google Tag Manager -->
+        {{ partialCached "google_analytics.html" . }}
     </head>
 
     <body class="bg-gray-50 dark:bg-gray-900 dark:text-gray-100 font-sans antialiased text-gray-900">
