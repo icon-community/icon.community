@@ -37,3 +37,7 @@ params:
     faqSubmissionUrl: https://discord.com/invite/7a75Hf3cFm
     ecosystemSubmissionUrl: https://se8br1ugut6.typeform.com/to/MBBDnTNG
     incentiveProgramSubmissionUrl: https://se8br1ugut6.typeform.com/to/Qkialcom
+
+markup:
+  tableOfContents:
+    endLevel: 2

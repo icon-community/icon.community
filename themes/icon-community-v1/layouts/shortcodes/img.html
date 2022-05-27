@@ -4,6 +4,7 @@
 
 <figure class="my-4 space-y-1">
     <img class="w-full" alt="{{ $altText }}"
-        src="{{ partial "cdn_url.html" . }}{{ .Page.RelPermalink }}{{ $image }}?w=1920&fit=max&auto=format&fm=pjpg&q=50&gif-q=35" />
+        src="{{ partial "cdn_url.html" . }}{{ .Page.RelPermalink }}{{ $image }}?w=1920&fit=max&auto=format&fm=pjpg&q=50&gif-q=35"
+        loading="lazy" />
     <figcaption class="text-sm text-center">{{ $caption }}</figcaption>
 </figure>
