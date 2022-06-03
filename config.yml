@@ -24,8 +24,8 @@ categories:
 
 params:
   banner:
-    message: Our 200M ICX Interoperability Incentive Program is live.
-    url: /interoperability-incentive-program/
+    message: Read the BTP Litepaper to learn about ICON's bridging solution!
+    url: /assets/btp-litepaper.pdf
   featuredPostUrl: what-is-the-icx-token
   social:
     discordUrl: https://discord.com/invite/7a75Hf3cFm
