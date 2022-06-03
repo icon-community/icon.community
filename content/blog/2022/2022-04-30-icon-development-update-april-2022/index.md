@@ -23,7 +23,7 @@ In April, we made significant progress on the architectural design of BTP:
 * We outlined all tasks related to BTP development and delegated workloads to dedicated development teams.
 * We completed an initial design for the BTP fee system, which uses a fixed fee that is determined when a call is made to the Arbitrary Call Service. In the future, our goal is to upgrade the system to support variable fees based on data size.
 * Design enhancements for BTP block design in Goloop have been made, and are currently being reviewed.
-* We started writing a BTP Lite Paper.
+* We started writing a BTP Litepaper.
 
 ## BTP Integrations
 
@@ -46,7 +46,7 @@ In May, we will focus on the following areas:
 
 ### BTP Product
 
-* Finish and publish the BTP Lite Paper.
+* Finish and publish the BTP Litepaper.
 * Finalize the specification for the Arbitrary Call Service.
 * Finalize BTP block design.
 * Finish the design process for Goloop server and module APIs to support BTP relays.
