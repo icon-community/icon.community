@@ -18,7 +18,7 @@ In May, the ICON team continued making progress on ICON 2.0, BTP, and ICON Bridg
 
 In May, we made significant progress on the architectural design of BTP:
 
-* Published the BTP Light Paper
+* Published the [BTP Light Paper](/assets/btp-light-paper.pdf)
 * Finalized the Arbitrary Call Service specification.
 * Finalized the BTP block specification.
 * Implemented an alpha version of a local Goloop node for testing BTP features.
