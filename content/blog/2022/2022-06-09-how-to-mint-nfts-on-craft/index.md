@@ -3,7 +3,6 @@ title: How to Mint an NFT on Craft
 date: 2022-06-08
 slug: how-to-mint-nft-on-craft
 description: Craft is a community-owned NFT marketplace that runs on the ICON blockchain. In this article, you’ll learn how to mint an NFT and list it for sale on Craft.
-draft: true
 ---
 
 [Craft](https://craft.network) is a community-owned NFT marketplace that runs on the ICON blockchain. You can think of it as ICON's version of OpenSea or Looksrare. On Craft, users can mint, buy, and sell NFTs with minimal fees, while earning rewards in the form of [$CFT](https://craft.network/cft) – "the governance and utility token of the Craft ecosystem". In this article, you'll learn how to mint an NFT and list it for sale on Craft.
