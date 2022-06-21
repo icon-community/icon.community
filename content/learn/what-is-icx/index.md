@@ -74,6 +74,7 @@ ICX is also available on a variety of centralized exchanges with highly liquid m
 * [Kraken](https://www.kraken.com/prices/icx-icon-price-chart/usd-us-dollar?interval=1m)
 * [Bithumb](https://en.bithumb.com/trade/order/ICX_KRW)
 * [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ICX)
+* [Kucoin](https://www.kucoin.com/trade/ICX-USDT)
 
 ## How to Store ICX
 
