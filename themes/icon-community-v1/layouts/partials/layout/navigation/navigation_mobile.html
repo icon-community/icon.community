@@ -176,7 +176,7 @@
                 <!-- Community -->
                 <div id="community" class="divide-y divide-gray-200" x-data="{open: false}">
                     <button class="hover:bg-gray-100 w-full p-4 text-lg font-medium text-gray-900"
-                        :class="{ 'bg-gray-100': open}" @click=" open=! open">Community</button>
+                        :class="{ 'bg-gray-100': open}" @click="open =! open">Community</button>
                     <div x-show="open" class="divide-y divide-gray-200">
                         <a href="{{ $.Site.Params.social.discordUrl }}"
                             class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
