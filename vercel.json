@@ -3,5 +3,12 @@
     "env": {
       "HUGO_VERSION": "0.96.0"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/learn/icon-wallet/",
+      "destination": "/blog/icon-wallet/",
+      "permanent": true
+    }
+  ]
 }
