@@ -1,6 +1,6 @@
 ---
 title: ICON Development Update – June 2022
-date: 2022-06-30
+date: 2022-07-07
 description: In June, the ICON team continued making progress on ICON 2.0, BTP, and ICON Bridge.
 slug: icon-development-update-june-2022
 ---
