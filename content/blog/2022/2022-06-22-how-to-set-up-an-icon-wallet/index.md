@@ -37,7 +37,7 @@ Next, you'll be prompted to confirm your seed phrase. If you did not follow the 
 
 {{< img src="hana-confirm-seed-phrase.jpg" alt="Confirm your seed phrase in Hana." caption="Confirm your seed phrase in Hana." >}}
 
-After confirming your seed phrase, Hana will prompt you to select which chains you want to interact with. Since Hana is a multi-chain wallet, it supports a variety of blockchains beyond ICON like Ethereum, Binance Smart Chain, Polkadot, and Moonbeam. For the purposes of this article, we'll only be setting up an ICON wallet, so just select ICON for the time being.
+After confirming your seed phrase, Hana will prompt you to select which chains you want to interact with. Since Hana is a multi-chain wallet, it supports a variety of blockchains beyond ICON like Ethereum, BNB Smart Chain, Polkadot, and Moonbeam. For the purposes of this article, we'll only be setting up an ICON wallet, so just select ICON for the time being.
 
 {{< img src="hana-select-chains.jpg" alt="Enable support for the ICON blockchain in Hana." caption="Enable support for the ICON blockchain in Hana." >}}
 
