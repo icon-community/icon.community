@@ -1,6 +1,7 @@
 ---
 title: How to Set Up an ICON Wallet
 date: 2022-05-24
+author: ICON Community
 description: Learn how to set up an ICON wallet in Hana to transfer assets and interact with dApps on ICON.
 slug: icon-wallet
 ---
