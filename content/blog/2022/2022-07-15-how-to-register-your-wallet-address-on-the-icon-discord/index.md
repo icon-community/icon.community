@@ -29,7 +29,7 @@ The `/register-address` command has two parameters – network and address. To n
 
 Follow the instructions below to learn how to register a wallet address for each supported network.
 
-## How to Register an ICON (ICX) Address
+### How to Register an ICON (ICX) Address
 
 After typing `/register-address`, type `icon` for the “network” and a valid ICX address for the “address”.
 
