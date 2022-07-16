@@ -35,13 +35,13 @@ After typing `/register-address`, type `icon` for the “network” and a valid 
 
 {{< img src="discord-register-icx-address.jpg" alt="Register your ICX address." caption="Register your ICX address." >}}
 
-How to Register a Polkadot (DOT) Address
+### How to Register a Polkadot (DOT) Address
 
 After typing `/register-address`, type `polkadot` for the “network” and a valid DOT address for the “address”.
 
 {{< img src="discord-register-dot-address.jpg" alt="Register your DOT address." caption="Register your DOT address." >}}
 
-How to Register a Harmony (ONE) Address
+### How to Register a Harmony (ONE) Address
 
 After typing `/register-address`, type `harmony` for the “network” and a valid ONE address for the “address”.
 
