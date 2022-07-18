@@ -41,6 +41,12 @@ After typing `/register-address`, type `polkadot` for the “network” and a va
 
 {{< img src="discord-register-dot-address.jpg" alt="Register your DOT address." caption="Register your DOT address." >}}
 
+### How to Register a Kusama (KSM) Address
+
+After typing `/register-address`, type `kusama` for the “network” and a valid DOT address for the “address”.
+
+{{< img src="discord-register-ksm-address.jpg" alt="Register your KSM address." caption="Register your KSM address." >}}
+
 ### How to Register a Harmony (ONE) Address
 
 After typing `/register-address`, type `harmony` for the “network” and a valid ONE address for the “address”.
