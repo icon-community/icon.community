@@ -1,5 +1,5 @@
 ---
-title: Nexus Beta Now Available on Lisbon Tesnet
+title: Nexus Beta Now Available on Lisbon Testnet
 date: 2022-08-08
 slug: nexus-beta-now-available-on-lisbon-testnet
 description: We're excited to announce that Nexus is now live on ICON's Lisbon testnet!
