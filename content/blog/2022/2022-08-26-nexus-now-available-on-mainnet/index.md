@@ -2,7 +2,7 @@
 title: Nexus Beta Now Available on Mainnet
 date: 2022-08-30
 slug: nexus-beta-now-available-on-mainnet
-description: We're excited to announce that Nexus is now live on the ICON mainnet with support for BNB Smart
+description: We're excited to announce that Nexus is now live on the ICON mainnet with support for BNB Smart Chain.
 ---
 
 We’re excited to announce that [Nexus](https://nexusportal.io) is now live on mainnet. Nexus is a frontend application that provides users with an easy-to-use interface to send cross-chain token transfers via ICON Bridge. Nexus currently supports two blockchains – ICON and BNB Smart Chain (BSC). In this article, we’ll provide an overview of Nexus, and how to use it to perform transfer assets across chains.
