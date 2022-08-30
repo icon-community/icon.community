@@ -62,6 +62,7 @@ Click the “+” icon in the upper right corner, and input the details for the 
 After adding the custom token, you’ll be able to see the token balance in your Hana wallet.
 
 ## How to Import Tokens in MetaMask
+
 In order to see ICON-based assets like ICX and bnUSD in your BSC-configured MetaMask wallet, you’ll need to import the token contracts. To do this, click “Import Tokens” on the MetaMask UI.
 
 {{< img src="import-tokens-in-metamask.jpg" alt="Import tokens in MetaMask." caption="Import tokens in MetaMask." >}}
@@ -107,6 +108,7 @@ At this point, the transferred ICX should be viewable in your MetaMask wallet as
 {{< img src="bridged-icx-to-metamask.jpg" alt="Bridged ICX (ICON to BSC) in MetaMask." caption="Bridged ICX (ICON to BSC) in MetaMask." >}}
 
 ### How to Transfer BNB from BSC to ICON
+
 Let’s make another transfer! This time, we’ll move BNB from BSC to ICON. To get started, click “Connect a Wallet” on the Nexus portal and select MetaMask.
 
 {{< img src="connect-a-metamask-wallet.jpg" alt="Connect a MetaMask wallet." caption="Connect a MetaMask wallet." >}}
