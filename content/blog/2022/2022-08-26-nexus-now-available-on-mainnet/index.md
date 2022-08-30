@@ -26,8 +26,6 @@ At launch, Nexus will support the assets below on ICON and BSC:
 * USDC - `cx532e4235f9004c233604c1be98ca839cd777d58c`
 * BTCB - `cx5b5a03cb525a1845d0af3a872d525b18a810acb0`
 * ETH - `cx288d13e1b63563459a2ac6179f237711f6851cb5`
-* BMC - `cx23a91ee3dd290486a9113a6a42429825d813de53`
-* BTS - `cxcef70e92b89f2d8191a0582de966280358713c32`
 
 ### Contract Addresses on BSC
 
@@ -39,6 +37,18 @@ At launch, Nexus will support the assets below on ICON and BSC:
 * ICX - `0x9b7b6A964f8870699Ae74744941663D257b0ec1f`
 * sICX - `0x33acDF0Fe57C531095F6bf5a992bF5aA81c94Acf`
 * bnUSD - `0xa804D2e9221057099eF331AE1c0D6616cC27d770`
+
+## ICON Bridge Contracts
+
+Below are the ICON Bridge-related contracts on ICON and BSC:
+
+### Contract Addresses on ICON
+
+* BMC - `cx23a91ee3dd290486a9113a6a42429825d813de53`
+* BTS - `cxcef70e92b89f2d8191a0582de966280358713c32`
+
+### Contract Addresses on BSC
+
 * BMCManagement - `0xe221e50fbe2Ba54b1898b4c02F66bf9598fbD1dB`
 * BMCPeriphery - `0x034AaDE86BF402F023Aa17E5725fABC4ab9E9798`
 * BTSCore - `0x7A4341Af4995884546Bcf7e09eB98beD3eD26D28`
