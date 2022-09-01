@@ -1,6 +1,6 @@
 # icon.community – The Official ICON Community Website
 
-This repository contains the code and assets for the icon.community site. To preview the site in a local environment, you'll need to install the Hugo static site generator.
+This repository contains the code and assets for the [icon.community](https://icon.community) site. To preview the site in a local environment, you'll need to install the Hugo static site generator.
 
 ## How to Install Hugo
 
