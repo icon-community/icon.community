@@ -24,8 +24,8 @@ categories:
 
 params:
   banner:
-    message: Read the BTP Litepaper to learn about ICON's bridging solution!
-    url: /assets/btp-litepaper.pdf
+    message: Nexus is live – learn how to transfer tokens between ICON and BSC!
+    url: /blog/2022/nexus-beta-now-available-on-mainnet/
   featuredPostUrl: what-is-the-icx-token
   social:
     discordUrl: https://discord.com/invite/7a75Hf3cFm
