@@ -5,11 +5,13 @@ slug: icon-bridge
 description: ICON Bridge is an early iteration of ICON’s cutting-edge interoperability product, BTP, which allows cross-chain transfers and integration with any blockchain that supports smart contracts.
 ---
 
+*07/09/22: Audit information updated to reflect [July Development Update](https://icon.community/blog/2022/icon-development-update-july-2022/)*
+
 ICON Bridge is an early iteration of ICON’s cutting-edge interoperability product, BTP, which allows cross-chain transfers and integration with any blockchain that supports smart contracts.
 
 With ICON Bridge, we are fast-tracking ICON interoperability to meet community and developer demand. While ICON’s flagship interoperability product BTP continues getting built, ICON Bridge immediately opens up cross-chain activity and development opportunities.
 
-ICON Bridge is currently being audited by Slowmist. However, an unaudited version will be released for those in the ICON community eager to start using ICON Bridge as auditing occurs. Click here to read the original announcement on ICON Bridge.
+As mentioned in the [July Development Update](https://icon.community/blog/2022/icon-development-update-july-2022/), the ICON Bridge code repository will remain closed source until the audit finishes, which is conservatively expected to happen sometime between 2022 Q4 and and 2023 Q1. Once this is done, we will fully launch and open source the ICON Bridge repository. At that point, everyone will have access to the same information that we have internally and there will be a single source of truth for the BTP Integrations SIG’s progress.
 
 ## Why ICON Bridge?
 
