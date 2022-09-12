@@ -21,7 +21,7 @@
             {{ $data.Set "buttonBorderRadius" "rounded-md lg:rounded-none" }}
             {{ end}}
             <button @click="visibility = '{{ . }}'" type="button"
-                class="{{ $data.Get "buttonBorderRadius" }} hover:bg-icon-lo focus:z-10 f focus:bg-icon-lo relative inline-flex items-center px-3 xl:px-4 py-1.5 xl:py-2 text-sm font-medium uppercase bg-gray-100 border border-gray-200">
+                class="{{ $data.Get "buttonBorderRadius" }} hover:bg-icon-lo focus:z-10 f focus:bg-icon-lo relative inline-flex items-center px-3 py-1.5 xl:py-2 text-xs font-medium uppercase bg-gray-100 border border-gray-200">
                 {{ . }}
             </button>
             {{ end }}
@@ -32,9 +32,7 @@
             class="sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8 grid grid-cols-1">
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
-            {{ if eq $type "btp" }}
-            {{ $data.Set "type" "BTP" }}
-            {{ else if eq $type "community" }}
+            {{ if eq $type "community" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "defi" }}
             {{ $data.Set "type" "DeFi" }}
@@ -47,6 +45,8 @@
             {{ else if eq $type "government" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "infrastructure" }}
+            {{ $data.Set "type" (title $type) }}
+            {{ else if eq $type "interoperability" }}
             {{ $data.Set "type" (title $type) }}
             {{ else if eq $type "nft" }}
             {{ $data.Set "type" "NFT" }}
