@@ -5,13 +5,13 @@
     <div class="flex flex-col space-y-8">
         {{ range .Sections }}
         <div class="space-y-4">
-            <h2 class="text-3xl font-bold">{{ .Title }}</h2>
+            <h2 class="text-3xl font-bold">{{ .Title }} ({{ .Pages | len }})</h2>
             <div class="sm:grid-cols-3 md:grid-cols-4 grid grid-cols-1 gap-4">
                 {{ range .Pages }}
                 <div class="aspect-square hover:bg-gray-200 p-4 bg-gray-100 border border-gray-200 rounded-lg">
-                    <a href="https://github.com/{{ .Params.owner }}/{{ .File.BaseFileName }}">
+                    <a href="https://github.com/{{ .Params.owner }}/{{ .Params.slug }}">
                         <div>
-                            <h3 class="text-lg font-bold">{{ .File.BaseFileName }}</h3>
+                            <h3 class="text-lg font-bold">{{ .Params.slug }}</h3>
                             <p class="text-sm">{{ .Params.description }}</p>
                         </div>
                     </a>
