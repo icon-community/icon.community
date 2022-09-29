@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "HUGO_VERSION": "0.96.0"
+      "HUGO_VERSION": "0.104.1"
     }
   },
   "redirects": [
