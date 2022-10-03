@@ -136,9 +136,9 @@
             <h1 class="lg:text-6xl text-gray-50 text-4xl font-bold tracking-tight text-center">
                 Get Paid to Build
             </h1>
-            <div class="sm:flex sm:gap-4 grid items-center justify-center grid-cols-2 gap-2.5">
+            <div class="flex flex-wrap items-center justify-center gap-4">
                 <div
-                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    class="grow shrink-0 sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
                     <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Active
                         Projects</h3>
                     <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
@@ -146,7 +146,7 @@
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    class="grow shrink-0 sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
                     <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Funded
                         Projects</h3>
                     <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
@@ -154,7 +154,7 @@
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
+                    class="grow shrink-0 sm:p-3 dark:border-gray-700 dark:bg-gray-800 flex flex-col p-2 space-y-1 bg-gray-100 border border-gray-200 rounded-lg">
                     <h3 class="dark:text-gray-400 text-xs font-bold tracking-tight text-gray-600 uppercase">Distributed
                         Funds</h3>
                     <span id="icx-price" class="dark:text-gray-50 font-mono text-2xl font-bold"
@@ -481,7 +481,8 @@
                         <span id="icx-price" class="font-bold"
                             hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
                             hx-trigger="load, every 30s"></span> APY in exchange for helping to
-                        secure the ICON network.</p>
+                        secure the ICON network.
+                    </p>
                 </div>
                 <span class="top-6 right-6 group-hover:text-gray-400 absolute text-gray-300 pointer-events-none"
                     aria-hidden="true">
