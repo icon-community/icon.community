@@ -1,6 +1,6 @@
 ---
 title: How to Submit an Issue on GitHub
-date: 2022-09-23
+date: 2022-10-03
 slug: how-to-submit-an-issue-on-github
 description: Learn how to submit bug requests, feature requests, and more to ICON GitHub repos.
 ---
