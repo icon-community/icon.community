@@ -3,7 +3,6 @@ title: How to Submit an Issue on GitHub
 date: 2022-09-23
 slug: how-to-submit-an-issue-on-github
 description: Learn how to submit bug requests, feature requests, and more to ICON GitHub repos.
-draft: true
 ---
 
 As an ICON community member, especially if you're a non-developer, submitting bug reports and suggestions is one of the most valuable contributions you can make. In this article, you'll learn how to submit issues directly to ICON-related GitHub repositories.
