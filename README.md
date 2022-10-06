@@ -50,7 +50,7 @@ This shortcode inserts an anchor element with the href attribute set to an invit
 
 ### Params
 
-* link-text: string (Optional) – the link text of the anchor element. If not provided, the link text will default to "Discord".
+* link-text (Optional) – the link text of the anchor HTML element. If not specified, the link text will default to "Discord".
 
 ### Usage
 
