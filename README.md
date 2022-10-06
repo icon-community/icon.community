@@ -39,3 +39,25 @@ hugo server
 ```
 
 Whenever you make a change to the site code or content, Hugo will automatically rebuild the site.
+
+# Shortcodes
+
+## ICON Discord URL
+
+This shortcode inserts an anchor element with the href attribute set to an invite link for the ICON Discord.
+
+### Params
+
+* link-text: string (Optional) – the link text of the anchor element. If not provided, the link text will default to "Discord".
+
+```
+{{< discord >}}
+
+/* Output */
+<a href="https://discord.com/invite/7a75Hf3cFm">Discord</a>
+
+{{< discord "Join the ICON Discord!" >}}
+
+/* Output */
+<a href="https://discord.com/invite/7a75Hf3cFm">Join the ICON Discord!</a>
+```
