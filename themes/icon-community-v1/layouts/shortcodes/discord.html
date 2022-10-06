@@ -1,6 +1,6 @@
-{{- $linkText := .Get 0 -}}
+{{- $linkText := .Get "linkText" -}}
 {{- if $linkText -}}
-<a href="https://discord.com/invite/7a75Hf3cFm">{{- .Get 0 -}}</a>
+<a href="https://discord.com/invite/7a75Hf3cFm">{{- $linkText -}}</a>
 {{- else -}}
 <a href="https://discord.com/invite/7a75Hf3cFm">Discord</a>
 {{- end -}}

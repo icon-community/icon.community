@@ -50,7 +50,7 @@ This shortcode inserts an anchor element with the href attribute set to an invit
 
 ### Params
 
-* link-text (Optional) – the link text of the anchor HTML element. If not specified, the link text will default to "Discord".
+* linkText (Optional) – the link text of the anchor HTML element. If not specified, the link text will default to "Discord".
 
 ### Usage
 
@@ -62,7 +62,7 @@ This shortcode inserts an anchor element with the href attribute set to an invit
 ```
 
 ```
-{{< discord "Join the ICON Discord!" >}}
+{{< discord linkText="Join the ICON Discord!" >}}
 
 // Output
 <a href="https://discord.com/invite/7a75Hf3cFm">Join the ICON Discord!</a>

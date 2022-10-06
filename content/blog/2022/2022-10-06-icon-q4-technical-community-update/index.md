@@ -57,4 +57,4 @@ The last sub-goal of organizing the current state of the ICON project is centere
 
 ## Conclusion
 
-We look to continue having a positive and transparent experience with the technical community of ICON. Please feel free to give your feedback on this update, including about task status and prioritization. We feel that it is very important to understand what the community values and why, so that we can plan how to best move forward. Like last time, there will be a quarterly meeting on the {{< discord "ICON Discord" >}} to discuss the topics and tasks described in this update. Stay tuned for the timeslot of the meeting!
+We look to continue having a positive and transparent experience with the technical community of ICON. Please feel free to give your feedback on this update, including about task status and prioritization. We feel that it is very important to understand what the community values and why, so that we can plan how to best move forward. Like last time, there will be a quarterly meeting on the {{< discord linkText="ICON Discord" >}} to discuss the topics and tasks described in this update. Stay tuned for the timeslot of the meeting!
