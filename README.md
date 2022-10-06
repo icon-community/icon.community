@@ -42,6 +42,8 @@ Whenever you make a change to the site code or content, Hugo will automatically 
 
 # Shortcodes
 
+The icon.community site is equipped with a variety of shortcodes that can be used with content files.
+
 ## ICON Discord URL
 
 This shortcode inserts an anchor element with the href attribute set to an invite link for the ICON Discord.
