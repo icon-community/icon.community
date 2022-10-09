@@ -5,7 +5,7 @@ slug: icon-technical-community-update-q4-2022
 description: Read about our technical community milestones and goals for October 1 to December 31.
 ---
 
-To support the growing technical community on ICON, we are publishing "ICON Technical Community Reports" on a quarterly basis. These reports are designed to inform ICON’s technical community about  the ideological focus, milestones, specific goals, and planned timelines for a given time period. In this first update, we will discuss  milestones and goals for **October 1 to December 31**. Let’s dive in!
+To support the growing technical community on ICON, we are publishing "ICON Technical Community Reports" on a quarterly basis. These reports are designed to inform ICON’s technical community about  the ideological focus, milestones, specific goals, and planned timelines for a given time period. In this update, we will discuss milestones and goals for **October 1 to December 31**. Let’s dive in!
 
 ## Overview
 
