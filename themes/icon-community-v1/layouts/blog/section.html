@@ -16,7 +16,7 @@
             <div class=" flex-shrink-0 border-b border-gray-300">
                 <img class="h-60 object-cover w-full"
                     src="{{ partial "featured_image.html" . }}?w=1280&fit=max&auto=format&fm=pjpg&q=50&gif-q=35"
-                    alt="{{ .Params.description }}">
+                    alt="{{ .Params.description }}" loading="lazy">
             </div>
             <div class="dark:border-gray-700 flex flex-col justify-between flex-1 p-6">
                 <div class="flex-1">
