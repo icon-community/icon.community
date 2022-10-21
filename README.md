@@ -55,6 +55,7 @@ This shortcode inserts an anchor element with the href attribute set to an invit
 {{< discord >}}
 
 // Output
+
 <a href="https://discord.com/invite/7a75Hf3cFm">Discord</a>
 ```
 
@@ -62,6 +63,7 @@ This shortcode inserts an anchor element with the href attribute set to an invit
 {{< discord linkText="Join the ICON Discord!" >}}
 
 // Output
+
 <a href="https://discord.com/invite/7a75Hf3cFm">Join the ICON Discord!</a>
 ```
 
