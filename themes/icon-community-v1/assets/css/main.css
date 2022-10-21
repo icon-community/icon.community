@@ -56,6 +56,20 @@
   padding-left: 1rem;
 }
 
+.post-content table {
+  border: 1px solid #ddd;
+  min-width: 100%;
+  table-layout: auto;
+  text-align: left;
+}
+
+.post-content td,
+.post-content th {
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
 #page-header #subtitle a {
   text-decoration: underline;
 }
@@ -69,11 +83,11 @@
 }
 
 #pagination ul li.active {
-    color: #2ca9b7;
+  color: #2ca9b7;
 }
 
 #pagination ul li:hover {
-    color: #2ca9b7;
+  color: #2ca9b7;
 }
 
 [x-cloak] {

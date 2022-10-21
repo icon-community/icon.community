@@ -44,15 +44,12 @@ Whenever you make a change to the site code or content, Hugo will automatically 
 
 The icon.community site is equipped with a variety of shortcodes that can be used with content files.
 
+* [discord](#discord)
+* [table](#table)
+
 ## discord
 
 This shortcode inserts an anchor element with the href attribute set to an invite link for the ICON Discord.
-
-### Params
-
-* linkText (Optional) – the link text of the anchor HTML element. If not specified, the link text will default to "Discord".
-
-### Usage
 
 ```
 {{< discord >}}
@@ -66,4 +63,41 @@ This shortcode inserts an anchor element with the href attribute set to an invit
 
 // Output
 <a href="https://discord.com/invite/7a75Hf3cFm">Join the ICON Discord!</a>
+```
+
+## table
+
+This shortcode converts a Markdown table to an HTML table.
+
+```
+{{< table >}}
+| Header A | Header B |
+|----------|----------|
+| Lorem    | Ipsum    |
+| Foo      | Bar      |
+{{< /table >}}
+
+// Output
+
+<div class="overflow-x-auto">
+    <table>
+        <thead>
+            <tr>
+                <th>Header A</th>
+                <th>Header B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lorem</td>
+                <td>Ipsum</td>
+            </tr>
+            <tr>
+                <td>Foo</td>
+                <td>Bar</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 ```
