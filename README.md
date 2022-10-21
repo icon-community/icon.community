@@ -5,7 +5,7 @@ The icon.community website is the main hub to direct members of the ICON ecosyst
 # Table of Contents
 
 1. [How to Install Hugo](#how-to-install-hugo)
-2.[Shortcodes](#shortcodes)
+2. [Shortcodes](#shortcodes)
 3. [Redirects](#redirects)
 
 # How to Install Hugo
