@@ -2,13 +2,19 @@
 
 The icon.community website is the main hub to direct members of the ICON ecosystem to available resources. This site includes blogs, links to other media, and general information about the ICON community!
 
-This repository contains the code and assets for the [icon.community](https://icon.community) site. To preview the site in a local environment, you'll need to install the Hugo static site generator.
+# Table of Contents
 
-## How to Install Hugo
+1. [How to Install Hugo](#how-to-install-hugo)
+2.[Shortcodes](#shortcodes)
+3. [Redirects](#redirects)
+
+# How to Install Hugo
+
+This repository contains the code and assets for the [icon.community](https://icon.community) site. To preview the site in a local environment, you'll need to install the Hugo static site generator.
 
 Hugo supports multiple platforms including macOS, Windows, and Linux.
 
-### macOS and Linux
+## macOS and Linux
 
 For macOS and Linux users, we recommend using Homebrew to install Hugo.
 
@@ -16,7 +22,7 @@ For macOS and Linux users, we recommend using Homebrew to install Hugo.
 brew install hugo
 ```
 
-### Windows
+## Windows
 
 For Windows users, we recommend using Chocolatey to install Hugo.
 
