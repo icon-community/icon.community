@@ -6,9 +6,6 @@ baseURL: https://icon.community/
 title: "ICON Community"
 description: "ICON Community"
 
-theme:
-  - icon-community-v1
-
 permalinks:
   post: :slug/
   page: :slug/

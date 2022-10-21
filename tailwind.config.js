@@ -4,7 +4,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: {
     enabled: true,
-    content: ["./themes/icon-community-v1/layouts/**/*.html"],
+    content: ["./layouts/**/*.html"],
   },
   darkMode: 'class', // or 'media' or 'class'
   theme: {
