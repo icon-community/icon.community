@@ -103,3 +103,20 @@ This shortcode converts a Markdown table to an HTML table.
 </div>
 
 ```
+
+# Redirects
+
+Redirects are located in the `./static/_redirects` file. To add a redirect, simply add a new line containing the old URL, new URL, and HTTP status code (optional). If no HTTP status code is specified, Netlify will automatically use 301 for the status code.
+
+## Examples
+
+```
+# Redirect /old-url to /new-url with 301 status code.
+/old-url /new-url 301
+
+# Redirect /old-url to https://icon.foundation with 302 status code.
+/old-url https://icon.foundation
+
+# Redirect /old-file.pdf to /new-file.pdf with 301 status code.
+/old-file.pdf /new-file.pdf
+```
