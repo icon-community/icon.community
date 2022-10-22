@@ -1,4 +1,4 @@
 {{ $htmlTable := .Inner | markdownify }}
-<div class="overflow-x-auto">
+<div class="overflow-x-scroll">
     {{ $htmlTable | safeHTML }}
 </div>
