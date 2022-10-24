@@ -9,7 +9,7 @@ description: ICON Foundation has partnered with ImmuneFi to host a bug bounty pr
 
 Bug bounties are critical components of a project's long term health, especially in the Web3 space, where software projects may have more exposure to economic risk than is typical. ImmuneFi is blockchain’s premiere bug bounty platform, trusted by top projects like Synthetix, Chainlink, SushiSwap, PancakeSwap, Bancor, Cream Finance, Compound, Alchemix, Nexus Mutual and others.
 
-ImmuneFi’s bounty program is structured so that rewards are distributed according to the vulnerability of the threat. Further details about threat levels per bounty domain are available on the ImmuneFi Bug Bounty Portal.
+ImmuneFi’s bounty program is structured so that rewards are distributed according to the vulnerability of the threat. Further details about threat levels per bounty domain are available on the [ImmuneFi Bug Bounty Portal](https://immunefi.com/bounty/icon/).
 
 {{< table >}}
 | Threat Level 	| Bounty (USD) 	|
