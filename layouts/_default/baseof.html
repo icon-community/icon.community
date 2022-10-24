@@ -12,6 +12,7 @@
         <meta name="description" content="{{ .Params.description }}" />
         <meta name="keywords" content="blockchain, cryptocurrency, interoperability" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
+        {{ block "prefetch" . }}{{ end }}
         <!-- OpenGraph Tags -->
         <meta property="og:title" content="{{ .Title }}" />
         <meta property="og:description" content="{{ .Params.description }}" />
