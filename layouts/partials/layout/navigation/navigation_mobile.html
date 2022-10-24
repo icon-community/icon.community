@@ -28,7 +28,7 @@
                         :class="{ 'bg-gray-100': open}" @click="open =! open">Developers</button>
                     <div x-show="open" class="divide-y divide-gray-200">
                         <a href="/interoperability-incentive-program/"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -43,7 +43,7 @@
                             </div>
                         </a>
                         <a href="https://docs.icon.community"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -58,7 +58,7 @@
                             </div>
                         </a>
                         <a href="/repos/"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                                 class="w-6 h-6">
@@ -75,7 +75,7 @@
                             </div>
                         </a>
                         <a href="https://github.com/icon-project/java-score-examples"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -87,6 +87,21 @@
                                     with
                                     these
                                     example projects.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="https://immunefi.com/bounty/icon/"
+                            class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                            id="hdev5">
+                            <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082" />
+                            </svg>
+                            <div class="ml-4" id="hdev5">
+                                <p class="text-base font-medium text-gray-900" id="hdev5">Bug Bounty</p>
+                                <p class="mt-1 text-sm text-gray-500" id="hdev5">
+                                    Explore active bug bounties for ICON smart contracts and core blockchain software.
                                 </p>
                             </div>
                         </a>
@@ -103,7 +118,7 @@
                         :class="{ 'bg-gray-100': open}" @click=" open=! open">Resources</button>
                     <div x-show="open" class="divide-y divide-gray-200">
                         <a href="/learn/"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -116,7 +131,7 @@
                             </div>
                         </a>
                         <a href="/blog/"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -130,7 +145,7 @@
                             </div>
                         </a>
                         <a href="https://www.youtube.com/channel/UCI7Z_1sTKN-kCVgFD2a0GXQ"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -143,7 +158,7 @@
                             </div>
                         </a>
                         <a href="/glossary/"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -158,7 +173,7 @@
                             </div>
                         </a>
                         <a href="/assets/btp-litepaper.pdf"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -171,7 +186,7 @@
                             </div>
                         </a>
                         <a href="{{ $.Site.Params.social.roadmapUrl }}"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -193,7 +208,7 @@
                         :class="{ 'bg-gray-100': open}" @click="open =! open">Community</button>
                     <div x-show="open" class="divide-y divide-gray-200">
                         <a href="{{ $.Site.Params.social.discordUrl }}"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <!-- Heroicon name: outline/cursor-click -->
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -207,7 +222,7 @@
                             </div>
                         </a>
                         <a href="https://cps.icon.community"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -221,7 +236,7 @@
                             </div>
                         </a>
                         <a href="https://forum.icon.community"
-                            class="hover:bg-gray-100 hover:border-gray-200 flex items-start p-4 transition duration-150 ease-in-out border border-white rounded-lg">
+                            class="hover:bg-gray-100 flex items-start p-4 transition duration-150 ease-in-out">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
