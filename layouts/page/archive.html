@@ -8,7 +8,7 @@
                 <a href="{{ .Permalink }}" class="hover:underline">
                     <h2 class="font-bold leading-tight">{{ .Title }}</h2>
                 </a>
-                <time class="text-sm text-gray-600" t>{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+                <time class="text-sm text-slate-600" t>{{ .PublishDate.Format "Jan 2, 2006" }}</time>
             </header>
             <p class="text-sm leading-snug">{{ .Params.description | safeHTML | truncate 120 }}</p>
         </div>
