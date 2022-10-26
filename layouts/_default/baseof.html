@@ -25,7 +25,7 @@
         <meta name="twitter:image" content="{{ partial "featured_image.html" . | absURL }}" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@helloiconworld">
-        {{ partialCached "styles.html" . }}
+        {{ partialCached "head/css.html" . }}
         <!-- HTMX -->
         <script src="https://unpkg.com/htmx.org@1.6.1"></script>
         <!-- AlpineJS -->
@@ -33,7 +33,7 @@
         {{ partialCached "google_analytics.html" . }}
     </head>
 
-    <body class="bg-gray-50 dark:bg-gray-900 dark:text-gray-100 font-sans antialiased text-gray-900">
+    <body class="bg-slate-50 dark:bg-slate-900 dark:text-slate-100 font-sans antialiased text-slate-900">
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBTGP42" height="0" width="0"

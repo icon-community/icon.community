@@ -2,10 +2,7 @@ const colors = require('tailwindcss/colors');
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ["./layouts/**/*.html"],
-  },
+  content: ['./layouts/**/*.html', './content/**/*.md'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
@@ -17,11 +14,12 @@ module.exports = {
       green: colors.green,
       indigo: colors.indigo,
       purple: colors.purple,
-      sky: colors.sky,
-      teal: colors.teal,
-      yellow: colors.yellow,
-      white: colors.white,
       rose: colors.rose,
+      sky: colors.sky,
+      slate: colors.slate,
+      teal: colors.teal,
+      white: colors.white,
+      yellow: colors.yellow,
       'icon': '#32b8bb',
       'icon-hi': '#31f2f6',
       'icon-lo': '#2ca9b7',

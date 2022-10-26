@@ -1,0 +1,12 @@
+{{- $css := resources.Get "css/style.css" -}}
+{{- $css = $css | resources.PostCSS -}}
+
+{{- if hugo.IsProduction -}}
+{{- $css = $css | resources.Minify | resources.PostProcess -}}
+{{- else -}}
+{{- $css = $css | resources.ExecuteAsTemplate (printf "tailwind.dev.%v.css" now.UnixMilli) . -}}
+{{- end -}}
+
+{{- with $css -}}
+<style>{{ .Content | safeCSS }}</style>
+{{- end -}}
