@@ -5,7 +5,7 @@ slug: Berlinnet-to-Upgrade-for-BTP-Development-Code-Testing
 description: The Berlin Testnet will be upgraded on November 2nd (KST), the first update since BerlinNet’s launch in December, 2020. 
 ---
 
-The Berlin Testnet will be upgraded on November 2nd (KST), the first update since its launch in December, 2020. Consequently, the Testnet will experience an outage of approximately 1 hour as the team prepares for BTP development code to be merged onto BerlinNet for testing.
+The Berlin Testnet will be upgraded on November 2nd (KST), the first update since its launch December, 2020. Consequently, the Testnet will experience an outage of approximately 1 hour as the team prepares for BTP development code to be merged onto Berlin Testnet for testing.
 
 The Berlin Testnet will also be reset as a result of a previously patched bug associated with allowing overdraft transactions. Apps currently maintaining a testnet environment on Berlin will need to redeploy their environment after the reset. Additionally, we encourage app developers to use the Lisbon testnet for a more stable testing environment.
 
