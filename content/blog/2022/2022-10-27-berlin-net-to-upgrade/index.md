@@ -1,7 +1,7 @@
 ---
 title: Berlin Testnet to Upgrade for BTP Development Code Testing 
 date: 2022-10-27
-slug: Berlin-Testnet-to-Upgrade-for-BTP-Development-Code-Testing
+slug: Berlinnet-to-Upgrade-for-BTP-Development-Code-Testing
 description: The Berlin Testnet will be upgraded on November 2nd (KST), the first update since BerlinNet’s launch in December, 2020. 
 ---
 
