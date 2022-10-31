@@ -7,7 +7,7 @@ description: The Berlin Testnet will be upgraded on November 2nd (KST), the firs
 
 The Berlin Testnet will be upgraded on November 2nd (KST), the first update since its launch December, 2020. Consequently, the Testnet will experience an outage of approximately 1 hour as the team prepares for BTP development code to be merged onto Berlin Testnet for testing.
 
-The Berlin Testnet will also be reset as a result of a previously patched bug associated with allowing overdraft transactions. Apps currently maintaining a testnet environment on Berlin will need to redeploy their environment after the reset. Additionally, we encourage app developers to use the Lisbon testnet for a more stable testing environment.
+The Berlin Testnet will also be reset as a result of a previously patched bug associated with allowing overdraft transactions. Apps currently maintaining a testnet environment on Berlin will need to redeploy their environment after the reset. Additionally, we encourage app developers to use the Lisbon testnet for a more stable operation testing environment.
 
 More details regarding the precise timing of the Berlin Testnet Upgrade will be announced through the ICON Twitter as well as through Dev channels on Telegram and ICON Discord. In the meantime if you have any questions, please feel free to post them in #dev_discussion on ICON Discord. 
 
