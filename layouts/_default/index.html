@@ -6,11 +6,11 @@
 {{ define "container" }}
 <div id="container">
     <div id="hero"
-        class="sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900 relative px-4 py-16">
-        <h1 class="lg:text-7xl xs:text-5xl text-slate-50 mb-4 text-4xl font-extrabold tracking-tight text-center">
+        class="relative px-4 py-16 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-7xl xs:text-5xl text-slate-50">
             Connecting Blockchains<br>and Communities
         </h1>
-        <p class="md:text-xl text-slate-100 z-50 max-w-2xl mx-auto mb-8 text-lg text-center">
+        <p class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl text-slate-100">
             ICON is a public blockchain protocol building a hyperconnected future with BTP, our
             chain-agnostic interoperability solution.
         </p>
@@ -20,15 +20,15 @@
         </div>
     </div>
     <div class="relative overflow-hidden">
-        <div id="powered-by-icx" class="sm:py-24 relative py-16">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 grid">
-                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
+        <div id="powered-by-icx" class="relative py-16 sm:py-24">
+            <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
                         <h2
-                            class="lg:text-5xl dark:text-slate-50 text-slate-900 text-4xl font-extrabold tracking-tight">
+                            class="text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
                             Powered by ICX</h2>
                         <div class="space-y-8">
-                            <p class="dark:text-slate-400 text-slate-600 mt-4 text-lg">ICX is the currency that powers
+                            <p class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICX is the currency that powers
                                 the
                                 ICON ecosystem. ICX has a variety of use cases including staking, network governance,
                                 collateralization
@@ -40,30 +40,30 @@
                             </div>
                             <div class="flex gap-2.5 sm:gap-4">
                                 <div
-                                    class="sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200 flex flex-col p-2 space-y-1 border rounded-lg">
+                                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
                                     <h3
-                                        class="dark:text-slate-400 text-slate-600 text-xs font-bold tracking-tight uppercase">
+                                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                                         ICX Price</h3>
-                                    <span id="icx-price" class="dark:text-slate-50 font-mono text-2xl font-bold"
+                                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                                         hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
                                 <div
-                                    class="sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200 flex flex-col p-2 space-y-1 border rounded-lg">
+                                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
                                     <h3
-                                        class="dark:text-slate-400 text-slate-600 text-xs font-bold tracking-tight uppercase">
+                                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                                         Market Cap</h3>
-                                    <span id="icx-price" class="dark:text-slate-50 font-mono text-2xl font-bold"
+                                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                                         hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
                                 <div
-                                    class="sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200 flex flex-col p-2 space-y-1 border rounded-lg">
+                                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
                                     <h3
-                                        class="dark:text-slate-400 text-slate-600 text-xs font-bold tracking-tight uppercase">
+                                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                                         Staking APY
                                     </h3>
-                                    <span id="icx-price" class="dark:text-slate-50 font-mono text-2xl font-bold"
+                                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                                         hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
                                         hx-trigger="load, every 30s"></span>
                                 </div>
@@ -71,9 +71,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="sm:mt-16 lg:mt-0 mt-12">
-                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                        <img class="lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full"
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                        <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/powered-by-icx.jpg"
                             alt="ICON is powered by ICX." loading="lazy">
                     </div>
@@ -81,21 +81,21 @@
             </div>
         </div>
         <div id="decentralized-fast-secure-interoperability"
-            class="bg-radial-at-br from-icon-dark via-purple-900 to-sky-900 sm:py-24 relative py-16">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 grid">
-                <div class="sm:mt-16 lg:mt-0 lg:order-1 order-2 mt-12">
-                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pr-4 -ml-48">
-                        <img class="lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full"
+            class="relative py-16 bg-radial-at-br from-icon-dark via-purple-900 to-sky-900 sm:py-24">
+            <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="order-2 mt-12 sm:mt-16 lg:mt-0 lg:order-1">
+                    <div class="pr-4 -ml-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                        <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/interoperability.png"
                             alt="Decentralized, Fast, and Secure Interoperability" loading="lazy">
                     </div>
                 </div>
-                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:order-2 order-1 max-w-xl px-4 mx-auto">
-                    <h2 class="lg:text-5xl text-slate-50 text-4xl font-extrabold tracking-tight">Decentralized,
+                <div class="order-1 max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:order-2">
+                    <h2 class="text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-50">Decentralized,
                         Fast, and Secure
                         Interoperability</h2>
                     <div class="space-y-8">
-                        <p class="text-slate-200 mt-4 text-lg">ICON's Blockchain Transmission Protocol (BTP) enables
+                        <p class="mt-4 text-lg text-slate-200">ICON's Blockchain Transmission Protocol (BTP) enables
                             cross-chain communication between smart contract-enabled blockchains. Start bridging
                             your assets between ICON,
                             Binance Smart Chain, NEAR Protocol, Moonriver, and more with Nexus.
@@ -107,16 +107,16 @@
                 </div>
             </div>
         </div>
-        <div id="develop-in-java" class="sm:py-24 relative py-16">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 grid">
-                <div class="sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 max-w-xl px-4 mx-auto">
+        <div id="develop-in-java" class="relative py-16 sm:py-24">
+            <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
                         <h2
-                            class="lg:text-5xl dark:text-slate-50 text-slate-900 text-4xl font-extrabold tracking-tight">
+                            class="text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
                             Develop Smart Contracts in Java
                         </h2>
                         <div class="space-y-8">
-                            <p class="dark:text-slate-400 text-slate-600 mt-4 text-lg">ICON smart contracts are written
+                            <p class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON smart contracts are written
                                 in
                                 Java, a
                                 general-purpose programming language known for performance, safety, and reliability. If
@@ -130,9 +130,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="sm:mt-16 lg:mt-0 mt-12">
-                    <div class="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 -mr-48">
-                        <img class="lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full rounded-lg"
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                        <img class="w-full rounded-lg lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/java-score.png"
                             alt="Develop Java smart contracts." loading="lazy">
                     </div>
@@ -141,39 +141,39 @@
         </div>
     </div>
     <div id="cps"
-        class="bg-radial-at-tr md:bg-radial-at-t from-icon-dark via-purple-900 to-sky-900 sm:py-24 py-16 space-y-16">
+        class="py-16 space-y-16 bg-radial-at-tr md:bg-radial-at-t from-icon-dark via-purple-900 to-sky-900 sm:py-24">
         <div id="cps_hero" class="relative px-4 space-y-8">
-            <h1 class="lg:text-6xl text-slate-50 text-4xl font-bold tracking-tight text-center">
+            <h1 class="text-4xl font-bold tracking-tight text-center lg:text-6xl text-slate-50">
                 Get Paid to Build
             </h1>
             <div class="flex flex-wrap items-center justify-center gap-4">
                 <div
-                    class="grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200 flex flex-col p-2 space-y-1 border rounded-lg">
-                    <h3 class="dark:text-slate-400 text-slate-600 text-xs font-bold tracking-tight uppercase">Active
+                    class="flex flex-col max-w-xs p-2 space-y-1 border rounded-lg grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200">
+                    <h3 class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">Active
                         Projects</h3>
-                    <span id="icx-price" class="dark:text-slate-50 font-mono text-2xl font-bold"
+                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200 flex flex-col p-2 space-y-1 border rounded-lg">
-                    <h3 class="dark:text-slate-400 text-slate-600 text-xs font-bold tracking-tight uppercase">Funded
+                    class="flex flex-col max-w-xs p-2 space-y-1 border rounded-lg grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200">
+                    <h3 class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">Funded
                         Projects</h3>
-                    <span id="icx-price" class="dark:text-slate-50 font-mono text-2xl font-bold"
+                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
                         hx-trigger="load"></span>
                 </div>
                 <div
-                    class="grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200 flex flex-col p-2 space-y-1 border rounded-lg">
-                    <h3 class="dark:text-slate-400 text-slate-600 text-xs font-bold tracking-tight uppercase">
+                    class="flex flex-col max-w-xs p-2 space-y-1 border rounded-lg grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200">
+                    <h3 class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                         Distributed
                         Funds</h3>
-                    <span id="icx-price" class="dark:text-slate-50 font-mono text-2xl font-bold"
+                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                         hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
                         hx-trigger="load"></span>
                 </div>
             </div>
-            <p class="text-slate-100 z-50 max-w-2xl mx-auto text-lg text-center">
+            <p class="z-50 max-w-2xl mx-auto text-lg text-center text-slate-100">
                 ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
                 teams building on ICON. Whether your focus is
                 development, marketing, or community building, the CPS is here to fund you.
@@ -183,9 +183,9 @@
             </div>
         </div>
         <div id="cps_features">
-            <div class="sm:px-6 lg:max-w-7xl lg:px-4 max-w-xl px-4 mx-auto">
+            <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-4">
                 <h2 class="sr-only">Easy Application Process</h2>
-                <dl class="lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 space-y-10">
+                <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
                     <div>
                         <dt>
                             <div class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
@@ -195,10 +195,10 @@
                                         d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                                 </svg>
                             </div>
-                            <p class="text-slate-50 mt-5 text-lg font-bold leading-6">Easy Application Process
+                            <p class="mt-5 text-lg font-bold leading-6 text-slate-50">Easy Application Process
                             </p>
                         </dt>
-                        <dd class="text-slate-300 mt-2 text-base">Applying for CPS funding is quick and easy.
+                        <dd class="mt-2 text-base text-slate-300">Applying for CPS funding is quick and easy.
                             Share your idea on the ICON forum for discussion, and submit a proposal when ready.
                         </dd>
                     </div>
@@ -211,9 +211,9 @@
                                         d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                                 </svg>
                             </div>
-                            <p class="text-slate-50 mt-5 text-lg font-bold leading-6">Decentralized Funding</p>
+                            <p class="mt-5 text-lg font-bold leading-6 text-slate-50">Decentralized Funding</p>
                         </dt>
-                        <dd class="text-slate-300 mt-2 text-base">ICON's CPS is a fully decentralized grant
+                        <dd class="mt-2 text-base text-slate-300">ICON's CPS is a fully decentralized grant
                             program governed by validators on the ICON network.</dd>
                     </div>
                     <div>
@@ -225,11 +225,11 @@
                                         d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
                                 </svg>
                             </div>
-                            <p class="text-slate-50 mt-5 text-lg font-bold leading-6">Paid in bnUSD</p>
+                            <p class="mt-5 text-lg font-bold leading-6 text-slate-50">Paid in bnUSD</p>
                         </dt>
-                        <dd class="text-slate-300 mt-2 text-base">Unlike grant programs that pay out in a volatile
+                        <dd class="mt-2 text-base text-slate-300">Unlike grant programs that pay out in a volatile
                             asset,
-                            CPS utilizes the <a class="hover:no-underline underline"
+                            CPS utilizes the <a class="underline hover:no-underline"
                                 href="https://balanced.network/stablecoin/">bnUSD stablecoin</a> for predictable income
                             month after month.</dd>
                     </div>
@@ -243,10 +243,10 @@
                                         clip-rule="evenodd" />
                                 </svg>
                             </div>
-                            <p class="text-slate-50 mt-5 text-lg font-bold leading-6">Consistent Payouts
+                            <p class="mt-5 text-lg font-bold leading-6 text-slate-50">Consistent Payouts
                             </p>
                         </dt>
-                        <dd class="text-slate-300 mt-2 text-base">Once your CPS proposal is approved, you'll
+                        <dd class="mt-2 text-base text-slate-300">Once your CPS proposal is approved, you'll
                             automatically receive monthly payouts in bnUSD as you hit project milestones.</dd>
                     </div>
                     <div>
@@ -258,10 +258,10 @@
                                         d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
                                 </svg>
                             </div>
-                            <p class="text-slate-50 mt-5 text-lg font-bold leading-6">No KYC
+                            <p class="mt-5 text-lg font-bold leading-6 text-slate-50">No KYC
                             </p>
                         </dt>
-                        <dd class="text-slate-300 mt-2 text-base">Submitting a CPS proposal doesn't require clunky
+                        <dd class="mt-2 text-base text-slate-300">Submitting a CPS proposal doesn't require clunky
                             KYC procedures, which means anyone, anywhere can apply for funding with ease.</dd>
                     </div>
                     <div>
@@ -273,34 +273,34 @@
                                         d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                                 </svg>
                             </div>
-                            <p class="text-slate-50 mt-5 text-lg font-bold leading-6">Community Support
+                            <p class="mt-5 text-lg font-bold leading-6 text-slate-50">Community Support
                             </p>
                         </dt>
-                        <dd class="text-slate-300 mt-2 text-base">Looking for beta testers or early adopters for your
+                        <dd class="mt-2 text-base text-slate-300">Looking for beta testers or early adopters for your
                             project? Bootstrap your CPS-funded project with ICON's tight-knit community.</dd>
                     </div>
                 </dl>
             </div>
         </div>
     </div>
-    <div class="sm:py-24 px-4 py-16">
+    <div class="px-4 py-16 sm:py-24">
         <div>
             <h1
-                class="lg:text-6xl md:text-5xl dark:text-slate-50 text-slate-900 mb-4 text-4xl font-extrabold tracking-tight text-center">
+                class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-6xl md:text-5xl dark:text-slate-50 text-slate-900">
                 What's Next?
             </h1>
-            <p class="md:text-xl dark:text-slate-400 text-slate-600 z-50 max-w-2xl mx-auto mb-8 text-lg text-center">
+            <p class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-slate-600">
                 ICON is a
                 place for everyone, whether you're new to crypto or building a project. Start exploring the ICON
                 ecosystem today!
             </p>
         </div>
         <div
-            class="sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px dark:divide-slate-700 dark:bg-slate-700 bg-slate-200 divide-slate-200 dark:border-slate-700 max-w-4xl mx-auto overflow-hidden border divide-y rounded-lg shadow">
-            <div class="sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800 relative p-6 rounded-tl-lg rounded-tr-lg"
+            class="max-w-4xl mx-auto overflow-hidden border divide-y rounded-lg shadow sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px dark:divide-slate-700 dark:bg-slate-700 bg-slate-200 divide-slate-200 dark:border-slate-700">
+            <div class="relative p-6 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p1">
                 <div>
-                    <span class="bg-teal-50 ring-4 ring-white inline-flex p-3 text-teal-700 rounded-lg">
+                    <span class="inline-flex p-3 text-teal-700 rounded-lg bg-teal-50 ring-4 ring-white">
                         <!-- Heroicon name: outline/clock -->
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" aria-hidden="true">
@@ -313,17 +313,17 @@
                     <h3 class="text-lg font-medium">
                         <a href="/learn/btp/" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="text-slate-50 absolute inset-0" aria-hidden="true" id="p1"></span>
+                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p1"></span>
                             What is BTP?
                         </a>
                     </h3>
-                    <p class="dark:text-slate-400 text-slate-600 mt-2 text-sm" id="p1">Learn about ICON's Blockchain
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p1">Learn about ICON's Blockchain
                         Transmission
                         Protocol (BTP), a
                         trustless bridging protocol that connects ICON to chains like Binance Smart
                         Chain, NEAR, Harmony, and more.</p>
                 </div>
-                <span class="top-6 right-6 group-hover:text-slate-400 text-slate-300 absolute pointer-events-none"
+                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path
@@ -332,10 +332,10 @@
                 </span>
             </div>
 
-            <div class="sm:rounded-tr-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800 relative p-6"
+            <div class="relative p-6 sm:rounded-tr-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p2">
                 <div>
-                    <span class="bg-purple-50 ring-4 ring-white inline-flex p-3 text-purple-700 rounded-lg">
+                    <span class="inline-flex p-3 text-purple-700 rounded-lg bg-purple-50 ring-4 ring-white">
                         <!-- Heroicon name: outline/badge-check -->
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" aria-hidden="true">
@@ -349,17 +349,17 @@
                         <a href="https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogdffldioobgl"
                             class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="text-slate-50 absolute inset-0" aria-hidden="true" id="p2"></span>
+                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p2"></span>
                             Download Wallet
                         </a>
                     </h3>
-                    <p class="dark:text-slate-400 text-slate-600 mt-2 text-sm" id="p2">Learn how to download and use
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p2">Learn how to download and use
                         Hana,
                         the
                         official wallet of the
                         ICON ecosystem.</p>
                 </div>
-                <span class="top-6 right-6 group-hover:text-slate-400 text-slate-300 absolute pointer-events-none"
+                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path
@@ -368,10 +368,10 @@
                 </span>
             </div>
 
-            <div class="group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800 relative p-6"
+            <div class="relative p-6 group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p3">
                 <div>
-                    <span class="bg-sky-50 text-sky-700 ring-4 ring-white inline-flex p-3 rounded-lg">
+                    <span class="inline-flex p-3 rounded-lg bg-sky-50 text-sky-700 ring-4 ring-white">
                         <!-- Heroicon name: outline/users -->
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" aria-hidden="true">
@@ -384,17 +384,17 @@
                     <h3 class="text-lg font-medium">
                         <a href="/learn/icon-bridge/" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="text-slate-50 absolute inset-0" aria-hidden="true" id="p3"></span>
+                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p3"></span>
                             What is ICON Bridge?
                         </a>
                     </h3>
-                    <p class="dark:text-slate-400 text-slate-600 mt-2 text-sm" id="p3">Learn how to swap tokens across
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p3">Learn how to swap tokens across
                         ICON,
                         Binance Smart Chain,
                         Moonbeam, and more with ICON Bridge – an easy to use bridging solution operated by ICON
                         Foundation.</p>
                 </div>
-                <span class="top-6 right-6 group-hover:text-slate-400 text-slate-300 absolute pointer-events-none"
+                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path
@@ -403,10 +403,10 @@
                 </span>
             </div>
 
-            <div class="group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800 relative p-6"
+            <div class="relative p-6 group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p4">
                 <div>
-                    <span class="bg-yellow-50 ring-4 ring-white inline-flex p-3 text-yellow-700 rounded-lg">
+                    <span class="inline-flex p-3 text-yellow-700 rounded-lg bg-yellow-50 ring-4 ring-white">
                         <!-- Heroicon name: outline/cash -->
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" aria-hidden="true">
@@ -419,16 +419,16 @@
                     <h3 class="text-lg font-medium">
                         <a href="/learn/icx/" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="text-slate-50 absolute inset-0" aria-hidden="true" id="p4"></span>
+                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p4"></span>
                             Purchase ICX
                         </a>
                     </h3>
-                    <p class="dark:text-slate-400 text-slate-600 mt-2 text-sm" id="p4">Learn how to purchase ICX to
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p4">Learn how to purchase ICX to
                         interact with
                         ICON dApps like
                         Balanced, Omm, Craft, and more.</p>
                 </div>
-                <span class="top-6 right-6 group-hover:text-slate-400 text-slate-300 absolute pointer-events-none"
+                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path
@@ -437,10 +437,10 @@
                 </span>
             </div>
 
-            <div class="sm:rounded-bl-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800 relative p-6"
+            <div class="relative p-6 sm:rounded-bl-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p5">
                 <div>
-                    <span class="bg-rose-50 text-rose-700 ring-4 ring-white inline-flex p-3 rounded-lg">
+                    <span class="inline-flex p-3 rounded-lg bg-rose-50 text-rose-700 ring-4 ring-white">
                         <!-- Heroicon name: outline/receipt-refund -->
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" aria-hidden="true">
@@ -453,16 +453,16 @@
                     <h3 class="text-lg font-medium">
                         <a href="/learn/icon-governance/" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="text-slate-50 absolute inset-0" aria-hidden="true" id="p5"></span>
+                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p5"></span>
                             ICON Governance
                         </a>
                     </h3>
-                    <p class="dark:text-slate-400 text-slate-600 mt-2 text-sm" id="p5">Learn about ICON's DPoS
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p5">Learn about ICON's DPoS
                         governance
                         model,
                         and how validators, stakers, and ICX issuance all fit into the equation.</p>
                 </div>
-                <span class="top-6 right-6 group-hover:text-slate-400 text-slate-300 absolute pointer-events-none"
+                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path
@@ -471,10 +471,10 @@
                 </span>
             </div>
 
-            <div class="sm:rounded-bl-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800 relative p-6 rounded-bl-lg rounded-br-lg"
+            <div class="relative p-6 rounded-bl-lg rounded-br-lg sm:rounded-bl-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p6">
                 <div>
-                    <span class="bg-indigo-50 ring-4 ring-white inline-flex p-3 text-indigo-700 rounded-lg">
+                    <span class="inline-flex p-3 text-indigo-700 rounded-lg bg-indigo-50 ring-4 ring-white">
                         <!-- Heroicon name: outline/academic-cap -->
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" aria-hidden="true">
@@ -487,18 +487,18 @@
                     <h3 class="text-lg font-medium">
                         <a href="/learn/icx/" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
-                            <span class="text-slate-50 absolute inset-0" aria-hidden="true" id="p6"></span>
+                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p6"></span>
                             Stake ICX
                         </a>
                     </h3>
-                    <p class="dark:text-slate-400 text-slate-600 mt-2 text-sm" id="p6">Learn how to stake ICX to earn
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p6">Learn how to stake ICX to earn
                         <span id="icx-price" class="font-bold"
                             hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
                             hx-trigger="load, every 30s"></span> APY in exchange for helping to
                         secure the ICON network.
                     </p>
                 </div>
-                <span class="top-6 right-6 group-hover:text-slate-400 text-slate-300 absolute pointer-events-none"
+                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path
