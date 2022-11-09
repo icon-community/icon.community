@@ -4,7 +4,7 @@
         <div class="sm:space-x-6 flex flex-wrap items-center space-x-4">
             {{ $avatarImagePath := (printf "%s%s%s" "/static/assets/images/glossary/" .File.BaseFileName ".png") }}
             {{ if os.FileExists $avatarImagePath }}
-            <div class="lg:w-32 lg:h-32 flex items-center w-24 h-24 bg-gray-100 border border-gray-200 rounded-lg">
+            <div class="lg:w-32 lg:h-32 flex items-center w-24 h-24 bg-slate-100 border border-slate-200 rounded-lg">
                 <img class="lg:p-4 max-w-full max-h-full p-3 mx-auto"
                     src="{{ partial "cdn_url.html" }}/assets/images/logos/{{ .File.BaseFileName }}_dark.png">
             </div>

@@ -10,33 +10,33 @@
                 clip-rule="evenodd" />
         </svg>
     </button>
-    <div class="left-1/2 sm:px-0 absolute z-10 w-screen max-w-xl px-2 mt-3 transform -translate-x-1/2" x-show="open"
-        x-cloak x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 translate-y-1"
-        x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="duration-150 ease-in"
-        x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1"
-        @click.outside="open = false">
+    <div class="left-1/2 sm:px-0 absolute z-10 w-screen max-w-xl px-2 mt-3 transform -translate-x-1/2 rounded-lg"
+        x-show="open" x-cloak x-transition:enter="duration-200 ease-out"
+        x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
+        x-transition:leave="duration-150 ease-in" x-transition:leave-start="opacity-100 translate-y-0"
+        x-transition:leave-end="opacity-0 translate-y-1" @click.outside="open = false">
         <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
-            <div class="dark:bg-gray-900 bg-gray-50 relative grid grid-cols-2">
+            <div class="dark:bg-slate-800 bg-slate-50 relative grid grid-cols-2">
                 <div class="bg-radial-at-b from-icon-dark to-purple-900 flex-grow-0 p-6">
                     <div class="flex">
-                        <svg class="text-gray-50 flex-shrink-0 w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        <svg class="text-slate-50 flex-shrink-0 w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                         <div class="ml-4 space-y-4">
-                            <p class="text-gray-50 text-base font-medium">Apply for a Grant</p>
+                            <p class="text-slate-50 text-base font-medium">Apply for a Grant</p>
                             <div>
-                                <p class="text-gray-50 mt-1 text-sm">As part of our <a
-                                        href="/interoperability-incentive-program/" class="hover:no-underline underline"
-                                        id="hdev2">Interoperability Incentive
+                                <p class="text-slate-200 mt-1 text-sm">As part of
+                                    our <a href="/interoperability-incentive-program/"
+                                        class="hover:no-underline underline" id="hdev2">Interoperability Incentive
                                         Program</a>,
                                     we've set aside 200 million ICX to incentivize development of products and tools
                                     that use ICON's BTP technology.</p>
                             </div>
                             <p>
                                 <a href="{{ $.Site.Params.forms.incentiveProgramSubmissionUrl }}"
-                                    class="text-gray-50 hover:underline font-bold" target="_blank" id="hdev3">Apply Now
+                                    class="text-slate-50 hover:underline font-bold" target="_blank" id="hdev3">Apply Now
                                     &#8594</a>
                             </p>
                         </div>
@@ -44,63 +44,73 @@
                 </div>
                 <div class="p-3">
                     <a href="https://docs.icon.community"
-                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                        class="hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700 flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg"
                         id="hdev4">
-                        <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <svg class="dark:text-icon-lo flex-shrink-0 w-6 h-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
                         </svg>
                         <div class="ml-4" id="hdev4">
-                            <p class="text-base font-medium text-gray-900" id="hdev4">Documentation</p>
-                            <p class="mt-1 text-sm text-gray-500" id="hdev4">Learn how to develop dApps and smart
+                            <p class="dark:text-slate-100 text-slate-900 text-base font-medium" id="hdev4">Documentation
+                            </p>
+                            <p class="dark:text-slate-400 text-slate-500 mt-1 text-sm" id="hdev4">Learn how to develop
+                                dApps and smart
                                 contracts on the
                                 ICON blockchain.</p>
                         </div>
                     </a>
                     <a href="/repos/"
-                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                        class="hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700 flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg"
                         id="hdev5">
-                        <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <svg class="dark:text-icon-lo flex-shrink-0 w-6 h-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
                         </svg>
                         <div class="ml-4" id="hdev6">
-                            <p class="text-base font-medium text-gray-900" id="hdev5">Popular Repos</p>
-                            <p class="mt-1 text-sm text-gray-500" id="hdev5">
+                            <p class="dark:text-slate-100 text-slate-900 text-base font-medium" id="hdev5">Popular Repos
+                            </p>
+                            <p class="dark:text-slate-400 text-slate-500 mt-1 text-sm" id="hdev5">
                                 View the most popular ICON-related GitHub repositories.
                             </p>
                         </div>
                     </a>
                     <a href="https://github.com/icon-project/java-score-examples"
-                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                        class="hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700 flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg"
                         id="hdev5">
-                        <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <svg class="dark:text-icon-lo flex-shrink-0 w-6 h-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                         </svg>
                         <div class="ml-4" id="hdev5">
-                            <p class="text-base font-medium text-gray-900" id="hdev5">Example Projects</p>
-                            <p class="mt-1 text-sm text-gray-500" id="hdev5">Kickstart your smart contract development
+                            <p class="dark:text-slate-100 text-slate-900 text-base font-medium" id="hdev5">Example
+                                Projects</p>
+                            <p class="dark:text-slate-400 text-slate-500 mt-1 text-sm" id="hdev5">Kickstart your smart
+                                contract development
                                 workflow
                                 with these example projects.</p>
                         </div>
                     </a>
                     <a href="https://immunefi.com/bounty/icon/"
-                        class="hover:bg-gray-100 hover:border-gray-200 border-gray-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                        class="hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700 flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg"
                         id="hdev5">
-                        <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <svg class="dark:text-icon-lo flex-shrink-0 w-6 h-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082" />
                         </svg>
                         <div class="ml-4" id="hdev7">
-                            <p class="text-base font-medium text-gray-900" id="hdev7">Bug Bounty</p>
-                            <p class="mt-1 text-sm text-gray-500" id="hdev5">
+                            <p class="dark:text-slate-100 text-slate-900 text-base font-medium" id="hdev7">Bug Bounty
+                            </p>
+                            <p class="dark:text-slate-400 text-slate-500 mt-1 text-sm" id="hdev5">
                                 Explore active bug bounties for ICON smart contracts and core blockchain software.
                             </p>
                         </div>

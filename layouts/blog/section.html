@@ -12,13 +12,13 @@
         {{ end }}
         {{ $authorName := $data.Get "authorName" }}
         {{ $authorId := replace (lower ($authorName)) " " "-" }}
-        <div class="flex flex-col overflow-hidden border border-gray-300 rounded-lg">
-            <div class=" flex-shrink-0 border-b border-gray-300">
+        <div class="dark:border-slate-700 border-slate-300 flex flex-col overflow-hidden border rounded-lg">
+            <div class=" dark:border-slate-700 border-slate-300 flex-shrink-0 border-b">
                 <img class="h-60 object-cover w-full"
                     src="{{ partial "featured_image.html" . }}?w=1280&fit=max&auto=format&fm=pjpg&q=50&gif-q=35"
                     alt="{{ .Params.description }}" loading="lazy">
             </div>
-            <div class="dark:border-gray-700 flex flex-col justify-between flex-1 p-6">
+            <div class="dark:border-slate-700 dark:bg-slate-800 flex flex-col justify-between flex-1 p-6">
                 <div class="flex-1">
                     {{ with .Params.category }}
                     <p class="text-icon-lo text-sm font-bold">
@@ -31,7 +31,7 @@
                         <h2 class="hover:text-icon-lo text-xl font-bold leading-snug">
                             {{ .Title }}
                         </h2>
-                        <p class="dark:text-gray-400 mt-3 leading-snug text-gray-600">
+                        <p class="dark:text-slate-400 text-slate-600 mt-3 leading-snug">
                             {{ .Params.description }}
                         </p>
                     </a>
@@ -45,7 +45,7 @@
                                 alt="{{ $authorName }}">
                         </a>
                     </div>
-                    <div class="dark:text-gray-400 ml-3 text-gray-600">
+                    <div class="dark:text-slate-400 text-slate-600 ml-3">
                         <p class="text-sm font-medium">{{ $authorName }}</p>
                         <div class="flex space-x-1 text-sm">
                             <time datetime="2020-03-16">
@@ -61,7 +61,7 @@
     <div id="recent-posts">
         <header id="page-header" class="max-w-7xl mx-auto my-16 text-center">
             <h2 id="title" class="lg:text-6xl md:text-5xl mb-4 text-4xl font-extrabold">Recent Posts</h2>
-            <div id="subtitle" class="dark:text-gray-400 max-w-xl mx-auto text-lg text-gray-600">Recent blog posts
+            <div id="subtitle" class="dark:text-slate-400 text-slate-600 max-w-xl mx-auto text-lg">Recent blog posts
                 published
                 by the ICON community.</div>
         </header>
@@ -73,7 +73,7 @@
                     <a href="{{ .Permalink }}" class="hover:underline">
                         <h2 class="font-bold leading-tight">{{ .Title }}</h2>
                     </a>
-                    <time class="dark:text-gray-400 text-sm text-gray-600"
+                    <time class="dark:text-slate-400 text-slate-600 text-sm"
                         t>{{ .PublishDate.Format "Jan 2, 2006" }}</time>
                 </header>
                 <p class="text-sm leading-snug">{{ .Params.description | safeHTML | truncate 120 }}</p>
