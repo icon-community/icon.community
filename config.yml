@@ -21,9 +21,17 @@ categories:
 
 params:
   authors:
-    espanicon: "Espanicon"
-    icon-foundation: "ICON Foundation"
-    rhizome: "RHIZOME"
+    espanicon:
+      name: "Espanicon"
+      description: "Espanicon is an ICON validator. Their goal is to participate in the chain governance of the network and expand the ICON ecosystem by building projects in it and collaborating with other validators."
+      validatorAddress: "hx9fa9d224306b0722099d30471b3c2306421aead7"
+    icon-foundation:
+      name: "ICON Foundation"
+      description:
+    rhizome:
+      name: "RHIZOME"
+      description:
+      validatorAddress: "hx4a43790d44b07909d20fbcc233548fc80f7a4067"
   banner:
     message: Nexus is live – learn how to transfer tokens between ICON and BSC!
     url: /blog/2022/nexus-beta-now-available-on-mainnet/
