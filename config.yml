@@ -20,21 +20,25 @@ categories:
   - tutorial
 
 params:
+  authors:
+    espanicon: "Espanicon"
+    icon-foundation: "ICON Foundation"
+    rhizome: "RHIZOME"
   banner:
     message: Nexus is live – learn how to transfer tokens between ICON and BSC!
     url: /blog/2022/nexus-beta-now-available-on-mainnet/
   featuredPostUrl: what-is-the-icx-token
+  forms:
+    faqSubmissionUrl: https://discord.com/invite/7a75Hf3cFm
+    ecosystemSubmissionUrl: https://se8br1ugut6.typeform.com/to/MBBDnTNG
+    incentiveProgramSubmissionUrl: https://se8br1ugut6.typeform.com/to/Qkialcom
   social:
     discordUrl: https://discord.com/invite/7a75Hf3cFm
     githubUrl: https://github.com/icon-project
     newsletterUrl: https://foundation.us15.list-manage.com/subscribe?u=d8b1e5594bd92c54dc0c7141c&id=fbc02bbf32
     roadmapUrl: https://iconfoundation.notion.site/BTP-Integration-Milestones-1f1decaab3d246f5a042ff45a21aab86
     twitterUrl: https://twitter.com/helloiconworld
-  forms:
-    faqSubmissionUrl: https://discord.com/invite/7a75Hf3cFm
-    ecosystemSubmissionUrl: https://se8br1ugut6.typeform.com/to/MBBDnTNG
-    incentiveProgramSubmissionUrl: https://se8br1ugut6.typeform.com/to/Qkialcom
-
+  
 markup:
   tableOfContents:
     endLevel: 2
