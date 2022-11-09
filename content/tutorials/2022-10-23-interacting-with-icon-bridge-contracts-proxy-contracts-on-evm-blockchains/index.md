@@ -30,14 +30,12 @@ Using web3.js we can do this with the following method call:
 {{< highlight javascript >}}
 import Web3 from "web3"
 
-const bscTestnetWeb3 = new
-Web3("https://data-seed-prebsc-1-s1.binance.org:8545") const
-BTSLogicContractAddress = "0xE020d4aD483C7eC90a24d9db502e66564eF9c236" const
-BTSLogicContractABI = null // at this point this data is unkown
+const bscTestnetWeb3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545") 
+const BTSLogicContractAddress = "0xE020d4aD483C7eC90a24d9db502e66564eF9c236"
+const BTSLogicContractABI = null // at this point this data is unkown
 
 // This next line will return in an error because we dont have the ABI const
-contractObject = new bscTestnetWeb3.eth.Contract(BTSLogicContractABI,
-BTSLogicContractAddress)
+contractObject = new bscTestnetWeb3.eth.Contract(BTSLogicContractABI, BTSLogicContractAddress)
 {{< /highlight >}}
 
 As you can see in the previous code example we still need one variable, the `BTSLogicContractABI` in order to create the contract object that we are going to use to interact with the ICON Bridge using Web3.js.
@@ -64,51 +62,59 @@ Once we have the proper ABI data we can continue creating the contract object an
 The following is a working example using `nodejs` (is necessary to previously install the `web3` library)
 
 {{< highlight javascript >}}
-const https = require("https");\
+const https = require("https");
 const Web3 = require("web3");
 
-// wrapping everything in an async function to handle the data request\
-async function asyncRun() {\
-const bscTestnetWeb3 = new Web3(\
-"https://data-seed-prebsc-1-s1.binance.org:8545"\
-);\
-// ABI and address of both proxy and logic contract\
-const BTSProxyContractAddress = "0x1a2aDf985D6c2700fdAf72A9c1e2b39e3B647F7e";\
-const BTSLogicContractAddress = "0xE020d4aD483C7eC90a24d9db502e66564eF9c236";\
-const BTSProxyContractABI = await asyncABIRequest(BTSProxyContractAddress);\
-const BTSLogicContractABI = await asyncABIRequest(BTSLogicContractAddress);
+// wrapping everything in an async function to handle the data request
+async function asyncRun() {
+  const bscTestnetWeb3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545");
+  // ABI and address of both proxy and logic contract
+  const BTSProxyContractAddress = "0x1a2aDf985D6c2700fdAf72A9c1e2b39e3B647F7e";
+  const BTSLogicContractAddress = "0xE020d4aD483C7eC90a24d9db502e66564eF9c236";
+  const BTSProxyContractABI = await asyncABIRequest(BTSProxyContractAddress);
+  const BTSLogicContractABI = await asyncABIRequest(BTSLogicContractAddress);
 
-// Web3 Contract Object of the BTS logic contract\
-const contractObject = new bscTestnetWeb3.eth.Contract(\
-BTSLogicContractABI,\
-BTSLogicContractAddress\
+  // Web3 Contract Object of the BTS logic contract
+  const contractObject = new bscTestnetWeb3.eth.Contract(
+    BTSLogicContractABI,
+    BTSLogicContractAddress
 );
 
-// encoding a call to a readonly method named 'getNativeCoinName'\
-const getNativeCoinName = contractObject.methods.getNativeCoinName();\
-const encodedData = getNativeCoinName.encodeABI();
+  // encoding a call to a readonly method named 'getNativeCoinName'
+  const getNativeCoinName = contractObject.methods.getNativeCoinName();
+  const encodedData = getNativeCoinName.encodeABI();
 
-// making a readonly call\
-const nativeCoinNameCallResponse = await bscTestnetWeb3.eth.call({ [26/53] to:
-BTSProxyContractAddress,\
-data: encodedData });
+  // making a readonly call
+  const nativeCoinNameCallResponse = await bscTestnetWeb3.eth.call({
+    to: BTSProxyContractAddress,
+    data: encodedData
+  });
 
-// parsing the hex response into utf8 const parsedResponse =
-bscTestnetWeb3.utils.toUtf8( nativeCoinNameCallResponse );
-console.log(parsedResponse); }
+  // parsing the hex response into utf8
+  const parsedResponse = bscTestnetWeb3.utils.toUtf8( nativeCoinNameCallResponse );
+  console.log(parsedResponse); 
+}
 
-// Running the async example asyncRun();
+// Running the async example
+asyncRun();
 
 // the following is a function to handle the request asynchronously created only
 // to illustrate the example, it works "as is" but doesnt handle many things
 // that you should handle when writing production code in an app (timeout, proper
-// data on error, etc) async function asyncABIRequest(contractAddress) { const
-
-asyncQuery = new Promise((resolve, reject) => { const ABIRequest =
-https.request( { hostname: "api-testnet.bscscan.com", path:
-`/api?module=contract&action=getabi&address=${contractAddress}&format =raw` },
-res => { // process chunked data let rawData = ""; res.on("data", chunk => {
-rawData += chunk; });
+// data on error, etc)
+async function asyncABIRequest(contractAddress) { 
+  const asyncQuery = new Promise((resolve, reject) => { 
+    const ABIRequest = https.request(
+      {
+        hostname: "api-testnet.bscscan.com",
+        path: `/api?module=contract&action=getabi&address=${contractAddress}&format =raw` 
+      },
+      res => { 
+        // process chunked data
+        let rawData = "";
+        res.on("data", chunk => {
+          rawData += chunk; 
+          });
 
         res.on("end", () => {
           try {
@@ -118,9 +124,9 @@ rawData += chunk; });
             console.log(`error making async query: ${err}`);
             reject(null);
           }
-        });
-      }
-    );
+        }
+      );
+    });
 
     ABIRequest.on("error", error => {
       console.log(`Error on request: ${error}`);
@@ -128,7 +134,8 @@ rawData += chunk; });
 
     ABIRequest.end();
 
-});
+  });
 
-return await asyncQuery; }
+  return await asyncQuery;
+}
 {{< /highlight >}}
