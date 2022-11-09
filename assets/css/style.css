@@ -70,6 +70,29 @@
   white-space: nowrap;
 }
 
+.post-content code {
+  background: #eee;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
+.post-content pre code {
+  background: none;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 0 0;
+}
+
+.post-content pre {
+  border-radius: 1rem;
+  margin: 1rem auto;
+  overflow-x: scroll;
+  padding: 1.5rem;
+}
+
 #page-header #subtitle a {
   text-decoration: underline;
 }
