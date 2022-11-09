@@ -1,6 +1,6 @@
 ---
 title: "Interacting with ICON Bridge Contracts (Proxy Contracts) on EVM Blockchains"
-date: 2022-10-23
+date: 2022-11-09
 author: espanicon
 slug: interacting-with-icon-bridge-contracts-proxy-contracts-on-evm-blockchains
 description: Learn how to use ICON Bridge to interact with EVM blockchains from ICON.
