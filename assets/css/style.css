@@ -87,7 +87,7 @@
 }
 
 .post-content pre {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin: 1rem auto;
   overflow-x: scroll;
   padding: 1.5rem;
