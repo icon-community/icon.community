@@ -33,8 +33,8 @@ params:
       description:
       validatorAddress: "hx4a43790d44b07909d20fbcc233548fc80f7a4067"
   banner:
-    message: Nexus is live – learn how to transfer tokens between ICON and BSC!
-    url: /blog/2022/nexus-beta-now-available-on-mainnet/
+    message:
+    url:
   featuredPostUrl: what-is-the-icx-token
   forms:
     faqSubmissionUrl: https://discord.com/invite/7a75Hf3cFm
