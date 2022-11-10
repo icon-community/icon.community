@@ -25,8 +25,8 @@ params:
     icon-foundation: "ICON Foundation"
     rhizome: "RHIZOME"
   banner:
-    message: Nexus is live – learn how to transfer tokens between ICON and BSC!
-    url: /blog/2022/nexus-beta-now-available-on-mainnet/
+    message:
+    url:
   featuredPostUrl: what-is-the-icx-token
   forms:
     faqSubmissionUrl: https://discord.com/invite/7a75Hf3cFm
