@@ -3,7 +3,7 @@ title: ICON With Python – Getting Started With the ICON Python SDK
 date: 2022-11-11
 author: rhizome-labs
 slug: icon-with-python-getting-started-with-the-icon-python-sdk
-description:
+description: Learn how to use the ICON Python SDK to query the ICON blockchain.
 tags:
 - python
 ---
