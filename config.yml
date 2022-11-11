@@ -23,14 +23,14 @@ params:
   authors:
     espanicon:
       name: "Espanicon"
-      description: "Espanicon is an ICON validator. Their goal is to participate in the chain governance of the network and expand the ICON ecosystem by building projects in it and collaborating with other validators."
+      description: "Espanicon is a validator on the ICON network. Their goal is to participate in the chain governance of the network and expand the ICON ecosystem by building projects in it and collaborating with other validators."
       validatorAddress: "hx9fa9d224306b0722099d30471b3c2306421aead7"
     icon-foundation:
       name: "ICON Foundation"
       description:
-    rhizome:
-      name: "RHIZOME"
-      description:
+    rhizome-labs:
+      name: "RHIZOME Labs"
+      description: "RHIZOME Labs is a longtime contributor to the ICON blockchain. In addition to operating a validator node, RHIZOME Labs also develops various ICON-related tools and dashboards (e.g. RHIZOME Tracker and icon.community), publishes blog posts and tutorials, and more."
       validatorAddress: "hx4a43790d44b07909d20fbcc233548fc80f7a4067"
   banner:
     message:
