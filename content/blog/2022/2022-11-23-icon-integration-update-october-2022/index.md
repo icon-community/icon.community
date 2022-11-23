@@ -1,9 +1,8 @@
 ---
 title: ICON Integration Update - October 2022
-date: 2022-11-22
+date: 2022-11-23
 description: In this recurring ICON Integration Update, we zoom in a bit more on the Interoperability Integrations and summarise the highlights from progress reports that contributing teams have supplied to the ICON Bridge GitHub repository.
 slug: icon-integration-update-october-2022
-draft: true
 ---
 
 Around the first week of every month, the [ICON Development Update](https://icon.community/blog/2022/icon-development-update-october-2022/) is published with three main sections. These sections are the BTP Architecture updates, Interoperability Integrations and ICON 2.0 updates.
