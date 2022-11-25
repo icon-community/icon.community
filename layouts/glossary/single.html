@@ -1,16 +1,19 @@
 {{ define "container" }}
 <div id="container" class="max-w-xl px-4 mx-auto my-16">
-    <header class="sm:mb-8 mb-6">
-        <div class="sm:space-x-6 flex flex-wrap items-center space-x-4">
+    <div id="hero-buttons" class="flex flex-wrap justify-start gap-4 mb-5">
+        {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Back to Glossary" "buttonUrl" "/glossary/") }}
+    </div>
+    <header class="mb-6 sm:mb-8">
+        <div class="flex flex-wrap items-center space-x-4 sm:space-x-6">
             {{ $avatarImagePath := (printf "%s%s%s" "/static/assets/images/glossary/" .File.BaseFileName ".png") }}
             {{ if os.FileExists $avatarImagePath }}
-            <div class="lg:w-32 lg:h-32 flex items-center w-24 h-24 bg-slate-100 border border-slate-200 rounded-lg">
-                <img class="lg:p-4 max-w-full max-h-full p-3 mx-auto"
+            <div class="flex items-center w-24 h-24 border rounded-lg lg:w-32 lg:h-32 bg-slate-100 border-slate-200">
+                <img class="max-w-full max-h-full p-3 mx-auto lg:p-4"
                     src="{{ partial "cdn_url.html" }}/assets/images/logos/{{ .File.BaseFileName }}_dark.png">
             </div>
             {{ end }}
             <div class="space-y-1">
-                <h1 class="sm:text-4xl text-3xl font-bold leading-tight">{{ .Title }}</h1>
+                <h1 class="text-3xl font-bold leading-tight sm:text-4xl">{{ .Title }}</h1>
                 <div class="post-meta flex items-center space-x-2.5">
                     {{ with .Params.synonym }}
                     <p id="term-synonym"
@@ -22,8 +25,8 @@
             </div>
         </div>
     </header>
-
-    <div class="post-content mb-8">
+  
+    <div class="mb-8 post-content">
         {{ .Content }}
     </div>
 
@@ -42,5 +45,11 @@
     </div>
     {{ end }}
     {{ end }}
+    
+    <div id="hero-buttons" class="flex flex-col mt-10 space-y-2">
+        <h2 class="font-semibold">Keep exploring:</h2>
+        {{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "ICON Learn Section" "buttonUrl" "/learn/") }}
+        {{ partial "buttons/button_secondary_smaller.html" (dict "context" . "buttonText" "ICON Blog Section" "buttonUrl" "/blog/") }}
+    </div>
 </div>
 {{ end }}
