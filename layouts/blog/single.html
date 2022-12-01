@@ -12,6 +12,13 @@
         <div class="post-content">
             {{ .Content }}
         </div>
+        <div id="hero-buttons" class="flex flex-col mt-10 space-y-2">
+            <h2 class="font-semibold">Keep exploring:</h2>
+            <div class="flex flex-row space-x-2">
+            {{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "ICON Learn Section" "buttonUrl" "/learn/") }}
+            {{ partial "buttons/button_secondary_smaller.html" (dict "context" . "buttonText" "ICON Blog Section" "buttonUrl" "/blog/") }}
+            </div>
+        </div>
     </div>
 </main>
 {{ end }}
