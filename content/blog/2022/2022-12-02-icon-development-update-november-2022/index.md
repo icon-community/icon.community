@@ -3,7 +3,6 @@ title: ICON Development Update – November 2022
 date: 2022-12-01
 description: In November, the ICON team continued making progress on BTP, ICON Bridge and ICON 2.0. The ImmuneFi bug bounty program saw two reported bugs awarded and resolved. In this article, we’ll share tasks completed and development milestones for December.
 slug: icon-development-update-november-2022
-draft: true
 ---
 
 In November, the ICON team continued making progress on BTP, ICON Bridge and ICON 2.0. The ImmuneFi bug bounty program saw two reported bugs awarded and resolved. In this article, we’ll share tasks completed and development milestones for December.
