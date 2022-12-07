@@ -1,0 +1,31 @@
+{{ define "container" }}
+<main>
+    <!-- HEADER BLOCK -->
+    <div id="hero" class="relative z-10 px-4 py-16 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-blue-400 to-sky-900">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-6xl xs:text-5xl text-slate-50">
+            Join $ICX on<br><span class="text-blue-600">CoinMarketCap</span><br>and win ICON ecosystem NFTs
+        </h1>
+        <p class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl text-slate-100">
+            Follow the steps and join $ICX on CoinMarketCap. Lucky followers will win ICON ecosystem NFTs. Campaign running until 28/02/2022.
+        </p>
+        <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
+            {{ partial "buttons/button_quartiary.html" (dict "context" . "buttonText" "Visit CoinMarketCap" "buttonUrl" "https://coinmarketcap.com/community/profile/ICONNetwork") }}
+        </div>
+    </div>
+    <!-- RESPONSIVEFOLLOW THESE STEPS BLOCK -->
+    <div id="container" class="relative z-20 max-w-6xl p-10 m-20 mx-auto -mt-10 bg-white border-2 rounded-lg shadow-md">        
+        <header class="mb-8 space-y-2">
+            <h2 class="text-4xl font-bold">Follow these steps and win:</h2>
+            <ol class="space-y-2">
+                <li>Follow ICON Network on CoinMarketCap</li>
+                <li>Post about your favorite dApp in the ICON ecosystem and tell us why you like it (don't forget to hit "bullish" and tag $ICX)</li>
+                <li>Fill in this form in order to confirm your participation</li>
+            </ol>
+        </header>
+        <div>
+            {{ .Content }}
+        </div>
+    </div>
+    <!-- RESPONSIVE IMAGE BLOCK -->
+</main>
+{{ end }}
