@@ -1,85 +1,101 @@
 <div class="relative" x-data="{ open: false }">
     <button type="button"
-        class="group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 inline-flex items-center text-base font-medium rounded-md"
+        class="inline-flex items-center text-base font-medium rounded-md group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         aria-expanded="false" @click="open = true" id="hcom1">
         <span>Community</span>
-        <svg class="group w-5 h-5 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+        <svg class="w-5 h-5 transform group" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
             aria-hidden="true" :class="open && 'rotate-180'">
             <path fill-rule="evenodd"
                 d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                 clip-rule="evenodd" />
         </svg>
     </button>
-    <div class="left-1/2 sm:px-0 dark:bg-slate-800 absolute z-10 w-screen max-w-xl px-2 mt-3 transform -translate-x-1/2 bg-white rounded-lg"
+    <div class="absolute z-10 w-screen max-w-xl px-2 mt-3 transform -translate-x-1/2 bg-white rounded-lg left-1/2 sm:px-0 dark:bg-slate-800"
         x-show="open" x-cloak x-transition:enter="duration-200 ease-out"
         x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
         x-transition:leave="duration-150 ease-in" x-transition:leave-start="opacity-100 translate-y-0"
         x-transition:leave-end="opacity-0 translate-y-1" @click.outside="open = false">
-        <div class="ring-1 ring-black ring-opacity-5 overflow-hidden rounded-lg shadow-lg">
+        <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
             <div class="relative grid grid-cols-2">
-                <div class="bg-radial-at-t from-icon-dark to-purple-900 p-6">
+                <div class="p-6 bg-radial-at-t from-icon-dark to-purple-900">
                     <div class="flex">
-                        <svg class="text-slate-50 flex-shrink-0 w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        <svg class="flex-shrink-0 w-6 h-6 text-slate-50" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                         </svg>
                         <div class="ml-4 space-y-4">
-                            <p class="text-slate-50 text-base font-medium">Join
+                            <p class="text-base font-medium text-slate-50">Join
                                 Discord</p>
                             <div>
-                                <p class="text-slate-50 mt-1 text-sm">Join the
+                                <p class="mt-1 text-sm text-slate-50">Join the
                                     ICON Discord, and
                                     start
                                     connecting with our global community.</p>
                             </div>
                             <p>
                                 <a href="{{ $.Site.Params.social.discordUrl }}"
-                                    class="text-slate-50 hover:underline font-bold" id="hcom2">Join Now &#8594</a>
+                                    class="font-bold text-slate-50 hover:underline" id="hcom2">Join Now &#8594</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="p-3">
                     <a href="https://cps.icon.community"
-                        class="hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700 flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg"
+                        class="flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
                         id="hcom3">
                         <!-- Heroicon name: outline/cursor-click -->
-                        <svg class="dark:text-icon-lo flex-shrink-0 w-6 h-6 text-indigo-600"
+                        <svg class="flex-shrink-0 w-6 h-6 text-indigo-600 dark:text-icon-lo"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                         <div class="ml-4" id="hcom3">
-                            <p class="dark:text-slate-100 text-slate-900 text-base font-medium" id="hcom3">Get Funded
+                            <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hcom3">Get Funded
                             </p>
-                            <p class="dark:text-slate-400 text-slate-500 mt-1 text-sm" id="hcom3">Submit a proposal to
+                            <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hcom3">Submit a proposal to
                                 ICON's Contribution
                                 Proposal
                                 System to get your idea funded.</p>
                         </div>
                     </a>
                     <a href="https://forum.icon.community"
-                        class="hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700 flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg"
+                        class="flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
                         id="hcom4">
                         <!-- Heroicon name: outline/chart-bar -->
-                        <svg class="dark:text-icon-lo flex-shrink-0 w-6 h-6 text-indigo-600"
+                        <svg class="flex-shrink-0 w-6 h-6 text-indigo-600 dark:text-icon-lo"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
                         <div class="ml-4" id="hcom4">
-                            <p class="dark:text-slate-100 text-slate-900 text-base font-medium" id="hcom4">ICON Forum
+                            <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hcom4">ICON Forum
                             </p>
-                            <p class="dark:text-slate-400 text-slate-500 mt-1 text-sm" id="hcom4">Participate in
+                            <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hcom4">Participate in
                                 governance discussions on
                                 the
                                 ICON forum.</p>
 
                         </div>
                     </a>
+                    <!-- <a href="/joincoinmarketcap"
+                        class="flex items-start p-3 transition duration-150 ease-in-out border-2 border-[#2563EB]/50 rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
+                        id="hcom3">
+                        <svg class="flex-shrink-0 w-6 h-6 text-[#2563EB] dark:text-icon-lo animate-pulse"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        aria-hidden="true">
+                            <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                        </svg>                          
+                        <div class="ml-4" id="hcom3">
+                            <p class="text-base font-medium dark:text-slate-100 text-[#2563EB]" id="hcom3">Follow on CoinMarketCap
+                            </p>
+                            <p class="mt-1 text-sm dark:text-slate-400 text-[#2563EB]" id="hcom3">Join $ICX on
+                                CoinMarketCap
+                                and win 100 ICX</p>
+                        </div>
+                    </a> -->
                 </div>
             </div>
         </div>
