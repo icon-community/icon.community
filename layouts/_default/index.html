@@ -6,7 +6,13 @@
 {{ define "container" }}
 <div id="container">
     <div id="hero"
-        class="relative px-4 py-16 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900">
+        class="relative px-4 py-16 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900 hover:cursor-xmas">
+        <div class="w-5/6 mx-auto sm:-mt-20 md:w-1/2 lg:w-1/4 hover:hue-rotate-60">
+            <img 
+                class=""
+                src="/assets/images/icon-christmas-ball.png"
+                alt="ICON wishes everyone happy holidays" loading="lazy">
+        </div>
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-7xl xs:text-5xl text-slate-50">
             Connecting Blockchains<br>and Communities
         </h1>
@@ -17,6 +23,18 @@
         <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About ICON" "buttonUrl" "/learn/") }}
             {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discordUrl) }}
+        </div>
+        <div class="absolute w-4/6 -rotate-45 bottom-10 right-10 md:w-1/3 lg:w-1/5 hue-rotate-15 hover:hue-rotate-90">
+            <img 
+                class=""
+                src="/assets/images/icon-christmas-ball.png"
+                alt="ICON wishes everyone happy holidays" loading="lazy">
+        </div>
+        <div class="absolute w-3/6 -rotate-180 top-10 right-10 md:w-1/4 lg:w-1/6 hue-rotate-90 hover:hue-rotate-180">
+            <img 
+                class=""
+                src="/assets/images/icon-christmas-ball.png"
+                alt="ICON wishes everyone happy holidays" loading="lazy">
         </div>
     </div>
     <div class="relative overflow-hidden">

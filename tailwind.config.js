@@ -30,6 +30,9 @@ module.exports = {
       ...defaultTheme.screens,
     },
     extend: {
+      cursor: {
+        'xmas': 'url(/assets/images/tree_cursor.png), pointer',
+      },
       backgroundImage: {
         conic: 'conic-gradient(var(--tw-gradient-stops))',
         'conic-to-t': 'conic-gradient(at top, var(--tw-gradient-stops))',
