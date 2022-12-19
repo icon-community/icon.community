@@ -6,15 +6,16 @@
 {{ define "container" }}
 <div id="container">
     <div id="hero"
-        class="relative px-4 py-16 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900 hover:cursor-xmas">
-        <div class="w-5/6 mx-auto sm:-mt-20 md:w-1/2 lg:w-1/4 hover:hue-rotate-60">
+        class="relative px-4 py-16 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900 ">
+        <div class="w-5/6 mx-auto transition-all duration-300 sm:-mt-20 md:w-1/2 lg:w-1/4 hover:hue-rotate-60 hover:cursor-xmas">
             <img 
                 class=""
                 src="/assets/images/icon-christmas-ball.png"
                 alt="ICON wishes everyone happy holidays" loading="lazy">
         </div>
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-7xl xs:text-5xl text-slate-50">
-            Connecting Blockchains<br>and Communities
+            Connecting Blockchains<br>and 
+            <span class="hover:cursor-xmas"><span class="duration-200 transform-all text-white hover:text-[#39AFBE]">C</span><span class="duration-200 transform-all text-white hover:text-[#C98DFE]">o</span><span class="duration-200 transform-all text-white hover:text-[#39AFBE]s">m</span><span class="duration-200 transform-all text-white hover:text-[#C98DFE]">m</span><span class="transform-all text-white hover:text-[#39AFBE] duration-200">u</span><span class="duration-200 transform-all text-white hover:text-[#C98DFE]">n</span><span class="transform-all text-white hover:text-[#39AFBE] duration-200">i</span><span class="transform-all text-white hover:text-[#C98DFE] duration-200s">t</span><span class="transform-all duration-200 text-white hover:text-[#39AFBE]">i</span><span class="transform-all text-white hover:text-[#C98DFE] duration-200 ">e</span><span class="transform-all duration-200 text-white hover:text-[#39AFBE]">s</span></span>
         </h1>
         <p class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl text-slate-100">
             ICON blockchain is a public blockchain protocol building a hyperconnected future with BTP, our
@@ -24,15 +25,21 @@
             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About ICON" "buttonUrl" "/learn/") }}
             {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discordUrl) }}
         </div>
-        <div class="absolute w-4/6 -rotate-45 bottom-10 right-10 md:w-1/3 lg:w-1/5 hue-rotate-15 hover:hue-rotate-90">
+        <div class="absolute invisible w-4/6 transition-all duration-300 -rotate-45 sm:visible bottom-10 right-10 md:w-1/3 lg:w-1/5 hue-rotate-15 hover:hue-rotate-90 hover:cursor-xmas">
             <img 
                 class=""
                 src="/assets/images/icon-christmas-ball.png"
                 alt="ICON wishes everyone happy holidays" loading="lazy">
         </div>
-        <div class="absolute w-3/6 -rotate-180 top-10 right-10 md:w-1/4 lg:w-1/6 hue-rotate-90 hover:hue-rotate-180">
+        <div class="absolute invisible w-3/6 transition-all duration-300 -rotate-180 sm:visible top-10 right-10 md:w-1/4 lg:w-1/6 hue-rotate-90 hover:hue-rotate-180 hover:cursor-xmas">
             <img 
                 class=""
+                src="/assets/images/icon-christmas-ball.png"
+                alt="ICON wishes everyone happy holidays" loading="lazy">
+        </div>
+        <div class="absolute invisible w-3/6 transition-all duration-300 -left-20 -rotate-12 sm:visible bottom-20 md:w-2/4 lg:w-2/6 hue-rotate-60 hover:hue-rotate-180 hover:cursor-xmas">
+            <img 
+                class="-rotate-12"
                 src="/assets/images/icon-christmas-ball.png"
                 alt="ICON wishes everyone happy holidays" loading="lazy">
         </div>
