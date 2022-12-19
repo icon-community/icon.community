@@ -31,7 +31,7 @@ module.exports = {
     },
     extend: {
       cursor: {
-        'xmas': 'url(/assets/images/tree_cursor.png), pointer',
+        'xmas': 'url(/assets/images/tree_cursor2.png), pointer',
       },
       backgroundImage: {
         conic: 'conic-gradient(var(--tw-gradient-stops))',
