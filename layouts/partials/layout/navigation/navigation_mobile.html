@@ -1,6 +1,6 @@
-<div class="md:hidden absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform" x-show="mobileMenuOpen"
+<div class="absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform md:hidden" x-show="mobileMenuOpen"
     x-cloak>
-    <div class="divide-slate-50 bg-white border border-slate-200 divide-y-2 rounded-lg shadow-sm">
+    <div class="bg-white border divide-y-2 rounded-lg shadow-sm divide-slate-50 border-slate-200">
         <div>
             <div class="flex items-center justify-between p-4 border-b border-slate-200">
                 <div>
@@ -9,7 +9,7 @@
                 </div>
                 <div class="-mr-2">
                     <button type="button"
-                        class="hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 inline-flex items-center justify-center p-2 text-slate-400 bg-white rounded-md"
+                        class="inline-flex items-center justify-center p-2 bg-white rounded-md hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 text-slate-400"
                         @click="mobileMenuOpen = false">
                         <span class="sr-only">Close menu</span>
                         <!-- Heroicon name: outline/x -->
@@ -24,11 +24,11 @@
             <nav class="grid grid-cols-1 divide-y divide-slate-200">
                 <!-- Developers -->
                 <div id="developers" class="divide-y divide-slate-200" x-data="{open: false}">
-                    <button class="hover:bg-slate-100 w-full p-4 text-lg font-medium text-slate-900"
+                    <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click="open =! open">Developers</button>
                     <div x-show="open" class="divide-y divide-slate-200">
                         <a href="/interoperability-incentive-program/"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -44,7 +44,7 @@
                             </div>
                         </a>
                         <a href="https://docs.icon.community"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -59,7 +59,7 @@
                             </div>
                         </a>
                         <a href="/repos/"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                                 class="w-6 h-6">
@@ -76,7 +76,7 @@
                             </div>
                         </a>
                         <a href="https://github.com/icon-project/java-score-examples"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -93,7 +93,7 @@
                             </div>
                         </a>
                         <a href="https://immunefi.com/bounty/icon/"
-                            class="hover:bg-slate-100 hover:border-slate-200 border-slate-50 flex items-start p-3 transition duration-150 ease-in-out border rounded-lg"
+                            class="flex items-start p-3 transition duration-150 ease-in-out border rounded-lg hover:bg-slate-100 hover:border-slate-200 border-slate-50"
                             id="hdev5">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -111,16 +111,16 @@
                 </div>
                 <!-- Ecosystem -->
                 <div id="ecosystem" class="divide-y divide-slate-200" x-data="{open: false}">
-                    <button class="hover:bg-slate-100 w-full p-4 text-lg font-medium text-slate-900"
+                    <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         onclick="location.href='/ecosystem/'">Ecosystem</button>
                 </div>
                 <!-- Resources -->
                 <div id="resources" class="divide-y divide-slate-200" x-data="{open: false}">
-                    <button class="hover:bg-slate-100 w-full p-4 text-lg font-medium text-slate-900"
+                    <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click=" open=! open">Resources</button>
                     <div x-show="open" class="divide-y divide-slate-200">
                         <a href="/learn/"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -133,7 +133,7 @@
                             </div>
                         </a>
                         <a href="/blog/"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -147,27 +147,27 @@
                             </div>
                         </a>
                         <a href="https://www.youtube.com/channel/UCI7Z_1sTKN-kCVgFD2a0GXQ"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
                             </svg>
                             <div class="ml-4">
-                                <p class="text-gr1ay-900 text-base font-medium">Videos</p>
+                                <p class="text-base font-medium text-gr1ay-900">Videos</p>
                                 <p class="mt-1 text-sm text-slate-500">Watch interviews, tutorials, and more on the ICON
                                     YouTube channel.</p>
                             </div>
                         </a>
                         <a href="/glossary/"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                             <div class="ml-4">
-                                <p class="text-gr1ay-900 text-base font-medium">Glossary</p>
+                                <p class="text-base font-medium text-gr1ay-900">Glossary</p>
                                 <p class="mt-1 text-sm text-slate-500">Everything you need to know about ICON in
                                     a
                                     delicious
@@ -175,20 +175,20 @@
                             </div>
                         </a>
                         <a href="/assets/btp-litepaper.pdf"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                             </svg>
                             <div class="ml-4">
-                                <p class="text-gr1ay-900 text-base font-medium">BTP Litepaper</p>
+                                <p class="text-base font-medium text-gr1ay-900">BTP Litepaper</p>
                                 <p class="mt-1 text-sm text-slate-500">Learn about ICON's Blockchain Transmission
                                     Protocol interoperability solution.</p>
                             </div>
                         </a>
                         <a href="{{ $.Site.Params.social.roadmapUrl }}"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -206,11 +206,11 @@
                 </div>
                 <!-- Community -->
                 <div id="community" class="divide-y divide-slate-200" x-data="{open: false}">
-                    <button class="hover:bg-slate-100 w-full p-4 text-lg font-medium text-slate-900"
+                    <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click="open =! open">Community</button>
                     <div x-show="open" class="divide-y divide-slate-200">
                         <a href="{{ $.Site.Params.social.discordUrl }}"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <!-- Heroicon name: outline/cursor-click -->
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -224,7 +224,7 @@
                             </div>
                         </a>
                         <a href="https://cps.icon.community"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -238,7 +238,7 @@
                             </div>
                         </a>
                         <a href="https://forum.icon.community"
-                            class="hover:bg-slate-100 flex items-start p-4 transition duration-150 ease-in-out">
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -248,6 +248,20 @@
                                 <p class="text-base font-medium text-slate-900">ICON Forum</p>
                                 <p class="mt-1 text-sm text-slate-500">
                                     Participate in governance discussions on the ICON forum.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="/joincoinmarketcap"
+                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
+                            <svg class="flex-shrink-0 w-6 h-6 text-[#2563EB] dark:text-icon-lo"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            aria-hidden="true">
+                                <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                            </svg>  
+                            <div class="ml-4">
+                                <p class="text-base font-medium text-slate-900">Follow on CoinMarketCap</p>
+                                <p class="mt-1 text-sm text-slate-500">
+                                    Join $ICX on CoinMarketCap and win 100 ICX
                                 </p>
                             </div>
                         </a>
