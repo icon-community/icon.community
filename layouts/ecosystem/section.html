@@ -2,10 +2,10 @@
 {{ $data := newScratch }}
 {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
 
-<div x-data="{ visibility: 'all' }" id="container" class="lg:my-24 max-w-6xl px-4 mx-auto my-16">
+<div x-data="{ visibility: 'all' }" id="container" class="max-w-6xl px-4 mx-auto my-16 lg:my-24">
     {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Add Your Project" "primaryButtonUrl" $.Site.Params.forms.ecosystemSubmissionUrl ) }}
     <div id="filter-buttons" class="mb-16 text-center">
-        <span class="lg:gap-0 relative z-0 inline-flex flex-wrap gap-2 mx-auto shadow-sm">
+        <span class="relative z-0 inline-flex flex-wrap gap-2 mx-auto shadow-sm lg:gap-0">
             {{ $types := slice }}
             {{ range $ecosystemMembers }}
             {{ $types = $types | append (trim (replace .File.Dir "ecosystem/" "") "/") }}
@@ -29,7 +29,7 @@
     </div>
     <div>
         <ul id="ecosystem-members"
-            class="sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8 grid grid-cols-1">
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8">
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
             {{ if eq $type "community" }}
@@ -66,8 +66,8 @@
             <li x-show="['{{ $type }}', 'all'].includes(visibility)" id="{{ $name }}"
                 class="{{ $type }} flex space-x-4 rounded-lg">
                 <div id="{{ $name }}-logo"
-                    class="lg:w-32 lg:h-32 flex items-center flex-shrink-0 w-24 h-24 bg-slate-100 border border-slate-200 rounded-lg">
-                    <img class="lg:p-4 max-w-full max-h-full p-3 mx-auto"
+                    class="flex items-center flex-shrink-0 w-24 h-24 border rounded-lg lg:w-32 lg:h-32 bg-slate-100 border-slate-200">
+                    <img class="max-w-full max-h-full p-3 mx-auto lg:p-4"
                         src="{{ partial "cdn_url.html" }}/assets/images/logos/{{ .File.BaseFileName }}_dark.png?w=300&fit=max&auto=format&q=50"
                         loading="lazy">
                 </div>

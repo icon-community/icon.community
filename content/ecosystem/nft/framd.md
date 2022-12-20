@@ -1,4 +1,5 @@
 ---
 title: Frāmd
-draft: true
+twitter_url: https://twitter.com/FramdNFT
+website_url: https://framd.art/home
 ---
