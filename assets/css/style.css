@@ -81,12 +81,14 @@
 .post-content pre code {
   background: none;
   border-radius: 0;
+  color: #f8f8f2;
   font-weight: 400;
   font-size: 0.9rem;
   padding: 0 0;
 }
 
 .post-content pre {
+  background: #272822;
   border-radius: 0.5rem;
   margin: 1rem auto;
   overflow-x: scroll;
