@@ -1,8 +1,8 @@
 ---
-title: ICON With Python – How to Query a Smart Contract
+title: ICON With Python – How to Query an ICON Smart Contract
 date: 2022-12-19
 author: rhizome-labs
-slug: icon-with-python-how-to-query-a-smart-contract
+slug: icon-with-python-how-to-query-an-icon-smart-contract
 description: Learn how to query an ICON smart contract with the ICON Python SDK.
 tags:
 - python
