@@ -23,6 +23,6 @@ These improvements have already encouraged other projects in the ICON ecosystem 
 ## Moving Forward
 The ICON Tracker is an example of a product for which community members are the key stakeholders. It was built for the community, by the community.
 
-Once the tracker is considered feature-complete, it will move into a maintenance phase. This means that the code base will not be expanded upon, except for minor changes or bug fixes. From here on out, maintenance fees or further development (beyond items marked in this [roadmap](https://github.com/sudoblockio/icon-tracker/tree/main/planning)) will be funded via CPS. 
+Once the tracker is considered feature-complete, it will move into a maintenance phase. This means that the code base will not be expanded upon, except for minor changes or bug fixes. From here on out, maintenance fees or further development (including items marked in this [roadmap](https://github.com/sudoblockio/icon-tracker/tree/main/planning)) will be funded via CPS. 
 
 For any troubleshooting support, please join the #dev_support channel on [ICON Discord](https://discord.gg/qwsknc4utD). To report bugs or to make product related suggestions, you can [submit a request](https://icon.community/blog/2022/how-to-submit-an-issue-on-github/) directly through the [Tracker GitHub](https://github.com/sudoblockio/icon-tracker). 
