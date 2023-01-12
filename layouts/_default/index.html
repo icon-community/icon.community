@@ -19,7 +19,7 @@
                 </p>
                 <div id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
                     {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About ICON" "buttonUrl" "/learn/") }}
-                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" $.Site.Params.social.discordUrl) }}
+                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" "/icondiscord/") }}
                 </div>
             </div>
             <div class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
@@ -50,7 +50,7 @@
                                 on DeFi platforms, and more.
                             </p>
                             <div id="hero-buttons" class="flex flex-wrap gap-4">
-                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogdffldioobgl?hl=en") }}
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/") }}
                                 {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/learn/icx/#how-to-buy-icx") }}
                             </div>
                             <div class="flex gap-2.5 sm:gap-4">
@@ -140,7 +140,7 @@
                             </p>
                             <div id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Read Docs" "buttonUrl" "https://docs.icon.community/") }}
-                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" $.Site.Params.social.discordUrl) }}
+                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "/icondiscord/") }}
                             </div>
                         </div>
                     </div>
@@ -361,14 +361,14 @@
                 </div>
                 <div class="mt-6" id="p2">
                     <h3 class="text-lg font-medium">
-                        <a href="https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogdffldioobgl"
+                        <a href="/hanawallet/"
                             class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
                             <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p2"></span>
                             Download Wallet
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p2">Learn how to download and use
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="hwal1">Learn how to download and use
                         Hana,
                         the
                         official wallet of the
