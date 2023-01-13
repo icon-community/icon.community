@@ -20,6 +20,9 @@ module.exports = {
       teal: colors.teal,
       white: colors.white,
       yellow: colors.yellow,
+      red: colors.red,
+      orange: colors.orange,
+      slate: colors.slate,
       'icon': '#32b8bb',
       'icon-hi': '#31f2f6',
       'icon-lo': '#2ca9b7',
@@ -69,6 +72,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
