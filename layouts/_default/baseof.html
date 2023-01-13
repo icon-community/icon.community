@@ -33,7 +33,7 @@
         {{ partialCached "google_analytics.html" . }}
     </head>
 
-    <body class="bg-slate-50 dark:bg-slate-900 dark:text-slate-100 font-sans antialiased text-slate-900">
+    <body class="font-sans antialiased bg-slate-50 dark:bg-slate-900 dark:text-slate-100 text-slate-900">
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBTGP42" height="0" width="0"
@@ -41,6 +41,7 @@
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         {{ partialCached "navigation_bar.html" . }}
+        {{ partialCached "topbar.html" . }}
         {{ block "container" . }}{{ end }}
         {{ partialCached "footer.html" . }}
         {{ partialCached "cookie_notice.html" . }}
