@@ -33,6 +33,9 @@ module.exports = {
       ...defaultTheme.screens,
     },
     extend: {
+      fontFamily: {
+        'montserrat': 'Montserrat'
+      },
       cursor: {
         'xmas': 'url(/assets/images/tree_cursor2.png), pointer',
       },
