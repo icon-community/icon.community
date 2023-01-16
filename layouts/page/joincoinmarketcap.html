@@ -1,8 +1,8 @@
 {{ define "container" }}
 <main>
     <!-- HEADER BLOCK -->
-    <div id="hero" class="relative px-4 py-8 space-y-10 sm:py-24">
-        <img class='brightness-50 sm:brightness-100 absolute inset-0 w-[1920px] h-[480px] object-cover object-center -z-10' src='/assets/images/icx-coin-exploding.png' alt='ICX Coins Exploding'/>
+    <div id="hero" class="relative px-4 py-8 space-y-10 sm:py-24 grayscale">
+        <img class='brightness-50 sm:brightness-100 absolute mx-auto inset-0 w-[1920px] h-[480px] object-cover object-center -z-10' src='/assets/images/icx-coin-exploding.png' alt='ICX Coins Exploding'/>
         <div>
             <h1 class="mb-4 text-5xl font-extrabold tracking-tight text-left md:text-center text-slate-50">
                 Join $ICX on <span class="text-blue-600">CoinMarketCap</span>
@@ -31,7 +31,11 @@
         </div>
     </div>
     <!-- RESPONSIVEFOLLOW THESE STEPS BLOCK -->
-    <div id="participate" class="relative w-11/12 max-w-6xl p-10 m-20 mx-auto -mt-0 bg-white rounded-lg shadow-md">        
+    <div id="participate" class="relative w-11/12 max-w-6xl p-10 m-20 mx-auto -mt-0 bg-white rounded-lg shadow-md ">        
+        <div class="items-center justify-center w-full mb-20 text-4xl font-extrabold leading-normal text-center text-icon">
+            This campaign has concluded! <br>
+            Visit <a class="underline" href="https://coinmarketcap.com/community/profile/ICONNetwork">ICON on CoinMarketCap</a> or <a class="underline" href="/icondiscord/">join ICON on Discord</a>
+        </div>
         <header class="mb-8 space-y-6">
             <div>
                 <h2 class="text-3xl font-bold md:text-4xl">Participate and win:</h2>
@@ -45,9 +49,6 @@
                         </svg>
                         <p>Follow ICON Network on CoinMarketCap</p>
                     </div>
-                    <div class="ml-0 md:ml-4 whitespace-nowrap" target="_blank">
-                        {{ partial "buttons/button_quartiary_smaller.html" (dict "context" . "buttonText" "Follow Now" "buttonUrl" "https://coinmarketcap.com/community/profile/ICONNetwork") }}
-                    </div>
                 </li>
                 <li class="flex flex-col items-center justify-start p-4 space-y-2 rounded-lg bg-gray-50 md:space-y-0 md:flex-row">
                     <div class="flex items-center justify-start ">
@@ -59,9 +60,6 @@
                             <p>Tell us why you like it & don't forget to hit <span class="font-semibold text-green-600">"bullish"</span> and tag <span class="font-semibold">$ICX</span></p>
                         </div>
                     </div>
-                    <div class="mt-2 ml-0 md:ml-4 md:mt-0 whitespace-nowrap">
-                        {{ partial "buttons/button_quartiary_smaller.html" (dict "context" . "buttonText" "Post Now" "buttonUrl" "https://coinmarketcap.com/community") }}
-                    </div>
                 </li>
                 <li class="flex flex-col items-center justify-start p-4 space-y-2 rounded-lg bg-gray-50 md:space-y-0 md:flex-row">
                     <div class="flex items-center justify-start mb-4 mr-0 md:mr-2 md:mb-0">
@@ -69,9 +67,6 @@
                             <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
                         </svg>
                         <p>Fill in this form in order to confirm your participation</p>
-                    </div>
-                    <div>
-                        <button data-tf-slider="L2cOd75j" data-tf-width="550" data-tf-iframe-props="title=Join CoinMarketCap" data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#39195B;color:#FFFFFF;font-size:16px;border-radius:7px;padding:0 10px;font-weight:bold;height:33px;cursor:pointer;line-height:0px;text-align:center;text-decoration:none;">Fill in Form</button><script src="//embed.typeform.com/next/embed.js"></script>
                     </div>
                 </li>
             </ol>

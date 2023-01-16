@@ -22,14 +22,17 @@
                     {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" "/icondiscord/") }}
                 </div>
             </div>
+            
             <div class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
                 <div class="animate-pulse">
-                    <img src="/assets/images/coinmarketcap-campaign.png" alt="Join ICX on CoinMarketCap and WIN" loading="lazy">
+                    <img src="/assets/images/development-update-december-2022.png" alt="Join ICX on CoinMarketCap and WIN" loading="lazy">
                 </div>
                 <div class="flex flex-col items-start justify-center p-4 space-y-2 bg-slate-200">
-                    <h1 class="text-lg font-extrabold">Join $ICX on CoinMarketCap</h1>
-                    <p class="font-semibold">10 followers win 100 ICX every week, for 4 weeks!</p>
-                    {{ partial "buttons/button_quartiary_smaller.html" (dict "context" . "buttonText" "Participate" "buttonUrl" "/joincoinmarketcap/") }}  
+                    <h1 class="text-lg font-extrabold">Latest ICON Development Update</h1>
+                    <p class="font-semibold">In this article, we share tasks completed and development milestones for January.</p>
+                    <div class="pt-4 border-2 border-red-500">
+                        {{ partial "buttons/button_quartiary_smaller.html" (dict "context" . "buttonText" "Go to Update" "buttonUrl" "/blog/2023/icon-development-update-december-2022/") }}  
+                    </div>
                 </div>               
             </div> 
         </div>
