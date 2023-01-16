@@ -22,7 +22,7 @@ The BTP Message Verifier Contract (Light Client) is the most revolutionary aspec
 
 The Light Client is essentially a live, miniature copy of the source blockchain that exists on the destination blockchain. For example, the Light Client on Moonriver is a live copy of the ICON blockchain, and vice versa. The Relays are responsible for updating these copy blockchains, to ensure they are up to date and mirror the original chain. As you can imagine, this requires constant updating, as each blockchain produces new blocks at least every few seconds.
 
-{{< img src="icon-bridge-comparison-chart.jpg" alt="A comparison chart showcasing the differences between ICON Bridge and BTP." >}}
+{{< img src="icon-bridge-comparison-chart-updated.jpg" alt="A comparison chart showcasing the differences between ICON Bridge and BTP." >}}
 
 This is where the gas fee issue arises. Keeping the Light Client contracts updated has proven to be prohibitively expensive, with each Light Client contract requiring an extreme amount of gas fees to remain up-to-date.
 
