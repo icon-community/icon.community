@@ -1,13 +1,13 @@
 ---
 title: ICON Development Update – December 2022
-date: 2023-01-13
+date: 2023-01-16
 description: In December, the ICON team continued making progress on BTP, ICON Bridge and ICON 2.0. In this article, we’ll share tasks completed and development milestones for January.
 slug: icon-development-update-december-2022
 ---
 
-In December, the ICON team continued making progress on BTP, ICON Bridge and ICON 2.0. In this article, we’ll share tasks completed and development milestones for January. 
+In December, the ICON team continued making progress on BTP, ICON Bridge and ICON 2.0. In this article, we share tasks completed and development milestones for January. 
 
-Next week, a strategy update will be published in which we further elaborate on the 2023 strategy for the ICON Network as a cross-chain hub.
+Later this week, a strategy update will be published in which we further elaborate on the 2023 strategy for the ICON Network as a cross-chain hub.
 
 ## BTP Architecture/Product
 
