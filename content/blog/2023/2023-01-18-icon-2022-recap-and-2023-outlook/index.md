@@ -67,3 +67,5 @@ Click play on the video below to watch Eye on ICON Fez and David ask their most 
 
 ### ICON Discord
 For further information, questions and discussion join the [ICON Discord](https://icon.community/icondiscord) today!
+
+{{< img src="icondiscord.jpg" alt="Join the conversation on Discord" caption="" >}}
