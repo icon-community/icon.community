@@ -85,7 +85,7 @@ Though zero-knowledge proofs first appeared decades ago, the surge in their popu
     This can also be extended to the case where there are multiple provers collaborating to compute chunks of a single large computation. A verifier, here, will verify that these computations have been done correctly. As such the verifier is able to delegate a large computation, which would have been less feasible for any single device to compute on its own.
 
 ## Applications
-Despite their enormous utility on blockchain systems, these ZK protocols actually predate blockchains and have had potential use cases on other systems as well. Following are some of its applications listed here to serve as an example of its extensive usefulness.
+On top of their enormous utility on blockchain systems, these ZK protocols actually predate blockchains and have had potential use cases on other systems as well. Following are some of its applications listed here to serve as an example of its extensive usefulness.
 1. Games
 
     Lower gas cost and information hiding property unlocks a spectrum of applications that require a significantly larger number of interactions on top of complex application logic. With the added benefits inherent to a blockchain system, ZK makes possible a wide array of games, which would not have been possible on a centralized system or without the power of ZK proofs.
