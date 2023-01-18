@@ -6,14 +6,14 @@ description: A new paradigm for privacy, security and trust in blockchain world
 ---
 
 ## Year In Review
-2022 was without a doubt a defining year for cryptocurrencies and other crypto assets. As the “crypto winter” engulfed the space, the price plummeted and valuations plunged causing several high-profile crypto bankruptcies. The year was also marked by several high profile hacks in the crypto space, with cybercriminals stealing over $3 billion, with $718 billion stolen in October 2022 alone [1]. The chart[2] below from Bloomberg shows the timeline of the major crypto events together with the market capitalization.
+2022 was without a doubt a defining year for cryptocurrencies and other crypto assets. As the “crypto winter” engulfed the space, the price plummeted and valuations plunged causing several high-profile crypto bankruptcies. The year was also marked by several high profile hacks in the crypto space, with cybercriminals [stealing over $3 billion, with $718 million stolen in October 2022 alone](https://fortune.com/crypto/2022/12/30/5-biggest-crypto-hacks-2022/). The [chart below from Bloomberg](https://www.bloomberg.com/graphics/2022-crypto-contagion-from-bitcoin-to-FTX/) shows the timeline of the major crypto events together with the market capitalization.
 
 ![alt text for screen readers](./featured.jpg "Text to show on mouseover")
 
 ## ZK in 2022
-But 2022 was also a busy year for the whole industry, including Ethereum’s merge, Bitcoin’s Taproot Upgrade, etc but it must have been a breakout year for Zero Knowledge Proof. More than $725M was invested in the technology for various projects, including Aleo 200M, Aztec 100M, Starkware 100M, MINA Foundation 92M and Scroll 30M. Moreover, a lot of existing projects also pledged funds to stir the development to stir the ZK applications in their respective ecosystems. [Polkadot, NEAR, ]. Coalition of different projects also put together the ZPrize Initiative with $7M in prizes.
+But 2022 was also a busy year for the whole industry including Ethereum’s merge and Bitcoin’s Taproot Upgrade. It definitely has been a breakout year for Zero Knowledge Proofs. More than $725M was invested in the technology for various projects, including [Aleo 200M](https://www.businesswire.com/news/home/20220207005251/en/Aleo-Raises-200M-in-Series-B-to-Expand-Products-and-Services-Built-on-Private-by-Default-Blockchain-Based-Platform), [Aztec 100M](https://techcrunch.com/2022/12/15/aztec-network-takes-on-encrypted-blockchains-with-100m-round-led-by-a16z/), [Starkware 100M](https://www.coindesk.com/business/2022/05/25/starkware-reaches-8b-valuation-following-latest-100m-funding-round/), [MINA Foundation 92M](https://www.coindesk.com/business/2022/03/17/mina-foundation-raises-92m-to-accelerate-adoption-of-zero-knowledge-proofs/) and [Scroll 30M](https://www.theblock.co/post/142800/scroll-raises-ethereum-scaling-project-funding). Moreover, a lot of existing projects also pledged funds to stir the development of ZK applications in their respective ecosystems. Prime examples include [Polkadot](https://polkassembly.medium.com/polkadot-pioneers-price-child-bounties-96fceabf04d) and [NEAR](https://near.org/blog/near-foundations-response-to-tornado-cash-ownership-and-regulation/). Coalition of different projects also put together the [ZPrize Initiative](https://www.zprize.io/) with $7M in prizes to accelerate the zero knowledge cryptography.
 
-Other than an increase in the community’s interest in this domain, prominent publications in the domain also appeared to be increasingly interested in it in 2022. In the case of Decrypt, it only published 18 articles in 2021 that used the term "Zero Knowledge Proofs," but by 2022, there were a total of 60. Coindesk followed suit, producing 81 articles in 2022, up 54 from the previous year.
+In addition to the community's interest growing, notable publications also seem to be showing a real increase in Zero Knowledge Proofs. [Decrypt](https://decrypt.co/) had used the phrase "Zero Knowledge Proofs" in only 18 of the articles it published in 2021, but by 2022, there were a total of 60. Following suit, [Coindesk](https://coindesk.com/) produced 81 articles in 2022, an increase of 54 articles over the previous year.
 
 ## So, what is ZK ?
 In cryptography, a zero-knowledge protocol is a method of proving that a statement is true, without revealing any further information about the statement. For example: a statement can be “I meet the age requirement to cast vote”, the prover can be an eligible voter who wants to prove the statement without disclosing his age, the verifier could be an administrator who needs to verify that all voters meet the age requirement. Using the ZK Protocol, the eligible voter will be able to prove his statement in zero knowledge.
@@ -47,7 +47,7 @@ A zk-SNARK (zero-knowledge succinct non-interactive argument of knowledge) is a 
 
 1. Succinctness
 
-    The size of proof for a given statement is small, typically in the order of a few hundred bytes, and can be verified in the order of milliseconds. For example, the size of proof generated by a Groth16 [5] prover is approximately 200 bytes [6] regardless of the statement being proved. The small size of these proofs make it easier to submit these proofs to a smart contract.
+    The size of proof for a given statement is small, typically in the order of a few hundred bytes, and can be verified in the order of milliseconds. For example, the size of proof generated by a [Groth16](https://eprint.iacr.org/2016/260)  prover is [approximately 200 bytes](https://github.com/matter-labs/awesome-zero-knowledge-proofs#comparison-of-the-most-popular-zkp-systems) regardless of the statement being proved. The small size of these proofs make it easier to submit these proofs to a smart contract.
 
 2. Non-interactive 
 
@@ -118,7 +118,7 @@ With the potential areas where blockchain is applicable now known, it will help 
 ## A Setback on Privacy
 While there has been much progress towards ZK proof based system adoption, there has also been some setbacks. Anonymity property, while useful for a wide range of use cases, has also been attractive for money laundering. Bridge hacks have withdrawn the extracted token through anonymity providing decentralized app like tornado cash mixer. 
 
-On August 8, 2022 U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) sanctioned Tornado Cash citing its use in money laundering[3]. Although OFAC decided to enroute with the sanctions for all accounts interacting with Tornado Cash, there might have been better routes to regulatory solutions, some powered by ZKPs as explored [4]. While there are a lot of prying eyes on anonymous decentralized systems, it would bode well if we consider how infringement to privacy rights of individuals can be strengthened with ZK proofs. 
+On August 8, 2022 U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) [sanctioned Tornado Cash](https://home.treasury.gov/news/press-releases/jy0916) citing its use in money laundering. Although OFAC decided to enroute with the sanctions for all accounts interacting with Tornado Cash, there might have been better routes to regulatory solutions, some powered by ZKPs as explored [here](https://a16zcrypto.com/privacy-protecting-regulatory-solutions-using-zero-knowledge-proofs-full-paper/). While there are a lot of prying eyes on anonymous decentralized systems, it would bode well if we consider how infringement to privacy rights of individuals can be strengthened with ZK proofs. 
 
 Despite such push backs citing illicit use of anonymous payments, we must consider fair criticisms when it’s there and take this as an opportunity to educate the parties involved and improve upon the current system architecture. 
 
@@ -142,20 +142,3 @@ The changes brought forth on cryptography and cryptocurrency systems through zer
 
 ## Conclusion
 Zero-knowledge proof brings forward a new notion; a new paradigm on the way we think about privacy, security, and trust in the digital world. It enables new forms of transparent and efficient systems where trust is established through mathematics rather than through centralized intermediaries; where sensitive information is kept private by default, and where individuals and businesses have more control over their personal data. 
-
-
-
-## References
-
-[1] https://fortune.com/crypto/2022/12/30/5-biggest-crypto-hacks-2022/
-
-[2] https://www.bloomberg.com/graphics/2022-crypto-contagion-from-bitcoin-to-FTX/
-
-[3] https://home.treasury.gov/news/press-releases/jy0916
-
-[4] https://a16zcrypto.com/privacy-protecting-regulatory-solutions-using-zero-knowledge-proofs-full-paper/
-
-[5] On the Size of Pairing-based Non-interactive Arguments https://eprint.iacr.org/2016/260
-
-[6] https://github.com/matter-labs/awesome-zero-knowledge-proofs#comparison-of-the-most-popular-zkp-systems
-
