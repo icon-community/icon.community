@@ -69,7 +69,7 @@ For users who prefer trading on a decentralized exchange, ICX can be purchased o
 
 ICX is also available on a variety of centralized exchanges with highly liquid markets against USD, KRW, USDT, BTC, ETH. Below is a list of exchanges with ICX markets.
 
-* [Binance](https://www.binance.com/en/trade/ICX_usdt)
+* [Binance](https://www.binance.com/en/trade/ICX_USDT?ref=MK6CWOPI) (follow this link for a 20% discount on spot trading fees)
 * [Binance US](https://binance.us/en/trade/pro/ICX_USD)
 * [Kraken](https://www.kraken.com/prices/icx-icon-price-chart/usd-us-dollar?interval=1m)
 * [Bithumb](https://en.bithumb.com/trade/order/ICX_KRW)
