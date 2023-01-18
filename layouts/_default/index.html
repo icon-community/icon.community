@@ -62,18 +62,22 @@
                                     <h3
                                         class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                                         ICX Price</h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
-                                        hx-get="{{ partial "api_url.html" }}/icx/price/?format=html"
-                                        hx-trigger="load, every 30s"></span>
+                                    <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
+                                        <h1 class="">$</h1><h1 id="stock-price">---</h1>
+                                        <script src="/assets/icxprice.js"></script>
+                                    </div>
                                 </div>
                                 <div
                                     class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
                                     <h3
                                         class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                                         Market Cap</h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
+                                    <!-- <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                                         hx-get="{{ partial "api_url.html" }}/icx/market-cap/?format=html"
-                                        hx-trigger="load, every 30s"></span>
+                                        hx-trigger="load, every 30s"></span> -->
+                                        <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
+                                            <h1 class="">$</h1><h1 id="">---</h1>
+                                        </div>
                                 </div>
                                 <div
                                     class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
@@ -81,9 +85,12 @@
                                         class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                                         Staking APY
                                     </h3>
-                                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
+                                    <!-- <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                                         hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
-                                        hx-trigger="load, every 30s"></span>
+                                        hx-trigger="load, every 30s"></span> -->
+                                        <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
+                                            <h1 id="">---</h1><h1 class="">%</h1>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -169,26 +176,26 @@
                     class="flex flex-col p-2 space-y-1 border rounded-lg grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200">
                     <h3 class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">Active
                         Projects</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
+                    <!-- <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=active&format=html"
-                        hx-trigger="load"></span>
+                        hx-trigger="load"></span> -->
                 </div>
                 <div
                     class="flex flex-col p-2 space-y-1 border rounded-lg grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200">
                     <h3 class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">Funded
                         Projects</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
+                    <!-- <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                         hx-get="{{ partial "api_url.html" }}/cps/project-count/?type=completed&format=html"
-                        hx-trigger="load"></span>
+                        hx-trigger="load"></span> -->
                 </div>
                 <div
                     class="flex flex-col p-2 space-y-1 border rounded-lg grow shrink-0 sm:p-3 dark:border-slate-700 dark:bg-slate-800 bg-slate-100 border-slate-200">
                     <h3 class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
                         Distributed
                         Funds</h3>
-                    <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
+                    <!-- <span id="icx-price" class="font-mono text-2xl font-bold dark:text-slate-50"
                         hx-get="{{ partial "api_url.html" }}/cps/distributed-funds/?format=html"
-                        hx-trigger="load"></span>
+                        hx-trigger="load"></span> -->
                 </div>
             </div>
             <p class="z-50 max-w-2xl mx-auto text-lg text-center text-slate-100">
@@ -510,9 +517,10 @@
                         </a>
                     </h3>
                     <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p6">Learn how to stake ICX to earn
-                        <span id="icx-price" class="font-bold"
+                        <!-- <span id="icx-price" class="font-bold"
                             hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
-                            hx-trigger="load, every 30s"></span> APY in exchange for helping to
+                            hx-trigger="load, every 30s"></span>  -->
+                            APY in exchange for helping to
                         secure the ICON network.
                     </p>
                 </div>
