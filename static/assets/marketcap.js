@@ -1,5 +1,4 @@
-// let price = document.getElementById('stock-price').innerText
-let price = 0.19
+let price = document.getElementById('stock-price').innerText
 
 // Function that sets Total Supply if price is found
 const getMarketcap = () => {
