@@ -11,7 +11,7 @@ Hello ICON community, Rob here from sudoblock to give a technical overview of ho
 
 In ICON, we have open sourced all the code for the tracker including the indexer which can be found at [github.com/sudoblockio/icon-tracker](github.com/sudoblockio/icon-tracker) which has links down to the individual repositories used to deploy the whole stack. This article will stay high level but should be a good primer for those trying to understand how the whole system works.  
 
-Before getting into the technicalities, 	let’s take a moment to talk about why we need to index data from blockchains. You see, blockchains themselves are sort of like crappy databases with the one unique property of immutability, ie they cannot be changed. They make great datastores for inserting / getting individual data records but because of the internals of how blockchains work, you cannot retrieve multiple records at a time, sort things, or filter them, operations common to a more traditional database. So in order to see things like your transaction history, you need an indexer to extract data out of the chain and put it into a traditional database that is able to perform the query operations that are not possible directly from the chain. 
+Before getting into the technicalities, let’s take a moment to talk about why we need to index data from blockchains. Blockchains are great datastores for inserting / getting individual data records but because of the internals of how blockchains work, you cannot retrieve multiple records at a time, sort things, or filter them, operations common to a more traditional database. So in order to see things like your transaction history, you need an indexer to extract data out of the chain and put it into a traditional database that is able to perform the query operations that are not possible directly from the chain. 
 
 ![](./architecture.png)
 
@@ -62,5 +62,3 @@ Unfortunately for the time being, the infrastructure is closed source due but ov
 ### Summary
 
 We hope you learned a bit about how indexing works on the ICON blockchain through this article. While we tried to keep it high level, we did cover some of the most important points to understand how it all comes together.  If you are interested in learning more, feel free to get in touch with Rob from sudoblock through the ICON discord server or telegram dev channel.  Work is constantly happening to improve items both in the frontend and back so if you have any suggestions, please feel free to leave a github issue in the appropriate repository or just simply in the [icon-tracker](https://github.com/sudoblockio/icon-tracker) repo.  
-
-
