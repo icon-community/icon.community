@@ -1,0 +1,129 @@
+Databases and distributed systems
+
+A blockchain is essentially a security layer or communications protocol built on top of a distributed database. In this article, we will provide an introduction to the backend databases powering blockchain engines. We will also look at how distributed systems are used to achieve fault tolerance and high availability in blockchain networks. Whether you are a developer, a miner, or just interested in the technology, understanding the basics of databases and distributed systems is essential for understanding how blockchains work and whether they are a good choice for your applications.
+Databases
+A database is an organized collection of data used to efficiently store, modify, and access information. There are a number of different methods and models used to organize the data in a database, with the main considerations being operation speed, storage space, and developer productivity.
+State machine
+A state machine is an abstract mathematical representation of the execution of a digital system. It is described by two things:
+All possible initial states
+What next states can follow any given state
+Database states
+A database can be represented as a state machine, where the state of the database is the collection of all the data stored in the database, and the state transitions are the actions that change the state of the database, such as inserting, updating, or deleting data.
+
+The initial state of the database is empty, and state transitions are made up of applying transactions to the database.
+Database transactions
+A database transaction is the smallest unit of work that results in a database state change. Database transactions must hold 4 key properties: Atomicity, Consistency, Isolation, Durability.
+
+Atomicity
+A transaction is an atomic unit, which means that it is either completed in its entirety or not 
+executed at all.
+
+Consider a scenario where Alice transfers money from her bank account to Bob. A transaction is used to withdraw money from Alice’s account and deposit it into Bob’s account.
+
+The atomicity property of the transaction ensures that either both operations occur or neither of them occur, to avoid the scenario where money is withdrawn from Alice’s account but not deposited into Bob’s account.
+
+Consistency
+A database can only ever be in a valid state, and a transaction brings the database from one valid state to another. Valid means that the state adheres to the rules and constraints of the database system.
+
+Consider in the bank account transfer scenario, that Alice’s account has $20 in it and Bob’s account has $5 in it. The total between their accounts is $25. The transfer transaction withdraws $10 from Alice’s account to Bob’s account. Alice now has $10 in her account, and Bob has $15. The total between their accounts is still $25.
+
+The consistency property ensures that the transaction exchanged the correct amount of money between both accounts, and that no money was created or destroyed in the transaction. The total amount of money between accounts remains the same before and after the transaction.
+
+Isolation
+Multiple transactions can be executed simultaneously without interfering with each other. This means that transactions are ordered and data races are handled according to some set of rules.
+
+Consider in the bank account transfer scenario that there was a third transaction to exchange money from Alice to Carol that was submitted at the same time as the transfer from Alice to Bob.
+
+The isolation property ensures that the transactions are ordered and conflicts are resolved according to some set of rules. These rules are defined by concurrency control methods, and most commonly result in the transactions being serialized. In other words, even though the transfers from Alice to Bob and Alice to Carol both were submitted at the same time, the isolation property means that the transfers are executed sequentially.
+
+Durability
+Once a transaction is committed, its changes are made permanent and survive any subsequent failures or crashes.
+
+Consider the bank account transfer scenario where the transfer transaction completed, and then the bank had a power outage.
+
+The durability property ensures that the transaction persisted after power was restored.
+Transaction states
+Transaction states are the different stages of a transaction’s lifecycle. These states are used to track the progress of a transaction, and to ensure that the transaction adheres to the ACID properties. For example, in RocksDB, there are 8 states a transaction can be in, defined here. These are common for databases that use a two-phase commit (2PC) protocol to ensure atomicity of transactions.
+
+Two-phase commit (2PC)
+
+2PC is a protocol used to ensure that a set of distributed transactions are atomic, meaning they are treated as a single, indivisible operation. The protocol coordinates the actions of several distributed systems so that either all the changes made by a set of transactions are committed, or none of them are.
+
+The 2PC protocol is divided into two phases:
+
+Phase 1 (Prepared Phase): Each participating system, called a participant, votes on whether it is prepared to commit the transaction. The coordinator collects all the votes and decides whether to proceed with the commit or to abort the transaction.
+Phase 2 (Commit Phase): If the coordinator decides to proceed, it sends a commit message to all participants. Each participant can then make the changes permanent, and respond with an acknowledgement.
+
+If any participant fails to vote or fails to respond to the commit message, the coordinator will assume it's failed and will abort the transaction.
+
+A database transaction typically includes the following four operations:
+Begin: The transaction is started and a new transaction context is created.
+Execute: One or more database operations are executed within the context of the transaction. These operations can include reading and writing data, creating or modifying database objects, and so on.
+Commit: If all of the operations in the transaction were successful, the changes made by the transaction are committed to the database, making them permanent.
+Rollback: If any of the operations in the transaction fail, the changes made by the transaction are rolled back, undoing any changes that were made.
+Key-value store
+One of the most common nonrelational database types is the key-value store.
+
+A key-value store database stores data as a collection of key-value pairs, where each key is a unique identifier that is used to retrieve the corresponding value. Both the key and value can be any arbitrary data type, and are commonly implemented as bytes. A key-value store database can be thought of as a distributed hashmap or dictionary, with many optimizations for performance, persistence, and concurrency.
+
+Key-value stores are commonly used as the backend for blockchains. Some examples include
+Bitcoin Core uses LevelDB [https://github.com/bitcoin/bitcoin/tree/master/src/leveldb]
+Polkadot supports RocksDB and ParityDB [https://github.com/paritytech/parity-db]
+Goloop supports RocksDB and LevelDB [https://github.com/icon-project/goloop/tree/70a68831bed63440c566dc37577f2090648c7e21/common/db]
+
+Blockchains generally use key-value stores to store all persisted data. This includes all committed transactions, blocks, other chain state information such as the current block height and network configuration, and block indexing metadata. The exact details of how this data is stored is dependent on the implementation.
+Fault tolerance
+Fault tolerance is the ability of a system to continue operating correctly in the event of the failure of one or more of its components. For example, power sources commonly have backup generators. When the power goes out, the backup generator comes online to restore power to the electrical system.
+
+Fault tolerance is achieved through redundancy. Redundancy is the duplication of a system component.
+
+Redundancy is important for blockchains because it allows for multiple nodes to participate in the process of creating new blocks and maintaining the network. If one node fails, another node can take its place, which helps to ensure the continued operation of the network. Redundancy is fundamental to blockchains that have no central authority to manage the network and ensure its continued operation.
+
+The core tradeoff that blockchains make compared to other types of databases is efficiency versus redundancy. Permissionless blockchains are designed to be as redundant as possible. Cryptocurrencies even go so far as to incentivize redundancy. This is to maximize agreement among decentralized nodes on what the state of the database is because there is no central authority to handle disputes. If a mistake is made in a centralized database, an intermediary can modify the database to fix the mistake. Because there is no intermediary, a mistake on a blockchain would require the entire community of participants to make a new copy and abandon the original entirely.
+
+Replication is a form of redundancy commonly used in distributed systems to ensure multiple copies of data or a system are available.
+
+Replication is used in blockchains to ensure that multiple copies of the blockchain's ledger exist across different nodes in the network. This allows for the network to continue functioning even if some nodes become unavailable, as other nodes will still have copies of the ledger. This also allows for multiple parties to validate and reach a consensus on the state of the ledger, which is a key aspect of the security and immutability of the blockchain.
+
+State machine replication
+Single-primary replication
+In single-primary replication, there is a central authority, or primary node, that controls the replication process and coordinates the updates to the database. This database is a single source of truth. Secondary nodes receive updates from the primary node and apply them to their own copies of the data. Only the primary node has write privileges to the main copy of the database. The others can only process read-only transactions. The primary VM is continuously replicated to the secondary VM so that the secondary VM can take over at any point, thereby providing Fault Tolerant protection.
+
+Single-primary replication is commonly used because it allows for efficient updates and simplifies the management of the database. Federated and proof-of-authority blockchains may use single-primary replication depending on their implementation.
+Multi-primary replication
+In multi-primary replication, there is no central authority or primary node, and all of the nodes are considered peers. Each node can update the data independently, and the updates are propagated to the other nodes in the network.
+
+Public blockchains that use peer-to-peer networks all use multi-primary replication because multi-primary replication achieves the highest levels of decentralization. Each node in the blockchain network can independently validate and add new blocks to the blockchain, and the updates are propagated to the other nodes in the network. This helps to ensure that the data in the blockchain is accurate and consistent, and that it is not altered by malicious actors. 
+
+State machine consensus
+In the cryptocurrency industry, “consensus” often refers to proof-of-work, proof-of-stake, and delegated-proof of stake. In reality, these are not consensus protocols. Consensus is the process that determines the order that proposed transactions should be committed.
+
+In single-primary replication, the consensus process is simple. The primary . Typically the primary has at least 2 backup copies for failover. If the first primary goes down, the backup takes its place as the new primary. This is not necessarily the same thing as 
+
+
+Systems like Tendermint use a leader-election mechanism where nodes essentially take turns being the primary. The primary node proposes the transaction to be committed to the database, and the secondary nodes vote on whether or not to accept this proposal. ICON’s consensus mechanism is an implementation of Tendermint and works in this way. Validators are chosen by delegated-proof-of-stake, and those validators take turns as the primary and secondary nodes in the consensus process.
+
+Resource selection mechanisms
+Proof-of-work, proof-of-stake, and delegated-proof-of-stake are all resource selection mechanisms to determine which node proposes a transaction and which nodes vote on whether that transaction should be committed. Once the nodes are selected, they follow a consensus protocol to agree upon what the state of the blockchain is.
+Proof-of-work (PoW)
+Participating nodes, or miners, compete to solve a complex mathematical problem, and the first one to solve it gets to add a block to the chain and is rewarded for their work. The solution, or proof, is difficult to produce but easy to verify. PoW is designed so that miners spend computational resources, measured in hashes per second, to add a block. The cost deters malicious actors from adding fraudulent blocks to the blockchain.
+
+In Bitcoin, the mathematical problem miners solve is to find a 4-byte number, or nonce, that when combined with the block's data and hashed twice with SHA-256, results in a hash that is below some target value. The first miner that finds a valid nonce gets to add a block to the chain and is rewarded with newly minted Bitcoins.
+Proof-of-stake (PoS)
+The key difference between PoW and PoS is that in PoS, participating nodes don’t spend computational resources. Instead, they need to hold, or stake, a certain amount of the cryptocurrency as collateral in order to participate in the network as a validator.
+
+The penalty for failing to validate, or for trying to add a fraudulent block to the chain, is usually the forfeiture, or slashing, of some or all of the staked cryptocurrency.
+
+Validators are selected according to the network rules, which should be unpredictable and unbiased and weighted based on the amount of staked collateral.
+Delegated-proof-of-stake (DPoS)
+DPoS is a variation of PoS where a smaller group of validators are elected by the community to validate the network. DPoS uses a voting system to elect the delegates. All token holders can vote for the delegates they trust and prefer, and the top voted delegates are selected to validate the blocks. The number of delegates can vary depending on the implementation, but it's usually a smaller number compared to the number of validators in PoS systems.
+
+The tradeoff between smaller and larger number of PoS validators is speed versus security. If there are a few delegated validators, those elected are in theory going to have the best possible computational resources to validate the network. The fewer the number of nodes, and the better the hardware running the node, the faster the consensus process. However, the top voted delegates may not always be the most suitable for the job or have the best interest of the network. The greater the number of nodes, the less damaging a single node can cause the network.
+Concurrency
+Concurrency is the ability of a computer system to perform multiple tasks or processes independently, simultaneously and in parallel. Blockchains execute transactions sequentially because state changes must be deterministic for the state changes to be replicated. There are optimizations that can be made to increase the speed of a blockchain, but generally this means that a blockchain will be slower than other types of databases that could otherwise execute transactions in parallel.
+Serial execution
+Serial execution is the sequential ordering of task execution.
+Parallel execution
+Parallel execution is the simultaneous execution of tasks. 
+Concurrency controls
+Concurrency controls are used to ensure that multiple transactions can be executed simultaneously without conflicting with each other.
