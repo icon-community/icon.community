@@ -252,13 +252,79 @@ You can use [VS Code](https://code.visualstudio.com/) or [Intellij](https://www.
 * [Using VS Code for Java](https://code.visualstudio.com/docs/java/java-tutorial)
 * [Using Intellij with Gradle](https://www.jetbrains.com/help/idea/getting-started-with-gradle.html)
 
+### Understanding build.gradle file
+
+Build.gradle file is used to write [build scripts](https://docs.gradle.org/current/userguide/writing_build_scripts.html). In ICON, we use it to specify dependencies and write tasks. After creating the workspace, you need to create one build.gradle file at the root of the project with the following code.
+
+```groovy
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'foundation.icon:gradle-javaee-plugin:0.8.1'
+    }
+}
+```
+
+This specifies the project to use gradle javaee plugin which is specifically created for smart contract development in ICON. Each subproject (in above tree structure, app folder) would have it's own build.gradle file. There are 2 additional tasks you would need to add to optimize and deploy the jar.
+
+```groovy
+optimizedJar {
+    mainClassName = 'com.iconloop.score.example.HelloWorld'
+    archivesBaseName = 'hello-world'
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+deployJar {
+    endpoints {
+        lisbon {
+            uri = 'https://lisbon.net.solidwallet.io/api/v3'
+            nid = 0x2
+        }
+        local {
+            uri = 'http://localhost:9082/api/v3'
+            nid = 0x3
+        }
+    }
+    keystore = rootProject.hasProperty('keystoreName') ? "$keystoreName" : ''
+    password = rootProject.hasProperty('keystorePass') ? "$keystorePass" : ''
+    parameters {
+        arg('name', 'Alice')
+    }
+}
+```
+
+In the optimizedJar task, `mainClassName` refers to the class which would be the entry point for the smart contract. You can refer to [Java Score Examples](https://github.com/icon-project/java-score-examples) repo for more information. To deploy the contract, you would need to build the jar, optimize the jar and deploy the jar using the gradle. To deploy the contract, you would need the Keystore and password of the address. The Keystore file location and password can be specified in the gradle.properties file at the root of the project.
+
+Example: gradle.properties
+```properties
+keystoreName = /path/to/kestore/file
+keystorePass = password
+```
+
+* Build the project
+  ```bash
+  $ ./gradlew build
+  ```
+* Optimize the jar
+  ```bash
+  $ ./gradlew optimizedJar
+  ```
+* Deploy the optimized Jar
+  ```bash
+  $ ./gradlew hello-world:deployToLocal
+  ```
+  Local comes from the network name specified in the deployJar task.
 
 ## Class definition of a smart contract
 
-In the `src/main` directory of a Java project, there can be multiple classes. The entry point or the main class is specified in build.gradle in optimizing tasks. All the classes which can be reached from the main class comprise the smart contract. 
+In the `src/main` directory of a Java project, there can be multiple classes. The entry point or the main class is specified in build.gradle in optimize Jar task. All the classes which can be reached from the main class comprise the smart contract. 
 
 Example:
-
+```Java
 //SimpleStorage.Java
 package com.score.example;
 
@@ -285,20 +351,19 @@ public class SimpleStorage {
         return storedNumber.getOrDefault(BigInteger.ZERO);
     }
 }
+```
 
-Almost all the concepts of Java apply to ICON smart contracts. You can use external smart contract libraries or packages. External packages need to be added as dependencies in the build.gradle file. Java only supports single inheritance. Java also supports abstract classes and interfaces. The main contract class can’t be an abstract class. It has to be an implementation class. 
-
-ICON smart contracts run inside a special virtual machine which is different than Java Virtual Machine(JVM). Thus all the Java libraries may not be available inside the smart contract. You can find a list of allowed methods here. 
+Almost all the concepts of Java apply to ICON smart contracts. You can use external smart contract libraries or packages. External packages need to be added as dependencies in the build.gradle file. Java only supports single inheritance. Java also supports abstract classes and interfaces. The main contract class can’t be abstract. It has to be an implementation class. 
 
 
-State variables and storage
+## State variables and storage
 
 Data can be stored in class variables and instance variables. Class variables and instance variables can store with or without using a state database. Class variables and instance variables without using a state database are reset on each contract upgrade. State variables persist through contract upgrades. State variables can be defined using Context.newXXXDB() methods. Reading data from class variables and instance variables without using a state database doesn’t incur any cost while reading from state variables incurs transaction fees. While writing a smart contract, you can choose the type of database you need to store values. There can be a maximum of 31 instance variables for a class in the smart contract. 
 
 The visibility scope of state variables is the same as in Java. Defining a state variable public wouldn’t make it readable from outside the contract. You would have to define a read method to return the values of the state variable. 
 
 Example:
-
+```Java
 // IRC2.java
 public class IRC2Basic implements IRC2 {
 // class variable without using a state database
@@ -319,13 +384,13 @@ public IRC2Basic(String _name, String _symbol, int _decimals) {
 
 …
 }
+```
 
-
-Basic data structures
+## Basic data structures
 
 There are 4 basic data structures provided by the Java EE api package. They are VarDB, ArrayDB, DictDB, and BranchDB. They can be used to interact directly with blockchain storage. Other complex data structures can be created using these basic building blocks. ICON blockchain storage is a key-value database. The key is created by making a SHA256 hash of the byte array of the concatenation of prefixes for database type and custom key provided by the user. The value is converted to bytes and stored in the blockchain state. While decoding the value, we need to know the proper value type such that it can be decoded to the proper value.
 
-VarDB
+## VarDB
 VarDB is used to store single values. The value should be a readable and writable class. To create custom readable and writable classes, you would need to implement Object Reader and Object Writer in your class.
 
 Method detail
@@ -350,8 +415,8 @@ defaultValue - default value
 Returns:
 the current value or defaultValue if the current value is null.
 
-ArrayDB
-An ArrayDB holds a sequence of values. The element type of array needs to be a writable and readable class. 
+## ArrayDB
+An ArrayDB holds a sequence of values. The element type of the array needs to be a writable and readable class. 
 
 Method Detail
  
@@ -448,15 +513,17 @@ Returns:
 sub-DB.
 
 
-Annotations
+## Annotations
 
 Java annotations are used to provide some additional information in smart contracts like any Java program. Annotations can provide additional information to the compiler, generate some additional code and provide metadata during the execution time. Java Built-in annotations can be used in the ICON smart contracts. There are additional 5 annotations provided by the score.Annotation package to define methods as external, indicate methods as payable, specify optional parameters, generate event logs and specify code to persist during the optimization process. You can also write custom annotations. Custom annotations can be helpful to generate repetitive code thus making the process of writing smart contracts easier. Annotation can be used in a similar way to how modifiers are used in Solidity.
 
 For documentation and tutorials on built-in annotations, you can refer to Java Documentation provided by Oracle.
 
 There are four predefined annotation libraries provided by the ICON foundation commonly used in smart contracts.
-JavaEE API
-EventLog
+
+### JavaEE API
+
+#### EventLog
 This annotation can be used to record logs in the transaction result as `eventLogs`. Only methods can be annotated using this annotation. Event logs can be useful to notify external applications about the executions happening inside the smart contract. One of the common event logs used in IRC2 tokens is Transfer. It is used to notify wallets and other applications about the transfer of tokens from one wallet to another.
 
 If the value of an element, named indexed, is set, the designated number of parameters of the applied method declaration will be indexed in the order and included in the Bloom filter. Indexed parameters and non-indexed parameters are separately stored in the transaction result. At most 3 parameters can be indexed, and the number of indexed parameters cannot exceed the number of parameters. Possible data types for method parameters are int, boolean, byte[], BigInteger, String, and Address.
@@ -464,7 +531,7 @@ If the value of an element, named indexed, is set, the designated number of para
 It is recommended to declare a method without an implementation body. Even if the applied method has the body, it is not executed at runtime. EventLog annotation should only be used in the main class or parent class. EventLog annotation defined in classes other than the main or parent class will not be processed during the smart contract optimization process. Thus those event logs will not be logged in the transaction result. Event Logs are generally written in the Pascal Case. 
 
 Example:
-
+```Java
 @EventLog(indexed=3)
     public void Transfer(Address _from, Address _to, BigInteger _value, byte[] _data) {}
 
@@ -475,42 +542,45 @@ _from, _to and _value are indexed parameters. During the optimization process, t
         Object[] var6 = new Object[]{var4};
         Context.logEvent(var5, var6);
     }
+```
 
 From the above conversion, you can see that the actual method used to log events is available in the Context class. Context.logEvent is used to write the logs in transaction results. It can be cumbersome to write event logs in this way. Thus, EventLog annotation helps in writing the code for event logs quickly.
 
-External
+#### External
 This annotation can be used to indicate whether the method will be exposed externally to be used outside the contract. Only methods can be annotated using this annotation. Declaring a method public is not sufficient to expose it externally. For a method to be called from outside the contract (EOA or another contract), it needs to be annotated as External. The annotated methods will be registered on the exportable API list. Any attempt to call a non-external method from outside the contract will fail.
 
 If the readonly element is specified and its value is true, i.e. @External(readonly=true), the method will have read-only access to the state DB. 
 
 The special method, named fallback, cannot be annotated with @External. (i.e. fallback method cannot be specified in the transaction message as a callee method, and it can only be called via plain ICX transfer message.)
-		Example:
-
-		Write method:
-		@External
+Example:
+```java
+//Write method:
+@External
 public void transfer(Address _to, BigInteger _value, @Optional byte[] _data) {
 …
 }
 
-Read method:
+//Read method:
 @External(readonly=true)
-    public BigInteger balanceOf(Address _owner) {
+public BigInteger balanceOf(Address _owner) {
 …
-    }
+}
+```
 
 The following API description will be generated from the above code during the optimization process.
-
+```bash
 Method{type=0, name='transfer', flags=2, indexed=2, inputs=[Parameter{name='_to', descriptor=Lscore/Address;, type=5, optional=false}, Parameter{name='_value', descriptor=Ljava/math/BigInteger;, type=1, optional=false}, Parameter{name='_data', descriptor=[B, type=3, optional=true}], output=0, outputDescriptor=V}
 
 Method{type=0, name='balanceOf', flags=3, indexed=1, inputs=[Parameter{name='_owner', descriptor=Lscore/Address;, type=5, optional=false}], output=1, outputDescriptor=Ljava/math/BigInteger;}
-
+```
 This API description is passed along with the code during the deployment of the smart contract.
 
-Keep
+#### Keep
 This annotation denotes that the element should not be removed when the code is optimized by the tool kit. Methods, Fields, and Constructors can be annotated using this annotation. The tool kit removes unused methods during the optimization phase. If a struct appears in the signature of an @External method, necessary constructors, getters, and setters for the struct survive in the optimization phase even if the methods are not accessed in user code. More specifically, if a class is a writable struct and the class is used as a parameter type of an external method, its zero-argument constructor (if it is defined) and property setters are not removed.
 
 Also, If a class is a readable struct and the class is used as a return type of an external method, its getters are not removed. For example, in the following contract, @Keep annotation is not necessary for the Person class since it is used as a parameter of an external method.
 
+```java
 //Person.java
 public class Person {
 public Person() {...}
@@ -525,11 +595,13 @@ public void setName(String name) {...}
 Context.println("Hello " + person.getName());
 }
 }
+```
 
 There are some cases in that a user must manually use Keep annotation. When a struct is passed as an argument of Context.call(), getters are called by the system. Also, when a struct is returned by Context.call(), a constructor and setters are called by the system. However, the tool kit cannot track the runtime type of the parameter of the Context.call() method. Thus, the getters or setters are removed if they are not accessed in the user code and they are not used as a parameter type or a return type of an external method.
 
 In that case, Keep annotation is required for the necessary methods not to be optimized away. For example, in the following contract, Keep annotation is essential for getName() because the user code does not call the method and the Person class is not used as a parameter or a return type of an @External method.
 
+```java
 // Person.java
 class Person {
 public Person(name String) {...}
@@ -545,8 +617,9 @@ public void test(Address addr) {
 Context.call(addr, "hello", new Person("Kim"));
 }
 }
+```
 
-Optional
+#### Optional
 This annotation can be used to indicate whether the method parameter is optional. Only parameters of external methods can be annotated using this annotation. If a parameter is annotated with this Optional annotation, the parameter can be omitted from the transaction message. If optional parameters were omitted when the external method is called, the value of optional parameters would be their zero values.
 
 The zero value is:
@@ -554,14 +627,15 @@ The zero value is:
 false for the boolean type, and
 null for Object types.
 
-	Example:
-
+Example:
+```java
 @External
 public void transfer(Address _to, BigInteger _value, @Optional byte[] _data) {…}
+```
 
 The default value for the _data parameter will be null inside the method.
 
-Payable
+#### Payable
 This annotation can be used to indicate whether the method can receive ICX token. This annotation can be used to annotate external methods only. If this annotation is applied to the external method, the method can receive the incoming ICX token designated in the transaction message and further process it. The value of ICX transferred is obtained by using Context.getValue() method.
 
 If the ICX token was passed to a non-payable method, that transaction would fail.
@@ -569,7 +643,7 @@ If the ICX token was passed to a non-payable method, that transaction would fail
 Note: The special method, named fallback, is invoked whenever the contract receives plain ICX tokens without data. However, if the fallback method was not annotated with @Payable, it would not be listed on the SCORE APIs and could not be called as well.
 
 Example:
-
+```java
 @Payable
 @External
 public void registerPRep(String name, String email, String country, String city, String website, String details, String p2pEndpoint) { … }
@@ -577,12 +651,15 @@ public void registerPRep(String name, String email, String country, String city,
 
 @Payable
 public void fallback() { … }
+```
 
-JavaEE Score Client
-ScoreInterface
+### JavaEE Score Client
+
+#### ScoreInterface
 This annotation is used to generate code that can be useful in making inter-smart contract calls using Context.call() method as well as while writing unit tests to mock the contract methods' behavior. This annotation can be used to annotate interface, class, or enumeration. While making inter-smart contract calls, it helps to track the parameter types which is not possible by using the Context.call() method natively. 
 
 Example:
+```java
 //Xxx.java
 @ScoreInterface
 public interface Xxx {
@@ -590,14 +667,15 @@ public interface Xxx {
 
 	String readOnlyMethod(String param);
 
-@Payable
-@External
-void payableMethod(String param);
+  @Payable
+  @External
+  void payableMethod(String param);
 
 }
-
+```
 When java compiles, the following implementation class will be generated with @ScoreInterface.suffix().
 
+```java
 //XxxScoreInterface.java
 public final class XxxScoreInterface implements Xxx {
   protected final Address address;
@@ -626,9 +704,11 @@ public final class XxxScoreInterface implements Xxx {
     Context.call(valueForPayable, this.address, "payableMethod", param);
   }
 }
+```
 
 For the payable external method, an overloaded method has been generated with the first parameter as BigInterger valueForPayable. The generated class can be used in the following way:
 
+```java
 // Score.java
 import score.Address;
 import score.annotation.External;
@@ -654,12 +734,13 @@ public class Score {
         xxx.payableMethod(valueForPayable, param);
     }
 }
+```
 
-ScoreClient
+#### ScoreClient
 This annotation is used to generate an implementation class that can be useful in writing integration tests for smart contracts as well as integrating smart contracts with Java applications. This annotation can be used to annotate class, interface, enumeration, or field.
 
 Example:
-
+```java
 @ScoreClient
 public interface Xxx {
     void externalMethod(String param);
@@ -672,11 +753,13 @@ public interface Xxx {
     @Payable
     void payableMethod(String param);
 }
+```
 
 For the payable method, an overloaded method will be generated with the first parameter as BigInteger valueForPayable. For external methods with the return type, it is necessary to annotate with @External annotation. By default, a method with a void return type will be considered an external write method and a method with other than a void return type will be considered an external read method.
 
 When java compiles, an implementation class will be generated with @ScoreClient.suffix(). The generated class for the above interface is provided below:
 
+```java
 // XxxScoreClient.java
 public final class XxxScoreClient extends DefaultScoreClient implements Xxx {
   public XxxScoreClient(String url, BigInteger nid, Wallet wallet, Address address) {
@@ -762,10 +845,11 @@ public final class XxxScoreClient extends DefaultScoreClient implements Xxx {
     consumerFunc.accept(super._send(valueForPayable, "payableMethod", params));
   }
 }
+```
+**Usage:**
 
-Usage:
-
-Use in java applications:
+**Use in java applications:**
+```java
 //Application.java
 import java.math.BigInteger;
 
@@ -795,9 +879,10 @@ public class Application {
         ((XxxScoreClient)xxx).payableMethod(BigInteger.ONE, "PARAM");
     }    
 }
+```
 
-
-Use in Integration test:
+**Use in Integration test:**
+```java
 //XxxTest.java
 import score.Address;
 import score.annotation.External;
@@ -823,13 +908,14 @@ public class XxxTest {
         ((XxxScoreClient)xxx).payableMethod(BigInteger.ONE, "PARAM");
     }
 }
+```
 
-3. JavaEE Score Data
-ScoreDataObject
+### JavaEE Score Data
+#### ScoreDataObject
 This annotation is used to generate an implementation class that is serializable and can be stored in the storage of a smart contract. This annotation can be used to annotate class, interface, or enumeration. This annotation can be useful to avoid writing writeObject and readObject methods which are required to make a class serializable. These methods are automatically generated in the implementation class with the use of this annotation.
 
 Example:
-
+```java
 //Xxx.java
 @ScoreDataObject
 public class Xxx {
@@ -838,10 +924,12 @@ public class Xxx {
     public String getValue() { return value; }
     public void setValue(String value) { this.value = value; }
 }
+```
 
 When java compiles, a serializable class will be generated with @ScoreDataObject.suffix().
 
-Generated class:
+**Generated class:**
+```java
 //XxxSdo.java
 import java.lang.String;
 import score.ByteArrayObjectWriter;
@@ -902,8 +990,10 @@ public final class XxxSdo extends Xxx {
     return super.toString();
   }
 }
+```
 
-Usage:
+**Usage:**
+```java
 //Score.java
 import score.annotation.External;
 
@@ -920,11 +1010,13 @@ public class Score {
         return db.get();
     }
 }
+```
 
-ScoreDataProperty
+#### ScoreDataProperty
 This annotation is used along with ScoreDataObject. This is used to change the default behavior of a particular field. By default, some of the properties of fields are fixed. To change the behaviors like nullable, ignore a certain field, wrap, and so on, ScoreDataProperty annotation can be used with the fields of the class for which ScoreDataObject has been used.
 
 Example:
+```java
 //Xxx.java
 @ScoreDataObject
 public class Xxx {
@@ -939,9 +1031,11 @@ public class Xxx {
         this.value = value;
     }
 }
+```
 
 The generated class will be different according to the parameters set for the annotation.
 
+```java
 //XxxSdo.java
 import java.lang.String;
 import score.ByteArrayObjectWriter;
@@ -1002,12 +1096,14 @@ public final class XxxSdo extends Xxx {
     return super.toString();
   }
 }
+```
 
-4. JavaEE Score JSON
-JsonObject
+### JavaEE Score JSON
+#### JsonObject
 If we need to convert a class into a JsonObject or vice-versa, we would need to write additional methods in the class to make the conversion. This annotation is used to generate those methods. This annotation can be used in class, interface, or enumeration. 
 
 Example:
+```java
 //Xxx.java
 @JsonObject
 public class Xxx {
@@ -1016,10 +1112,12 @@ public class Xxx {
     public String getValue() { return value; }
     public void setValue(String value) { this.value = value; }
 }
+```
 
-When java compiles, JSON convertible class will be generated with @JsonObject.suffix(). 
+When java compiles, JSON convertible class will be generated with `@JsonObject.suffix()`. 
 
-Generated class:
+**Generated class:**
+```java
 //XxxJson.java
 import com.eclipsesource.json.Json;
 import com.eclipsesource.json.JsonObject;
@@ -1065,9 +1163,11 @@ public final class XxxJson extends Xxx {
     return jsonObject;
   }
 }
+```
 
 The generated class can be used in the following way:
 
+```java
 //Score.java
 import score.annotation.External;
 import com.eclipsesource.json.JsonObject;
@@ -1083,12 +1183,13 @@ public class Score {
         return jsonObject.toString();
     }
 }
+```
 
-JsonProperty
-This annotation also works similarly to ScoreDataProperty. This annotation is used along with JsonObject. This is used to change the properties of specific fields in the class annotated by JsonObject. You can change the key of the json for the field, ignore the field, configure a custom parser, and so on. The generated class will be different compared to using only JsonObject.
+#### JsonProperty
+This annotation also works similarly to ScoreDataProperty. This annotation is used along with JsonObject. This is used to change the properties of specific fields in the class annotated by JsonObject. You can change the key of the JSON for the field, ignore the field, configure a custom parser, and so on. The generated class will be different compared to using only JsonObject.
 
 Example:
-
+```java
 //Xxx.java
 @JsonObject
 public class Xxx {
@@ -1103,8 +1204,10 @@ public class Xxx {
         this.value = value;
     }
 }
+```
 
-Generated class:
+**Generated class:**
+```java
 //XxxJson.java
 import com.eclipsesource.json.Json;
 import com.eclipsesource.json.JsonObject;
@@ -1150,79 +1253,88 @@ public final class XxxJson extends Xxx {
     return jsonObject;
   }
 }
+```
 
-Function declarations
+## Function declarations
 Smart contracts can have two functions that can be interacted with from outside of the contract. They are read-only and write functions. A function declaration can be done similarly to writing public Java methods. Although there are some restrictions. The method can’t be overloaded. Instead, you need to use Optional annotation to create such methods. There are also some limitations on parameter and return types.
 
-Write method:
-	@External
+```java
+// Write method:
+@External
 public void transfer(Address _to, BigInteger _value, @Optional byte[] _data) {
 …
 }
 
-Read method:
+// Read method:
 @External(readonly=true)
 public BigInteger balanceOf(Address _owner) {
 …
 }
+```
 
-
-Parameter Type
+### Parameter Type
 A parameter type of an external method is:
-A simple value type,
-A writable struct, or
-An array of a parameter type
+- A simple value type,
+- A writable struct, or
+- An array of a parameter type
 	
-Simple Value Type
+#### **Simple Value Type**
+
 A simple value type is:
-A boolean, char, byte short, int or long, or
-A byte[], A BigInteger, Address, or String
-Writable Struct
+- A boolean, char, byte short, int or long, or
+- A byte[], A BigInteger, Address, or String
+
+#### **Writable Struct**
 A type is a writable struct if
-the type is a non-abstract class,
-the type has no constructor or public zero-argument constructor, and
-the type has a public non-static setter method of writable property type
+- the type is a non-abstract class,
+- the type has no constructor or public zero-argument constructor, and
+- the type has a public non-static setter method of writable property type
 
-	Example:
-	class Person {
-          public Person() {...}
-          public String getName() {...}
-          public void setName(String name) {...}
-          public int getAge() {...}
-          public void setAge(int age) {...}
-      }
+**Example:**
+```java
+class Person {
+  public Person() {...}
+  public String getName() {...}
+  public void setName(String name) {...}
+  public int getAge() {...}
+  public void setAge(int age) {...}
+}
+```
 
-Writable Property
+##### **Writable Property**
 A type is a writable property type if the type is
-A simple value type,
-A Boolean, Character, Byte, Short, Integer, or Long,
-A writable struct type (recursion is not allowed), or
-An array of writable property
+- A simple value type,
+- A Boolean, Character, Byte, Short, Integer, or Long,
+- A writable struct type (recursion is not allowed), or
+- An array of writable property
 
-Return Type
+### Return Type
 A return type of an external method is
-void,
-A simple value type,
-A readable struct (regarded as a map),
-an array of a non-void return type (regarded as a list),
-List where each element is of a non-void return type or null, or
-Map where each key is of a String and each value is of a non-void return type or null
+- void,
+- A simple value type,
+- A readable struct (regarded as a map),
+- an array of a non-void return type (regarded as a list),
+- List where each element is of a non-void return type or null, or
+- Map where each key is of a String and each value is of a non-void return type or null
 
-Readable Struct
+#### **Readable Struct**
 A type is a readable struct if the type has a public non-static getter method of readable property type. For example, the following type is a readable struct. 
 
+```java
 class Person {
           public String getName() {...}
           public int getAge() {...}
 }
+```
 
-Readable Property
+#### **Readable Property**
 A type is a readable property type if the type is
 A simple value type
 A Boolean, Character, Byte, Short, Integer, and Long,
 A readable struct type (recursion is not allowed in this case), or
 An array of readable property
-Event logs, and bloom filters
+
+## Event logs, and bloom filters
 
 Event logs are written to notify external applications about the changes happening inside the transactions. Contracts can log the data about executions. Contracts can’t access those logs but external applications read those logs efficiently. Events are tied to the contract address that generates those events. Off-chain applications listen to events and can process them according to those events. Events are essential components for such off-chain applications. Events can also help test smart contract executions. Parameters can be indexed in events. Indexed parameters let us search for required data. Indexed parameters are also included in the bloom filter. 
 
@@ -1230,22 +1342,20 @@ Bloom filters are probabilistic data structures that can be used to check the me
 
 ICON adds contract address, event signature, and indexed fields in the Bloom filter. Event logs can have a maximum of 3 indexed fields, thus a maximum of 5 fields is added in the bloom filter for each event log. 
 
-Algorithm for creating Bloom filter of event logs
+### Algorithm for creating Bloom filter of event logs
 
-Prepare a byte array of the address, event topic, and indexed event logs parameters. Add 0xff prefix for address, 0x01 prefix for event topic, and 0x02,0x03,0x04 prefix for other indexed parameters respectively.
-Compute the SHA256 hash of the byte array.
-Choose the first 3 pairs of hash.
-Convert each pair hex value into binary and take the last 11 bits which is equivalent to performing AND operation with 2047(0111 1111 1111)2.
-Set the ith bit of the 2048-bit long bloom filter where i is the number computed from the above operation.
+- Prepare a byte array of the address, event topic, and indexed event logs parameters. Add 0xff prefix for address, 0x01 prefix for event topic, and 0x02,0x03,0x04 prefix for other indexed parameters respectively.
+- Compute the SHA256 hash of the byte array.
+- Choose the first 3 pairs of hash.
+- Convert each pair hex value into binary and take the last 11 bits which is equivalent to performing AND operation with 2047(0111 1111 1111)2.
+- Set the ith bit of the 2048-bit long bloom filter where i is the number computed from the above operation.
 
-Algorithm to check membership of event log in Bloom filter
+### Algorithm to check membership of event log in Bloom filter
 
-Compute 3 bits with the same algorithm above for contract address, event topic, or indexed parameters.
-If all 3 bits are set in the bloom filter, the item would probably exist in the block.
+- Compute 3 bits with the same algorithm above for contract address, event topic, or indexed parameters.
+- If all 3 bits are set in the bloom filter, the item would probably exist in the block.
 
-Context
+## Context
 Every smart contract has an associated Context that allows the application to interface with the environment the smart contract is running. Typically, it includes the transaction, block context, and other blockchain functionality. Unless otherwise noted, passing a null argument to a method in this class will cause a NullPointerException to be thrown. You can find more about the methods in the Context class here.
 
 Context class lets smart contract developers access the global variables in the smart contract. It also provides some utility methods.
-
-
