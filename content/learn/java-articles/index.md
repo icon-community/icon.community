@@ -5,10 +5,257 @@ slug: java-smart-contracts
 description: Learn about the concepts of Java programming language used to write smart contracts in ICON.
 ---
 
-Java SCORE basics
-Class definition of a smart contract
+# Smart Contracts on ICON
 
-In the main directory of a Java project, there can be multiple classes. The entry point or the main class is specified in build.gradle in optimizing tasks. All the classes which can be reached from the main class comprise the smart contract. 
+## What is a smart contract?
+
+A smart contract is a self-contained program that is stored and replicated on a blockchain network. When a contract is deployed to the blockchain, it becomes a part of the blockchain and is stored on every node in the network.
+
+Smart contracts on ICON are written in JVM-compatible languages, such as Java. This code gets compiled into low-level bytecode that can be run on the Java Virtual Machine (JVM). Contracts are deployed to the ICON platform using a special contract creation transaction sent to the [contract creation address](https://tracker.icon.community/contract/cx0000000000000000000000000000000000000000). A deployed contract is assigned an ICON address based on the originating account, timestamp, and if the contract address already exists nonce of the contract creation transaction is also used. Salt can also be used to create address. Salt is the transaction index of the transaction in the block. This address can be used to send funds to the contract or call its functions.
+
+```
+// genContractAddr generates new contract address
+nonce, timestamp, from
+data = from(20 bytes) + timestamp (32 bytes) + if exists, nonce (32 bytes)
+digest = sha3_256(data)
+contract address = digest[len(digest) - 20:] // get last 20bytes
+// If there is salt, it would be added to nonce value.
+```
+
+Smart contracts are not associated with private keys like External Owned Accounts (EOAs). However, the smart contract deployer address is considered the “owner.” By default, smart contract owners may upgrade or change the owner of the contract.
+
+### Deploying the contract
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "icx_sendTransaction",
+    "id": 1234,
+    "params": {
+        "version": "0x3",
+        "from": "hxbe258ceb872e08851f1f59694dac2558708ece11",
+        "to": "cx0000000000000000000000000000000000000000", // address 0 means SCORE install
+        "stepLimit": "0x12345",
+        "timestamp": "0x563a6cf330136",
+        "nid": "0x3",
+        "nonce": "0x1",
+        "signature": "VAia7YZ2Ji6igKWzjR2YsGa2m53nKPrfK7uXYW78QLE+ATehAVZPC40szvAiA6NEU5gCYB4c4qaQzqDh2ugcHgA=",
+        "dataType": "deploy",
+        "data": {
+            "contentType": "application/java",
+            "content": "0x1867291283973610982301923812873419826abcdef91827319263187263a7326e...", // compressed SCORE data
+            "params": {  // parameters to be passed to on_install()
+                "name": "ABCToken",
+                "symbol": "abc",
+                "decimals": "0x12"
+            }
+        }
+    }
+}
+```
+
+### Upgrading the contract
+
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "icx_sendTransaction",
+    "id": 1234,
+    "params": {
+        "version": "0x3",
+        "from": "hxbe258ceb872e08851f1f59694dac2558708ece11",
+        "to": "cxbe258ceb872e08851f1f59694dac2558708ece11", // previously deployed smart contract address
+        "stepLimit": "0x12345",
+        "timestamp": "0x563a6cf330136",
+        "nid": "0x3",
+        "nonce": "0x1",
+        "signature": "VAia7YZ2Ji6igKWzjR2YsGa2m53nKPrfK7uXYW78QLE+ATehAVZPC40szvAiA6NEU5gCYB4c4qaQzqDh2ugcHgA=",
+        "dataType": "deploy",
+        "data": {
+            "contentType": "application/java",
+            "content": "0x1867291283973610982301923812873419826abcdef91827319263187263a7326e...", // compressed SCORE data
+            "params": {  // parameters to be passed to on_install()
+                "name": "ABCToken",
+                "symbol": "abc",
+                "decimals": "0x12"
+            }
+        }
+    }
+}
+```
+
+Although this means smart contracts by default are mutable, the contract can be written to specify immutability rules. To make a contract immutable, the owner of the contract address has to be changed to a wallet that no one controls. Some ways to do that are by changing the owner to the contract itself provided there is no method in the contract to do self-upgrade. The owner can also be changed to [System contract - cx0000000000000000000000000000000000000000](https://tracker.icon.community/contract/cx0000000000000000000000000000000000000000).
+
+Smart contracts are only executed when they are called by a transaction, either directly or as part of a chain of contract calls. They do not run in the background or parallel, and they are single-threaded.
+
+On ICON, smart contracts are written in Java with domain-specific restrictions. The [ICON blockchain’s Java execution environment](https://github.com/icon-project/goloop/tree/master/javaee) for smart contracts is a modification of the [Aion Virtual Machine](https://github.com/aionnetwork/AVM). You can find a list of allowed methods [here](https://docs.icon.community/support/advanced-topics/java-smart-contracts/allowed-methods).
+
+## Installation
+
+* You need to install JDK 11 or a later version. Visit [OpenJDK.org](https://openjdk.org/) for prebuilt binaries. Or you can install a proper OpenJDK package from your OS vendors.
+
+  In macOS:
+
+  ```shell
+  $ brew tap AdoptOpenJDK/openjdk
+  $ brew cask install adoptopenjdk11
+  ```
+
+  In Linux (Ubuntu 20.04):
+  ```shell
+  $ sudo apt install openjdk-11-jdk
+  ```
+* Install Goloop CLI (Optional)
+  
+  Goloop CLI can be used for Keystore manipulation, sending transactions, managing blockchain, and other tasks through the terminal.
+  
+  * Install make
+    ```shell
+    $ sudo apt install make
+    ```
+  * Install [golang 1.18+](https://golang.org/doc/install)
+  * Install RocksDB 6.22+
+    * MacOS 
+      ```shell
+      $ brew update
+      $ brew install rocksdb
+      ```
+    * Ubuntu
+      ```shell
+      $ sudo apt-get update
+      $ sudo apt-get -y install build-essential libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev liblz4-dev libzstd-dev
+      $ git clone https://github.com/facebook/rocksdb.git
+      $ cd rocksdb
+      $ make shared_lib
+      $ sudo cp --preserve=links ./librocksdb.* /usr/lib/
+      $ sudo cp -r ./include/rocksdb/ /usr/include/
+      ```
+
+  * Clone [goloop repo](https://github.com/icon-project/goloop)
+    ```shell
+    $ git clone git@github.com:icon-project/goloop.git
+    ```
+  * Build goloop CLI 
+    ```shell
+    $ cd goloop
+    $ make goloop
+    ```
+
+  Goloop binary file is located in `./bin/`. Add this to your `PATH` so that it can be used from anywhere in the terminal.
+
+* Use [gochain-local](https://github.com/icon-project/gochain-local) to run a local blockchain node for testing
+* Install [Gradle](https://docs.gradle.org/current/userguide/installation.html) 
+* Install [VS Code](https://code.visualstudio.com/) or [Intellij](https://www.jetbrains.com/idea/)
+
+## Creating a workspace
+We use Gradle to create the workspace. If you are unfamiliar with Gradle please check their [documentation](
+https://docs.gradle.org/current/userguide/what_is_gradle.html).
+
+### Using CLI
+
+#### Create a project folder
+
+Gradle comes with a built-in task, called init, that initializes a new Gradle project in an empty folder. The init task uses the (also built-in) wrapper task to create a Gradle wrapper script, gradlew.
+
+The first step is to create a folder for the new project and change the directory into it.
+```shell
+$ mkdir hello-world
+$ cd hello-world
+```
+
+#### Run the init task
+
+```shell
+$ gradle init
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+Select type of project to generate:
+  1: basic
+  2: application
+  3: library
+  4: Gradle plugin
+Enter selection (default: basic) [1..4] 2
+
+Select implementation language:
+  1: C++
+  2: Groovy
+  3: Java
+  4: Kotlin
+  5: Scala
+  6: Swift
+Enter selection (default: Java) [1..6] 3
+
+Split functionality across multiple subprojects?:
+  1: no - only one application project
+  2: yes - application and library projects
+Enter selection (default: no - only one application project) [1..2] 1
+
+Select build script DSL:
+  1: Groovy
+  2: Kotlin
+Enter selection (default: Groovy) [1..2] 1
+
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no] yes
+
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4] 4
+
+Project name (default: hello-world):            
+
+Source package (default: hello.world): 
+
+
+> Task :init
+Get more help with your project: https://docs.gradle.org/7.3.3/samples/sample_building_java_applications.html
+
+BUILD SUCCESSFUL in 3m 50s
+2 actionable tasks: 2 executed
+```
+
+The following directory structure will be created:
+
+```shell
+.
+├── app
+│   ├── build.gradle
+│   └── src
+│       ├── main
+│       │   ├── java
+│       │   │   └── hello
+│       │   │       └── world
+│       │   │           └── App.java
+│       │   └── resources
+│       └── test
+│           ├── java
+│           │   └── hello
+│           │       └── world
+│           │           └── AppTest.java
+│           └── resources
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle
+```
+
+The app folder can be renamed to your preferred name and the name has to be changed accordingly in the settings.json file. You can also add multiple folders or contracts in the same directory. All the changes have to be reflected in the `settings.json` file.
+
+### Using IDE
+
+You can use [VS Code](https://code.visualstudio.com/) or [Intellij](https://www.jetbrains.com/idea/) for writing Java smart contracts. 
+
+* [Using VS Code for Java](https://code.visualstudio.com/docs/java/java-tutorial)
+* [Using Intellij with Gradle](https://www.jetbrains.com/help/idea/getting-started-with-gradle.html)
+
+
+## Class definition of a smart contract
+
+In the `src/main` directory of a Java project, there can be multiple classes. The entry point or the main class is specified in build.gradle in optimizing tasks. All the classes which can be reached from the main class comprise the smart contract. 
 
 Example:
 
