@@ -165,7 +165,7 @@ Serial execution is the sequential ordering of task execution. In a sequential e
 
 ### Parallel execution
 
-Parallel execution is the simultaneous execution of tasks. 
+Parallel execution is the simultaneous execution of tasks. In a parallel execution system, independent instructions run simultaneously. This requires coordination and synchronization between tasks, determination of independent instructions, and management of the distribution of tasks and data across the computing resources.
 
 ### Concurrency controls
 
