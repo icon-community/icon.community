@@ -43,8 +43,8 @@ params:
   social:
     discordUrl: /icondiscord/
     githubUrl: https://github.com/icon-project
-    newsletterUrl: https://foundation.us15.list-manage.com/subscribe?u=d8b1e5594bd92c54dc0c7141c&id=fbc02bbf32
-    roadmapUrl: https://iconfoundation.notion.site/BTP-Integration-Milestones-1f1decaab3d246f5a042ff45a21aab86
+    newsletterUrl: https://newsletter.icon.community/
+    roadmapUrl: https://iconfoundation.notion.site/BTP-Milestones-78dbe0023a0144ba9c53db9558ac7cf5
     twitterUrl: https://twitter.com/helloiconworld
   
 markup:
