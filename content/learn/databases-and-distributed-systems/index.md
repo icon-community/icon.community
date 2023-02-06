@@ -161,7 +161,7 @@ Concurrency is the ability of a computer system to perform multiple tasks or pro
 
 ### Serial execution
 
-Serial execution is the sequential ordering of task execution.
+Serial execution is the sequential ordering of task execution. In a sequential execution system, each instruction is executed in turn, and the next instruction is not executed until the current one has completed. There is no overlap between the execution of different instructions, and each instruction is executed in the order in which it appears.
 
 ### Parallel execution
 
@@ -169,4 +169,36 @@ Parallel execution is the simultaneous execution of tasks.
 
 ### Concurrency controls
 
-Concurrency controls are used to ensure that multiple transactions can be executed simultaneously without conflicting with each other.
+Concurrency controls are used to ensure that multiple transactions can be executed simultaneously without conflicting with each other. A transaction must request a lock on a shared resource before it can access or modify the resource.
+
+If the lock is granted, the transaction can proceed with its work. The lock prevents anything other than the transaction from accessing the shared resource. Once the transaction has completed its work with the shared resource, it releases the lock.
+
+If the lock is not granted, the transaction must wait until the lock is released. If two transactions attempt to update the same record at the same time, one of them will be rolled back to prevent data corruption.
+
+Transactions make use of synchronization primitives internally for lock management and concurrency control.
+
+#### Synchronization primitives
+
+Synchronization primitives coordinate the execution of concurrent threads or processes. They are used to control the access to shared resources and to ensure that the correct order of execution is maintained in concurrent systems.
+
+Synchronization primitives include mutexes, semaphores, events, signals, and condition variables.
+
+##### Mutexes
+
+A mutex provides mutual exclusion to a resource, which means that only one task can access it at a time. It is the most commonly used primitive and is synonymous with a lock.
+
+##### Semaphors
+
+A semaphore is a counter used to limit access to a shared resource. It starts at a defined maximum value, which represents the maximum number of concurrent tasks that can access a shared resource. The value decreases when an operation accesses, or acquires, the shared resource. The value increases when the semaphore is released. If the value falls to zero, any effort to acquire the semaphore will be prevented until another task frees it up. Mutexes use a binary semaphore, meaning that the maximum value is one.
+
+##### Events
+
+An event is a mechanism for one thread or process to notify another thread or process that a specific condition has been met. When a thread needs to wait for a specific condition, it calls the `wait` method on the event, which blocks the thread until the event is signaled by another thread. When the condition is met, another thread signals the event by calling the `signal` method, which wakes up the waiting thread and allows it to proceed.
+
+##### Signals
+
+A signal is a mechanism used to interrupt the execution of a thread and notify it of an event or condition. It is commonly used when a thread needs to be notified of the completion of an operation without having to wait for it.
+
+##### Condition variables
+
+A condition variable provides a convenience mechanism for a task to wait for a change in the state of a shared resource. Instead of having to continuously poll a semaphore to check if the shared resource is available, a task can use a condition variable to wait for a change in the state of the shared resource. Condition variables commonly implement the `wait` and `signal` methods.
