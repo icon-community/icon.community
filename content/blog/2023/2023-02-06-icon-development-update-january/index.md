@@ -1,11 +1,11 @@
 ---
 title: ICON Development Update – January 2023
 date: 2023-02-06
-description: In January, the ICON team continued making progress on BTP, xCall integrations and ICON 2.0. In this article, we share tasks completed and development milestones for February.
+description: In January, the ICON team continued making progress on BTP and ICON 2.0. Work on the xCall service integration into IBC has commenced. In this article, we share tasks completed and development milestones for February.
 slug: icon-development-update-january-2023
 ---
 
-In January, the ICON team continued making progress on BTP, xCall integrations and ICON 2.0. In this article, we share tasks completed and development milestones for February.
+In January, the ICON team continued making progress on BTP and ICON 2.0. Work on the xCall service integration into IBC has commenced. In this article, we share tasks completed and development milestones for February.
 
 ## BTP Architecture/ Product
 
