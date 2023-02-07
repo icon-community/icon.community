@@ -1,0 +1,9 @@
+{{- $data := newScratch -}}
+{{- $featuredImage := (.Resources.GetMatch "featured.jpg") -}}
+{{- if $featuredImage -}}
+{{- $data.Set "featuredImageUrl" (printf "%s%s" .Permalink $featuredImage ) -}}
+{{- else -}}
+{{- $data.Set "featuredImageUrl" "/assets/images/featured-images/ice-snow.jpg" -}}
+{{- end -}}
+{{- $featuredImageUrl := ($data.Get "featuredImageUrl") -}}
+{{- $featuredImageUrl | absURL -}}

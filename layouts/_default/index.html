@@ -24,17 +24,21 @@
             </div>
             
             <div class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
-                <div class="animate-pulse">
-                    <img src="/assets/images/icon-2022-recap-and-2023-outlook.jpg" alt="ICON 2022 Recap & 2023 Outlook" loading="lazy">
+                {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 1 }}
+    
+                {{ range $paginator.Pages }}
+                {{ $data := newScratch }}
+                <div class="">
+                    <img src="{{ partial "seo/featured_image.html" . }}" 
+                    alt="{{ .Params.description }}" loading="lazy">
                 </div>
                 <div class="flex flex-col items-start justify-center p-4 space-y-2 bg-slate-200">
-                    <h1 class="text-lg font-extrabold">ICON 2022 Recap & 2023 Outlook</h1>
-                    <p class="font-normal">As we kick off the new year, we would like to share some reflections on the past year and details regarding our strategic focus for 2023!</p>
-                    <div class="pt-4">
-                        {{ partial "buttons/button_quartiary_smaller.html" (dict "context" . "buttonText" "Go to Update" "buttonUrl" "/blog/2023/icon-2022-recap-and-2023-outlook/") }}  
-                    </div>
-                </div>               
+                    <h1 class="text-lg font-extrabold">{{ .Title }}</h1>
+                    <p class="font-normal">{{ .Description }} <a href="{{ .Permalink }}" class="inline-block font-bold"> Read more.</a></p>
+                </div>  
+                {{ end }}             
             </div> 
+            
         </div>
     </div>
     <div class="relative overflow-hidden">
