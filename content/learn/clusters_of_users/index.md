@@ -1,3 +1,10 @@
+---
+title: "Clusters of users"
+date: 2023-01-17
+slug: clusers-of-users
+description: When we throw around the phrase "building community", we should be sensible to the idea that this community represents more than a pool of dapp users and testers. What does a community look like?
+---
+
 ## What does a community look like ?
 We've heard and mostly understood that blockchains are community driven. But what does  ~~Marsellus Wallace~~ this community look like ? It's necessary to think about an answer to this question because it determines the nature of your target demography if you're building a decentralized app on a blockchain. Understanding the community will give answers to questions like the following -- for a certain dapp, how many unique users are there who could be interested, are there similar products that can co-exist and reinforce each other, how likely is it for users of other categories to try yours and as such how does it resonate with the ecosystem's direction.
 
