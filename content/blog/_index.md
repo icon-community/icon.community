@@ -1,4 +1,7 @@
 ---
+sitemap:
+  changefreq: daily
+  priority: 0.8
 title: Blog
 ---
 
