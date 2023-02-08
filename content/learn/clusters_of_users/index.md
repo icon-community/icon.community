@@ -3,6 +3,7 @@ title: "Clusters of users"
 date: 2023-01-17
 slug: clusers-of-users
 description: When we throw around the phrase "building community", we should be sensible to the idea that this community represents more than a pool of dapp users and testers. What does a community look like?
+tag: tutorial
 ---
 
 ## What does a community look like ?
