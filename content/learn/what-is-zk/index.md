@@ -3,7 +3,7 @@ title: "What is Zero Knowledge Protocol?"
 date: 2023-01-17
 slug: zkp
 description: A new paradigm for privacy, security and trust in blockchain world 
-tag: tutorial
+author: venture-23
 ---
 
 ## Year At a Glance

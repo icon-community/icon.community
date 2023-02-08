@@ -3,7 +3,7 @@ title: "What is indexing and how it works for ICON "
 date: 2023-01-19
 slug: indexing
 description: A primer on how indexing works for ICON which supplies all the data to the tracker
-tag: tutorial
+author: sudoblock
 ---
 
 ## Indexing for the ICON Blockchain  

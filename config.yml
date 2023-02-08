@@ -26,6 +26,22 @@ categories:
 
 params:
   authors:
+    sudoblock:
+      name: "Sudoblock"
+      description: "Sudoblock is a big infrastructure partner and validator on the ICON Network. Blockchain indexing and infrastructure is the Sudeblock core business."
+      validatorAddress: "hxfc56203484921c3b7a4dee9579d8614d8c8daaf5"
+    cyrus:
+      name: "Cyrus"
+      description: ""
+      validatorAddress: ""
+    venture-23:
+      name: "Venture23"
+      description: ""
+      validatorAddress: ""
+    eye-on-icon:
+      name: "Eye on ICON"
+      description: "Eye on ICON is a community podcast and validator. The Eye on ICON podcast goes around the ICON ecosystem and brings you all the latest news, chatter and alpha."
+      validatorAddress: "hx2e7db537ca3ff73336bee1bab4cf733a94ae769b"
     espanicon:
       name: "Espanicon"
       description: "Espanicon is a validator on the ICON network. Their goal is to participate in the chain governance of the network and expand the ICON ecosystem by building projects in it and collaborating with other validators."

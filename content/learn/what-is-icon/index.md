@@ -2,6 +2,8 @@
 title: "What is ICON?"
 date: 2022-03-07
 slug: icon
+author: rhizome-labs
+author: rhizome-labs
 description: ICON is an open-source layer 1 delegated proof-of-stake (DPoS) blockchain and smart contract platform focused on connecting unique blockchains and their respective communities.
 ---
 
