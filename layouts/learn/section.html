@@ -5,13 +5,7 @@
     <div id="blog-posts"
         class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:space-y-0 gap-x-4 gap-y-8 xl:gap-y-8 xl:gap-x-8">
         {{ range first 12 (where $.Site.RegularPages "Section" "learn").Reverse }}
-        {{ if isset .Params "author" }}
-        {{ $data.Set "authorName" .Params.author }}
-        {{ else }}
-        {{ $data.Set "authorName" "ICON Foundation" }}
-        {{ end }}
-        {{ $authorName := $data.Get "authorName" }}
-        {{ $authorId := replace (lower ($authorName)) " " "-" }}
+        {{ $authorDetails := index $.Site.Params.authors .Params.author }}
         <div class="flex flex-col overflow-hidden rounded-lg">
             <div class="flex-shrink-0">
                 <img class="object-cover w-full h-60" src="{{ partial "featured_image.html" . }}"
@@ -35,6 +29,21 @@
                             {{ .Params.description }}
                         </p>
                     </a>
+                </div>
+                <div class="flex items-center mt-6">
+                    <div class="flex-shrink-0">
+                        <img class="border-icon-lo w-10 h-10 p-0.5 border-2 rounded-full"
+                            src="{{ partial "cdn_url.html" }}/assets/images/contributors/{{ .Params.author | lower }}.png"
+                            alt="{{ .Title }} by {{ $authorDetails.name }}">
+                    </div>
+                    <div class="ml-3 text-gray-800 dark:text-gray-400">
+                        <p class="text-sm font-bold">{{ $authorDetails.name }}</p>
+                        <div class="flex space-x-1 text-sm">
+                            <time datetime="2020-03-16">
+                                {{ .PublishDate.Format "January 2, 2006" }}
+                            </time>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

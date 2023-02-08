@@ -3,6 +3,7 @@ title: "Creating a crypto wallet"
 date: 2022-12-07
 slug: creating-a-crypto-wallet
 description: Creating an anonymous crypto wallet is easy, because self-custody blockchain wallets do not require KYC verification.
+author: eye-on-icon
 ---
 
 A crypto wallet or digital wallet, is an application that helps you store your crypto. It functions like a bank account and makes it possible for you to send and receive that crypto from anywhere in the world.

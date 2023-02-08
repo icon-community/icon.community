@@ -3,6 +3,7 @@ title: "Buying a partial Bitcoin"
 date: 2023-01-04
 slug: buying-a-partial-bitcoin
 description: Bitcoin (BTC) has been around for a while, but it is still one of the most popular and talked about cryptocurrencies.
+author: eye-on-icon
 ---
 
 Bitcoin (BTC) has been around for a while, but it is still one of the most popular and talked about cryptocurrencies. Many have asked: **Should I buy bitcoin?** Or even wondered Is it too **late to buy bitcoin**?

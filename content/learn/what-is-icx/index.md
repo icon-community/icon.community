@@ -3,6 +3,7 @@ title: "What is ICX?"
 date: 2022-03-06
 slug: icx
 description: ICX is the currency of all applications that are built on the ICON blockchain.
+author: rhizome-labs
 ---
 
 During the initial phase of the ICON project, ICX was an ERC-20 token that was used to bootstrap development of the ICON network. In mid-2018, following the launch of the ICON mainnet, a token swap was performed, enabling holders of the ERC-20 ICX to exchange for native ICX, which now powers the economy and governance of the ICON blockchain.
