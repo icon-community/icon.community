@@ -1,7 +1,16 @@
 {{ define "container" }}
 {{ $data := newScratch }}
 <div id="container" class="px-4 mx-auto my-16 max-w-7xl lg:my-24">
-    {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Subscribe to Newsletter" "primaryButtonUrl" $.Site.Params.social.newsletterUrl) }}
+    <!-- {{ partial "page_header.html" (dict "context" . "primaryButtonText" "Subscribe to Newsletter" "primaryButtonUrl" $.Site.Params.social.newsletterUrl) }} -->
+    <h1 class="mb-4 text-5xl font-black text-center lg:text-6xl">Blog</h1>
+    <p class="text-lg text-center text-slate-600">Stay updated with the latest ICON news and developments.</p>
+    <div class="mx-auto my-8 overflow-hidden shadow-md w-fit rounded-2xl">
+        <iframe src="https://iconnetwork.substack.com/embed" 
+        class="w-full h-[250px] sm:w-[480px] sm:h-[250px]" 
+        frameborder="0" 
+        scrolling="no">
+        </iframe>
+    </div>
     <div id="blog-posts"
         class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:space-y-0 gap-x-4 gap-y-8 xl:gap-y-8 xl:gap-x-8">
         {{ range first 9 (where $.Site.RegularPages "Section" "blog") }}
