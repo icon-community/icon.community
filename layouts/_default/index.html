@@ -7,23 +7,30 @@
 <div id="container" class="relative">
     
     <div id="hero"
-        class="relative px-4 py-16 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900">
+        class="relative px-4 py-16 lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-icon-dark via-purple-900 to-sky-900">
+        <!-- Shape divider -->
+        <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
+            <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
+            </svg>
+        </div>
+        
         <div class="flex flex-col items-center justify-center mx-auto sm:flex-row max-w-7xl">
             <div class="w-full p-0 sm:w-2/3 sm:p-8">
-                <h1 class="w-full mb-4 text-4xl font-extrabold tracking-tight text-center sm:text-left lg:text-7xl xs:text-5xl text-slate-50">
+                <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-4xl font-extrabold tracking-tight text-center sm:text-left lg:text-7xl xs:text-5xl text-slate-50">
                     Connecting Blockchains<br>and Communities
                 </h1>
-                <p class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
+                <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
                     ICON blockchain is a public blockchain protocol building a hyperconnected future with BTP, our
                     chain-agnostic interoperability solution.
                 </p>
-                <div id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
+                <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
                     {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About ICON" "buttonUrl" "/learn/") }}
                     {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" "/icondiscord/") }}
                 </div>
             </div>
             
-            <div class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
+            <div x-intersect="$el.classList.add('scale')" class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
                 {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 1 }}
     
                 {{ range $paginator.Pages }}
@@ -46,21 +53,21 @@
             <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
-                        <h2
+                        <h2 x-intersect="$el.classList.add('fadeInFromLeft')" 
                             class="text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
                             Powered by ICX</h2>
-                        <div class="space-y-8">
-                            <p class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICX is the currency that powers
+                        <div x-intersect="$el.classList.add('fadeInFromLeft')" class="space-y-8">
+                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICX is the currency that powers
                                 the
                                 ICON blockchain and ecosystem. ICX has a variety of use cases including staking, network governance,
                                 collateralization
                                 on DeFi platforms, and more.
                             </p>
-                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                            <div  id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/") }}
                                 {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/learn/icx/#how-to-buy-icx") }}
                             </div>
-                            <div class="flex gap-2.5 sm:gap-4">
+                            <div x-intersect="$el.classList.add('fadeInFromLeft')" class="flex gap-2.5 sm:gap-4">
                                 <div
                                     class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
                                     <h3
@@ -97,7 +104,7 @@
                     </div>
                 </div>
                 <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <div x-intersect="$el.classList.add('scale')" class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                         <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/powered-by-icx.jpg"
                             alt="ICON is powered by ICX." loading="lazy">
@@ -107,23 +114,35 @@
         </div>
         <div id="decentralized-fast-secure-interoperability"
             class="relative py-16 bg-radial-at-br from-icon-dark via-purple-900 to-sky-900 sm:py-24">
+            <!-- Shape divider top of panel-->
+            <div class="absolute left-0 w-full overflow-hidden leading-none -top-1">
+                <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
+                </svg>
+            </div>
+            <!-- Shape divider bottom of panel-->
+            <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
+                <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
+                </svg>
+            </div>
             <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="order-2 mt-12 sm:mt-16 lg:mt-0 lg:order-1">
-                    <div class="pr-4 -ml-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <div x-intersect="$el.classList.add('scale')"  class="pr-4 -ml-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                         <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/interoperability.png"
                             alt="Decentralized, Fast, and Secure Interoperability" loading="lazy">
                     </div>
                 </div>
                 <div class="order-1 max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:order-2">
-                    <h2 class="text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-50">Decentralized,
+                    <h2 x-intersect="$el.classList.add('fadeInFromRight')" class="text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-50">Decentralized,
                         Fast, and Secure
                         Interoperability</h2>
-                    <div class="space-y-8">
+                    <div x-intersect="$el.classList.add('fadeInFromRight')" class="space-y-8">
                         <p class="mt-4 text-lg text-slate-200">ICON's Blockchain Transmission Protocol (BTP) enables
-                            cross-chain communication between smart contract-enabled blockchains. Start bridging
-                            your assets between ICON blockchain,
-                            Binance Smart Chain, NEAR Protocol, Moonriver, and more with Nexus.
+                            <span class="font-bold">cross-chain communication</span> between smart contract-enabled blockchains. 
+                        </br> 
+                            ICON is pushing for wider adoption of ICON interoperability standards in the industry by supporting not only <span class="font-bold">BTP</span> but also other interoperability protocols such as <span class="font-bold">IBC</span>, <span class="font-bold">Optimistic Rollups</span> and <span class="font-bold">Zero Knowledge Proofs</span>.
                         </p>
                         <div id="hero-buttons" class="flex flex-wrap gap-4">
                             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "More on BTP" "buttonUrl" "/learn/btp/") }}
@@ -136,19 +155,19 @@
             <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
-                        <h2
+                        <h2 x-intersect="$el.classList.add('fadeInFromLeft')" 
                             class="text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
                             Develop Smart Contracts in Java
                         </h2>
-                        <div class="space-y-8">
-                            <p class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON blockchain smart contracts are written
+                        <div x-intersect="$el.classList.add('fadeInFromLeft')" class="space-y-8">
+                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON blockchain smart contracts are written
                                 in
                                 Java, a
-                                general-purpose programming language known for performance, safety, and reliability. If
+                                general-purpose programming language known for <span class="font-bold">performance, safety, and reliability</span>. If
                                 you're a Java developer looking to get into smart contract development, you'll feel
                                 right at home on ICON.
                             </p>
-                            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                            <div  id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Read Docs" "buttonUrl" "https://docs.icon.community/") }}
                                 {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "/icondiscord/") }}
                             </div>
@@ -156,7 +175,7 @@
                     </div>
                 </div>
                 <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <div x-intersect="$el.classList.add('scale')" class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                         <img class="w-full rounded-lg lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/java-score.png"
                             alt="Develop Java smart contracts." loading="lazy">
@@ -166,9 +185,16 @@
         </div>
     </div>
     <div id="cps"
-        class="py-16 space-y-16 bg-radial-at-tr md:bg-radial-at-t from-icon-dark via-purple-900 to-sky-900 sm:py-24">
+        class="relative py-16 space-y-16 bg-radial-at-tr md:bg-radial-at-t from-icon-dark via-purple-900 to-sky-900 sm:py-24">
+        <!-- Shape divider top of panel-->
+        <div class="absolute left-0 w-full overflow-hidden leading-none -top-1">
+            <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
+            </svg>
+        </div>
+        
         <div id="cps_hero" class="relative px-4 space-y-8">
-            <h1 class="text-4xl font-bold tracking-tight text-center lg:text-6xl text-slate-50">
+            <h1 x-intersect="$el.classList.add('fadeInUp')" class="text-4xl font-bold tracking-tight text-center lg:text-6xl text-slate-50">
                 Get Paid to Build
             </h1>
             <!-- <div class="flex flex-wrap items-center justify-center gap-4">
@@ -189,16 +215,16 @@
                         Funds</h3>
                 </div>
             </div> -->
-            <p class="z-50 max-w-2xl mx-auto text-lg text-center text-slate-100">
+            <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto text-lg text-center text-slate-100">
                 ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
                 teams building on the ICON blockchain. Whether your focus is
                 development, marketing, or community building, the CPS is here to fund you.
             </p>
-            <div id="hero-buttons" class="flex flex-wrap justify-center gap-4">
+            <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4">
                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Create a Proposal" "buttonUrl" "https://cps.icon.community") }}
             </div>
         </div>
-        <div id="cps_features">
+        <div x-intersect="$el.classList.add('fadeInUp')" id="cps_features">
             <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-4">
                 <h2 class="sr-only">Easy Application Process</h2>
                 <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
@@ -301,17 +327,17 @@
     </div>
     <div class="px-4 py-16 sm:py-24">
         <div>
-            <h1
+            <h1 x-intersect="$el.classList.add('fadeInUp')" 
                 class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-6xl md:text-5xl dark:text-slate-50 text-slate-900">
                 What's Next?
             </h1>
-            <p class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-slate-600">
+            <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-slate-600">
                 ICON is a
                 place for everyone, whether you're new to crypto or building a project. Start exploring the ICON
                 blockchain and ecosystem today!
             </p>
         </div>
-        <div
+        <div x-intersect="$el.classList.add('fadeInUp')" 
             class="max-w-4xl mx-auto overflow-hidden border divide-y rounded-lg shadow sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px dark:divide-slate-700 dark:bg-slate-700 bg-slate-200 divide-slate-200 dark:border-slate-700">
             <div class="relative p-6 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
                 id="p1">
@@ -524,7 +550,7 @@
                 </span>
             </div>
         </div>
-        <div class="mx-auto mt-16 overflow-hidden shadow-md w-fit rounded-2xl">
+        <div x-intersect="$el.classList.add('fadeInUp')" class="mx-auto mt-16 overflow-hidden shadow-md w-fit rounded-2xl">
             <iframe src="https://iconnetwork.substack.com/embed" 
             class="w-full h-[250px] sm:w-[480px] sm:h-[250px]" 
             frameborder="0" 
