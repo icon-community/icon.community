@@ -67,7 +67,7 @@ User addresses that transacted with the contract addresses given below were used
 
 So far we've talked about the way groups inside a community are clustered around the set of products they are interested in and how incorporating it to one's study can help a developer find the right product-market fit. 
 
-## Why is more connectedness sometimes necessary ?
+## Why is more connectedness sometimes necessary?
 With that being said, it should also be noted that if these user group clusters are separated so as to appear like separate silos of users on their own, the total value that the blockchain can extract from its community decreases. Having siloed user groups is equivalent to having a small community which developers can base their apps upon and as such is prone to scalability challenges. For a [two-sided platform](https://hbr.org/2019/01/why-some-platforms-thrive-and-others-dont) like blockchain that facilitates interaction between developers and users, this issue can be remarkable because it affects the network effect which the platform heavily relies upon. In other words, small userbase means developers are less attracted to build on platform; this in turn means less utility driven products that users can use which in turn alienates even more users to create an even smaller userbase. In such situation, the case made by blockchain interoperability to link blockchains and bring communities with similar interests together also makes sense.
 
 
