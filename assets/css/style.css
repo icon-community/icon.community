@@ -166,7 +166,7 @@
   }
 
   .fadeInUp {
-    animation: fadeInUp 1s ease-in;
+    animation: fadeInUp 1s ease-in-out;
   }
 
   @keyframes fadeInFromLeft {
@@ -182,7 +182,7 @@
   }
 
   .fadeInFromLeft {
-    animation: fadeInFromLeft 1s ease-in;
+    animation: fadeInFromLeft 1s ease-in-out;
   }
 
   @keyframes fadeInFromRight {
@@ -198,7 +198,7 @@
   }
 
   .fadeInFromRight {
-    animation: fadeInFromRight 1s ease-in;
+    animation: fadeInFromRight 1s ease-in-out;
   }
 
   @keyframes scale {
@@ -214,6 +214,6 @@
   }
 
   .scale {
-    animation: scale 1s ease-in;
+    animation: scale 1s ease-in-out;
   }
 }
