@@ -151,3 +151,69 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+@layer utilities {
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fadeInUp {
+    animation: fadeInUp 1s ease-in;
+  }
+
+  @keyframes fadeInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .fadeInFromLeft {
+    animation: fadeInFromLeft 1s ease-in;
+  }
+
+  @keyframes fadeInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .fadeInFromRight {
+    animation: fadeInFromRight 1s ease-in;
+  }
+
+  @keyframes scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: ;
+    }
+  }
+
+  .scale {
+    animation: scale 1s ease-in;
+  }
+}

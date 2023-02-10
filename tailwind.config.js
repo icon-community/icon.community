@@ -33,6 +33,9 @@ module.exports = {
       ...defaultTheme.screens,
     },
     extend: {
+      scale: {
+        '-100': '-1',
+      },
       fontFamily: {
         'montserrat': 'Montserrat'
       },

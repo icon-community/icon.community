@@ -30,8 +30,13 @@
         <!-- HTMX -->
         <script src="https://unpkg.com/htmx.org@1.6.1"></script>
         <!-- AlpineJS -->
-        <script src="https://unpkg.com/alpinejs" defer></script>
+        <!-- <script src="https://unpkg.com/alpinejs" defer></script> -->
         {{ partialCached "google_analytics.html" . }}
+        <!-- Alpine Plugins -->
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+        <!-- More Alpine JS -->
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+        
     </head>
 
     <body class="font-sans antialiased bg-slate-50 dark:bg-slate-900 dark:text-slate-100 text-slate-900">
