@@ -160,11 +160,25 @@ The following is a set of guidelines for contributing to icon.community.
 
 These guidelines are subject to change. Feel free to propose changes to this document in a pull request.
 
-## Pull Request Checklist
+## Contribute to icon.community with these steps
 
-Before sending your pull requests, make sure you do the following:
+To work on icon.community, you'll need to have a GitHub account, regardless of whether you're contributing to the site, creating content, or fixing issues.
 
--   Read these [contributing guidelines](README.md).
+All updates and changes must be made using the GitHub pull request (PR) process. Essentially, you will create a local copy of the website, make your modifications, and request to merge your changes. If you're not familiar with this process, you can find instructions in this icon.community README.md file.
+
+It's not necessary to request permission to work on anything, but it's always smart to inform the main icon.community contributors of your plans. You can do this by commenting on an issue or PR on [GitHub](https://github.com/icon-community/icon.community/), or by reaching out to them on the [ICON Discord server](http://localhost:1313/icondiscord).
+
+## How decisions about the site are made
+
+Decisions regarding ICON's PRs, design evolution, and major upgrades are made by core icon.community contributors, in collaboration with the broader ICON team.
+
+Community input is valued highly and all ICON community members are encouraged to raise any questions or submit PRs.
+
+## First time contributing?
+
+Discover suggested contributions in the icon.community GitHub [Issues](https://github.com/icon-community/icon.community/issues) tab. Issues labeled with good first issue offer up great suggestions for new contributors to get started with!
+
+For more information on how to contribute to open source projects, check out [How to Contribute to Open Source](https://github.com/icon-community/icon.community/issues).
 
 ## Code of Conduct
 
