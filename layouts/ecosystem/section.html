@@ -2,21 +2,38 @@
 {{ $data := newScratch }}
 {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
 
-<div x-data="{ visibility: 'all' }" id="container" class="max-w-6xl px-4 mx-auto my-16 lg:my-24">
-    <header class="mx-auto my-16 text-center max-w-7xl">
-        <h1 class='mb-4 text-5xl font-extrabold lg:text-6xl'>
-            The ICON Ecosystem
-        </h1>
-        <p class="max-w-xl mx-auto text-lg dark:text-slate-400 text-slate-600">
+<div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 border border-red-500lg:mb-24 max-w-7xl font-montserrat">
+    <!-- ECOSYSTEM HEADER GRAPHIC -->
+    <div class="w-full">
+        <img class='object-cover min-h-40' src='/assets/images/ecosystem-hero.png' alt='ICON Ecosystem'/>
+    </div>
+    
+    <!-- ECOSYSTEM TEXT -->
+    <header class="p-6 mx-auto text-center">
+        <p class="max-w-6xl mx-auto text-lg font-bold text-[#2FB6B9] ">
             Discover the blockchains, dApps, communities, infrastructure, enterprises, and institutions that make up the ICON ecosystem. 
         </p>
-        <div class="mt-4">
+        <div class="flex flex-col items-center justify-center p-0 border-2 border-yellow-400 sm:flex-row sm:p-10 lg:items-center">
+            <div class="flex flex-col items-center justify-center w-full p-5 sm:w-1/2 lg:flex-row ">
+                <div class="w-[100px] lg:w-[300px] border border-red-500">
+                    <img class="" src='/assets/images/xcall.png' alt='xCall service' height="154" width="542"/>
+                </div>               
+                <p class="p-4 text-left sm:text-center lg:text-justify">Feature of ICONs Blockchain Transmission Protocol, enabling generic cross-chain messaging between heterogeneous blockchains.</p>
+            </div>
+            <div class="flex flex-col items-center justify-center w-full p-5 border-l-0 sm:border-l-2 sm:w-1/2 lg:flex-row">
+                <div class="w-[100px] lg:w-[200px]  border border-red-500">
+                    <img class="" src='/assets/images/btp.png' alt='Blockchain Transmission Protocol' height="138" width="499"/>
+                </div>               
+                <p class="p-4 text-left sm:text-center lg:text-justify">Decentralized, trustless interoperability solution</p>
+            </div>
+        </div>
+        <!-- <div class="mt-4">
             <button data-tf-slider="MBBDnTNG" data-tf-width="550" data-tf-iframe-props="title=Add your project to the ICON Ecosystem" data-tf-medium="snippet" 
             style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#2CA9B7;color:#ffffff;font-size:16px;border-radius:6px;padding:0 20px;font-weight:bold;height:36px;cursor:pointer;line-height:36px;text-align:center;margin:0;text-decoration:none;">Add Your Project</button>
             <script src="//embed.typeform.com/next/embed.js"></script>
-        </div>
+        </div> -->
     </header>
-    <div id="filter-buttons" class="mb-16 text-center">
+    <div id="filter-buttons" class="px-4 mb-16 text-center">
         <span class="relative z-0 inline-flex flex-wrap gap-2 mx-auto shadow-sm lg:gap-0">
             {{ $types := slice }}
             {{ range $ecosystemMembers }}
@@ -42,6 +59,7 @@
     <div>
         <ul id="ecosystem-members"
             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8">
+            <div class="w-20 h-20 border border-black"> TEXT BLOCK </div>
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
             {{ if eq $type "community" }}
