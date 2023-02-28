@@ -2,7 +2,7 @@
 {{ $data := newScratch }}
 {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
 
-<div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 border border-red-500lg:mb-24 max-w-7xl font-montserrat">
+<div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 lg:mb-24 max-w-7xl font-montserrat">
     <!-- ECOSYSTEM HEADER GRAPHIC -->
     <div class="w-full">
         <img class='object-cover min-h-40' src='/assets/images/ecosystem-hero.png' alt='ICON Ecosystem'/>
@@ -10,21 +10,21 @@
     
     <!-- ECOSYSTEM TEXT -->
     <header class="p-6 mx-auto text-center">
-        <p class="max-w-6xl mx-auto text-lg font-bold text-[#2FB6B9] ">
+        <p class="max-w-6xl mx-auto text-lg font-bold text-[#2FB6B9] mb-6 sm:mb-0">
             Discover the blockchains, dApps, communities, infrastructure, enterprises, and institutions that make up the ICON ecosystem. 
         </p>
-        <div class="flex flex-col items-center justify-center p-0 border-2 border-yellow-400 sm:flex-row sm:p-10 lg:items-center">
-            <div class="flex flex-col items-center justify-center w-full p-5 sm:w-1/2 lg:flex-row ">
-                <div class="w-[100px] lg:w-[300px] border border-red-500">
+        <div class="flex flex-col items-start justify-center p-2 shadow-md sm:flex-row sm:p-10 lg:items-center bg-slate-100 sm:bg-transparent rounded-xl sm:shadow-none">
+            <div class="flex flex-col items-center justify-center w-full p-5 sm:w-1/2 lg:flex-row">
+                <div class="w-[100px] lg:w-[250px] ">
                     <img class="" src='/assets/images/xcall.png' alt='xCall service' height="154" width="542"/>
                 </div>               
-                <p class="p-4 text-left sm:text-center lg:text-justify">Feature of ICONs Blockchain Transmission Protocol, enabling generic cross-chain messaging between heterogeneous blockchains.</p>
+                <p class="px-4 pt-4 text-left lg:pt-0 sm:text-center lg:text-justify">A key feature of BTP and ICON's unique standard for generic cross-chain messaging between heterogeneous blockchains. </p>
             </div>
             <div class="flex flex-col items-center justify-center w-full p-5 border-l-0 sm:border-l-2 sm:w-1/2 lg:flex-row">
-                <div class="w-[100px] lg:w-[200px]  border border-red-500">
+                <div class="w-[100px] lg:w-[200px]  ">
                     <img class="" src='/assets/images/btp.png' alt='Blockchain Transmission Protocol' height="138" width="499"/>
                 </div>               
-                <p class="p-4 text-left sm:text-center lg:text-justify">Decentralized, trustless interoperability solution</p>
+                <p class="px-4 pt-4 text-left lg:pt-0 sm:text-center lg:text-justify">Blockchain Transmission Protocol is an entirely new standard of cross-chain messaging which is chain-agnostic, scalable, and secure.</p>
             </div>
         </div>
         <!-- <div class="mt-4">
@@ -59,7 +59,24 @@
     <div>
         <ul id="ecosystem-members"
             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8">
-            <div class="w-20 h-20 border border-black"> TEXT BLOCK </div>
+            <div class="flex flex-row items-center justify-start w-full h-full"> 
+                <div class="w-24 h-24 overflow-hidden border lg:h-32 lg:w-32 rounded-xl">
+                    <img class='' src='/assets/images/add-your-project.png' alt='ICON Ecosystem'/>
+                </div>
+                <div class="flex flex-col items-start justify-center p-4 space-y-4 text-lg font-bold leading-tight">
+                    <h1>Add your project</h1>
+                    <a>
+                        
+                        <button data-tf-slider="MBBDnTNG" data-tf-width="550" data-tf-iframe-props="title=Add your project to the ICON Ecosystem" data-tf-medium="snippet">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
+                                <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <script src="//embed.typeform.com/next/embed.js"></script>
+                    </a>
+                    
+                </div>
+            </div>
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
             {{ if eq $type "community" }}
