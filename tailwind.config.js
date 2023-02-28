@@ -5,6 +5,11 @@ module.exports = {
   content: ['./layouts/**/*.html', './content/**/*.md'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    minHeight: {
+      '36': '144px',
+      '40': '160px',
+      '44': '176px',
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
