@@ -1,13 +1,10 @@
 {{ define "container" }}
 {{ $data := newScratch }}
 {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
-
-<div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 lg:mb-24 max-w-7xl font-montserrat">
-    <!-- ECOSYSTEM HEADER GRAPHIC -->
-    <div class="w-full">
-        <img class='object-cover min-h-40' src='/assets/images/ecosystem-hero.png' alt='ICON Ecosystem'/>
-    </div>
-    
+<div class="w-full">
+    <img class='object-cover min-h-40' src='/assets/images/ecosystem-hero.png' alt='ICON Ecosystem'/>
+</div>
+<div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 lg:mb-24 max-w-7xl font-montserrat">   
     <!-- ECOSYSTEM TEXT -->
     <header class="p-6 mx-auto text-center">
         <p class="max-w-6xl mx-auto text-lg font-bold text-[#2FB6B9] mb-6 sm:mb-0">
