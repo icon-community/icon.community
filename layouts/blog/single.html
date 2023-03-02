@@ -1,13 +1,21 @@
 {{ define "container" }}
 <main class="relative">
-    
+    <head>
+        <title>{{ .Title }}</title>
+    </head>
+    <div itemscope itemtype="https://schema.org/BlogPosting">
+        <div itemprop="headline"></div>
+        <meta itemprop="image" content="{{ partial "featured_image.html" . }}" />
+        <meta itemprop="image" content="{{ partial "featured_image.html" . }}" />
+        <div>
+          <span itemprop="datePublished" content="{{ .PublishDate.Format "January 2, 2006" }}">
+          </span>
+        </div>
+    </div>
     <div id="container" class="max-w-2xl px-4 mx-auto my-16 space-y-8 lg:my-24">
         <img src="{{ partial "featured_image.html" . }}" />
         <header class="mb-8">
             <h2 class="mb-2 text-4xl font-bold">{{ .Title }}</h2>
-            <!--{{ with .Params.subtitle }}
-            <p class="text-2xl font-light text-slate-600">{{ . }}</p>
-            {{ end }}-->
             <div class="dark:text-slate-400 text-slate-600">{{ .PublishDate.Format "January 2, 2006" }}</div>
         </header>
         <div class="post-content">
