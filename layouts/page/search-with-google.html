@@ -1,0 +1,64 @@
+{{ define "container" }}
+    <!-- <div class="flex items-center justify-center w-full h-20 text-xl font-bold tracking-wide uppercase bg-yellow-400">page under construction</div> -->
+<main class="relative flex flex-row mx-auto max-w-7xl">    
+    <!-- MAIN SECTION -->
+    <div class="w-full p-10 mx-auto space-y-8 md:w-3/4 md:p-20">
+        <div class="space-y-4 ">
+            <p class="uppercase"><a class="inline-block hover:text-teal-600" href="/">home</a> / <span class="text-teal-600">search with google</span></p>
+            <h1 class="text-lg font-bold sm:text-xl lg:text-2xl">Find anything on icon.community 🌐</h1>
+            <p>Type your search query and find all related articles and web pages on icon.community.</p>
+            <p class="px-4 py-2 bg-icon/30 w-fit">👥 Chat, ask questions and connect with other ICON community members right <a class="inline-block underline " href="/icondiscord">here</a></p>
+        </div>
+        <div class="">
+            <script async src="https://cse.google.com/cse.js?cx=c4399f4c57fbe4d14">
+            </script>
+            <div class="gcse-search"></div>
+        </div>
+        
+        
+    </div>
+    <!-- SIDEPANEL SECTION -->
+    <div class="hidden w-1/4 py-10 md:block">
+        <div class="sticky top-0 px-10 py-10 space-y-4 border-l-2 border-gray-400">
+            <a class="flex flex-row items-center justify-center px-2 py-2 border rounded-md w-fit hover:shadow-sm" href="https://news.google.com/publications/CAAqBwgKMLmRxgsw3KzdAw">
+                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  class="hidden lg:block" viewBox="0 0 48 48" width="20px" height="20px">
+                    <path d="M37 7v2.54l-6.27-.7c-.68-.35-1.45-.54-2.25-.54-.28 0-.57.03-.85.08L11 11.23V7c0-1.1.9-2 2-2h22C36.1 5 37 5.9 37 7zM43.88 15.36l-.57 5.1C42.43 18.99 40.83 18 39 18h-4.64l-.95-5.54c-.02-.11-.04-.21-.07-.31L37 12.56l5.12.58C43.22 13.27 44.01 14.26 43.88 15.36zM31.31 18H9c-1.91 0-3.56 1.07-4.41 2.64L4.05 17.5c-.19-1.09.54-2.13 1.63-2.31l22.46-3.86c1.09-.18 2.12.55 2.31 1.64L31.31 18zM39 21H9c-1.1 0-2 .9-2 2v19c0 1.1.9 2 2 2h30c1.1 0 2-.9 2-2V23C41 21.9 40.1 21 39 21zM28.5 26h5c.83 0 1.5.67 1.5 1.5 0 .83-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5C27 26.67 27.67 26 28.5 26zM17.5 39c-3.58 0-6.5-2.92-6.5-6.5 0-3.58 2.92-6.5 6.5-6.5 1.42 0 2.76.45 3.89 1.29.67.5.8 1.44.3 2.1-.49.67-1.43.8-2.1.31-.6-.46-1.33-.7-2.09-.7-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5c1.39 0 2.6-.82 3.16-2H17.5c-.83 0-1.5-.67-1.5-1.5 0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5C24 36.08 21.08 39 17.5 39zM33.5 39h-5c-.83 0-1.5-.67-1.5-1.5 0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5C35 38.33 34.33 39 33.5 39zM35.5 34h-7c-.83 0-1.5-.67-1.5-1.5 0-.83.67-1.5 1.5-1.5h7c.83 0 1.5.67 1.5 1.5C37 33.33 36.33 34 35.5 34z"/>
+                </svg>
+                <p class="ml-0 font-semibold text-left lg:ml-2 lg:text-center">Follow on <span class="whitespace-nowrap">Google News</span></p>
+            </a>
+            <h1 class="text-xl text-gray-400 uppercase">popular pages</h1>
+            <a class="flex flex-row items-center hover:text-teal-600" href="/learn">
+                <p>Learn articles</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>                 
+            </a>
+            <a class="flex flex-row items-center hover:text-teal-600" href="https://cps.icon.community/">
+                <p>CPS grants platform</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </a>
+            <a class="flex flex-row items-center hover:text-teal-600" href="/blog">
+                <p>Blog entries</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>                 
+            </a>
+            <a class="flex flex-row items-center hover:text-teal-600" href="https://tracker.icon.community/">
+                <p>ICON blockchain tracker</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>                  
+            </a>
+            <a class="flex flex-row items-center hover:text-teal-600" href="/ecosystem">
+                <p>Ecosystem projects</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>                  
+            </a>
+        </div>
+        
+    </div>
+</main>
+{{ end }}
