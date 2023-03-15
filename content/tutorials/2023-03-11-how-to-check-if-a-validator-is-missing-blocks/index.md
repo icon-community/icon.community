@@ -269,3 +269,6 @@ The result of this function call will be the following:
 }
 ```
 The validators will receive a penalty once their `realFailCont` ≥ `validationPenaltyCondition`.
+
+## Further Resources
+* https://docs.icon.community/support/advanced-topics/validator-nodes/how-to-check-if-a-validator-is-missing-blocks
