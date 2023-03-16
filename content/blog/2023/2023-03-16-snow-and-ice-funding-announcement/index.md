@@ -1,3 +1,10 @@
+---
+title: ICON Foundation to Discontinue ICE and SNOW Funding
+date: 2023-03-16
+description: While we appreciate the ICE and SNOW teams’ efforts to bring EVM compatibility to the ICON ecosystem, the ICON Foundation has decided to no longer provide funding beyond the teams’ currently contracted terms, due to a recent turnover of key members that makes it difficult for the Foundation to properly assess the near term future plans for the project.
+slug: snow-and-ice-funding-announcement
+---
+
 # ICON Foundation to Discontinue ICE and SNOW Funding 
 
 While we appreciate the ICE and SNOW teams’ efforts to bring EVM compatibility to the ICON ecosystem, the ICON Foundation has decided to no longer provide funding beyond the teams’ currently contracted terms, due to a recent turnover of key members that makes it difficult for the Foundation to properly assess the near term future plans for the project.
