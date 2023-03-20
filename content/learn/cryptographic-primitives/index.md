@@ -1,4 +1,10 @@
-# Cryptographic Primitives
+---
+title: "Cryptographic Primitives"
+date: 2023-03-20
+slug: cryptographic-primitives
+author: cyrus-vorwald
+description: Cryptographic primitives are the basic building blocks of cryptography. They are the foundation upon which more complex cryptographic algorithms and protocols are built. These primitives include functions such as encryption, decryption, digital signature, and key exchange.
+---
 
 Cryptographic primitives are the basic building blocks of cryptography. They are the foundation upon which more complex cryptographic algorithms and protocols are built. These primitives include functions such as encryption, decryption, digital signature, and key exchange. They are designed to provide specific security properties, such as confidentiality, integrity, and authenticity.
 
