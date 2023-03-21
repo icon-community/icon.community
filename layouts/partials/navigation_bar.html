@@ -12,7 +12,7 @@
         </div>
         <div class="-my-2 -mr-2 md:hidden">
             <button type="button"
-                class="inline-flex items-center justify-center p-2 bg-white rounded-md hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 text-slate-400"
+                class="inline-flex items-center justify-center p-2 bg-transparent rounded-md hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 text-slate-400"
                 aria-expanded="false" @click="mobileMenuOpen =! mobileMenuOpen">
                 <span class="sr-only">Open menu</span>
                 <!-- Heroicon name: outline/menu -->
@@ -24,9 +24,7 @@
         </div>
         <nav role="navigation" class="hidden md:flex sm:space-x-6 md:space-x-8 lg:space-x-12">
             {{ partial "layout/navigation/dropdown_developers.html" . }}
-            <div>
-                <a href="/ecosystem/" class="font-medium" id="heco1">Ecosystem</a>
-            </div>
+            {{ partial "layout/navigation/dropdown_ecosystem.html" . }}
             {{ partial "layout/navigation/dropdown_resources.html" . }}
             {{ partial "layout/navigation/dropdown_community.html" . }}
         </nav>
