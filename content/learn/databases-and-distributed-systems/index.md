@@ -1,4 +1,10 @@
-# Databases and Distributed Systems
+---
+title: "Databases and Distributed Systems"
+date: 2023-03-21
+slug: databases-distributed-systems
+author: cyrus-vorwald
+description: In this article, we will provide an introduction to the backend databases powering blockchain engines. We will also look at how distributed systems are used to achieve fault tolerance and high availability in blockchain networks.
+---
 
 A blockchain is essentially a security layer or communications protocol built on top of a distributed database. In this article, we will provide an introduction to the backend databases powering blockchain engines. We will also look at how distributed systems are used to achieve fault tolerance and high availability in blockchain networks. Whether you are a developer, a miner, or just interested in the technology, understanding the basics of databases and distributed systems is essential for understanding how blockchains work and whether they are a good choice for your applications.
 
