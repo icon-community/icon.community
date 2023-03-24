@@ -1,32 +1,37 @@
 {{ define "container" }}
-<main class="px-10 py-10 mx-auto space-y-4 md:px-20 sm:py-20 sm:px-36 max-w-7xl">
+<main class="relative max-w-6xl px-10 py-10 mx-auto space-y-4 md:px-20 sm:py-20 sm:px-36">
     <h1 class="text-2xl font-bold sm:text-4xl">
         The 200 Million ICX Interoperability Incentive Fund
     </h1>
-    <p>
-        ICON's Interoperability Incentive Fund is crypto's first fund dedicated entirely to promoting an interoperable future. 200 million ICX will be allocated over a course of 5 years to fund projects that will be used to incentivize the use of Blockchain Transmission Protocol (BTP) technology and the development of cross-chain use cases.
+    <p class="pt-10">
+        The 200 Million ICX Interoperability Incentive Program is currently being reworked to better accommodate <a class="underline" href="http://localhost:1313/blog/2023/icon-2022-recap-and-2023-outlook/">ICON's strategic direction in 2023</a>.
     </p>
     <p>
-        ICON's BTP, which has been under development for several years, is a unique, truly decentralized bridging technology that doesn't compromise on security by custodying funds in contracts controlled by hand-picked operators. To learn more, read this BTP overview published by the ICON team.
+        ICON's new approach involves both deploying xCall as a service across multiple interoperability protocols and continuing to grow the BTP network with ICON as the hub. This shift in strategy will allow ICON to leverage the pace of the wider industry while offering greater flexibility than it could support through BTP alone.
     </p>
-    <h2 class="text-2xl font-bold">
-        80 Million ICX for BTP-Enabled Products
-    </h2>
-    <p>
-        This funding category will be reserved for incentivizing the usage of existing products that use BTP technology. These funds will establish long-term adoption of BTP interoperability technology within existing protocols and communities. This can include integration of BTP technology for backend bridging, front-end adoption of bridging solutions on protocol application interfaces and integration with bridging aggregator solutions.
+    <p class="pb-20">
+        The 200 Million ICX Interoperability Incentive Program will continue to incentivize the development of cross-chain use cases, but the allocation of funds will be adjusted to align with the new strategy.
     </p>
-    <h2 class="text-2xl font-bold">
-        120 Million ICX for Cross-Chain Use Cases
-    </h2>
-    <p>
-        The majority of the incentive program funds will be allocated towards developing high-quality use cases for our BTP technology. There are various cross-chain products that could be built such as DEX aggregators to identify the most optimal routes to fulfill trade orders across chains, yield aggregators that can tap into DeFi products throughout the BTP ecosystem, or structured products such as cross-chain options contracts. There are opportunities to solve issues such as liquidity fragmentation and infinitely wrapped assets.
-    </p>
-    <p>
-        In addition to funding the development of these use cases, the incentive program funds can be used to attract additional developers to aid in the development of these solutions through events like hackathons, developer conferences, high-quality developer education and documentation.
-    </p>
-    <div class="p-10 mx-auto w-fit">
-        <button data-tf-slider="maLYlJ5f" data-tf-position="right" data-tf-opacity="100" data-tf-iframe-props="title=ICON Interoperability Incentive Program - 2023" data-tf-transitive-search-params data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#087083;color:#fff;font-size:16px;border-radius:4px;padding:0 26px;font-weight:bold;height:40px;cursor:pointer;line-height:40px;text-align:center;margin:0;text-decoration:none;">Open Registration Form</button><script src="//embed.typeform.com/next/embed.js"></script>
-    </div>
+    <div class="w-2/3 h-0.5 mx-auto bg-gray-300 border border-gray-300"></div>
+        <div id="hero-buttons" class="flex flex-col mx-auto mt-10 space-y-4 text-center">
+            <h2 class="text-xl font-semibold">Keep exploring ICON:</h2>
+            <div class="flex flex-col items-center justify-center w-full sm:flex-row">
+                <div class="m-2">
+                    {{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "ICON Learn Section" "buttonUrl" "/learn/") }}
+                </div>
+                <div class="m-2">
+                    {{ partial "buttons/button_secondary_smaller.html" (dict "context" . "buttonText" "ICON Blog Section" "buttonUrl" "/blog/") }}
+                </div>
+            
+            </div>
+        </div>
+        <div class="mx-auto overflow-hidden shadow-md w-fit rounded-2xl">
+            <iframe src="https://iconnetwork.substack.com/embed" 
+            class="w-full h-[250px] sm:w-[480px] sm:h-[250px]" 
+            frameborder="0" 
+            scrolling="no">
+            </iframe>
+        </div>
     
 </main>
 {{ end }}
