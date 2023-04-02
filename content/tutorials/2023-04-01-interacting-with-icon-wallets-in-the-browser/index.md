@@ -210,9 +210,12 @@ function App() {
 export default App;
 ```
 
+With a little bit of CSS sugar on it this is how our button will look like:
+
+{{< video url="vid.mp4" controls="yes" autoplay="true" loop="true">}}
+
 ## Conclusion
 Using the ICON JS provider and browser events, you can easily communicate with ICON wallets in the browser using JavaScript. By following the steps outlined in this tutorial, you can send requests to the wallet and handle the responses in your code.
-
 
 ## Further Resources
 * https://github.com/icon-project/IIPs/blob/master/IIPS/iip-49.md
