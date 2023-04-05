@@ -1,21 +1,23 @@
 ---
 title: ICON Development Update – March 2023
-date: 2023-04-03
-description: In March, the team has activated BTP blocks on the Berlin testnet. BTP contracts have been deployed on ICON Berlin testnet, BSC testnet and ETH Sepolia. 
-slug: icon-development-update-february-2023
+date: 2023-04-05
+description: In March, the team has activated BTP blocks on the Berlin testnet. BTP contracts, that are currently one-way trustless, have been deployed on ICON Berlin testnet, BSC testnet, and ETH Sepolia. 
+slug: icon-development-update-march-2023
 ---
 
-In March, the team has activated BTP blocks on the Berlin testnet. BTP contracts have been deployed on ICON Berlin testnet, BSC testnet and ETH Sepolia.  In this article, we share tasks completed and development milestones for April.
+In March, the team has activated BTP blocks on the Berlin testnet. BTP contracts, that are currently one-way trustless, have been deployed on ICON Berlin testnet, BSC testnet, and ETH Sepolia.  In this article, we share tasks completed and development milestones for April.
 
 ------
 
 ## BTP Architecture/ Product
 
-It has been a busy month of March, with the team making great progress. BTP blocks have been activated on the Berlin testnet! BTP contracts have been deployed on ICON Berlin testnet, BSC testnet, and ETH Sepolia.
+It has been a busy month of March, with the team making great progress. BTP blocks have been activated on the Berlin testnet! BTP contracts, that are currently one-way trustless, have been deployed on ICON Berlin testnet, BSC testnet, and ETH Sepolia. 
 
-Now, it's time for our team to continue testing, identifying improvements, fixing bugs, and improving the relay and BMV components.
+The BTP contracts enable trustless outbound messaging from the ICON blockchain. Inbound messages are currently still making use of trusted relay verification (similar to ICON bridge).
 
-This is also the perfect time for other teams to explore how they can adopt BTP's xcall to enable new functionality on their applications. They can help identify any missing tools or documentation that would assist in onboarding teams to adopt the technology.
+Now, it's time to continue testing, identifying improvements, fixing bugs, and improving the relay and BMV components. After one-way bridging, our team will work towards full trustless bridging with BTP on testnet.
+
+This is also the perfect time for other teams to explore how they can adopt BTP's xCall to enable new functionality on their applications. They can help identify any missing tools or documentation that would assist in onboarding teams to adopt the technology.
 
 More information on the testnet incentivisation plans will follow shortly.
 
@@ -78,18 +80,27 @@ Parameta continues to work on BTP development and integrations with their monthl
 
 ### Last Month
 
-- Released v1.3.3 on mainnet after monitoring SejongNet, BerlinNet, LisbonNet
-- Fixed LisbonNet tracker update issue (errors in the tracker DB)
-- Fixed Mainnet citizen node panic event occurred in the last week of February
-- Improved code coverage (current coverage is about 43%)
-- Fixed JavaEE (Java Execution Environment) shutdown issue caused by wrong API format via bug bounty
+- Released v1.3.4 on mainnet after monitoring SejongNet, BerlinNet, LisbonNet
+    - Resolving Skipped Transaction bugs due to invalid API data
+- Current coverage on Goloop master branch: 43.31%
+- ICON monetary policy update in progress
+- ICON SDK development in progress
+    - Wallet extension for Chrome, Block explorer & API
+- Added P-rep tool feature and currently code reviewing: subcommand for call method network proposal
+    - Enables voting without submitting network proposal
+    - [https://github.com/icon-project/preptools/pull/41](https://github.com/icon-project/preptools/pull/41)
+- Updated node monitoring dashboard
+    - Removed deprecated items and updated the interface
 
 ### Next Month
 
-- IISS monetary policy change planning: commission model, jail time, minimum-wage
-- Devising ICONex deprecation planning with the community
-- Incrementally improving Goloop code coverage
-- Improving P-rep tool (Validator tool)
+- Complete code review for new P-rep tool feature
+- Improving code coverage, aiming at 45%
+- Community sharing about ICON monetary policy update and change
+- Improving bug bounty and reporting process
+    - Optimizing rewards through diversified pricing tiers
+    - Streamlining bug reporting process: GitHub vs. Discord
+- Improve node health and evaluate validator productivity
 
 ### Documentation updates
 
