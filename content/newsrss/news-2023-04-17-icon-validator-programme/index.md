@@ -24,7 +24,7 @@ If you are a validator that meets the above criteria, you can apply [here](https
 The amount of delegation support that a validator qualifies for will be calculated on the basis of their current bond amount so that: 
 
 * Optimal Delegation = Current Bond / 5%
-* Eligible Delegation Support = Minimum of (Optimal Delegation - Current Delegation), with a maximum of 5M.
+* Eligible Delegation Support = Minimum of (Optimal Delegation - Current Delegation), 5M
 
 If a validator increases the size of their bond over time, they can reapply and receive more support from the Foundation via the program. The maximum delegation support that a validator can receive is 5 million ICX.
 
