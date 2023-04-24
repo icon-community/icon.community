@@ -40,6 +40,17 @@ module.exports = {
       'xs': '360px',
       ...defaultTheme.screens,
     },
+    fontWeight: {
+      '100': '100',
+      '200': '200',
+      '300': '300',
+      '400': '400',
+      '500': '500',
+      '600': '600',
+      '700': '700',
+      '800': '800',
+      '900': '900',
+    },
     extend: {
       scale: {
         '-100': '-1',
@@ -80,6 +91,15 @@ module.exports = {
           'radial-gradient(ellipse at bottom left, var(--tw-gradient-stops))',
         'radial-at-br':
           'radial-gradient(ellipse at bottom right, var(--tw-gradient-stops))'
+      },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        }
+      },
+      animation: {    
+        "fade-in-delay": "fade-in 1.5s ease-out both 3s",
       },
     },
   },
