@@ -45,6 +45,7 @@ module.exports = {
         '-100': '-1',
       },
       fontFamily: {
+        'lemonmilk': ['LemonMilk', 'sans-serif'],
         'montserrat': 'Montserrat'
       },
       cursor: {

@@ -217,3 +217,20 @@
     animation: scale 1s ease-in-out;
   }
 }
+
+@font-face {
+  font-family: 'LemonMilk';
+  src: 
+    url('/assets/fonts/LEMONMILK-Light.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-LightItalic.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-Regular.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-RegularItalic.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-Medium.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-MediumItalic.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-Bold.otf') format('opentype'),
+    url('/assets/fonts/LEMONMILK-BoldItalic.otf') format('opentype');
+  font-weight: 100 300 400 400i 500 500i 700 700i;
+  font-style: normal;
+}
+
+
