@@ -17,7 +17,7 @@ The eligibility criteria for validator rewards are as follows:
 
 With the above criteria, the ICON Foundation seeks to incentivize network bonding and to promote validators who contribute to the security and efficiency of the ICON network by running quality nodes. 
 
-If you are a validator that meets the above criteria, you can apply [here](https://se8br1ugut6.typeform.com/to/HxrrRcHN). Delegation support recipients will be evaluated by the Foundation on a quarterly basis, but this may change over time.
+If you are a validator that meets the above criteria, you can apply [here](https://se8br1ugut6.typeform.com/to/h8Xg40jO). Delegation support recipients will be evaluated by the Foundation on a quarterly basis, but this may change over time.
 
 ### How is the size of delegation support determined? 
 
