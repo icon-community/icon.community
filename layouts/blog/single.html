@@ -12,13 +12,25 @@
           </span>
         </div>
     </div>
-    <div id="container" class="max-w-2xl px-4 mx-auto my-16 space-y-8 lg:my-24">
-        <img src="{{ partial "featured_image.html" . }}" />
-        <header class="mb-8">
-            <h2 itemprop="headline" class="mb-2 text-4xl font-bold">{{ .Title }}</h2>
+    <div id="container" class="max-w-2xl px-0 mx-auto my-0 space-y-8 sm:px-4 sm:my-16 lg:my-24">
+        <div class="overflow-hidden rounded-none shadow-md sm:rounded-2xl">
+            <img src="{{ partial "featured_image.html" . }}" />
+        </div>
+        <div class="px-8 py-2 mx-auto border border-black rounded-lg font-montserrat w-fit">
+            <a href="/blog">
+                <button class="flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>                         
+                    Back to Blog section
+                </button>
+            </a>
+        </div>
+        <header class="px-4 mb-8 sm:px-0">
+            <h2 itemprop="headline" class="mb-2 text-4xl font-bold ">{{ .Title }}</h2>
             <div class="dark:text-slate-400 text-slate-600">{{ .PublishDate.Format "January 2, 2006" }}</div>
         </header>
-        <div class="post-content">
+        <div class="px-4 post-content sm:px-0">
             {{ .Content }}
         </div>
         <div class="w-2/3 h-0.5 mx-auto bg-gray-300 border border-gray-300"></div>
