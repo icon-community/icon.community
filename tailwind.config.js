@@ -78,7 +78,9 @@ module.exports = {
         'radial-at-bl':
           'radial-gradient(ellipse at bottom left, var(--tw-gradient-stops))',
         'radial-at-br':
-          'radial-gradient(ellipse at bottom right, var(--tw-gradient-stops))'
+          'radial-gradient(ellipse at bottom right, var(--tw-gradient-stops))',
+        'left-to-right-gray-white-gray': 
+          'repeating-linear-gradient(to right, #F8FAFC, #FFFFFF, #F8FAFC)',
       },
     },
   },
