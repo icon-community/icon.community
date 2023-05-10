@@ -4,6 +4,7 @@ date: 2023-01-17
 slug: zkp
 description: A new paradigm for privacy, security and trust in blockchain world 
 author: venture-23
+canonicalURL: "https://medium.com/@iconzkp/bringing-zero-knowledge-proofs-to-icon-platform-with-zksnark-5d2ba5477d28"
 ---
 
 ## Year At a Glance
