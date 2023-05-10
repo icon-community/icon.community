@@ -1,9 +1,10 @@
 ---
 title: "Zero Knowledge Proof on ICON Blockchain: Part-1"
-date: 2023-05-09
-slug: zkp-on-icon
+date: 2023-05-10
+slug: zkp-on-icon-pt1
 description: In this three-part article series, we will explore the exciting world of zero-knowledge proofs (ZKPs) and how they can be used on the ICON blockchain. In particular, will use the Sudoku as an example to provide an overview of ZKPs, how they work, and their benefits.
 author: venture-23
+canonicalURL: "https://medium.com/@iconzkp/zero-knowledge-proof-on-icon-blockchain-part-1-4b3bcf6924f0"
 ---
 
 The [integration of the BLS 12–381 curve on the ICON blockchain](https://github.com/icon-project/goloop/pull/151) enables the use of **Zero Knowledge Proofs** on the platform, opening up a new realm of possibilities for secure and private transactions.

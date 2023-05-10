@@ -1,5 +1,6 @@
 {{ define "container" }}
-<main class="relative bg-left-to-right-gray-white-gray">
+<main class="relative bg-left-to-right-gray-white-gray">    
+    <script src="/assets/scrolling.js"></script>
     <head>
         <title>{{ .Title }}</title>
     </head>
@@ -13,7 +14,8 @@
         </div>
         <span itemprop="author" itemscope itemtype="https://schema.org/Person"></span>
     </div>
-    <div id="container" class="px-0 py-0 mx-auto space-y-8 sm:py-16 sm:px-4 lg:py-24">
+    <div id="container" class="relative px-0 py-0 mx-auto space-y-8 sm:py-16 sm:px-4 lg:py-24">
+        <div id='scrollbarhor' class="fixed top-0 left-0 h-1 bg-icon"></div>
         <header class="max-w-4xl mx-auto mb-8 space-y-8">
             <div class="overflow-hidden rounded-none shadow-md sm:rounded-2xl">
                 <img src="{{ partial "featured_image.html" . }}" />
