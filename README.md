@@ -188,7 +188,7 @@ The icon.community project is governed by the [Contributor Covenant Code of Cond
 
 > **Note:** Github Issues are reserved for feature requests and bug reporting. Please don't create a new Github issue to ask a question.
 
-We have a vibrant developer community and several community resources to ask questions in.
+We have a vibrant developer community and several community resources to ask questions.
 
 ### Community Resources
 
