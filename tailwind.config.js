@@ -35,6 +35,10 @@ module.exports = {
       'rookteal-dark': '#357488',
       'rookteal-light': '#5FB7BC',
       'rookteal-darktwo': '#4EAAC1',
+      'xpurple': '#7d7490',
+      'xindigo': '#4a3d60',
+      'xgreen': '#34b8bb',
+      'xteal': '#5cffe3',
     },
     screens: {
       'xs': '360px',
