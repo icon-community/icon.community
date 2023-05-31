@@ -1,22 +1,86 @@
 {{ define "container" }}
 <main class="relative font-montserrat">
-    <img src="/assets/images/xcall-landing/images/xcall-top-bg.jpg" alt="xcall-top-bg" class="absolute top-0 left-0 w-full h-full object-cover">
+    <img src="/assets/images/xcall-landing/images/xcall-top-bg.jpg" alt="xcall-top-bg" class="absolute top-0 left-0 w-full h-[850px] sm:h-[1150px] object-cover">
     <!-- HERO SECTION -->
-    <div class="border-4 border-red-500 relative z-1 h-screen">
-        <h1 class="text-xindigo font-semibold text-[60px] uppercase tracking-[20px]">xCall</h1>
-        <h2 class="text-xgreen">One interface for all cross-chain communication</h2>
-        <a><button class="text-xgreen bg-xpurple">start building</button></a>
-        <h2>Compatible with all existing and future cross-chain protocols</h2>
-        <p>xCall completes the modular blockchain stack by providing dApps with a customizable interoperability component.</p>
+    <div class="h-[620px] sm:h-[850px] xl:h-[810px] relative z-1 leading-none">
+        <h1 class="text-xindigo text-[30px] sm:text-[60px] uppercase tracking-[30px] font-lemon absolute left-1/2 -translate-x-1/2 pl-[30px] top-[60px] xl:top-[80px]">xCall</h1>
+        <h2 class="text-xgreen font-medium text-[16px] sm:text-[24px] uppercase absolute left-1/2 -translate-x-1/2 text-center top-[110px] sm:top-[150px] xl:top-[170px] w-full">One interface for all <br>cross-chain communication</h2>
+        <a><button class="text-xteal bg-xpurple font-lemon tracking-[1px] text-[14px] absolute left-1/2 -translate-x-1/2 text-center top-[480px] sm:top-[650px] uppercase py-3 px-8 sm:px-10 rounded-full w-fit whitespace-nowrap">start building</button></a>
+        <h2 class="text-xgreen text-[16px] sm:text-[20px] font-medium uppercase absolute left-1/2 -translate-x-1/2 text-center top-[540px] sm:top-[750px] xl:top-[720px] w-full">Compatible with all existing and <br>future cross-chain protocols</h2>
+        <p class="text-xindigo text-[10px] sm:text-[12px] absolute left-1/2 -translate-x-1/2 text-center top-[580px] sm:top-[800px] xl:top-[770px] w-full">xCall completes the modular blockchain stack by providing dApps with a <br>customizable interoperability component.</p>
+        <div class="top-[267px] sm:top-[365px] left-1/2 -translate-x-[35px] sm:-translate-x-[45px] absolute animate-fade-in-delay">
+            <div class="h-[60px] w-[60px] sm:h-[80px] sm:w-[80px] bg-[#67F6FF] rounded-full animate-pulse blur opacity-60"></div>
+        </div>
     </div>
     <!-- PUZZLE SECTION -->
-    <div>
-
+    <div class="h-fit z-10 relative bg-white">
+        <img src="/assets/images/xcall-landing/images/puzzle.jpg" alt="xCall is all the puzzle pieces" class="h-[280px] sm:h-[450px] absolute top-0 left-1/2 -translate-x-1/2 object-cover">
+        <h2 class="text-xgreen font-lemon text-[24px] w-full text-center sm:text-[40px] font-medium uppercase absolute left-1/2 -translate-x-1/2 top-[220px] sm:top-[350px]">How it works</h2>
+        <div class="pt-[280px] sm:pt-[450px] px-10 lg:px-0 w-full sm:w-2/3 lg:w-1/2 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 ">
+            <!-- Card 1 -->
+            <div class="w-full lg:w-[290px]">
+                <div class="flex flex-row items-center justify-start border-b border-xgreen py-2">
+                    <img src="/assets/images/xcall-landing/svg/ico-layers.svg" alt="Layers of aggregation" class="w-[20px] sm:w-[20px] mr-2">
+                    <h3 class="text-xindigo uppercase font-semibold font-lemon text-[14px]">Aggregation</h3>
+                </div>
+                <p class="text-xpurple py-2">xCall integrates with and abstracts away all protocol-specific components of sending a cross-chain message allowing devs to focus on their app and leave cross-chain messaging up to us.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="w-full lg:w-[290px]">
+                <div class="flex flex-row items-center justify-start border-b border-xgreen py-2">
+                    <img src="/assets/images/xcall-landing/svg/ico-multi-chain.svg" alt="Layers of aggregation" class="w-[20px] sm:w-[20px] mr-2">
+                    <h3 class="text-xindigo uppercase font-semibold font-lemon text-[14px]">Multi-protocol verification</h3>
+                </div>
+                <p class="text-xpurple py-2">xCall allows sending messages across one or more cross-chain messaging protocols to mitigate risk associated with any one solution.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="w-full lg:w-[290px]">
+                <div class="flex flex-row items-center justify-start border-b border-xgreen py-2">
+                    <img src="/assets/images/xcall-landing/svg/ico-cross-chain.svg" alt="Layers of aggregation" class="w-[20px] sm:w-[20px] mr-2">
+                    <h3 class="text-xindigo uppercase font-semibold font-lemon text-[14px]">Customizable</h3>
+                </div>
+                <p class="text-xpurple py-2">xCall is fully customizable, allowing application developers to permissionlessly add their own cross-chain messaging solutions while still using the xCall interface.</p>
+            </div>
+        </div>
     </div>
     <!-- TEAL BANNER SECTION -->
-    <div>
-
+    <div class="h-[1850px] sm:h-[1550px] py-[250px] z-1 relative -translate-y-[150px] border-4 border-red-500 text-white">
+        <img src="/assets/images/xcall-landing/images/teal-bg.jpg" alt="xCall is Simple, Secure and Futureproof" class="absolute top-0 left-0 w-full h-[1850px] sm:h-[1550px] object-cover">
+        <h2 class="relative z-1 font-lemon text-[24px] w-full text-center sm:text-[40px] font-medium uppercase">Why xCall</h2>
+        <div class="relative z-1 grid grid-cols-1 lg:grid-cols-3 gap-8 w-full sm:w-2/3 lg:w-1/2 border-2 border-blue-200 py-[30px] mx-auto">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-md shadow-md relative w-5/6 lg:w-[290px] p-10 overflow-hidden mx-auto">
+                <img class="w-[20px] sm:w-[300px] absolute -top-10 -right-32" src="/assets/images/xcall-landing/svg/ico-multi-chain.svg" alt="Layers of aggregation" >
+                <div class="h-[150px]"></div>
+                <h2 class="text-xgreen uppercase text-[26px] font-lemon py-4">Simple</h2>
+                <p class="text-xpurple">App developers never need to worry about the underlying protocols - they have on simple interface to build all cross-chain use cases using any cross-chain messaging protocol.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white rounded-md shadow-md relative w-5/6 lg:w-[290px] p-10 overflow-hidden mx-auto">
+                <img class="w-[20px] sm:w-[300px] absolute -top-10 -right-32" src="/assets/images/xcall-landing/svg/ico-cross-chain.svg" alt="Layers of aggregation" >
+                <div class="h-[150px]"></div>
+                <h2 class="text-xgreen uppercase text-[26px] font-lemon py-4">Secure</h2>
+                <p class="text-xpurple">App developers never need to worry about the underlying protocols - they have on simple interface to build all cross-chain use cases using any cross-chain messaging protocol.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white rounded-md shadow-md relative w-5/6 lg:w-[290px] p-10 overflow-hidden mx-auto">
+                <img class="w-[20px] sm:w-[300px] absolute -top-10 -right-32" src="/assets/images/xcall-landing/svg/ico-layers.svg" alt="Layers of aggregation" >
+                <div class="h-[150px]"></div>
+                <h2 class="text-xgreen uppercase text-[26px] font-lemon py-4 lg:-translate-y-[40px]">Future <br> Proof</h2>
+                <p class="text-xpurple lg:-translate-y-[40px]">App developers never need to worry about the underlying protocols - they have on simple interface to build all cross-chain use cases using any cross-chain messaging protocol.</p>
+            </div>
+        </div>
+        <h2 class="relative z-1 text-white font-lemon text-[22px] w-full text-center sm:text-[40px] font-medium uppercase">Available on</h2>
+        <img src="/assets/images/xcall-landing/svg/connected-chains.svg" alt="Available on" class="relative z-1 w-[300px] sm:w-[900px] mx-auto">
+        <div class="relative z-1 w-[300px] sm:w-[850px] mx-auto">
+            <p>xCall currently connects <span class="font-bold"><img src="/assets/images/xcall-landing/svg/txt-ico-github-light.svg" alt="GitHub" class="w-[20px] inline-block mx-1" />Ethereum (Sepolia),</span><span class="font-bold"><img src="/assets/images/xcall-landing/svg/txt-ico-github-light.svg" alt="GitHub" class="w-[20px] inline-block mx-1" />BSC (BSC)</span><span class="font-bold"><img src="/assets/images/xcall-landing/svg/txt-ico-github-light.svg" alt="GitHub" class="w-[20px] inline-block mx-1" />ICON (Berlin)</span>, and<span class="font-bold"><img src="/assets/images/xcall-landing/svg/txt-ico-github-light.svg" alt="GitHub" class="w-[20px] inline-block mx-1" />Havah (Vega)</span> through its first integration to <span class="font-bold"><img src="/assets/images/xcall-landing/svg/txt-ico-github-light.svg" alt="GitHub" class="w-[20px] inline-block mx-1" />BTP (Blockchain Transmission Protocol)</span>, the interoperability protocol for the ICON Network.</p>
+            <p>For more on xCall available through the BTP network, read <span class="font-bold"><img src="/assets/images/xcall-landing/svg/txt-ico-github-light.svg" alt="GitHub" class="w-[20px] inline-block mx-1" />here</span></p>
+        </div>
+        <a><button class="mx-auto relative z-1 text-xindigo bg-xteal font-lemon tracking-[1px] text-[14px] text-center uppercase py-3 px-8 sm:px-10 rounded-full w-fit whitespace-nowrap">start building</button></a>
     </div>
     <!-- BOTTOM SECTION -->
+    <div class="h-screen">
+
+    </div>
 </main>
 {{ end }}

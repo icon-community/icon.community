@@ -49,7 +49,8 @@ module.exports = {
         '-100': '-1',
       },
       fontFamily: {
-        'montserrat': 'Montserrat'
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'lemon': ['LEMONMILK', 'sans-serif'],
       },
       cursor: {
         'xmas': 'url(/assets/images/tree_cursor2.png), pointer',
@@ -86,6 +87,15 @@ module.exports = {
         'left-to-right-gray-white-gray': 
           'repeating-linear-gradient(to right, #F8FAFC, #FFFFFF, #F8FAFC)',
       },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        }
+      },
+      animation: {
+        "fade-in-delay": "fade-in 1.5s ease-out both 3s",
+      }
     },
   },
   variants: {
