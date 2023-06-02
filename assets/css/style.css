@@ -4,12 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'LEMONMILK';
-  src: url('/assets/fonts/LEMONMILK-Light.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .post-content p {
   margin-bottom: 1rem;
