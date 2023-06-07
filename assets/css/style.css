@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  white-space: nowrap;
+}
 
 .post-content p {
   margin-bottom: 1rem;
@@ -163,6 +167,15 @@
     100% {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
     }
   }
 
