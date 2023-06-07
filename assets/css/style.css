@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  animation-play-state: running; /* Default state is running */
+  animation-fill-mode: forwards; /* Retains the last keyframe state when paused */
+  white-space: nowrap;
+}
+
+.marquee-parent:hover .animate-marquee {
+  animation-play-state: paused; /* Pause the animation on hover */
+}
 
 .post-content p {
   margin-bottom: 1rem;
@@ -163,6 +173,15 @@
     100% {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
     }
   }
 

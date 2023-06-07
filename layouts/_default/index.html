@@ -7,7 +7,12 @@
 <div x-data id="container" class="relative">
     
     <div id="hero"
-        class="relative px-4 py-16 lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
+        class="relative px-4 py-16 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
+
+        <!-- The image -->
+        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px]">
+            <img src="/assets/images/hero-xcall.png" alt="integrate with xcall" loading="lazy" class="object-cover w-full h-full"/>
+        </div>    
         <!-- Shape divider -->
         <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
             <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -15,14 +20,13 @@
             </svg>
         </div>
         
-        <div class="flex flex-col items-center justify-center mx-auto sm:flex-row max-w-7xl">
+        <div class="relative flex flex-col items-center justify-start mx-auto sm:flex-row max-w-7xl z-1">
             <div class="w-full p-0 sm:w-2/3 sm:p-8">
                 <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-4xl font-extrabold tracking-tight text-center sm:text-left lg:text-7xl xs:text-5xl text-slate-50">
-                    Connecting Blockchains<br>and Communities
+                    Build Once, Deploy<br> Everywhere with xCall
                 </h1>
                 <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
-                    ICON blockchain is a public blockchain protocol building a hyperconnected future with BTP, our
-                    chain-agnostic interoperability solution.
+                    ICON blockchain is a public blockchain protocol building a hyperconnected future with BTP and xCall service.
                 </p>
                 <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
                     {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About ICON" "buttonUrl" "/learn/") }}
@@ -30,7 +34,8 @@
                 </div>
             </div>
             
-            <div x-intersect="$el.classList.add('scale')" class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
+            <!-- OLD BLOG CARD -->
+            <!-- <div x-intersect="$el.classList.add('scale')" class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
                 {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 1 }}
     
                 {{ range $paginator.Pages }}
@@ -44,11 +49,36 @@
                     <p class="font-normal">{{ .Description }} <a href="{{ .Permalink }}" class="inline-block font-bold"> Read more.</a></p>
                 </div>  
                 {{ end }}             
-            </div> 
+            </div>  -->
             
         </div>
     </div>
-    <div class="relative overflow-hidden">
+    
+    <div class="relative">
+        <div class="px-6 overflow-hidden">
+          <div class="flex items-center h-16 mx-auto overflow-hidden max-w-7xl">
+            <div class="overflow-hidden bg-gray-200 rounded-lg ">
+              <div class="relative flex marquee-parent">
+                <div class="absolute top-0 bottom-0 right-0 w-[40px] sm:w-[80px] bg-gradient-to-r from-transparent to-gray-200"></div>
+                <div class="absolute top-0 bottom-0 left-0 w-[150px] sm:w-[250px] bg-gradient-to-r from-gray-200 via-gray-200 to-transparent"></div>
+                <div class="relative z-20 flex items-center justify-center px-4 py-1 font-semibold text-white uppercase bg-black sm:px-8 font-montserrat">
+                    Latest
+                </div>
+                    <div class="relative flex flex-row items-center justify-start w-full animate-marquee">
+                        
+                        {{ range first 5 (where $.Site.RegularPages "Section" "blog") }}
+                        <a href="{{ .Permalink }}" class="relative flex flex-row items-center justify-center mr-8 text-sm font-semibold text-black font-montserrat whitespace-nowrap ">{{ .Title }}
+                            <img src="/assets/images/icx.svg" height="20px" width="20px" alt="ICON Blockchain Blog News" class="ml-2"/>
+                        </a>
+                        {{ end }} 
+                    </div>           
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="relative overflow-hidden ">       
         <div id="powered-by-icx" class="relative py-16 sm:py-24">
             <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                 <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -104,10 +134,11 @@
                     </div>
                 </div>
                 <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div x-intersect="$el.classList.add('scale')" class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <div x-intersect="$el.classList.add('scale')" class="relative pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                         <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                             src="{{ partial "cdn_url.html" }}/assets/images/powered-by-icx.jpg"
                             alt="ICON is powered by ICX." loading="lazy">
+                        <a href='/ecosystem' class="absolute z-20 rounded-full sm:h-[80px] sm:w-[120px] h-[75px] w-[120px] left-[205px] sm:left-[310px] lg:left-[265px] top-[20px] sm:top-[30px]"></a>
                     </div>
                 </div>
             </div>
