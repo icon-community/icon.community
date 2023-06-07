@@ -10,9 +10,15 @@
         class="relative px-4 py-16 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
 
         <!-- The image -->
-        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px]">
-            <img src="/assets/images/hero-xcall.png" alt="integrate with xcall" loading="lazy" class="object-cover w-full h-full"/>
-        </div>    
+        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px] block sm:hidden">
+            <img src="/assets/images/hero-xcall-mobile.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
+        </div>
+        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px] hidden sm:block xl:hidden">
+            <img src="/assets/images/hero-xcall-mid.png" alt="integrate with xcall mid" loading="lazy" class="object-cover w-full h-full"/>
+        </div> 
+        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px] hidden xl:block">
+            <img src="/assets/images/hero-xcall.png" alt="integrate with xcall large" loading="lazy" class="object-cover w-full h-full"/>
+        </div>  
         <!-- Shape divider -->
         <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
             <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
