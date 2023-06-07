@@ -7,11 +7,11 @@
 <div x-data id="container" class="relative">
     
     <div id="hero"
-        class="relative px-4 py-16 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
+        class="relative px-4 py-0 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
 
         <!-- The image -->
         <div class="block sm:hidden">
-            <img src="/assets/images/hero-xcall-mobile.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
+            <img src="/assets/images/hero-xcall-low.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
         </div>
         <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px] hidden sm:block xl:hidden">
             <img src="/assets/images/hero-xcall-mid.png" alt="integrate with xcall mid" loading="lazy" class="object-cover w-full h-full"/>
@@ -26,9 +26,9 @@
             </svg>
         </div>
         
-        <div class="relative flex flex-col items-center justify-start mx-auto sm:flex-row max-w-7xl z-1">
+        <div class="relative flex flex-col items-center justify-start mx-auto sm:flex-row max-w-7xl z-1 -translate-y-[60px] sm:translate-y-0">
             <div class="w-full p-0 sm:w-2/3 sm:p-8">
-                <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-4xl font-extrabold tracking-tight text-center sm:text-left lg:text-7xl xs:text-5xl text-slate-50">
+                <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-3xl font-extrabold tracking-tight text-center sm:text-left lg:text-7xl text-slate-50">
                     Build Once, Deploy<br> Everywhere with xCall
                 </h1>
                 <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
@@ -68,7 +68,7 @@
               <div class="relative flex marquee-parent">
                 <div class="absolute top-0 bottom-0 right-0 w-[40px] sm:w-[80px] bg-gradient-to-r from-transparent to-gray-200 z-10"></div>
                 <div class="absolute top-0 bottom-0 left-0 w-[150px] sm:w-[250px] bg-gradient-to-r from-gray-200 via-gray-200 to-transparent z-10"></div>
-                <div class="relative z-20 flex items-center justify-center px-4 py-1 font-semibold text-white uppercase bg-black sm:px-8 font-montserrat">
+                <div class="relative z-20 flex items-center justify-center px-4 py-1 text-[10px] font-semibold text-white uppercase bg-black sm:text-[14px] sm:px-8 font-montserrat">
                     Latest
                 </div>
                     <div class="relative flex flex-row items-center justify-start w-full animate-marquee">
