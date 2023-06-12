@@ -35,9 +35,14 @@ module.exports = {
       'rookteal-dark': '#357488',
       'rookteal-light': '#5FB7BC',
       'rookteal-darktwo': '#4EAAC1',
+      'xpurple': '#7d7490',
+      'xindigo': '#4a3d60',
+      'xgreen': '#34b8bb',
+      'xteal': '#5cffe3',
     },
     screens: {
       'xs': '360px',
+      '3xl': '1920px',
       ...defaultTheme.screens,
     },
     extend: {
@@ -45,7 +50,8 @@ module.exports = {
         '-100': '-1',
       },
       fontFamily: {
-        'montserrat': 'Montserrat'
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'lemon': ['LEMON', 'sans-serif'],
       },
       cursor: {
         'xmas': 'url(/assets/images/tree_cursor2.png), pointer',
@@ -82,6 +88,15 @@ module.exports = {
         'left-to-right-gray-white-gray': 
           'repeating-linear-gradient(to right, #F8FAFC, #FFFFFF, #F8FAFC)',
       },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        }
+      },
+      animation: {
+        "fade-in-delay": "fade-in 1.5s ease-out both 3s",
+      }
     },
   },
   variants: {
