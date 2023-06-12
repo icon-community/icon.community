@@ -54,7 +54,7 @@ module.exports = {
         'lemon': ['LEMON', 'sans-serif'],
       },
       cursor: {
-        'xmas': 'url(/assets/images/tree_cursor2.png), pointer',
+        'xcall': 'url(/assets/images/xcall_orb2.png), pointer',
       },
       backgroundImage: {
         conic: 'conic-gradient(var(--tw-gradient-stops))',
