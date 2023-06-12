@@ -51,7 +51,7 @@ module.exports = {
       },
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
-        'lemon': ['LEMONMILK', 'sans-serif'],
+        'lemon': ['LEMON', 'sans-serif'],
       },
       cursor: {
         'xmas': 'url(/assets/images/tree_cursor2.png), pointer',
