@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "LEMON";
+    font-weight: 300;
+    src: url("/assets/fonts/LEMONMILK-Light.otf") format('opentype') ;
+}
+}
+
 .animate-marquee {
   animation: marquee 30s linear infinite;
   animation-play-state: running; /* Default state is running */
