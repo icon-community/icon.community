@@ -17,29 +17,22 @@
         x-transition:leave-end="opacity-0 translate-y-1" @click.outside="open = false">
         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
             <div class="relative grid grid-cols-2 dark:bg-slate-800 bg-slate-50">
-                <div class="flex-grow-0 p-6 bg-radial-at-b from-icon-dark to-purple-900">
-                    <div class="flex">
-                        <svg class="flex-shrink-0 w-6 h-6 text-slate-50" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                        </svg>
+                <div class="relative flex-grow-0 p-6 overflow-hidden bg-radial-at-b from-purple-100 via-teal-100 to-purple-100">
+                    <img src="/assets/images/xcall-menu.png" alt="xCall Menu Background" class="absolute bottom-0 right-0"/>
+                    <div class="relative z-10 flex">
+                        <img src="/assets/images/xcall_orb_black.png" alt="Black xCall Orb"  class="w-8 h-8"/>
                         <div class="ml-4 space-y-4">
-                            <p class="text-base font-medium text-slate-50">Apply for a Grant</p>
+                            <p class="text-base font-medium text-slate-900">Interoperability with xCall</p>
                             <div>
-                                <p class="mt-1 text-sm text-slate-200">As part of
-                                    our <a href="/interoperability-incentive-program/"
-                                        class="underline hover:no-underline" id="hdev2">Interoperability Incentive
-                                        Program</a>,
-                                    we've set aside 200 million ICX to incentivize development of products and tools
-                                    that use ICON's BTP technology.</p>
+                                <p class="mt-1 text-sm text-slate-800">Discover the one messaging standard for all cross-chain communication. </p>
+                                <p  class="mt-1 text-sm text-slate-800">Build once, deploy everywhere with xCall.</p>
                             </div>
                             <!-- <p>
                                 <a href="{{ $.Site.Params.forms.incentiveProgramSubmissionUrl }}"
                                     class="font-bold text-slate-50 hover:underline" target="_blank" id="hdev3">Apply Now
                                     &#8594</a>
                             </p> -->
-                            <a href="/interoperability-incentive-program/" class="block px-4 py-2 font-semibold text-white rounded-md w-fit bg-icon-lo hover:bg-icon-dark">Read more</a>
+                            <a href="/xcall/" class="block px-4 py-2 font-semibold text-black bg-transparent border border-black rounded-md shadow-none hover:shadow-lg w-fit hover:bg-blur">Read more</a>
                         </div>
                     </div>
                 </div>
