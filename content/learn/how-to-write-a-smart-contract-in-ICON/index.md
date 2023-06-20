@@ -1,7 +1,7 @@
 ---
 title: "Java Articles"
 date: 2023-01-20
-slug: java-smart-contracts
+slug: how-to-write-smart-contracts-in-ICON
 description: Learn about the concepts of Java programming language used to write smart contracts in ICON.
 ---
 
