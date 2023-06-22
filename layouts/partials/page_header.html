@@ -6,10 +6,10 @@
 {{ end }}
 {{ $isButton := $data.Get "isButton" }}
 
-<header id="page-header" class="max-w-7xl mx-auto my-16 text-center">
+<header id="page-header" class="mx-auto my-16 text-center max-w-7xl font-montserrat">
     <div class="{{ if eq $isButton true }}mb-4 sm:mb-8{{ end }}">
-        <h2 id="title" class="lg:text-6xl mb-4 text-5xl font-extrabold">{{ .context.Title }}</h2>
-        <div id="subtitle" class="dark:text-slate-400 max-w-xl mx-auto text-lg text-slate-600">{{ .context.Content }}
+        <h2 id="title" class="mb-4 text-5xl font-extrabold lg:text-6xl font-lemon">{{ .context.Title }}</h2>
+        <div id="subtitle" class="max-w-xl mx-auto text-lg dark:text-slate-400 text-slate-600">{{ .context.Content }}
         </div>
     </div>
     {{ if eq $isButton true }}
