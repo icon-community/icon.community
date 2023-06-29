@@ -1,8 +1,8 @@
 <div class="relative font-montserrat" x-data="{ open: false }">
     <button type="button"
-        class="inline-flex items-center px-2 py-1 text-base font-medium text-white rounded-md bg-xindigo group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-xindigo"
+        class="inline-flex items-center px-2 py-1 text-base font-medium text-black rounded-md group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-xindigo"
         aria-expanded="false" @click="open = true">
-        <span id="hdev1" class="font-lemon">XCALL</span>
+        <span id="hdev1" class="font-lemon tracking-[5px]">XCALL</span>
         <svg class="w-5 h-5 transform group " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
             aria-hidden="true" :class="open && 'rotate-180'">
             <path fill-rule="evenodd"
@@ -17,25 +17,25 @@
         x-transition:leave-end="opacity-0 translate-y-1" @click.outside="open = false">
         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
             <div class="relative grid grid-cols-2 dark:bg-slate-800 bg-slate-50">
-                <div class="relative flex-grow-0 p-6 overflow-hidden bg-radial-at-b from-purple-100 via-purple-50 to-purple-100">
-                    <img src="/assets/images/xcall-menu.png" alt="xCall Menu Background" class="absolute bottom-0 right-0 w-1/2"/>
+                <div class="relative flex-grow-0 p-6 overflow-hidden bg-radial-at-b from-purple-100 via-purple-50 to-purple-100 h-[400px]">
+                    <img src="/assets/images/xcall-menu.png" alt="xCall Menu Background" class="absolute bottom-0 right-0"/>
                     <div class="absolute top-0 left-0 px-10 py-20 ">
                         <p>Incentivized Testnet</p>
                         <p class="font-bold">Coming Soon</p>
                     </div>
-                    <div class="relative z-10 flex blur">              
+                    <div class="relative z-10 flex cursor-default blur">              
                         <img src="/assets/images/xcall_orb_black.png" alt="Black xCall Orb"  class="w-8 h-8"/>
                         <div class="ml-4 space-y-4">
                             <p class="mt-1 text-base font-medium text-slate-900">Incentivized Testnet</p>
                             <div>
-                                <p class="mt-1 text-sm text-slate-800">Deploy your dApp with xCall on the ICON Lisbon testnet and get rewarded</p>
-                                <p  class="mt-1 text-sm text-slate-800">Pick from 20 testnet challenges!</p>
+                                <p class="mt-1 text-sm text-slate-800">You must be curious to read this! A little more patience is required.</p>
+                                <p  class="mt-1 text-sm text-slate-800">Thanks for checking in!</p>
                             </div>
-                            <a href="" class="block px-4 py-2 font-semibold text-black bg-transparent border border-black rounded-md shadow-none hover:shadow-lg w-fit backdrop-blur-md">Go to Challenges</a>
+                            <a href="" class="block px-4 py-2 font-semibold text-black bg-transparent border border-black rounded-md shadow-none cursor-default w-fit backdrop-blur-md">Go to Challenges</a>
                         </div>
                     </div>
                 </div>
-                <div class="p-3">
+                <div class="px-3 pt-[70px]">
                     <a href="https://docs.icon.community/cross-chain-communication/xcall"
                         class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
                         id="hdev4">
