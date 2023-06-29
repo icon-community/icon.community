@@ -1,0 +1,72 @@
+<div class="relative font-montserrat" x-data="{ open: false }">
+    <button type="button"
+        class="inline-flex items-center px-2 py-1 text-base font-medium text-white rounded-md bg-xindigo group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-xindigo"
+        aria-expanded="false" @click="open = true">
+        <span id="hdev1" class="font-lemon">XCALL</span>
+        <svg class="w-5 h-5 transform group " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            aria-hidden="true" :class="open && 'rotate-180'">
+            <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+        </svg>
+    </button>
+    <div class="absolute z-10 w-screen max-w-xl px-2 mt-3 transform -translate-x-1/2 rounded-lg left-1/2 sm:px-0"
+        x-show="open" x-cloak x-transition:enter="duration-200 ease-out"
+        x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
+        x-transition:leave="duration-150 ease-in" x-transition:leave-start="opacity-100 translate-y-0"
+        x-transition:leave-end="opacity-0 translate-y-1" @click.outside="open = false">
+        <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+            <div class="relative grid grid-cols-2 dark:bg-slate-800 bg-slate-50">
+                <div class="relative flex-grow-0 p-6 overflow-hidden bg-radial-at-b from-purple-100 via-purple-50 to-purple-100">
+                    <img src="/assets/images/xcall-menu.png" alt="xCall Menu Background" class="absolute bottom-0 right-0 w-1/2"/>
+                    <div class="absolute top-0 left-0 px-10 py-20 ">
+                        <p>Incentivized Testnet</p>
+                        <p class="font-bold">Coming Soon</p>
+                    </div>
+                    <div class="relative z-10 flex blur">              
+                        <img src="/assets/images/xcall_orb_black.png" alt="Black xCall Orb"  class="w-8 h-8"/>
+                        <div class="ml-4 space-y-4">
+                            <p class="mt-1 text-base font-medium text-slate-900">Incentivized Testnet</p>
+                            <div>
+                                <p class="mt-1 text-sm text-slate-800">Deploy your dApp with xCall on the ICON Lisbon testnet and get rewarded</p>
+                                <p  class="mt-1 text-sm text-slate-800">Pick from 20 testnet challenges!</p>
+                            </div>
+                            <a href="" class="block px-4 py-2 font-semibold text-black bg-transparent border border-black rounded-md shadow-none hover:shadow-lg w-fit backdrop-blur-md">Go to Challenges</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <a href="https://docs.icon.community/cross-chain-communication/xcall"
+                        class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
+                        id="hdev4">
+                        <svg class="flex-shrink-0 w-6 h-6 text-xindigo"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+                        </svg>
+                        <div class="ml-4" id="hdev4">
+                            <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hdev4">xCall Documentation
+                            </p>
+                            <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hdev4">Learn how to send messages with xCall.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="/xcall/"
+                    class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
+                    id="hres3">
+                    <!-- Heroicon name: outline/chart-bar -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="flex-shrink-0 w-6 h-6 text-xindigo">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                      </svg>
+                      
+                    <div class="ml-4" id="hres3">
+                        <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hres3">xCall Homepage</p>
+                        <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hres3">One messaging standard for all communication.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
