@@ -2,31 +2,43 @@
 
 {{ $authorDetails := index $.Site.Params.authors .Params.author }}
 
-<main>
-    <div id="container" class="lg:my-24 px-4 mx-auto my-16 space-y-8">
-        <header class="max-w-2xl mx-auto mb-8 space-y-8">
-            <img src="{{ partial "featured_image.html" . }}" />
-            <div class="space-y-4">
-                <h2 class="mb-2 text-4xl font-bold">{{ .Title }}</h2>
-                <div class="flex items-center gap-2">
-                    <div class="flex-shrink-0">
-                        <img class="border-icon-lo w-12 h-12 p-0.5 border-2 rounded-full"
-                            src="{{ partial "cdn_url.html" }}/assets/images/contributors/{{ .Params.author }}.png"
-                            alt="{{ $authorDetails.name }}">
-                    </div>
-                    <div class="flex flex-col">
-                        <p class="dark:text-gray-400 text-base font-bold text-gray-800">{{ $authorDetails.name }}
-                        </p>
-                        <div class="dark:text-gray-400 flex space-x-1 text-base text-gray-600">
-                            <time datetime="2020-03-16">
-                                {{ $.PublishDate.Format "January 2, 2006" }}
-                            </time>
-                        </div>
-                    </div>
+<main class="font-montserrat">
+    <script src="/assets/scrolling.js"></script>
+    <div id="container" class="px-4 mx-auto my-16 space-y-8 lg:my-24">
+        <div id='scrollbarhor' class="fixed top-0 left-0 h-1 bg-icon"></div>
+        <header class="max-w-4xl mx-auto mb-8 space-y-8">
+            <div class="overflow-hidden rounded-none shadow-md sm:rounded-2xl">
+                <img src="{{ partial "featured_image.html" . }}" />
+            </div>
+            <div class="px-8 py-2 mx-auto border border-black rounded-lg font-montserrat w-fit">
+                <a href="/tutorials">
+                    <button class="flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>                         
+                        Back to Tutorials section
+                    </button>
+                </a>
+            </div>
+            <h2 itemprop="headline" class="max-w-2xl px-4 mx-auto mb-2 text-4xl font-bold text-left sm:px-0 sm:text-center md:text-4xl lg:text-5xl">{{ .Title }}</h2>
+        </header>
+        <div class="flex items-center max-w-2xl gap-2 mx-auto">
+            <div class="flex-shrink-0">
+                <img class="border-icon-lo w-12 h-12 p-0.5 border-2 rounded-full"
+                    src="{{ partial "cdn_url.html" }}/assets/images/contributors/{{ .Params.author }}.png"
+                    alt="{{ $authorDetails.name }}">
+            </div>
+            <div class="flex flex-col">
+                <p class="text-base font-bold text-gray-800 dark:text-gray-400">{{ $authorDetails.name }}
+                </p>
+                <div class="flex space-x-1 text-base text-gray-600 dark:text-gray-400">
+                    <time datetime="2020-03-16">
+                        {{ $.PublishDate.Format "January 2, 2006" }}
+                    </time>
                 </div>
             </div>
-        </header>
-        <div class="post-content max-w-2xl mx-auto">
+        </div>        
+        <div class="max-w-2xl mx-auto post-content">
             {{ with $authorDetails.description }}
             <p class="p-4 text-sm bg-gray-200 border border-gray-300 rounded-md">
                 {{ . }}
