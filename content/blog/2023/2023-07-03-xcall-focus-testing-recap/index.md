@@ -11,9 +11,9 @@ Our main goals during this testing period were to stabilize the xCall product pr
 
 In order to achieve these goals, each participating team created testing dApps that executed transactions between xCall-connected chains: ICON, Ethereum, BSC, and Havah. This recap outlines in detail the extensive feedback and data that we gathered from these teams after testing.
 
-Thank you to all the teams that made the xCall focus testing a success. 
+<span style="font-size: 18px;">Thank you to all the teams that made the xCall focus testing a success. </span>
 
-### Table of Contents
+## Table of Contents
 - [What is xCall: A Cross Chain Aggregator](#what-is-xcall-a-cross-chain-aggregator)
 - [Why xCall?](#why-xcall)
 - [xCall Focus Testing: Scope](#xcall-focus-testing-scope)
@@ -30,7 +30,7 @@ Thank you to all the teams that made the xCall focus testing a success.
 
 ---
 
-### What is xCall: A Cross Chain Aggregator  
+## What is xCall: A Cross Chain Aggregator  
 
 xCall is a single standard for dApps to deploy cross chain messages across any interoperability solution available today. xCall is specifically designed to make it as easy as possible for a developer to add cross chain functionality to their dApps—with one line of code, a developer can execute messages across multiple protocols. As a result, developers can focus on building great services and leave the varying complications of executing cross chain transactions across different systems to xCall, which handles the specifics in the backend. Hence, our slogan for xCall:  
 
@@ -38,15 +38,15 @@ xCall is a single standard for dApps to deploy cross chain messages across any i
 
 ---
 
-### Why xCall?
+## Why xCall?
 
-xCall is not a bridge aggregator (i.e., [LiFi](https://li.fi/), [Socket](https://socket.tech/)) nor is it an interoperability protocol (i.e., [BTP](https://github.com/iconloop/btp2-testnet), [IBC](https://ibcprotocol.org/), [Wormhole](https://wormhole.com/). xCall aggregates the features of all interoperability protocols through a single interface that standardizes cross chain messaging across the different protocols. Through such standardization, xCall is able to simplify cross chain dApp development for developers and to enable developers to leverage the unique strengths of the underlying interoperability protocols. 
+xCall is not a bridge aggregator (i.e., [LiFi](https://li.fi/), [Socket](https://socket.tech/)) nor is it an interoperability protocol (i.e., [BTP](https://github.com/iconloop/btp2-testnet), [IBC](https://ibcprotocol.org/), [Wormhole](https://wormhole.com/)). xCall aggregates the features of all interoperability protocols through a single interface that standardizes cross chain messaging across the different protocols. Through such standardization, xCall is able to simplify cross chain dApp development for developers and to enable developers to leverage the unique strengths of the underlying interoperability protocols. 
 
 An application of leveraging benefits of multiple interoperability protocols could be multi-protocol verification, which is sending a cross chain transaction over not one, but two or more underlying interoperability protocols to reduce risks associated with relying on just one protocol when sending assets cross chain. 
 
 ---
 
-### xCall Focus Testing: Scope
+## xCall Focus Testing: Scope
 
 Needless to say, we are very excited about bringing xCall to market and the focus test brought us one step closer to that goal. During the testing period, the following teams, 
 
@@ -81,7 +81,7 @@ Finally, testers were asked to check transactions for speed, cost, and accuracy.
 
 ---
 
-### xCall Focus Testing: Key Results
+## xCall Focus Testing: Key Results
 
 
 At the end of the two-week testing period, the teams collectively produced: 
@@ -94,7 +94,7 @@ At the end of the two-week testing period, the teams collectively produced:
 
 Below are links to each team’s output, reported issues, and a summary of cost and time estimates using xCall over BTP:  
 
-# Code Outputs Per Team
+### Code Outputs Per Team
 
 **Staky** 
 - [Testing contracts](https://github.com/Staky-io/x-call-testing-contracts)
@@ -116,16 +116,14 @@ Below are links to each team’s output, reported issues, and a summary of cost 
 - https://github.com/paulrouge/xcall-testing-evm (evm)
 - https://github.com/paulrouge/icon-scripts (scripts)
 
-# Issues and Discussions
+### Issues and Discussions
 
 - https://github.com/icon-project/btp2/issues 
 - https://github.com/icon-project/btp2/discussions 
 
-# Initial cost estimates of sending messages with xCall over BTP
+### Initial cost estimates of sending messages with xCall over BTP
 
 The following [xCall transaction fees](https://github.com/iconloop/btp2-testnet/wiki/Fee-System) were approximated from testing by the Core Development team.
-
-**Cost of sending and receiving messages using xCall**
 
 | Connection  | Fee in USD | Fee in ETH(wei) |
 |-------------|------------|-----------------|
@@ -137,9 +135,10 @@ The following [xCall transaction fees](https://github.com/iconloop/btp2-testnet/
 | ICON -> HAVAH| 0.005054 | 2688242686170   |
 
 
+
 If an xCall transaction includes a ‘rollback message’, which happens if there is an error on the destination chain, then the fees are expected to increase due to the secondary transaction on the source chain. 
 
-# Initial time estimates of sending messages with xCall over BTP
+### Initial time estimates of sending messages with xCall over BTP
 
 Timing estimates for xCall using BTP depend on the time it takes for a chain to finalize a transaction. 
 
@@ -158,7 +157,7 @@ Timing estimates for xCall using BTP depend on the time it takes for a chain to 
 
 {{< img src="community-testers.jpg" alt="Community Focus Testers" caption="Focus testers were asked to test their dApps by submitting a variety of transaction types, the most effective way of finding bugs or other issues." >}}
 
-### What the Teams Are Saying About xCall
+## What the Teams Are Saying About xCall
 
 **Staky**
 > “[T]hanks to this program we were able to make appropriate feedbacks to the ICON team to improve the overall experience for everyone.” - Staky on [@helloiconworld](https://twitter.com/helloiconworld/status/1669676333276999680?s=20)
@@ -211,7 +210,7 @@ Timing estimates for xCall using BTP depend on the time it takes for a chain to 
 
 ---
 
-### Takeaways and Next Steps
+## Takeaways and Next Steps
 
 Based on the detailed feedback provided by each team, here are a list of priorities that we will be implementing through the triage period before launching an incentivized testnet for a broader audience: 
 - Improve README in example repository setup documentations so that all setup information is available in one place
@@ -221,11 +220,11 @@ Based on the detailed feedback provided by each team, here are a list of priorit
 - Make docker image for relayer
 - Maximize availability of test BNB and test ETH for developers
 
-### Public xCall Incentivized Testnet: Coming Soon
+## Public xCall Incentivized Testnet: Coming Soon
 
 A Notion page detailing guidelines and challenges for the public xCall incentivized testnet program will be released soon. The public incentivized testnet program is scheduled to launch on July 31st. 
 
-### Available xCall Resources
+## Available xCall Resources
 
 For those who would like to experiment with xCall and create their own cross chain dApps, here is a compilation of useful guides: 
 
@@ -240,3 +239,5 @@ For those who would like to experiment with xCall and create their own cross cha
 - BTP/xCall solidity package : https://www.npmjs.com/package/@iconfoundation/btp2-solidity-library 
 - BTP ICON improvement proposal : https://github.com/icon-project/IIPs/blob/master/IIPS/iip-25.md 
 - xCall ICON improvement proposal : https://github.com/icon-project/IIPs/blob/master/IIPS/iip-52.md 
+
+Keep in mind that xCall is an evolving product. If you encounter issues during testing, you can reach out for support troubleshooting by joining the ICON’s developer community on the [ICON Discord](https://discord.gg/ZmxwmpXM). Happy testing! 
