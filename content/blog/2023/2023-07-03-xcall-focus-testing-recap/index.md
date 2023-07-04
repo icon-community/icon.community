@@ -193,7 +193,7 @@ Timing estimates for xCall using BTP depend on the time it takes for a chain to 
 > “[C]ore team did an amazing job preparing docs and base demo app, equipping us with the necessary information right from the beginning” - Protokol7 on [@helloiconworld](https://twitter.com/helloiconworld/status/1668589106627235840?s=20)
 - Positives
     - There was plenty of documentation to get started experimenting with xCall
--    Core team was highly responsive during testing 
+    - Core team was highly responsive during testing 
 - Room for improvement
     - It is important to have more documentation, demos, and experienced developers in this area to jumpstart the xCall ecosystem
 
@@ -202,11 +202,11 @@ Timing estimates for xCall using BTP depend on the time it takes for a chain to 
 **Paul Rouge**
 > “Now to delve into testing and exploring the intricate aspects of xCall” - Paul Rouge on [@helloiconworld](https://twitter.com/helloiconworld/status/1666958338012360705?s=20)
 - Positives
--   Was happy to see xCall as a near completed product ready to build dApps
--   The security benefits of the rollback feature was quite interesting 
+    - Was happy to see xCall as a near completed product ready to build dApps
+    - The security benefits of the rollback feature was quite interesting 
 - Room for improvement 
--   Difficult to understand the state of transactions, especially in the case of transaction failure
--   Easier access to testnet tokens for BSC 
+    - Difficult to understand the state of transactions, especially in the case of transaction failure
+    - Easier access to testnet tokens for BSC 
 
 ---
 
