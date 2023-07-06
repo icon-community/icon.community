@@ -63,7 +63,7 @@
 
     </head>
 
-    <body class="font-sans antialiased bg-slate-50 dark:bg-slate-900 dark:text-slate-100 text-slate-900">     
+    <body class="relative font-sans antialiased bg-slate-50 dark:bg-slate-900 dark:text-slate-100 text-slate-900">     
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-2BEGJ1BMGE"></script>
         <script>
@@ -78,6 +78,18 @@
         {{ block "container" . }}{{ end }}
         {{ partialCached "footer.html" . }}
         {{ partialCached "cookie_notice.html" . }}
+        <a href="/blog/2023/xcall-public-incentivized-testnet-program/">
+            <div class="fixed z-40 flex flex-row items-center justify-between p-4 space-x-2 transition-all border border-teal-200 sm:space-x-4 transform-origin-top-left rounded-2xl hover:scale-105 bg-black/60 font-montserrat bottom-2 sm:bottom-8 right-2 sm:right-4 backdrop-blur-lg">
+                <div class="relative">
+                    <div class="h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-orange-400 rounded-full"></div>
+                    <div class="absolute top-0 animate-ping h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-orange-400 rounded-full"></div>
+                </div>
+                <div>
+                    <h1 class="font-semibold text-white text-[12px] sm:text-[16px]">xCall Public Incentivized Testnet!</h1>
+                    <p class="text-gray-300 text-[14px] hidden sm:block">Coming soon on the 31st of July</p>
+                </div>
+            </div>
+        </a>
     </body>
 
 </html>
