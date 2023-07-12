@@ -7,6 +7,9 @@ author: venture-23
 canonicalURL: "https://medium.com/@iconzkp/zero-knowledge-proof-on-icon-blockchain-part-1-4b3bcf6924f0"
 ---
 
+* **Jump ahead to [Part-2](/tutorials/zkp-on-icon-pt2/)**
+* **Jump ahead to [Part-3](/tutorials/zkp-on-icon-pt3/)**
+
 The [integration of the BLS 12–381 curve on the ICON blockchain](https://github.com/icon-project/goloop/pull/151) enables the use of **Zero Knowledge Proofs** on the platform, opening up a new realm of possibilities for secure and private transactions.
 
 In this three-part article series, we will explore the exciting world of zero-knowledge proofs (ZKPs) and how they can be used on the ICON blockchain. In particular, will use the [Sudoku](https://sudoku.com/) as an example to provide an overview of ZKPs, how they work, and their benefits.
@@ -118,3 +121,7 @@ Once we have the arithmetic circuits in place, we can generate and verify proofs
 
 ## Conclusion
 If all of this seems overwhelming, don’t worry. In Part 2, we will explore these tools in more detail and learn how to use them.
+
+---
+* **Jump ahead to [Part-2](/tutorials/zkp-on-icon-pt2/)**
+* **Jump ahead to [Part-3](/tutorials/zkp-on-icon-pt3/)**

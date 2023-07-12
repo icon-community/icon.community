@@ -3,6 +3,7 @@ title: Introducing the xCall Public Incentivized Testnet Program
 date: 2023-07-06
 description: We are excited to announce the upcoming launch of the xCall Incentivized Testnet Program starting July 31, 2023. Our ultimate goal is to make xCall the easiest tool that developers can use to add an interoperability feature to their products.
 slug: xcall-public-incentivized-testnet-program
+canonicalURL: "https://icon.community/blog/2023/xcall-public-incentivized-testnet-program/"
 ---
 
 We are excited to announce the upcoming launch of the xCall Incentivized Testnet Program starting [July 31, 2023](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHJobThuMjdkNXQ0aWZqa2hsMHBoYW9iNDcgaGVsbG9AaWNvbi5mb3VuZGF0aW9u&tmsrc=hello%40icon.foundation). As we get closer to launching xCall on mainnet, we hope that many developers will use this opportunity to get familiar with xCall and find interesting applications of our cross-chain technology, in addition to helping us improve the product further. 

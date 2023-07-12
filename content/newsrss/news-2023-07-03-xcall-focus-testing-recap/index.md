@@ -3,6 +3,7 @@ title: xCall Focus Testing Recap
 date: 2023-07-03
 description: On June 15th, we successfully concluded a closed test for xCall. Each participating team created testing dApps that executed transactions between xCall-connected chains ICON, Ethereum, BSC, and Havah. 
 slug: xcall-focus-testing-recap
+canonicalURL: "http://localhost:1313/blog/2023/xcall-focus-testing-recap/"
 ---
 
 On June 15th, we successfully concluded a closed test for [xCall](https://icon.community/xcall/). Five teams were selected from the ICON community to participate based on their prior contributions to the ecosystem. Testing period lasted two weeks. 

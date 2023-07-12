@@ -8,6 +8,9 @@ canonicalURL: "https://medium.com/@iconzkp/zero-knowledge-proof-on-icon-blockcha
 
 ---
 
+* **Jump back to [Part-1](/tutorials/zkp-on-icon-pt1/)**
+* **Jump ahead to [Part-3](/tutorials/zkp-on-icon-pt3/)**
+
 In this article, we will be talking about the circuits that we used in our Sudoku game. This [Sudoku project](https://github.com/venture23-zkp/zkp-examples/tree/main/apps/sudoku) consists of 3 directories namely, circuits, contracts, and frontend.
 
 # Circuits:
@@ -586,3 +589,7 @@ Whew! That’s a lot of steps. When developing circuits, we frequently try to ve
 Overall, In this article we discussed about how to write circuit for a Sudoku game, compiling it, perform trusted setup, generate a zkey, a JAVA verifier computing a witness and generation and verification of the proof.
 
 In the third part, we will discuss about how we can use the above circuits in a [Sudoku](https://v23-zkp-examples-sudoku.vercel.app/) game utilizing Zero Knowledge Proof.
+
+---
+* **Jump back to [Part-1](/tutorials/zkp-on-icon-pt1/)**
+* **Jump ahead to [Part-3](/tutorials/zkp-on-icon-pt3/)**

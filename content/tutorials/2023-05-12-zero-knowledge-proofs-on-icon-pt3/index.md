@@ -7,6 +7,9 @@ author: venture-23
 canonicalURL: "https://medium.com/@iconzkp/zero-knowledge-proof-on-icon-blockchain-part-3-5d45849ccf2e"
 ---
 
+* **Jump back to [Part-1](/tutorials/zkp-on-icon-pt1/)**
+* **Jump back to [Part-2](/tutorials/zkp-on-icon-pt2/)**
+
 This article is the continuation of the [Part-1](https://icon.community/learn/zkp-on-icon-pt1) & [Part-2](https://icon.community/learn/zkp-on-icon-pt2) of this article series on **Zero Knowledge Proof on ICON Blockchain**. This article features a [ZkSudoku](https://v23-zkp-examples-sudoku.vercel.app/) game that utilizes Zero Knowledge Proof.
 
 In **Part-1**, we started with why we need zero-knowledge proof and in **Part-2**, we dived into the proofs using circom and icon-snarkjs. In this final article, we will create a complete full stack application that solves our problem with Sudoku NFT Collection. We’ll call the project [ZK-Sudoku](https://v23-zkp-examples-sudoku.vercel.app/).
@@ -112,3 +115,8 @@ This game contract is deployed on the ICON blockchain, and the following are the
 * Game link: https://v23-zkp-examples-sudoku.vercel.app/
 * Contract Address: cxbedd3bec8a4f966c2cd6c5956066fd2605ad519d
 * GitHub repo link: https://github.com/venture23-zkp/zkp-examples
+
+---
+
+- **Jump back to [Part-1](/tutorials/zkp-on-icon-pt1/)**
+- **Jump back to [Part-2](/tutorials/zkp-on-icon-pt2/)**
