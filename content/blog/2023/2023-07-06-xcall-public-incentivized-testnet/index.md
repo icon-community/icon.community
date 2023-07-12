@@ -5,7 +5,7 @@ description: We are excited to announce the upcoming launch of the xCall Incenti
 slug: xcall-public-incentivized-testnet-program
 ---
 
-**Challenges for the xCall Public Incentivized Testnet Program are now [live](https://iconfoundation.notion.site/xCall-Incentivized-Testnet-Program-Phase-1-9d16a7bc2b124b348a78896f378ee316)!**
+**Challenges for the xCall Public Incentivized Testnet Program are now [live](https://iconfoundation.notion.site/Testnet-Challenges-bc1b7de910894307970841d64ea9548f)!**
 
 We are excited to announce the upcoming launch of the xCall Incentivized Testnet Program starting [July 31, 2023](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHJobThuMjdkNXQ0aWZqa2hsMHBoYW9iNDcgaGVsbG9AaWNvbi5mb3VuZGF0aW9u&tmsrc=hello%40icon.foundation). As we get closer to launching xCall on mainnet, we hope that many developers will use this opportunity to get familiar with xCall and find interesting applications of our cross-chain technology, in addition to helping us improve the product further. 
 
