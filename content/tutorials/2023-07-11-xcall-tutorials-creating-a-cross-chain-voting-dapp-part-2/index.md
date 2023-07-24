@@ -13,7 +13,7 @@ tags:
 ---
 ## Introduction
 
-In the first part of this serie about creating a cross chain voting dApp that interacts with xCall we went over the process of setting up the project and detailing the code logic in our Java and Solidity smart contracts.
+In the first part of this series about creating a cross chain voting dApp that interacts with xCall we went over the process of setting up the project and detailing the code logic in our Java and Solidity smart contracts.
 
 In this second part we will be deploying the smart contracts into their respective chains (Berlin testnet for the Java contract and Sepolia testnet for the solidity contract) and then we will interact with these contracts by casting a vote from the origin chain (Berlin) which will interact with xCall to send a cross chain message into the Sepolia testnet to our Solidity smart contract  to keep a tally of the votes on both chains.
 
