@@ -79,19 +79,34 @@
         {{ partialCached "footer.html" . }}
         {{ partialCached "cookie_notice.html" . }}
         <!-- NOTIFICATION PULSE -->
-        <a href="/blog/2023/xcall-public-incentivized-testnet-program/">
-            <div class="hover:scale-[102%] fixed z-40 flex flex-row items-center justify-between p-4 space-x-2 transition-all border border-teal-200 sm:space-x-4 transform-origin-top-left rounded-2xl bg-black/60 font-montserrat bottom-2 sm:bottom-8 right-2 sm:right-4 backdrop-blur-lg">
+        <a target="_blank" href="https://iconfoundation.notion.site/xCall-Incentivized-Testnet-Program-Phase-1-9d16a7bc2b124b348a78896f378ee316">
+            <div class="fixed z-40 flex flex-row items-center justify-between p-4 space-x-2 transition-all border border-teal-200 hover:bg-black sm:space-x-4 transform-origin-top-left rounded-2xl bg-black/60 font-montserrat bottom-2 sm:bottom-8 right-2 sm:right-4 backdrop-blur-lg">
                 <div class="relative">
-                    <div class="h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-orange-400 rounded-full"></div>
-                    <div class="absolute top-0 animate-ping h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-orange-400 rounded-full"></div>
+                    <div class="h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-green-400 rounded-full"></div>
+                    <div class="absolute top-0 animate-ping h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-green-400 rounded-full"></div>
                 </div>
                 <div>
-                    <h1 class="font-semibold text-white text-[12px] sm:text-[16px]">xCall Public Incentivized Testnet!</h1>
-                    <p class="text-gray-300 text-[14px] hidden sm:block">Coming soon on the 31st of July</p>
+                    <h1 class="font-semibold text-white text-[12px] sm:text-[16px]">LIVE NOW - JOIN HERE</h1>
+                    <p class="text-gray-300 text-[14px] hidden sm:block">xCall Public Incentivized Testnet</p>
                 </div>
             </div>
         </a>
-        <a target="_blank" href='https://iconfoundation.notion.site/Testnet-Challenges-bc1b7de910894307970841d64ea9548f' class="border border-teal-200/20 hidden sm:block fixed text-[10px] sm:text-[12px] z-40 text-white bottom-[46px] transition-all sm:bottom-[100px] bg-black/80 backdrop-blur rounded-lg px-2 py-1 right-1 sm:right-2 uppercase font-lemon font-bold hover:scale-[102%]">view challenges</a>
+        <div id="countdown" class="border border-teal-200/20 hidden sm:block fixed text-[10px] sm:text-[12px] z-40 text-white bottom-[46px] transition-all sm:bottom-[100px] bg-black backdrop-blur rounded-lg px-2 py-1 right-4 uppercase font-lemon font-bold">42 days left</div>
     </body>
-
+    <script>
+        function updateCountdown() {
+          const countdownElement = document.getElementById('countdown');
+          const currentDate = new Date();
+          const targetDate = new Date('2023-09-11'); // Replace this with your target date (YYYY-MM-DD format)
+          const timeDifference = targetDate - currentDate;
+      
+          const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+          countdownElement.textContent = `${daysLeft} days left`;
+        }
+      
+        updateCountdown(); // Initial call to set the countdown when the page loads
+      
+        // Set an interval to update the countdown every day (in milliseconds)
+        setInterval(updateCountdown, 1000 * 60 * 60 * 24);
+      </script>
 </html>
