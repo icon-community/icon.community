@@ -2,8 +2,8 @@
     <button type="button"
         class="inline-flex items-center px-2 py-1 text-base font-medium text-black rounded-md group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-xindigo"
         aria-expanded="false" @click="open = true">
-        <span id="hdev1" class="font-lemon tracking-[5px]">XCALL</span>
-        <svg class="w-5 h-5 transform group " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+        <img src="/assets/images/xcall-landing/svg/xcall-logo.svg" alt="xCall Logo"  class="w-20 h-8"/>
+        <svg class="w-5 h-5 transform group opacity-60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
             aria-hidden="true" :class="open && 'rotate-180'">
             <path fill-rule="evenodd"
                 d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -24,9 +24,13 @@
                         <img src="/assets/images/xcall_orb_black.png" alt="Black xCall Orb"  class="w-8 h-8"/>
                         <div class="ml-4 space-y-4">
                             <p class="mt-1 text-base font-medium text-slate-900">Incentivized Testnet</p>
+                            <div class="relative">
+                                <div class="h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-green-400 rounded-full"></div>
+                                <div class="absolute top-0 animate-ping h-[12px] w-[12px] sm:h-[16px] sm:w-[16px] bg-green-400 rounded-full"></div>
+                            </div>
                             <div>
-                                <p class="mt-1 text-sm text-slate-800">The xCall Incentivized Testnet launches July 31, 2023</p>
-                                <a href="https://se8br1ugut6.typeform.com/to/q7DgNhZi" target="_blank" class="mt-1 text-sm text-slate-800"><span class="font-semibold">Pre-register</span> to receive updates and rewards!</a>
+                                <h1 class="font-semibold text-black text-[12px] sm:text-[16px]">LIVE NOW</h1>
+                                <p class="text-gray-700 text-[14px] hidden sm:block">xCall Public Incentivized Testnet</p>
                             </div>
                             <a href="https://iconfoundation.notion.site/xCall-Incentivized-Testnet-Program-Phase-1-9d16a7bc2b124b348a78896f378ee316" class="block px-4 py-2 font-semibold text-black bg-transparent border border-black rounded-md shadow-none cursor-pointer w-fit backdrop-blur-sm">Go to Program</a>
                         </div>
