@@ -5,7 +5,7 @@ description: Throughout the month of July, our team at has been working on numer
 slug: icon-development-update-july-2023
 ---
 
-Throughout the month of July, our team at has been working on numerous updates to BTP contracts and our relays. In a significant development, we have transitioned BSC into a trustless state, similar to our connection with Ethereum. This transition was a crucial step in preparing everything for the ongoing incentivised testnet. In addition, we have released a new version of Goloop, and we continue to make headway on the IISS 4.0 changes.
+Throughout the month of July, our team has been working on numerous updates to BTP contracts and our relays. In a significant development, we have transitioned BSC into a trustless state, similar to our connection with Ethereum. This transition was a crucial step in preparing everything for the ongoing incentivised testnet. In addition, we have released a new version of Goloop, and we continue to make headway on the IISS 4.0 changes.
 
 Excitingly, we have more news on the IBC integration front. As you may recall from our update last month, we've slated an official Testnet launch for the 14th of August. We recommend you also take a peek at the xCall integration section of the update - there's a pleasant surprise waiting for you. Each step forward brings us closer to realizing our vision, and we eagerly anticipate sharing more of our progress and developments in the months ahead!
 
