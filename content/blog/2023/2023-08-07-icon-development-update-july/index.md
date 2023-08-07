@@ -46,7 +46,7 @@ As noted above and in our last month's development update, we had targeted a tes
 
 Throughout this month, our team has been refactoring the IBC core contracts, optimizing the Relay code, and testing everything on their testnets. As we move into August, a significant portion of our focus will be channelled towards improving documentation and the general presentation of our repository. In addition, we're preparing to initiate a comprehensive internal review process, set to commence in mid-August.
 
-To clarify our current status, ICON is now connected via IBC to Archway testnets, which means anyone can start building now. The contract addresses are located in the wiki of the IBC integrations repo.
+To clarify our current status, ICON is now connected via IBC to Archway testnets, which means anyone can start building now. The contract addresses are located in the [wiki](https://github.com/icon-project/IBC-Integration/wiki/IBC-Integration-SCORE-Addresses) of the IBC integrations repo.
 
 But that's not all - keep the 14th of August circled on your calendars! On this date, we aim to deploy our IBC Neutron integration to the respective testnets. All in all, August promises to be a monumental month for our IBC integrations, so stay tuned for more updates!
 
