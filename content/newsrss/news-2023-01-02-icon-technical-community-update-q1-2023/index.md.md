@@ -3,6 +3,7 @@ title: ICON Technical Community Update – Q1 2023
 date: 2023-01-02
 slug: icon-technical-community-update-q1-2023
 description: Read about our technical community milestones and goals for January 1 to March 31.
+canonicalURL: "https://icon.community/blog/2023/icon-technical-community-update-q1-2023/"
 ---
 
 ## Purpose

@@ -3,6 +3,7 @@ title: ICON Development Update – June 2023
 date: 2023-07-04
 description: During the month of June, our dedicated team provided ample support for our focus testers as they began experimenting with BTP and xCall. As we move forward into this month, we are ready to deploy numerous fixes and optimizations meticulously crafted for all contracts.
 slug: icon-development-update-june-2023
+canonicalURL: "https://icon.community/blog/2023/icon-development-update-june-2023/"
 ---
 
 During the month of June, our dedicated team provided ample support for our focus testers as they began experimenting with BTP and xCall. This immersive process yielded a wealth of valuable feedback and insightful tips, which we have eagerly absorbed and begun addressing. The areas of improvement span across documentation, environment setup, bug detection, and several other key aspects that are detailed comprehensively in this [announcement](https://icon.community/blog/2023/xcall-focus-testing-recap/) 

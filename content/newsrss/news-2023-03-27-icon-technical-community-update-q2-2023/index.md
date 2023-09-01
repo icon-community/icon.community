@@ -3,6 +3,7 @@ title: ICON Technical Community Update – Q2 2023
 date: 2023-03-27
 slug: icon-technical-community-update-q2-2023
 description: These reports are designed to inform ICON’s technical community about the ideological focus, milestones, specific goals, and planned timelines for a given time period. In this update, we will discuss milestones and goals for Q2 2023. 
+canonicalURL: "https://icon.community/blog/2023/icon-technical-community-update-q2-2023/"
 ---
 
 ### Purpose

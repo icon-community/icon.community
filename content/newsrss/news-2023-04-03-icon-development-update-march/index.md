@@ -3,6 +3,7 @@ title: ICON Development Update – March 2023
 date: 2023-04-05
 description: In March, the team has activated BTP blocks on the Berlin testnet. BTP contracts, that are currently one-way trustless, have been deployed on ICON Berlin testnet, BSC testnet, and ETH Sepolia. 
 slug: icon-development-update-march-2023
+canonicalURL: "https://icon.community/blog/2023/icon-development-update-march-2023/"
 ---
 
 In March, the team has activated BTP blocks on the Berlin testnet. BTP contracts, that are currently one-way trustless, have been deployed on ICON Berlin testnet, BSC testnet, and ETH Sepolia.  In this article, we share tasks completed and development milestones for April.

@@ -3,6 +3,7 @@ title: ICON 2022 Recap & 2023 Outlook
 date: 2023-01-18
 description: As we kick off the new year, we would like to share some reflections on the past year and details regarding our strategic focus for 2023.
 slug: icon-2022-recap-and-2023-outlook
+canonicalURL: "https://icon.community/blog/2023/icon-2022-recap-and-2023-outlook/"
 ---
 
 Happy New Year, ICON Community Members! 
