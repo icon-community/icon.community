@@ -3,6 +3,7 @@ title: ICON Development Update – February 2023
 date: 2023-03-06
 description: In February, the team started testing BTP across local instances. Alongside the BTP milestones board, we can now also take a first look at the milestone board for IBC integrations.
 slug: icon-development-update-february-2023
+canonicalURL: "https://icon.community/blog/2023/icon-development-update-february-2023/"
 ---
 
 In February, the team started testing BTP across local instances. Alongside the BTP milestones board, we can now also take a first look at the milestone board for IBC integrations. In this article, we share tasks completed and development milestones for March.

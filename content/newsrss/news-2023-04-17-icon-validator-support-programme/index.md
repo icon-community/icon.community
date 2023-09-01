@@ -3,6 +3,7 @@ title: Introducing the ICON Validator Support Program
 date: 2023-04-17
 description: We are thrilled to announce the launch of the ICON Validator Support Program, through which validators can each receive up to 5 million ICX in delegation support. 
 slug: icon-validator-support-program
+canonicalURL: "https://icon.community/blog/2023/icon-validator-support-program/"
 ---
 
 We are thrilled to announce the launch of the ICON Validator Support Program, through which validators can each receive up to 5 million ICX in delegation support. 

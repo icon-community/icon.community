@@ -3,6 +3,7 @@ title: ICON Development Update – April 2023
 date: 2023-05-05
 description: The month of April has been all about testing BTP components in a live testnet environment. During this time, a BSC testnet update required modifications to our relay and BMV contracts. In this article, we share tasks completed and development milestones for May.
 slug: icon-development-update-April-2023
+canonicalURL: "https://icon.community/blog/2023/icon-development-update-april-2023/"
 ---
 
 The month of April has been all about testing BTP components in a live testnet environment. During this time, a BSC testnet update required modifications to our relay and BMV contracts. In this article, we share tasks completed and development milestones for May. Work on the IBC integrations of xCall Service continues to be captured in dedicated monthly reports, which are also linked in this article.

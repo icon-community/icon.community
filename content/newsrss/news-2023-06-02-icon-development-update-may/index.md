@@ -3,6 +3,7 @@ title: ICON Development Update – May 2023
 date: 2023-06-02
 description: In May, testing efforts continues, resulting in the identification and resolution of numerous bugs. Additionally, all necessary updates for the BSC Luban upgrade were completed and deployed successfully!
 slug: icon-development-update-May-2023
+canonicalURL: "https://icon.community/blog/2023/icon-development-update-may-2023/"
 ---
 
 In May, testing efforts continued, resulting in the identification and resolution of numerous bugs. Additionally, all necessary updates for the BSC Luban upgrade were completed and deployed successfully. This update provides details on the tasks accomplished in May and outlines the upcoming development milestones for June. Furthermore, dedicated monthly reports documenting the progress of xCall Service's IBC integrations are included and can be accessed further down.
