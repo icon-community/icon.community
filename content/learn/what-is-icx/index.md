@@ -62,7 +62,7 @@ Users can elect to either lend or borrow ICX (or other ICON-based tokens) and wi
 
 #### Optimus
 
-[Optimus](https://optimus.finance), one of the newest DeFi protocols, is also available. Optimus is what is referred to as a “yield optimizer”, meaning users can deposit their ICX, pick a strategy, and “set it and forget it” as the protocol will interact with other ICON DeFi applications in order to execute a yield strategy based on the users preferences and risk tolerance.
+[Optimus](https://www.optimusfinance.network/), one of the newest DeFi protocols, is also available. Optimus is what is referred to as a “yield optimizer”, meaning users can deposit their ICX, pick a strategy, and “set it and forget it” as the protocol will interact with other ICON DeFi applications in order to execute a yield strategy based on the users preferences and risk tolerance.
 
 ## How to Buy ICX
 
