@@ -32,7 +32,8 @@ After two weeks of thoughtful deliberation, we have narrowed down the list of wi
 
 * **Build a cross-chain NFT marketplace**
   * Staky with “xcallympics” 
-  * Build a cross-chain game
+
+*  **Build a cross-chain game**
   * bwnodnarb with “Galactic Conquest”
 
 * **Build a system for cross-chain decentralized identity**
@@ -40,7 +41,7 @@ After two weeks of thoughtful deliberation, we have narrowed down the list of wi
 
 ---
 
-### 🏆 Winners for the Tooling category: 
+### 🏆 Winners for the Tooling category 
 
 * **Simplify the development pipeline**
   * Paul Rouge with “xCalligraph”
