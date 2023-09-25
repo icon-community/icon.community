@@ -34,7 +34,7 @@ After two weeks of thoughtful deliberation, we have narrowed down the list of wi
   * Staky with “xcallympics” 
 
 *  **Build a cross-chain game**
-  * bwnodnarb with “Galactic Conquest”
+    * bwnodnarb with “Galactic Conquest”
 
 * **Build a system for cross-chain decentralized identity**
   * sonderecho with “OMNI Name Service”
@@ -65,10 +65,11 @@ After two weeks of thoughtful deliberation, we have narrowed down the list of wi
   * Paul Rouge with “xCall Chainlink VRF”
   * Hugobyte with “Aurrus xCall Event Feed”
 
-
 With so many high quality submissions, selecting winners proved to be a truly daunting task. Each submission showcased an impressive level of quality and innovation, making the decision-making process incredibly challenging.
 
 However, this is only the beginning of our xCall journey and there will be many more events to come. We eagerly look forward to the remarkable contributions that developers will continue to make to the xCall ecosystem.
+
+Also, we would like to give a special shoutout to the HAVAH team for sponsoring categories for the xCall Incentivized Testnet Program.
 
 Once again, we extend our heartfelt congratulations to all the winners and we will be reaching out to each of you individually with detailed instructions on how to claim your well-deserved rewards.
 
