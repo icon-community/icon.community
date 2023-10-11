@@ -1,0 +1,72 @@
+{{ define "container" }}
+<main class="relative w-full">
+    <div class="w-full py-2 text-center text-white bg-icon font-montserrat">ICON Foundation blogs have moved 🌐 Visit <a class='font-semibold' target="blank" href="https://www.icon.foundation/blog">icon.foundation/blog</a> today. </div>
+    <div class="max-w-6xl px-10 py-10 mx-auto space-y-4 md:px-20 sm:py-20 sm:px-36">
+        <h1 class="text-2xl font-bold text-center sm:text-5xl font-lemon">
+            Community Blogs
+        </h1>
+        
+        <div class="grid grid-cols-3 gap-8 py-20">
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://medium.com/@framdnft">
+                <img class="w-16 h-16"  src="/assets/images/ecosystem/framd.png" alt="FRAMD Logo"/>
+                <h1 class="px-4 text-xl font-bold font-montserrat">FRĀMD ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://gangstaverse.medium.com/">
+                <div class="overflow-hidden rounded-full w-fit"><img class="w-16 h-16"  src="/assets/images/ecosystem/gangstaverse.png" alt="GangstaVerse Logo"/></div>
+                <h1 class="px-4 text-xl font-bold font-montserrat">GangstaVerse ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://www.eyeonicon.xyz/blog">
+                <img class="w-16 h-16"  src="/assets/images/ecosystem/eye-on-icon.png" alt="Eye on ICON Logo"/>
+                <h1 class="px-4 text-xl font-bold font-montserrat">Eye on ICON ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://www.withiconists.com/">
+                <img class="w-16 h-16"  src="/assets/images/ecosystem/withiconists.jpg" alt="WithICONists Logo"/>
+                <h1 class="px-4 text-xl font-bold font-montserrat">WithICONists ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://blog.balanced.network/">
+                <div class="overflow-hidden rounded-full w-fit"><img class="w-16 h-16"  src="/assets/images/ecosystem/balanced2.png" alt="Balanced Logo"/></div>
+                <h1 class="px-4 text-xl font-bold font-montserrat">Balanced ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://blog.omm.finance/">
+                <div class="overflow-hidden rounded-full w-fit"><img class="w-16 h-16"  src="/assets/images/ecosystem/omm2.jpg" alt="Omm Logo"/></div>
+                <h1 class="px-4 text-xl font-bold font-montserrat">Omm ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://medium.com/@PengwynBINC">
+                <img class="w-16 h-16"  src="/assets/images/ecosystem/pengwyn-binc.png" alt="Pengwyn BINC Logo"/>
+                <h1 class="px-4 text-xl font-bold font-montserrat">Pengwyn BINC ↗</h1>
+            </a>
+            <a class="flex items-center px-4 py-2 bg-white rounded-lg shadow hover:scale-[102%] transition-all" target='_blank' href="https://medium.com/@craftnetwork">
+                <img class="w-16 h-16"  src="/assets/images/ecosystem/craft.png" alt="Craft Logo"/>
+                <h1 class="px-4 text-xl font-bold font-montserrat">Craft ↗</h1>
+            </a>
+            <button data-tf-slider="m7tquNA2" data-tf-position="right" data-tf-opacity="100" data-tf-iframe-props="title=Add your project to the ICON Ecosystem" data-tf-transitive-search-params data-tf-medium="snippet" class="flex items-center px-4 py-2 bg-icon rounded-lg shadow hover:scale-[102%] transition-all">
+                <div class="overflow-hidden rounded-full w-fit"><img class="w-16 h-16"  src="/assets/images/add-your-project.png" alt="Add Your Own Project!"/></div>
+                <h1 class="px-4 text-xl font-bold text-white font-montserrat">Add Your Project</h1>
+            </button>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+
+        <div class="w-2/3 h-0.5 mx-auto bg-gray-300 border border-gray-300"></div>
+            <div id="hero-buttons" class="flex flex-col mx-auto mt-10 space-y-4 text-center">
+                <h2 class="text-xl font-semibold">Keep exploring ICON:</h2>
+                <div class="flex flex-col items-center justify-center w-full sm:flex-row">
+                    <div class="m-2">
+                        {{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "ICON Learn Section" "buttonUrl" "/learn/") }}
+                    </div>
+                    <div class="m-2">
+                        {{ partial "buttons/button_secondary_smaller.html" (dict "context" . "buttonText" "ICON Community Blogs" "buttonUrl" "/community-blogs/") }}
+                    </div>
+                
+                </div>
+            </div>
+            <div class="mx-auto overflow-hidden shadow-md w-fit rounded-2xl">
+                <iframe src="https://iconnetwork.substack.com/embed" 
+                class="w-full h-[250px] sm:w-[480px] sm:h-[250px]" 
+                frameborder="0" 
+                scrolling="no">
+                </iframe>
+            </div>
+        
+        </div>
+</main>
+{{ end }}
