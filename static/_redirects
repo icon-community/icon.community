@@ -1,1 +1,1 @@
-/learn/icon-wallet/ /blog/2022/icon-wallet/
+/blog/*  https://www.icon.foundation/blog/:splat  301!
