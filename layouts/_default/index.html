@@ -29,14 +29,14 @@
         <div class="relative flex flex-col items-center justify-start mx-auto sm:flex-row max-w-7xl z-1 -translate-y-[60px] sm:translate-y-0">
             <div class="w-full p-0 sm:w-2/3 sm:p-8">
                 <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-3xl font-extrabold tracking-tight text-center sm:text-left lg:text-6xl text-slate-50">
-                    Write Once, Deploy<br> Everywhere with xCall
+                    Go Cross-Chain<br> with ICON
                 </h1>
                 <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
-                    ICON blockchain is a public blockchain protocol building a hyperconnected future with BTP and xCall service.
+                    Apps use ICON to operate cross-chain seamlessly, build momentum and gain reputation.
                 </p>
                 <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
-                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Learn About xCall" "buttonUrl" "/xcall/") }}
-                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Discord" "buttonUrl" "/icondiscord/") }}
+                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://docs.icon.community/") }}
+                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Explore Ecosystem" "buttonUrl" "/ecosystem/") }}
                 </div>
             </div>
             
@@ -91,19 +91,10 @@
                 <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
                         <h2 x-intersect="$el.classList.add('fadeInFromLeft')" 
-                            class="text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
+                            class="mb-8 text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
                             Powered by ICX</h2>
                         <div x-intersect="$el.classList.add('fadeInFromLeft')" class="space-y-8">
-                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICX is the currency that powers
-                                the
-                                ICON blockchain and ecosystem. ICX has a variety of use cases including staking, network governance,
-                                collateralization
-                                on DeFi platforms, and more.
-                            </p>
-                            <div  id="hero-buttons" class="flex flex-wrap gap-4">
-                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/") }}
-                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Buy ICX" "buttonUrl" "/learn/icx/#how-to-buy-icx") }}
-                            </div>
+                            
                             <div x-intersect="$el.classList.add('fadeInFromLeft')" class="flex gap-2.5 sm:gap-4">
                                 <div
                                     class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
@@ -136,6 +127,13 @@
                                             <script src="/assets/icx-staking-rate.js"></script>
                                         </div>
                                 </div>
+                            </div>
+
+                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON's native ICX coin fuels interoperability by acting as its L1 gas token, xCall cross-chain fee token and trading fee token with associated applications. 
+                                <br><br>🔥 A percentage of all these fees collected in ICX are burned.
+                            </p>
+                            <div  id="hero-buttons" class="flex flex-wrap gap-4">
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/") }}
                             </div>
                         </div>
                     </div>
