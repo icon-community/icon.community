@@ -2,7 +2,7 @@
     <button type="button"
         class="inline-flex items-center px-2 py-1 text-base font-medium rounded-md group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-xindigo"
         aria-expanded="false" @click="open = true">
-        <span id="hdev1" class="font-montserrat">Developers</span>
+        <span id="hdev1" class="font-montserrat">Documentation</span>
         <svg class="w-5 h-5 transform group " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
             aria-hidden="true" :class="open && 'rotate-180'">
             <path fill-rule="evenodd"
@@ -17,6 +17,16 @@
         x-transition:leave-end="opacity-0 translate-y-1" @click.outside="open = false">
         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">                    
             <div class="p-3 overflow-hidden bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 dark:bg-slate-800">
+                <a href="https://xcall.dev"
+                    class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
+                    id="hdev4">
+                    <img src="/assets/images/xcall_orb_black.png" alt="Black xCall Orb"  class="w-6 h-6"/>
+                    <div class="ml-4" id="hdev4">
+                        <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hdev4">Send Cross-Chain Messages
+                        </p>
+                        <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hdev4">Learn how to send messages across blockchains with xCall general message passing</p>
+                    </div>
+                </a>
                 <a href="https://docs.icon.community"
                     class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
                     id="hdev4">
@@ -27,63 +37,12 @@
                             d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
                     </svg>
                     <div class="ml-4" id="hdev4">
-                        <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hdev4">Documentation
+                        <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hdev4">Documentation (Legacy)
                         </p>
-                        <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hdev4">Learn how to develop
-                            dApps and smart
-                            contracts on the
-                            ICON blockchain.</p>
+                        <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hdev4">Visit the ICON Dev Portal</p>
                     </div>
                 </a>
-                <a href="/tutorials/"
-                class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
-                id="hres3">
-                <!-- Heroicon name: outline/chart-bar -->
-                <svg class="flex-shrink-0 w-6 h-6 text-xindigo"
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" 
-                    aria-hidden="true">
-                    <path stroke-linecap="round" stroke-width="2" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
-                </svg>
-                <div class="ml-4" id="hres3">
-                    <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hres3">Tutorials</p>
-                    <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hres3">Read in-depth tutorials about how to build on ICON.</p>
-                </div>
-                </a>
-                <a href="https://github.com/icon-project/java-score-examples"
-                    class="flex items-start p-3 transition duration-150 ease-in-out rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
-                    id="hdev5">
-                    <svg class="flex-shrink-0 w-6 h-6 text-xindigo"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-                    </svg>
-                    <div class="ml-4" id="hdev5">
-                        <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hdev5">Example
-                            Projects</p>
-                        <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hdev5">Kickstart your smart
-                            contract development
-                            workflow
-                            with these example projects.</p>
-                    </div>
-                </a>
-                <a href="https://immunefi.com/bounty/icon/"
-                    class="flex items-start p-3 transition duration-150 ease-in-out border border-white rounded-lg hover:bg-slate-100 hover:border-slate-200 dark:hover:bg-slate-900 dark:hover:border-slate-800 dark:border-slate-800 dark:hover:border-slate-700"
-                    id="hdev5">
-                    <svg class="flex-shrink-0 w-6 h-6 text-xindigo"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082" />
-                    </svg>
-                    <div class="ml-4" id="hdev7">
-                        <p class="text-base font-medium dark:text-slate-100 text-slate-900" id="hdev7">Bug Bounty
-                        </p>
-                        <p class="mt-1 text-sm dark:text-slate-400 text-slate-500" id="hdev5">
-                            Explore active bug bounties for ICON smart contracts and core blockchain software.
-                        </p>
-                    </div>
-                </a>
+                
             </div>
         </div>
     </div>

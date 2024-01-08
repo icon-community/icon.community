@@ -35,27 +35,10 @@
                     Apps use ICON to operate cross-chain seamlessly, build momentum and gain reputation.
                 </p>
                 <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
-                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://docs.icon.community/") }}
+                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://xcall.dev/") }}
                     {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Explore Ecosystem" "buttonUrl" "/ecosystem/") }}
                 </div>
             </div>
-            
-            <!-- OLD BLOG CARD -->
-            <!-- <div x-intersect="$el.classList.add('scale')" class="w-4/5 m-4 mt-10 overflow-hidden bg-transparent border shadow rounded-xl sm:w-1/3 sm:mt-0">
-                {{ $paginator := .Paginate (where $.Site.RegularPages "Section" "blog") 1 }}
-    
-                {{ range $paginator.Pages }}
-                {{ $data := newScratch }}
-                <div class="">
-                    <img src="{{ partial "seo/featured_image.html" . }}" 
-                    alt="{{ .Params.description }}" loading="lazy">
-                </div>
-                <div class="flex flex-col items-start justify-center p-4 space-y-2 bg-slate-200">
-                    <h1 class="text-lg font-extrabold">{{ .Title }}</h1>
-                    <p class="font-normal">{{ .Description }} <a href="{{ .Permalink }}" class="inline-block font-bold"> Read more.</a></p>
-                </div>  
-                {{ end }}             
-            </div>  -->
             
         </div>
     </div>
@@ -129,8 +112,8 @@
                                 </div>
                             </div>
 
-                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON's native ICX coin fuels interoperability by acting as its L1 gas token, xCall cross-chain fee token and trading fee token with associated applications. 
-                                <br><br>🔥 A percentage of all these fees collected in ICX are burned.
+                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON's native ICX coin fuels interoperability by acting as its L1 gas token and xCall cross-chain fee token. 
+                                <br><br>🔥 Fees collected in ICX are burned.
                             </p>
                             <div  id="hero-buttons" class="flex flex-wrap gap-4">
                                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/") }}
@@ -166,22 +149,17 @@
                 <div class="order-2 mt-12 sm:mt-16 lg:mt-0 lg:order-1">
                     <div x-intersect="$el.classList.add('scale')"  class="pr-4 -ml-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                         <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                            src="{{ partial "cdn_url.html" }}/assets/images/interoperability.png"
+                            src="{{ partial "cdn_url.html" }}/assets/images/puzzle-integrations.png"
                             alt="Decentralized, Fast, and Secure Interoperability" loading="lazy">
                     </div>
                 </div>
                 <div class="order-1 max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:order-2">
-                    <h2 x-intersect="$el.classList.add('fadeInFromRight')" class="text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-50">Decentralized,
-                        Fast, and Secure
-                        Interoperability</h2>
-                    <div x-intersect="$el.classList.add('fadeInFromRight')" class="space-y-8 text-[#E6F7FA]">
-                        <p class="mt-4 text-lg text-slate-200">ICON's Blockchain Transmission Protocol (BTP) enables
-                            <span class="font-bold">cross-chain communication</span> between smart contract-enabled blockchains. 
-                        </br> 
-                            ICON is pushing for wider adoption of ICON interoperability standards in the industry by supporting not only <span class="font-bold">BTP</span> but also other interoperability protocols such as <span class="font-bold">IBC</span>, <span class="font-bold">Optimistic Rollups</span> and <span class="font-bold">Zero Knowledge Proofs</span>.
+                    <h2 x-intersect="$el.classList.add('fadeInFromRight')" class="mb-8 text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-50">Discover the xCall Roadmap</h2>
+                    <div x-intersect="$el.classList.add('fadeInFromRight')" class="space-y-8 text-[#E6F7FA] text-lg">
+                        The ICON Cross-Chain Framework consists of a robust L1 blockchain, xCall General Message Passing and a growing list of connected blockchains and integrated bridging protocols. 
                         </p>
                         <div id="hero-buttons" class="flex flex-wrap gap-4">
-                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "More on BTP" "buttonUrl" "/learn/btp/") }}
+                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "View Integration Roadmap" "buttonUrl" "/integrations") }}
                         </div>
                     </div>
                 </div>
@@ -192,20 +170,14 @@
                 <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
                         <h2 x-intersect="$el.classList.add('fadeInFromLeft')" 
-                            class="text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
-                            Develop Smart Contracts in Java
+                            class="mb-8 text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
+                            Develop Across Blockchains
                         </h2>
                         <div x-intersect="$el.classList.add('fadeInFromLeft')" class="space-y-8">
-                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON blockchain smart contracts are written
-                                in
-                                Java, a
-                                general-purpose programming language known for <span class="font-bold">performance, safety, and reliability</span>. If
-                                you're a Java developer looking to get into smart contract development, you'll feel
-                                right at home on ICON.
+                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">Apps, written in any programming language, can use the ICON Cross-Chain Framework across many blockchains.
                             </p>
                             <div  id="hero-buttons" class="flex flex-wrap gap-4">
-                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Read Docs" "buttonUrl" "https://docs.icon.community/") }}
-                                {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "/icondiscord/") }}
+                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "/icondiscord/") }}
                             </div>
                         </div>
                     </div>
@@ -213,7 +185,7 @@
                 <div class="mt-12 sm:mt-16 lg:mt-0">
                     <div x-intersect="$el.classList.add('scale')" class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                         <img class="w-full rounded-lg lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                            src="{{ partial "cdn_url.html" }}/assets/images/java-score.png"
+                            src="{{ partial "cdn_url.html" }}/assets/images/languages.png"
                             alt="Develop Java smart contracts." loading="lazy">
                     </div>
                 </div>
@@ -370,7 +342,7 @@
             <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-slate-600">
                 ICON is a
                 place for everyone, whether you're new to crypto or building a project. Start exploring the ICON
-                blockchain and ecosystem today!
+                cross-chain ecosystem today!
             </p>
         </div>
         <div x-intersect="$el.classList.add('fadeInUp')" 
@@ -389,17 +361,13 @@
                 </div>
                 <div class="mt-6" id="p1">
                     <h3 class="text-lg font-medium">
-                        <a href="/learn/btp/" class="focus:outline-none dark:text-slate-50">
+                        <a href="https://www.xcall.dev/what-is-xcall" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
                             <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p1"></span>
-                            What is BTP?
+                            What is xCall?
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p1">Learn about ICON's Blockchain
-                        Transmission
-                        Protocol (BTP), a
-                        trustless bridging protocol that connects ICON to chains like Binance Smart
-                        Chain, NEAR, Harmony, and more.</p>
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p1">Learn about ICON's cross-chain messaging interface deployable on any protocol.</p>
                 </div>
                 <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
@@ -460,17 +428,13 @@
                 </div>
                 <div class="mt-6" id="p3">
                     <h3 class="text-lg font-medium">
-                        <a href="/learn/icon-bridge/" class="focus:outline-none dark:text-slate-50">
+                        <a href="/integrations/" class="focus:outline-none dark:text-slate-50">
                             <!-- Extend touch target to entire panel -->
                             <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p3"></span>
-                            What is ICON Bridge?
+                            Which Blockchains Connect?
                         </a>
                     </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p3">Learn how to swap tokens across
-                        ICON,
-                        Binance Smart Chain,
-                        Moonbeam, and more with ICON Bridge – an easy to use bridging solution operated by ICON
-                        Foundation.</p>
+                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p3">Check out the growing list of bliockchains on which apps, written in any programming language, can use the ICON Cross-Chain Framework.</p>
                 </div>
                 <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
                     aria-hidden="true">
