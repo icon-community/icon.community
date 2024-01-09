@@ -4,7 +4,7 @@ canonifyURLs: true
 baseURL: https://icon.community/
 
 title: "ICON Community"
-description: "ICON is a public blockchain protocol building a hyperconnected future with BTP and xCall Service"
+description: "ICON's Cross-Chain Framework simplifies cross-chain development with its easy-to-use xCall messaging standard and connections to secure bridging protocols."
 
 permalinks:
   post: :slug/

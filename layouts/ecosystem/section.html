@@ -10,18 +10,21 @@
         <p class="max-w-6xl mx-auto text-lg font-bold text-[#2FB6B9] mb-6 sm:mb-0">
             Discover the blockchains, dApps, communities, infrastructure, enterprises, and institutions that make up the ICON ecosystem. 
         </p>
-        <div class="flex flex-col items-start justify-center p-2 shadow-sm sm:flex-row sm:p-10 lg:items-center bg-slate-100 sm:bg-transparent rounded-xl sm:shadow-none">
+        <div class="flex flex-col items-center justify-center p-2 shadow-sm sm:p-10 bg-slate-100 sm:bg-transparent rounded-xl sm:shadow-none">
             <div class="flex flex-col items-center justify-center w-full p-5 sm:w-1/2 lg:flex-row">
                 <div class="w-[100px] lg:w-[250px] ">
                     <a href="https://icon.community/xcall/"><img class="" src='/assets/images/xcall.png' alt='xCall service' height="154" width="542"/></a>
                 </div>               
                 <p class="px-4 pt-4 text-left lg:pt-0 sm:text-center lg:text-justify">A key feature of BTP and <span class="font-semibold text-[#2FB6B9] ">ICON's unique standard</span> for generic cross-chain messaging between heterogeneous blockchains. </p>
             </div>
-            <div class="flex flex-col items-center justify-center w-full p-5 border-l-0 sm:border-l-2 sm:w-1/2 lg:flex-row">
+            <!-- <div class="flex flex-col items-center justify-center w-full p-5 border-l-0 sm:border-l-2 sm:w-1/2 lg:flex-row">
                 <div class="w-[100px] lg:w-[200px]  ">
                     <img class="" src='/assets/images/btp.png' alt='Blockchain Transmission Protocol' height="138" width="499"/>
                 </div>               
                 <p class="px-4 pt-4 text-left lg:pt-0 sm:text-center lg:text-justify">Blockchain Transmission Protocol is an entirely new <span class="font-semibold text-[#2FB6B9] ">protocol for cross-chain messaging</span> which is chain-agnostic, scalable, and secure.</p>
+            </div> -->
+            <div id="hero-buttons" class="flex flex-wrap gap-4">
+                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "View Integration Roadmap" "buttonUrl" "/integrations") }}
             </div>
         </div>
         <!-- <div class="mt-4">
