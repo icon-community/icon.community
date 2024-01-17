@@ -7,31 +7,50 @@
 <div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 lg:mb-24 max-w-7xl font-montserrat">   
     <!-- ECOSYSTEM TEXT -->
     <header class="p-6 mx-auto text-center">
-        <p class="max-w-6xl mx-auto text-lg font-bold text-[#2FB6B9] mb-6 sm:mb-0">
-            Discover the blockchains, dApps, communities, infrastructure, enterprises, and institutions that make up the ICON ecosystem. 
-        </p>
-        <div class="flex flex-col items-center justify-center p-2 shadow-sm sm:p-10 bg-slate-100 sm:bg-transparent rounded-xl sm:shadow-none">
-            <div class="flex flex-col items-center justify-center w-full p-5 sm:w-1/2 lg:flex-row">
-                <div class="w-[100px] lg:w-[250px] ">
-                    <a href="https://icon.community/xcall/"><img class="" src='/assets/images/xcall.png' alt='xCall service' height="154" width="542"/></a>
+        <div class="py-12">
+            <img class="w-40 pb-4 mx-auto" src="/xcall.png" alt="xCall Cross-Chain General Message Passing" />
+            <p class="w-1/2 mx-auto">Apps integrate xCall general message passing to operate cross-chain seamlessly, build momentum and gain reputation. <a class="inline-block font-bold text-icon" href="/integrations">Can my app use xCall?</a></p>
+        </div>
+        <div class="grid grid-cols-2 gap-4 pb-12">
+            <div class="flex flex-col w-full px-4 py-8 space-y-4 shadow-md h-[300px] rounded-xl">
+                <!-- title -->
+                <h2 class="flex items-center font-bold font-montserrat text-slate-700/40">Latest from <img class="w-40" src="/medium.png" alt="'ICON Content on Medium"/></h2>
+                <!-- content -->
+                <div class="flex items-start flex-grow">
+                    <div>
+                        <img id="medium-image" class="aspect-video w-60 rounded-xl" src="" alt="" />
+                    </div>
+                    <div class="px-4 py-1 space-y-2 text-start">
+                        <h1 class="font-bold text-icon" id="medium-title"></h1>
+                        <p class="font-semibold text-slate-700/40" id="medium-date"></p>
+                    </div>
                 </div>               
-                <p class="px-4 pt-4 text-left lg:pt-0 sm:text-center lg:text-justify">A key feature of BTP and <span class="font-semibold text-[#2FB6B9] ">ICON's unique standard</span> for generic cross-chain messaging between heterogeneous blockchains. </p>
+                <!-- button -->
+                <div class="flex justify-end w-full">
+                    <button id="medium-cta" class="px-4 py-2 font-bold text-white rounded-full bg-icon">Read Article</button>
+                </div>
+                <script src="/assets/fetchMediumRssFeed.js"></script>
             </div>
-            <!-- <div class="flex flex-col items-center justify-center w-full p-5 border-l-0 sm:border-l-2 sm:w-1/2 lg:flex-row">
-                <div class="w-[100px] lg:w-[200px]  ">
-                    <img class="" src='/assets/images/btp.png' alt='Blockchain Transmission Protocol' height="138" width="499"/>
+            <div class="flex flex-col w-full px-4 py-8 space-y-4 shadow-md h-[300px] rounded-xl">
+                <!-- title -->
+                <h2 class="flex items-center font-bold font-montserrat text-slate-700/40">Latest from <img class="w-40" src="/youtube.png" alt="'ICON Content on YouTube"/></h2>
+                <!-- content -->
+                <div class="flex items-start flex-grow">
+                    <div class="overflow-hidden border border-black relative w-[240px] h-[135px] rounded-xl">
+                        <img id="youtube-image" class="absolute top-0 left-0 object-cover w-full h-full" src="" alt="" />
+                    </div>                    
+                    <div class="px-4 py-1 space-y-2 text-start">
+                        <h1 class="font-bold text-icon" id="youtube-title"></h1>
+                        <p class="font-semibold text-slate-700/40" id="youtube-date"></p>
+                    </div>
                 </div>               
-                <p class="px-4 pt-4 text-left lg:pt-0 sm:text-center lg:text-justify">Blockchain Transmission Protocol is an entirely new <span class="font-semibold text-[#2FB6B9] ">protocol for cross-chain messaging</span> which is chain-agnostic, scalable, and secure.</p>
-            </div> -->
-            <div id="hero-buttons" class="flex flex-wrap gap-4">
-                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "View Integration Roadmap" "buttonUrl" "/integrations") }}
+                <!-- button -->
+                <div class="flex justify-end w-full">
+                    <button id="youtube-cta" class="px-4 py-2 font-bold text-white rounded-full bg-icon">Watch Video</button>
+                </div>
+                <script src="/assets/fetchYoutubeRssFeed.js"></script>
             </div>
         </div>
-        <!-- <div class="mt-4">
-            <button data-tf-slider="MBBDnTNG" data-tf-width="550" data-tf-iframe-props="title=Add your project to the ICON Ecosystem" data-tf-medium="snippet" 
-            style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#2CA9B7;color:#ffffff;font-size:16px;border-radius:6px;padding:0 20px;font-weight:bold;height:36px;cursor:pointer;line-height:36px;text-align:center;margin:0;text-decoration:none;">Add Your Project</button>
-            <script src="//embed.typeform.com/next/embed.js"></script>
-        </div> -->
     </header>
     <div id="filter-buttons" class="px-4 mb-16 text-center">
         <span class="relative z-0 inline-flex flex-wrap items-center justify-center gap-2 mx-auto shadow-none lg:shadow-sm lg:gap-0">
