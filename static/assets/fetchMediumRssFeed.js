@@ -42,7 +42,8 @@ async function fetchMediumRssFeed() {
         // Update the HTML elements
         document.getElementById('medium-title').textContent = title;
         document.getElementById('medium-date').textContent = formattedDate;
-        document.getElementById('medium-cta').setAttribute('href', link);
+        // document.getElementById('medium-cta').setAttribute('href', link);
+        document.getElementById('medium-cta').onclick = () => window.open(link, '_blank');
         document.getElementById('medium-card').classList.remove('opacity-0');
 
         if (imageUrl) {
