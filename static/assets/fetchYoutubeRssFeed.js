@@ -28,7 +28,9 @@ async function fetchYoutubeRssFeed() {
         document.getElementById('youtube-date').textContent = formattedDate;
         document.getElementById('youtube-image').src = thumbnailUrl;
         document.getElementById('youtube-cta').onclick = () => window.open(link, '_blank');
-        
+        document.getElementById('youtube-card').classList.remove('opacity-0');
+
+
     } catch (error) {
         console.error('Error fetching YouTube RSS feed:', error);
     }
@@ -36,7 +38,7 @@ async function fetchYoutubeRssFeed() {
 
 function formatDate(dateString) {
     const date = new Date(dateString);
-    return date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 fetchYoutubeRssFeed();

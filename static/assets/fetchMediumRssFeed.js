@@ -43,7 +43,8 @@ async function fetchMediumRssFeed() {
         document.getElementById('medium-title').textContent = title;
         document.getElementById('medium-date').textContent = formattedDate;
         document.getElementById('medium-cta').setAttribute('href', link);
-        
+        document.getElementById('medium-card').classList.remove('opacity-0');
+
         if (imageUrl) {
             document.getElementById('medium-image').src = imageUrl;
         }
