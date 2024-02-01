@@ -10,14 +10,12 @@
         class="relative px-4 py-0 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
 
         <!-- The image -->
-        <div class="block sm:hidden">
-            <img src="/assets/images/hero-xcall-low.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
-        </div>
-        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px] hidden sm:block xl:hidden">
-            <img src="/assets/images/hero-xcall-mid.png" alt="integrate with xcall mid" loading="lazy" class="object-cover w-full h-full"/>
+        
+        <div x-intersect="$el.classList.add('scale')" class="absolute top-0 bottom-0 hidden left-1/2 sm:block xl:hidden">
+            <img src="{{ partial "cdn_url.html" }}/assets/images/welcome.png" alt="integrate with xcall mid" loading="lazy" class="object-cover w-full h-full"/>
         </div> 
-        <div class="absolute top-0 bottom-0 left-0 -right-[600px] lg:-right-[800px] hidden xl:block">
-            <img src="/assets/images/hero-xcall.png" alt="integrate with xcall large" loading="lazy" class="object-cover w-full h-full"/>
+        <div x-intersect="$el.classList.add('scale')" class="absolute top-0 bottom-0 hidden left-1/2 xl:block">
+            <img src="{{ partial "cdn_url.html" }}/assets/images/welcome.png" alt="integrate with xcall large" loading="lazy" class="object-cover w-full h-full"/>
         </div>  
         <!-- Shape divider -->
         <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
@@ -28,11 +26,14 @@
         
         <div class="relative flex flex-col items-center justify-start mx-auto sm:flex-row max-w-7xl z-1 -translate-y-[60px] sm:translate-y-0">
             <div class="w-full p-0 sm:w-2/3 sm:p-8">
-                <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-3xl font-extrabold tracking-tight text-center sm:text-left lg:text-6xl text-slate-50">
+                <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-full mb-4 text-3xl font-extrabold tracking-tight text-center pt-28 sm:text-left sm:pt-0 lg:text-6xl text-slate-50">
                     Go Cross-Chain<br> with ICON
                 </h1>
+                <div x-intersect="$el.classList.add('scale')" class="block -my-8 sm:hidden">
+                    <img src="{{ partial "cdn_url.html" }}/assets/images/welcome.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
+                </div>
                 <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
-                    Apps use ICON to operate cross-chain seamlessly, build momentum and gain reputation.
+                    ICON is an interoperability layer that helps teams and developers build successful cross-chain apps.
                 </p>
                 <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
                     {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://xcall.dev/") }}
@@ -42,153 +43,77 @@
             
         </div>
     </div>
-    
-    <!-- NEWS/BLOG CAROUSEL -->
-    <!-- <div class="relative">
-        <div class="px-6 overflow-hidden">
-          <div class="flex items-center h-16 mx-auto overflow-hidden max-w-7xl">
-            <div class="overflow-hidden bg-gray-200 rounded-lg ">
-              <div class="relative flex marquee-parent">
-                <div class="absolute top-0 bottom-0 right-0 w-[40px] sm:w-[80px] bg-gradient-to-r from-transparent to-gray-200 z-10"></div>
-                <div class="absolute top-0 bottom-0 left-0 w-[150px] sm:w-[250px] bg-gradient-to-r from-gray-200 via-gray-200 to-transparent z-10"></div>
-                <div class="relative z-20 flex items-center justify-center px-4 py-1 text-[10px] font-semibold text-white uppercase bg-black sm:text-[14px] sm:px-8 font-montserrat">
-                    Latest
-                </div>
-                    <div class="relative flex flex-row items-center justify-start w-full animate-marquee">
-                        
-                        {{ range first 5 (where $.Site.RegularPages "Section" "blog") }}
-                        <a href="{{ .Permalink }}" class="relative flex flex-row items-center justify-center mr-8 text-sm font-semibold text-black font-montserrat whitespace-nowrap ">{{ .Title }}
-                            <img src="/assets/images/icx.svg" height="20px" width="20px" alt="ICON Blockchain Blog News" class="ml-2"/>
-                        </a>
-                        {{ end }} 
-                    </div>           
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
       
     <div class="relative overflow-hidden ">       
-        <div id="powered-by-icx" class="relative py-16 sm:py-24">
-            <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-                <div class="max-w-xl px-4 sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-                    <div>
-                        <h2 x-intersect="$el.classList.add('fadeInFromLeft')" 
-                            class="mb-8 text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
-                            Powered by ICX</h2>
-                        <div x-intersect="$el.classList.add('fadeInFromLeft')" class="space-y-8">
-                            
-                            <div x-intersect="$el.classList.add('fadeInFromLeft')" class="flex gap-2.5 sm:gap-4">
-                                <div
-                                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
-                                    <h3
-                                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
-                                        ICX Price</h3>
-                                    <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
-                                        <h1 class="">$</h1><h1 id="stock-price">---</h1>
-                                        <script src="/assets/icx-price.js"></script>
-                                    </div>
-                                </div>
-                                <div
-                                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
-                                    <h3
-                                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
-                                        Market Cap</h3>
-                                        <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
-                                            <h1 class="">$</h1><h1 id="market-cap">---</h1>
-                                            <script src="/assets/icx-marketcap.js"></script>
-                                        </div>
-                                </div>
-                                <div
-                                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
-                                    <h3
-                                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
-                                        Staking APY
-                                    </h3>
-                                        <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
-                                            <h1 id="staking-rate">---</h1><h1 class=""></h1>
-                                            <script src="/assets/bignumber.js" ></script>
-                                            <script src="/assets/icx-staking-rate.js" defer></script>
-                                        </div>
-                                </div>
-                            </div>
-
-                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">ICON's native ICX coin fuels interoperability by acting as its L1 gas token and xCall cross-chain fee token. 
-                                <br><br>🔥 Fees collected in ICX are <a class="font-semibold text-icon-dark" target="_blank" href="https://www.xcall.dev/explanations/fees">burned</a>.
-                            </p>
-                            <div  id="hero-buttons" class="flex flex-wrap gap-4">
-                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/") }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div x-intersect="$el.classList.add('scale')" class="relative pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                        <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                            src="{{ partial "cdn_url.html" }}/assets/images/powered-by-icx.jpg"
+        <div id="powered-by-icx" class="relative px-4 py-16 mx-auto lg:px-8 max-w-7xl sm:py-24 ">
+            <div x-intersect="$el.classList.add('fadeInFromLeft')" class="w-full -mb-[20px] text-left  md:-mb-[170px]">
+                <h1 class="text-3xl font-extrabold text-slate-500 lg:text-6xl">Interoperability <br>in Action</h1>
+                <p class="my-4 text-lg sm:my-8 lg:text-xl">First use-case to unlock chains beyond Cosmos using native IBC.</p> 
+            </div>  
+            <div x-intersect="$el.classList.add('scale')" class="">
+                <img class="w-full sm:w-[1000px]"
+                            src="{{ partial "cdn_url.html" }}/assets/images/balanced.png"
                             alt="ICON is powered by ICX." loading="lazy">
-                        <a href='/ecosystem' class="absolute z-20 rounded-full sm:h-[80px] sm:w-[120px] h-[75px] w-[120px] left-[205px] sm:left-[310px] lg:left-[265px] top-[20px] sm:top-[30px]"></a>
-                    </div>
+            </div> 
+            <div x-intersect="$el.classList.add('fadeInFromRight')" class="flex flex-col items-end justify-center -mt-[40px] text-right  md:-mt-[250px]">
+                <h2 class="text-2xl font-extrabold text-slate-500 lg:text-3xl">Experience the ICON <br>Interoperability Framework</h2>
+                <p class="w-11/12 my-4 text-lg sm:my-8 lg:text-xl md:w-1/2">Balanced bridges to Archway using ICON technology, all accessible through native applications (Hana)</p>
+                <div class="flex items-center justify-end space-x-4">
+                    <img src="{{ partial "cdn_url.html" }}/assets/images/balanced-logo-dark.svg" alt="Balanced bridges to Archway using ICON technology, all accessible through native applications (Hana)" loading="lazy"/>
+                    {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Swap Cross-Chain" "buttonUrl" "https://balanced.network/") }}
                 </div>
             </div>
         </div>
-        <div id="decentralized-fast-secure-interoperability"
-            class="relative py-16 bg-radial-at-br from-rookteal-dark via-rookteal-light to-rookteal-dark sm:py-24">
+    </div>
+        
+    <div id="decentralized-fast-secure-interoperability"
+            class="relative py-8 bg-radial-at-br from-rookteal-dark via-rookteal-light to-rookteal-dark ">
             <!-- Shape divider top of panel-->
             <div class="absolute left-0 w-full overflow-hidden leading-none -top-1">
-                <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <svg class="relative scale-x-[-1] block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
                 </svg>
             </div>
-            <!-- Shape divider bottom of panel-->
-            <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
-                <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
-                </svg>
-            </div>
-            <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-                <div class="order-2 mt-12 sm:mt-16 lg:mt-0 lg:order-1">
-                    <div x-intersect="$el.classList.add('scale')"  class="pr-4 -ml-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                        <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                            src="assets/images/puzzle-integrations.png"
-                            alt="Decentralized, Fast, and Secure Interoperability" loading="lazy">
-                    </div>
+            
+            <div class="relative flex flex-col justify-between px-2 py-8 mx-auto lg:px-8 max-w-7xl md:flex-row">
+                <div class="space-y-8 text-center md:text-left">
+                    <h3 class="text-xl font-thin uppercase text-white/80">Highlighted Connections</h3>
+                    <img class="mx-auto md:mx-0" src="{{ partial "cdn_url.html" }}/assets/images/connections.svg" alt="ICON Connects to Ethereum, Injective, BNB Chain, Archway and Neutron" loading="lazy"/>
+                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "View Integrations" "buttonUrl" "/integrations") }}
                 </div>
-                <div class="order-1 max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:order-2">
-                    <h2 x-intersect="$el.classList.add('fadeInFromRight')" class="mb-8 text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-50">Discover the xCall Roadmap</h2>
-                    <div x-intersect="$el.classList.add('fadeInFromRight')" class="space-y-8 text-[#E6F7FA] text-lg">
-                        The ICON Cross-Chain Framework consists of a robust L1 blockchain, xCall General Message Passing and a growing list of connected blockchains and integrated bridging protocols. 
-                        </p>
-                        <div id="hero-buttons" class="flex flex-wrap gap-4">
-                            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "View Integration Roadmap" "buttonUrl" "/integrations") }}
-                        </div>
-                    </div>
+                
+                <div class="px-8 mt-16 space-y-4 text-center border-r-2 md:text-right md:mt-0 border-white/0 md:border-white/60">
+                    <h3 class="text-xl font-thin uppercase text-white/80">Media Partners</h3>
+                    <img class="mx-auto md:mx-0"  src="{{ partial "cdn_url.html" }}/assets/images/hackernoon-logo.svg" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
+                    <a class="block text-center cursor-pointer md:text-right font-courier text-white/80 hover:text-white" ahref="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank">"Archway Users Now Have <br>Access to Balanced"</a>
+                    <p class="font-semibold text-center text-white md:text-right">December 19th 2023</p>
                 </div>
             </div>
         </div>
         <div id="develop-in-java" class="relative py-16 sm:py-24">
-            <div class="grid lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-                <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-                    <div>
-                        <h2 x-intersect="$el.classList.add('fadeInFromLeft')" 
-                            class="mb-8 text-4xl font-extrabold tracking-tight lg:text-5xl dark:text-slate-50 text-slate-900">
-                            Develop Across Blockchains
-                        </h2>
-                        <div x-intersect="$el.classList.add('fadeInFromLeft')" class="space-y-8">
-                            <p  class="mt-4 text-lg dark:text-slate-400 text-slate-600">Apps, written in any programming language, can use the ICON Cross-Chain Framework across many blockchains.
-                            </p>
-                            <div  id="hero-buttons" class="flex flex-wrap gap-4">
-                                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Join Dev Discord" "buttonUrl" "/icondiscord/") }}
-                            </div>
+            <div class="relative flex flex-col items-center justify-center mx-auto sm:justify-start sm:flex-row max-w-7xl z-1 sm:translate-y-0">
+                <div class="w-full p-0 sm:w-2/3 sm:p-8">
+                    <div class="flex items-center mx-auto ">
+                        <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-1/2 pt-0 pl-4 mb-0 text-4xl font-extrabold tracking-tight text-left sm:mb-4 sm:pl-0 sm:w-full sm:pt-28 lg:text-6xl text-slate-500">
+                            Increasing<br> Network <br class="block sm:hidden">Value
+                        </h1>
+                        <div  x-intersect="$el.classList.add('fadeInFromRight')" class="block w-1/2 overflow-hidden sm:hidden">
+                            <img class="translate-x-16 scale-[100%]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
                         </div>
                     </div>
-                </div>
-                <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div x-intersect="$el.classList.add('scale')" class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                        <img class="w-full rounded-lg lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                            src="{{ partial "cdn_url.html" }}/assets/images/languages.png"
-                            alt="Develop Java smart contracts." loading="lazy">
+                    <h2 x-intersect="$el.classList.add('fadeInUp')" class="w-full px-4 mb-4 text-xl font-extrabold tracking-tight text-left sm:px-0 lg:text-3xl text-slate-500">
+                        The value of cross-chain activity gets captured <br> in the ICX token.
+                    </h2>
+                    
+                    <p x-intersect="$el.classList.add('fadeInUp')" class="px-4 mb-8 text-lg text-left sm:px-0 md:text-xl">
+                        All fees generated by applications using ICON technology, whether they are on the ICON L1 or not, get burned on-chain.
+                    </p>
+                    <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
+                        {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "How to get ICX" "buttonUrl" "/hanawallet/") }}
                     </div>
+                </div>
+                <div  x-intersect="$el.classList.add('fadeInFromRight')" class="hidden w-1/2 sm:block">
+                    <img class="scale-[120%]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
                 </div>
             </div>
         </div>
@@ -232,7 +157,7 @@
             <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4">
                 {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Create a Proposal" "buttonUrl" "https://cps.icon.community") }}
             </div>
-        </div>
+        <!-- </div>
         <div x-intersect="$el.classList.add('fadeInUp')" id="cps_features">
             <div class="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-4 text-[#E6F7FA]">
                 <h2 class="sr-only">Easy Application Process</h2>
@@ -331,8 +256,8 @@
                             project? Bootstrap your CPS-funded project with ICON's tight-knit community.</dd>
                     </div>
                 </dl>
-            </div>
-        </div>
+            </div> -->
+        </div> 
     </div>
     <div class="px-4 py-16 sm:py-24">
         <div>

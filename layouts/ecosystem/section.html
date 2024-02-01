@@ -1,16 +1,56 @@
 {{ define "container" }}
 {{ $data := newScratch }}
 {{ $ecosystemMembers := where $.Site.RegularPages "Section" "ecosystem" }}
-<div class="w-full">
-    <img class='object-cover min-h-40' src='/assets/images/ecosystem-hero.png' alt='ICON Ecosystem'/>
+<div class="w-full ">
+    <img class='object-cover mx-auto min-h-40' src='/assets/images/ecosystem-hero.png' alt='ICON Ecosystem'/>
 </div>
 <div x-data="{ visibility: 'all' }" id="container" class="mx-auto mb-16 lg:mb-24 max-w-7xl font-montserrat">   
     <!-- ECOSYSTEM TEXT -->
     <header class="p-6 mx-auto text-center">
         <div class="py-12">
             <img class="w-40 pb-4 mx-auto" src="/xcall.png" alt="xCall Cross-Chain General Message Passing" />
-            <p class="w-11/12 mx-auto sm:w-1/2">Apps integrate xCall general message passing to operate cross-chain seamlessly, build momentum and gain reputation. <a class="inline-block font-bold text-icon" href="/integrations">Can my app use xCall?</a></p>
+            <p  x-intersect="$el.classList.add('fadeInFromLeft')" class="w-11/12 mx-auto sm:w-1/2">Apps integrate xCall general message passing to operate cross-chain seamlessly, build momentum and gain reputation. <a class="inline-block font-bold text-icon" href="/integrations">Can my app use xCall?</a></p>
+            <div x-intersect="$el.classList.add('fadeInFromRight')" class="flex gap-2.5 sm:gap-4 mx-auto w-fit my-8">
+                <div
+                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
+                    <h3
+                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
+                        ICX Price</h3>
+                    <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
+                        <h1 class="">$</h1><h1 id="stock-price">---</h1>
+                        <script src="/assets/icx-price.js"></script>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
+                    <h3
+                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
+                        Market Cap</h3>
+                        <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
+                            <h1 class="">$</h1><h1 id="market-cap">---</h1>
+                            <script src="/assets/icx-marketcap.js"></script>
+                        </div>
+                </div>
+                <div
+                    class="flex flex-col p-2 space-y-1 border rounded-lg sm:p-3 dark:bg-slate-800 dark:border-slate-700 bg-slate-100 border-slate-200">
+                    <h3
+                        class="text-xs font-bold tracking-tight uppercase dark:text-slate-400 text-slate-600">
+                        Staking APY
+                    </h3>
+                        <div class='flex space-x-1 font-semibold font-montserrat dark:text-slate-400 text-slate-600'>
+                            <h1 id="staking-rate">---</h1><h1 class=""></h1>
+                            <script src="/assets/bignumber.js" ></script>
+                            <script src="/assets/icx-staking-rate.js" defer></script>
+                        </div>
+                </div>
+            </div>
+            <div x-intersect="$el.classList.add('fadeInFromLeft')" class="w-11/12 mx-auto sm:w-1/2 ">
+                <p class="">ICON's native ICX coin fuels interoperability by acting as its L1 gas token and xCall cross-chain fee token. 🔥 Fees collected in ICX are <a class="font-semibold text-icon" target="_blank" href="https://www.xcall.dev/explanations/fees">burned</a>.
+                </p>
+            </div>
         </div>
+        
+           
         <div class="grid grid-cols-1 gap-4 pb-12 sm:grid-cols-2">
             <div id='medium-card' class="opacity-0 flex flex-col w-full px-4 py-8 space-y-4 shadow-md h-[420px] sm:h-[320px] rounded-xl">
                 <!-- title -->

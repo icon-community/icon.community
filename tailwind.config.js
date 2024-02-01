@@ -52,6 +52,7 @@ module.exports = {
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
         'lemon': ['LEMON', 'sans-serif'],
+        'courier': ['Courier', 'sans-serif'],
       },
       cursor: {
         'xcall': 'url(/assets/images/xcall_orb2.png), pointer',

@@ -5,7 +5,7 @@
                 <picture>
                     <!--<source srcset="/assets/images/icon/logo-dark.png" media="(prefers-color-scheme: dark)">
                     <source srcset="/assets/images/icon/logo-light.png" media="(prefers-color-scheme: light)">-->
-                    <img class="w-auto h-8" src="{{ partial "cdn_url.html" }}/assets/images/icon/logo-light.png"
+                    <img class="w-auto h-8" src="{{ partial "cdn_url.html" }}/assets/images/icon/icon-white.svg"
                         alt="ICON Community">
                 </picture>
             </a>
@@ -22,7 +22,7 @@
                 </svg>
             </button>
         </div>
-        <nav role="navigation" class="items-center hidden lg:flex sm:space-x-6 md:space-x-8 lg:space-x-12">
+        <nav role="navigation" class="items-center hidden lg:flex sm:space-x-6 md:space-x-8 ">
             <!-- {{ partial "layout/navigation/dropdown_xcall.html" . }} -->
             {{ partial "layout/navigation/dropdown_developers.html" . }}
             {{ partial "layout/navigation/dropdown_ecosystem.html" . }}
@@ -30,7 +30,7 @@
             {{ partial "layout/navigation/dropdown_community.html" . }}
         </nav>
         <div class="justify-end hidden lg:block" id="hwal1">
-            {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/" )}}
+            {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://xcall.dev" )}}
         </div>
     </div>
     {{ partial "layout/navigation/navigation_mobile.html" . }}
