@@ -39,6 +39,7 @@ module.exports = {
       'xindigo': '#4a3d60',
       'xgreen': '#34b8bb',
       'xteal': '#5cffe3',
+      'xgray': '#5A6B80',
     },
     screens: {
       'xs': '360px',

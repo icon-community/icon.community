@@ -47,7 +47,7 @@
     <div class="relative overflow-hidden ">       
         <div id="powered-by-icx" class="relative px-4 py-16 mx-auto lg:px-8 max-w-7xl sm:py-24 ">
             <div x-intersect="$el.classList.add('fadeInFromLeft')" class="w-full -mb-[20px] text-left  md:-mb-[170px]">
-                <h1 class="text-3xl font-extrabold text-slate-500 lg:text-6xl">Interoperability <br>in Action</h1>
+                <h1 class="text-3xl font-extrabold !leading-tight text-xgray lg:text-6xl">Interoperability <br>in Action</h1>
                 <p class="my-4 text-lg sm:my-8 lg:text-xl">First use-case to unlock chains beyond Cosmos using native IBC.</p> 
             </div>  
             <div x-intersect="$el.classList.add('scale')" class="">
@@ -56,7 +56,7 @@
                             alt="ICON is powered by ICX." loading="lazy">
             </div> 
             <div x-intersect="$el.classList.add('fadeInFromRight')" class="flex flex-col items-end justify-center -mt-[40px] text-right  md:-mt-[250px]">
-                <h2 class="text-2xl font-extrabold text-slate-500 lg:text-3xl">Experience the ICON <br>Interoperability Framework</h2>
+                <h2 class="text-2xl font-extrabold text-xgray lg:text-3xl">Experience the ICON <br>Interoperability Framework</h2>
                 <p class="w-11/12 my-4 text-lg sm:my-8 lg:text-xl md:w-1/2">Balanced bridges to Archway using ICON technology, all accessible through native applications (Hana)</p>
                 <div class="flex items-center justify-end space-x-4">
                     <img src="{{ partial "cdn_url.html" }}/assets/images/balanced-logo-dark.svg" alt="Balanced bridges to Archway using ICON technology, all accessible through native applications (Hana)" loading="lazy"/>
@@ -77,15 +77,15 @@
             
             <div class="relative flex flex-col justify-between px-2 py-8 mx-auto lg:px-8 max-w-7xl md:flex-row">
                 <div class="space-y-8 text-center md:text-left">
-                    <h3 class="text-xl font-thin uppercase text-white/80">Highlighted Connections</h3>
+                    <h3 class="font-light uppercase text-md text-white/60">Highlighted Connections</h3>
                     <img class="mx-auto md:mx-0" src="{{ partial "cdn_url.html" }}/assets/images/connections.svg" alt="ICON Connects to Ethereum, Injective, BNB Chain, Archway and Neutron" loading="lazy"/>
                     {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "View Integrations" "buttonUrl" "/integrations") }}
                 </div>
                 
                 <div class="px-8 mt-16 space-y-4 text-center border-r-2 md:text-right md:mt-0 border-white/0 md:border-white/60">
-                    <h3 class="text-xl font-thin uppercase text-white/80">Media Partners</h3>
+                    <h3 class="font-light uppercase text-md text-white/60">Media Partners</h3>
                     <img class="mx-auto md:mx-0"  src="{{ partial "cdn_url.html" }}/assets/images/hackernoon-logo.svg" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
-                    <a class="block text-center cursor-pointer md:text-right font-courier text-white/80 hover:text-white" ahref="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank">"Archway Users Now Have <br>Access to Balanced"</a>
+                    <a class="block text-center cursor-pointer md:text-right font-courier text-white/80 hover:text-white" href="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank">"Archway Users Now Have <br>Access to Balanced"</a>
                     <p class="font-semibold text-center text-white md:text-right">December 19th 2023</p>
                 </div>
             </div>
@@ -101,8 +101,8 @@
                             <img class="translate-x-16 scale-[100%]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
                         </div>
                     </div>
-                    <h2 x-intersect="$el.classList.add('fadeInUp')" class="w-full px-4 mb-4 text-xl font-extrabold tracking-tight text-left sm:px-0 lg:text-2xl text-slate-500">
-                        The value of cross-chain activity gets captured <br class="block sm:hidden"> in the ICX token.
+                    <h2 x-intersect="$el.classList.add('fadeInUp')" class="w-full px-4 mb-4 text-xl font-extrabold tracking-tight text-left sm:px-0 lg:text-2xl text-xgray">
+                        The value of cross-chain activity gets captured <br class="block sm:hidden">  in the ICX token.
                     </h2>
                     
                     <p x-intersect="$el.classList.add('fadeInUp')" class="px-4 mb-8 text-lg text-left sm:px-0 md:text-xl">
@@ -112,8 +112,8 @@
                         {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "How to get ICX" "buttonUrl" "/hanawallet/") }}
                     </div>
                 </div>
-                <div  x-intersect="$el.classList.add('fadeInFromRight')" class="hidden w-1/2 sm:block">
-                    <img class="scale-[120%]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
+                <div x-intersect="$el.classList.add('fadeInFromRight')" class="hidden w-1/2 sm:block">
+                    <img class="scale-[120%] translate-y-[60px]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
                 </div>
             </div>
         </div>
@@ -262,10 +262,10 @@
     <div class="px-4 py-16 sm:py-24">
         <div>
             <h1 x-intersect="$el.classList.add('fadeInUp')" 
-                class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-6xl md:text-5xl dark:text-slate-50 text-slate-900">
+                class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-6xl md:text-5xl dark:text-slate-50 text-xgray">
                 What's Next?
             </h1>
-            <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-slate-600">
+            <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-xgray">
                 ICON is a
                 place for everyone, whether you're new to crypto or building a project. Start exploring the ICON
                 cross-chain ecosystem today!
