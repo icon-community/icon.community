@@ -40,6 +40,7 @@ module.exports = {
       'xgreen': '#34b8bb',
       'xteal': '#5cffe3',
       'xgray': '#5A6B80',
+      'xgray-dark': '#222B2E',
     },
     screens: {
       'xs': '360px',
