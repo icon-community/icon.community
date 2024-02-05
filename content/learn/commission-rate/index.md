@@ -22,6 +22,10 @@ If this is the first time you try to set the Commission Rate for your validator,
 
 Fill the respective parameters and then click on "Update" button at the bottom to sign the transaction.
 
+* Rate: The amount of rewards that will be allocated to your validator, the remainder will be distributed to the stakers (i.e, if you set this value at "10" then you will receive 10% of the rewards and the other 90% will be distributed to your stakers/voters).
+* Max Commission Rate: The maximum commission rate that you will be able to set up for this validator (it cannot be change later).
+* Max Commission Rate Change: the maximum change that can be done in one transaction to change the Commission Rate (it cannot be changed in the future).
+
 Once you have signed the `initCommissionRate` transaction once, you can modify the Commission Rate by entering the same pop up window, in this case the window will show you a new form that will allow you to sign a transaction to call the `setCommissionRate` method of the chain network contract.
 
 ![](./setcommissionrate.png)
