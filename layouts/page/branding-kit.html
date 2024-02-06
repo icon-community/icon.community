@@ -1,8 +1,7 @@
 {{ define "container" }}
 <div x-data id="container" class="relative font-montserrat">
     
-    <div id="hero"
-        class="relative px-4 py-0 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
+    <div class="relative px-4 py-0 overflow-hidden lg:py-32 sm:px-20 sm:py-24 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
         <!-- Shape divider -->
         <div class="absolute left-0 w-full overflow-hidden leading-none rotate-180 -bottom-1">
             <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -32,17 +31,17 @@
     </div>
       
     <div class="relative overflow-hidden ">       
-        <div id="powered-by-icx" class="relative px-4 py-16 mx-auto lg:px-8 max-w-7xl sm:py-24">
+        <div class="relative px-4 py-16 mx-auto lg:px-8 max-w-7xl sm:py-24">
             <div x-intersect="$el.classList.add('fadeInFromLeft')" class="w-full mb-8 text-left">
                 <h1 class="text-3xl font-extrabold !leading-tight text-xgray lg:text-6xl">Let's Upgrade Together</h1>
-                <p class="my-4 text-lg sm:my-8 lg:text-xl">By upgrading your dApp or website you are contributing to a consistent identity and user experience.</p> 
+                <p class="my-4 text-lg lg:text-xl">By upgrading your dApp or website you are contributing to a consistent identity and user experience.</p> 
             </div>  
             
             <div x-intersect="$el.classList.add('fadeInFromRight')" class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <!-- LIGHT -->
                 <div class="flex flex-col items-start space-y-4">
                     <img class="overflow-hidden border-2 rounded-md border-gray-400/20" src="/assets/images/branding-kit/light-palette.png" alt="Download the ICON light palette" height="156" width="247"/>
-                    <a class="inline-flex items-center px-6 py-2 text-xs font-bold transition duration-200 bg-white rounded-full shadow-sm text-xgray hover:shadow-md hover:bg-white/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-xs" href="/icon-branding-kit.zip">
+                    <a class="inline-flex items-center px-6 py-2 text-xs font-bold text-white transition duration-200 rounded-full shadow-sm bg-icon hover:shadow-md hover:bg-icon/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-xs" href="/icon-branding-kit.zip">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 mr-2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                           </svg>                     
@@ -52,7 +51,7 @@
                 <!-- TEAL -->
                 <div class="flex flex-col items-start space-y-4">
                     <img class="overflow-hidden border-2 rounded-md border-gray-400/20" src="/assets/images/branding-kit/light-palette.png" alt="Download the ICON light palette" height="156" width="247"/>
-                    <a class="inline-flex items-center px-6 py-2 text-xs font-bold transition duration-200 bg-white rounded-full shadow-sm text-xgray hover:shadow-md hover:bg-white/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-xs" href="/icon-branding-kit.zip">
+                    <a class="inline-flex items-center px-6 py-2 text-xs font-bold text-white transition duration-200 rounded-full shadow-sm bg-icon hover:shadow-md hover:bg-icon/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-xs" href="/icon-branding-kit.zip">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 mr-2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                           </svg>                     
@@ -62,7 +61,7 @@
                 <!-- DARK -->
                 <div class="flex flex-col items-start space-y-4">
                     <img class="overflow-hidden border-2 rounded-md border-gray-400/20" src="/assets/images/branding-kit/light-palette.png" alt="Download the ICON light palette" height="156" width="247"/>
-                    <a class="inline-flex items-center px-6 py-2 text-xs font-bold transition duration-200 bg-white rounded-full shadow-sm text-xgray hover:shadow-md hover:bg-white/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-xs" href="/icon-branding-kit.zip">
+                    <a class="inline-flex items-center px-6 py-2 text-xs font-bold text-white transition duration-200 rounded-full shadow-sm bg-icon hover:shadow-md hover:bg-icon/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-xs" href="/icon-branding-kit.zip">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 mr-2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                           </svg>                     
@@ -74,8 +73,7 @@
         </div>
     </div>
         
-    <div id="decentralized-fast-secure-interoperability"
-            class="relative py-8 bg-radial-at-br from-rookteal-dark via-rookteal-light to-rookteal-dark ">
+    <div class="relative py-8 bg-radial-at-br from-rookteal-dark via-rookteal-light to-rookteal-dark ">
             <!-- Shape divider top of panel-->
             <div class="absolute left-0 w-full overflow-hidden leading-none -top-1">
                 <svg class="relative scale-x-[-1] block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -83,298 +81,64 @@
                 </svg>
             </div>
             
-            <div class="relative flex flex-col justify-between px-2 py-8 mx-auto lg:px-8 max-w-7xl md:flex-row">
-                <div class="space-y-8 text-center md:text-left">
-                    <h3 class="font-light uppercase text-md text-white/60">Highlighted Connections</h3>
-                    <img class="mx-auto md:mx-0" src="{{ partial "cdn_url.html" }}/assets/images/connections.svg" alt="ICON Connects to Ethereum, Injective, BNB Chain, Archway and Neutron" loading="lazy"/>
-                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "View Integrations" "buttonUrl" "/integrations") }}
+            <!-- The image -->
+        
+        <div x-intersect="$el.classList.add('scale')" class="absolute top-0 bottom-0 hidden left-1/2 sm:block xl:hidden">
+            <img src="{{ partial "cdn_url.html" }}/assets/images/welcome.png" alt="integrate with xcall mid" loading="lazy" class="object-cover w-full h-full"/>
+        </div> 
+        <div x-intersect="$el.classList.add('scale')" class="absolute top-0 bottom-0 hidden left-1/2 xl:block">
+            <img src="{{ partial "cdn_url.html" }}/assets/images/welcome.png" alt="integrate with xcall large" loading="lazy" class="object-cover w-full h-full"/>
+        </div>  
+        
+        
+        <div class="relative flex flex-col items-center justify-start mx-auto sm:flex-row max-w-7xl z-1 -translate-y-[60px] sm:translate-y-0">
+            <div class="w-full p-0 sm:w-2/3 sm:p-8">
+                <h1 x-intersect="$el.classList.add('fadeInUp')" class="!leading-tight w-full mb-4 text-3xl font-extrabold tracking-tight text-center pt-28 sm:text-left sm:pt-0 lg:text-6xl text-slate-50">
+                    Go Beyond
+                </h1>
+                <div x-intersect="$el.classList.add('scale')" class="block -my-8 sm:hidden">
+                    <img src="{{ partial "cdn_url.html" }}/assets/images/welcome.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
                 </div>
-                
-                <div class="px-8 mt-16 space-y-4 text-center border-r-2 md:text-right md:mt-0 border-white/0 md:border-white/60">
-                    <h3 class="font-light uppercase text-md text-white/60">Media Partners</h3>
-                    <img class="mx-auto md:mx-0"  src="{{ partial "cdn_url.html" }}/assets/images/hackernoon-logo.svg" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
-                    <a class="block text-center cursor-pointer md:text-right font-courier text-white/80 hover:text-white" href="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank">"Archway Users Now Have <br>Access to Balanced"</a>
-                    <p class="font-semibold text-center text-white md:text-right">December 19th 2023</p>
+                <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mb-8 text-lg text-center sm:text-left md:text-xl text-slate-100">
+                    Use assets and gradients to maximize the impact of your ICON project.
+                </p>
+                <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
+                    <a class="inline-flex items-center px-6 py-2 text-base font-bold transition duration-200 bg-white rounded-full shadow-sm text-xgray hover:shadow-md hover:bg-white/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-base" href="/icon-branding-kit.zip">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                          </svg>                     
+                        Download Basic Assets
+                    </a>
                 </div>
             </div>
+            
         </div>
-        <div id="develop-in-java" class="relative py-16 sm:py-24">
+        </div>
+        
+        <div class="relative py-16 sm:py-24">
             <div class="relative flex flex-col items-center justify-center mx-auto sm:justify-start sm:flex-row max-w-7xl z-1 sm:translate-y-0">
                 <div class="w-full p-0 sm:w-2/3 sm:p-8">
                     <div class="flex items-center mx-auto ">
                         <h1 x-intersect="$el.classList.add('fadeInUp')" class="w-1/2 pt-0 pl-4 mb-0 text-4xl font-extrabold !leading-tight text-left sm:mb-4 sm:pl-0 sm:w-full  lg:text-6xl text-slate-500">
-                            Increasing<br> Network Value
+                            Contribute to<br> ICON's Branding
                         </h1>
-                        <div  x-intersect="$el.classList.add('fadeInFromRight')" class="block w-1/2 overflow-hidden sm:hidden">
-                            <img class="translate-x-16 scale-[100%]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
-                        </div>
                     </div>
-                    <h2 x-intersect="$el.classList.add('fadeInUp')" class="w-full px-4 mb-4 text-xl font-extrabold tracking-tight text-left sm:px-0 lg:text-2xl text-xgray">
-                        The value of cross-chain activity gets captured in the ICX token.
-                    </h2>
                     
                     <p x-intersect="$el.classList.add('fadeInUp')" class="px-4 mb-8 text-lg text-left sm:px-0 md:text-xl">
-                        All fees generated by applications using ICON technology, whether they are on the ICON L1 or not, get burned on-chain.
+                        Path your way to becoming a WithICONists DAO member and contribute to may areas of the ICON ecosystem. Provide ideas or feedback for growing a stronger and effective brand identity!
                     </p>
                     <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
-                        {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "How to get ICX" "buttonUrl" "/hanawallet/") }}
+                        <a class="inline-flex items-center px-6 py-2 text-base font-bold text-white transition duration-200 rounded-full shadow-sm bg-icon hover:shadow-md hover:bg-icon/90 transform-all font-montserrat focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-icon-dark sm:text-base" href="/icon-branding-kit.zip">                    
+                            Find your way on Discord
+                        </a>
                     </div>
                 </div>
-                <div x-intersect="$el.classList.add('fadeInFromRight')" class="hidden w-1/2 sm:block">
-                    <img class="scale-[120%] translate-y-[20px]" src="{{ partial "cdn_url.html" }}/assets/images/icx.png" alt="integrate with xcall mobile" loading="lazy" class="object-cover w-full h-full"/>
-                </div>
             </div>
         </div>
     </div>
-    <div id="cps"
-        class="relative py-16 space-y-16 bg-radial-at-tr md:bg-radial-at-t from-rookteal-dark via-rookteal-light to-rookteal-dark sm:py-24">
-        <!-- Shape divider top of panel-->
-        <div class="absolute left-0 w-full overflow-hidden leading-none -top-1">
-            <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
-            </svg>
-        </div>
-        
-        <div id="cps_hero" class="relative px-4 space-y-8">
-            <h1 x-intersect="$el.classList.add('fadeInUp')" class="text-4xl font-bold tracking-tight text-center lg:text-6xl text-slate-50">
-                Get Paid to Build
-            </h1>
-            
-            <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto text-lg text-center text-slate-100">
-                ICON's <strong>Contribution Proposal System</strong> (CPS) is a decentralized grant program for
-                teams building on the ICON blockchain. Whether your focus is
-                development, marketing, or community building, the CPS is here to fund you.
-            </p>
-            <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4">
-                {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Create a Proposal" "buttonUrl" "https://cps.icon.community") }}
-            </div>
+    
+    
        
-        </div> 
-    </div>
-    <div class="px-4 py-16 sm:py-24 font-montserrat">
-        <div>
-            <h1 x-intersect="$el.classList.add('fadeInUp')" 
-                class="mb-4 text-4xl font-extrabold tracking-tight text-center lg:text-6xl md:text-5xl dark:text-slate-50 text-xgray">
-                What's Next?
-            </h1>
-            <p x-intersect="$el.classList.add('fadeInUp')" class="z-50 max-w-2xl mx-auto mb-8 text-lg text-center md:text-xl dark:text-slate-400 text-xgray">
-                ICON is a
-                place for everyone, whether you're new to crypto or building a project. Start exploring the ICON
-                cross-chain ecosystem today!
-            </p>
-        </div>
-        <div x-intersect="$el.classList.add('fadeInUp')" 
-            class="max-w-4xl mx-auto overflow-hidden border divide-y rounded-lg shadow sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px dark:divide-slate-700 dark:bg-slate-700 bg-slate-200 divide-slate-200 dark:border-slate-700">
-            <div class="relative p-6 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
-                id="p1">
-                <div>
-                    <span class="inline-flex p-3 text-teal-700 rounded-lg bg-teal-50 ring-4 ring-white">
-                        <!-- Heroicon name: outline/clock -->
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6" id="p1">
-                    <h3 class="text-lg font-medium">
-                        <a href="https://www.xcall.dev/what-is-xcall" class="focus:outline-none dark:text-slate-50">
-                            <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p1"></span>
-                            What is xCall?
-                        </a>
-                    </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p1">Learn about ICON's cross-chain messaging interface deployable on any protocol.</p>
-                </div>
-                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
-                    aria-hidden="true">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                    </svg>
-                </span>
-            </div>
-
-            <div class="relative p-6 sm:rounded-tr-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
-                id="p2">
-                <div>
-                    <span class="inline-flex p-3 text-purple-700 rounded-lg bg-purple-50 ring-4 ring-white">
-                        <!-- Heroicon name: outline/badge-check -->
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6" id="p2">
-                    <h3 class="text-lg font-medium">
-                        <a href="/hanawallet/"
-                            class="focus:outline-none dark:text-slate-50">
-                            <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p2"></span>
-                            Download Wallet
-                        </a>
-                    </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="hwal1">Learn how to download and use
-                        Hana,
-                        the
-                        official wallet of the
-                        ICON ecosystem.</p>
-                </div>
-                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
-                    aria-hidden="true">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                    </svg>
-                </span>
-            </div>
-
-            <div class="relative p-6 group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
-                id="p3">
-                <div>
-                    <span class="inline-flex p-3 rounded-lg bg-sky-50 text-sky-700 ring-4 ring-white">
-                        <!-- Heroicon name: outline/users -->
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6" id="p3">
-                    <h3 class="text-lg font-medium">
-                        <a href="/integrations/" class="focus:outline-none dark:text-slate-50">
-                            <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p3"></span>
-                            Which Blockchains Connect?
-                        </a>
-                    </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p3">Check out the growing list of bliockchains on which apps, written in any programming language, can use the ICON Cross-Chain Framework.</p>
-                </div>
-                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
-                    aria-hidden="true">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                    </svg>
-                </span>
-            </div>
-
-            <div class="relative p-6 group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
-                id="p4">
-                <div>
-                    <span class="inline-flex p-3 text-yellow-700 rounded-lg bg-yellow-50 ring-4 ring-white">
-                        <!-- Heroicon name: outline/cash -->
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6" id="p4">
-                    <h3 class="text-lg font-medium">
-                        <a href="/learn/icx/" class="focus:outline-none dark:text-slate-50">
-                            <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p4"></span>
-                            Purchase ICX
-                        </a>
-                    </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p4">Learn how to purchase ICX to
-                        interact with
-                        ICON dApps like
-                        Balanced, Omm, Craft, and more.</p>
-                </div>
-                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
-                    aria-hidden="true">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                    </svg>
-                </span>
-            </div>
-
-            <div class="relative p-6 sm:rounded-bl-lg group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
-                id="p5">
-                <div>
-                    <span class="inline-flex p-3 rounded-lg bg-rose-50 text-rose-700 ring-4 ring-white">
-                        <!-- Heroicon name: outline/receipt-refund -->
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6" id="p5">
-                    <h3 class="text-lg font-medium">
-                        <a href="/learn/icon-governance/" class="focus:outline-none dark:text-slate-50">
-                            <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p5"></span>
-                            ICON Governance
-                        </a>
-                    </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p5">Learn about ICON's DPoS
-                        governance
-                        model,
-                        and how validators, stakers, and ICX issuance all fit into the equation.</p>
-                </div>
-                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
-                    aria-hidden="true">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                    </svg>
-                </span>
-            </div>
-
-            <div class="relative p-6 rounded-bl-lg rounded-br-lg sm:rounded-bl-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 bg-slate-50 dark:bg-slate-800"
-                id="p6">
-                <div>
-                    <span class="inline-flex p-3 text-indigo-700 rounded-lg bg-indigo-50 ring-4 ring-white">
-                        <!-- Heroicon name: outline/academic-cap -->
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6" id="p6">
-                    <h3 class="text-lg font-medium">
-                        <a href="/learn/icx/" class="focus:outline-none dark:text-slate-50">
-                            <!-- Extend touch target to entire panel -->
-                            <span class="absolute inset-0 text-slate-50" aria-hidden="true" id="p6"></span>
-                            Stake ICX
-                        </a>
-                    </h3>
-                    <p class="mt-2 text-sm dark:text-slate-400 text-slate-600" id="p6">Learn how to stake ICX to earn
-                        <!-- <span id="icx-price" class="font-bold"
-                            hx-get="{{ partial "api_url.html" }}/icx/staking-apy/?format=html"
-                            hx-trigger="load, every 30s"></span>  -->
-                            APY in exchange for helping to
-                        secure the ICON network.
-                    </p>
-                </div>
-                <span class="absolute pointer-events-none top-6 right-6 group-hover:text-slate-400 text-slate-300"
-                    aria-hidden="true">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                    </svg>
-                </span>
-            </div>
-        </div>
-        <div x-intersect="$el.classList.add('fadeInUp')" class="mx-auto mt-16 overflow-hidden shadow-md w-fit rounded-2xl">
-            <iframe src="https://iconnetwork.substack.com/embed" 
-            class="w-full h-[250px] sm:w-[480px] sm:h-[250px]" 
-            frameborder="0" 
-            scrolling="no">
-            </iframe>
-        </div>
     </div>
 
 
