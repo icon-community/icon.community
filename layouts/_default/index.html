@@ -64,14 +64,14 @@
     <div class="relative py-8 bg-radial-at-br from-rookteal-dark via-rookteal-light to-rookteal-dark ">
             <!-- Shape divider top of panel-->
             <div class="absolute left-0 w-full overflow-hidden leading-none -top-1">
-                <svg class="relative scale-x-[-1] block h-[48px] md:h-[100px] 2xl:h-[140px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <svg class="relative scale-x-[-1] block h-[48px] md:h-[60px] 2xl:h-[100px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
                 </svg>
             </div>
 
             <!-- Shape divider bottom of panel-->
             <div class="absolute left-0 w-full overflow-hidden leading-none -bottom-1 scale-y-[-1]">
-                <svg class="relative scale-x-[-1] block h-[48px] md:h-[100px] 2xl:h-[140px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <svg class="relative scale-x-[-1] block h-[48px] md:h-[60px] 2xl:h-[100px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
                 </svg>
             </div>
@@ -79,19 +79,19 @@
             <div class="relative flex flex-col justify-between px-2 py-8 mx-auto md:py-24 2xl:py-36 lg:px-8 max-w-7xl md:flex-row">
                 <div class="space-y-8 text-center sm:space-y-6 md:text-left">
                     <h3 class="text-3xl font-extrabold text-white lg:text-5xl">Highlighted <br> Connections</h3>
-                    <img class="mx-auto md:mx-0" src="{{ partial "cdn_url.html" }}/assets/images/connections.svg" alt="ICON Connects to Ethereum, Injective, BNB Chain, Archway and Neutron" loading="lazy"/>
+                    <a class="block mx-auto md:ml-0 w-fit" href="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank"><img src="{{ partial "cdn_url.html" }}/assets/images/connections.svg" alt="ICON Connects to Ethereum, Injective, BNB Chain, Archway and Neutron" loading="lazy"/></a>
                     {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "View Integrations" "buttonUrl" "/integrations") }}
                 </div>
                 
                 <div class="flex items-start justify-center md:justify-end ">
                     <div class="px-8 mt-16 space-y-4 text-center md:text-right md:mt-0">
                         <h3 class="font-light uppercase text-md text-white/60">Media Partners</h3>
-                        <img class="mx-auto md:mx-0"  src="{{ partial "cdn_url.html" }}/assets/images/hackernoon-logo.svg" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
+                        <img class="mx-auto md:mr-0"  src="{{ partial "cdn_url.html" }}/assets/images/hackernoon-logo.svg" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
                         <img class="block w-1/3 mx-auto md:hidden" src="{{ partial "cdn_url.html" }}/assets/images/highlighted-article-image.png" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
                         <a class="block text-center cursor-pointer text-md lg:text-xl md:text-right font-courier text-white/80 hover:text-white" href="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank">"Archway Users Now Have <br>Access to Balanced"</a>
                         <p class="font-semibold text-center text-white md:text-right">December 19th 2023</p>
                     </div>
-                    <img class="hidden w-1/3 md:block" src="{{ partial "cdn_url.html" }}/assets/images/highlighted-article-image.png" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/>
+                    <a href="https://hackernoon.com/archway-users-now-have-access-to-balanced" target="_blank" class="hidden w-1/3 md:block"><img  src="{{ partial "cdn_url.html" }}/assets/images/highlighted-article-image.png" alt="ICON and Hackernoon work together to Publish and Distribute Cross-chain Content" loading="lazy"/></a>
                 </div>
                 
             </div>
