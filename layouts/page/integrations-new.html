@@ -1,0 +1,40 @@
+{{ define "container" }}
+<main class="bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
+    <div class="w-full">
+        <img src="/assets/images/integrations-new.jpg"/>
+    </div>
+    <div class="relative flex-col w-full mx-auto overflow-hidden max-w-7xl font-montserrat ">
+
+        <!-- <div class="grid h-screen grid-cols-2 gap-5 p-20 md:grid-cols-4" id="rss-feed-container-integrations">
+            <div id="development" class="flex flex-col p-4 rounded shadow bg-red-100/40"><h2>Development</h2></div>
+            <div id="testnet" class="flex flex-col p-4 rounded shadow bg-orange-100/40"><h2>Testnet</h2></div>
+            <div id="audits"  class="flex flex-col"><h2>(Internal) Audits</h2></div>
+            <div id="mainnet"  class="flex flex-col"><h2>Mainnet</h2></div>
+        </div> -->
+
+
+        <div class="grid h-screen grid-cols-2 gap-5 p-20 md:grid-cols-4" id="rss-feed-container-integrations">
+            <div id="development" class="flex flex-col p-4 rounded shadow bg-red-300/40">
+                <h2 class="px-2 py-1 mx-auto mb-8 font-bold rounded bg-white/50 w-fit">Development</h2>
+                <div class="flex flex-col justify-center items-container"></div> <!-- Container for development items -->
+            </div>
+            <div id="testnet" class="flex flex-col p-4 rounded shadow bg-orange-100/40">
+                <h2 class="px-2 py-1 mx-auto mb-8 font-bold rounded bg-white/50 w-fit">Testnet</h2>
+                <div class="items-container"></div> <!-- Container for testnet items -->
+            </div>
+            <div id="audits" class="flex flex-col p-4 rounded shadow bg-blue-100/40">
+                <h2 class="px-2 py-1 mx-auto mb-8 font-bold rounded bg-white/50 w-fit">(Internal) Audits</h2>
+                <div class="items-container"></div> <!-- Container for audits items -->
+            </div>
+            <div id="mainnet" class="flex flex-col p-4 rounded shadow bg-green-100/40">
+                <h2 class="px-2 py-1 mx-auto mb-8 font-bold rounded bg-white/50 w-fit">Mainnet</h2>
+                <div class="items-container"></div> <!-- Container for mainnet items -->
+            </div>
+        </div>
+        
+        <script src="/assets/fetchDocsRssFeed.js"></script>
+
+    </div>
+</main>
+{{ end }}
+
