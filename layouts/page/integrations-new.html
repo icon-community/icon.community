@@ -1,8 +1,8 @@
 {{ define "container" }}
-<main class="bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
-    <div class="w-full">
+<main class="py-20 bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
+    <!-- <div class="w-full">
         <img class="mx-auto mb-10" src="/assets/images/integrations-new.jpg"/>
-    </div>
+    </div> -->
     <div class="relative flex-col w-full mx-auto overflow-hidden max-w-7xl font-montserrat ">
 
         <!-- <div class="grid h-screen grid-cols-2 gap-5 p-20 md:grid-cols-4" id="rss-feed-container-integrations">
@@ -17,7 +17,7 @@
             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "View in Docs" "buttonUrl" "https://docs.icon.community/cross-chain-communication/active-development#integrations") }}
         </div>
         
-        <div class="grid h-screen grid-cols-2 gap-5 px-20 md:grid-cols-4" id="rss-feed-container-integrations">
+        <div class="grid grid-cols-2 gap-5 px-20 md:grid-cols-4" id="rss-feed-container-integrations">
             <div id="development" class="flex flex-col p-4 rounded shadow bg-red-300/40">
                 <h2 class="px-2 py-1 mx-auto mb-8 font-bold rounded bg-white/50 w-fit">Development</h2>
                 <div class="flex flex-col justify-center items-container"></div> <!-- Container for development items -->
@@ -36,16 +36,14 @@
             </div>
         </div>
 
-        <div class="flex items-center my-4">
+        
+        <div class="flex items-center mt-8 mb-4">
             <h1 class="pl-20 pr-10 text-5xl font-thin text-white uppercase">Additional Development</h1>
             {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "View in Docs" "buttonUrl" "https://docs.icon.community/cross-chain-communication/active-development#additional-development") }}
         </div>
         
-        <div class="grid h-screen grid-cols-4 gap-5 px-20" id="rss-feed-container-integrations">
-            <div id="development" class="flex flex-col col-span-4 p-4 rounded shadow bg-red-300/40">
-                <h2 class="px-2 py-1 mx-auto mb-8 font-bold rounded bg-white/50 w-fit">Development</h2>
-                <div class="flex flex-col justify-center items-container"></div> <!-- Container for development items -->
-            </div>
+        <div class="grid grid-cols-1 gap-5 px-20 py-10 mx-20 rounded shadow bg-white/40" id="rss-feed-container-additional-development">
+           
         </div>
         
         <script src="/assets/fetchDocsRssFeed.js"></script>
