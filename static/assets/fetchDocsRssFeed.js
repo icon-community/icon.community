@@ -76,14 +76,14 @@ async function fetchDocsRssFeed() {
             }
         }
         // After processing all items
-Object.keys(contentAdded).forEach(category => {
-    if (!contentAdded[category]) { // If no items were added to this category
-        const categoryElement = document.getElementById(category).querySelector('.items-container');
-        if (categoryElement) {
-            categoryElement.innerHTML = ''; // Clear loader and indicate no items
-        }
-    }
-});
+        Object.keys(contentAdded).forEach(category => {
+            if (!contentAdded[category]) { // If no items were added to this category
+                const categoryElement = document.getElementById(category).querySelector('.items-container');
+                if (categoryElement) {
+                    categoryElement.innerHTML = ''; // Clear loader and indicate no items
+                }
+            }
+        });
 
     } catch (error) {
         console.error('Error fetching ICON Documentation RSS feed:', error);
