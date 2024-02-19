@@ -23,12 +23,16 @@ async function fetchYoutubeRssFeed() {
         // Format the publication date
         let formattedDate = formatDate(pubDate);
 
+        // Hide loader
+        document.getElementById('youtube-loader').style.display = 'none';
+
         // Update the HTML elements
         document.getElementById('youtube-title').textContent = title;
         document.getElementById('youtube-date').textContent = formattedDate;
         document.getElementById('youtube-image').src = thumbnailUrl;
         document.getElementById('youtube-cta').onclick = () => window.open(link, '_blank');
-        document.getElementById('youtube-card').classList.remove('opacity-0');
+        document.getElementById('padding').style.padding = 'pt-[56.25%]';
+        document.getElementById('youtube-cta').classList.remove('opacity-0');
 
 
     } catch (error) {

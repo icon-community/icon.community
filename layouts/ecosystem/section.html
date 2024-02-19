@@ -52,9 +52,13 @@
         
            
         <div class="grid grid-cols-1 gap-4 pb-12 sm:grid-cols-2">
-            <div id='medium-card' class="opacity-0 flex flex-col w-full px-4 py-8 space-y-4 shadow-md h-[420px] sm:h-[320px] rounded-xl">
+            <div id='medium-card' class="flex flex-col w-full px-4 py-8 space-y-4 shadow-md h-[420px] sm:h-[320px] rounded-xl relative">
                 <!-- title -->
                 <h2 class="flex items-center justify-center font-bold sm:justify-start font-montserrat text-slate-700/40">Latest from <img class="w-40" src="/medium.png" alt="'ICON Content on Medium"/></h2>
+                <!-- loader -->
+                <div id="medium-loader" class="absolute top-0 flex items-center justify-center h-full -translate-x-1/2 left-1/2">
+                    <div class="loader"></div>
+                </div>
                 <!-- content -->
                 <div class="flex flex-col items-center justify-center flex-grow sm:items-start sm:flex-row">
                     <div class="w-2/3 overflow-hidden rounded-xl">
@@ -67,17 +71,21 @@
                 </div>               
                 <!-- button -->
                 <div class="flex justify-center w-full sm:justify-end">
-                    <button id="medium-cta" class="px-4 py-2 font-bold text-white rounded-full bg-icon">Read Article ↗</button>
+                    <button id="medium-cta" class="px-4 py-2 font-bold text-white rounded-full opacity-0 bg-icon">Read Article ↗</button>
                 </div>
                 <script src="/assets/fetchMediumRssFeed.js"></script>
             </div>
-            <div id='youtube-card' class="opacity-0 transform-all duration-200 flex flex-col w-full px-4 py-8 space-y-4 shadow-md  h-[420px] sm:h-[320px] rounded-xl">
+            <div id='youtube-card' class="transform-all duration-200 flex flex-col w-full px-4 py-8 space-y-4 shadow-md  h-[420px] sm:h-[320px] rounded-xl relative">
                 <!-- title -->
                 <h2 class="flex items-center justify-center font-bold sm:justify-start font-montserrat text-slate-700/40">Latest from <img class="w-40" src="/youtube.png" alt="'ICON Content on YouTube"/></h2>
+                <!-- loader -->
+                <div id="youtube-loader" class="absolute top-0 flex items-center justify-center h-full -translate-x-1/2 left-1/2 ">
+                    <div class="loader"></div>
+                </div>
                 <!-- content -->
                 <div class="flex flex-col items-center justify-center flex-grow sm:items-start sm:flex-row">
                     <div class="relative w-2/3 overflow-hidden rounded-xl">
-                        <div id='padding' class="pt-[56.25%]"></div> <!-- Padding for 16:9 Aspect Ratio -->
+                        <div id='padding' class="pt-[56.25%]"></div> 
                         <img id="youtube-image" class="absolute object-cover w-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" src="" alt="" />
                     </div>                 
                     <div class="px-4 py-4 space-y-2 text-center sm:py-1 sm:text-start">
@@ -87,7 +95,7 @@
                 </div>               
                 <!-- button -->
                 <div class="flex justify-center w-full sm:justify-end">
-                    <button id="youtube-cta" class="px-4 py-2 font-bold text-white rounded-full bg-icon">Watch Video ↗</button>
+                    <button id="youtube-cta" class="px-4 py-2 font-bold text-white rounded-full opacity-0 bg-icon">Watch Video ↗</button>
                 </div>
                 <script src="/assets/fetchYoutubeRssFeed.js"></script>
             </div>
