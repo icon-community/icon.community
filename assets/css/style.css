@@ -267,3 +267,23 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+@keyframes flameAnimation {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: -200% 0%;
+  }
+}
+
+.fire-effect {
+  background: linear-gradient(270deg, #ff9d2f, #ff6124, #ff0000, #ff9d2f);
+  background-size: 200% 100%;
+  animation: flameAnimation 4s linear infinite;
+}
+
+/* Additional styling to ensure the effect is visible */
+.flex {
+  overflow: hidden; /* Prevents the background from overflowing */
+}

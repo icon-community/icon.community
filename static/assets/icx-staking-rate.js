@@ -30,6 +30,19 @@ const IISS_PARAMS = {
     }
 }
 
+const GET_BURN = {
+    "jsonrpc": "2.0",
+    "id": new Date().getTime(),
+    "method": "icx_call",
+    "params": {
+        "to": "cxdc30a0d3a1f131565c071272a20bc0b06fd4c17b",
+        "dataType": "call",
+        "data": {
+            "method": "getBurnedAmount"
+        }
+    }
+}
+
 const convertFromLoop = (value) => {
     return new BigNumber(value).div(LOOP);
 }
@@ -67,6 +80,22 @@ const periodicallyFetchData = () => {
                     )
             })
         )
+
+    fetch(SOLIDWALLET_ENDPOINT, { method: "POST", body: JSON.stringify(NETWORK_INFO_PARAMS) })
+    .then(res => res.json()
+        .then(networkInfoData => {
+            fetch(SOLIDWALLET_ENDPOINT, { method: "POST", body: JSON.stringify(GET_BURN) })
+                .then(res => res.json()
+                    .then(IISSData => {
+                        // const burn = new BigNumber(IISSData.result)
+                        console.log(IISSData.result)
+                        const ICXBurnBigNumber = new BigNumber(IISSData.result);
+                        const ICXBurn = ICXBurnBigNumber.dividedBy('1e18');
+                        document.getElementById('burn-rate').innerHTML = `${ICXBurn.toFormat(0)}ICX`;
+                    })
+                )
+        })
+    )
 }
 
 
