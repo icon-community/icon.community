@@ -22,11 +22,10 @@
                 </svg>
             </button>
         </div>
-        <nav role="navigation" class="items-center hidden lg:flex sm:space-x-6 md:space-x-8 ">
-            <!-- {{ partial "layout/navigation/dropdown_xcall.html" . }} -->
-            {{ partial "layout/navigation/dropdown_developers.html" . }}
-            {{ partial "layout/navigation/dropdown_ecosystem.html" . }}
-            {{ partial "layout/navigation/dropdown_community.html" . }}
+        <nav role="navigation" class="relative z-20 items-center hidden lg:flex sm:space-x-6 md:space-x-8 font-montserrat">
+            <a href="https://docs.icon.community/" class="text-base font-medium text-xgray">Documentation</a>
+            <a href="/ecosystem" class="text-base font-medium text-xgray">Ecosystem</a>
+            <a href="/icondiscord" class="text-base font-medium text-xgray">Discord</a>
         </nav>
         <div class="justify-end hidden lg:block" id="hwal1">
             {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://docs.icon.community/" )}}

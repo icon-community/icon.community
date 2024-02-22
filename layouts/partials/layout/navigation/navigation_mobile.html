@@ -21,7 +21,11 @@
                     </button>
                 </div>
             </div>
-            <nav class="grid grid-cols-1 divide-y divide-slate-200 font-montserrat">
+            <nav class="grid grid-cols-1 font-montserrat">
+                <a href="https://docs.icon.community/" class="p-4 mx-auto text-lg font-medium w-fit hover:bg-slate-100 text-slate-900">Documentation</a>
+                <a href="ecosystem" class="p-4 mx-auto text-lg font-medium w-fit hover:bg-slate-100 text-slate-900">Ecosystem</a>
+                <a href="icondiscord" class="p-4 mx-auto text-lg font-medium w-fit hover:bg-slate-100 text-slate-900">Discord</a>
+         
                 <!-- XCALL -->
                 <!-- <div id="developers" class="divide-y divide-slate-200" x-data="{open: false}">
                     <button class="w-full p-4 text-lg font-bold tracking-[2px] hover:bg-slate-100 text-slate-900 font-lemon"
@@ -66,7 +70,7 @@
                     </div>
                 </div> -->
                 <!-- Developers -->
-                <div id="developers" class="divide-y divide-slate-200" x-data="{open: false}">
+                <!-- <div id="developers" class="divide-y divide-slate-200" x-data="{open: false}">
                     <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click="open =! open">Documentation</button>
                     <div x-show="open" class="divide-y divide-slate-200">
@@ -92,7 +96,7 @@
                                 </p>
                             </div>
                         </a>
-                        <!-- <a href="/tutorials/"
+                        <a href="/tutorials/"
                             class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
                             <svg class="flex-shrink-0 w-6 h-6 text-xindigo"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" 
@@ -135,11 +139,11 @@
                                     Explore active bug bounties for ICON smart contracts and core blockchain software.
                                 </p>
                             </div>
-                        </a> -->
+                        </a>
                     </div>
-                </div>
+                </div> -->
                 <!-- Ecosystem Dropdown -->
-                <div id="ecosystem" class="divide-y divide-slate-200" x-data="{open: false}">
+                <!-- <div id="ecosystem" class="divide-y divide-slate-200" x-data="{open: false}">
                     <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click=" open=! open">Ecosystem</button>
                     <div x-show="open" class="divide-y divide-slate-200">
@@ -163,9 +167,9 @@
                         </a>
                         
                     </div>
-                </div>
+                </div> -->
                 <!-- Resources -->
-                <div id="resources" class="divide-y divide-slate-200" x-data="{open: false}">
+                <!-- <div id="resources" class="divide-y divide-slate-200" x-data="{open: false}">
                     <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click=" open=! open">Resources</button>
                     <div x-show="open" class="divide-y divide-slate-200">
@@ -221,15 +225,15 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <!-- Community -->
-                <div id="community" class="divide-y divide-slate-200" x-data="{open: false}">
+                <!-- <div id="community" class="divide-y divide-slate-200" x-data="{open: false}">
                     <button class="w-full p-4 text-lg font-medium hover:bg-slate-100 text-slate-900"
                         :class="{ 'bg-slate-100': open}" @click="open =! open">Community</button>
                     <div x-show="open" class="divide-y divide-slate-200">
                         <a href="{{ $.Site.Params.social.discordUrl }}"
                             class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
-                            <!-- Heroicon name: outline/cursor-click -->
+                            
                             <svg class="flex-shrink-0 w-6 h-6 text-xindigo" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -284,27 +288,12 @@
                                     bite-sized format.</p>
                             </div>
                         </a>
-                        <!-- PLACE ADDITIONAL COMMUNITY CAMPAIGNS HERE -->
-                        <!-- <a href="/joincoinmarketcap"
-                            class="flex items-start p-4 transition duration-150 ease-in-out hover:bg-slate-100">
-                            <svg class="flex-shrink-0 w-6 h-6 text-[#2563EB] dark:text-icon-lo"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            aria-hidden="true">
-                                <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-                            </svg>  
-                            <div class="ml-4">
-                                <p class="text-base font-medium text-slate-900">Follow on CoinMarketCap</p>
-                                <p class="mt-1 text-sm text-slate-500">
-                                    Join $ICX on CoinMarketCap and win 100 ICX
-                                </p>
-                            </div>
-                        </a> -->
                     </div>
-                </div>
+                </div> -->
                 
                 <!-- GET WALLET -->
-                <div class="mx-auto my-4 divide-y divide-slate-200" x-data="{open: false}" id="hwal1">
-                    {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/" )}}
+                <div class="mx-auto my-4 " x-data="{open: false}" id="hwal1">
+                    {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Get Wallet" "buttonUrl" "/hanawallet/" )}}
                 </div>
             </nav>
         </div>
