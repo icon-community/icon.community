@@ -80,8 +80,10 @@
         </div>      
     </header>  
        
-    <div class="grid grid-cols-1 gap-4 pb-12 mx-auto sm:grid-cols-3 max-w-7xl">
-        <div  class="relative flex flex-col w-full h-[800px] col-span-2 px-4 py-8 space-y-4 shadow-md rounded-xl -translate-y-20 z-20 bg-white">
+    <!-- MEDIUM AND YOUTUBE CARDS -->
+    <div class="grid grid-cols-1 gap-8 mx-auto sm:grid-cols-3 max-w-7xl">
+        <!-- MEDIUM CARD -->
+        <div  class="relative z-20 flex flex-col w-full h-full col-span-3 p-12 space-y-12 -translate-y-20 bg-white shadow-5xl xl:col-span-2 rounded-xl">
             <!-- title -->
             <h2 class="flex items-center justify-center text-xl font-bold sm:justify-start font-montserrat text-slate-700/40">Latest from <img class="w-60" src="/medium.png" alt="'ICON Content on Medium"/></h2>
             <!-- loader -->
@@ -89,12 +91,12 @@
                 <div class="loader"></div>
             </div>
             <!-- FIRST CARD -->
-            <div id='medium-card' class="border-2 border-black">
-                <button  id="medium-cta" class="flex flex-col items-center justify-start flex-grow h-full sm:items-start sm:flex-row">
-                    <div class="w-1/3 overflow-hidden rounded-xl">
-                        <img id="medium-image" class="w-full " src="" alt="" />
+            <div id='medium-card' class="">
+                <button  id="medium-cta" class="flex flex-col items-center justify-start h-full sm:items-start sm:flex-row">
+                    <div class="overflow-hidden rounded-xl">
+                        <img id="medium-image" class="object-cover h-48 w-80" src="/assets/images/bg/white-bg.jpg" alt="" />
                     </div>
-                    <div class="flex flex-col justify-center h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title"></h1>
                         <div class="flex items-center space-x-4">
                             <p class="font-semibold text-slate-700/90" id="medium-author"></p>
@@ -103,39 +105,88 @@
                     </div>
                 </button>
             </div>
-            
+            <!-- SECOND CARD -->
+            <div id='' class="">
+                <button  id="medium-cta2" class="flex flex-col items-center justify-start h-full sm:items-start sm:flex-row">
+                    <div class="overflow-hidden rounded-xl">
+                        <img id="medium-image2" class="object-cover h-48 w-80" src="/assets/images/bg/white-bg.jpg" alt="" />
+                    </div>
+                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                        <h1 class="text-2xl font-bold text-icon" id="medium-title2"></h1>
+                        <div class="flex items-center space-x-4">
+                            <p class="font-semibold text-slate-700/90" id="medium-author2"></p>
+                            <p class="font-semibold text-slate-700/40" id="medium-date2"></p>
+                        </div>         
+                    </div>
+                </button>
+            </div>
+            <!-- THIRD CARD -->
+            <div class="">
+                <button id="medium-cta3" class="flex flex-col items-center justify-start flex-grow h-full sm:items-start sm:flex-row">
+                    <div class="overflow-hidden rounded-xl">
+                        <img id="medium-image3" class="object-cover h-48 w-80" src="/assets/images/bg/white-bg.jpg" alt="" />
+                    </div>
+                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                        <h1 class="text-2xl font-bold text-icon" id="medium-title3"></h1>
+                        <div class="flex items-center space-x-4">
+                            <p class="font-semibold text-slate-700/90" id="medium-author3"></p>
+                            <p class="font-semibold text-slate-700/40" id="medium-date3"></p>
+                        </div>         
+                    </div>
+                </button>
+            </div>
+
+            <!-- FOURTH CARD -->
+            <!-- <div class="">
+                <button id="medium-cta4" class="flex flex-col items-center justify-start flex-grow h-full sm:items-start sm:flex-row">
+                    <div class="overflow-hidden rounded-xl">
+                        <img id="medium-image4" src="" class="object-cover h-48 w-80" src="" alt="" />
+                    </div>
+                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                        <h1 class="text-2xl font-bold text-icon" id="medium-title4"></h1>
+                        <div class="flex items-center space-x-4">
+                            <p class="font-semibold text-slate-700/90" id="medium-author4"></p>
+                            <p class="font-semibold text-slate-700/40" id="medium-date4"></p>
+                        </div>         
+                    </div>
+                </button>
+            </div> -->
                          
             <script src="/assets/fetchMediumRssFeed.js"></script>
         </div>
 
-        
-        <div id='youtube-card' class="transform-all duration-200 flex flex-col w-full px-4 py-8 space-y-4 shadow-md  h-[420px] sm:h-[320px] rounded-xl relative">
+        <!-- YOUTUBE CARDS -->
+        <div id='youtube-card' class="relative z-20 flex-col hidden w-full h-full col-span-1 p-12 space-y-12 -translate-y-20 bg-white shadow-5xl xl:flex rounded-xl">
             <!-- title -->
-            <h2 class="flex items-center justify-center font-bold sm:justify-start font-montserrat text-slate-700/40">Latest from <img class="w-40" src="/youtube.png" alt="'ICON Content on YouTube"/></h2>
+            <h2 class="flex items-center justify-center font-bold font-montserrat text-slate-700/40"><img class="w-60" src="/youtube.png" alt="'ICON Content on YouTube"/></h2>
             <!-- loader -->
             <div id="youtube-loader" class="absolute top-0 flex items-center justify-center h-full -translate-x-1/2 left-1/2 ">
                 <div class="loader"></div>
             </div>
             <!-- content -->
-            <div class="flex flex-col items-center justify-center flex-grow sm:items-start sm:flex-row">
-                <div class="relative w-2/3 overflow-hidden rounded-xl">
-                    <div id='padding' class="pt-[56.25%]"></div> 
-                    <img id="youtube-image" class="absolute object-cover w-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" src="" alt="" />
+            <button id="youtube-cta" class="">
+                <div class="relative w-full h-40 overflow-hidden rounded-xl">
+                    <img id="youtube-image" class="object-contain object-center -translate-y-10" src="" alt="" />
                 </div>                 
-                <div class="px-4 py-4 space-y-2 text-center sm:py-1 sm:text-start">
-                    <h1 class="font-bold text-icon" id="youtube-title"></h1>
-                    <p class="font-semibold text-slate-700/40" id="youtube-date"></p>
-                </div>
-            </div>               
-            <!-- button -->
-            <div class="flex justify-center w-full sm:justify-end">
-                <button id="youtube-cta" class="px-4 py-2 font-bold text-white rounded-full opacity-0 bg-icon">Watch Video ↗</button>
-            </div>
+            </button>
+            <button id="youtube-cta2" class="">
+                <div class="relative w-full h-40 overflow-hidden rounded-xl">
+                    <img id="youtube-image2" class="object-contain object-center -translate-y-10" src="" alt="" />
+                </div>                 
+            </button>   
+            <button id="youtube-cta3"  class="">
+                <div class="relative w-full h-40 overflow-hidden rounded-xl">
+                    <img id="youtube-image3" class="object-contain object-center -translate-y-10" src="" alt="" />
+                </div>                 
+            </button>                
             <script src="/assets/fetchYoutubeRssFeed.js"></script>
         </div>
     </div>
+
+    <!-- ECOSYSTEM FILTER SECTION -->
     <div id="filter-buttons" class="px-4 mx-auto mb-16 text-center max-w-7xl">
-        <span class="relative z-0 inline-flex flex-wrap items-center justify-center gap-2 mx-auto shadow-none lg:shadow-sm lg:gap-0">
+        <h1 class="w-2/3 pb-20 mx-auto text-4xl font-thin text-slate-800/80">Join a network of entities connected with ICON and add your project to our ecosystem!</h1>
+        <span class="relative z-0 inline-flex flex-wrap items-center justify-center gap-2 mx-auto shadow-none lg:gap-0">
             {{ $types := slice }}
             {{ range $ecosystemMembers }}
             {{ $types = $types | append (trim (replace .File.Dir "ecosystem/" "") "/") }}
@@ -157,7 +208,7 @@
             {{ end }}
         </span>
     </div>
-    <div class="mx-auto max-w-7xl">
+    <div class="mx-auto max-w-7xl h-[600px] overflow-y-scroll">
         <ul id="ecosystem-members"
             class="grid grid-cols-1 px-4 sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 sm:gap-y-8 sm:gap-x-8">
             <div class="flex flex-row items-center justify-start w-full h-full"> 
@@ -178,6 +229,7 @@
                     
                 </div>
             </div>
+           
             {{ range $ecosystemMembers }}
             {{ $type := trim (replace .File.Dir "ecosystem/" "") "/" }}
             {{ if eq $type "community" }}
@@ -205,7 +257,7 @@
             {{ else if eq $type "wallet" }}
             {{ $data.Set "type" (title $type) }}
             {{ end }}
-
+            
             <!-- Custom background color support for logos. 
             {{ $name := replace (lower .Title) " " "-" }}
             {{ $bgColor := replace (.Params.bg_color) "#" "" }}
