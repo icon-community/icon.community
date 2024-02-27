@@ -31,6 +31,7 @@ async function fetchMediumRssFeed() {
         // Extract information
         let title = latestItem.getElementsByTagName("title")[0].textContent;
         let link = latestItem.getElementsByTagName("link")[0].textContent;
+        let author = latestItem.getElementsByTagName("dc:creator")[0].textContent;
         let pubDate = latestItem.getElementsByTagName("pubDate")[0].textContent;
         let contentEncoded = latestItem.getElementsByTagName("content:encoded")[0].textContent;
         
@@ -45,6 +46,7 @@ async function fetchMediumRssFeed() {
         
         // Update the HTML elements
         document.getElementById('medium-title').textContent = title;
+        document.getElementById('medium-author').textContent = 'By ' + author;
         document.getElementById('medium-date').textContent = formattedDate;
         // document.getElementById('medium-cta').setAttribute('href', link);
         document.getElementById('medium-cta').onclick = () => window.open(link, '_blank');
