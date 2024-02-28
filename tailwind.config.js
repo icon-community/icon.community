@@ -6,6 +6,11 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {   
     extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'lemon': ['LEMON', 'sans-serif'],
+        'courier': ['Courier', 'sans-serif'],
+      },
       minHeight: {
         '36': '144px',
         '40': '160px',
@@ -101,11 +106,6 @@ module.exports = {
   },
   scale: {
     '-100': '-1',
-  },
-  fontFamily: {
-    'montserrat': ['Montserrat', 'sans-serif'],
-    'lemon': ['LEMON', 'sans-serif'],
-    'courier': ['Courier', 'sans-serif'],
   },
   variants: {
     extend: {},
