@@ -46,7 +46,12 @@ async function fetchMediumRssFeed() {
         
         // Update the HTML elements
         document.getElementById('medium-title').textContent = title;
-        document.getElementById('medium-author').textContent = 'By ' + author;
+        document.getElementById('medium-author').innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+            By ${author}
+        `;
         document.getElementById('medium-date').textContent = formattedDate;
         document.getElementById('medium-cta').onclick = () => window.open(link, '_blank');
         document.getElementById('medium-cta').classList.remove('opacity-0');
@@ -66,7 +71,12 @@ async function fetchMediumRssFeed() {
         
         // Update the second blog
         document.getElementById('medium-title2').textContent = title2;
-        document.getElementById('medium-author2').textContent = 'By ' + author2;
+        document.getElementById('medium-author2').innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+            By ${author2}
+        `;
         document.getElementById('medium-date2').textContent = formattedDate2;
         document.getElementById('medium-cta2').onclick = () => window.open(link2, '_blank');
         document.getElementById('medium-cta2').classList.remove('opacity-0');
@@ -86,7 +96,12 @@ async function fetchMediumRssFeed() {
 
         // Update the third blog
         document.getElementById('medium-title3').textContent = title3;
-        document.getElementById('medium-author3').textContent = 'By ' + author3;
+        document.getElementById('medium-author3').innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+            By ${author3}
+        `;
         document.getElementById('medium-date3').textContent = formattedDate3;
         document.getElementById('medium-cta3').onclick = () => window.open(link3, '_blank');
         document.getElementById('medium-image3').src = imageUrl3 ? imageUrl3 : ''; // Fallback to empty string if no image

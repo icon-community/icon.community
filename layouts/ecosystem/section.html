@@ -31,9 +31,9 @@
             <!-- Header boxes -->
             <div class="grid max-w-5xl grid-cols-2 gap-2 mx-auto text-white sm:grid-cols-4">
                 <a href="https://docs.icon.community/cross-chain-communication/active-development" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 p-6 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
-                        <div class="flex flex-col items-center justify-center w-full h-full group-hover:hidden">
-                            <h3 class="text-xl font-semibold text-white/60">8 Chains</h3>
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                        <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
+                            <h3 class="text-2xl font-semibold text-white/60">8 Chains</h3>
                             <p class="">Using ICON's GMP</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
@@ -42,9 +42,9 @@
                     </div>
                 </a>
                 <a href="https://coinmarketcap.com/currencies/icon/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 p-6 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
-                        <div class="flex flex-col items-center justify-center w-full h-full group-hover:hidden">
-                            <h3 class="text-xl font-semibold text-white/60" id="market-cap">$ -</h3>
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                        <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
+                            <h3 class="text-2xl font-semibold text-white/60" id="market-cap">$ -</h3>
                             <p>Fully diluted market cap</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
@@ -54,9 +54,9 @@
                 </a>
                 <script src="/assets/icx-marketcap.js"></script>
                 <a href="https://coinmarketcap.com/currencies/icon/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 p-6 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
-                        <div class="flex flex-col items-center justify-center w-full h-full group-hover:hidden">
-                            <h3 class="text-xl font-semibold text-white/60" id="stock-price">$ -</h3>
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                        <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
+                            <h3 class="text-2xl font-semibold text-white/60" >$ <span id="stock-price">-</span></h3>
                             <p>ICX Price</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
@@ -65,17 +65,18 @@
                     </div>
                 </a>
                 <script src="/assets/icx-price.js"></script>
-                <a href="/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 p-6 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
-                        <div class="flex flex-col items-center justify-center w-full h-full group-hover:hidden">
-                            <h3 class="text-xl font-semibold text-white/60">- ICX</h3>
-                            <p>Burned last week</p>
+                <a href="/ecosystem" target="_blank" class="block group">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                        <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
+                            <h3 class="text-2xl font-semibold text-white/60"  id="cumulative-burn" >- ICX</h3>
+                            <p>🔥 last 7 days by Balanced</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
-                            <p>Check Live Burn Stats (Soon)</p>
+                            <p class="italic opacity-40">Check Live Burn Stats (Soon)</p>
                         </div>
                     </div>
                 </a>
+                <script src="/assets/last7dayburn.js"></script>
             </div>
         </div>      
     </header>  
@@ -98,8 +99,8 @@
                     </div>
                     <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title"></h1>
-                        <div class="flex items-center space-x-4">
-                            <p class="font-semibold text-slate-700/90" id="medium-author"></p>
+                        <div class="flex items-center space-x-4 text-sm">
+                            <p class="flex items-center font-semibold w-fit text-slate-700/90" id="medium-author"></p>
                             <p class="font-semibold text-slate-700/40" id="medium-date"></p>
                         </div>         
                     </div>
@@ -113,10 +114,11 @@
                     </div>
                     <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title2"></h1>
-                        <div class="flex items-center space-x-4">
-                            <p class="font-semibold text-slate-700/90" id="medium-author2"></p>
+                        <div class="flex items-center space-x-4 text-sm">
+                         
+                            <p class="flex items-center font-semibold w-fit text-slate-700/90" id="medium-author2"></p>
                             <p class="font-semibold text-slate-700/40" id="medium-date2"></p>
-                        </div>         
+                               
                     </div>
                 </button>
             </div>
@@ -128,8 +130,8 @@
                     </div>
                     <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title3"></h1>
-                        <div class="flex items-center space-x-4">
-                            <p class="font-semibold text-slate-700/90" id="medium-author3"></p>
+                        <div class="flex items-center space-x-4 text-sm ">                              
+                            <p class="flex items-center font-semibold w-fit text-slate-700/90" id="medium-author3"></p>
                             <p class="font-semibold text-slate-700/40" id="medium-date3"></p>
                         </div>         
                     </div>
@@ -156,7 +158,7 @@
         </div>
 
         <!-- YOUTUBE CARDS -->
-        <div id='youtube-card' class="relative z-20 flex-col hidden w-full h-full col-span-1 p-12 space-y-12 -translate-y-20 bg-white shadow-5xl xl:flex rounded-xl">
+        <div id='youtube-card' class="relative z-20 flex-col hidden w-full h-full col-span-1 p-12 space-y-16 -translate-y-20 bg-white shadow-5xl xl:flex rounded-xl">
             <!-- title -->
             <h2 class="flex items-center justify-center font-bold font-montserrat text-slate-700/40"><img class="w-60" src="/youtube.png" alt="'ICON Content on YouTube"/></h2>
             <!-- loader -->
