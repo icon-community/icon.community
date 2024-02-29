@@ -21,8 +21,7 @@ async function fetchChainCount() {
             
             // Check if guid includes "work" for additional development section
             if (guid && guid.includes("work")) {
-                appendItemToAdditionalDevelopment(title, link, description);
-                workItemsAdded = true;
+
                 continue;
             }
 
