@@ -198,7 +198,7 @@
             {{ $types = $types | append (trim (replace .File.Dir "ecosystem/" "") "/") }}
             {{ end }}
             {{ $types = $types | uniq }}
-            {{ $types = $types | append "highlighted" | sort }}
+            {{ $types = $types | append "all" | sort }}
             {{ range $index, $element := $types }}
             {{ if (eq $index 0) }}
             {{ $data.Set "buttonBorderRadius" "rounded-md lg:rounded-l-md lg:rounded-r-none " }}
