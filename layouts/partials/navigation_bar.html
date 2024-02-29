@@ -1,5 +1,6 @@
 <div class="relative z-50" x-data="{ mobileMenuOpen: false }">
     <div class="flex items-center justify-between max-w-full px-4 py-4">
+        <!-- LOGO -->
         <div id="logo">
             <a href="/">
                 <picture>
@@ -10,6 +11,7 @@
                 </picture>
             </a>
         </div>
+        <!-- SEARCH MOBILE -->
         <div class="-my-2 -mr-2 lg:hidden">
             <button type="button"
                 class="inline-flex items-center justify-center p-2 bg-transparent rounded-md hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-xindigo text-slate-400"
@@ -22,11 +24,13 @@
                 </svg>
             </button>
         </div>
-        <nav role="navigation" class="relative z-20 items-center hidden lg:flex sm:space-x-6 md:space-x-8 font-montserrat">
+        <!-- SEARCH DESKTOP -->
+        <nav role="navigation" class="absolute z-20 items-center hidden translate-x-1/2 right-1/2 lg:flex sm:space-x-6 md:space-x-12 font-montserrat">
             <a href="https://docs.icon.community/" class="text-base font-medium text-xgray">Documentation</a>
             <a href="/ecosystem" class="text-base font-medium text-xgray">Ecosystem</a>
             <a href="/icondiscord" class="text-base font-medium text-xgray">Discord</a>
         </nav>
+        <!-- CTA -->
         <div class="justify-end hidden lg:block" id="hwal1">
             {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://docs.icon.community/" )}}
         </div>

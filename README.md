@@ -1,7 +1,7 @@
 
 
 <p align="center">
-    <img src="./static/assets/images/icon/logo-light.png" alt="ICON Logo" width="250px"></img>
+    <img src="./static/assets/images/icon/icon-white.svg" alt="ICON Logo" width="250px"></img>
 </p>
 <div align="center">
     <a align="center" href='https://icon.community/'><button type='button' style='font-weight:semibold; background:#30AAAE; border-radius:5px; border:0px; box-shadow:1px; padding:4px 6px; color:white; cursor:pointer; '>Visit icon.community</button></a>
@@ -10,7 +10,7 @@
 <h1 align="center">icon.community – The Official ICON Community Website</h1>
 
 <h3 align="center">
-    The icon.community website is the main hub to direct members of the ICON ecosystem to available resources. This site includes blogs, links to other media, and general information about the ICON community!    
+    The icon.community website is the main hub to direct members of the ICON ecosystem to available resources. This site includes statistics, ecosystem news, social connections and general information about the ICON community!    
 </h3>
 <p align="center">
    <a href="https://twitter.com/helloiconworld"><img src="https://img.shields.io/twitter/follow/helloiconworld?style=social"></a></br>

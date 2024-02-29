@@ -1,6 +1,6 @@
 async function fetchYoutubeRssFeed() {
     const proxyUrl = 'https://api.allorigins.win/raw?url=';
-    const youtubeRssFeedUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCI7Z_1sTKN-kCVgFD2a0GXQ';
+    const youtubeRssFeedUrl = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PLV_LTOH3l7Is3S6msk2prDjAdDjCr8ytl';
     const url = proxyUrl + encodeURIComponent(youtubeRssFeedUrl);
 
     try {
@@ -11,38 +11,54 @@ async function fetchYoutubeRssFeed() {
         const xmlDoc = parser.parseFromString(data, "text/xml");
 
         // Process the XML data here
-        const entries = xmlDoc.getElementsByTagName("entry");
-        const latestEntry = entries[0]; // Fetch the latest entry
+        let entries = xmlDoc.getElementsByTagName("entry");
 
+        // Convert NodeList to an array
+        entries = Array.from(entries);
+
+        // Sort the entries array based on the 'published' date in descending order
+        entries.sort((a, b) => {
+            const dateA = new Date(a.getElementsByTagName("published")[0].textContent);
+            const dateB = new Date(b.getElementsByTagName("published")[0].textContent);
+            return dateB - dateA; // For descending order
+        });
+        
+// 1
         // Extract information
-        let title = latestEntry.getElementsByTagName("title")[0].textContent;
-        let link = latestEntry.getElementsByTagName("link")[0].getAttribute("href");
-        let pubDate = latestEntry.getElementsByTagName("published")[0].textContent;
-        let thumbnailUrl = latestEntry.getElementsByTagName("media:thumbnail")[0].getAttribute("url");
-
-        // Format the publication date
-        let formattedDate = formatDate(pubDate);
+        let link = entries[0].getElementsByTagName("link")[0].getAttribute("href");
+        let thumbnailUrl = entries[0].getElementsByTagName("media:thumbnail")[0].getAttribute("url");
 
         // Hide loader
         document.getElementById('youtube-loader').style.display = 'none';
 
         // Update the HTML elements
-        document.getElementById('youtube-title').textContent = title;
-        document.getElementById('youtube-date').textContent = formattedDate;
         document.getElementById('youtube-image').src = thumbnailUrl;
-        document.getElementById('youtube-cta').onclick = () => window.open(link, '_blank');
-        document.getElementById('padding').style.padding = 'pt-[56.25%]';
+        document.getElementById('youtube-cta').onclick = () => window.open(link, '_blank');   
         document.getElementById('youtube-cta').classList.remove('opacity-0');
 
+// 2
+        // Extract information
+        let link2 = entries[1].getElementsByTagName("link")[0].getAttribute("href");
+        let thumbnailUrl2 = entries[1].getElementsByTagName("media:thumbnail")[0].getAttribute("url");
+
+        // Update the HTML elements
+        document.getElementById('youtube-image2').src = thumbnailUrl2;
+        document.getElementById('youtube-cta2').onclick = () => window.open(link2, '_blank');   
+        document.getElementById('youtube-cta2').classList.remove('opacity-0');
+
+// 3 
+        // Extract information
+        let link3 = entries[2].getElementsByTagName("link")[0].getAttribute("href");
+        let thumbnailUrl3 = entries[2].getElementsByTagName("media:thumbnail")[0].getAttribute("url");
+        
+        // Update the HTML elements
+        document.getElementById('youtube-image3').src = thumbnailUrl3
+        document.getElementById('youtube-cta3').onclick = () => window.open(link3, '_blank');
+        document.getElementById('youtube-cta3').classList.remove('opacity-0');
 
     } catch (error) {
         console.error('Error fetching YouTube RSS feed:', error);
     }
-}
-
-function formatDate(dateString) {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 fetchYoutubeRssFeed();

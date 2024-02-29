@@ -8,7 +8,7 @@ async function fetchDocsRssFeed() {
     displayLoadingPlaceholders(); // Initially display loading indicators
     
     const proxyUrl = 'https://api.allorigins.win/raw?url=';
-    const docsRssFeedUrl = 'https://documentation-2024.vercel.app/api/rss';
+    const docsRssFeedUrl = 'https://docs.icon.community/api/rss';
     const url = proxyUrl + encodeURIComponent(docsRssFeedUrl);
 
     try {
