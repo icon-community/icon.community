@@ -36,7 +36,6 @@ async function fetchChainCount() {
                 chaincount++;
             }
 
-            console.log('Chaincount is running')
             document.getElementById('chain-count').textContent = `${chaincount}`;
         }
 

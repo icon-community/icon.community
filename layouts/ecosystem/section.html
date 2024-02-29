@@ -26,7 +26,7 @@
                 </div>
                 <div class="w-full px-6 py-0 text-center sm:py-6 border-white/0 sm:border-white sm:text-left sm:border-l sm:w-1/2">                    
                     <p class="block -translate-y-6 sm:hidden">Apps integrate ICON's General Message Passing (xCall) to operate cross-chain seamlessly.</p>
-                    <p class="hidden sm:block">Apps integrate ICON's General Message Passing (xCall) to operate cross-chain seamlessly, build momentum and gain reputation.</p>
+                    <p class="hidden text-lg sm:block">Apps integrate ICON's General Message Passing (xCall) to operate cross-chain seamlessly, build momentum and gain reputation.</p>
                     <!-- <a class="inline-block font-bold " href="https://docs.icon.community/">Can my app go cross-chain with ICON? ↗</a></p> -->
                     <div class="py-4 text-sm">{{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "Get ICX with Hana Wallet" "buttonUrl" "https://icon.community/hanawallet") }}</div>
                 </div>
@@ -34,22 +34,22 @@
             <!-- Header boxes -->
             <div class="grid max-w-5xl grid-cols-2 gap-4 px-4 py-4 mx-auto text-white sm:py-0 sm:gap-2 sm:grid-cols-4 sm:px-12 xl:px-0 ">
                 <a href="https://docs.icon.community/cross-chain-communication/active-development" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60" id="chain-count">-</h3>
-                            <p class="">ICON GMP Chains</p>
+                            <p class="pt-1 sm:pt-0">ICON GMP Chains</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
-                            <p>Check Live Integrations</p>
+                            <p class="">Check Live Integrations</p>
                         </div>
                     </div>
                 </a>
                 <script src="/assets/fetchChainCount.js"></script>
                 <a href="https://coinmarketcap.com/currencies/icon/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60" id="market-cap">$ -</h3>
-                            <p>Fully diluted market cap</p>
+                            <p class="pt-1 sm:pt-0">Fully diluted market cap</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
                             <p>Check Market Stats</p>
@@ -58,10 +58,10 @@
                 </a>
                 <script src="/assets/icx-marketcap.js"></script>
                 <a href="https://coinmarketcap.com/currencies/icon/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60" >$ <span id="stock-price">-</span></h3>
-                            <p>ICX Price</p>
+                            <p class="pt-1 sm:pt-0">ICX Price</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
                             <p>Check Market Stats</p>
@@ -70,10 +70,10 @@
                 </a>
                 <script src="/assets/icx-price.js"></script>
                 <a href="/ecosystem" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:text-black hover:cursor-pointer">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60"  id="cumulative-burn" >- ICX</h3>
-                            <p>🔥 last 7 days by Balanced</p>
+                            <p class="pt-1 sm:pt-0">🔥 last 7 days by Balanced</p>
                         </div>
                         <div class="items-center justify-center hidden w-full h-full font-bold group-hover:flex text-rookteal-light">
                             <p class="italic opacity-40">Check Live Stats (soon)</p>
@@ -88,20 +88,20 @@
     <!-- MEDIUM AND YOUTUBE CARDS -->
     <div class="grid grid-cols-1 gap-8 mx-auto sm:grid-cols-3 max-w-7xl">
         <!-- MEDIUM CARD -->
-        <div  class="relative z-20 flex flex-col w-full h-full col-span-3 p-12 space-y-12 -translate-y-10 bg-white sm:-translate-y-20 shadow-5xl xl:col-span-2 rounded-xl">
+        <div  class="relative z-20 flex flex-col w-full h-full col-span-3 p-10 space-y-12 -translate-y-10 bg-white sm:p-12 sm:-translate-y-20 shadow-5xl xl:col-span-2 rounded-xl">
             <!-- title -->
-            <h2 class="flex items-center justify-center text-xl font-bold sm:justify-start font-montserrat text-slate-700/40">Latest from <img class="w-60" src="/medium.png" alt="'ICON Content on Medium"/></h2>
+            <h2 class="flex flex-col items-start justify-center pt-4 text-xl font-bold sm:items-center sm:pt-0 sm:flex-row sm:justify-start font-montserrat text-slate-700/40"><span class="ml-5 sm:ml-0">Latest from</span>  <a href="https://medium.com/helloiconworld"><img class="w-60" src="/medium.png" alt="'ICON Content on Medium"/></a></h2>
             <!-- loader -->
             <div id="medium-loader" class="absolute top-0 flex items-center justify-center h-full -translate-x-1/2 left-1/2">
                 <div class="loader"></div>
             </div>
             <!-- FIRST CARD -->
-            <div id='medium-card' class="">
-                <button  id="medium-cta" class="flex flex-col items-center justify-start h-full sm:items-start sm:flex-row">
-                    <div class="overflow-hidden rounded-xl">
+            <div id='' class="">
+                <button  id="medium-cta" class="flex flex-col items-start justify-start h-full sm:flex-row">
+                    <div class="flex-shrink-0 overflow-hidden rounded-xl">
                         <img id="medium-image" class="object-cover h-48 w-80" src="/assets/images/bg/white-bg.jpg" alt="" />
                     </div>
-                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                    <div class="flex flex-col justify-center w-full h-full px-0 py-4 space-y-2 sm:px-4 sm:w-1/2 text-start">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title"></h1>
                         <div class="flex items-center space-x-4 text-sm">
                             <p class="flex items-center font-semibold w-fit text-slate-700/90" id="medium-author"></p>
@@ -112,11 +112,11 @@
             </div>
             <!-- SECOND CARD -->
             <div id='' class="">
-                <button  id="medium-cta2" class="flex flex-col items-center justify-start h-full sm:items-start sm:flex-row">
-                    <div class="overflow-hidden rounded-xl">
+                <button  id="medium-cta2" class="flex flex-col items-start justify-start h-full sm:flex-row">
+                    <div class="flex-shrink-0 overflow-hidden rounded-xl">
                         <img id="medium-image2" class="object-cover h-48 w-80" src="/assets/images/bg/white-bg.jpg" alt="" />
                     </div>
-                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                    <div class="flex flex-col justify-center w-full h-full px-0 py-4 space-y-2 sm:px-4 text-start sm:w-1/2 ">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title2"></h1>
                         <div class="flex items-center space-x-4 text-sm">
                          
@@ -128,11 +128,11 @@
             </div>
             <!-- THIRD CARD -->
             <div class="">
-                <button id="medium-cta3" class="flex flex-col items-center justify-start flex-grow h-full sm:items-start sm:flex-row">
-                    <div class="overflow-hidden rounded-xl">
+                <button id="medium-cta3" class="flex flex-col items-start justify-start flex-grow h-full sm:flex-row">
+                    <div class="flex-shrink-0 overflow-hidden rounded-xl">
                         <img id="medium-image3" class="object-cover h-48 w-80" src="/assets/images/bg/white-bg.jpg" alt="" />
                     </div>
-                    <div class="flex flex-col justify-center w-1/2 h-full px-4 py-4 space-y-2 text-center sm:text-start">
+                    <div class="flex flex-col justify-center w-full h-full px-0 py-4 space-y-2 sm:px-4 sm:w-1/2 text-start">
                         <h1 class="text-2xl font-bold text-icon" id="medium-title3"></h1>
                         <div class="flex items-center space-x-4 text-sm ">                              
                             <p class="flex items-center font-semibold w-fit text-slate-700/90" id="medium-author3"></p>
@@ -164,7 +164,7 @@
         <!-- YOUTUBE CARDS -->
         <div id='youtube-card' class="relative z-20 flex-col hidden w-full h-full col-span-1 p-12 space-y-16 -translate-y-20 bg-white shadow-5xl xl:flex rounded-xl">
             <!-- title -->
-            <h2 class="flex items-center justify-center font-bold font-montserrat text-slate-700/40"><img class="w-60" src="/youtube.png" alt="'ICON Content on YouTube"/></h2>
+            <h2 class="flex items-center justify-center font-bold font-montserrat text-slate-700/40"><a href="https://www.youtube.com/channel/UCI7Z_1sTKN-kCVgFD2a0GXQ"><img class="w-60" src="/youtube.png" alt="'ICON Content on YouTube"/></a></h2>
             <!-- loader -->
             <div id="youtube-loader" class="absolute top-0 flex items-center justify-center h-full -translate-x-1/2 left-1/2 ">
                 <div class="loader"></div>
