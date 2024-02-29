@@ -11,8 +11,18 @@ async function fetchYoutubeRssFeed() {
         const xmlDoc = parser.parseFromString(data, "text/xml");
 
         // Process the XML data here
-        const entries = xmlDoc.getElementsByTagName("entry");
+        let entries = xmlDoc.getElementsByTagName("entry");
 
+        // Convert NodeList to an array
+        entries = Array.from(entries);
+
+        // Sort the entries array based on the 'published' date in descending order
+        entries.sort((a, b) => {
+            const dateA = new Date(a.getElementsByTagName("published")[0].textContent);
+            const dateB = new Date(b.getElementsByTagName("published")[0].textContent);
+            return dateB - dateA; // For descending order
+        });
+        
 // 1
         // Extract information
         let link = entries[0].getElementsByTagName("link")[0].getAttribute("href");
