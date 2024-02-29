@@ -273,7 +273,7 @@
             {{ $bgColor := replace (.Params.bg_color) "#" "" }}
             <style>#{{ $name }}-logo { background-color: #{{ $bgColor }};}</style>-->
 
-            <li x-show="['{{ $type }}', 'highlighted'].includes(visibility)" id="{{ $name }}"
+            <li x-show="['{{ $type }}', 'all'].includes(visibility)" id="{{ $name }}"
                 class="{{ $type }} flex space-x-4 rounded-lg">
                 <div id="{{ $name }}-logo"
                     class="flex items-center flex-shrink-0 w-24 h-24 border rounded-lg lg:w-32 lg:h-32 bg-slate-100 border-slate-200">
