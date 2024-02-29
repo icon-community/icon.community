@@ -56,7 +56,7 @@ module.exports = {
       boxShadow: {
         '3xl': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
         '4xl': '0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
-        '5xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+        '5xl': '0 25px 50px -12px rgba(0, 0, 0, 0.1)',
       },
       cursor: {
         'xcall': 'url(/assets/images/xcall_orb2.png), pointer',

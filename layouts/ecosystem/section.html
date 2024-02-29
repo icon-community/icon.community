@@ -6,7 +6,7 @@
 
     <header class="relative mx-auto overflow-hidden text-center font-montserrat bg-radial-at-bl md:bg-radial-at-b from-rookteal-darktwo via-rookteal-light to-rookteal-dark">
         <div class="absolute left-0 z-10 w-full overflow-hidden leading-none rotate-180 -bottom-1">
-            <svg class="relative block h-[24px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <svg class="relative block h-[24px] sm:h-[48px] w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F8FAFC"></path>
             </svg>
         </div>
@@ -18,26 +18,26 @@
         </div>
         <div class="relative py-12 mx-auto sm:py-40 max-w-7xl">
             <!-- Header text -->
-            <div class="flex flex-col items-center px-4 text-white sm:px-12 xl:px-0 sm:flex-row">
+            <div class="flex flex-col items-center max-w-6xl px-4 mx-auto mb-20 text-white sm:mb-0 sm:px-12 xl:px-0 sm:flex-row">
                 <div class="flex items-center justify-center w-full sm:w-1/2">
                     <div class="font-bold text-[8rem] sm:text-[12rem]">
                         4
                     </div>
-                    <div class="p-4 text-2xl text-left sm:p-6 sm:text-5xl opacity-60">
+                    <div class="p-4 text-2xl text-left sm:p-6 sm:text-4xl opacity-60">
                         Connected <br> bridging protocols
                     </div>
                 </div>
-                <div class="w-full px-6 py-0 text-center sm:py-6 border-white/0 sm:border-white sm:text-left sm:border-l sm:w-1/2">                    
+                <div class="w-full px-6 py-0 text-center sm:py-6 border-white/0 sm:border-[#B8FBFF] sm:text-left sm:border-l sm:w-1/2">                    
                     <p class="block -translate-y-6 sm:hidden">Apps integrate ICON's General Message Passing (xCall) to operate cross-chain seamlessly.</p>
-                    <p class="hidden text-lg sm:block">Apps integrate ICON's General Message Passing (xCall) to operate cross-chain seamlessly, build momentum and gain reputation.</p>
+                    <p class="hidden text-base sm:block">Apps integrate ICON's General Message Passing (xCall) to operate cross-chain seamlessly, build momentum and gain reputation.</p>
                     <!-- <a class="inline-block font-bold " href="https://docs.icon.community/">Can my app go cross-chain with ICON? ↗</a></p> -->
-                    <div class="py-4 text-sm">{{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "Get started with ICX" "buttonUrl" "https://icon.community/hanawallet") }}</div>
+                    <div class="py-0 text-sm sm:py-4">{{ partial "buttons/button_primary_smaller.html" (dict "context" . "buttonText" "Get started with ICX" "buttonUrl" "https://icon.community/hanawallet") }}</div>
                 </div>
             </div>
             <!-- Header boxes -->
-            <div class="grid max-w-5xl grid-cols-2 gap-4 px-4 py-4 mx-auto text-white sm:py-0 sm:gap-2 sm:grid-cols-4 sm:px-12 xl:px-0 ">
+            <div class="grid w-fit grid-cols-2 gap-[20px] px-4 py-4 mx-auto text-white sm:py-0 lg:grid-cols-4 sm:px-12 xl:px-0 ">
                 <a href="https://docs.icon.community/cross-chain-communication/active-development" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 group-hover:pt-0  mx-auto transition-all sm:w-48 bg-[#B8FBFF]/20 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60" id="chain-count">-</h3>
                             <p class="pt-1 sm:pt-0">ICON GMP Chains</p>
@@ -49,7 +49,7 @@
                 </a>
                 <script src="/assets/fetchChainCount.js"></script>
                 <a href="https://coinmarketcap.com/currencies/icon/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
+                    <div class="flex flex-col group-hover:pt-0 items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-[#B8FBFF]/20 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60" id="market-cap">$ -</h3>
                             <p class="pt-1 sm:pt-0">Fully diluted market cap</p>
@@ -61,7 +61,7 @@
                 </a>
                 <script src="/assets/icx-marketcap.js"></script>
                 <a href="https://coinmarketcap.com/currencies/icon/" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
+                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto group-hover:pt-0  transition-all sm:w-48 bg-[#B8FBFF]/20 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60" >$ <span id="stock-price">-</span></h3>
                             <p class="pt-1 sm:pt-0">ICX Price</p>
@@ -73,7 +73,7 @@
                 </a>
                 <script src="/assets/icx-price.js"></script>
                 <a href="/ecosystem" target="_blank" class="block group">
-                    <div class="flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-white/10 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
+                    <div class="group-hover:pt-0  flex flex-col items-center justify-center w-40 h-40 px-6 pt-10 mx-auto transition-all sm:w-48 bg-[#B8FBFF]/20 backdrop-blur rounded-2xl hover:bg-white hover:cursor-pointer">
                         <div class="flex flex-col items-center justify-start w-full h-full group-hover:hidden">
                             <h3 class="text-2xl font-semibold text-white/60"  id="cumulative-burn" >- ICX</h3>
                             <p class="pt-1 sm:pt-0">🔥 last 7 days by Balanced</p>
@@ -194,7 +194,7 @@
 
     <!-- ECOSYSTEM FILTER SECTION -->
     <div id="filter-buttons" class="px-4 mx-auto mb-16 text-center max-w-7xl font-montserrat">
-        <h1 class="w-2/3 pb-20 mx-auto text-4xl font-thin text-slate-800/80">Join a network of entities connected with ICON and add your project to our ecosystem!</h1>
+        <h1 class="w-2/3 pb-20 mx-auto text-lg font-thin sm:text-4xl text-slate-800/80">Join a network of entities connected with ICON and add your project to our ecosystem!</h1>
         <span class="relative z-0 inline-flex flex-wrap items-center justify-center gap-2 mx-auto shadow-none lg:gap-0">
             {{ $types := slice }}
             {{ range $ecosystemMembers }}
