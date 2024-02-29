@@ -86,7 +86,19 @@
         const burnedAmounts = await Promise.all(daysHex.map(fetchBurnedAmount));
         const burnedAmountsInt = burnedAmounts.map(hexAmount => parseInt(hexAmount, 16));
         const convertedValues = burnedAmountsInt.map(value => (value / 1e18).toFixed(2));
-        const totalBurned = convertedValues.reduce((sum, amount) => sum + parseFloat(amount), 0);
+        const reversedValues = convertedValues.reverse();
+
+        const numericValues = reversedValues.map(value => parseFloat(value));
+        const increments = numericValues.map((currentValue, index) => {
+            if (index === 0) {
+              // For the first element, there's no previous, so the increment could be considered as 0
+              return 0;
+            } else {
+              // Calculate difference from the previous value
+              return +(currentValue - numericValues[index - 1]).toFixed(2);
+            }
+          });
+        const totalBurned = increments.reduce((sum, amount) => sum + parseFloat(amount), 0);
         
         document.getElementById('cumulative-burn').textContent = totalBurned.toFixed(0) + ' ICX'; // Assuming ICX as the currency
     }
