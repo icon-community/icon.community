@@ -206,7 +206,7 @@ contract("VotingDapp", accounts => {
 
 In this tutorial we finish up the xCall series setting up the unit tests for the Java and Solidity contracts.
 
-We invite you to use xCall and give your projects cross chain capabilities, if you need help or want to join our developer community you can visit the [Discord Channels for the ICON Project](https://icon.community/icondiscord/).
+We invite you to use xCall and give your projects cross chain capabilities, if you need help or want to join our developer community you can visit the [Discord Channels for the ICON Project](https://discord.gg/xM2Nh4S6vN).
 
 ## Further Resources
 * Smart contracts in the official docs: https://docs.icon.community/icon-stack/smart-contracts

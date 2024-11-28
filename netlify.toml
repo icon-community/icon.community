@@ -2,10 +2,4 @@
     HUGO_ENV = "production"
     HUGO_VERSION = "0.104.3"
 
-[outputs]
-home = ["HTML", "redirects"]
 
-[[redirects]]
-  from = "/icondiscord"
-  to = "https://discord.gg/xM2Nh4S6vN"
-  status = 301

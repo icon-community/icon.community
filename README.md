@@ -14,7 +14,7 @@
 </h3>
 <p align="center">
    <a href="https://twitter.com/poweredbyicx"><img src="https://img.shields.io/twitter/follow/poweredbyicx?style=social"></a></br>
-    <a href="https://icon.community/icondiscord"><img src="https://img.shields.io/discord/880651922682560582?label=Discord&logo=Discord&style=social"></a></br>
+    <a href="https://discord.gg/xM2Nh4S6vN"><img src="https://img.shields.io/discord/880651922682560582?label=Discord&logo=Discord&style=social"></a></br>
     <a href="https://www.youtube.com/channel/UCI7Z_1sTKN-kCVgFD2a0GXQ"><img src="https://img.shields.io/youtube/channel/subscribers/UCI7Z_1sTKN-kCVgFD2a0GXQ?style=social"></a>
    
 </p>
@@ -166,7 +166,7 @@ To work on icon.community, you'll need to have a GitHub account, regardless of w
 
 All updates and changes must be made using the GitHub pull request (PR) process. Essentially, you will create a local copy of the website, make your modifications, and request to merge your changes. If you're not familiar with this process, you can find instructions in this icon.community README.md file.
 
-It's not necessary to request permission to work on anything, but it's always smart to inform the main icon.community contributors of your plans. You can do this by commenting on an issue or PR on [GitHub](https://github.com/icon-community/icon.community/), or by reaching out to them on the [ICON Discord server](http://localhost:1313/icondiscord).
+It's not necessary to request permission to work on anything, but it's always smart to inform the main icon.community contributors of your plans. You can do this by commenting on an issue or PR on [GitHub](https://github.com/icon-community/icon.community/), or by reaching out to them on the [ICON Discord server](https://discord.gg/xM2Nh4S6vN).
 
 ## How decisions about the site are made
 
@@ -193,4 +193,4 @@ We have a vibrant developer community and several community resources to ask que
 ### Community Resources
 
 * [Github Discussions](https://github.com/icon-community/icon.community/discussions)
-* [ICON Official Discord](https://icon.community/icondiscord)
+* [ICON Official Discord](https://discord.gg/xM2Nh4S6vN)

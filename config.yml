@@ -58,11 +58,11 @@ params:
     url:
   featuredPostUrl: what-is-the-icx-token
   forms:
-    faqSubmissionUrl: /icondiscord/
+    faqSubmissionUrl: https://discord.gg/xM2Nh4S6vN/
     ecosystemSubmissionUrl: https://se8br1ugut6.typeform.com/to/MBBDnTNG
     incentiveProgramSubmissionUrl: https://se8br1ugut6.typeform.com/to/maLYlJ5f
   social:
-    discordUrl: /icondiscord/
+    discordUrl: https://discord.gg/xM2Nh4S6vN/
     githubUrl: https://github.com/icon-project
     newsletterUrl: https://newsletter.icon.community/
     roadmapUrl: https://iconfoundation.notion.site/BTP-Milestones-78dbe0023a0144ba9c53db9558ac7cf5
