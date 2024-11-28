@@ -4,3 +4,8 @@
 
 [outputs]
 home = ["HTML", "redirects"]
+
+[[redirects]]
+  from = "/icondiscord"
+  to = "https://discord.gg/xM2Nh4S6vN"
+  status = 301
