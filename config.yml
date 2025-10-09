@@ -58,15 +58,15 @@ params:
     url:
   featuredPostUrl: what-is-the-icx-token
   forms:
-    faqSubmissionUrl: https://discord.gg/xM2Nh4S6vN/
+    faqSubmissionUrl: https://www.sodax.com/discord
     ecosystemSubmissionUrl: https://se8br1ugut6.typeform.com/to/MBBDnTNG
     incentiveProgramSubmissionUrl: https://se8br1ugut6.typeform.com/to/maLYlJ5f
   social:
-    discordUrl: https://discord.gg/xM2Nh4S6vN/
+    discordUrl: https://www.sodax.com/discord
     githubUrl: https://github.com/icon-project
     newsletterUrl: https://newsletter.icon.community/
     roadmapUrl: https://iconfoundation.notion.site/BTP-Milestones-78dbe0023a0144ba9c53db9558ac7cf5
-    twitterUrl: https://twitter.com/poweredbyicx
+    twitterUrl: https://x.com/ICONStiftung
   
 markup:
   tableOfContents:
