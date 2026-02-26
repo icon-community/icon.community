@@ -5,7 +5,7 @@ slug: xcall-service
 synonym: xcall-service
 ---
 
-xCall is the one messaging standard for all cross-chain communication.
+xCall is the one messaging standard for all cross-chain communication, now evolving into the [intents](https://sodax.com/system/intents) model in SODAX.
 
 Compatible with all existing and future cross-chain protocols, xCall completes the modular blockchain stack by providing dApps with a customizable interoperability component.
 

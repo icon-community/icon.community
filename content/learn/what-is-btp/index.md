@@ -17,7 +17,7 @@ Before we dive into how BTP works on a technical level, let’s quickly walk thr
 The most common interoperability use case is transferring tokens from one blockchain to another. Cross-chain bridge contracts typically work by burning tokens on the source chain and minting the equivalent amount of tokens on the destination chain. With BTP, users will be able to transfer tokens across any connected chains without the need for chain-specific bridges between each pair of chains.
 ### Cross-Chain Arbitrage
 
-Unlike most of the current bridging solutions which only support cross-chain token swaps, future iterations of BTP will also support more generic messaging features like cross-chain smart contract calls. This means a smart contract running on ICON will be able to interact with smart contracts running on [BNB Smart Chain](https://binance.com), [Moonbeam](https://moonbeam.network), and more. This makes BTP an attractive solution for building a decentralized cross-chain arbitrage trading platform that is able to fetch market quotes and execute orders across multiple chains.
+Unlike most of the current bridging solutions which only support cross-chain token swaps, future iterations of BTP will also support more generic messaging features like cross-chain smart contract calls — now powered by [intents](https://sodax.com/system/intents) in SODAX. This means a smart contract running on ICON will be able to interact with smart contracts running on [BNB Smart Chain](https://binance.com), [Moonbeam](https://moonbeam.network), and more. This makes BTP an attractive solution for building a decentralized cross-chain arbitrage trading platform that is able to fetch market quotes and execute orders across multiple chains.
 
 ### Cross-Chain “NFT-as-Identity”
 
@@ -43,7 +43,7 @@ In order for a blockchain to integrate with BTP, it must deploy the three smart 
 
 Without shipping companies like UPS and Fedex, online shopping wouldn’t exist. After all, packages don’t deliver themselves. The same concept applies to BTP, where relays are responsible for delivering messages across blockchains.
 
-If you’re familiar with blockchain lingo, a BTP relay is similar to a node — it’s an always-online server that provides a necessary service for the blockchain in exchange for a reward paid in ICX. In BTP, a relay node is responsible for relaying messages between Message Brokers on the source and destination chains.
+If you’re familiar with blockchain lingo, a BTP [relay](https://sodax.com/system/relayer) is similar to a node — it’s an always-online server that provides a necessary service for the blockchain in exchange for a reward paid in ICX. In BTP, a relay node is responsible for relaying messages between Message Brokers on the source and destination chains.
 
 Even though a relay is technically a middleman, its function is very different from traditional cross-chain bridge operators that also act as custodians. When transferring from Ethereum to Avalanche using the Avalanche Bridge, custody of bridged funds is secured a multi-signature contract operated by four “wardens”. While Avalanche Bridge has proven to be a useful bridging solution thus far, its design relies on trusted bridge operators.
 
@@ -64,7 +64,7 @@ Let’s walk through an example of how BTP can be used to facilitate a token tra
 
 ### BTP is Chain-Agnostic and Scalable
 
-BTP is chain-agnostic, which means it can be integrated with any blockchain that supports smart contracts. In fact, as of this writing, chains such as BNB Smart Chain, NEAR, Harmony, Algorand, and Moonbeam are all in the process of integrating BTP into their respective ecosystems.
+BTP is chain-agnostic, which means it can be integrated with any blockchain that supports smart contracts — a design philosophy that has evolved into [multi-bridge compatibility](https://sodax.com/concepts/multi-bridge-compatibility) in SODAX. In fact, as of this writing, chains such as BNB Smart Chain, NEAR, Harmony, Algorand, and Moonbeam are all in the process of integrating BTP into their respective ecosystems.
 
 ### BTP is Easy to Integrate
 
@@ -103,7 +103,7 @@ We envision a future where BTP seamlessly facilitates cross-chain messaging and 
 
 ## Summary
 
-ICON’s BTP brings cross-chain interoperability to the next level. By utilizing on-chain smart contracts and community-run message relays, BTP is able to facilitate cross-chain communication in a novel and fully-decentralized way that doesn’t leave custody of funds to a small set of handpicked bridge operators.
+ICON’s BTP brings cross-chain interoperability to the next level. By utilizing on-chain smart contracts and community-run message relays, BTP is able to facilitate cross-chain communication in a novel and fully-decentralized way that doesn’t leave custody of funds to a small set of handpicked bridge operators. BTP’s cross-chain messaging capabilities have since evolved into [General Message Passing (GMP)](https://sodax.com/system/generalized-messaging-protocol-gmp) as part of the SODAX protocol.
 
 > The vision for BTP is to be prepared for anything. 3 years ago, nobody imagined what interoperability would be used for, now there’s a focus on DeFi. What’s next? We don’t need an answer, we just need a flexible, secure and decentralized interoperability solution, and that’s what BTP is. — Min Kim, ICON Foundation
 

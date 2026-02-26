@@ -50,19 +50,21 @@ Like many other blockchain networks, ICON boasts a number of decentralized finan
 
 #### Balanced
 
-For one example, ICX holders can use their wallet to log into [Balanced](https://balanced.network). They can deposit their ICX, which is converted to sICX (short for “staked ICX”, which allows users to continue earning the native staking rewards without requiring they lock their tokens). If they wish, they can deposit that sICX as collateral in order to mint [bnUSD](https://balanced.network/stablecoin/), a collateralized stablecoin. The user has now used their collateral to mint and borrow bnUSD, and can now use that bnUSD throughout the ICON ecosystem. Should they wish to withdraw their collateral, they simply need to return the bnUSD they’ve minted. 
+For one example, ICX holders can use their wallet to log into [Balanced](https://balanced.network). They can deposit their ICX, which is converted to sICX (short for “staked ICX”, which allows users to continue earning the native staking rewards without requiring they lock their tokens). If they wish, they can deposit that sICX as collateral in order to mint [bnUSD](https://sodax.com/system/bnusd-stablecoin), a collateralized stablecoin. The user has now used their collateral to mint and borrow bnUSD, and can now use that bnUSD throughout the ICON ecosystem. Should they wish to withdraw their collateral, they simply need to return the bnUSD they’ve minted. 
 
-Alternately, users can also deposit their ICX into a liquidity pool of sICX/ICX. By doing so, they are gradually converting their ICX into sICX. In return, they’ll earn an allocation of the BALN token, the governance token of Balanced, along with a slice of trading fees earned for providing liquidity. 
+Alternately, users can also deposit their ICX into a [liquidity pool](https://sodax.com/system/liquidity) of sICX/ICX. By doing so, they are gradually converting their ICX into sICX. In return, they’ll earn an allocation of the BALN token, the governance token of Balanced, along with a slice of trading fees earned for providing liquidity. 
 
 #### Omm
 
 Balanced isn’t the only option ICX holders have when it comes to decentralized finance. Another protocol available is the “Open Money Market”, also referred to as [OMM](https://omm.finance). OMM is exactly what it says it is – an open money market!
 
-Users can elect to either lend or borrow ICX (or other ICON-based tokens) and will either receive or pay interest based on the given supply and demand dynamics of a given market. In addition, users who do either activity will also be able to earn $OMM, the governance token of OMM.
+Users can elect to either [lend](https://sodax.com/save) or borrow ICX (or other ICON-based tokens) and will either receive or pay interest based on the given supply and demand dynamics of a given market. In addition, users who do either activity will also be able to earn $OMM, the governance token of OMM.
 
 #### Optimus
 
 [Optimus](https://www.optimusfinance.network/), one of the newest DeFi protocols, is also available. Optimus is what is referred to as a “yield optimizer”, meaning users can deposit their ICX, pick a strategy, and “set it and forget it” as the protocol will interact with other ICON DeFi applications in order to execute a yield strategy based on the users preferences and risk tolerance.
+
+These DeFi protocols have since evolved into [SODAX](https://sodax.com/swap), a unified cross-chain execution layer.
 
 ## How to Buy ICX
 
@@ -92,3 +94,7 @@ The [Hana](https://chrome.google.com/webstore/detail/hana/jfdlamikmbghhapbgfoogd
 ### MyIconWallet
 
 Also developed by ReliantNode, [MyIconWallet](http://myiconwallet.com) is a mobile wallet (available on iPhone and Android) which allows users to access ICON dApps, keep up-to-date on what validators are working on, stake to earn rewards, and transfer assets on ICON.
+
+## ICX to SODA Migration
+
+As the ICON ecosystem transitions to SODAX, ICX holders can [migrate to the SODA token](https://sodax.com/migrate). Visit the migration page for details on the conversion process.

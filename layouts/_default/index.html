@@ -33,6 +33,7 @@
                 <div x-intersect="$el.classList.add('fadeInUp')" id="hero-buttons" class="flex flex-wrap justify-center gap-4 sm:justify-start">
                     {{ partial "buttons/button_primary.html" (dict "context" . "buttonText" "Go to Documentation" "buttonUrl" "https://docs.icon.community/") }}
                     {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Explore Ecosystem" "buttonUrl" "/ecosystem/") }}
+                    {{ partial "buttons/button_secondary.html" (dict "context" . "buttonText" "Visit SODAX" "buttonUrl" "https://sodax.com/") }}
                 </div>
             </div>
             
@@ -55,7 +56,7 @@
                 <p class="w-11/12 my-4 text-lg sm:my-8 lg:text-xl md:w-1/2">Balanced bridges to a growing amount of blockchains using ICON technology. Its trading fees <a href='https://burn.icon.community/' class="font-bold text-icon-lo">burn</a> ICX.</p>
                 <div class="flex items-center justify-end space-x-4">
                     <img src="/assets/images/balanced-logo-dark.svg" alt="Balanced bridges to Archway using ICON technology, all accessible through native applications (Hana)" loading="lazy"/>
-                    {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Swap Cross-Chain" "buttonUrl" "https://balanced.network/") }}
+                    {{ partial "buttons/button_tertiary.html" (dict "context" . "buttonText" "Swap Cross-Chain" "buttonUrl" "https://sodax.com/swap") }}
                 </div>
             </div>
         </div>

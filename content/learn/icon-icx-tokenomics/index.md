@@ -46,7 +46,7 @@ Under IISS 3.1, the CPS fund is eligible to receive 10% of the inflation. Based 
 
 ### Relays
 
-Relays play an important role within the architecture of the Blockchain Transmission Protocol (BTP), ICON’s unique interoperability solution. To learn more about BTP and the role Relays play, be sure to [read this article](https://medium.com/helloiconworld/what-is-btp-b1affe6b3bbf#888d).
+[Relays](https://sodax.com/system/relayer) play an important role within the architecture of the Blockchain Transmission Protocol (BTP), ICON’s unique interoperability solution. To learn more about BTP and the role Relays play, be sure to [read this article](https://medium.com/helloiconworld/what-is-btp-b1affe6b3bbf#888d).
 
 Until BTP launches, there is no reward allocation for Relays. Once live, validators will work to decide a proper inflation allocation for Relays, while also adjusting reward levels for the other categories to accommodate the Relays. Details on becoming a Relay will also be unveiled in the future.
 
@@ -63,4 +63,6 @@ To summarize, here is the current breakdown of the allocation of inflation:
 It should also be noted that, under the new fee model, transaction fees collected throughout the network will be used to fund the inflation described above. In other words, if the network reaches a point where 3,000,000 ICX are burned per month, inflation will be 0 ICX, as network fees will have paid for the entirety of that month’s inflation.
 
 As mentioned, these numbers can be adjusted by validators depending on the needs of the network. For a full breakdown of all IISS 3.1 calculations, be sure to view [this spreadsheet](https://docs.google.com/spreadsheets/d/1jh9QF5lhP9mdNDDrlbKfButaScVTeUHwFwzoa-Mfgdk/edit#gid=783852509).
+
+As the ICON ecosystem transitions to SODAX, ICX tokenomics are evolving with the introduction of the [SODA token](https://sodax.com/community/soda-token).
 

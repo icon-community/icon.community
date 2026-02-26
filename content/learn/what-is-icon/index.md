@@ -3,7 +3,6 @@ title: "What is ICON?"
 date: 2022-03-07
 slug: icon
 author: rhizome-labs
-author: rhizome-labs
 description: ICON is an open-source layer 1 delegated proof-of-stake (DPoS) blockchain and smart contract platform focused on connecting unique blockchains and their respective communities.
 ---
 
@@ -86,11 +85,11 @@ The ICON ecosystem has two related interoperability solutions – BTP and ICON B
 
 ### Blockchain Transmission Protocol (BTP)
 
-As part of its 2.0 upgrade, ICON added support for [Blockchain Transmission Protocol (BTP)](/learn/btp/) – a decentralized and trustless interoperability solution that utilizes light clients – contracts that maintain block state – for verification of cross-chain messages. To pass messages between blockchains, BTP relies on incentivized and community-operated relays to ensure decentralization.
+As part of its 2.0 upgrade, ICON added support for [Blockchain Transmission Protocol (BTP)](/learn/btp/) – a decentralized and trustless [interoperability protocol](https://sodax.com/system/generalized-messaging-protocol-gmp) that utilizes light clients – contracts that maintain block state – for verification of cross-chain messages. To pass messages between blockchains, BTP relies on incentivized and community-operated relays to ensure decentralization.
 
 Unlike interoperability solutions that rely on relays to verify and pass messages, BTP relays only pass messages. Thus, relays do not factor into BTP’s security model, and only contribute to network liveness and reliability. With this design, BTP is able to maintain a fully trustless environment that doesn’t rely on third party oracles or custodians.
 
-BTP also supports generic smart contract calls, which means it can be used for a variety of use cases beyond cross-chain token transfers. BTP allows a smart contract on a source blockchain to call any smart contract on a destination blockchain. For example, a cross-chain arbitrage dApp powered by BTP can execute an AMM swap on Blockchain A, while executing the reverse swap on Blockchain B.
+BTP also supports [generic smart contract calls](https://sodax.com/concepts/execution), which means it can be used for a variety of use cases beyond cross-chain token transfers. BTP allows a smart contract on a source blockchain to call any smart contract on a destination blockchain. For example, a cross-chain arbitrage dApp powered by BTP can execute an AMM swap on Blockchain A, while executing the reverse swap on Blockchain B.
 
 ### ICON Bridge
 
@@ -125,7 +124,7 @@ ICON is compatible with [Magic SDK](https://magic.link/docs/advanced/blockchains
 
 ## dApps on ICON
 
-The ICON ecosystem has its share of innovative and user-friendly dApps in DeFi, NFTs, and more. In this section, we’ll take a closer look at four of ICON’s most prominent dApps.
+The ICON ecosystem has its share of innovative and user-friendly dApps in [DeFi](https://sodax.com/glossary), NFTs, and more. In this section, we’ll take a closer look at four of ICON’s most prominent dApps.
 
 ### Balanced
 
@@ -133,13 +132,13 @@ The ICON ecosystem has its share of innovative and user-friendly dApps in DeFi, 
 
 [Balanced](https://balanced.network) is a community-governed DeFi platform that lets users leverage ICX and mint bnUSD, an algorithmic stablecoin. On Balanced, users deposit ICX, which is then converted to Staked ICX (sICX) – a liquid staking token which accrues staking reward value automatically. With sICX as collateral, users can mint bnUSD up to the maximum supported LTV.
 
-In addition to stablecoin minting, Balanced also features an AMM-style DEX where users can swap between supported assets. Liquidity on the Balanced DEX is derived from liquidity pools, some of which are incentivized by BALN token rewards.
+In addition to stablecoin minting, Balanced also features an [AMM-style DEX](https://sodax.com/system/amm) where users can swap between supported assets. Liquidity on the Balanced DEX is derived from liquidity pools, some of which are incentivized by BALN token rewards.
 
 ### Omm
 
 {{< img src="omm-dapp.jpg" alt="Lend and borrow assets on the Omm money market." caption="Lend and borrow assets on the Omm money market." >}}
 
-[Omm](https://omm.finance), short for “Open Money Market”, is a variable interest rate DeFi lending and borrowing platform. On Omm, users can deposit a variety of ICON-based assets to borrow against while earning additional rewards in the OMM token. Compared to Balanced which offers zero interest bnUSD minting and a lower LTV, Omm features variable interest rates and a higher LTV.
+[Omm](https://omm.finance), short for “Open Money Market”, is a variable interest rate DeFi [lending and borrowing](https://sodax.com/system/money-market) platform. On Omm, users can deposit a variety of ICON-based assets to borrow against while earning additional rewards in the OMM token. Compared to Balanced which offers zero interest bnUSD minting and a lower LTV, Omm features variable interest rates and a higher LTV.
 
 ### Optimus
 
@@ -187,4 +186,4 @@ ICX is available on a variety of centralized and decentralized exchanges includi
 
 ## Summary
 
-Since its inception in 2017, the ICON ecosystem has evolved from an idea to a truly global and decentralized network that powers a variety of innovative and permissionless applications. In the coming years, ICON’s Blockchain Transmission Protocol (BTP) will play a key role in connecting different blockchain ecosystems to enable more efficient and meaningful transfer of value between otherwise disconnected economies.
+Since its inception in 2017, the ICON ecosystem has evolved from an idea to a truly global and decentralized network that powers a variety of innovative and permissionless applications. In the coming years, ICON’s Blockchain Transmission Protocol (BTP) will play a key role in connecting different blockchain ecosystems to enable more efficient and meaningful transfer of value between otherwise disconnected economies. The ICON ecosystem is now transitioning to SODAX, with ICX holders able to migrate to the [SODA token](https://sodax.com/community/soda-token).
