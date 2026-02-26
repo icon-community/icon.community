@@ -58,7 +58,7 @@ Alternately, users can also deposit their ICX into a [liquidity pool](https://so
 
 Balanced isn’t the only option ICX holders have when it comes to decentralized finance. Another protocol available is the “Open Money Market”, also referred to as [OMM](https://omm.finance). OMM is exactly what it says it is – an open money market!
 
-Users can elect to either [lend](https://sodax.com/save) or borrow ICX (or other ICON-based tokens) and will either receive or pay interest based on the given supply and demand dynamics of a given market. In addition, users who do either activity will also be able to earn $OMM, the governance token of OMM.
+Users can elect to either lend or borrow ICX (or other ICON-based tokens) and will either receive or pay interest based on the given supply and demand dynamics of a given market. In addition, users who do either activity will also be able to earn $OMM, the governance token of OMM.
 
 #### Optimus
 
