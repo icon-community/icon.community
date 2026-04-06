@@ -13,7 +13,7 @@
     The icon.community website is the main hub to direct members of the ICON ecosystem to available resources. This site includes statistics, ecosystem news, social connections and general information about the ICON community!    
 </h3>
 <p align="center">
-   <a href="https://twitter.com/poweredbyicx"><img src="https://img.shields.io/twitter/follow/poweredbyicx?style=social"></a></br>
+   <a href="https://x.com/sodaholders"><img src="https://img.shields.io/twitter/follow/sodaholders?style=social"></a></br>
     <a href="https://discord.gg/xM2Nh4S6vN"><img src="https://img.shields.io/discord/880651922682560582?label=Discord&logo=Discord&style=social"></a></br>
     <a href="https://www.youtube.com/channel/UCI7Z_1sTKN-kCVgFD2a0GXQ"><img src="https://img.shields.io/youtube/channel/subscribers/UCI7Z_1sTKN-kCVgFD2a0GXQ?style=social"></a>
    
